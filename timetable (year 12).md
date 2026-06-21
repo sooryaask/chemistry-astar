@@ -1,7 +1,7 @@
 # Year 12 Mock A* Timetable
 
 ## Context assumptions
-- 3 A-levels, school ~8:30–3:30
+- 3 A-levels, school ~8:30–3:50
 - Mocks: January (roughly 16 weeks from September start)
 - Goal: efficient, not just long hours
 

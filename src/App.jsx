@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Nav from './components/Nav.jsx'
+import PomodoroTimer from './components/PomodoroTimer.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import StudyPlan from './pages/StudyPlan.jsx'
 import SpecTracker from './pages/SpecTracker.jsx'
@@ -15,6 +16,7 @@ export default function App() {
   return (
     <>
       <Nav />
+      <PomodoroTimer />
       <div className="main-content">
         <main className="container">
           <Routes>

@@ -1,6 +1,9 @@
 import { useState, useMemo } from 'react'
 import paperIndex from '../data/paperIndex.json'
 import { assessPaperQuestion } from '../api/anthropic.js'
+import { getItem, setItem, KEYS, todayISO } from '../utils/localStorage.js'
+import { addError } from '../utils/errorLog.js'
+import { SPEC, getSpecPoint } from '../data/spec.js'
 
 // Build topic -> questions list from the index
 function buildTopicMap(index) {
@@ -39,6 +42,133 @@ function isMcq(question) {
 }
 
 const MCQ_OPTIONS = ['A', 'B', 'C', 'D']
+
+function QuickMark() {
+  const [paperName, setPaperName] = useState('')
+  const [totalQs, setTotalQs] = useState(20)
+  const [marks, setMarks] = useState([])
+  const [specMappings, setSpecMappings] = useState([])
+  const [started, setStarted] = useState(false)
+  const [saved, setSaved] = useState(false)
+
+  function startMarking() {
+    setMarks(Array(totalQs).fill(null))
+    setSpecMappings(Array(totalQs).fill(''))
+    setStarted(true)
+    setSaved(false)
+  }
+
+  function toggleMark(i) {
+    const next = [...marks]
+    if (next[i] === null) next[i] = true
+    else if (next[i] === true) next[i] = false
+    else next[i] = null
+    setMarks(next)
+  }
+
+  function saveResults() {
+    const correct = marks.filter((m) => m === true).length
+    const wrong = marks.filter((m) => m === false).length
+    const answered = correct + wrong
+    const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0
+
+    // Save to paper scores
+    const scores = getItem(KEYS.paperScores, [])
+    scores.push({
+      id: Date.now(),
+      name: paperName || `Paper (${todayISO()})`,
+      date: todayISO(),
+      raw: correct,
+      max: answered,
+      pct,
+    })
+    setItem(KEYS.paperScores, scores)
+
+    // Log wrong answers with spec mappings to error log
+    marks.forEach((m, i) => {
+      if (m === false && specMappings[i]) {
+        const sp = getSpecPoint(specMappings[i])
+        if (sp) {
+          addError({
+            specId: sp.id,
+            question: `${paperName || 'Paper'} Q${i + 1}`,
+            context: 'Quick-marked as incorrect during paper review',
+            marks: 1,
+            command: 'Paper question',
+            userAnswer: '(marked incorrect)',
+            modelAnswer: '(see mark scheme)',
+            frequency: sp.frequency,
+          })
+        }
+      }
+    })
+
+    setSaved(true)
+  }
+
+  const correct = marks.filter((m) => m === true).length
+  const wrong = marks.filter((m) => m === false).length
+
+  return (
+    <div className="card" style={{ marginBottom: '2rem' }}>
+      <h2 style={{ marginTop: 0 }}>Quick Mark</h2>
+      <p className="muted">Quickly tick right/wrong for each question. Wrong answers with a spec mapping get added to your error log.</p>
+
+      {!started ? (
+        <div style={{ display: 'flex', gap: '0.75rem', flexWrap: 'wrap', alignItems: 'end' }}>
+          <div className="field" style={{ margin: 0 }}>
+            <label>Paper name</label>
+            <input type="text" value={paperName} onChange={(e) => setPaperName(e.target.value)} placeholder="e.g. June 2019 Paper 1" />
+          </div>
+          <div className="field" style={{ margin: 0 }}>
+            <label>Number of questions</label>
+            <input type="number" value={totalQs} onChange={(e) => setTotalQs(Math.max(1, Number(e.target.value)))} min={1} max={50} style={{ width: 80 }} />
+          </div>
+          <button onClick={startMarking}>Start marking</button>
+        </div>
+      ) : (
+        <>
+          <div className="quick-mark-grid">
+            {marks.map((m, i) => (
+              <div key={i} className="quick-mark-row">
+                <button
+                  className={`quick-mark-btn ${m === true ? 'qm-pass' : m === false ? 'qm-fail' : 'qm-skip'}`}
+                  onClick={() => toggleMark(i)}
+                >
+                  Q{i + 1}: {m === true ? 'O' : m === false ? 'X' : '—'}
+                </button>
+                {m === false && (
+                  <select
+                    value={specMappings[i]}
+                    onChange={(e) => {
+                      const next = [...specMappings]
+                      next[i] = e.target.value
+                      setSpecMappings(next)
+                    }}
+                    style={{ fontSize: '0.75rem', padding: '0.2rem', maxWidth: 180 }}
+                  >
+                    <option value="">Map to spec...</option>
+                    {SPEC.map((s) => (
+                      <option key={s.id} value={s.id}>{s.id} {s.title}</option>
+                    ))}
+                  </select>
+                )}
+              </div>
+            ))}
+          </div>
+          <div style={{ marginTop: '1rem', display: 'flex', gap: '1rem', alignItems: 'center', flexWrap: 'wrap' }}>
+            <span style={{ fontWeight: 600 }}>{correct} correct, {wrong} wrong, {marks.filter((m) => m === null).length} skipped</span>
+            {!saved ? (
+              <button onClick={saveResults} disabled={correct + wrong === 0}>Save results</button>
+            ) : (
+              <span className="badge LOW" style={{ fontSize: '0.85rem', padding: '0.3rem 0.6rem' }}>Saved!</span>
+            )}
+          </div>
+        </>
+      )}
+    </div>
+  )
+}
 
 export default function PaperPractice() {
   const topicMap = useMemo(() => buildTopicMap(paperIndex), [])
@@ -98,6 +228,8 @@ export default function PaperPractice() {
       <p className="muted">
         Real questions from OCR past papers, marked against the official mark scheme by AI.
       </p>
+
+      <QuickMark />
 
       <div className="field" style={{ maxWidth: 640 }}>
         <label>Topic</label>

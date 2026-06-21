@@ -42,6 +42,7 @@ export const KEYS = {
   streak: 'streakState',
   lessons: 'lessons',
   reviewDeck: 'reviewDeck',
+  timerLog: 'timerLog',
 }
 
 // Today's date as a YYYY-MM-DD string in local time.

@@ -4,7 +4,7 @@ import { getItem, setItem, KEYS } from '../utils/localStorage.js'
 import { quizCandidates } from '../utils/priority.js'
 import { getSpecPoint } from '../data/spec.js'
 import { generateLesson } from '../api/anthropic.js'
-import { topicMastery, MASTERY_LABEL } from '../utils/guide.js'
+import { topicMastery, MASTERY_LABEL, unmasteredPrereqs } from '../utils/guide.js'
 import { CONFIDENCE_LABELS } from '../config.js'
 
 export default function Learn() {
@@ -42,6 +42,7 @@ export default function Learn() {
   const confidence = typeof p.confidence === 'number' ? p.confidence : 0
   const complete = !!p.complete
   const mastery = specId ? topicMastery(specId, { progress }) : null
+  const prereqWarnings = specId ? unmasteredPrereqs(specId, { progress }) : []
 
   async function teach() {
     if (!specPoint) return
@@ -104,6 +105,20 @@ export default function Learn() {
           <span className={`badge ${specPoint.frequency}`}>{specPoint.frequency}</span>{' '}
           {mastery && <span className={`badge ${masteryClass(mastery)}`}>{MASTERY_LABEL[mastery]}</span>}
           <div className="muted" style={{ marginTop: '0.3rem' }}>{specPoint.description}</div>
+        </div>
+      )}
+
+      {prereqWarnings.length > 0 && (
+        <div className="alert warn" style={{ marginTop: '0.5rem' }}>
+          <strong>Prerequisites not yet mastered:</strong> You may struggle with this topic until you've covered:
+          <ul style={{ margin: '0.35rem 0 0', paddingLeft: '1.2rem' }}>
+            {prereqWarnings.map((p) => (
+              <li key={p.id}>
+                <Link to={`/learn?spec=${p.id}`}>{p.id} — {p.title}</Link>
+                <span className="muted"> (confidence: {p.confidence}/3)</span>
+              </li>
+            ))}
+          </ul>
         </div>
       )}
 

@@ -3,10 +3,10 @@
 // any new persistence or systems.
 
 import { getItem, KEYS } from './localStorage.js'
-import { SPEC, FREQ_RANK, getSpecPoint } from '../data/spec.js'
+import { SPEC, FREQ_RANK, getSpecPoint, PREREQUISITES } from '../data/spec.js'
 import { mergeSpec } from './priority.js'
 import { getDeck, dueCount } from './reviewDeck.js'
-import { getErrors } from './errorLog.js'
+import { getErrors, errorsDue } from './errorLog.js'
 import { dayOfChallenge } from './stats.js'
 import { PLAN } from '../data/plan.js'
 
@@ -117,4 +117,135 @@ export const MASTERY_LABEL = {
   weak: 'Weak',
   developing: 'Developing',
   strong: 'Strong',
+}
+
+// Check prerequisites for a spec point. Returns array of unmastered prereqs.
+export function unmasteredPrereqs(specId, ctx = {}) {
+  const prereqs = PREREQUISITES[specId]
+  if (!prereqs || prereqs.length === 0) return []
+  const progress = ctx.progress || getItem(KEYS.specProgress, {})
+  return prereqs
+    .map((pid) => {
+      const p = progress[pid] || {}
+      const sp = getSpecPoint(pid)
+      const confidence = typeof p.confidence === 'number' ? p.confidence : 0
+      return { id: pid, title: sp?.title || pid, confidence, complete: !!p.complete }
+    })
+    .filter((p) => p.confidence < 2) // shaky or no idea = warn
+}
+
+// Smart Daily Agenda: builds an ordered checklist of tasks for today.
+export function buildDailyAgenda() {
+  const progress = getItem(KEYS.specProgress, {})
+  const deck = getDeck()
+  const errors = getErrors()
+  const due = errorsDue()
+  const dueCards = dueCount()
+  const day = dayOfChallenge()
+  const planDay = PLAN.find((d) => d.day === day)
+  const agenda = []
+
+  // 1. Spaced-rep reviews (highest priority)
+  if (dueCards > 0) {
+    agenda.push({
+      type: 'review',
+      title: `Clear ${dueCards} spaced-rep review${dueCards === 1 ? '' : 's'}`,
+      detail: 'Due cards from the hidden review deck — highest retention value.',
+      to: '/drill',
+      priority: 1,
+    })
+  }
+
+  // 2. Error log reviews due
+  if (due.length > 0) {
+    agenda.push({
+      type: 'errors',
+      title: `Re-quiz ${due.length} error log item${due.length === 1 ? '' : 's'}`,
+      detail: 'Missed questions scheduled for review today.',
+      to: '/errors',
+      priority: 2,
+    })
+  }
+
+  // 3. Today's plan topics
+  if (planDay && planDay.specIds.length > 0) {
+    for (const sid of planDay.specIds) {
+      const sp = getSpecPoint(sid)
+      const p = progress[sid] || {}
+      const conf = typeof p.confidence === 'number' ? p.confidence : 0
+      if (conf >= 3 && p.complete) continue // already mastered, skip
+      agenda.push({
+        type: 'learn',
+        title: `Learn: ${sid} ${sp?.title || ''}`,
+        detail: `From today's plan (Day ${day}). ${sp?.frequency || ''} frequency.`,
+        to: `/learn?spec=${sid}`,
+        priority: 3,
+      })
+    }
+  }
+
+  // 4. Plan practice session
+  if (planDay && planDay.smartTopic) {
+    agenda.push({
+      type: 'practice',
+      title: `Practice: ${planDay.smartTopic}`,
+      detail: 'Sit past-paper questions on today\'s topic.',
+      to: '/practice',
+      priority: 4,
+    })
+  }
+
+  // 5. Weakest topics not on today's plan
+  const planSpecIds = new Set(planDay?.specIds || [])
+  const weakest = weakestTopics(3, { progress })
+    .filter((s) => !planSpecIds.has(s.id))
+  for (const w of weakest) {
+    agenda.push({
+      type: 'strengthen',
+      title: `Strengthen: ${w.id} ${w.title}`,
+      detail: `${w.frequency} frequency, ${w.mastery}. Needs more work.`,
+      to: `/learn?spec=${w.id}`,
+      priority: 5,
+    })
+  }
+
+  return agenda.sort((a, b) => a.priority - b.priority)
+}
+
+// Pace tracker: are you on track to finish by exam day?
+export function paceStatus() {
+  const progress = getItem(KEYS.specProgress, {})
+  const merged = mergeSpec(progress)
+  const completed = merged.filter((s) => s.complete).length
+  const total = SPEC.length
+  const day = dayOfChallenge()
+  const totalDays = PLAN.length // 21
+
+  const expectedByNow = Math.round((day / totalDays) * total)
+  const pctComplete = Math.round((completed / total) * 100)
+  const daysLeft = Math.max(0, totalDays - day)
+  const remaining = total - completed
+  const perDay = daysLeft > 0 ? Math.ceil(remaining / daysLeft) : remaining
+
+  // Projected completion
+  const rate = day > 0 ? completed / day : 0
+  const projectedTotal = Math.round(rate * totalDays)
+
+  let status = 'on-track'
+  if (completed < expectedByNow - 3) status = 'behind'
+  else if (completed > expectedByNow + 3) status = 'ahead'
+
+  return {
+    completed,
+    total,
+    day,
+    totalDays,
+    daysLeft,
+    expectedByNow,
+    pctComplete,
+    remaining,
+    perDay,
+    projectedTotal,
+    status,
+  }
 }

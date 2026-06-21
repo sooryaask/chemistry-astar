@@ -590,6 +590,47 @@ export const SPEC = [
 // Convenience: frequency rank for sorting (HIGH floats to top).
 export const FREQ_RANK = { HIGH: 0, MED: 1, LOW: 2 }
 
+// Topic dependencies — a topic should ideally be studied after its prerequisites.
+// Maps spec ID -> array of prerequisite spec IDs.
+export const PREREQUISITES = {
+  '2.1.1b': ['2.1.1a'],                    // isotopes need atomic structure
+  '2.1.2b': ['2.1.2a'],                    // ionic equations need formulae
+  '2.1.3a': ['2.1.1a', '2.1.2a'],          // mole needs atomic structure + formulae
+  '2.1.3b': ['2.1.3a'],                    // mole calculations need the mole concept
+  '2.1.3c': ['2.1.3b'],                    // empirical/molecular formulae need mole calcs
+  '2.1.4b': ['2.1.4a', '2.1.3c'],          // titration calcs need acids + concentrations
+  '2.1.5b': ['2.1.5a'],                    // redox half-equations need oxidation numbers
+  '2.2.1b': ['2.2.1a'],                    // electron config needs shells/subshells
+  '2.2.2a': ['2.2.1b'],                    // bonding needs electron configuration
+  '2.2.2b': ['2.2.2a'],                    // VSEPR needs bonding concepts
+  '2.2.2c': ['2.2.2a'],                    // electronegativity needs bonding
+  '2.2.3a': ['2.2.2c'],                    // IMFs need polarity
+  '2.2.3b': ['2.2.3a'],                    // anomalous water needs IMFs
+  '3.1.1b': ['2.2.1b', '3.1.1a'],          // ionisation energies need electron config + periodicity
+  '3.1.1c': ['2.2.2a', '3.1.1a'],          // melting points need bonding + periodicity
+  '3.1.2a': ['2.1.5a', '3.1.1a'],          // group 2 reactions need redox + periodicity
+  '3.1.2b': ['3.1.2a'],                    // group 2 trends need group 2 reactions
+  '3.1.3a': ['2.1.5a', '3.1.1a'],          // halogens need redox + periodicity
+  '3.1.3b': ['3.1.3a'],                    // halide tests need halogen knowledge
+  '3.1.4b': ['3.1.4a'],                    // calorimetry needs enthalpy concepts
+  '3.1.4c': ['3.1.4a'],                    // Hess's law needs enthalpy concepts
+  '3.1.5b': ['3.1.5a'],                    // equilibrium needs rates
+  '3.1.5c': ['3.1.5b'],                    // Kc needs equilibrium concepts
+  '4.1.1b': ['4.1.1a'],                    // isomerism needs nomenclature
+  '4.1.1c': ['4.1.1a'],                    // mechanisms need organic basics
+  '4.1.2a': ['4.1.1a'],                    // alkanes need nomenclature
+  '4.1.2b': ['4.1.2a', '4.1.1c'],          // free-radical sub needs alkanes + mechanism concepts
+  '4.1.3a': ['4.1.1a', '2.2.2a'],          // alkenes need nomenclature + bonding (sigma/pi)
+  '4.1.3b': ['4.1.3a', '4.1.1c'],          // electrophilic addition needs alkenes + mechanisms
+  '4.2.1a': ['4.1.1a'],                    // alcohols need nomenclature
+  '4.2.1b': ['4.2.1a'],                    // alcohol reactions need alcohol properties
+  '4.2.2a': ['4.1.1c', '4.1.1a'],          // haloalkane mechanisms need mechanism concepts
+  '4.2.2b': ['4.2.2a'],                    // CFCs need haloalkane knowledge
+  '4.2.3a': ['4.2.1a', '4.2.2a'],          // synthesis routes need alcohols + haloalkanes
+  '4.2.3b': ['4.1.1a'],                    // IR spectroscopy needs functional group knowledge
+  '4.2.3c': ['2.1.1b'],                    // mass spec needs isotopes/relative masses
+}
+
 export function getSpecPoint(id) {
   return SPEC.find((s) => s.id === id)
 }

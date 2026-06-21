@@ -5,6 +5,7 @@ import { quizCandidates } from '../utils/priority.js'
 import { getSpecPoint } from '../data/spec.js'
 import { generateQuestions, markAnswers } from '../api/anthropic.js'
 import { addError } from '../utils/errorLog.js'
+import { unmasteredPrereqs } from '../utils/guide.js'
 import { logQuizAttempt } from '../utils/stats.js'
 import QuizQuestion from '../components/QuizQuestion.jsx'
 
@@ -34,6 +35,7 @@ export default function Quiz() {
   }, [lockId])
 
   const specPoint = specId ? getSpecPoint(specId) : null
+  const prereqWarnings = specId ? unmasteredPrereqs(specId) : []
 
   async function handleGenerate(nextVariation = 0) {
     if (!specPoint) return
@@ -123,6 +125,19 @@ export default function Quiz() {
           {loading && questions.length === 0 ? 'Generating…' : 'Generate questions'}
         </button>
       </div>
+
+      {prereqWarnings.length > 0 && (
+        <div className="alert warn">
+          <strong>Heads up:</strong> You haven't mastered the prerequisites for this topic yet:{' '}
+          {prereqWarnings.map((p, i) => (
+            <span key={p.id}>
+              {i > 0 && ', '}
+              <strong>{p.id}</strong> {p.title}
+            </span>
+          ))}
+          . You can still quiz, but consider studying those first.
+        </div>
+      )}
 
       {error && <div className="alert error">{error}</div>}
 

@@ -272,7 +272,7 @@ export default function PaperPractice() {
               <img
                 src={qpImageUrl(question.paper, question.page, question.number)}
                 alt={`Question ${question.number}`}
-                style={{ width: '100%', border: '1px solid var(--border, #ddd)', borderRadius: 6 }}
+                style={{ width: '100%', border: '1px solid var(--color-border)', borderRadius: 6 }}
               />
             </div>
 
@@ -293,8 +293,8 @@ export default function PaperPractice() {
                         fontSize: '1.1rem',
                         fontWeight: 600,
                         border: '2px solid',
-                        borderColor: answer === opt ? 'var(--accent, #2563eb)' : 'var(--border, #ddd)',
-                        background: answer === opt ? 'var(--accent, #2563eb)' : 'transparent',
+                        borderColor: answer === opt ? 'var(--color-accent)' : 'var(--color-border)',
+                        background: answer === opt ? 'var(--color-accent)' : 'transparent',
                         color: answer === opt ? '#fff' : 'inherit',
                         borderRadius: 8,
                         cursor: loading || result ? 'default' : 'pointer',
@@ -346,12 +346,12 @@ export default function PaperPractice() {
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '0.75rem' }}>
                         {/* Simple explanation */}
                         <div style={{
-                          background: 'var(--surface, #f8fafc)',
-                          border: '1px solid var(--border, #e2e8f0)',
+                          background: 'var(--color-surface)',
+                          border: '1px solid var(--color-border)',
                           borderRadius: 8,
                           padding: '0.85rem 1rem',
                         }}>
-                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--accent, #2563eb)', marginBottom: '0.35rem' }}>
+                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-accent)', marginBottom: '0.35rem' }}>
                             In Simple Terms
                           </div>
                           <p style={{ margin: 0, lineHeight: 1.55 }}>{result.simpleExplanation || '—'}</p>
@@ -359,12 +359,12 @@ export default function PaperPractice() {
 
                         {/* Step by step */}
                         <div style={{
-                          background: 'var(--surface, #f8fafc)',
-                          border: '1px solid var(--border, #e2e8f0)',
+                          background: 'var(--color-surface)',
+                          border: '1px solid var(--color-border)',
                           borderRadius: 8,
                           padding: '0.85rem 1rem',
                         }}>
-                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--accent, #2563eb)', marginBottom: '0.35rem' }}>
+                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-accent)', marginBottom: '0.35rem' }}>
                             Step-by-Step Working
                           </div>
                           <p style={{ margin: 0, lineHeight: 1.55, whiteSpace: 'pre-line' }}>{result.stepByStep || '—'}</p>
@@ -372,12 +372,12 @@ export default function PaperPractice() {
 
                         {/* Why other options are wrong */}
                         <div style={{
-                          background: 'var(--surface, #f8fafc)',
-                          border: '1px solid var(--border, #e2e8f0)',
+                          background: 'var(--color-surface)',
+                          border: '1px solid var(--color-border)',
                           borderRadius: 8,
                           padding: '0.85rem 1rem',
                         }}>
-                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: '#b45309', marginBottom: '0.35rem' }}>
+                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-high)', marginBottom: '0.35rem' }}>
                             Why the Other Options Are Wrong
                           </div>
                           <p style={{ margin: 0, lineHeight: 1.55, whiteSpace: 'pre-line' }}>{result.whyOtherOptionsWrong || '—'}</p>
@@ -385,12 +385,12 @@ export default function PaperPractice() {
 
                         {/* Exam tip */}
                         <div style={{
-                          background: '#fffbeb',
-                          border: '1px solid #fbbf24',
+                          background: 'rgba(246, 173, 85, 0.1)',
+                          border: '1px solid var(--color-high)',
                           borderRadius: 8,
                           padding: '0.85rem 1rem',
                         }}>
-                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: '#92400e', marginBottom: '0.35rem' }}>
+                          <div style={{ fontSize: '0.8rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--color-high)', marginBottom: '0.35rem' }}>
                             Exam Tip
                           </div>
                           <p style={{ margin: 0, lineHeight: 1.55, fontWeight: 500 }}>{result.examTip || '—'}</p>
@@ -442,7 +442,7 @@ export default function PaperPractice() {
                           key={p}
                           src={msImageUrl(question.msPaper, p)}
                           alt={`Mark scheme page ${p}`}
-                          style={{ width: '100%', border: '1px solid var(--border, #ddd)', borderRadius: 6, marginBottom: '0.5rem' }}
+                          style={{ width: '100%', border: '1px solid var(--color-border)', borderRadius: 6, marginBottom: '0.5rem' }}
                         />
                       ))}
                     </div>

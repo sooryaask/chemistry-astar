@@ -1,0 +1,25 @@
+"""Topic taxonomy for OCR A Chemistry Paper 1 (Modules 1-4), SaveMyExams-style."""
+
+TOPICS = [
+    "Atomic Structure & Isotopes",
+    "Compounds, Formulae & Equations",
+    "Amount of Substance (Moles)",
+    "Acids & Bases",
+    "Redox",
+    "Electron Structure",
+    "Bonding & Structure",
+    "Shapes of Molecules & Intermolecular Forces",
+    "Periodicity",
+    "Group 2",
+    "Group 7 (Halogens)",
+    "Enthalpy & Energetics",
+    "Reaction Rates",
+    "Equilibrium",
+    "Basic Concepts of Organic Chemistry",
+    "Alkanes",
+    "Alkenes",
+    "Alcohols",
+    "Haloalkanes",
+    "Organic Synthesis & Analysis (IR/MS)",
+    "Practical Skills",
+]

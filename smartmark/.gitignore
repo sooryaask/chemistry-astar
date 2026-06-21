@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Don't commit copyrighted exam PDFs — keep them local only.
+papers/*.pdf

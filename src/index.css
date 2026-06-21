@@ -687,6 +687,19 @@ kbd {
   justify-content: center;
   margin-top: 0.5rem;
 }
+.pomodoro-split-row {
+  margin-bottom: 0.35rem;
+}
+.pomodoro-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+.pomodoro-custom {
+  width: 100%;
+  margin-top: 0.2rem;
+}
 .pomodoro-today {
   margin-top: 0.6rem;
   padding-top: 0.5rem;

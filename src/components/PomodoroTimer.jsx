@@ -2,8 +2,13 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
 import { getItem, setItem, KEYS, todayISO } from '../utils/localStorage.js'
 
-const WORK_SECS = 25 * 60
-const BREAK_SECS = 5 * 60
+const PRESETS = [
+  { label: '25 / 5', work: 25, brk: 5 },
+  { label: '30 / 5', work: 30, brk: 5 },
+  { label: '45 / 10', work: 45, brk: 10 },
+  { label: '50 / 10', work: 50, brk: 10 },
+  { label: '90 / 20', work: 90, brk: 20 },
+]
 
 const PAGE_LABELS = {
   '/learn': 'Study',
@@ -21,6 +26,12 @@ function formatTime(secs) {
   return `${m}:${s.toString().padStart(2, '0')}`
 }
 
+function loadSavedSplit() {
+  const saved = getItem('pomodoroSplit', null)
+  if (saved && saved.work && saved.brk) return saved
+  return { work: 25, brk: 5 }
+}
+
 export function getTodayTime() {
   const log = getItem(KEYS.timerLog, {})
   const today = log[todayISO()]
@@ -35,18 +46,36 @@ export function getTodayTime() {
 }
 
 export default function PomodoroTimer() {
-  const [secondsLeft, setSecondsLeft] = useState(WORK_SECS)
+  const [split, setSplit] = useState(loadSavedSplit)
+  const workSecs = split.work * 60
+  const breakSecs = split.brk * 60
+
+  const [secondsLeft, setSecondsLeft] = useState(workSecs)
   const [running, setRunning] = useState(false)
   const [isBreak, setIsBreak] = useState(false)
   const [minimized, setMinimized] = useState(true)
+  const [showPicker, setShowPicker] = useState(false)
+  const [customWork, setCustomWork] = useState(split.work)
+  const [customBreak, setCustomBreak] = useState(split.brk)
   const intervalRef = useRef(null)
   const startTimeRef = useRef(null)
   const location = useLocation()
 
   const currentPage = PAGE_LABELS[location.pathname] || 'Other'
 
+  function applySplit(work, brk) {
+    const next = { work, brk }
+    setSplit(next)
+    setItem('pomodoroSplit', next)
+    setSecondsLeft(work * 60)
+    setRunning(false)
+    setIsBreak(false)
+    setShowPicker(false)
+    startTimeRef.current = null
+  }
+
   const logSession = useCallback((elapsed) => {
-    if (elapsed < 30) return // don't log tiny sessions
+    if (elapsed < 30) return
     const minutes = Math.round(elapsed / 60 * 10) / 10
     const log = getItem(KEYS.timerLog, {})
     const day = todayISO()
@@ -62,17 +91,17 @@ export default function PomodoroTimer() {
         if (prev <= 1) {
           clearInterval(intervalRef.current)
           if (!isBreak) {
-            logSession(WORK_SECS)
+            logSession(workSecs)
           }
           setIsBreak(!isBreak)
           setRunning(false)
-          return isBreak ? WORK_SECS : BREAK_SECS
+          return isBreak ? workSecs : breakSecs
         }
         return prev - 1
       })
     }, 1000)
     return () => clearInterval(intervalRef.current)
-  }, [running, isBreak, logSession])
+  }, [running, isBreak, workSecs, breakSecs, logSession])
 
   function start() {
     startTimeRef.current = Date.now()
@@ -82,7 +111,7 @@ export default function PomodoroTimer() {
   function pause() {
     setRunning(false)
     if (!isBreak && startTimeRef.current) {
-      const elapsed = WORK_SECS - secondsLeft
+      const elapsed = workSecs - secondsLeft
       logSession(elapsed)
     }
   }
@@ -90,13 +119,12 @@ export default function PomodoroTimer() {
   function reset() {
     setRunning(false)
     setIsBreak(false)
-    setSecondsLeft(WORK_SECS)
+    setSecondsLeft(workSecs)
     startTimeRef.current = null
   }
 
-  const pct = isBreak
-    ? ((BREAK_SECS - secondsLeft) / BREAK_SECS) * 100
-    : ((WORK_SECS - secondsLeft) / WORK_SECS) * 100
+  const totalSecs = isBreak ? breakSecs : workSecs
+  const pct = ((totalSecs - secondsLeft) / totalSecs) * 100
 
   if (minimized) {
     return (
@@ -129,6 +157,58 @@ export default function PomodoroTimer() {
           _
         </button>
       </div>
+
+      {/* Split selector */}
+      <div className="pomodoro-split-row">
+        <button
+          className="small secondary"
+          onClick={() => setShowPicker(!showPicker)}
+          style={{ fontSize: '0.7rem', padding: '0.15rem 0.4rem', width: '100%' }}
+        >
+          {split.work}/{split.brk} min {showPicker ? '▴' : '▾'}
+        </button>
+      </div>
+
+      {showPicker && (
+        <div className="pomodoro-picker">
+          {PRESETS.map((p) => (
+            <button
+              key={p.label}
+              className={`small ${p.work === split.work && p.brk === split.brk ? '' : 'secondary'}`}
+              onClick={() => applySplit(p.work, p.brk)}
+              style={{ fontSize: '0.7rem', padding: '0.2rem 0.4rem' }}
+            >
+              {p.label}
+            </button>
+          ))}
+          <div className="pomodoro-custom">
+            <div style={{ display: 'flex', gap: '0.3rem', alignItems: 'center' }}>
+              <input
+                type="number"
+                value={customWork}
+                onChange={(e) => setCustomWork(Math.max(1, Number(e.target.value)))}
+                min={1} max={180}
+                style={{ width: 42, fontSize: '0.72rem', padding: '0.15rem 0.25rem' }}
+              />
+              <span style={{ fontSize: '0.7rem' }}>/</span>
+              <input
+                type="number"
+                value={customBreak}
+                onChange={(e) => setCustomBreak(Math.max(1, Number(e.target.value)))}
+                min={1} max={60}
+                style={{ width: 42, fontSize: '0.72rem', padding: '0.15rem 0.25rem' }}
+              />
+              <button
+                className="small"
+                onClick={() => applySplit(customWork, customBreak)}
+                style={{ fontSize: '0.65rem', padding: '0.15rem 0.35rem' }}
+              >
+                Set
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="pomodoro-ring">
         <svg viewBox="0 0 100 100" width="120" height="120">

@@ -58,7 +58,7 @@ export default function Dashboard() {
       {action && (
         <div
           className="card"
-          style={{ borderLeft: '6px solid var(--color-med)', marginBottom: '1.5rem' }}
+          style={{ borderLeft: '6px solid var(--color-accent)', marginBottom: '1.5rem' }}
         >
           <div className="muted" style={{ textTransform: 'uppercase', letterSpacing: '0.05em', fontSize: '0.75rem' }}>
             {action.kind === 'review'

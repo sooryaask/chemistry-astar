@@ -35,9 +35,9 @@ export default function ScoreChart({ data, height = 180, yLabel = 'Score %' }) {
             x2={width - padR}
             y1={yFor(g)}
             y2={yFor(g)}
-            stroke="#e5e5e5"
+            style={{ stroke: 'var(--color-border)' }}
           />
-          <text x={4} y={yFor(g) + 4} fontSize="10" fill="#6b6b6b">
+          <text x={4} y={yFor(g) + 4} fontSize="10" style={{ fill: 'var(--color-secondary)' }}>
             {g}
           </text>
         </g>
@@ -45,20 +45,20 @@ export default function ScoreChart({ data, height = 180, yLabel = 'Score %' }) {
 
       <polyline
         fill="none"
-        stroke="#185fa5"
+        style={{ stroke: 'var(--color-accent)' }}
         strokeWidth="2"
         points={points}
       />
 
       {data.map((d, i) => (
         <g key={i}>
-          <circle cx={xFor(i)} cy={yFor(d.value)} r="3.5" fill="#185fa5" />
+          <circle cx={xFor(i)} cy={yFor(d.value)} r="3.5" style={{ fill: 'var(--color-accent)' }} />
           {(n <= 12 || i % Math.ceil(n / 12) === 0) && (
             <text
               x={xFor(i)}
               y={height - 8}
               fontSize="9"
-              fill="#6b6b6b"
+              style={{ fill: 'var(--color-secondary)' }}
               textAnchor="middle"
             >
               {d.label}

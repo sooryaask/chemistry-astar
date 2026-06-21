@@ -15,23 +15,25 @@ export default function App() {
   return (
     <>
       <Nav />
-      <main className="container">
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/plan" element={<StudyPlan />} />
-          <Route path="/spec" element={<SpecTracker />} />
-          <Route path="/learn" element={<Learn />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/drill" element={<Flashcards />} />
-          <Route path="/errors" element={<ErrorLog />} />
-          <Route path="/journal" element={<Journal />} />
-          <Route path="/papers" element={<PastPapers />} />
-          <Route path="/practice" element={<PaperPractice />} />
-        </Routes>
-      </main>
-      <footer className="site-footer">
-        Zero to A* — a public experiment by Sooryaa · OCR A Chemistry (H032)
-      </footer>
+      <div className="main-content">
+        <main className="container">
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/plan" element={<StudyPlan />} />
+            <Route path="/spec" element={<SpecTracker />} />
+            <Route path="/learn" element={<Learn />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/drill" element={<Flashcards />} />
+            <Route path="/errors" element={<ErrorLog />} />
+            <Route path="/journal" element={<Journal />} />
+            <Route path="/papers" element={<PastPapers />} />
+            <Route path="/practice" element={<PaperPractice />} />
+          </Routes>
+        </main>
+        <footer className="site-footer">
+          Zero to A* — a public experiment by Sooryaa · OCR A Chemistry (H032)
+        </footer>
+      </div>
     </>
   )
 }

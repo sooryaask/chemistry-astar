@@ -1,0 +1,36 @@
+{
+  "project": "chemistry-astar",
+  "startDate": "2026-06-16",
+  "challengeDays": 21,
+  "currentDay": 7,
+  "note": "currentDay is auto-derived from startDate; the supervisor reconciles it each run. Day 7 (2026-06-22) is a Week-1 review / Module-2 past-paper day.",
+  "lastUpdated": "2026-06-22",
+
+  "agents": {
+    "supervisor":         { "status": "idle", "lastTask": null, "lastOutput": null },
+    "explainer":          { "status": "idle", "lastTask": null, "lastOutput": null },
+    "question-generator": { "status": "idle", "lastTask": null, "lastOutput": null },
+    "mock-runner":        { "status": "idle", "lastTask": null, "lastOutput": null },
+    "validator":          { "status": "idle", "lastTask": null, "lastOutput": null },
+    "feature-builder":    { "status": "idle", "lastTask": null, "lastOutput": null }
+  },
+
+  "metrics": {
+    "notesGenerated": 0,
+    "questionBanksGenerated": 0,
+    "mocksRun": 0,
+    "lastMockPct": null,
+    "weakTopics": [],
+    "specPointsCovered": []
+  },
+
+  "log": [
+    {
+      "day": 0,
+      "agent": "supervisor",
+      "action": "init",
+      "artifact": "coordinator/state.json",
+      "ts": "2026-06-22"
+    }
+  ]
+}

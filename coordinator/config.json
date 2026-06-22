@@ -1,0 +1,86 @@
+{
+  "project": "chemistry-astar",
+  "qualification": "OCR A Chemistry AS (H032), Paper 1, Modules 1-4",
+  "target": "A*-equivalent (90%+)",
+  "startDate": "2026-06-16",
+  "challengeDays": 21,
+  "specPointCount": 46,
+
+  "sourcesOfTruth": {
+    "spec": "src/data/spec.js",
+    "plan": "src/data/plan.js",
+    "paperIndex": "src/data/paperIndex.json",
+    "smartmarkTopics": "smartmark/topics.py",
+    "runtimePrompts": "src/api/anthropic.js",
+    "challengeConfig": "src/config.js"
+  },
+
+  "models": {
+    "rigorous": "claude-sonnet-4-6",
+    "fast": "claude-haiku-4-5",
+    "note": "These are the RUNTIME model strings the app uses. Build-layer agents run as Claude Code instances and do not select these; they only preserve them when editing app code or specifying runtime behaviour."
+  },
+
+  "localStorageKeys": {
+    "specProgress": "confidence (0-3) + complete per spec id",
+    "errorLog": "missed questions w/ spaced-repetition scheduling",
+    "journal": "daily reflections",
+    "quizAttempts": "per-day attempt log (score/max)",
+    "paperScores": "logged paper results {name,date,raw,max,pct}",
+    "lessons": "cache of generated lessons, keyed by spec id  <- explainer target",
+    "reviewDeck": "SM-2-lite hidden spaced-repetition deck",
+    "timerLog": "pomodoro minutes per page per day"
+  },
+
+  "agents": {
+    "supervisor": {
+      "role": "Scheduler/kernel. Owns coordinator/state.json. Dispatches day tasks, collects outputs, updates metrics, commits.",
+      "reads": ["coordinator/schedule.json", "coordinator/state.json", "src/data/plan.js", "src/config.js", "imports/localStorage-export.json (optional)"],
+      "writes": ["coordinator/state.json", "coordinator/tasks/day-{N}.json", "coordinator/dashboard.md"],
+      "model": "n/a (orchestration)"
+    },
+    "explainer": {
+      "role": "Generates exam-focused study notes per spec point.",
+      "reads": ["src/data/spec.js", "coordinator/tasks/day-{N}.json"],
+      "writes": ["content/notes/{specId}.json"],
+      "schema": "generateLesson",
+      "consumedBy": "localStorage key 'lessons' via content-pack import"
+    },
+    "question-generator": {
+      "role": "Builds OCR-style question banks per spec point (1/2/3 mark).",
+      "reads": ["src/data/spec.js", "coordinator/tasks/day-{N}.json"],
+      "writes": ["content/questions/{specId}.json"],
+      "schema": "generateQuestions",
+      "consumedBy": "Quiz/Drill static fallback bank via content-pack import"
+    },
+    "mock-runner": {
+      "role": "Assembles + administers timed mocks from the question banks (and, locally, SmartMark past papers); scores via validator criteria.",
+      "reads": ["content/questions/*.json", "src/data/spec.js", "smartmark/ (local only)"],
+      "writes": ["content/mocks/{date}-{module}.json", "coordinator/results/mock-{date}.json"],
+      "schema": "paperScore",
+      "copyright": "Committed mocks contain ORIGINAL questions only."
+    },
+    "validator": {
+      "role": "Strict OCR marker + content QA gate. Mirrors the app's examiner SYSTEM_PROMPT.",
+      "reads": ["content/notes/*.json", "content/questions/*.json", "candidate answers"],
+      "writes": ["coordinator/qa/{specId}.json (pass/fail + fixes)"],
+      "schema": "markAnswers"
+    },
+    "feature-builder": {
+      "role": "Claude Code dev. Edits app code, fixes bugs, builds the content-pack importer, improves SmartMark.",
+      "reads": ["whole repo"],
+      "writes": ["src/**, smartmark/**"],
+      "model": "preserve sonnet-4-6 / haiku-4-5 split"
+    }
+  },
+
+  "contentPack": {
+    "purpose": "Offline-generated notes + questions the app imports into localStorage so AI features work instantly and key-free.",
+    "format": {
+      "lessons": "{ [specId]: <generateLesson object> }  -> localStorage 'lessons'",
+      "questions": "{ [specId]: <generateQuestions.questions array> }  -> static fallback bank"
+    },
+    "buildOutput": "content/pack.json (merged, ready to import)",
+    "importer": "TO BUILD by feature-builder: a Settings 'Import content pack' action in the app."
+  }
+}

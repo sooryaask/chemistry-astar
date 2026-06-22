@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.2a",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the charge on the sulfate ion.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the formulae of (i) iron(II) chloride and (ii) iron(III) sulfate, showing clearly how the charges of the ions determine each formula.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain how the formula of aluminium nitrate, Al(NO₃)₃, is derived from the charges of the aluminium and nitrate ions. In your answer, state the charge on each ion and show that the overall charge of the compound is zero.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the systematic name of the compound with the formula MnO₂, given that the oxide ion has a charge of 2−.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "Deduce the correct formula of calcium phosphate from the following: (A) CaPO₄; (B) Ca₂(PO₄)₃; (C) Ca₃(PO₄)₂; (D) Ca₃PO₄. Show your reasoning using ion charges.",
+      "context": "[Ca²⁺ and PO₄³⁻]"
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe how oxidation numbers are used to name compounds containing transition metals. Apply this to name (i) CrCl₂, (ii) CrCl₃, and (iii) Cu₂O. Show oxidation number working for each.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the charge on the ammonium ion.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the formulae of (i) ammonium sulfate and (ii) ammonium phosphate.",
+      "context": "[NH₄⁺; SO₄²⁻; PO₄³⁻]"
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student writes the formula of magnesium hydroxide as MgOH₂. Explain why this is incorrect, write the correct formula, and state the rule about brackets that has been violated.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State the charge on the carbonate ion.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "Deduce the formula of chromium(III) oxide and chromium(VI) oxide. Show your working using oxidation numbers.",
+      "context": "[O²⁻]"
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the 'cross-charge' method for deriving the formula of an ionic compound. Use it to derive the formula of tin(IV) chloride (SnCl₄), checking that the overall charge is zero.",
+      "context": "[Sn⁴⁺; Cl⁻]"
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State the name and formula of the anion present in potassium nitrate (KNO₃).",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the formulae of barium chloride and barium carbonate, using the charges of the barium ion (Ba²⁺), chloride ion (Cl⁻), and carbonate ion (CO₃²⁻).",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why iron can form two different chloride compounds, iron(II) chloride (FeCl₂) and iron(III) chloride (FeCl₃). In your answer, state the oxidation number of iron in each compound and explain how you deduced the formula from the ion charges.",
+      "context": ""
+    }
+  ]
+}

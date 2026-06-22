@@ -1,0 +1,41 @@
+{
+  "specId": "2.1.3b",
+  "keyIdeas": [
+    "The core mole equation is n = m / M, where n is amount of substance (mol), m is mass (g), and M is molar mass (g mol⁻¹).",
+    "For gases at RTP (25 °C, 100 kPa): n = V(cm³) / 24,000 or equivalently n = V(dm³) / 24.",
+    "The ideal gas equation pV = nRT links pressure (Pa), volume (m³), amount (mol), and temperature (K); R = 8.314 J mol⁻¹ K⁻¹.",
+    "Unit conversions required for pV = nRT: pressure must be in Pa (1 kPa = 1000 Pa; 1 atm = 101,325 Pa), volume in m³ (1 dm³ = 10⁻³ m³; 1 cm³ = 10⁻⁶ m³), temperature in K (K = °C + 273).",
+    "All three equations are rearrangeable: m = nM; V = n × 24,000; n = pV / RT.",
+    "Multi-step calculations chain these equations — identify which equation applies at each step and carry through unrounded values."
+  ],
+  "mustKnow": [
+    { "term": "n = m / M", "definition": "Amount of substance (mol) equals mass (g) divided by molar mass (g mol⁻¹)." },
+    { "term": "Molar gas volume at RTP", "definition": "24,000 cm³ mol⁻¹ (24 dm³ mol⁻¹) at 25 °C and 100 kPa." },
+    { "term": "Ideal gas equation", "definition": "pV = nRT where p is pressure in Pa, V is volume in m³, n is amount in mol, R = 8.314 J mol⁻¹ K⁻¹, T is temperature in K." },
+    { "term": "R (gas constant)", "definition": "8.314 J mol⁻¹ K⁻¹ (provided in OCR data booklet)." }
+  ],
+  "markSchemePhrases": [
+    "n = m / M",
+    "n = V / 24,000 (V in cm³) OR n = V / 24 (V in dm³)",
+    "pV = nRT",
+    "temperature in K (= °C + 273)",
+    "pressure in Pa, volume in m³",
+    "R = 8.314 J mol⁻¹ K⁻¹"
+  ],
+  "commandWords": "'Calculate' requires a numerical answer with correct units and full working — every substitution must be shown for method marks. 'Show that' means arrive at the given answer with clear working; do not just state the answer. 'Deduce' asks you to derive a value or conclusion from given data.",
+  "examinerTips": [
+    "Always convert temperature to K and pressure to Pa before substituting into pV = nRT — forgetting this costs all marks on a multi-mark calculation.",
+    "Show every substitution explicitly: write the equation, substitute values with units, then calculate — method marks are awarded even if the final answer is wrong.",
+    "If a gas volume is given in dm³ and you want to use the molar gas volume, divide by 24 (dm³); if in cm³, divide by 24,000.",
+    "Carry extra significant figures through intermediate steps and round only the final answer to match the data (usually 3 s.f.).",
+    "For ideal gas calculations, R = 8.314 J mol⁻¹ K⁻¹ is in the data booklet — never memorise a wrong value."
+  ],
+  "workedExample": "A sample of sulfur dioxide (SO₂, M = 64.1 g mol⁻¹) has a volume of 560 cm³ at a temperature of 127 °C and a pressure of 200 kPa. Calculate the mass of SO₂.\n\nStep 1: Convert units.\nT = 127 + 273 = 400 K\np = 200 × 10³ = 2.00 × 10⁵ Pa\nV = 560 × 10⁻⁶ = 5.60 × 10⁻⁴ m³\n\nStep 2: Calculate n using pV = nRT.\nn = pV / RT = (2.00 × 10⁵ × 5.60 × 10⁻⁴) / (8.314 × 400)\nn = 112 / 3325.6 = 3.367 × 10⁻² mol\n\nStep 3: Calculate mass.\nm = nM = 3.367 × 10⁻² × 64.1 = 2.16 g (3 s.f.)",
+  "commonTraps": [
+    "Forgetting to convert °C to K — using T = 127 instead of 400 K gives an answer 2.3× too small.",
+    "Keeping volume in cm³ or dm³ when using pV = nRT — must convert to m³.",
+    "Keeping pressure in kPa when using pV = nRT — must convert to Pa.",
+    "Rounding intermediate values too early, causing rounding error in the final answer.",
+    "Using 22,400 cm³ mol⁻¹ (STP) instead of 24,000 cm³ mol⁻¹ (RTP) for gas volumes."
+  ]
+}

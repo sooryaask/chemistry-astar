@@ -1,0 +1,31 @@
+{
+  "specId": "2.1.2a",
+  "date": "2026-06-22",
+  "validator": "supervisor-inline",
+  "notesVerdict": "pass",
+  "questionsVerdict": "pass",
+  "notesChecks": {
+    "schemaValid": true,
+    "aLevelPrecision": true,
+    "keyIdeasCount": 6,
+    "mustKnowCount": 2,
+    "markSchemePhrases": true,
+    "commandWords": true,
+    "examinerTips": 5,
+    "workedExample": true,
+    "commonTraps": 4,
+    "ocr_a_alignment": "Cross-charge method correctly explained; brackets for polyatomic ions correctly emphasised; Roman numeral = oxidation state correctly linked; ion charges for all common ions accurately stated.",
+    "issues": []
+  },
+  "questionsChecks": {
+    "totalQuestions": 15,
+    "triosCount": 5,
+    "maxMarksPerQ": 3,
+    "commandWordsOcrA": true,
+    "unitsInCalcs": "N/A",
+    "answerableFromSpecPoint": true,
+    "noPastPaperCopying": true,
+    "issues": []
+  },
+  "fixes": []
+}

@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.3c",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State what is meant by the term 'empirical formula'.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "A compound contains 52.2% carbon, 13.0% hydrogen, and 34.8% oxygen by mass. Determine its empirical formula. [Ar: C = 12.0, H = 1.0, O = 16.0]",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A hydrocarbon contains 85.7% carbon by mass and has a relative molecular mass of 42.0. Determine the molecular formula of this hydrocarbon. [Ar: C = 12.0, H = 1.0]",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the equation used to calculate the concentration of a solution in mol dm⁻³.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the concentration, in mol dm⁻³, of a solution made by dissolving 4.00 g of sodium hydroxide (NaOH, M = 40.0 g mol⁻¹) in water and making the volume up to 500 cm³.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "In a reaction, 8.10 g of aluminium reacts with excess hydrochloric acid. The theoretical yield of aluminium chloride (AlCl₃) is calculated to be 26.7 g, but only 21.4 g is obtained. Calculate (i) the percentage yield and (ii) suggest one reason why the yield is less than 100%. [Ar: Al = 27.0; M(AlCl₃) = 133.5 g mol⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State what is meant by 'atom economy' and what a high atom economy indicates about a reaction.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the atom economy for the production of ethanol (C₂H₅OH, M = 46.0 g mol⁻¹) by fermentation, given the equation: C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. [M(CO₂) = 44.0 g mol⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the steps you would take to determine the empirical formula of a compound from percentage composition data. Use a compound containing only nitrogen and oxygen as an example, where the compound is 30.4% N and 69.6% O by mass.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State the relationship between the empirical formula and the molecular formula of a compound.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the mass of potassium chloride (KCl, M = 74.6 g mol⁻¹) needed to prepare 250 cm³ of a 0.200 mol dm⁻³ solution.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain the difference between percentage yield and atom economy. In your answer, state which one is a measure of 'green chemistry' and why.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State what the 'multiplier' represents when converting an empirical formula to a molecular formula.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "A compound has an empirical formula of CH₂ and a relative molecular mass of 56. Determine its molecular formula.",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "Methanol (CH₃OH, M = 32.0 g mol⁻¹) is produced from the reaction CO + 2H₂ → CH₃OH. If 5.60 g of CO (M = 28.0 g mol⁻¹) reacts with excess H₂ and 5.10 g of methanol is obtained, calculate (i) the theoretical yield of methanol in grams and (ii) the percentage yield.",
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "specId": "2.1.4b",
+  "keyIdeas": [
+    "A titration determines the unknown concentration of a solution by reacting a measured volume with a known concentration of another solution to reach the endpoint.",
+    "The key equation links the two solutions at equivalence: n₁ / n₂ = V₁c₁ / V₂c₂ = mole ratio from the balanced equation.",
+    "Volume must be in dm³ for the concentration equation c = n / V; convert cm³ by dividing by 1000.",
+    "The mole ratio comes from the balanced equation: for H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O, mole ratio H₂SO₄ : NaOH = 1 : 2.",
+    "A structured titration calculation has four steps: (1) find moles of the known substance; (2) use mole ratio to find moles of the unknown; (3) calculate concentration or mass; (4) check units.",
+    "Average titre is calculated from concordant results (usually within 0.10 cm³) — discard the rough titre."
+  ],
+  "mustKnow": [
+    { "term": "Equivalence point (end point)", "definition": "The point in a titration at which the stoichiometric amount of titrant has been added to react exactly with the analyte; detected by an indicator colour change." },
+    { "term": "Concordant results", "definition": "Titre values that agree to within 0.10 cm³; used to calculate the mean titre. The rough titre is excluded." },
+    { "term": "c = n / V", "definition": "Concentration (mol dm⁻³) = amount of substance (mol) / volume of solution (dm³)." }
+  ],
+  "markSchemePhrases": [
+    "moles = concentration × volume (in dm³)",
+    "mole ratio from balanced equation",
+    "concordant titres / mean titre",
+    "convert cm³ to dm³ (÷ 1000)",
+    "concentration in mol dm⁻³"
+  ],
+  "commandWords": "'Calculate' — full working with units at every step. 'Describe' the method — include burette, indicator, swirling, add dropwise near end-point. 'Suggest' why results may be inaccurate — cite specific procedural or chemical errors.",
+  "examinerTips": [
+    "Always convert volumes from cm³ to dm³ by dividing by 1000 before using c = n / V — the most common error in titration questions.",
+    "Write the balanced equation first and identify the mole ratio — this single step prevents ratio errors.",
+    "Show each calculation step on a new line: n(acid) = ... → n(base) from ratio = ... → c(base) = n/V = ...",
+    "When asked to find the mean titre, show which results are concordant and state why the rough titre is excluded.",
+    "If asked to calculate relative molecular mass from a titration, rearrange from M = m / n after finding n by the normal route."
+  ],
+  "workedExample": "25.0 cm³ of sodium hydroxide solution required 22.5 cm³ of 0.100 mol dm⁻³ hydrochloric acid (HCl) for neutralisation. Calculate the concentration of the NaOH solution.\n\nBalanced equation: HCl + NaOH → NaCl + H₂O  (mole ratio 1 : 1)\n\nStep 1: n(HCl) = c × V = 0.100 × (22.5 / 1000) = 0.100 × 0.0225 = 2.25 × 10⁻³ mol\n\nStep 2: Mole ratio 1 : 1, so n(NaOH) = 2.25 × 10⁻³ mol\n\nStep 3: c(NaOH) = n / V = 2.25 × 10⁻³ / (25.0 / 1000) = 2.25 × 10⁻³ / 0.0250 = 0.0900 mol dm⁻³",
+  "commonTraps": [
+    "Leaving volume in cm³ (e.g. using V = 25.0 instead of 0.0250 dm³) — gives an answer 1000× too small.",
+    "Using the wrong mole ratio — always write the balanced equation; for H₂SO₄ + 2NaOH the ratio is 1:2, not 1:1.",
+    "Averaging the rough titre with concordant results — only concordant results (within 0.10 cm³) should be averaged.",
+    "Rounding n too early and carrying an inaccurate value through — keep 4 s.f. in intermediate steps.",
+    "Forgetting to state units on the final answer: mol dm⁻³ is required."
+  ]
+}

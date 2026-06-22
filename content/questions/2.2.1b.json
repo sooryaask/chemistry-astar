@@ -1,0 +1,110 @@
+{
+  "specId": "2.2.1b",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the electron configuration of a sodium atom (Z = 11) in s, p, d notation.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the full electron configurations of the chlorine atom (Z = 17) and the chloride ion (Cl⁻). State what change in electron number occurs when the Cl⁻ ion forms from a Cl atom.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "State the Aufbau principle and use it to write the full electron configuration of calcium (Z = 20). Explain why the 4s subshell is filled before the 3d subshell, referring to relative energies of the subshells.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the full electron configuration of the Fe²⁺ ion. [Z(Fe) = 26]",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Describe Hund's rule and illustrate it using an 'arrows-in-boxes' diagram for the 2p subshell of a carbon atom (Z = 6), which has two electrons in that subshell.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Write the full electron configurations of titanium (Z = 22) and the Ti²⁺ ion. Explain, with reference to energy levels, why the 4s electrons are removed in preference to the 3d electrons when Ti forms Ti²⁺.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "Identify",
+      "question": "Identify which electrons are lost first when a transition metal atom forms a positive ion.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the electron configurations of copper (Z = 29) and the Cu²⁺ ion. State which subshell the electrons are removed from when Cu²⁺ is formed.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why the electron configuration of chromium (Z = 24) is [Ar] 3d⁵ 4s¹ rather than the expected [Ar] 3d⁴ 4s². In your answer, refer to the stability associated with a half-filled d subshell.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State the electron configuration of the oxide ion (O²⁻). [Z(O) = 8]",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the full electron configurations of manganese (Z = 25) and the Mn²⁺ ion. State clearly which electrons are removed when Mn forms Mn²⁺.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Write the electron configuration of vanadium (Z = 23) and of the V³⁺ ion. Use these configurations to explain which electrons are removed first when V³⁺ is formed, and state the rule that governs the order of electron removal from transition metal ions.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "Identify",
+      "question": "Identify the two elements in Period 4, with atomic numbers up to Z = 36, that have anomalous electron configurations due to the extra stability of a full or half-filled d subshell.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the electron configurations of the Ni²⁺ ion and the Co³⁺ ion. [Z(Ni) = 28; Z(Co) = 27]",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student writes the electron configuration of iron (Z = 26) as 1s² 2s² 2p⁶ 3s² 3p⁶ 3d⁸. Identify two errors in this configuration. Write the correct configuration and state which filling rule(s) the student has violated.",
+      "context": ""
+    }
+  ]
+}

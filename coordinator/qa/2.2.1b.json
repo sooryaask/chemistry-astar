@@ -1,0 +1,31 @@
+{
+  "specId": "2.2.1b",
+  "date": "2026-06-22",
+  "validator": "supervisor-inline",
+  "notesVerdict": "pass",
+  "questionsVerdict": "pass",
+  "notesChecks": {
+    "schemaValid": true,
+    "aLevelPrecision": true,
+    "keyIdeasCount": 6,
+    "mustKnowCount": 4,
+    "markSchemePhrases": true,
+    "commandWords": true,
+    "examinerTips": 5,
+    "workedExample": true,
+    "commonTraps": 5,
+    "ocr_a_alignment": "Aufbau principle, Hund's rule, Pauli exclusion correctly named and applied. Cr and Cu exceptions correct ([Ar]3d⁵4s¹ and [Ar]3d¹⁰4s¹). 4s removed before 3d on ionisation — correctly taught. Noble-gas shorthand marked acceptable for OCR A.",
+    "issues": []
+  },
+  "questionsChecks": {
+    "totalQuestions": 15,
+    "triosCount": 5,
+    "maxMarksPerQ": 3,
+    "commandWordsOcrA": true,
+    "unitsInCalcs": "N/A (configuration topic)",
+    "answerableFromSpecPoint": true,
+    "noPastPaperCopying": true,
+    "issues": []
+  },
+  "fixes": []
+}

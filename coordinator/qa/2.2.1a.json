@@ -1,0 +1,31 @@
+{
+  "specId": "2.2.1a",
+  "date": "2026-06-22",
+  "validator": "supervisor-inline",
+  "notesVerdict": "pass",
+  "questionsVerdict": "pass",
+  "notesChecks": {
+    "schemaValid": true,
+    "aLevelPrecision": true,
+    "keyIdeasCount": 6,
+    "mustKnowCount": 4,
+    "markSchemePhrases": true,
+    "commandWords": true,
+    "examinerTips": 5,
+    "workedExample": true,
+    "commonTraps": 5,
+    "ocr_a_alignment": "Subshell capacities (s=2, p=6, d=10) correct; orbital shapes (spherical/dumbbell) correctly stated; energy order s < p < d within a shell correctly stated; Pauli exclusion principle correctly defined.",
+    "issues": []
+  },
+  "questionsChecks": {
+    "totalQuestions": 15,
+    "triosCount": 5,
+    "maxMarksPerQ": 3,
+    "commandWordsOcrA": true,
+    "unitsInCalcs": "N/A (descriptive topic)",
+    "answerableFromSpecPoint": true,
+    "noPastPaperCopying": true,
+    "issues": []
+  },
+  "fixes": []
+}

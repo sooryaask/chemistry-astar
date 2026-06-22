@@ -1,0 +1,41 @@
+{
+  "specId": "2.1.4a",
+  "keyIdeas": [
+    "An acid is a proton donor (Brønsted–Lowry definition); a base is a proton acceptor.",
+    "Strong acids (HCl, HNO₃, H₂SO₄) fully dissociate in water; weak acids (CH₃COOH, H₂CO₃) partially dissociate, establishing an equilibrium.",
+    "Reactions of acids: with bases (neutralisation) → salt + water; with carbonates → salt + water + CO₂; with metals → salt + hydrogen.",
+    "Common salts: HCl → chloride; H₂SO₄ → sulfate; HNO₃ → nitrate; H₃PO₄ → phosphate.",
+    "Salt preparation methods: neutralisation (acid + base), reaction with metal or carbonate; the salt is purified by evaporation and crystallisation.",
+    "Alkalis are soluble bases; the neutralisation of a strong acid with a strong alkali produces a neutral salt (pH 7)."
+  ],
+  "mustKnow": [
+    { "term": "Acid (Brønsted–Lowry)", "definition": "A proton (H⁺) donor." },
+    { "term": "Base (Brønsted–Lowry)", "definition": "A proton (H⁺) acceptor." },
+    { "term": "Strong acid", "definition": "An acid that is completely dissociated into ions in aqueous solution; e.g. HCl, HNO₃, H₂SO₄." },
+    { "term": "Weak acid", "definition": "An acid that is only partially dissociated into ions in aqueous solution; equilibrium lies to the left, e.g. CH₃COOH." },
+    { "term": "Neutralisation", "definition": "The reaction between an acid and a base to form a salt and water; the ionic equation is H⁺(aq) + OH⁻(aq) → H₂O(l)." }
+  ],
+  "markSchemePhrases": [
+    "proton donor / proton acceptor",
+    "fully / completely dissociated in water",
+    "partially dissociated / equilibrium",
+    "acid + carbonate → salt + water + carbon dioxide",
+    "ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l)"
+  ],
+  "commandWords": "'State' the Brønsted–Lowry definition of an acid. 'Explain' the difference between strong and weak acids — use the word 'dissociation' and 'equilibrium'. 'Write' the equation for a reaction of an acid — include state symbols.",
+  "examinerTips": [
+    "The examiner expects 'fully/completely dissociated' for a strong acid and 'partially dissociated' with an equilibrium sign (⇌) for a weak acid — not just 'stronger' or 'weaker'.",
+    "The ionic equation for any strong acid + strong alkali neutralisation is always H⁺(aq) + OH⁻(aq) → H₂O(l) — memorise this.",
+    "State symbols are required in ionic equations at A-level: (aq), (l), (g), (s).",
+    "Salt names: chloride from HCl, sulfate from H₂SO₄, nitrate from HNO₃ — double-check the anion spelling.",
+    "Do not use 'more ionised' as a synonym for 'stronger' acid — use 'greater degree of dissociation'."
+  ],
+  "workedExample": "Write the overall and ionic equations for the reaction of calcium carbonate with dilute hydrochloric acid.\n\nOverall equation:\nCaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)\n\nIonic equation (cancel spectator Ca²⁺ and Cl⁻ ions):\nCaCO₃(s) + 2H⁺(aq) → Ca²⁺(aq) + H₂O(l) + CO₂(g)",
+  "commonTraps": [
+    "Writing 'H₂O' without state symbol (l) in ionic equations.",
+    "Defining a strong acid as one that 'reacts faster' — strength refers to degree of dissociation, not reaction rate.",
+    "Forgetting CO₂(g) in acid + carbonate reactions.",
+    "Confusing 'concentrated' and 'strong': concentrated refers to amount per volume; strong refers to degree of dissociation.",
+    "Writing the ionic equation with spectator ions still present."
+  ]
+}

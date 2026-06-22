@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.1a",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the relative charge and relative mass of a neutron.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "State",
+      "question": "The nuclide notation for a phosphorus atom is ³¹₁₅P. State (i) the number of protons and (ii) the number of neutrons in this atom.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain the difference between the atomic (proton) number and the mass (nucleon) number of an atom. Use the example of ⁵⁶₂₆Fe to illustrate your answer, stating the number of each subatomic particle in a neutral iron atom.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the relative mass of an electron compared to a proton.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "An ion has a mass number of 32, a proton number of 16, and a charge of 2−. Deduce the element and state the number of electrons in this ion.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the structure of an atom, including the location, relative charge, and relative mass of each type of subatomic particle. State how a neutral atom maintains its charge balance.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State which subatomic particle determines which element an atom belongs to.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "An atom of element X has 18 neutrons and a mass number of 35. Calculate the proton number and identify the element X.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why atoms are overall electrically neutral despite containing both positively and negatively charged particles. In your answer, state the charges and locations of all three subatomic particles.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State the relative charge of a proton.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Describe the location of protons, neutrons and electrons within an atom, referring to the nucleus and shells.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "The ion Ca²⁺ has a mass number of 40 and a proton number of 20. Explain how many protons, neutrons, and electrons the Ca²⁺ ion contains, and explain why the number of electrons differs from a neutral calcium atom.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State the two types of subatomic particles found in the nucleus of an atom.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "Deduce the number of protons, neutrons, and electrons in the ion ²⁷₁₃Al³⁺.",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Complete the table below, filling in the relative charge, relative mass, and location for each subatomic particle (proton, neutron, electron). Explain which particle has negligible mass and why this is stated rather than zero.",
+      "context": "| Particle | Relative charge | Relative mass | Location |"
+    }
+  ]
+}

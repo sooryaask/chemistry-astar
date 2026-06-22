@@ -1,0 +1,36 @@
+{
+  "specId": "2.1.2a",
+  "keyIdeas": [
+    "A compound's formula is determined by balancing the charges of its constituent ions so the overall charge is zero.",
+    "Common cations to know: Na⁺, K⁺, Ca²⁺, Mg²⁺, Al³⁺, Fe²⁺, Fe³⁺, Cu²⁺, Zn²⁺, NH₄⁺.",
+    "Common anions to know: Cl⁻, Br⁻, I⁻, O²⁻, OH⁻, NO₃⁻, SO₄²⁻, CO₃²⁻, PO₄³⁻.",
+    "Oxidation numbers are used in IUPAC names to distinguish between multiple oxidation states of the same element: iron(II) = Fe²⁺; iron(III) = Fe³⁺.",
+    "To derive a formula from charges: use the 'cross-charge' method — the charge of each ion becomes the subscript of the other, then simplify to the lowest whole-number ratio.",
+    "Formulae for polyatomic ions must be enclosed in brackets when the subscript > 1: Ca(NO₃)₂ not CaNO₃₂."
+  ],
+  "mustKnow": [
+    { "term": "Ion", "definition": "An atom or group of atoms that has gained or lost one or more electrons, giving it a non-zero overall charge." },
+    { "term": "Oxidation number in naming", "definition": "A Roman numeral in brackets after the element name indicating its oxidation state; used when the element can exist in multiple states (e.g. iron(II), iron(III))." }
+  ],
+  "markSchemePhrases": [
+    "overall charge of compound = zero",
+    "cross-charge method / balance charges",
+    "correct formula with brackets for polyatomic ions",
+    "Roman numeral = oxidation state in naming"
+  ],
+  "commandWords": "'Write' the formula of a compound from named ions — use the cross-charge method and simplify. 'Name' a compound whose formula is given — state each ion's name and include the Roman numeral for transition metal oxidation states. 'State' the charge on an ion.",
+  "examinerTips": [
+    "Always use brackets with a subscript for polyatomic ions: Mg(OH)₂ not MgOH₂.",
+    "Remember that the formula must give an overall charge of zero — a quick check after writing the formula.",
+    "For naming, the Roman numeral equals the oxidation number you calculate: FeCl₃ has Fe³⁺ so it is iron(III) chloride.",
+    "Ammonium (NH₄⁺) is the only common cation that is a polyatomic ion — remember the + charge.",
+    "Simplify formulae: Ca₂O₂ simplifies to CaO (ratio 1:1)."
+  ],
+  "workedExample": "Write the formula of aluminium sulfate.\n\nIons: Al³⁺ and SO₄²⁻\nCross-charge: subscript of Al = 2 (charge of sulfate); subscript of SO₄ = 3 (charge of Al).\nFormula: Al₂(SO₄)₃\n\nCheck: charge = 2(+3) + 3(−2) = +6 − 6 = 0. Correct.",
+  "commonTraps": [
+    "Writing MgOH₂ instead of Mg(OH)₂ — brackets are essential when the subscript applies to a polyatomic ion.",
+    "Forgetting to simplify the ratio: Ca₂(SO₄)₂ should be CaSO₄.",
+    "Writing the Roman numeral for elements that have only one common oxidation state (e.g. 'sodium(I)' is never written — Na is always +1).",
+    "Giving the charge of SO₄ as −1 instead of −2."
+  ]
+}

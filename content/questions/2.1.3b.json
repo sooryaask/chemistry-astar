@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.3b",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the temperature, in K, and pressure, in kPa, that define RTP (room temperature and pressure) in OCR A Chemistry.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the volume, in cm³, occupied by 0.125 mol of oxygen gas (O₂) at RTP.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A sample of propane gas (C₃H₈, M = 44.1 g mol⁻¹) has a volume of 480 cm³ at 27 °C and 150 kPa. Calculate the mass of propane in this sample. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the value of the gas constant R, including its unit.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the amount, in mol, of hydrogen gas (H₂) in 4.80 dm³ at RTP.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A rigid container holds 2.00 g of argon gas (Ar, M = 39.9 g mol⁻¹) at a temperature of 57 °C. The volume of the container is 1.50 dm³. Calculate the pressure, in kPa, inside the container. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the units in which pressure (p), volume (V), and temperature (T) must be expressed when using the equation pV = nRT.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the molar mass, in g mol⁻¹, of a gas if 3.00 g occupies 2000 cm³ at RTP.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A balloon contains 0.400 mol of helium gas (He) at 25 °C and 100 kPa. (i) Calculate the volume of the balloon in dm³ using pV = nRT. (ii) Hence confirm this is consistent with the molar gas volume of 24 dm³ mol⁻¹ at RTP. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State what must be done to a temperature given in °C before it can be used in the equation pV = nRT.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the mass of 600 cm³ of chlorine gas (Cl₂, M = 71.0 g mol⁻¹) at RTP.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student uses pV = nRT and obtains an answer 1000 times smaller than expected. Explain the most likely error the student has made, and state the correct procedure for avoiding it.",
+      "context": "The student used p = 101 kPa, V = 2 dm³, T = 298 K."
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State the conversion factor between dm³ and m³.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "A gas sample at 37 °C and 200 kPa has a volume of 300 cm³. Calculate the amount of gas, in mol. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "0.250 mol of a gas X is held at 127 °C in a 4.15 dm³ container. (i) Calculate the pressure, in Pa, of the gas. (ii) Convert this pressure to kPa. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": ""
+    }
+  ]
+}

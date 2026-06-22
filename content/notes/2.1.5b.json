@@ -1,0 +1,41 @@
+{
+  "specId": "2.1.5b",
+  "keyIdeas": [
+    "A half-equation shows either the oxidation or the reduction step separately, with electrons explicitly shown on one side.",
+    "To write an oxidation half-equation: write the species oxidised on the left, the product on the right, balance O by adding H₂O, balance H by adding H⁺, then balance charge by adding electrons to the right.",
+    "To write a reduction half-equation: write the species reduced on the left, the product on the right, balance O with H₂O, balance H with H⁺, then add electrons to the left to balance charge.",
+    "To combine half-equations into the overall ionic equation: multiply each half-equation so that the number of electrons is equal, then add and cancel electrons.",
+    "In acidic solution, H⁺ and H₂O are used to balance; in the specific reactions studied (metals + acids, metal displacement) the same rules apply.",
+    "Common oxidising agents at AS level: Cl₂ (→ 2Cl⁻), H⁺ (→ H₂), Fe³⁺ (→ Fe²⁺), MnO₄⁻/Cr₂O₇²⁻ (in context). Common reducing agents: metals (Fe → Fe²⁺), Cl⁻, I⁻."
+  ],
+  "mustKnow": [
+    { "term": "Half-equation", "definition": "An equation showing only the oxidation or reduction process, with electrons explicitly on one side; O balanced by H₂O, H balanced by H⁺." },
+    { "term": "Ionic equation", "definition": "An equation showing only the species that change in a reaction; spectator ions are cancelled." },
+    { "term": "Oxidising agent (in half-equation terms)", "definition": "The species that appears on the left of a reduction half-equation, gaining electrons." },
+    { "term": "Reducing agent (in half-equation terms)", "definition": "The species that appears on the left of an oxidation half-equation, losing electrons." }
+  ],
+  "markSchemePhrases": [
+    "electrons on correct side of half-equation",
+    "O balanced using H₂O",
+    "H balanced using H⁺",
+    "electrons cancel / equal electrons in each half-equation before combining",
+    "spectator ions omitted from ionic equation",
+    "overall charge balanced"
+  ],
+  "commandWords": "'Write a half-equation' — include electrons explicitly on the correct side; balance O with H₂O and H with H⁺. 'Combine half-equations' — multiply to equalise electrons, then add and cancel. 'Identify' the oxidising/reducing agent from an equation — name the species and state the change in oxidation number.",
+  "examinerTips": [
+    "A common mark is awarded specifically for 'electrons on the correct side' — always double-check: oxidation half-equation has e⁻ on the right; reduction has e⁻ on the left.",
+    "After combining, verify that the number of each atom and overall charge are the same on both sides — a simple check saves marks.",
+    "For metal + acid reactions (e.g. Mg + H₂SO₄), write the reduction of H⁺ to H₂ separately from the oxidation of Mg to Mg²⁺.",
+    "Spectator ions (Na⁺, Cl⁻ not involved in redox) must be excluded from the overall ionic equation.",
+    "If the question says 'write a balanced ionic equation', this is NOT just the full molecular equation — you must cancel spectator ions."
+  ],
+  "workedExample": "Write the half-equations for the reaction of iron with dilute sulfuric acid and combine them into an overall ionic equation.\n\nOxidation half-equation (Fe loses electrons):\nFe → Fe²⁺ + 2e⁻\n\nReduction half-equation (H⁺ gains electrons):\n2H⁺ + 2e⁻ → H₂\n\nBoth half-equations involve 2 electrons — no scaling needed.\n\nOverall ionic equation (add and cancel e⁻):\nFe + 2H⁺ → Fe²⁺ + H₂\n\nCheck: left: 1Fe, 2H, charge = 2+; right: 1Fe²⁺, 2H, charge = 2+. Balanced.",
+  "commonTraps": [
+    "Putting electrons on the wrong side — in an oxidation half-equation, electrons are always on the right.",
+    "Forgetting to multiply one half-equation to equalise electrons before adding (e.g. combining Fe → Fe²⁺ + 2e⁻ with Cu²⁺ + 2e⁻ → Cu is fine; but Fe → Fe³⁺ + 3e⁻ with Cu²⁺ + 2e⁻ → Cu requires a factor of 2 and 3 respectively).",
+    "Including spectator ions in the 'ionic equation' — if the question asks for an ionic equation, remove all spectator ions.",
+    "Failing to balance H with H⁺ or O with H₂O in more complex half-equations.",
+    "Writing 'Fe²⁺' for a reduction half-equation involving Fe — in the reduction step Fe²⁺ or Fe³⁺ appears on the left (it is being reduced)."
+  ]
+}

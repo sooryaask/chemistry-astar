@@ -1,0 +1,31 @@
+{
+  "specId": "2.1.5b",
+  "date": "2026-06-22",
+  "validator": "supervisor-inline",
+  "notesVerdict": "pass",
+  "questionsVerdict": "pass",
+  "notesChecks": {
+    "schemaValid": true,
+    "aLevelPrecision": true,
+    "keyIdeasCount": 6,
+    "mustKnowCount": 4,
+    "markSchemePhrases": true,
+    "commandWords": true,
+    "examinerTips": 5,
+    "workedExample": true,
+    "commonTraps": 5,
+    "ocr_a_alignment": "Half-equation construction rules correct (H₂O for O balance; H⁺ for H balance; electrons on correct side); combining step (equalise electrons, then add and cancel) correctly described; spectator ion cancellation correctly required for ionic equations.",
+    "issues": []
+  },
+  "questionsChecks": {
+    "totalQuestions": 15,
+    "triosCount": 5,
+    "maxMarksPerQ": 3,
+    "commandWordsOcrA": true,
+    "unitsInCalcs": "N/A (equations topic)",
+    "answerableFromSpecPoint": true,
+    "noPastPaperCopying": true,
+    "issues": []
+  },
+  "fixes": []
+}

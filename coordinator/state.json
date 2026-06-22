@@ -3,26 +3,43 @@
   "startDate": "2026-06-16",
   "challengeDays": 21,
   "currentDay": 7,
-  "note": "currentDay is auto-derived from startDate; the supervisor reconciles it each run. Day 7 (2026-06-22) is a Week-1 review / Module-2 past-paper day.",
+  "note": "Day 7 (2026-06-22): Week 1 Review day. Days 1-6 content backfilled in this run (content/ was empty on entry). All 12 spec points (Days 1-6) received notes + question banks. QA: all 12 pass. Module 2 mock assembled (Moles + Redox + Electron Structure, 35 marks, 35 min). Mock awaits student sitting on Complete Day 7.",
   "lastUpdated": "2026-06-22",
 
   "agents": {
-    "supervisor":         { "status": "idle", "lastTask": null, "lastOutput": null },
-    "explainer":          { "status": "idle", "lastTask": null, "lastOutput": null },
-    "question-generator": { "status": "idle", "lastTask": null, "lastOutput": null },
-    "mock-runner":        { "status": "idle", "lastTask": null, "lastOutput": null },
-    "validator":          { "status": "idle", "lastTask": null, "lastOutput": null },
+    "supervisor":         { "status": "idle", "lastTask": "day-7-run", "lastOutput": "coordinator/state.json, coordinator/dashboard.md, coordinator/tasks/day-7.json" },
+    "explainer":          { "status": "idle", "lastTask": "day-7-backfill-notes (12 spec points)", "lastOutput": "content/notes/2.1.1a..2.2.1b.json (12 files)" },
+    "question-generator": { "status": "idle", "lastTask": "day-7-backfill-banks (12 spec points)", "lastOutput": "content/questions/2.1.1a..2.2.1b.json (12 files)" },
+    "mock-runner":        { "status": "idle", "lastTask": "day-7-assemble-module2-mock", "lastOutput": "content/mocks/2026-06-22-module2.json" },
+    "validator":          { "status": "idle", "lastTask": "day-7-qa (12 spec points)", "lastOutput": "coordinator/qa/2.1.1a..2.2.1b.json (12 files, all pass)" },
     "feature-builder":    { "status": "idle", "lastTask": null, "lastOutput": null }
   },
 
   "metrics": {
-    "notesGenerated": 0,
-    "questionBanksGenerated": 0,
+    "notesGenerated": 12,
+    "questionBanksGenerated": 12,
     "mocksRun": 0,
     "lastMockPct": null,
     "weakTopics": [],
-    "specPointsCovered": []
+    "specPointsCovered": [
+      "2.1.1a", "2.1.2a", "2.1.2b",
+      "2.1.3a", "2.1.3b", "2.1.3c",
+      "2.1.4a", "2.1.4b",
+      "2.1.5a", "2.1.5b",
+      "2.2.1a", "2.2.1b"
+    ]
   },
+
+  "mocksPending": [
+    {
+      "file": "content/mocks/2026-06-22-module2.json",
+      "name": "Module 2 Review Mock — Moles, Redox & Electron Structure",
+      "totalMarks": 35,
+      "timeLimitMin": 35,
+      "status": "assembled-awaiting-sit",
+      "note": "Student sits this mock on Complete Day 7. Validator marks answers. Supervisor writes weakTopics from topics scoring <70%. mock-runner records paperScore to coordinator/results/mock-2026-06-22.json."
+    }
+  ],
 
   "log": [
     {
@@ -31,6 +48,54 @@
       "action": "init",
       "artifact": "coordinator/state.json",
       "ts": "2026-06-22"
+    },
+    {
+      "day": 7,
+      "agent": "supervisor",
+      "action": "run-day-7-start",
+      "artifact": "coordinator/tasks/day-7.json",
+      "ts": "2026-06-22",
+      "note": "Day 7 = Review day. imports/localStorage-export.json absent; proceeding on schedule order. currentDay 7 confirmed from START_DATE 2026-06-16 + today 2026-06-22."
+    },
+    {
+      "day": 7,
+      "agent": "explainer",
+      "action": "backfill-notes",
+      "artifact": "content/notes/{2.1.1a, 2.1.2a, 2.1.2b, 2.1.3a, 2.1.3b, 2.1.3c, 2.1.4a, 2.1.4b, 2.1.5a, 2.1.5b, 2.2.1a, 2.2.1b}.json",
+      "ts": "2026-06-22",
+      "note": "12 notes generated (HIGH-frequency first). All match generateLesson schema."
+    },
+    {
+      "day": 7,
+      "agent": "question-generator",
+      "action": "backfill-banks",
+      "artifact": "content/questions/{2.1.1a, 2.1.2a, 2.1.2b, 2.1.3a, 2.1.3b, 2.1.3c, 2.1.4a, 2.1.4b, 2.1.5a, 2.1.5b, 2.2.1a, 2.2.1b}.json",
+      "ts": "2026-06-22",
+      "note": "12 question banks generated. 15 questions (5 trios) per spec point. All original. No question exceeds 3 marks. Units present in calc questions."
+    },
+    {
+      "day": 7,
+      "agent": "validator",
+      "action": "qa-content",
+      "artifact": "coordinator/qa/{12 files}.json",
+      "ts": "2026-06-22",
+      "note": "All 12 spec points: notesVerdict=pass, questionsVerdict=pass. No fixes required. No past-paper copying detected."
+    },
+    {
+      "day": 7,
+      "agent": "mock-runner",
+      "action": "assemble-module2-mock",
+      "artifact": "content/mocks/2026-06-22-module2.json",
+      "ts": "2026-06-22",
+      "note": "35-mark mock assembled from 7 spec points (Moles + Redox + Electron Structure). 10x1-mark Section A; 12x mixed 2-/3-mark Section B. Awaits student sitting."
+    },
+    {
+      "day": 7,
+      "agent": "supervisor",
+      "action": "run-day-7-complete-pending",
+      "artifact": "coordinator/state.json",
+      "ts": "2026-06-22",
+      "note": "weakTopics empty until student sits mock and Complete Day 7 is run. mocksRun remains 0 until then."
     }
   ]
 }

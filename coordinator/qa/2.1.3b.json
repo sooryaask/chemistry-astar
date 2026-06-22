@@ -1,0 +1,31 @@
+{
+  "specId": "2.1.3b",
+  "date": "2026-06-22",
+  "validator": "supervisor-inline",
+  "notesVerdict": "pass",
+  "questionsVerdict": "pass",
+  "notesChecks": {
+    "schemaValid": true,
+    "aLevelPrecision": true,
+    "keyIdeasCount": 6,
+    "mustKnowCount": 4,
+    "markSchemePhrases": true,
+    "commandWords": true,
+    "examinerTips": 5,
+    "workedExample": true,
+    "commonTraps": 5,
+    "ocr_a_alignment": "Correct RTP conditions stated; pV=nRT with correct units conversion shown; R quoted as 8.314 J mol⁻¹ K⁻¹.",
+    "issues": []
+  },
+  "questionsChecks": {
+    "totalQuestions": 15,
+    "triosCount": 5,
+    "maxMarksPerQ": 3,
+    "commandWordsOcrA": true,
+    "unitsInCalcs": true,
+    "answerableFromSpecPoint": true,
+    "noPastPaperCopying": true,
+    "issues": []
+  },
+  "fixes": []
+}

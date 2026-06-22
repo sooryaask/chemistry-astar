@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.4a",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the Brønsted–Lowry definition of an acid.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Describe the difference between a strong acid and a weak acid in terms of dissociation. Give one example of each type.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why a 0.10 mol dm⁻³ solution of methanoic acid (HCOOH) has a higher pH than a 0.10 mol dm⁻³ solution of hydrochloric acid. In your answer, refer to the degree of dissociation of each acid.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "Name",
+      "question": "Name the salt produced when nitric acid reacts with potassium hydroxide.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the balanced equation, including state symbols, for the reaction of sulfuric acid with calcium carbonate.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe how a pure, dry sample of copper(II) chloride could be prepared by reacting an excess of copper(II) oxide with dilute hydrochloric acid. Include the key steps and how the excess solid is removed.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the Brønsted–Lowry definition of a base.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the balanced equation, including state symbols, for the reaction of magnesium with dilute sulfuric acid. State the type of reaction taking place.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Write the overall ionic equation for the neutralisation of ammonia solution (NH₃(aq)) by dilute hydrochloric acid. Explain, using the Brønsted–Lowry theory, which species acts as the acid and which acts as the base in this reaction.",
+      "context": "Equation: NH₃(aq) + HCl(aq) → NH₄Cl(aq)"
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State the products formed when any acid reacts with a metal carbonate.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the balanced equation, with state symbols, for the reaction of zinc with dilute hydrochloric acid. State one observation that would be made during the reaction.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain what is meant by the term 'neutralisation'. Write the net ionic equation for the reaction of sodium hydroxide with hydrochloric acid. Explain why this ionic equation is the same for all reactions between a strong acid and a strong alkali.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "Identify",
+      "question": "Identify which one of the following is a weak acid: sulfuric acid (H₂SO₄), hydrochloric acid (HCl), or ethanoic acid (CH₃COOH).",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the equation for the reaction between ammonia gas (NH₃) and sulfuric acid (H₂SO₄). Name the salt formed and classify ammonia as an acid or base, with a reason.",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the similarities and differences between the reactions of (i) lithium hydroxide and (ii) lithium carbonate with dilute hydrochloric acid. Include balanced equations with state symbols for both reactions.",
+      "context": ""
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.4b",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State what is meant by the term 'concordant titres' in a titration.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "In a titration, 25.0 cm³ of potassium hydroxide solution (KOH) was neutralised by 22.4 cm³ of 0.100 mol dm⁻³ hydrochloric acid. Calculate the concentration of the KOH solution in mol dm⁻³. [KOH + HCl → KCl + H₂O]",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A student neutralises 20.0 cm³ of sulfuric acid (H₂SO₄) using 30.0 cm³ of 0.200 mol dm⁻³ sodium hydroxide solution. [H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O] Calculate (i) the amount, in mol, of NaOH used; (ii) the amount, in mol, of H₂SO₄; (iii) the concentration of the H₂SO₄ solution in mol dm⁻³.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the purpose of a rough titre in a titration.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "A student dissolves 3.18 g of anhydrous sodium carbonate (Na₂CO₃, M = 106.0 g mol⁻¹) in water and makes the solution up to 250 cm³ in a volumetric flask. Calculate the concentration of the sodium carbonate solution in mol dm⁻³.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe how a titration would be carried out to determine the concentration of a hydrochloric acid solution using a standardised sodium hydroxide solution. In your answer, state the equipment used, how the end point is detected, and how a reliable mean titre is obtained.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the volume conversion factor needed to change cm³ into dm³.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "25.0 cm³ of barium hydroxide solution, Ba(OH)₂, of concentration 0.0400 mol dm⁻³ was titrated against hydrochloric acid. [Ba(OH)₂ + 2HCl → BaCl₂ + 2H₂O] Calculate the volume, in cm³, of HCl of concentration 0.100 mol dm⁻³ needed for complete neutralisation.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A student finds the relative molecular mass of an unknown monoprotic acid (HA) by titration. She dissolves 0.650 g of the acid in water. Neutralisation requires 26.0 cm³ of 0.250 mol dm⁻³ NaOH. [HA + NaOH → NaA + H₂O] Calculate (i) the amount, in mol, of NaOH used; (ii) the amount, in mol, of HA; (iii) the relative molecular mass of HA.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "Name",
+      "question": "Name the piece of glassware that delivers a fixed, precise volume of solution in a titration.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "A pipette delivers 25.00 cm³ of 0.0800 mol dm⁻³ sodium carbonate solution into a conical flask. Calculate the amount, in mol, of sodium carbonate delivered, and calculate the mass, in g, of sodium carbonate present. [M(Na₂CO₃) = 106.0 g mol⁻¹]",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student records the following titration results: rough = 24.20 cm³; titre 1 = 25.05 cm³; titre 2 = 24.90 cm³; titre 3 = 25.00 cm³. Explain which titres should be used to calculate the mean titre. Identify the concordant results and calculate the mean titre in cm³.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State which glassware is used to measure out the alkali solution at the start of each titration.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the volume, in cm³, of 0.400 mol dm⁻³ phosphoric acid (H₃PO₄) required to react exactly with 30.0 cm³ of 0.300 mol dm⁻³ sodium hydroxide. [H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O]",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A student uses a back-titration to determine the percentage purity of a sample of calcium carbonate. A 0.500 g sample is dissolved in 50.0 cm³ of 0.500 mol dm⁻³ hydrochloric acid (excess). The remaining acid requires 20.0 cm³ of 0.250 mol dm⁻³ NaOH for complete neutralisation. [CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂; HCl + NaOH → NaCl + H₂O] Calculate the mass of CaCO₃ in the sample and hence the percentage purity. [M(CaCO₃) = 100.1 g mol⁻¹]",
+      "context": "Back-titration method."
+    }
+  ]
+}

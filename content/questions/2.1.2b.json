@@ -1,0 +1,110 @@
+{
+  "specId": "2.1.2b",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State what is meant by a 'spectator ion' in an ionic equation.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write the balanced equation and the ionic equation for the reaction of barium chloride solution with sodium sulfate solution to form a precipitate. Include state symbols.",
+      "context": "[BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq)]"
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student is asked to write the ionic equation for the neutralisation of potassium hydroxide with nitric acid. Explain the steps they should follow, and write both the full balanced equation (with state symbols) and the ionic equation.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the state symbol used to represent a dissolved ionic compound in an aqueous solution.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Balance the equation for the combustion of propane: C₃H₈ + O₂ → CO₂ + H₂O. Include state symbols assuming complete combustion in excess oxygen.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Write the full equation and the ionic equation for the reaction of zinc carbonate (ZnCO₃) with dilute hydrochloric acid. Explain which species are spectator ions and why they are omitted from the ionic equation.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the state symbol used for a gas evolved during a reaction in solution.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Balance the following equation for the reaction of iron(III) oxide with carbon monoxide, and include state symbols: Fe₂O₃ + CO → Fe + CO₂.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Write the ionic equation for the reaction of lead(II) nitrate solution with potassium iodide solution to form a yellow precipitate of lead(II) iodide (PbI₂). Show the full equation first, then derive the ionic equation by cancelling spectator ions. Include state symbols throughout.",
+      "context": "[Pb(NO₃)₂(aq) + 2KI(aq) → PbI₂(s) + 2KNO₃(aq)]"
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "State",
+      "question": "State why subscripts within a chemical formula cannot be changed when balancing an equation.",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write a balanced ionic equation for the reaction of dilute sulfuric acid with magnesium metal. Include state symbols.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student writes the ionic equation for the reaction of copper(II) sulfate solution with sodium hydroxide solution as: Cu²⁺ + 2OH⁻ + Na⁺ + SO₄²⁻ → Cu(OH)₂(s) + Na⁺ + SO₄²⁻. Explain two errors in this ionic equation and write the correct version.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State what the symbol (l) represents when used as a state symbol in a chemical equation.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Write a balanced full equation and ionic equation for the reaction of aluminium hydroxide (Al(OH)₃) with hydrochloric acid to form aluminium chloride and water. Include state symbols.",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain the difference between a full ionic equation and a net ionic equation. Write both for the reaction of silver nitrate solution with sodium bromide solution. Show which ions are spectator ions and state the general principle for identifying them.",
+      "context": ""
+    }
+  ]
+}

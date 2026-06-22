@@ -1,0 +1,110 @@
+{
+  "specId": "2.2.1a",
+  "questions": [
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the shape of a p atomic orbital.",
+      "context": ""
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Describe the s and p subshells in terms of the number of orbitals each contains and the maximum number of electrons each subshell can hold.",
+      "context": ""
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain the meaning of the terms 'shell', 'subshell', and 'atomic orbital'. State how many subshells are present in the third shell (n = 3) and list them in order of increasing energy.",
+      "context": ""
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "State",
+      "question": "State the maximum number of electrons that can occupy the d subshell.",
+      "context": ""
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Identify",
+      "question": "Identify the subshells present in the second shell (n = 2) and state the maximum number of electrons each can hold.",
+      "context": ""
+    },
+    {
+      "id": 6,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the Pauli exclusion principle and explain its consequence for the capacity of an atomic orbital. Use an 'arrows-in-boxes' diagram to show how the three 2p orbitals are occupied in a nitrogen atom (Z = 7), which has three electrons in the 2p subshell.",
+      "context": ""
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the number of atomic orbitals in the 3d subshell.",
+      "context": ""
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Describe",
+      "question": "Describe how the energy of subshells increases within the second shell (n = 2), and state which subshell in that shell is at the lowest energy.",
+      "context": ""
+    },
+    {
+      "id": 9,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why electrons occupying the 2s subshell are at a lower energy than those in the 2p subshell. State the consequence of this energy difference for the order in which subshells are filled.",
+      "context": ""
+    },
+    {
+      "id": 10,
+      "marks": 1,
+      "command": "Identify",
+      "question": "Identify the only subshell present in the first shell (n = 1).",
+      "context": ""
+    },
+    {
+      "id": 11,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the maximum number of electrons that can be accommodated in the third shell (n = 3). Show your reasoning by listing the subshells present and the electrons each holds.",
+      "context": ""
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Describe",
+      "question": "Describe the shape of an s orbital and of a p orbital, explaining how the two shapes differ. Explain how the three p orbitals within the same subshell differ from one another in terms of their orientation in space.",
+      "context": ""
+    },
+    {
+      "id": 13,
+      "marks": 1,
+      "command": "State",
+      "question": "State the maximum number of electrons that can occupy any single atomic orbital.",
+      "context": ""
+    },
+    {
+      "id": 14,
+      "marks": 2,
+      "command": "Describe",
+      "question": "State the number of subshells and the total number of atomic orbitals in the second shell (n = 2). Show how you arrived at the total number of orbitals.",
+      "context": ""
+    },
+    {
+      "id": 15,
+      "marks": 3,
+      "command": "Explain",
+      "question": "A student states that 'the third shell can hold a maximum of 8 electrons.' Explain why this statement is incorrect. List all the subshells in the third shell, state how many orbitals and electrons each can hold, and give the correct maximum number of electrons for that shell.",
+      "context": ""
+    }
+  ]
+}

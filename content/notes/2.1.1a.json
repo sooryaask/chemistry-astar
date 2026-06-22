@@ -1,0 +1,39 @@
+{
+  "specId": "2.1.1a",
+  "keyIdeas": [
+    "Atoms consist of a tiny, dense, positively charged nucleus containing protons and neutrons, surrounded by electrons in shells.",
+    "Relative charge: proton = +1, neutron = 0, electron = −1. Relative mass: proton ≈ 1, neutron ≈ 1, electron ≈ 1/1840 (negligible).",
+    "Atomic (proton) number Z: the number of protons in the nucleus; defines the element.",
+    "Mass (nucleon) number A: the total number of protons and neutrons (nucleons) in the nucleus.",
+    "Number of neutrons = A − Z.",
+    "In a neutral atom, the number of electrons equals the number of protons (Z)."
+  ],
+  "mustKnow": [
+    { "term": "Proton number (Z)", "definition": "The number of protons in the nucleus of an atom; determines the element." },
+    { "term": "Nucleon number (A)", "definition": "The total number of protons and neutrons in the nucleus." },
+    { "term": "Relative charge", "definition": "Proton: +1; neutron: 0; electron: −1 (measured relative to the proton charge)." },
+    { "term": "Relative mass", "definition": "Proton: 1; neutron: 1; electron: 1/1840 ≈ 0 (all relative to the mass of a proton)." }
+  ],
+  "markSchemePhrases": [
+    "proton number = atomic number = number of protons",
+    "mass number = protons + neutrons",
+    "number of neutrons = A − Z",
+    "relative charge: proton +1, neutron 0, electron −1",
+    "relative mass: proton 1, neutron 1, electron negligible"
+  ],
+  "commandWords": "'State' the relative charge or mass of a subatomic particle — give the numerical value. 'Calculate' the number of neutrons from Z and A. 'Identify' the element from a given Z value.",
+  "examinerTips": [
+    "Know the table of relative charges and masses — it is commonly tested as a 1-mark recall.",
+    "Nucleon number (A) is always the larger number in nuclide notation ²³⁵₉₂U; atomic number (Z) is the smaller.",
+    "Neutrons = A − Z — a trivial calculation but frequently tested in 1-mark questions.",
+    "A neutral atom has equal numbers of protons and electrons; ions have gained or lost electrons but the number of protons is unchanged.",
+    "At A-level, avoid GCSE phrasing: say 'proton number' not 'atomic number' (both are acceptable but proton number is more precise)."
+  ],
+  "workedExample": "An atom of an element has mass number 56 and proton number 26. State (i) the element, (ii) the number of neutrons, (iii) the number of electrons in a neutral atom.\n\n(i) Proton number 26 = Iron (Fe)\n(ii) Neutrons = A − Z = 56 − 26 = 30\n(iii) Neutral atom: electrons = protons = 26",
+  "commonTraps": [
+    "Confusing mass number and atomic number — remember Z (atomic/proton number) is always the subscript in nuclide notation.",
+    "Saying the neutron has a slight positive charge — it is neutral (charge = 0).",
+    "Forgetting that the electron mass is negligible, not zero — write 'approximately 1/1840' or 'negligible' rather than '0'.",
+    "Stating the atomic number changes in an ion — the number of protons is fixed; only electrons change when ions form."
+  ]
+}

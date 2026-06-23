@@ -204,6 +204,60 @@ p {
   border-color: var(--color-accent);
   box-shadow: 0 0 16px var(--color-glow);
 }
+
+/* ===== Lesson sections (Learn page) ===== */
+.lesson-section {
+  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  line-height: 1.7;
+}
+.lesson-section h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+.lesson-section ul {
+  padding-left: 1.4rem;
+  margin: 0;
+}
+.lesson-section li {
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid rgba(46, 47, 74, 0.5);
+}
+.lesson-section li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+.lesson-section code {
+  font-size: 0.9em;
+  padding: 0.15rem 0.4rem;
+  background: var(--color-bg);
+  border-radius: 3px;
+}
+
+/* Must-know definition list */
+.lesson-defs {
+  margin: 0;
+}
+.lesson-def-item {
+  padding: 0.65rem 0;
+  border-bottom: 1px solid rgba(46, 47, 74, 0.5);
+}
+.lesson-def-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.lesson-def-item dt {
+  font-weight: 700;
+  color: var(--color-accent);
+  margin-bottom: 0.2rem;
+}
+.lesson-def-item dd {
+  margin: 0;
+  color: var(--color-primary);
+}
+
 .surface {
   background: var(--color-surface);
 }

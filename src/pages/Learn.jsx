@@ -144,11 +144,14 @@ export default function Learn() {
             <ul>{(lesson.keyIdeas || []).map((k, i) => <li key={i}>{k}</li>)}</ul>
           </Section>
           <Section title="Must-know definitions">
-            {(lesson.mustKnow || []).map((m, i) => (
-              <p key={i} style={{ margin: '0.35rem 0' }}>
-                <strong>{m.term}:</strong> {m.definition}
-              </p>
-            ))}
+            <dl className="lesson-defs">
+              {(lesson.mustKnow || []).map((m, i) => (
+                <div key={i} className="lesson-def-item">
+                  <dt>{m.term}</dt>
+                  <dd>{m.definition}</dd>
+                </div>
+              ))}
+            </dl>
           </Section>
           <Section title="Mark-scheme phrases (use these exact words)">
             <ul>{(lesson.markSchemePhrases || []).map((x, i) => <li key={i}><code>{x}</code></li>)}</ul>
@@ -226,7 +229,7 @@ function masteryClass(m) {
 
 function Section({ title, children }) {
   return (
-    <div className="card" style={{ marginBottom: '0.85rem' }}>
+    <div className="card lesson-section">
       <h3 style={{ marginTop: 0 }}>{title}</h3>
       {children}
     </div>

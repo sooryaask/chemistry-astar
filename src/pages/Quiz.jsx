@@ -161,6 +161,7 @@ export default function Quiz() {
               }}
               result={marking?.results?.[i]}
               disabled={loading}
+              specId={specId}
             />
           ))}
 

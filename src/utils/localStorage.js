@@ -43,6 +43,8 @@ export const KEYS = {
   lessons: 'lessons',
   reviewDeck: 'reviewDeck',
   timerLog: 'timerLog',
+  mixedPracticeHistory: 'mixedPracticeHistory',
+  examAttempts: 'examAttempts',
 }
 
 // Today's date as a YYYY-MM-DD string in local time.

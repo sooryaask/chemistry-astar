@@ -11,6 +11,8 @@ import ErrorLog from './pages/ErrorLog.jsx'
 import Journal from './pages/Journal.jsx'
 import PastPapers from './pages/PastPapers.jsx'
 import PaperPractice from './pages/PaperPractice.jsx'
+import MixedPractice from './pages/MixedPractice.jsx'
+import ExamSimulator from './pages/ExamSimulator.jsx'
 
 export default function App() {
   return (
@@ -30,6 +32,8 @@ export default function App() {
             <Route path="/journal" element={<Journal />} />
             <Route path="/papers" element={<PastPapers />} />
             <Route path="/practice" element={<PaperPractice />} />
+            <Route path="/mixed" element={<MixedPractice />} />
+            <Route path="/exam" element={<ExamSimulator />} />
           </Routes>
         </main>
         <footer className="site-footer">

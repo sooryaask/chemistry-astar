@@ -32,8 +32,8 @@
     {
       "id": 5,
       "marks": 2,
-      "command": "Identify",
-      "question": "Identify the subshells present in the second shell (n = 2) and state the maximum number of electrons each can hold.",
+      "command": "State",
+      "question": "State the subshells present in the second shell (n = 2) and the maximum number of electrons each can hold.",
       "context": ""
     },
     {
@@ -67,8 +67,8 @@
     {
       "id": 10,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify the only subshell present in the first shell (n = 1).",
+      "command": "State",
+      "question": "State the only subshell present in the first shell (n = 1).",
       "context": ""
     },
     {

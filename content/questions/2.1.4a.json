@@ -25,8 +25,8 @@
     {
       "id": 4,
       "marks": 1,
-      "command": "Name",
-      "question": "Name the salt produced when nitric acid reacts with potassium hydroxide.",
+      "command": "State",
+      "question": "State the name of the salt produced when nitric acid reacts with potassium hydroxide.",
       "context": ""
     },
     {
@@ -88,8 +88,8 @@
     {
       "id": 13,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify which one of the following is a weak acid: sulfuric acid (H₂SO₄), hydrochloric acid (HCl), or ethanoic acid (CH₃COOH).",
+      "command": "State",
+      "question": "State which of the following is a weak acid: sulfuric acid (H₂SO₄), hydrochloric acid (HCl), or ethanoic acid (CH₃COOH).",
       "context": ""
     },
     {

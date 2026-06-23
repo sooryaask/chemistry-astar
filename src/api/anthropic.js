@@ -220,6 +220,34 @@ Respond with valid JSON only:
   return parseJson(text)
 }
 
+// ---- Micro-lesson for wrong answers ----
+
+const MICRO_LESSON_SYSTEM =
+  'You are an OCR A Chemistry tutor explaining a specific mistake to an A*-aiming AS student. Be concise, precise, and direct. Always respond with valid JSON only.'
+
+export async function generateMicroLesson(specPoint, question, userAnswer, modelAnswer) {
+  const prompt = `The student got this question wrong. Explain WHY in 2-3 sentences, identify the specific concept gap, and give one corrective sentence they should memorise.
+
+Spec point: ${specPoint.id} — ${specPoint.title}
+Question: ${question}
+Student's answer: ${userAnswer || '[no answer given]'}
+Model answer (full marks): ${modelAnswer}
+
+Respond with valid JSON only:
+{
+  "explanation": "2-3 sentences explaining what went wrong and why",
+  "conceptGap": "The specific concept or term the student is missing",
+  "relearn": "One corrective sentence to memorise"
+}`
+
+  const text = await callClaude(prompt, {
+    maxTokens: 400,
+    model: FAST_MODEL,
+    system: MICRO_LESSON_SYSTEM,
+  })
+  return parseJson(text)
+}
+
 // ---- Past-paper practice (vision) ----
 
 const PAPER_MARKING_PROMPT = `You are an expert OCR A Chemistry examiner marking the work of Sooryaa, an A-level student aiming for an A*.

@@ -44,9 +44,14 @@ rules there.
 4. Rebuild `coordinator/dashboard.md` (template below).
 5. If a content pack changed, ask feature-builder (next run) to rebuild
    `content/pack.json`.
-6. Stage and commit: `git add coordinator content && git commit -m "Day N: <one-line summary>"`.
+6. **QA gate — if `chem-feature-builder` ran today**, dispatch `feature-tester`
+   before committing. Pass it the list of files feature-builder changed. If
+   feature-tester's verdict is FIXING, wait for it to finish its fix cycle, then
+   re-read the updated files. Only proceed to commit once the verdict is PASS
+   (or the user overrides).
+7. Stage and commit: `git add coordinator content && git commit -m "Day N: <one-line summary>"`.
    Never `git add` `.env`, `smartmark/papers/`, or `smartmark/rendered/`.
-7. Set finished agents to `"idle"`, advance nothing automatically — wait for the
+8. Set finished agents to `"idle"`, advance nothing automatically — wait for the
    next "Run Day N+1".
 
 ## dashboard.md template

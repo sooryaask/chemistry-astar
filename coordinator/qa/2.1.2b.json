@@ -1,31 +1,8 @@
 {
   "specId": "2.1.2b",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 4,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 5,
-    "ocr_a_alignment": "State symbols correctly required; spectator ion rule clearly explained; weak acids correctly NOT split into ions; precipitate correctly kept as (s) in ionic equations. Subscript vs coefficient distinction correctly emphasised.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": "N/A",
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "validator": "chem-validator",
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

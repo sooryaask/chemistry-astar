@@ -14,6 +14,7 @@ import {
 } from '../utils/reviewDeck.js'
 import { logQuizAttempt } from '../utils/stats.js'
 import { applySuperscript } from '../utils/superscript.js'
+import MicroLesson from '../components/MicroLesson.jsx'
 
 // Weighted-random spec point: prefer high-frequency, low-confidence ones, and
 // give an extra boost to topics that have cards waiting in the review deck so
@@ -264,6 +265,16 @@ export default function Flashcards() {
               <div className="model-answer">
                 <strong>Full-marks answer:</strong> {result.modelAnswer}
               </div>
+              {!passed && spec && (
+                <MicroLesson
+                  specId={spec.id}
+                  question={question.question}
+                  userAnswer={answer}
+                  modelAnswer={result.modelAnswer}
+                  score={result.score}
+                  maxScore={result.maxScore}
+                />
+              )}
               <div className="row-actions">
                 <button onClick={nextCard}>Next card (Enter) →</button>
               </div>

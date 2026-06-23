@@ -1,8 +1,8 @@
 {
   "name": "Module 2 Review Mock — Moles, Redox & Electron Structure",
   "date": "2026-06-22",
-  "timeLimitMin": 35,
-  "totalMarks": 35,
+  "timeLimitMin": 45,
+  "totalMarks": 39,
   "note": "Week 1 review mock. Covers HIGH-frequency spec points from Days 1–6. OCR Paper 1 shape: Section A (1-mark recall), Section B (2- and 3-mark structured). All questions original.",
   "specIdsCovered": ["2.1.3a", "2.1.3b", "2.1.3c", "2.1.5a", "2.1.5b", "2.2.1a", "2.2.1b"],
   "sections": [
@@ -38,8 +38,8 @@
           "qNo": 4,
           "specId": "2.1.3c",
           "marks": 1,
-          "command": "Define",
-          "question": "Define the term 'empirical formula'.",
+          "command": "State",
+          "question": "State what is meant by the term 'empirical formula'.",
           "context": ""
         },
         {
@@ -132,8 +132,8 @@
           "qNo": 15,
           "specId": "2.1.5b",
           "marks": 2,
-          "command": "Describe",
-          "question": "Write the oxidation half-equation for aluminium being oxidised to Al³⁺ ions, and the reduction half-equation for hydrogen ions (H⁺) being reduced to hydrogen gas (H₂).",
+          "command": "Write",
+          "question": "Write the oxidation half-equation for aluminium being oxidised to Al³⁺ ions, and the reduction half-equation for hydrogen ions (H⁺) being reduced to hydrogen gas (H₂). Ensure each half-equation is balanced for atoms and charge.",
           "context": ""
         },
         {
@@ -148,8 +148,8 @@
           "qNo": 17,
           "specId": "2.2.1b",
           "marks": 2,
-          "command": "Describe",
-          "question": "Write the electron configurations of the iron atom (Fe, Z = 26) and the Fe³⁺ ion. State which electrons are removed first when the ion forms.",
+          "command": "Write",
+          "question": "Write the electron configurations of the iron atom (Fe, Z = 26) and the Fe³⁺ ion. State which electrons are removed first when the Fe³⁺ ion forms.",
           "context": ""
         },
         {
@@ -180,8 +180,8 @@
           "qNo": 21,
           "specId": "2.1.5b",
           "marks": 3,
-          "command": "Calculate",
-          "question": "Write the two half-equations for the reaction between iron metal (Fe → Fe²⁺) and copper(II) ions (Cu²⁺ → Cu), then combine them to give the overall ionic equation. State which species is the oxidising agent and explain your choice.",
+          "command": "Deduce",
+          "question": "Write the half-equations for the reaction between iron metal (Fe → Fe²⁺) and copper(II) ions (Cu²⁺ → Cu). Combine the two half-equations to give the overall ionic equation. State which species is the oxidising agent and justify your choice.",
           "context": ""
         },
         {

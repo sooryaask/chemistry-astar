@@ -46,8 +46,8 @@
     {
       "id": 7,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify the reducing agent in the reaction: 2Fe³⁺(aq) + 2I⁻(aq) → 2Fe²⁺(aq) + I₂(aq).",
+      "command": "Deduce",
+      "question": "Deduce the reducing agent in the reaction: 2Fe³⁺(aq) + 2I⁻(aq) → 2Fe²⁺(aq) + I₂(aq).",
       "context": ""
     },
     {
@@ -88,8 +88,8 @@
     {
       "id": 13,
       "marks": 1,
-      "command": "Name",
-      "question": "Name the ions that are excluded from an ionic equation because they do not change during the reaction.",
+      "command": "State",
+      "question": "State the name given to the ions that are excluded from an ionic equation because they do not change during the reaction.",
       "context": ""
     },
     {

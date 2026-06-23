@@ -68,6 +68,21 @@ const ICONS = {
       <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
     </svg>
   ),
+  shuffle: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <polyline points="16 3 21 3 21 8" />
+      <line x1="4" y1="20" x2="21" y2="3" />
+      <polyline points="21 16 21 21 16 21" />
+      <line x1="15" y1="15" x2="21" y2="21" />
+      <line x1="4" y1="4" x2="9" y2="9" />
+    </svg>
+  ),
+  clock: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="10" />
+      <polyline points="12 6 12 12 16 14" />
+    </svg>
+  ),
 }
 
 const links = [
@@ -81,6 +96,8 @@ const links = [
   { to: '/errors', label: 'Errors', icon: 'alertTriangle' },
   { to: '/papers', label: 'Papers', icon: 'fileText' },
   { to: '/journal', label: 'Journal', icon: 'bookOpen' },
+  { to: '/mixed', label: 'Mix', icon: 'shuffle' },
+  { to: '/exam', label: 'Exam', icon: 'clock' },
 ]
 
 export default function Nav() {
@@ -111,7 +128,8 @@ export default function Nav() {
           className="sidebar-title"
           onClick={() => setOpen(false)}
         >
-          Zero to A*
+          <img src={import.meta.env.BASE_URL + 'logo-mark.svg'} alt="" width="28" height="28" style={{ borderRadius: 6 }} />
+          <span className="nav-label">Zero to A*</span>
         </NavLink>
         <div className="sidebar-links">
           {links.map((l) => (

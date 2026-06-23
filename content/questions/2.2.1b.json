@@ -46,8 +46,8 @@
     {
       "id": 7,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify which electrons are lost first when a transition metal atom forms a positive ion.",
+      "command": "State",
+      "question": "State which electrons are lost first when a transition metal atom forms a positive ion.",
       "context": ""
     },
     {
@@ -88,8 +88,8 @@
     {
       "id": 13,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify the two elements in Period 4, with atomic numbers up to Z = 36, that have anomalous electron configurations due to the extra stability of a full or half-filled d subshell.",
+      "command": "State",
+      "question": "State the two elements in Period 4 (up to Z = 36) that have anomalous electron configurations due to the extra stability of a full or half-filled d subshell.",
       "context": ""
     },
     {

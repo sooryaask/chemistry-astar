@@ -3,7 +3,7 @@
   "startDate": "2026-06-16",
   "challengeDays": 21,
   "currentDay": 7,
-  "note": "Day 7 (2026-06-22): Week 1 Review day. Days 1-6 content backfilled in this run (content/ was empty on entry). All 12 spec points (Days 1-6) received notes + question banks. QA: all 12 pass. Module 2 mock assembled (Moles + Redox + Electron Structure, 35 marks, 35 min). Mock awaits student sitting on Complete Day 7.",
+  "note": "Day 7 (2026-06-22): Week 1 Review day. Days 1-6 content backfilled in this run (content/ was empty on entry). All 12 spec points (Days 1-6) received notes + question banks. Real chem-validator QA gate: notes 12/12 pass; question banks initially 5/12 pass — 7 failed on non-OCR command words (Name/Identify) + one spec-boundary leak (2.1.3a Q13); question-generator applied the fixes and re-QA is now 12/12 pass/pass. Module 2 mock assembled then corrected to 39 marks / 45 min (header had wrongly declared 35/35; one non-OCR 'Define' fixed; 3 command-word mismatches relabelled). Mock covers Moles (2.1.3a/b/c) + Redox (2.1.5a/b) + Electron Structure (2.2.1a/b) only. Mock awaits student sitting on Complete Day 7. (Frequencies: the 8 mock/Module-2-core points 2.1.3a/b/c, 2.1.4b, 2.1.5a/b, 2.2.1a/b are HIGH; foundation points 2.1.1a=MED, 2.1.2a/b=LOW, 2.1.4a=MED.) Advisory backlog: 2.1.4a Q5/Q8/Q11/Q14 use 'Describe' with a 'Write the equation' verb — relabel to 'State' in next content sweep.",
   "lastUpdated": "2026-06-22",
 
   "agents": {
@@ -11,7 +11,7 @@
     "explainer":          { "status": "idle", "lastTask": "day-7-backfill-notes (12 spec points)", "lastOutput": "content/notes/2.1.1a..2.2.1b.json (12 files)" },
     "question-generator": { "status": "idle", "lastTask": "day-7-backfill-banks (12 spec points)", "lastOutput": "content/questions/2.1.1a..2.2.1b.json (12 files)" },
     "mock-runner":        { "status": "idle", "lastTask": "day-7-assemble-module2-mock", "lastOutput": "content/mocks/2026-06-22-module2.json" },
-    "validator":          { "status": "idle", "lastTask": "day-7-qa (12 spec points)", "lastOutput": "coordinator/qa/2.1.1a..2.2.1b.json (12 files, all pass)" },
+    "validator":          { "status": "idle", "lastTask": "day-7-qa + re-qa (12 spec points)", "lastOutput": "coordinator/qa/2.1.1a..2.2.1b.json (12 files, 12/12 pass after fix loop)" },
     "feature-builder":    { "status": "idle", "lastTask": null, "lastOutput": null }
   },
 
@@ -34,10 +34,11 @@
     {
       "file": "content/mocks/2026-06-22-module2.json",
       "name": "Module 2 Review Mock — Moles, Redox & Electron Structure",
-      "totalMarks": 35,
-      "timeLimitMin": 35,
+      "totalMarks": 39,
+      "timeLimitMin": 45,
+      "questionCount": 22,
       "status": "assembled-awaiting-sit",
-      "note": "Student sits this mock on Complete Day 7. Validator marks answers. Supervisor writes weakTopics from topics scoring <70%. mock-runner records paperScore to coordinator/results/mock-2026-06-22.json."
+      "note": "Corrected from a wrongly-declared 35/35. Student sits this mock on Complete Day 7. Validator marks answers. Supervisor writes weakTopics from topics scoring <70%. mock-runner records paperScore to coordinator/results/mock-2026-06-22.json."
     }
   ],
 
@@ -75,11 +76,11 @@
     },
     {
       "day": 7,
-      "agent": "validator",
-      "action": "qa-content",
+      "agent": "supervisor",
+      "action": "qa-inline-SUPERSEDED",
       "artifact": "coordinator/qa/{12 files}.json",
       "ts": "2026-06-22",
-      "note": "All 12 spec points: notesVerdict=pass, questionsVerdict=pass. No fixes required. No past-paper copying detected."
+      "note": "An inline ('supervisor-inline') QA pass had recorded all 12 as pass with no fixes. This was SUPERSEDED by the real chem-validator gate below, which caught 7 question-bank failures the inline pass missed."
     },
     {
       "day": 7,
@@ -87,15 +88,47 @@
       "action": "assemble-module2-mock",
       "artifact": "content/mocks/2026-06-22-module2.json",
       "ts": "2026-06-22",
-      "note": "35-mark mock assembled from 7 spec points (Moles + Redox + Electron Structure). 10x1-mark Section A; 12x mixed 2-/3-mark Section B. Awaits student sitting."
+      "note": "Initial assembly from 7 spec points (Moles + Redox + Electron Structure). 10x1-mark Section A; 12x mixed 2-/3-mark Section B. Header wrongly declared 35 marks (actual sum 39); contained a non-OCR 'Define' command word. Corrected below."
+    },
+    {
+      "day": 7,
+      "agent": "validator",
+      "action": "qa-content-real-gate",
+      "artifact": "coordinator/qa/{12 files}.json",
+      "ts": "2026-06-22",
+      "note": "Real chem-validator (Opus) gate on current on-disk content. Notes 12/12 pass. Question banks 5/12 pass; FAILED: 2.1.3a (Q13 out-of-spec concentration leak), 2.1.4a, 2.1.4b, 2.1.5a, 2.1.5b, 2.2.1a, 2.2.1b (non-OCR command words Name/Identify). Verdicts overwritten with validator=chem-validator."
+    },
+    {
+      "day": 7,
+      "agent": "question-generator",
+      "action": "apply-validator-fixes",
+      "artifact": "content/questions/{2.1.3a,2.1.4a,2.1.4b,2.1.5a,2.1.5b,2.2.1a,2.2.1b}.json",
+      "ts": "2026-06-22",
+      "note": "Applied the validator's exact fixes to the 7 failed banks: replaced Name/Identify with OCR command words (State/Deduce) and rewrote 2.1.3a Q13 to a 2.1.3a-only recall (Avogadro constant). Marks/ladder preserved."
+    },
+    {
+      "day": 7,
+      "agent": "validator",
+      "action": "re-qa-pass",
+      "artifact": "coordinator/qa/{7 files}.json",
+      "ts": "2026-06-22",
+      "note": "Re-QA of the 7 fixed banks: all now questions=pass. Day-7 content is 12/12 pass/pass. Advisory (not a fail): 2.1.4a Q5/Q8/Q11/Q14 'Describe'+'Write the equation' verb mismatch — relabel to 'State' in next sweep."
+    },
+    {
+      "day": 7,
+      "agent": "mock-runner",
+      "action": "correct-mock",
+      "artifact": "content/mocks/2026-06-22-module2.json",
+      "ts": "2026-06-22",
+      "note": "Corrected mock: totalMarks 35->39 (now equals actual sum), timeLimitMin 35->45 (~1 min/mark + reading). Q4 'Define'->'State'; Q15/Q17 'Describe'->'Write'; Q21 'Calculate'->'Deduce'. Topics unchanged (Moles+Redox+Electron Structure)."
     },
     {
       "day": 7,
       "agent": "supervisor",
       "action": "run-day-7-complete-pending",
-      "artifact": "coordinator/state.json",
+      "artifact": "coordinator/state.json, coordinator/dashboard.md",
       "ts": "2026-06-22",
-      "note": "weakTopics empty until student sits mock and Complete Day 7 is run. mocksRun remains 0 until then."
+      "note": "Run phase done: 12/12 content pass, mock assembled+corrected (39 marks). weakTopics empty and mocksRun=0 until the student sits the mock and 'Complete Day 7' is run. No commit yet (commit happens on Complete Day 7)."
     }
   ]
 }

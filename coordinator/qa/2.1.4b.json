@@ -1,31 +1,8 @@
 {
   "specId": "2.1.4b",
+  "validator": "chem-validator",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 3,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 5,
-    "ocr_a_alignment": "Four-step titration method correctly described; cm³→dm³ conversion emphasised; concordant titres (within 0.10 cm³) correctly defined; mole ratio from balanced equation correctly taught.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": true,
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

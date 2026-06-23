@@ -1,31 +1,8 @@
 {
   "specId": "2.1.3a",
+  "validator": "chem-validator",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 7,
-    "mustKnowCount": 5,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 4,
-    "ocr_a_alignment": "Confirmed: uses 24,000 cm³ mol⁻¹ at RTP (25 °C, 100 kPa) — correct OCR A value; distinguishes from STP.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": true,
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

@@ -1,31 +1,8 @@
 {
   "specId": "2.1.5a",
+  "validator": "chem-validator",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 6,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 5,
-    "ocr_a_alignment": "OIL RIG mnemonic included; priority rules correctly ordered; peroxide exception (O = −1) and OF₂ exception (O = +2) noted; disproportionation correctly defined; H in metal hydrides (−1) exception noted.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": "N/A (conceptual topic)",
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

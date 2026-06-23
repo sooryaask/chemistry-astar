@@ -4,6 +4,7 @@ import { SPEC } from '../data/spec.js'
 import { dailyScoreAverages, allAttempts } from '../utils/stats.js'
 import ScoreChart from '../components/ScoreChart.jsx'
 import JournalEntry from '../components/JournalEntry.jsx'
+import { generateJournalMarkdown, generateAllDataJson, downloadFile } from '../utils/exportData.js'
 
 export default function Journal() {
   const [entries, setEntries] = useState([])
@@ -109,6 +110,22 @@ export default function Journal() {
         </div>
 
         <button onClick={saveToday}>{saved ? 'Saved ✓' : "Save today's entry"}</button>
+      </div>
+
+      <h2>Export your data</h2>
+      <div className="export-bar">
+        <button
+          className="secondary"
+          onClick={() => downloadFile(generateJournalMarkdown(), 'chemistry-study-log.md', 'text/markdown')}
+        >
+          Download experiment log (.md)
+        </button>
+        <button
+          className="secondary"
+          onClick={() => downloadFile(generateAllDataJson(), 'chemistry-all-data.json', 'application/json')}
+        >
+          Download all data (.json)
+        </button>
       </div>
 
       <h2>Past entries</h2>

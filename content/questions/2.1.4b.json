@@ -67,8 +67,8 @@
     {
       "id": 10,
       "marks": 1,
-      "command": "Name",
-      "question": "Name the piece of glassware that delivers a fixed, precise volume of solution in a titration.",
+      "command": "State",
+      "question": "State the name of the piece of glassware that delivers a fixed, precise volume of solution in a titration.",
       "context": ""
     },
     {

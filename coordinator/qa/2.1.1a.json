@@ -1,31 +1,8 @@
 {
   "specId": "2.1.1a",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 4,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 4,
-    "ocr_a_alignment": "Relative charges and masses correctly tabulated; neutron mass correctly stated as 1 (not 0); electron mass as 1/1840 (negligible not zero — correctly distinguished); proton number correctly defined as determining the element.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": "N/A",
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "validator": "chem-validator",
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

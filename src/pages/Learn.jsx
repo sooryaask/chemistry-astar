@@ -4,6 +4,7 @@ import { getItem, setItem, KEYS } from '../utils/localStorage.js'
 import { quizCandidates } from '../utils/priority.js'
 import { getSpecPoint } from '../data/spec.js'
 import { generateLesson } from '../api/anthropic.js'
+import ActiveRecall from '../components/ActiveRecall.jsx'
 import { topicMastery, MASTERY_LABEL, unmasteredPrereqs } from '../utils/guide.js'
 import { CONFIDENCE_LABELS } from '../config.js'
 
@@ -169,6 +170,18 @@ export default function Learn() {
             <ul>{(lesson.commonTraps || []).map((t, i) => <li key={i}>{t}</li>)}</ul>
           </Section>
         </div>
+      )}
+
+      {/* ===== Step 1.5: Recall ===== */}
+      <h2>1.5 · Recall</h2>
+      <p className="muted">
+        The same content you just read, with key terms blanked out.
+        Fill in the gaps from memory — this is where the learning sticks.
+      </p>
+      {lesson ? (
+        <ActiveRecall lesson={lesson} />
+      ) : (
+        <p className="muted">Generate a lesson above first.</p>
       )}
 
       {/* ===== Step 2: Practise ===== */}

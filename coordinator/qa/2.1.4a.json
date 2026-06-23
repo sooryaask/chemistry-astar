@@ -1,31 +1,8 @@
 {
   "specId": "2.1.4a",
+  "validator": "chem-validator",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 5,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 5,
-    "ocr_a_alignment": "Brønsted–Lowry definitions used; strong/weak acid defined by dissociation degree (not rate); state symbols present in ionic equations.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": true,
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

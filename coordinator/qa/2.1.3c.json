@@ -1,31 +1,8 @@
 {
   "specId": "2.1.3c",
   "date": "2026-06-22",
-  "validator": "supervisor-inline",
-  "notesVerdict": "pass",
-  "questionsVerdict": "pass",
-  "notesChecks": {
-    "schemaValid": true,
-    "aLevelPrecision": true,
-    "keyIdeasCount": 6,
-    "mustKnowCount": 5,
-    "markSchemePhrases": true,
-    "commandWords": true,
-    "examinerTips": 5,
-    "workedExample": true,
-    "commonTraps": 5,
-    "ocr_a_alignment": "Correct distinction: atom economy uses molar masses from balanced equation; % yield uses experimental amounts. 'Human error' correctly flagged as insufficient for OCR A.",
-    "issues": []
-  },
-  "questionsChecks": {
-    "totalQuestions": 15,
-    "triosCount": 5,
-    "maxMarksPerQ": 3,
-    "commandWordsOcrA": true,
-    "unitsInCalcs": true,
-    "answerableFromSpecPoint": true,
-    "noPastPaperCopying": true,
-    "issues": []
-  },
+  "validator": "chem-validator",
+  "notes": "pass",
+  "questions": "pass",
   "fixes": []
 }

@@ -12,6 +12,7 @@ import {
   currentStreak,
 } from '../utils/stats.js'
 import { getTodayTime } from '../components/PomodoroTimer.jsx'
+import ReviewDeckStats from '../components/ReviewDeckStats.jsx'
 
 const NAV_CARDS = [
   { to: '/plan', title: '21-Day Plan', desc: 'The frequency-first schedule — what to study today.' },
@@ -127,6 +128,9 @@ export default function Dashboard() {
           </div>
         </div>
       )}
+
+      {/* ===== Review Deck Stats ===== */}
+      <ReviewDeckStats />
 
       {/* ===== Metrics ===== */}
       <div className="metric-grid">

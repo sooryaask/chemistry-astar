@@ -1,7 +1,8 @@
 import { useRef } from 'react'
 import { applySuperscript } from '../utils/superscript.js'
+import MicroLesson from './MicroLesson.jsx'
 
-export default function QuizQuestion({ question, answer, onChange, result, disabled }) {
+export default function QuizQuestion({ question, answer, onChange, result, disabled, specId }) {
   const superRef = useRef(false)
   return (
     <div
@@ -41,6 +42,16 @@ export default function QuizQuestion({ question, answer, onChange, result, disab
             <div className="model-answer">
               <strong>Mark-scheme answer:</strong> {result.modelAnswer}
             </div>
+          )}
+          {specId && result.score < result.maxScore && (
+            <MicroLesson
+              specId={specId}
+              question={question.question}
+              userAnswer={answer}
+              modelAnswer={result.modelAnswer}
+              score={result.score}
+              maxScore={result.maxScore}
+            />
           )}
         </div>
       )}

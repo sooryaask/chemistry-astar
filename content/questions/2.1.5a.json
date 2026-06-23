@@ -53,8 +53,8 @@
     {
       "id": 8,
       "marks": 2,
-      "command": "Identify",
-      "question": "In the reaction Zn + CuSO₄ → ZnSO₄ + Cu, identify the oxidising agent and the reducing agent. Justify each choice using oxidation numbers.",
+      "command": "Deduce",
+      "question": "Deduce the oxidising agent and the reducing agent in the reaction Zn + CuSO₄ → ZnSO₄ + Cu. Justify each choice using oxidation numbers.",
       "context": ""
     },
     {
@@ -67,8 +67,8 @@
     {
       "id": 10,
       "marks": 1,
-      "command": "Identify",
-      "question": "Identify the oxidation state of iron in iron(III) chloride (FeCl₃).",
+      "command": "Deduce",
+      "question": "Deduce the oxidation state of iron in iron(III) chloride (FeCl₃).",
       "context": ""
     },
     {
@@ -88,8 +88,8 @@
     {
       "id": 13,
       "marks": 1,
-      "command": "Name",
-      "question": "Name the type of reaction in which a single element is simultaneously oxidised and reduced.",
+      "command": "State",
+      "question": "State the name of the type of reaction in which a single element is simultaneously oxidised and reduced.",
       "context": ""
     },
     {

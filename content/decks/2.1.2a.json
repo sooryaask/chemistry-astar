@@ -1,0 +1,75 @@
+{
+  "specId": "2.1.2a",
+  "title": "Formulae and ions",
+  "module": 2,
+  "cards": [
+    {
+      "id": "r1",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "State the formula and charge of: sulfate, nitrate, carbonate.",
+      "context": "",
+      "answer": "Sulfate SO₄²⁻, nitrate NO₃⁻, carbonate CO₃²⁻.",
+      "markPoints": ["SO₄²⁻", "NO₃⁻", "CO₃²⁻"],
+      "explanation": "These polyatomic ions must be memorised — they appear constantly in formulae and equations.",
+      "calc": false
+    },
+    {
+      "id": "r2",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "State the formula and charge of: ammonium, hydroxide, phosphate.",
+      "context": "",
+      "answer": "Ammonium NH₄⁺, hydroxide OH⁻, phosphate PO₄³⁻.",
+      "markPoints": ["NH₄⁺", "OH⁻", "PO₄³⁻"],
+      "explanation": "Ammonium is the common positive polyatomic ion; phosphate carries 3−.",
+      "calc": false
+    },
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "Deduce",
+      "question": "Deduce the formula of the compound formed between magnesium ions (Mg²⁺) and nitrate ions (NO₃⁻).",
+      "context": "",
+      "answer": "Mg(NO₃)₂",
+      "markPoints": ["Mg(NO₃)₂"],
+      "explanation": "Charges must balance: one Mg²⁺ needs two NO₃⁻. Bracket the whole polyatomic ion before the subscript.",
+      "calc": false
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "Deduce the formulae of (i) aluminium oxide and (ii) ammonium carbonate.",
+      "context": "",
+      "answer": "(i) Al₂O₃  (ii) (NH₄)₂CO₃",
+      "markPoints": ["Al₂O₃", "(NH₄)₂CO₃"],
+      "explanation": "Cross over the charges: Al³⁺ and O²⁻ → Al₂O₃; two NH₄⁺ balance one CO₃²⁻.",
+      "calc": false
+    },
+    {
+      "id": 3,
+      "marks": 2,
+      "command": "Deduce",
+      "question": "A compound is named iron(III) sulfate. Deduce its formula, using the oxidation number in the name.",
+      "context": "",
+      "answer": "Iron(III) means Fe³⁺; sulfate is SO₄²⁻. Balancing charges gives Fe₂(SO₄)₃.",
+      "markPoints": ["Fe is +3 (Fe³⁺)", "Fe₂(SO₄)₃"],
+      "explanation": "The Roman numeral gives the metal's oxidation number/charge; then balance with the anion.",
+      "calc": false
+    },
+    {
+      "id": 4,
+      "marks": 1,
+      "command": "Name",
+      "question": "Name the compound CuSO₄ using oxidation number nomenclature. [Cu is +2]",
+      "context": "",
+      "answer": "Copper(II) sulfate",
+      "markPoints": ["copper(II) sulfate"],
+      "explanation": "Transition metals need the oxidation number in brackets because they form more than one ion.",
+      "calc": false
+    }
+  ]
+}

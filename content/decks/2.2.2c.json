@@ -1,0 +1,64 @@
+{
+  "specId": "2.2.2c",
+  "title": "Electronegativity and polarity",
+  "module": 2,
+  "cards": [
+    {
+      "id": "r1",
+      "kind": "recall",
+      "marks": 1,
+      "command": "Define",
+      "question": "Define electronegativity.",
+      "context": "",
+      "answer": "The ability of an atom to attract the bonding (shared) pair of electrons in a covalent bond.",
+      "markPoints": ["ability of an atom to attract the bonding pair of electrons"],
+      "explanation": "Must say 'bonding pair of electrons in a covalent bond' — not just 'attract electrons'.",
+      "calc": false
+    },
+    {
+      "id": "r2",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "State how electronegativity varies across a period and down a group.",
+      "context": "",
+      "answer": "It increases across a period and decreases down a group. Fluorine is the most electronegative element.",
+      "markPoints": ["increases across a period", "decreases down a group"],
+      "explanation": "Across: more protons, similar shielding, smaller radius → stronger pull. Down: more shielding, larger radius → weaker pull.",
+      "calc": false
+    },
+    {
+      "id": 1,
+      "marks": 2,
+      "command": "Explain",
+      "question": "Explain how a permanent dipole arises in a hydrogen chloride (HCl) molecule.",
+      "context": "",
+      "answer": "Chlorine is more electronegative than hydrogen, so it attracts the bonding pair more strongly. This gives Cl a partial negative charge (δ−) and H a partial positive charge (δ+) — a permanent dipole.",
+      "markPoints": ["Cl more electronegative, attracts bonding pair more", "δ− on Cl, δ+ on H"],
+      "explanation": "Unequal sharing of electrons in a polar bond creates δ+ and δ− — a permanent dipole.",
+      "calc": false
+    },
+    {
+      "id": 2,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Carbon dioxide (CO₂) contains polar bonds but the molecule is non-polar. Explain why.",
+      "context": "",
+      "answer": "Each C=O bond is polar because O is more electronegative than C. However, CO₂ is linear and symmetrical, so the two bond dipoles are equal and point in opposite directions; they cancel out, leaving no overall dipole.",
+      "markPoints": ["C=O bonds are polar (O more electronegative)", "molecule is linear/symmetrical", "dipoles equal and opposite, so cancel"],
+      "explanation": "Polarity of a molecule depends on both bond polarity AND shape/symmetry.",
+      "calc": false
+    },
+    {
+      "id": 3,
+      "marks": 1,
+      "command": "State",
+      "question": "State whether a molecule of water is polar or non-polar, and why in one phrase.",
+      "context": "",
+      "answer": "Polar — it is bent, so the two O–H bond dipoles do not cancel.",
+      "markPoints": ["polar; bent shape means dipoles don't cancel"],
+      "explanation": "Unlike CO₂, the bent shape means the dipoles add to give a net dipole.",
+      "calc": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "specId": "2.2.2b",
+  "title": "Shapes of molecules (VSEPR)",
+  "module": 2,
+  "cards": [
+    {
+      "id": "r1",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "State the central idea of electron-pair repulsion theory.",
+      "context": "",
+      "answer": "Electron pairs around a central atom repel each other and arrange themselves as far apart as possible to minimise repulsion.",
+      "markPoints": ["electron pairs repel and get as far apart as possible"],
+      "explanation": "Count ALL electron pairs (bonding + lone) around the central atom to predict the shape.",
+      "calc": false
+    },
+    {
+      "id": "r2",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "State the order of repulsion strength between lone pairs and bonding pairs.",
+      "context": "",
+      "answer": "lone pair–lone pair > lone pair–bonding pair > bonding pair–bonding pair.",
+      "markPoints": ["lp–lp > lp–bp > bp–bp"],
+      "explanation": "Each lone pair reduces the bond angle by roughly 2.5°.",
+      "calc": false
+    },
+    {
+      "id": 1,
+      "marks": 2,
+      "command": "State",
+      "question": "State the shape and bond angle of a molecule of methane, CH₄.",
+      "context": "",
+      "answer": "Tetrahedral, 109.5°.",
+      "markPoints": ["tetrahedral", "109.5°"],
+      "explanation": "4 bonding pairs, no lone pairs → tetrahedral, 109.5°.",
+      "calc": false
+    },
+    {
+      "id": 2,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain the shape and bond angle of an ammonia molecule, NH₃.",
+      "context": "",
+      "answer": "N has 3 bonding pairs and 1 lone pair (4 electron pairs total). The lone pair repels more strongly than the bonding pairs, pushing the bonds closer together. The shape is pyramidal with a bond angle of 107°.",
+      "markPoints": ["3 bonding pairs + 1 lone pair", "lone pair repels more, reducing the angle", "pyramidal, 107°"],
+      "explanation": "Start from tetrahedral (4 pairs); the lone pair squeezes the angle from 109.5° to 107°.",
+      "calc": false
+    },
+    {
+      "id": 3,
+      "marks": 2,
+      "command": "State",
+      "question": "State the shape and bond angle of (i) CO₂ and (ii) SF₆.",
+      "context": "",
+      "answer": "(i) CO₂: linear, 180°.  (ii) SF₆: octahedral, 90°.",
+      "markPoints": ["CO₂ linear 180°", "SF₆ octahedral 90°"],
+      "explanation": "CO₂ has 2 bonding regions (double bonds count as one region); SF₆ has 6 bonding pairs.",
+      "calc": false
+    },
+    {
+      "id": 4,
+      "marks": 2,
+      "command": "State",
+      "question": "State the shape and bond angle of a water molecule, H₂O.",
+      "context": "",
+      "answer": "Bent (V-shaped / non-linear), 104.5°.",
+      "markPoints": ["bent / non-linear", "104.5°"],
+      "explanation": "2 bonding pairs + 2 lone pairs; two lone pairs reduce the angle to 104.5°.",
+      "calc": false
+    }
+  ]
+}

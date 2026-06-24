@@ -37,7 +37,7 @@ export default function Decks() {
 
   return (
     <div className="decks">
-      <h1 className="decks-title">Chemistry</h1>
+      <h1 className="decks-title">Chemistry · Past papers</h1>
 
       {calc.length > 0 && (
         <section className="module-block">
@@ -45,7 +45,7 @@ export default function Decks() {
           <DeckRow
             to={`/review/${encodeURIComponent('calc')}`}
             label="Calculations"
-            sub="every calc question, all topics"
+            sub="every calculation question, all topics"
             cards={calc}
           />
         </section>
@@ -55,17 +55,12 @@ export default function Decks() {
         <section className="module-block" key={mid}>
           <h2 className="module-head">{MODULES[mid]}</h2>
           {tree[mid].map((topic) => (
-            <div className="topic-group" key={topic.topicId}>
-              <div className="topic-name">{topic.name}</div>
-              {topic.subdecks.map((sd) => (
-                <DeckRow
-                  key={sd.deckId}
-                  to={`/review/${encodeURIComponent(sd.deckId)}`}
-                  label={sd.label}
-                  cards={sd.cards}
-                />
-              ))}
-            </div>
+            <DeckRow
+              key={topic.topicId}
+              to={`/review/${encodeURIComponent(topic.deckId)}`}
+              label={topic.name}
+              cards={topic.cards}
+            />
           ))}
         </section>
       ))}

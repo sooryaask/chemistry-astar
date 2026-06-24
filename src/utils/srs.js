@@ -41,43 +41,68 @@ export function classify(cardState, today = todayISO()) {
   return cardState.reps >= STEPS.length ? 'review' : 'learning'
 }
 
-// Apply a grade to a card id and persist. Returns the new card state.
-export function grade(cardId, g, today = todayISO()) {
-  const state = getState()
-  const card = state[cardId] || {
-    reps: 0,
-    lapses: 0,
-    ease: DEFAULT_EASE,
-    intervalDays: 0,
-    due: today,
-    createdAt: Date.now(),
-  }
+// Pure: compute the next card state for a grade, without saving.
+// - again: relearn from scratch — due today (resurfaces this session)
+// - hard:  while still learning (reps < STEPS), repeat the step — due today
+//          (resurfaces this session); once mature, a small day-level bump
+// - good:  advance through 1d, 3d, then ease-multiplied intervals
+// - easy:  a bigger jump than good, and the card gets easier
+function computeNext(prev, g, today) {
+  const card = prev
+    ? { ...prev }
+    : { reps: 0, lapses: 0, ease: DEFAULT_EASE, intervalDays: 0, due: today, createdAt: Date.now() }
 
   if (g === 'again') {
     card.lapses += 1
     card.reps = 0
     card.ease = Math.max(MIN_EASE, card.ease - 0.2)
     card.intervalDays = 0
-    card.due = today // stays in today's queue
+    card.due = today
   } else if (g === 'hard') {
     card.ease = Math.max(MIN_EASE, card.ease - 0.15)
-    card.intervalDays = Math.max(1, Math.round((card.intervalDays || 1) * 1.2))
+    if (card.reps < STEPS.length) {
+      card.intervalDays = 0
+      card.due = today
+    } else {
+      card.intervalDays = Math.max(1, Math.round((card.intervalDays || 1) * 1.2))
+      card.due = addDays(today, card.intervalDays)
+    }
+  } else if (g === 'good') {
+    card.reps += 1
+    card.intervalDays =
+      card.reps <= STEPS.length ? STEPS[card.reps - 1] : Math.round((card.intervalDays || 1) * card.ease)
     card.due = addDays(today, card.intervalDays)
   } else {
-    // good / easy
+    // easy
     card.reps += 1
     const base =
-      card.reps <= STEPS.length
-        ? STEPS[card.reps - 1]
-        : Math.round((card.intervalDays || 1) * card.ease)
-    card.intervalDays = g === 'easy' ? Math.max(base + 1, Math.round(base * 1.3)) : base
-    if (g === 'easy') card.ease = card.ease + 0.15
+      card.reps <= STEPS.length ? STEPS[card.reps - 1] : Math.round((card.intervalDays || 1) * card.ease)
+    card.intervalDays = Math.max(base + 1, Math.round(base * 1.4))
+    card.ease = card.ease + 0.15
     card.due = addDays(today, card.intervalDays)
   }
-
-  state[cardId] = card
-  saveState(state)
   return card
+}
+
+// Apply a grade to a card id and persist. Returns the new card state.
+export function grade(cardId, g, today = todayISO()) {
+  const state = getState()
+  const next = computeNext(state[cardId], g, today)
+  state[cardId] = next
+  saveState(state)
+  return next
+}
+
+// Human-readable "next interval" for each grade button (e.g. "soon", "1d", "8d").
+export function previewLabels(cardId, today = todayISO()) {
+  const prev = getState()[cardId]
+  const fmt = (c) => (c.intervalDays <= 0 ? 'soon' : `${c.intervalDays}d`)
+  return {
+    again: fmt(computeNext(prev, 'again', today)),
+    hard: fmt(computeNext(prev, 'hard', today)),
+    good: fmt(computeNext(prev, 'good', today)),
+    easy: fmt(computeNext(prev, 'easy', today)),
+  }
 }
 
 export function setSuspended(cardId, suspended, today = todayISO()) {

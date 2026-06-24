@@ -1,8 +1,11 @@
-import { useMemo, useRef, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getDeckCards, deckTitle } from '../data/cards.js'
-import { buildSession, deckCounts, grade, setSuspended, resetCard } from '../utils/srs.js'
-import { applySuperscript } from '../utils/superscript.js'
+import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard } from '../utils/srs.js'
+import { todayISO } from '../utils/localStorage.js'
+
+// How many cards later a graded card resurfaces this session (in-session relearn).
+const GAPS = { again: 3, hard: 7 }
 
 function Counter({ counts }) {
   return (
@@ -25,13 +28,11 @@ export default function Review() {
   const [queue, setQueue] = useState(() => buildSession(allCards).queue)
   const [counts, setCounts] = useState(() => deckCounts(allCards))
   const [revealed, setRevealed] = useState(false)
-  const [attempt, setAttempt] = useState('first') // 'first' | 'retry'
   const [input, setInput] = useState('')
-  const [firstInput, setFirstInput] = useState('')
   const [menuOpen, setMenuOpen] = useState(false)
-  const ssMode = useRef(false)
 
   const card = queue[0]
+  const labels = card ? previewLabels(card.id) : null
 
   function refreshCounts() {
     setCounts(deckCounts(allCards))
@@ -39,59 +40,35 @@ export default function Review() {
 
   function resetView() {
     setRevealed(false)
-    setAttempt('first')
     setInput('')
-    setFirstInput('')
     setMenuOpen(false)
-    ssMode.current = false
   }
 
-  // Advance to the next card. `requeue` pushes the current card to the back so it
-  // resurfaces later this session (used for Again / Still-shaky / Skip).
-  function next(requeue) {
+  // Move past the current card. `reinsertAt` = null removes it from the session;
+  // a number reinserts it that many cards later (so it resurfaces this session).
+  function advance(reinsertAt) {
     setQueue((q) => {
       const [head, ...rest] = q
-      return requeue && head ? [...rest, head] : rest
+      if (reinsertAt == null || !head) return rest
+      const i = Math.min(reinsertAt, rest.length)
+      return [...rest.slice(0, i), head, ...rest.slice(i)]
     })
     resetView()
   }
 
-  function reveal() {
-    if (attempt === 'first') setFirstInput(input)
-    setRevealed(true)
-  }
-
-  function gradeFirst(g) {
-    grade(card.id, g)
+  function gradeCard(g) {
+    const next = grade(card.id, g)
     refreshCounts()
-    // Image past-paper cards already show the full mark scheme, so they skip the
-    // type-again step. Text cards graded Again will resurface anyway.
-    if (card.type === 'image' || g === 'again') {
-      next(g === 'again')
-    } else {
-      setAttempt('retry')
-      setRevealed(false)
-      setInput('')
-      ssMode.current = false
-    }
-  }
-
-  function retryDone(locked) {
-    if (!locked) {
-      // Still shaky — override to Again so it stays in today's learning queue.
-      grade(card.id, 'again')
-      refreshCounts()
-      next(true)
-    } else {
-      next(false)
-    }
+    // If the card is due again today (Again, or Hard while still learning), it
+    // resurfaces later this session; otherwise it's scheduled for a future day.
+    const stillDueToday = next.due <= todayISO()
+    advance(stillDueToday ? GAPS[g] ?? 0 : null)
   }
 
   function onKeyDown(e) {
-    if (applySuperscript(e, ssMode, input, setInput)) return
     if (e.key === 'Enter' && !e.shiftKey && !revealed) {
       e.preventDefault()
-      reveal()
+      setRevealed(true)
     }
   }
 
@@ -105,8 +82,6 @@ export default function Review() {
     )
   }
 
-  const isImage = card.type === 'image'
-
   return (
     <div className="review">
       <div className="review-top">
@@ -115,104 +90,75 @@ export default function Review() {
       </div>
 
       <div className="review-scroll">
-      {/* Question */}
-      <div className="q-area">
-        {attempt === 'retry' && (
-          <div className="retry-banner">Now do it again — lock it in 🔒</div>
-        )}
-        {isImage ? (
-          <>
-            <div className="q-meta">{card.paperLabel} · Q{card.number} · {card.marks} mark{card.marks !== 1 ? 's' : ''}</div>
-            <img className="q-image" src={card.qpUrl} alt={`Question ${card.number}`} />
-          </>
-        ) : (
-          <div className="q-text">
-            {card.context && <span className="q-context">{card.context} </span>}
-            {card.question}
-            <span className="q-marks">[{card.marks}]</span>
+        {/* Question */}
+        <div className="q-area">
+          <div className="q-meta">{card.paperLabel} · Q{card.number} · {card.marks} mark{card.marks !== 1 ? 's' : ''}</div>
+          <img className="q-image" src={card.qpUrl} alt={`Question ${card.number}`} />
+        </div>
+
+        {/* Answer input */}
+        {!revealed && (
+          <div className="a-area">
+            <textarea
+              className="answer-box"
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+              onKeyDown={onKeyDown}
+              placeholder="Jot your answer, then reveal the mark scheme…"
+              autoFocus
+              rows={3}
+            />
+            <button className="show-btn" onClick={() => setRevealed(true)}>Show Answer</button>
           </div>
         )}
-      </div>
 
-      {/* Answer input */}
-      {!revealed && (
-        <div className="a-area">
-          <textarea
-            className="answer-box"
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={onKeyDown}
-            placeholder={isImage ? 'Jot your answer, then reveal the mark scheme…' : 'Type your answer…  (^ for superscript, Enter to reveal)'}
-            autoFocus
-            rows={card.marks > 1 || isImage ? 3 : 1}
-          />
-          <button className="show-btn" onClick={reveal}>Show Answer</button>
-        </div>
-      )}
+        {/* Revealed: official mark scheme cropped to this question */}
+        {revealed && (
+          <div className="reveal">
+            {input && (
+              <div className="your-answer">
+                <span className="ra-label">You wrote</span>
+                <div>{input}</div>
+              </div>
+            )}
 
-      {/* Revealed answer */}
-      {revealed && (
-        <div className="reveal">
-          {(firstInput || input) && (
-            <div className="your-answer">
-              <span className="ra-label">You wrote</span>
-              <div>{attempt === 'first' ? firstInput : input || <em className="muted">(blank)</em>}</div>
-            </div>
-          )}
-
-          {isImage ? (
             <div className="ms-block">
               <span className="ra-label">Official mark scheme</span>
               {card.msUrls.length > 0 ? (
-                card.msUrls.map((u) => (
-                  <img key={u} className="ms-image" src={u} alt="Mark scheme" />
-                ))
+                card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" />)
               ) : (
                 <p className="muted">Mark scheme page not available for this question.</p>
               )}
             </div>
-          ) : (
-            <div className="model-block">
-              <span className="ra-label">Model answer</span>
-              <div className="model-answer">{card.answer}</div>
-              {card.markPoints?.length > 0 && (
-                <ul className="mark-points">
-                  {card.markPoints.map((m, i) => <li key={i}>{m}</li>)}
-                </ul>
-              )}
-              {card.explanation && (
-                <div className="explanation"><strong>Why:</strong> {card.explanation}</div>
-              )}
-            </div>
-          )}
 
-          {/* Grade buttons */}
-          {attempt === 'first' ? (
+            {/* Grade buttons — the interval shows when you'll next see this card */}
             <div className="grades">
-              <button className="g again" onClick={() => gradeFirst('again')}>Again</button>
-              <button className="g hard" onClick={() => gradeFirst('hard')}>Hard</button>
-              <button className="g good" onClick={() => gradeFirst('good')}>Good</button>
-              <button className="g easy" onClick={() => gradeFirst('easy')}>Easy</button>
+              <button className="g again" onClick={() => gradeCard('again')}>
+                Again<span className="g-int">{labels.again}</span>
+              </button>
+              <button className="g hard" onClick={() => gradeCard('hard')}>
+                Hard<span className="g-int">{labels.hard}</span>
+              </button>
+              <button className="g good" onClick={() => gradeCard('good')}>
+                Good<span className="g-int">{labels.good}</span>
+              </button>
+              <button className="g easy" onClick={() => gradeCard('easy')}>
+                Easy<span className="g-int">{labels.easy}</span>
+              </button>
             </div>
-          ) : (
-            <div className="grades retry">
-              <button className="g again" onClick={() => retryDone(false)}>Still shaky</button>
-              <button className="g good" onClick={() => retryDone(true)}>Locked in ✓</button>
-            </div>
-          )}
-        </div>
-      )}
+          </div>
+        )}
       </div>
 
       {/* Bottom bar: Skip / counter / More — like the Anki mockup */}
       <div className="bottom-bar">
-        <button className="pill ghost" onClick={() => next(true)}>Skip</button>
+        <button className="pill ghost" onClick={() => advance(queue.length)}>Skip</button>
         <Counter counts={counts} />
         <div className="more-wrap">
           <button className="pill ghost" onClick={() => setMenuOpen((o) => !o)}>More ▾</button>
           {menuOpen && (
             <div className="more-menu">
-              <button onClick={() => { setSuspended(card.id, true); refreshCounts(); next(false) }}>Suspend card</button>
+              <button onClick={() => { setSuspended(card.id, true); refreshCounts(); advance(null) }}>Suspend card</button>
               <button onClick={() => { resetCard(card.id); refreshCounts(); resetView() }}>Reset progress</button>
             </div>
           )}

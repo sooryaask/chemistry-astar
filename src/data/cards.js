@@ -61,6 +61,8 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       calc: isCalc(q.topic, q.summary),
       explanation: q.explanation || '',
       steps: q.steps || [],
+      // one answer box per sub-part shown on the question page
+      slots: q.slots && q.slots.length ? q.slots : [{ label: '', marks: q.marks ?? 1 }],
     }
     ;(IMAGE_BY_TOPIC[topicId] ||= []).push(card)
   }

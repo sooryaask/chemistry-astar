@@ -28,11 +28,13 @@ export default function Review() {
   const [queue, setQueue] = useState(() => buildSession(allCards).queue)
   const [counts, setCounts] = useState(() => deckCounts(allCards))
   const [revealed, setRevealed] = useState(false)
-  const [input, setInput] = useState('')
+  const [answers, setAnswers] = useState([])
   const [menuOpen, setMenuOpen] = useState(false)
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
+  const slots = card?.slots?.length ? card.slots : [{ label: '', marks: card?.marks ?? 1 }]
+  const wroteSomething = answers.some((a) => a && a.trim())
 
   function refreshCounts() {
     setCounts(deckCounts(allCards))
@@ -40,8 +42,16 @@ export default function Review() {
 
   function resetView() {
     setRevealed(false)
-    setInput('')
+    setAnswers([])
     setMenuOpen(false)
+  }
+
+  function setAnswer(i, val) {
+    setAnswers((a) => {
+      const next = a.slice()
+      next[i] = val
+      return next
+    })
   }
 
   // Move past the current card. `reinsertAt` = null removes it from the session;
@@ -63,13 +73,6 @@ export default function Review() {
     // resurfaces later this session; otherwise it's scheduled for a future day.
     const stillDueToday = next.due <= todayISO()
     advance(stillDueToday ? GAPS[g] ?? 0 : null)
-  }
-
-  function onKeyDown(e) {
-    if (e.key === 'Enter' && !e.shiftKey && !revealed) {
-      e.preventDefault()
-      setRevealed(true)
-    }
   }
 
   if (!card) {
@@ -96,18 +99,24 @@ export default function Review() {
           <img className="q-image" src={card.qpUrl} alt={`Question ${card.number}`} />
         </div>
 
-        {/* Answer input */}
+        {/* Answer input — one box per sub-part shown on the page */}
         {!revealed && (
           <div className="a-area">
-            <textarea
-              className="answer-box"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={onKeyDown}
-              placeholder="Jot your answer, then reveal the mark scheme…"
-              autoFocus
-              rows={3}
-            />
+            {slots.map((s, i) => (
+              <div className="slot" key={i}>
+                {s.label && (
+                  <span className="slot-label">{s.label}<span className="slot-marks">[{s.marks}]</span></span>
+                )}
+                <textarea
+                  className="answer-box"
+                  value={answers[i] || ''}
+                  onChange={(e) => setAnswer(i, e.target.value)}
+                  placeholder={s.label ? `Your answer to ${s.label}…` : 'Jot your answer, then reveal the mark scheme…'}
+                  autoFocus={i === 0}
+                  rows={s.marks > 1 ? 3 : 2}
+                />
+              </div>
+            ))}
             <button className="show-btn" onClick={() => setRevealed(true)}>Show Answer</button>
           </div>
         )}
@@ -115,10 +124,15 @@ export default function Review() {
         {/* Revealed: official mark scheme cropped to this question */}
         {revealed && (
           <div className="reveal">
-            {input && (
+            {wroteSomething && (
               <div className="your-answer">
                 <span className="ra-label">You wrote</span>
-                <div>{input}</div>
+                {slots.map((s, i) => (answers[i] && answers[i].trim()) ? (
+                  <div className="ya-slot" key={i}>
+                    {s.label && <span className="ya-label">{s.label}</span>}
+                    <span>{answers[i]}</span>
+                  </div>
+                ) : null)}
               </div>
             )}
 

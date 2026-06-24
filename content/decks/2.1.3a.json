@@ -1,0 +1,97 @@
+{
+  "specId": "2.1.3a",
+  "title": "The mole",
+  "module": 2,
+  "cards": [
+    {
+      "id": "r1",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "One mole of any substance contains ____ particles. State this value (the Avogadro constant) with its unit.",
+      "context": "",
+      "answer": "6.02 × 10²³ mol⁻¹",
+      "markPoints": ["6.02 × 10²³", "unit mol⁻¹"],
+      "explanation": "Never drop the unit mol⁻¹ — examiners withhold the mark for '6.02 × 10²³' alone.",
+      "calc": false
+    },
+    {
+      "id": "r2",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "The molar gas volume at RTP (25 °C, 100 kPa) is ____ cm³ mol⁻¹.",
+      "context": "",
+      "answer": "24 000 cm³ mol⁻¹ (24 dm³ mol⁻¹)",
+      "markPoints": ["24 000 cm³ mol⁻¹ or 24 dm³ mol⁻¹"],
+      "explanation": "OCR A uses RTP = 24 000 cm³ mol⁻¹. Don't use 22 400 (STP) — that's the classic trap.",
+      "calc": false
+    },
+    {
+      "id": 1,
+      "marks": 1,
+      "command": "State",
+      "question": "State the value of the Avogadro constant, Nₐ, including its unit.",
+      "context": "",
+      "answer": "6.02 × 10²³ mol⁻¹",
+      "markPoints": ["6.02 × 10²³ mol⁻¹"],
+      "explanation": "The unit mol⁻¹ is required for the mark.",
+      "calc": false
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the amount, in mol, of water molecules in 36.0 g of water (H₂O). Give your answer to 3 significant figures. [M(H₂O) = 18.0 g mol⁻¹]",
+      "context": "",
+      "answer": "n = m / M = 36.0 / 18.0 = 2.00 mol",
+      "markPoints": ["n = m / M used", "2.00 mol (3 s.f., with unit)"],
+      "explanation": "Show the formula n = m/M, then the value with unit and correct sig figs.",
+      "calc": true
+    },
+    {
+      "id": 5,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the amount, in mol, of carbon dioxide gas in 1200 cm³ at RTP.",
+      "context": "",
+      "answer": "n = V / 24 000 = 1200 / 24 000 = 0.0500 mol",
+      "markPoints": ["n = V / 24 000 used (V in cm³)", "0.0500 mol"],
+      "explanation": "Volume is in cm³, so divide by 24 000 (not 24). Keep the unit mol.",
+      "calc": true
+    },
+    {
+      "id": 7,
+      "marks": 1,
+      "command": "State",
+      "question": "State the mass, in g, of one mole of calcium atoms. [Ar(Ca) = 40.1]",
+      "context": "",
+      "answer": "40.1 g",
+      "markPoints": ["40.1 g"],
+      "explanation": "Molar mass in g mol⁻¹ is numerically equal to Ar.",
+      "calc": true
+    },
+    {
+      "id": 8,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the number of chlorine molecules in 0.250 mol of Cl₂. [Nₐ = 6.02 × 10²³ mol⁻¹]",
+      "context": "",
+      "answer": "N = n × Nₐ = 0.250 × 6.02 × 10²³ = 1.51 × 10²³ molecules",
+      "markPoints": ["N = n × Nₐ used", "1.51 × 10²³ (3 s.f.)"],
+      "explanation": "Number of particles = moles × Avogadro constant. It's molecules here, not atoms.",
+      "calc": true
+    },
+    {
+      "id": 12,
+      "marks": 3,
+      "command": "Explain",
+      "question": "Explain why 1 mol of helium gas and 1 mol of nitrogen gas occupy the same volume at RTP despite having very different molar masses. Include the value of this volume in your answer.",
+      "context": "",
+      "answer": "Equal amounts (moles) of any gas contain the same number of molecules (Avogadro). At the same temperature and pressure, gas volume depends only on the number of moles, not on the mass or identity of the molecules. So both occupy 24 000 cm³ (24 dm³) at RTP.",
+      "markPoints": ["same number of molecules / Avogadro's law", "volume depends on moles, not mass/identity", "24 000 cm³ mol⁻¹ (24 dm³ mol⁻¹)"],
+      "explanation": "The mark scheme wants the idea that volume is set by mole count at fixed T and P, plus the numerical molar gas volume.",
+      "calc": false
+    }
+  ]
+}

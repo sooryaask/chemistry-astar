@@ -1741,5 +1741,773 @@
         ]
       }
     ]
+  },
+  "Nov 2020 QP - Paper 1 OCR (A) Chemistry AS-Level.pdf": {
+    "questions": [
+      {
+        "number": "1",
+        "topic": "Practical Skills",
+        "marks": 1,
+        "page": 2,
+        "summary": "Titration procedure causing smaller titre",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "2",
+        "topic": "Amount of Substance (Moles)",
+        "marks": 1,
+        "page": 2,
+        "summary": "Numerical value of Avogadro constant",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "3",
+        "topic": "Amount of Substance (Moles)",
+        "marks": 1,
+        "page": 3,
+        "summary": "Identity of element X in oxide X2O3",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "4",
+        "topic": "Acids & Bases",
+        "marks": 1,
+        "page": 3,
+        "summary": "Mass of Ca(OH)2 neutralising phosphoric acid",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "5",
+        "topic": "Electron Structure",
+        "marks": 1,
+        "page": 3,
+        "summary": "Electron configuration of d-block Period 4 elements",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "6",
+        "topic": "Enthalpy & Energetics",
+        "marks": 1,
+        "page": 4,
+        "summary": "Enthalpy of combustion of C7H8",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "7",
+        "topic": "Reaction Rates",
+        "marks": 1,
+        "page": 4,
+        "summary": "Boltzmann distribution at higher temperature",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "8",
+        "topic": "Reaction Rates",
+        "marks": 1,
+        "page": 5,
+        "summary": "Activation energy from ln(k) vs 1/T gradient",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "9",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 5,
+        "summary": "Kp for ammonia equilibrium given partial pressures",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "10",
+        "topic": "Reaction Rates",
+        "marks": 1,
+        "page": 6,
+        "summary": "Overall order from rate constant units",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "11",
+        "topic": "Acids & Bases",
+        "marks": 1,
+        "page": 6,
+        "summary": "pH of HCl and NaOH mixture",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "12",
+        "topic": "Redox",
+        "marks": 1,
+        "page": 6,
+        "summary": "Ratio of MnO2 to OH- in balanced equation",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "13",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 7,
+        "summary": "Effect of catalyst on dynamic equilibrium",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "14",
+        "topic": "Group 2",
+        "marks": 1,
+        "page": 7,
+        "summary": "Correct statements about Group 2 elements",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "15",
+        "topic": "Bonding & Structure",
+        "marks": 1,
+        "page": 8,
+        "summary": "Isomerism in cobalt complex ion",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          5
+        ]
+      },
+      {
+        "number": "16",
+        "topic": "Bonding & Structure",
+        "marks": 14,
+        "page": 9,
+        "summary": "Structure, bonding and energetics of MgBr2",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "number": "17",
+        "topic": "Equilibrium",
+        "marks": 13,
+        "page": 14,
+        "summary": "Methanol production equilibrium, entropy and Kp",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "number": "18",
+        "topic": "Acids & Bases",
+        "marks": 11,
+        "page": 16,
+        "summary": "Weak acid equilibria, pH and buffer calculations",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "number": "19",
+        "topic": "Redox",
+        "marks": 9,
+        "page": 18,
+        "summary": "Electrode potentials, fuel cell and redox reactions",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          16,
+          17
+        ]
+      },
+      {
+        "number": "20",
+        "topic": "Reaction Rates",
+        "marks": 9,
+        "page": 20,
+        "summary": "Reaction order, rate and Kc for esterification",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          18,
+          19
+        ]
+      },
+      {
+        "number": "21",
+        "topic": "Group 7 (Halogens)",
+        "marks": 9,
+        "page": 22,
+        "summary": "Halogen reactivity, water treatment and molecular formula",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          20,
+          21
+        ]
+      },
+      {
+        "number": "22",
+        "topic": "Redox",
+        "marks": 15,
+        "page": 24,
+        "summary": "Transition metal complex identification and titration analysis",
+        "msPaper": "Nov 2020 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          22,
+          23,
+          24
+        ]
+      }
+    ]
+  },
+  "Nov 2021 QP - Paper 1 OCR (A) Chemistry AS-Level.pdf": {
+    "questions": [
+      {
+        "number": "1",
+        "topic": "Bonding & Structure",
+        "marks": 1,
+        "page": 2,
+        "summary": "Identify correct definition of electronegativity",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "2",
+        "topic": "Compounds, Formulae & Equations",
+        "marks": 1,
+        "page": 2,
+        "summary": "Formula for sodium chlorate(VII)",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "3",
+        "topic": "Redox",
+        "marks": 1,
+        "page": 3,
+        "summary": "Balance equation for silver with nitric acid",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "4",
+        "topic": "Amount of Substance (Moles)",
+        "marks": 1,
+        "page": 3,
+        "summary": "Identify sample with greatest number of molecules",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "5",
+        "topic": "Amount of Substance (Moles)",
+        "marks": 1,
+        "page": 3,
+        "summary": "Minimum mass of Mg to reduce chromium oxide",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "6",
+        "topic": "Amount of Substance (Moles)",
+        "marks": 1,
+        "page": 4,
+        "summary": "Volume of water to dilute magnesium iodide solution",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "7",
+        "topic": "Periodicity",
+        "marks": 1,
+        "page": 4,
+        "summary": "Elements in order of increasing first ionisation energy",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "8",
+        "topic": "Enthalpy & Energetics",
+        "marks": 1,
+        "page": 4,
+        "summary": "Enthalpy change using bond enthalpies for reaction",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "9",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 5,
+        "summary": "Largest CO concentration at equilibrium",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "10",
+        "topic": "Acids & Bases",
+        "marks": 1,
+        "page": 5,
+        "summary": "pH of ethanoic acid solution",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "11",
+        "topic": "Enthalpy & Energetics",
+        "marks": 1,
+        "page": 6,
+        "summary": "Signs of \u0394H and \u0394S for high-temperature feasibility",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "12",
+        "topic": "Redox",
+        "marks": 1,
+        "page": 6,
+        "summary": "Identify strongest oxidising agent in redox systems",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "13",
+        "topic": "Group 7 (Halogens)",
+        "marks": 1,
+        "page": 7,
+        "summary": "Explain trend in boiling points down halogens",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "14",
+        "topic": "Shapes of Molecules & Intermolecular Forces",
+        "marks": 1,
+        "page": 7,
+        "summary": "Correct statements about Cl-N=O molecule",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "15",
+        "topic": "Compounds, Formulae & Equations",
+        "marks": 1,
+        "page": 8,
+        "summary": "Correct test tube results for double salt",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          6
+        ]
+      },
+      {
+        "number": "16",
+        "topic": "Group 2",
+        "marks": 14,
+        "page": 10,
+        "summary": "Magnesium bonding, ionisation energies and halide energetics",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7,
+          8
+        ]
+      },
+      {
+        "number": "17",
+        "topic": "Electron Structure",
+        "marks": 11,
+        "page": 14,
+        "summary": "D-block elements, chromium complex stereoisomers",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "number": "18",
+        "topic": "Redox",
+        "marks": 12,
+        "page": 16,
+        "summary": "Determine percentage copper in ore by titration",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          12,
+          13
+        ]
+      },
+      {
+        "number": "19",
+        "topic": "Redox",
+        "marks": 11,
+        "page": 18,
+        "summary": "Electrochemical cells, disproportionation and fuel cells",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          14,
+          15
+        ]
+      },
+      {
+        "number": "20",
+        "topic": "Equilibrium",
+        "marks": 11,
+        "page": 20,
+        "summary": "Equilibrium, feasibility, Kp and effect of changes",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          16,
+          17,
+          18
+        ]
+      },
+      {
+        "number": "21",
+        "topic": "Reaction Rates",
+        "marks": 10,
+        "page": 23,
+        "summary": "Rate equation, mechanism, activation energy and Arrhenius",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          19,
+          20
+        ]
+      },
+      {
+        "number": "22",
+        "topic": "Acids & Bases",
+        "marks": 16,
+        "page": 26,
+        "summary": "pH, enthalpy of neutralisation and buffer solution",
+        "msPaper": "Nov 2021 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          21,
+          22,
+          23
+        ]
+      }
+    ]
+  },
+  "Specimen QP - Paper 1 OCR (A) Chemistry AS-Level.pdf": {
+    "questions": [
+      {
+        "number": "1",
+        "topic": "Atomic Structure & Isotopes",
+        "marks": 1,
+        "page": 2,
+        "summary": "Atomic structure of 55Mn2+ ion",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "2",
+        "topic": "Group 2",
+        "marks": 1,
+        "page": 2,
+        "summary": "Group 2 elements reacting with water",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "3",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 3,
+        "summary": "Equilibrium yield of chloroethene",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "4",
+        "topic": "Enthalpy & Energetics",
+        "marks": 1,
+        "page": 3,
+        "summary": "Enthalpy change using formation enthalpies",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "5",
+        "topic": "Reaction Rates",
+        "marks": 1,
+        "page": 4,
+        "summary": "Apparatus to determine concentration effect on rate",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "6",
+        "topic": "Shapes of Molecules & Intermolecular Forces",
+        "marks": 1,
+        "page": 4,
+        "summary": "Boiling point difference between HBr and HI",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "7",
+        "topic": "Electron Structure",
+        "marks": 1,
+        "page": 4,
+        "summary": "Identify element from successive ionisation energies",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "8",
+        "topic": "Reaction Rates",
+        "marks": 1,
+        "page": 5,
+        "summary": "Pre-exponential factor for N2O5 decomposition",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "9",
+        "topic": "Acids & Bases",
+        "marks": 1,
+        "page": 5,
+        "summary": "Calculate H+ concentration from pH",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "10",
+        "topic": "Enthalpy & Energetics",
+        "marks": 1,
+        "page": 6,
+        "summary": "Enthalpy changes for lattice enthalpy calculation",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "11",
+        "topic": "Redox",
+        "marks": 1,
+        "page": 6,
+        "summary": "Largest oxidation state change for sulfur",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "12",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 6,
+        "summary": "Equilibrium constant units for NO/H2 system",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "13",
+        "topic": "Periodicity",
+        "marks": 1,
+        "page": 7,
+        "summary": "Copper(II) chloride complex ion properties",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "14",
+        "topic": "Redox",
+        "marks": 1,
+        "page": 7,
+        "summary": "Tests on copper(II) sulfate solution",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "15",
+        "topic": "Equilibrium",
+        "marks": 1,
+        "page": 8,
+        "summary": "Reasons for different Kc values between students",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          7
+        ]
+      },
+      {
+        "number": "16",
+        "topic": "Equilibrium",
+        "marks": 15,
+        "page": 10,
+        "summary": "Ammonia, Haber process, Kp and hydrazine",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          8,
+          9
+        ]
+      },
+      {
+        "number": "17",
+        "topic": "Reaction Rates",
+        "marks": 7,
+        "page": 14,
+        "summary": "Rate constant and temperature effect for ICl/H2",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          10,
+          11
+        ]
+      },
+      {
+        "number": "18",
+        "topic": "Enthalpy & Energetics",
+        "marks": 7,
+        "page": 16,
+        "summary": "Calculate \u0394G for combustion of butan-1-ol",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          12
+        ]
+      },
+      {
+        "number": "19",
+        "topic": "Group 7 (Halogens)",
+        "marks": 16,
+        "page": 18,
+        "summary": "Group 2, lattice enthalpies and halogen reactivity",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "number": "20",
+        "topic": "Acids & Bases",
+        "marks": 16,
+        "page": 22,
+        "summary": "Weak acids, buffer solution and pH calculations",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          16,
+          17
+        ]
+      },
+      {
+        "number": "21",
+        "topic": "Redox",
+        "marks": 9,
+        "page": 24,
+        "summary": "Standard electrode potentials and electrochemical cells",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          18,
+          19
+        ]
+      },
+      {
+        "number": "22",
+        "topic": "Periodicity",
+        "marks": 15,
+        "page": 26,
+        "summary": "Transition metal compounds, shapes and stereoisomerism",
+        "msPaper": "Specimen MS - Paper 1 OCR (A) Chemistry AS-Level.pdf",
+        "msPages": [
+          20,
+          21,
+          22
+        ]
+      }
+    ]
   }
 }

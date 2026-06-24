@@ -42,6 +42,7 @@ export const KEYS = {
   streak: 'streakState',
   lessons: 'lessons',
   reviewDeck: 'reviewDeck',
+  srs: 'srsState',
   timerLog: 'timerLog',
   mixedPracticeHistory: 'mixedPracticeHistory',
   examAttempts: 'examAttempts',

@@ -1,0 +1,75 @@
+{
+  "specId": "2.1.3b",
+  "title": "Mole calculations",
+  "module": 2,
+  "cards": [
+    {
+      "id": "r1",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "The ideal gas equation is ____.",
+      "context": "",
+      "answer": "pV = nRT",
+      "markPoints": ["pV = nRT"],
+      "explanation": "p in Pa, V in m³, T in K, R = 8.314 J mol⁻¹ K⁻¹. Watch the units conversions.",
+      "calc": true
+    },
+    {
+      "id": "r2",
+      "kind": "recall",
+      "marks": 1,
+      "command": "State",
+      "question": "In pV = nRT, state the correct SI unit for each of p, V and T.",
+      "context": "",
+      "answer": "p in pascals (Pa), V in cubic metres (m³), T in kelvin (K).",
+      "markPoints": ["Pa", "m³", "K"],
+      "explanation": "Convert: kPa → ×1000 to Pa; cm³ → ×10⁻⁶ to m³; °C → +273 to K. Most lost marks here are unit slips.",
+      "calc": true
+    },
+    {
+      "id": 1,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the amount, in mol, of magnesium in 6.00 g of magnesium. [Ar(Mg) = 24.3]",
+      "context": "",
+      "answer": "n = m / M = 6.00 / 24.3 = 0.247 mol",
+      "markPoints": ["n = m / M", "0.247 mol (3 s.f.)"],
+      "explanation": "Straight n = m/M; keep 3 s.f. and the unit.",
+      "calc": true
+    },
+    {
+      "id": 2,
+      "marks": 2,
+      "command": "Calculate",
+      "question": "Calculate the volume, in dm³, occupied by 0.250 mol of oxygen gas (O₂) at RTP.",
+      "context": "",
+      "answer": "V = n × 24 = 0.250 × 24 = 6.00 dm³",
+      "markPoints": ["V = n × 24 (dm³ at RTP)", "6.00 dm³"],
+      "explanation": "Answer wanted in dm³, so multiply moles by 24 (not 24 000).",
+      "calc": true
+    },
+    {
+      "id": 3,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "A 0.480 g sample of a gas occupies 360 cm³ at 100 kPa and 298 K. Calculate the molar mass of the gas. [R = 8.314 J mol⁻¹ K⁻¹]",
+      "context": "",
+      "answer": "n = pV/RT = (100000 × 360×10⁻⁶) / (8.314 × 298) = 0.01453 mol. M = m/n = 0.480 / 0.01453 = 33.0 g mol⁻¹",
+      "markPoints": ["convert units: p = 100000 Pa, V = 360×10⁻⁶ m³", "n = pV/RT = 0.0145 mol", "M = m/n = 33.0 g mol⁻¹"],
+      "explanation": "Two stages: find n from pV = nRT (SI units!), then M = m/n. The unit conversions are where marks are won or lost.",
+      "calc": true
+    },
+    {
+      "id": 4,
+      "marks": 3,
+      "command": "Calculate",
+      "question": "Calculate the mass of carbon dioxide produced when 0.0500 mol of calcium carbonate decomposes completely. CaCO₃ → CaO + CO₂. [M(CO₂) = 44.0 g mol⁻¹]",
+      "context": "",
+      "answer": "1 : 1 ratio, so n(CO₂) = 0.0500 mol. m = n × M = 0.0500 × 44.0 = 2.20 g",
+      "markPoints": ["use 1:1 mole ratio from equation", "n(CO₂) = 0.0500 mol", "m = n × M = 2.20 g"],
+      "explanation": "Use the equation's mole ratio first, then m = nM. State the unit g.",
+      "calc": true
+    }
+  ]
+}

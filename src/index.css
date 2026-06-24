@@ -179,12 +179,22 @@ button {
   margin-bottom: 0.3rem;
   font-weight: 700;
 }
-.your-answer, .model-block, .ms-block {
+.your-answer, .model-block, .ms-block, .solve-block {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.8rem 1rem;
 }
+.solve-block { border-left: 3px solid var(--accent); }
+.solve-explanation { margin: 0 0 0.6rem; }
+.solve-steps {
+  margin: 0;
+  padding-left: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.solve-steps li { line-height: 1.5; }
 .your-answer { border-left: 3px solid var(--muted); }
 .model-block { border-left: 3px solid var(--due); }
 .model-answer { font-size: 1.02rem; }

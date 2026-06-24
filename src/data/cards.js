@@ -57,6 +57,8 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       msUrls: (q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number)),
       isMcq: q.marks === 1,
       calc: isCalc(q.topic, q.summary),
+      explanation: q.explanation || '',
+      steps: q.steps || [],
     }
     ;(IMAGE_BY_TOPIC[topicId] ||= []).push(card)
   }

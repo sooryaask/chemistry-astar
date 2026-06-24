@@ -131,6 +131,18 @@ export default function Review() {
               )}
             </div>
 
+            {(card.explanation || card.steps?.length > 0) && (
+              <div className="solve-block">
+                <span className="ra-label">How to solve it</span>
+                {card.explanation && <p className="solve-explanation">{card.explanation}</p>}
+                {card.steps?.length > 0 && (
+                  <ol className="solve-steps">
+                    {card.steps.map((s, i) => <li key={i}>{s}</li>)}
+                  </ol>
+                )}
+              </div>
+            )}
+
             {/* Grade buttons — the interval shows when you'll next see this card */}
             <div className="grades">
               <button className="g again" onClick={() => gradeCard('again')}>

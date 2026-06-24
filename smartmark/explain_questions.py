@@ -68,6 +68,11 @@ SYSTEM = (
     "scratch. You are shown a real past-paper question (image 1) and its official "
     "mark scheme (the remaining image(s)). Write a short, clear worked solution that "
     "teaches the METHOD to reach the official answer.\n\n"
+    "IMPORTANT: The images show ONLY the parts of the question the student can "
+    "currently see. Explain ONLY those parts. Do NOT mention, reference, or work "
+    "through any later parts (e.g. a later (ii)/(iii), or part (b)/(c)) that are not "
+    "shown in the images. If only part (a) and (b)(i) are shown, your whole answer "
+    "must be about (a) and (b)(i) only.\n\n"
     "Rules:\n"
     "- For calculations: state the formula first, then show each line of working with "
     "substituted numbers, units, and the final answer to the correct significant figures.\n"
@@ -97,6 +102,9 @@ def explain(client, qp_imgs, ms_imgs, q):
 def main():
     force = "--force" in sys.argv
     calc_only = "--calc" in sys.argv
+    # --retrim: regenerate only questions whose mark scheme was trimmed to fewer
+    # parts (so a stale explanation no longer talks about parts that aren't shown).
+    retrim = "--retrim" in sys.argv
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key or "your-key" in key:
         sys.exit("No ANTHROPIC_API_KEY in .env")
@@ -106,7 +114,11 @@ def main():
     done = failed = skipped = 0
     for qp_name, data in index.items():
         for q in data.get("questions", []):
-            if q.get("explanation") and not force:
+            shown_imgs = q.get("msShownImgs", [])
+            trimmed = any(i.endswith("_cut.png") for i in shown_imgs) or (
+                len(shown_imgs) < len(q.get("msPages", []))
+            )
+            if q.get("explanation") and not force and not (retrim and trimmed):
                 skipped += 1
                 continue
             if calc_only and not is_calc(q):
@@ -116,8 +128,13 @@ def main():
                 continue
             ms_name = q.get("msPaper", "")
             ms_imgs = []
-            for p in q.get("msPages", []):
-                d = b64(RENDERED_DIR / f"{slug(ms_name)}_p{p}_q{q['number']}.png")
+            # prefer the trimmed "shown" mark-scheme images so the explanation only
+            # covers the parts the student can see
+            sources = shown_imgs or [
+                f"{slug(ms_name)}_p{p}_q{q['number']}.png" for p in q.get("msPages", [])
+            ]
+            for fn in sources:
+                d = b64(RENDERED_DIR / fn)
                 if d:
                     ms_imgs.append(d)
             try:

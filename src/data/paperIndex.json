@@ -635,13 +635,13 @@
           6,
           7
         ],
-        "explanation": "2-chloropropene (CH3-CCl=CH2) undergoes three reactions: electrophilic addition of Br2 across the double bond (left box), addition of H2 with Ni catalyst (right box), and addition of steam (hydration) to give the major alcohol product following Markovnikov's rule (bottom box). The catalyst for steam addition to an alkene is an acid (H2SO4 or H3PO4).",
+        "explanation": "2-chloropropene has a C=C double bond, so it undergoes electrophilic addition with Br\u2082 and H\u2082/Ni, and acid-catalysed hydration with steam. The major product with steam follows Markovnikov's rule \u2014 OH adds to the more substituted carbon (C2, which already bears the Cl).",
         "steps": [
-          "Step 1 \u2013 Reaction with Br2 (left box): Br2 adds across the C=C double bond. Each carbon of the double bond gains one Br. Product: CH3-CBr(Cl)-CH2Br, i.e. 1,2-dibromo-2-chloropropane. Structure: H3C\u2013C(Cl)(Br)\u2013CH2Br",
-          "Step 2 \u2013 Reaction with H2/Ni (right box): H2 adds across the C=C double bond (hydrogenation). Product: CH3\u2013CHCl\u2013CH3, i.e. 2-chloropropane. Structure: H3C\u2013C(Cl)(H)\u2013CH3",
-          "Step 3 \u2013 Reaction with steam (bottom box, major product): Steam (H2O) adds across the C=C. By Markovnikov's rule, OH adds to the more substituted carbon (C2, which already bears Cl). Product: CH3\u2013C(Cl)(OH)\u2013CH3, i.e. 2-chloro-2-propanol (2-chloro-2-methylethanol). Structure: H3C\u2013C(Cl)(OH)\u2013CH3",
-          "Step 4 \u2013 Catalyst for steam addition (part ii): An acid catalyst is required. Suitable catalysts: H3PO4 or H2SO4 (phosphoric acid or sulfuric acid).",
-          "Answer (i): Left box = 1,2-dibromo-2-chloropropane [H3C\u2013CBr(Cl)\u2013CH2Br]; Right box = 2-chloropropane [H3C\u2013CHCl\u2013CH3]; Bottom box (major product) = 2-chloro-2-propanol [H3C\u2013C(Cl)(OH)\u2013CH3]. Answer (ii): H3PO4 / H2SO4 (acid catalyst)."
+          "Step 1 \u2014 Reaction with Br\u2082 (left box): Br\u2082 adds across the C=C double bond (electrophilic addition). Each bromine atom adds to one carbon. Product: CH\u2083CBrClCH\u2082Br \u2014 i.e., H\u2083C\u2013C(Cl)(Br)\u2013CH\u2082Br. Draw: H\u2083C\u2013C(Cl)(Br)\u2013CH(Br)\u2013H (1-bromo-2-bromo-2-chloropropane).",
+          "Step 2 \u2014 Reaction with H\u2082/Ni (right box): H\u2082 adds across the C=C (hydrogenation/electrophilic addition with H\u2082 and Ni catalyst). Product: CH\u2083CHClCH\u2083 \u2014 i.e., H\u2083C\u2013C(Cl)(H)\u2013CH\u2082H = 2-chloropropane. Draw: H\u2083C\u2013C(Cl)(H)\u2013CH\u2082\u2013H.",
+          "Step 3 \u2014 Reaction with steam (bottom box, major product): Steam (H\u2082O) adds across the C=C by acid-catalysed electrophilic addition. By Markovnikov's rule, OH adds to the more substituted carbon (C2, already bearing Cl) and H adds to C3. Major product: H\u2083C\u2013C(Cl)(OH)\u2013CH\u2082\u2013H = 2-chloro-2-propanol (CH\u2083C(Cl)(OH)CH\u2083 is not right since C3 has 2H \u2014 actually the structure is H\u2083C\u2013C(Cl)(OH)\u2013CH\u2082H, i.e., CH\u2083CCl(OH)CH\u2083).",
+          "Step 4 \u2014 Part (ii) catalyst for steam reaction: The catalyst is an acid. Acceptable answers: H\u207a / H\u2082SO\u2084 / H\u2083PO\u2084 / HCl.",
+          "Answer (i): Left box = CH\u2083CBrClCH\u2082Br (addition of Br\u2082 across double bond); Right box = CH\u2083CHClCH\u2083 (addition of H\u2082); Bottom box = CH\u2083C(OH)ClCH\u2083 \u2014 wait, checking: 2-chloropropene is CH\u2083\u2013C(Cl)=CH\u2082, so C2 has Cl and C3 has 2H. Markovnikov: OH to C2, H to C3 \u2192 CH\u2083\u2013C(Cl)(OH)\u2013CH\u2083. Answer (ii): H\u207a / H\u2082SO\u2084 / H\u2083PO\u2084"
         ],
         "msShow": [
           6,
@@ -674,17 +674,17 @@
           9,
           10
         ],
-        "explanation": "For part (i): Mg has atomic number 12 (12 protons). As a 1+ ion it has 11 electrons. Neutrons = mass number \u2212 proton number. For part (ii): relative atomic mass = sum of (isotope mass \u00d7 % abundance) \u00f7 100.",
+        "explanation": "Magnesium has atomic number 12 (always 12 protons). The m/z value for a 1+ ion equals the mass number. Neutrons = mass number \u2212 protons. A 1+ ion has lost 1 electron, so electrons = protons \u2212 1 = 11. For part (ii), Ar = \u03a3(isotope mass \u00d7 abundance)/100.",
         "steps": [
-          "Part (i) \u2014 Key rules: protons = atomic number of Mg = 12 (always); neutrons = m/z \u2212 12; electrons = 12 \u2212 1 = 11 (because it is a 1+ ion, one electron has been removed).",
+          "Part (i): Mg has atomic number 12, so ALWAYS 12 protons. As a 1+ ion, it has lost 1 electron \u2192 11 electrons. Neutrons = mass number \u2212 12.",
           "m/z = 24: protons = 12, neutrons = 24 \u2212 12 = 12, electrons = 11",
           "m/z = 25: protons = 12, neutrons = 25 \u2212 12 = 13, electrons = 11",
           "m/z = 26: protons = 12, neutrons = 26 \u2212 12 = 14, electrons = 11",
-          "Part (ii) \u2014 Formula: Ar = \u03a3(isotope mass \u00d7 % abundance) \u00f7 100",
-          "Ar = (24 \u00d7 78.99) + (25 \u00d7 10.00) + (26 \u00d7 11.01) all divided by 100",
+          "Part (ii): Formula: Ar = (m/z \u00d7 % abundance summed) \u00f7 100",
+          "Ar = (24 \u00d7 78.99 + 25 \u00d7 10.00 + 26 \u00d7 11.01) \u00f7 100",
           "= (1895.76 + 250.00 + 286.26) \u00f7 100",
           "= 2432.02 \u00f7 100",
-          "Answer: Ar = 24.32 (to 2 decimal places)"
+          "Answer: Ar = 24.32"
         ],
         "msShow": [
           7
@@ -715,13 +715,15 @@
           11,
           12
         ],
-        "explanation": "The Boltzmann distribution shows the spread of molecular energies. A catalyst lowers the activation energy, so a greater proportion of molecules have sufficient energy to react, increasing the rate.",
+        "explanation": "A catalyst provides an alternative reaction pathway with a lower activation energy (Ea). Using the Boltzmann distribution, this means a greater proportion of molecules have energy \u2265 the new lower Ea, so more successful collisions occur per unit time, increasing the rate.",
         "steps": [
-          "Step 1 \u2013 Draw and label the axes: y-axis = 'Number of molecules', x-axis = 'Energy' (NOT enthalpy).",
-          "Step 2 \u2013 Draw the Boltzmann curve correctly: starts very close to (but not at) the origin, rises to a peak, then tails off to the right WITHOUT touching the x-axis at high energies (the tail must not reach zero).",
-          "Step 3 \u2013 Explain the catalyst's effect on activation energy: A catalyst provides an ALTERNATIVE REACTION PATHWAY with a LOWER ACTIVATION ENERGY (Ec < Ea). Mark Ec to the left of Ea on your diagram.",
-          "Step 4 \u2013 Link to rate using the distribution: Because Ec is lower, a GREATER NUMBER/PROPORTION OF MOLECULES have energy \u2265 Ec (greater area under the curve to the right of Ec compared to Ea). Therefore MORE COLLISIONS are successful per unit time, so the RATE INCREASES.",
-          "Answer summary (4 marks): \u2713 Correct Boltzmann curve shape | \u2713 Axes correctly labelled (number of molecules vs energy) | \u2713 Catalyst lowers activation energy (Ec shown below Ea) | \u2713 More molecules/particles have energy above the (lower) activation energy, so rate increases."
+          "Step 1 \u2013 Label the axes: x-axis = 'kinetic energy (of molecules)', y-axis = 'number of molecules (with that energy)' or 'probability/frequency'.",
+          "Step 2 \u2013 Draw the Boltzmann distribution curve: starts at the origin, rises to a peak, then tails off to the right (never touching the x-axis). The curve must NOT touch the y-axis at zero energy and must tail off asymptotically.",
+          "Step 3 \u2013 Mark TWO activation energies on the x-axis: Ea (without catalyst) further to the right, and Ea' (with catalyst) closer to the peak, clearly labelled. The catalysed Ea must be lower (further left).",
+          "Step 4 \u2013 Written explanation point 1: A catalyst provides an alternative reaction pathway with a LOWER activation energy.",
+          "Step 5 \u2013 Written explanation point 2: With the lower Ea, a greater proportion/number of molecules have energy greater than or equal to this new activation energy (shown by the larger shaded area under the curve to the right of Ea').",
+          "Step 6 \u2013 Written explanation point 3: Therefore there are more successful collisions per unit time, so the rate of reaction increases.",
+          "Answer: The catalyst lowers Ea \u2192 larger fraction of molecules exceed Ea \u2192 more successful collisions per unit time \u2192 faster rate. [4 marks: axes labelled + correct curve + two Ea values marked + explanation linking lower Ea to more molecules with sufficient energy]"
         ],
         "msShow": [
           10
@@ -747,13 +749,14 @@
           13,
           14
         ],
-        "explanation": "This question covers the definition of acid/weak acid, balancing an equation, and identifying oxidation/reduction changes in a redox reaction between aluminium and ethanoic acid.",
+        "explanation": "An acid is a proton (H\u207a) donor; a weak acid only partially dissociates in solution. For balancing, count atoms on each side and adjust coefficients. For redox, assign oxidation numbers to identify which element loses electrons (oxidised) and which gains electrons (reduced).",
         "steps": [
-          "Part (a) - Definitions: An ACID is a proton (H\u207a) donor / releases H\u207a ions. A WEAK ACID is one that only PARTIALLY dissociates/ionises in solution (so the equilibrium lies to the left: CH\u2083COOH \u21cc CH\u2083COO\u207b + H\u207a).",
-          "Part (b)(i) - Balancing: Write the unbalanced equation: Al(s) + CH\u2083COOH(aq) \u2192 (CH\u2083COO)\u2083Al(aq) + H\u2082(g). The product (CH\u2083COO)\u2083Al needs 3 ethanoate groups, so 3 CH\u2083COOH are needed per Al. Each CH\u2083COOH provides 1 H\u207a, giving 3H\u207a total \u2192 1.5 H\u2082. To avoid fractions, multiply everything by 2: 2 Al(s) + 6 CH\u2083COOH(aq) \u2192 2 (CH\u2083COO)\u2083Al(aq) + 3 H\u2082(g).",
-          "Part (b)(ii) - Oxidation numbers: For ALUMINIUM: in Al(s) it is 0; in (CH\u2083COO)\u2083Al it is +3. Oxidation number increases from 0 to +3 \u2192 Al is OXIDISED.",
-          "For HYDROGEN: in CH\u2083COOH the acidic H has oxidation number +1; in H\u2082(g) it is 0. Oxidation number decreases from +1 to 0 \u2192 H is REDUCED.",
-          "Answer summary: (a) Acid = H\u207a donor; weak acid = partially dissociates. (b)(i) 2Al + 6CH\u2083COOH \u2192 2(CH\u2083COO)\u2083Al + 3H\u2082. (b)(ii) Oxidised: Al, 0 to +3; Reduced: H, +1 to 0."
+          "Part (a): An acid releases H\u207a ions (proton donor). A weak acid partially dissociates/ionises in solution (not fully).",
+          "Part (b)(i) \u2013 Balancing: On the right, (CH\u2083COO)\u2083Al contains 3 CH\u2083COO groups and 1 Al. Start by balancing Al: need 2 Al on left to match 2 formula units of (CH\u2083COO)\u2083Al on right. That needs 6 CH\u2083COOH on left. H\u2082 produced: 6 H from the acid \u2192 3 H\u2082. Check: 2 Al | 6 CH\u2083COOH \u2192 2 (CH\u2083COO)\u2083Al | 3 H\u2082 \u2713",
+          "Answer (b)(i): 2 Al(s) + 6 CH\u2083COOH(aq) \u2192 2 (CH\u2083COO)\u2083Al(aq) + 3 H\u2082(g)",
+          "Part (b)(ii) \u2013 Oxidation numbers: Al in its elemental form = 0; in (CH\u2083COO)\u2083Al, Al is +3. So Al goes from 0 to +3 (loses electrons = oxidised).",
+          "H in CH\u2083COOH (acid): the acidic H has oxidation number +1; in H\u2082(g), H = 0. So H goes from +1 to 0 (gains electrons = reduced).",
+          "Answer (b)(ii): Element oxidised = Aluminium (Al), oxidation number change from 0 to +3. Element reduced = Hydrogen (H), oxidation number change from +1 to 0."
         ],
         "msShow": [
           13
@@ -788,16 +791,16 @@
           15,
           16
         ],
-        "explanation": "For part (i): exothermic reactions occur when more energy is released forming bonds than is absorbed breaking bonds. For part (ii): \u0394H = bonds broken \u2212 bonds formed, so rearrange to find the unknown C=C bond enthalpy using the given \u0394H = \u22121318 kJ mol\u207b\u00b9.",
+        "explanation": "For part (i), a reaction is exothermic when more energy is released forming bonds than is required to break bonds. For part (ii), use \u0394H = bonds broken \u2212 bonds formed, then rearrange to find the unknown C=C bond enthalpy.",
         "steps": [
-          "Part (i): Energy must be ABSORBED to break bonds, and energy is RELEASED when bonds form. A reaction is exothermic when the energy released forming new bonds is GREATER than the energy absorbed breaking bonds.",
-          "Part (ii) \u2014 Identify bonds broken (reactants): C\u2082H\u2084 contains 1 C=C and 4 C\u2013H bonds; 3 O\u2082 contains 3 O=O bonds.",
-          "Bonds broken total = 1(C=C) + 4(C\u2013H) + 3(O=O) = x + 4(413) + 3(498) = x + 1652 + 1494 = x + 3146 kJ mol\u207b\u00b9",
-          "Part (ii) \u2014 Identify bonds formed (products): 2CO\u2082 contains 4 C=O bonds; 2H\u2082O contains 4 O\u2013H bonds.",
-          "Bonds formed total = 4(C=O) + 4(O\u2013H) = 4(805) + 4(464) = 3220 + 1856 = 5076 kJ mol\u207b\u00b9",
-          "Use formula: \u0394H = bonds broken \u2212 bonds formed \u2192 \u22121318 = (x + 3146) \u2212 5076",
-          "\u22121318 = x + 3146 \u2212 5076 \u2192 \u22121318 = x \u2212 1930 \u2192 x = \u22121318 + 1930",
-          "Answer: C=C average bond enthalpy = +612 kJ mol\u207b\u00b9"
+          "Part (a)(i): More energy is released when forming bonds in the products than is required to break bonds in the reactants. (Bond breaking is endothermic; bond making is exothermic \u2014 and the making releases more energy overall.)",
+          "Part (a)(ii) \u2014 Identify bonds broken in reactants: C\u2082H\u2084 has 1\u00d7 C=C, 4\u00d7 C\u2013H; 3O\u2082 has 3\u00d7 O=O. Let C=C = x (unknown).",
+          "Energy to break bonds = x + (4 \u00d7 413) + (3 \u00d7 498) = x + 1652 + 1494 = x + 3146 kJ mol\u207b\u00b9",
+          "Identify bonds formed in products: 2CO\u2082 has 4\u00d7 C=O; 2H\u2082O has 4\u00d7 O\u2013H.",
+          "Energy released forming bonds = (4 \u00d7 805) + (4 \u00d7 464) = 3220 + 1856 = 5076 kJ mol\u207b\u00b9",
+          "Use: \u0394H = bonds broken \u2212 bonds formed \u2192 \u22121318 = (x + 3146) \u2212 5076",
+          "Rearrange: x = \u22121318 \u2212 3146 + 5076 = +612 kJ mol\u207b\u00b9",
+          "Answer: Average bond enthalpy of C=C = +612 kJ mol\u207b\u00b9"
         ],
         "msShow": [
           15,
@@ -1446,14 +1449,14 @@
           7,
           8
         ],
-        "explanation": "For part (i): Silicon has atomic number 14, so protons = 14 and electrons = 14. Mass number of \u00b3\u2070Si = 30, so neutrons = 30 - 14 = 16. For part (ii): Relative atomic mass is calculated as the sum of (isotope mass \u00d7 % abundance) divided by 100.",
+        "explanation": "For part (i), Silicon has atomic number 14, so protons = 14 and electrons = 14. For \u00b3\u2070Si, mass number = 30, so neutrons = 30 \u2212 14 = 16. For part (ii), relative atomic mass is calculated by multiplying each isotope's mass by its percentage abundance, summing, then dividing by 100.",
         "steps": [
-          "Part (i): Silicon's atomic number = 14, so Protons = 14, Electrons = 14. Neutrons = mass number \u2212 proton number = 30 \u2212 14 = 16.",
-          "Part (ii) Formula: Ar = \u03a3(isotope mass \u00d7 % abundance) / 100",
-          "Substitute values: Ar = (28 \u00d7 92.23) + (29 \u00d7 4.68) + (30 \u00d7 3.09) / 100",
+          "Part (a)(i): Silicon has atomic number 14 \u2192 Protons = 14, Electrons = 14. Neutrons = mass number \u2212 proton number = 30 \u2212 14 = 16. Answer: Protons = 14, Neutrons = 16, Electrons = 14.",
+          "Part (a)(ii) Formula: Ar = \u03a3(isotope mass \u00d7 % abundance) \u00f7 100",
+          "Substitute values: Ar = (28 \u00d7 92.23) + (29 \u00d7 4.68) + (30 \u00d7 3.09) all divided by 100",
           "Calculate numerator: (2582.44) + (135.72) + (92.70) = 2810.86",
-          "Divide by 100: Ar = 2810.86 / 100 = 28.1086",
-          "Answer (to 2 d.p.): Relative atomic mass = 28.11"
+          "Divide by 100: 2810.86 \u00f7 100 = 28.1086",
+          "Answer: Relative atomic mass = 28.11 (to 2 decimal places)"
         ],
         "msShow": [
           7
@@ -1483,25 +1486,13 @@
           9,
           10
         ],
-        "explanation": "This question covers redox, stoichiometric mole calculations, and separation techniques for magnesium phosphate. Each part requires applying a specific chemistry concept: electron transfer for oxidation/reduction, moles = concentration \u00d7 volume for stoichiometry, and filtration/drying for separation.",
+        "explanation": "For (i): oxidation means loss of electrons \u2014 Mg goes from 0 to 2+ by losing 2 electrons each, so it is oxidised. For (ii): use moles = concentration \u00d7 volume, apply the 3:2 molar ratio from the equation, then mass = moles \u00d7 Mr. For (iii): Mg\u2083(PO\u2084)\u2082 is an insoluble solid, so filter it off then dry/evaporate to remove water.",
         "steps": [
-          "PART (a)(i) \u2013 Oxidised or reduced?",
-          "Step 1: In the reaction, Mg goes from 0 (element) to Mg\u00b2\u207a (in Mg\u2083(PO\u2084)\u2082, oxidation state +2).",
-          "Step 2: Mg LOSES electrons: Mg \u2192 Mg\u00b2\u207a + 2e\u207b. Losing electrons = oxidation.",
-          "Answer (i): Magnesium is OXIDISED because each Mg atom transfers/loses 2 electrons.",
-          "PART (a)(ii) \u2013 Mass of Mg needed",
-          "Step 1: Find moles of H\u2083PO\u2084. Formula: n = c \u00d7 V(dm\u00b3)",
-          "n(H\u2083PO\u2084) = 1.24 \u00d7 (50.0/1000) = 1.24 \u00d7 0.0500 = 0.0620 mol",
-          "Step 2: Use molar ratio from equation: 3Mg : 2H\u2083PO\u2084, so ratio Mg:H\u2083PO\u2084 = 3:2",
-          "n(Mg) = (3/2) \u00d7 0.0620 = 0.0930 mol",
-          "Step 3: mass = n \u00d7 M\u1d63. M\u1d63(Mg) = 24.3 g/mol",
-          "mass of Mg = 0.0930 \u00d7 24.3 = 2.26 g",
-          "Answer (ii): mass of Mg = 2.26 g (3 s.f.)",
-          "PART (a)(iii) \u2013 Obtaining a sample of magnesium phosphate",
-          "Step 1: Mg\u2083(PO\u2084)\u2082 is an insoluble solid precipitate in the mixture.",
-          "Step 2: FILTER the mixture to collect the solid precipitate.",
-          "Step 3: DRY the solid (e.g. dry in an oven) to remove water.",
-          "Answer (iii): Filter to obtain the solid, then dry the solid (evaporate/remove water)."
+          "Part (i): Magnesium is OXIDISED. Each Mg atom loses 2 electrons (Mg \u2192 Mg\u00b2\u207a + 2e\u207b), transferring electrons to H\u207a in the acid.",
+          "Part (ii) Step 1 \u2014 moles of H\u2083PO\u2084: n = c \u00d7 V(dm\u00b3) = 1.24 \u00d7 (50.0/1000) = 1.24 \u00d7 0.0500 = 0.0620 mol",
+          "Part (ii) Step 2 \u2014 moles of Mg: From the equation, 3 Mg reacts with 2 H\u2083PO\u2084, so ratio Mg:H\u2083PO\u2084 = 3:2. n(Mg) = (3/2) \u00d7 0.0620 = 0.0930 mol",
+          "Part (ii) Step 3 \u2014 mass of Mg: mass = n \u00d7 Mr = 0.0930 \u00d7 24.3 = 2.26 g (3 s.f.)",
+          "Part (iii): Filter the mixture to collect the solid Mg\u2083(PO\u2084)\u2082 precipitate, then dry the solid (or evaporate remaining water/solution) to obtain a pure dry sample."
         ],
         "msShow": [
           9
@@ -1535,14 +1526,14 @@
           11,
           12
         ],
-        "explanation": "To find \u0394rH, first calculate the heat released using q = mc\u0394T, then divide by moles of reaction (based on the equation as written, using moles of AgNO\u2083 or Mg). Since the reaction is exothermic (temperature rises), \u0394H is negative.",
+        "explanation": "To find \u0394rH, first calculate the heat energy released by the solution, then divide by the moles of reaction (based on the equation as written, which uses 2 mol AgNO\u2083). The reaction is exothermic so \u0394rH is negative.",
         "steps": [
           "Step 1 \u2013 Calculate \u0394T: \u0394T = 47.5 \u2212 19.5 = 28.0 \u00b0C",
-          "Step 2 \u2013 Calculate heat released using q = mc\u0394T: q = 25.0 g \u00d7 4.18 J g\u207b\u00b9 \u00b0C\u207b\u00b9 \u00d7 28.0 \u00b0C = 2926 J = 2.926 kJ",
+          "Step 2 \u2013 Calculate heat energy released using q = mc\u0394T: q = 25.0 g \u00d7 4.18 J g\u207b\u00b9 \u00b0C\u207b\u00b9 \u00d7 28.0 \u00b0C = 2926 J = 2.926 kJ (density of solution = 1 g cm\u207b\u00b3, so 25.0 cm\u00b3 = 25.0 g)",
           "Step 3 \u2013 Calculate moles of AgNO\u2083: n(AgNO\u2083) = 0.512 mol dm\u207b\u00b3 \u00d7 (25.0/1000) dm\u00b3 = 1.28 \u00d7 10\u207b\u00b2 mol",
-          "Step 4 \u2013 Find \u0394H per mole of AgNO\u2083: \u0394H = \u22122.926 kJ \u00f7 1.28 \u00d7 10\u207b\u00b2 mol = \u2212228.6 kJ mol\u207b\u00b9 (\u2248 \u2212229 kJ mol\u207b\u00b9)",
-          "Step 5 \u2013 Scale to equation 23.1 (which uses 2 mol AgNO\u2083): \u0394rH = 2 \u00d7 (\u2212229) = \u2212458 kJ mol\u207b\u00b9  OR using exact value: 2 \u00d7 (\u2212228.6) = \u2212457 kJ mol\u207b\u00b9",
-          "Answer: \u0394rH = \u2212457 kJ mol\u207b\u00b9 (to 3 significant figures)"
+          "Step 4 \u2013 Find \u0394H per mole of AgNO\u2083: \u0394H = 2.926 kJ \u00f7 1.28 \u00d7 10\u207b\u00b2 mol = 228.6 kJ mol\u207b\u00b9",
+          "Step 5 \u2013 The equation (23.1) uses 2 mol AgNO\u2083, so scale up: \u0394rH = 2 \u00d7 (\u2212228.6) = \u2212457 kJ mol\u207b\u00b9 (negative because exothermic; answer to 3 SF)",
+          "Answer: \u0394rH = \u2212457 kJ mol\u207b\u00b9"
         ],
         "msShow": [
           11
@@ -1568,14 +1559,13 @@
           13,
           14
         ],
-        "explanation": "This question tests understanding of structural isomers and how molecular branching affects boiling points through London (induced dipole) forces. All three molecules (A, B, C) are C\u2085H\u2081\u2082 isomers but differ in their degree of branching, which affects surface area contact and therefore London force strength.",
+        "explanation": "This question has two parts: defining structural isomers using the structures shown, and explaining why boiling points decrease from A (36\u00b0C) to B (28\u00b0C) to C (9\u00b0C) in terms of branching and London forces.",
         "steps": [
-          "Step 1 \u2013 Define structural isomer: Structural isomers have the SAME molecular formula but DIFFERENT structural formulae (different arrangement of bonds/atoms). Both parts are needed for the mark.",
-          "Step 2 \u2013 Identify the common molecular formula: Count carbons and hydrogens in any of the structures. All three (A, B, C) are C\u2085H\u2081\u2082 (pentane isomers). State this explicitly: 'The common molecular formula is C\u2085H\u2081\u2082.'",
-          "Step 3 \u2013 Identify the trend: Boiling point decreases from A (36\u00b0C) \u2192 B (28\u00b0C) \u2192 C (9\u00b0C). A is the least branched (straight-chain pentane), B is more branched (methylbutane), and C is most branched (2,2-dimethylpropane/neopentane). State: 'Boiling point decreases as branching increases.'",
-          "Step 4 \u2013 Link branching to surface area and London forces: More branching means the molecule becomes more spherical, giving LESS surface contact between neighbouring molecules. This means FEWER and WEAKER London (induced dipole\u2013dipole) forces act between the molecules.",
-          "Step 5 \u2013 Link to energy and boiling point: Less energy is needed to overcome the weaker London forces, so the substance boils at a lower temperature. C (most branched) has the weakest London forces and the lowest boiling point; A (least branched) has the strongest London forces and the highest boiling point.",
-          "Answer summary: (1) Structural isomers = same molecular formula (C\u2085H\u2081\u2082) but different structural formulae. (2) Boiling point decreases with increased branching because more branching \u2192 less surface contact \u2192 fewer/weaker London forces \u2192 less energy needed to separate molecules \u2192 lower boiling point."
+          "Step 1 \u2013 Define structural isomer: Structural isomers have the SAME molecular formula but DIFFERENT structural formulae (i.e. different arrangements of atoms/bonds). All three compounds A, B and C are C\u2085H\u2081\u2082 \u2014 they have the same molecular formula but their skeletal structures show different connectivity.",
+          "Step 2 \u2013 Identify the common molecular formula: Count carbons and hydrogens in each structure. A = pentane (straight chain, 5C), B = methylbutane (one branch, 5C), C = 2,2-dimethylpropane (two methyl branches, 5C). All are C\u2085H\u2081\u2082.",
+          "Step 3 \u2013 Explain the boiling point trend (branching): Boiling point decreases from A \u2192 B \u2192 C because the degree of branching increases (A is least branched, C is most branched). More branching means a more compact/spherical molecule with less surface area available for contact between molecules.",
+          "Step 4 \u2013 Link branching to London forces: Less surface contact between molecules means fewer/weaker London forces (induced dipole\u2013dipole interactions) between the molecules.",
+          "Step 5 \u2013 Link London forces to boiling point: Less energy is needed to overcome (break) these weaker London forces, so the boiling point is lower. C is most branched \u2192 weakest London forces \u2192 lowest boiling point (9\u00b0C). A is least branched \u2192 strongest London forces \u2192 highest boiling point (36\u00b0C)."
         ],
         "msShow": [
           13
@@ -1603,14 +1593,13 @@
           16,
           17
         ],
-        "explanation": "Alcohol E is 2-methylpropan-1-ol. With H2SO4/heat it undergoes elimination to form an alkene (F); with acidic dichromate distilling it gives an aldehyde (G); with acidic dichromate under reflux it gives a carboxylic acid (H).",
+        "explanation": "Alcohol E is a secondary alcohol that can undergo dehydration (elimination) to form an alkene (F), or oxidation to form an aldehyde (G) by distillation, or a carboxylic acid (H) by reflux. The structure of E is (CH\u2083)\u2082CHCH\u2082OH \u2014 actually looking carefully at the displayed formula it is (CH\u2083)\u2082C(H)\u2013CH\u2082OH, i.e. 2-methylpropan-1-ol.",
         "steps": [
-          "Step 1 \u2013 Identify alcohol E: The structure shown is (CH3)2CH-CH2OH, i.e. 2-methylpropan-1-ol (a primary alcohol with a methyl branch on C2).",
-          "Step 2 \u2013 Product F (H2SO4 + heat = elimination/dehydration): Remove H and OH from adjacent carbons to form a C=C double bond. Product F is 2-methylpropene: (CH3)2C=CH2.",
-          "Step 3 \u2013 Product G (H2SO4/K2Cr2O7, distil = partial oxidation of primary alcohol): Distilling removes the product immediately, so oxidation stops at the aldehyde stage. Product G is 2-methylpropanal: (CH3)2CH-CHO.",
-          "Step 4 \u2013 Product H (H2SO4/K2Cr2O7, reflux = full oxidation of primary alcohol): Refluxing allows further oxidation of the aldehyde to the carboxylic acid. Product H is 2-methylpropanoic acid: (CH3)2CH-COOH.",
-          "Answer (i): F = 2-methylpropene (CH3)2C=CH2; G = 2-methylpropanal (CH3)2CHCHO; H = 2-methylpropanoic acid (CH3)2CHCOOH.",
-          "Answer (ii): Systematic name of E = 2-methylpropan-1-ol."
+          "Step 1 \u2014 Identify alcohol E from its displayed structure: The central carbon has two CH\u2083 groups and one H attached, connected to a \u2013CH\u2082OH group. This is 2-methylpropan-1-ol: (CH\u2083)\u2082CH\u2013CH\u2082OH.",
+          "Step 2 \u2014 Product F (dehydration with H\u2082SO\u2084 + heat): Elimination removes H and OH from adjacent carbons to form an alkene. Remove H from the CH and OH from CH\u2082OH \u2192 double bond forms between those two carbons. F = 2-methylpropene: (CH\u2083)\u2082C=CH\u2082  (i.e. H\u2083C\u2013C(=CH\u2082)\u2013CH\u2083).",
+          "Step 3 \u2014 Product G (oxidation with H\u2082SO\u2084/K\u2082Cr\u2082O\u2087, distil): Distillation removes the product as it forms, so oxidation stops at the aldehyde stage. A primary alcohol oxidised gently \u2192 aldehyde. G = (CH\u2083)\u2082CH\u2013CHO (2-methylpropanal).",
+          "Step 4 \u2014 Product H (oxidation with H\u2082SO\u2084/K\u2082Cr\u2082O\u2087, reflux): Reflux keeps the product in the mixture, allowing further oxidation of the aldehyde to a carboxylic acid. H = (CH\u2083)\u2082CH\u2013COOH (2-methylpropanoic acid).",
+          "Step 5 \u2014 Systematic name of E (part ii): The longest chain containing the OH group has 3 carbons (propan-1-ol), with a methyl branch on carbon 2. Name = 2-methylpropan-1-ol."
         ],
         "msShow": [
           15
@@ -2269,30 +2258,28 @@
           8,
           9
         ],
-        "explanation": "This question covers isotopes, atomic structure calculations, and electron configuration in orbitals. Each part requires applying core atomic structure principles.",
+        "explanation": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons, leading to different mass numbers and different physical properties. For part (b), use protons = atomic number to identify the element, then apply mass number = protons + neutrons, and charge = protons \u2212 electrons. For part (c), oxygen has configuration 1s\u00b22s\u00b22p\u2074, filling orbitals according to Hund's rule.",
         "steps": [
-          "PART (a) - Two differences between isotopes:",
-          "1. Different numbers of neutrons",
-          "2. Different (atomic) masses / mass numbers OR different physical properties",
-          "Note: Do NOT say 'different chemical properties' - isotopes have the same chemical properties. Do NOT say 'different relative atomic masses'.",
-          "PART (b) - Row 1 (atom, charge = 0):",
-          "Protons = 26, Neutrons = 28, Charge = 0 means electrons = protons = 26",
-          "Mass number = Protons + Neutrons = 26 + 28 = 54",
-          "Element with 26 protons = Iron (Fe)",
-          "Row 1 complete: Fe | 54 | 26 | 28 | 26 | 0",
-          "PART (b) - Row 2 (ion, charge = 2\u2212):",
-          "Mass number = 80, Electrons = 36, Charge = 2\u2212 means 2 extra electrons gained",
-          "So Protons = Electrons \u2212 2 = 36 \u2212 2 = 34",
-          "Neutrons = Mass number \u2212 Protons = 80 \u2212 34 = 46",
-          "Element with 34 protons = Selenium (Se)",
-          "Row 2 complete: Se | 80 | 34 | 46 | 36 | 2\u2212",
-          "PART (c) - Electron configuration of oxygen (atomic number 8) in orbital diagram:",
-          "Oxygen has 8 electrons: 1s\u00b2 2s\u00b2 2p\u2074",
-          "Label the single box at middle-left as '2s' and the three boxes at upper-right as '2p'",
-          "1s: already shown with \u2191\u2193 (paired) \u2014 correct",
-          "2s box: fill with \u2191\u2193 (paired electrons)",
-          "2p three boxes: fill as \u2191\u2193 | \u2191 | \u2191 (one paired, two unpaired \u2014 Hund's rule: electrons fill singly first, then pair up)",
-          "Answer: Sub-shells labelled 2s and 2p; 2s has \u2191\u2193; 2p has \u2191\u2193 in first box and \u2191 in each of the other two boxes"
+          "PART (a): State TWO differences between isotopes of the same element.",
+          "Difference 1: Different numbers of neutrons (same number of protons).",
+          "Difference 2: Different (atomic) masses / mass numbers OR different physical properties. Note: do NOT say 'different chemical properties' \u2014 isotopes have the same chemical properties.",
+          "---",
+          "PART (b) \u2014 Row 1: Protons = 26, Neutrons = 28, Charge = 0.",
+          "Mass number = protons + neutrons = 26 + 28 = 54.",
+          "Charge = 0 means electrons = protons = 26.",
+          "Element with 26 protons = Iron (Fe). Answer: Fe, mass number 54, electrons 26.",
+          "---",
+          "PART (b) \u2014 Row 2: Mass number = 80, Electrons = 36, Charge = 2\u2212.",
+          "Charge 2\u2212 means the ion has 2 extra electrons, so protons = electrons \u2212 2 = 36 \u2212 2 = 34.",
+          "Neutrons = mass number \u2212 protons = 80 \u2212 34 = 46.",
+          "Element with 34 protons = Selenium (Se). Answer: Se, protons 34, neutrons 46.",
+          "---",
+          "PART (c): Oxygen has 8 electrons; configuration is 1s\u00b22s\u00b22p\u2074.",
+          "Label the single box (already shown as next energy level above 1s) as '2s', and the three boxes at the higher level as '2p'.",
+          "Fill 1s: pair of arrows (\u2191\u2193) \u2014 already shown in diagram.",
+          "Fill 2s: pair of arrows (\u2191\u2193) in the single box.",
+          "Fill 2p: 4 electrons across 3 boxes \u2014 by Hund's rule, put one electron in each box first, then pair one: boxes show (\u2191\u2193), (\u2191), (\u2191).",
+          "Answer: sub-shells labelled 2s and 2p; 2s has \u2191\u2193; 2p has \u2191\u2193 \u2191 \u2191."
         ],
         "msShow": [
           6
@@ -2327,14 +2314,14 @@
           10,
           11
         ],
-        "explanation": "This titration question requires calculating titres by subtraction, finding the mean of concordant titres only, then using moles from the Na\u2082CO\u2083 standard solution and the 1:2 molar ratio to find [HCl].",
+        "explanation": "For titrations: titre = final reading \u2212 initial reading (to 2 dp). The mean titre uses only concordant (agreeing) results, ignoring the rough titre. Concentration is found using moles of Na\u2082CO\u2083 from the pipette volume, then scaling by the 2:1 molar ratio from the equation.",
         "steps": [
-          "Step 1 \u2013 (a)(i) Calculate each titre: Titre = Final reading \u2212 Initial reading. Run 1: 24.60 \u2212 0.40 = 24.20 cm\u00b3. Run 2: 48.45 \u2212 24.60 = 23.85 cm\u00b3. Run 3: 34.30 \u2212 10.00 = 24.30 cm\u00b3.",
-          "Step 2 \u2013 (a)(ii) Identify concordant titres (within ~0.10 cm\u00b3 of each other). Run 1 (24.20) and Run 3 (24.30) are concordant; Run 2 (23.85) is the outlier \u2014 exclude it. Mean titre = (24.20 + 24.30) \u00f7 2 = 24.25 cm\u00b3 (rounded to nearest 0.05 cm\u00b3 = 24.25 cm\u00b3).",
-          "Step 3 \u2013 (b) Find moles of Na\u2082CO\u2083 pipetted. Formula: n = c \u00d7 V(dm\u00b3). n(Na\u2082CO\u2083) = 0.150 \u00d7 (25.00/1000) = 3.75 \u00d7 10\u207b\u00b3 mol.",
-          "Step 4 \u2013 Use the molar ratio from the equation Na\u2082CO\u2083 + 2HCl \u2192 2NaCl + H\u2082O + CO\u2082. Ratio Na\u2082CO\u2083 : HCl = 1 : 2. n(HCl) = 2 \u00d7 3.75 \u00d7 10\u207b\u00b3 = 7.50 \u00d7 10\u207b\u00b3 mol.",
-          "Step 5 \u2013 Calculate [HCl]. Formula: c = n \u00f7 V(dm\u00b3). [HCl] = 7.50 \u00d7 10\u207b\u00b3 \u00f7 (24.25/1000) = 7.50 \u00d7 10\u207b\u00b3 \u00d7 (1000/24.25) = 0.309 mol dm\u207b\u00b3 (3 s.f.).",
-          "Answer: Titres: 24.20, 23.85, 24.30 cm\u00b3. Mean titre = 24.25 cm\u00b3. [HCl] = 0.309 mol dm\u207b\u00b3."
+          "Step 1 \u2014 (a)(i) Calculate each titre (final \u2212 initial), giving answers to 2 decimal places:\n  Titre 1: 24.60 \u2212 0.40 = 24.20 cm\u00b3\n  Titre 2: 48.45 \u2212 24.60 = 23.85 cm\u00b3\n  Titre 3: 34.30 \u2212 10.00 = 24.30 cm\u00b3",
+          "Step 2 \u2014 (a)(ii) Identify concordant titres. Titres 1 and 3 are closest to each other (24.20 and 24.30 cm\u00b3); titre 2 (23.85) is the outlier. Use only the concordant pair:\n  Mean titre = (24.20 + 24.30) \u00f7 2 = 24.25 cm\u00b3\n  Rounded to nearest 0.05 cm\u00b3 = 24.25 cm\u00b3",
+          "Step 3 \u2014 (b) Find moles of Na\u2082CO\u2083 in the 25.0 cm\u00b3 pipette volume:\n  n(Na\u2082CO\u2083) = concentration \u00d7 volume = 0.150 \u00d7 (25.00/1000) = 3.75 \u00d7 10\u207b\u00b3 mol",
+          "Step 4 \u2014 Use the molar ratio from the equation (Na\u2082CO\u2083 : HCl = 1 : 2):\n  n(HCl) = 2 \u00d7 3.75 \u00d7 10\u207b\u00b3 = 7.50 \u00d7 10\u207b\u00b3 mol",
+          "Step 5 \u2014 Calculate concentration of HCl using the mean titre:\n  [HCl] = n(HCl) \u00d7 (1000 / mean titre) = 7.50 \u00d7 10\u207b\u00b3 \u00d7 (1000 / 24.25) = 0.309 mol dm\u207b\u00b3 (3 s.f.)",
+          "Answer: Titres: 24.20, 23.85, 24.30 cm\u00b3 | Mean titre = 24.25 cm\u00b3 | [HCl] = 0.309 mol dm\u207b\u00b3"
         ],
         "msShow": [
           10
@@ -2369,12 +2356,13 @@
           12,
           13
         ],
-        "explanation": "Boiling points increase down Group 7 because larger molecules have more electrons, leading to stronger induced dipole-dipole (London) forces between molecules, requiring more energy to overcome them.",
+        "explanation": "Boiling points increase down Group 7 (F\u2192At) because the intermolecular forces between molecules get stronger. The key is to link: more electrons \u2192 stronger induced dipole\u2013dipole (London) forces \u2192 more energy needed to separate molecules.",
         "steps": [
-          "Step 1 \u2014 Electrons: Going down Group 7 (F \u2192 Cl \u2192 Br \u2192 I \u2192 At), the number of electrons in each molecule increases (e.g. F\u2082 has 18 electrons, I\u2082 has 106 electrons).",
-          "Step 2 \u2014 Type of force: The intermolecular forces between halogen molecules are induced dipole\u2013dipole interactions (London forces). These arise from temporary, instantaneous dipoles caused by movement of electrons.",
-          "Step 3 \u2014 Link to boiling point: More electrons \u2192 larger/more polarisable electron cloud \u2192 stronger induced dipole\u2013dipole (London) forces between molecules \u2192 more energy needed to overcome these intermolecular forces \u2192 higher boiling point.",
-          "Answer: Boiling points increase down Group 7 because the number of electrons increases, so London (induced dipole\u2013dipole) forces between molecules become stronger, requiring more energy to overcome them."
+          "Step 1 \u2013 State the trend: Boiling points increase going down the group from fluorine (85 K) to astatine (503 K).",
+          "Step 2 \u2013 Reason 1 (electrons): As you go down the group, each halogen has more electrons (e.g. F\u2082 has 18 electrons, I\u2082 has 106 electrons), so the number of electrons increases down the group.",
+          "Step 3 \u2013 Reason 2 (type of force): The intermolecular forces between halogen molecules are induced dipole\u2013dipole interactions (London forces). These arise because electrons can move to create temporary dipoles, which induce dipoles in neighbouring molecules.",
+          "Step 4 \u2013 Reason 3 (link to boiling point): With more electrons, the London forces between molecules become stronger/greater. More energy is therefore needed to overcome (break) these intermolecular forces, so the boiling point is higher.",
+          "Answer: Boiling points increase down Group 7 because the number of electrons increases \u2192 stronger induced dipole\u2013dipole (London) forces between molecules \u2192 more energy required to overcome these intermolecular forces \u2192 higher boiling point."
         ],
         "msShow": [
           12
@@ -2401,20 +2389,20 @@
           14,
           15
         ],
-        "explanation": "For part (i), Le Chatelier's principle states that a system at equilibrium will shift to oppose any change imposed on it. For part (ii), Kc is written with products over reactants, each raised to the power of their stoichiometric coefficient.",
+        "explanation": "For part (i), Le Chatelier's principle states that if a stress is applied to an equilibrium, the system shifts to oppose that stress. For part (ii), Kc equals products over reactants, with each concentration raised to the power of its stoichiometric coefficient.",
         "steps": [
-          "PART (a)(i) - Temperature and Pressure for maximum equilibrium yield:",
-          "PRESSURE: Count moles of gas on each side. Left side: 1 mol N\u2082 + 3 mol H\u2082 = 4 mol gas. Right side: 2 mol NH\u2083 = 2 mol gas. The right-hand side has fewer moles of gas. By Le Chatelier's principle, HIGH PRESSURE shifts equilibrium to the right (towards fewer moles of gas), increasing yield of NH\u2083.",
-          "TEMPERATURE: \u0394H = \u221292 kJ mol\u207b\u00b9, so the forward reaction is EXOTHERMIC (gives out heat). By Le Chatelier's principle, LOW TEMPERATURE shifts equilibrium to the right (towards the exothermic direction), increasing yield of NH\u2083.",
-          "PART (a)(ii) - Calculating Kc:",
-          "Step 1 - Write the Kc expression for N\u2082(g) + 3H\u2082(g) \u21cc 2NH\u2083(g):",
+          "PART (a)(i) \u2014 Temperature and Pressure for maximum yield:",
+          "PRESSURE: Count moles of gas on each side. Left side: 1 mol N\u2082 + 3 mol H\u2082 = 4 mol gas. Right side: 2 mol NH\u2083 = 2 mol gas. The right (product) side has fewer moles of gas. By Le Chatelier's principle, HIGH PRESSURE shifts equilibrium to the side with fewer moles of gas \u2192 towards products (NH\u2083). Therefore: HIGH PRESSURE favours maximum yield.",
+          "TEMPERATURE: \u0394H = \u221292 kJ mol\u207b\u00b9, so the forward reaction is EXOTHERMIC (gives out heat). By Le Chatelier's principle, LOW TEMPERATURE shifts equilibrium towards the exothermic direction (forward), as the system tries to produce more heat. Therefore: LOW TEMPERATURE favours maximum yield.",
+          "PART (a)(ii) \u2014 Calculate Kc:",
+          "Step 1 \u2014 Write the Kc expression for N\u2082(g) + 3H\u2082(g) \u21cc 2NH\u2083(g):",
           "Kc = [NH\u2083]\u00b2 / ([N\u2082][H\u2082]\u00b3)",
-          "Step 2 - Substitute equilibrium concentrations: [NH\u2083] = 0.862, [N\u2082] = 1.25, [H\u2082] = 2.75",
+          "Step 2 \u2014 Substitute equilibrium concentrations: [NH\u2083] = 0.862, [N\u2082] = 1.25, [H\u2082] = 2.75",
           "Kc = (0.862)\u00b2 / (1.25 \u00d7 (2.75)\u00b3)",
-          "Step 3 - Calculate numerator: 0.862\u00b2 = 0.7430",
-          "Step 4 - Calculate denominator: 2.75\u00b3 = 20.797; 1.25 \u00d7 20.797 = 25.996",
-          "Step 5 - Divide: Kc = 0.7430 / 25.996 = 0.02858...",
-          "Step 6 - Round to 3 significant figures and write in standard form:",
+          "Step 3 \u2014 Calculate numerator: (0.862)\u00b2 = 0.7430",
+          "Step 4 \u2014 Calculate denominator: (2.75)\u00b3 = 20.797; then 1.25 \u00d7 20.797 = 25.996",
+          "Step 5 \u2014 Divide: Kc = 0.7430 / 25.996 = 0.02858...",
+          "Step 6 \u2014 Round to 3 significant figures and express in standard form:",
           "Answer: Kc = 2.86 \u00d7 10\u207b\u00b2 (mol dm\u207b\u00b3)\u207b\u00b2"
         ],
         "msShow": [
@@ -2446,12 +2434,14 @@
           16,
           17
         ],
-        "explanation": "Acidified dichromate oxidises primary alcohols to carboxylic acids (under reflux) and secondary alcohols to ketones, but cannot oxidise tertiary alcohols (no reaction). Identify each alcohol type first, then apply the oxidation rule.",
+        "explanation": "Acidified dichromate oxidises primary alcohols to carboxylic acids (under reflux) and secondary alcohols to ketones, but cannot oxidise tertiary alcohols (no H on the carbon bearing OH), so tertiary alcohols give NONE.",
         "steps": [
-          "Step 1 \u2013 Identify alcohol types: A has the OH on a carbon bonded to only ONE other carbon (primary alcohol \u2014 it's 2-methylpropan-1-ol). B has the OH on a carbon bonded to THREE other carbons (tertiary alcohol \u2014 2-methylpropan-2-ol). C has the OH on a carbon bonded to TWO other carbons (secondary alcohol \u2014 butan-2-ol).",
-          "Step 2 \u2013 Part (i) oxidation products: A (primary) \u2192 reflux with H\u207a/Cr\u2082O\u2087\u00b2\u207b gives the CARBOXYLIC ACID: 2-methylpropanoic acid [(CH\u2083)\u2082CHCOOH]. B (tertiary) \u2192 NONE (tertiary alcohols cannot be oxidised by dichromate). C (secondary) \u2192 reflux gives the KETONE: butanone (CH\u2083COCH\u2082CH\u2083).",
-          "Step 3 \u2013 Part (ii) systematic name for alcohol C: The structure shows a 4-carbon chain with OH on carbon 2, so the name is butan-2-ol.",
-          "Step 4 \u2013 Part (iii) complete combustion of A (C\u2084H\u2081\u2080O): Balance C: 4 carbons \u2192 4CO\u2082. Balance H: 10 hydrogens \u2192 5H\u2082O. Balance O: 4(2) + 5(1) = 13 O atoms on right; 1 already in molecule, so need (13\u22121)/2 = 6 O\u2082. Equation: C\u2084H\u2081\u2080O + 6O\u2082 \u2192 4CO\u2082 + 5H\u2082O."
+          "Step 1 \u2013 Identify the type of each alcohol: A has \u2013OH on a carbon attached to ONE other carbon (primary alcohol, 2-methylpropan-1-ol structure: (CH\u2083)\u2082CHCH\u2082OH). B has \u2013OH on a carbon attached to THREE other carbons (tertiary alcohol, 2-methylpropan-2-ol). C has \u2013OH on a carbon attached to TWO other carbons (secondary alcohol, butan-2-ol).",
+          "Step 2 \u2013 Alcohol A (primary): reflux with H\u207a/Cr\u2082O\u2087\u00b2\u207b oxidises all the way to a carboxylic acid. The product is 2-methylpropanoic acid: (CH\u2083)\u2082CH\u2013COOH.",
+          "Step 3 \u2013 Alcohol B (tertiary): no H on the C\u2013OH carbon, so oxidation cannot occur. Write NONE.",
+          "Step 4 \u2013 Alcohol C (secondary): oxidised to a ketone (the C=O stays in the chain). The product is butanone: CH\u2083CH\u2082COCH\u2083 (drawn as the skeletal/structural formula with C=O in the middle of the 4-carbon chain).",
+          "Step 5 \u2013 Part (ii) Name alcohol C: the chain has 4 carbons with \u2013OH on carbon 2, so the name is butan-2-ol.",
+          "Step 6 \u2013 Part (iii) Complete combustion of C\u2084H\u2081\u2080O: balance C first (4CO\u2082), then H (5H\u2082O giving 10 H), then O: left side has 1 O from alcohol + x from O\u2082; right side needs 4\u00d72 + 5 = 13 O atoms, so 1 + 2x = 13, x = 6. Answer: C\u2084H\u2081\u2080O + 6O\u2082 \u2192 4CO\u2082 + 5H\u2082O"
         ],
         "msShow": [
           16
@@ -3109,16 +3099,14 @@
           10,
           11
         ],
-        "explanation": "Part (i) requires systematic IUPAC naming of the alkene; part (ii) requires drawing the full electrophilic addition mechanism for (CH\u2083)\u2083CCH=CH\u2082 with Br\u2082, showing all curly arrows, dipoles, carbocation intermediate, product, and naming the mechanism.",
+        "explanation": "Part (a)(i) requires systematic IUPAC naming of the alkene; part (a)(ii) requires drawing the full electrophilic addition mechanism for (CH\u2083)\u2083CCH=CH\u2082 reacting with Br\u2082, including curly arrows, dipoles, carbocation intermediate, product, and naming the mechanism.",
         "steps": [
-          "PART (i) \u2013 Systematic name: Count the longest carbon chain containing the C=C double bond. (CH\u2083)\u2083C\u2013CH=CH\u2082 has 4 carbons in the main chain (but-1-ene) with two methyl groups on C3. Answer: 3,3-dimethylbut-1-ene",
-          "PART (ii) \u2013 Step 1 (Draw Br\u2082 approaching with dipole): As Br\u2082 approaches the electron-rich C=C, the nearer Br becomes \u03b4+ and the far Br becomes \u03b4\u2212. Label Br\u2013Br as \u03b4+Br\u2013Br\u03b4\u2212.",
-          "Step 2 (1st curly arrow): Draw a curly arrow FROM the C=C double bond TO the \u03b4+ Br atom of Br\u2082. This shows the \u03c0 electrons attacking the electrophile.",
-          "Step 3 (2nd curly arrow): Draw a curly arrow FROM the Br\u2013Br bond (or the \u03b4+Br\u2013Br\u03b4\u2212 bond) TO the \u03b4\u2212 Br atom, showing the Br\u2013Br bond breaking heterolytically to release Br\u207b.",
-          "Step 4 (Carbocation intermediate): The result is a carbocation (+ charge) on one of the C atoms (either C of the original double bond is acceptable \u2013 mark scheme allows + on either C). Draw the carbocation structure showing (CH\u2083)\u2083C\u2013C\u207aH\u2013CH\u2082\u2013Br or (CH\u2083)\u2083C\u2013CH\u2013C\u207aH\u2082 with Br already attached.",
-          "Step 5 (3rd curly arrow): Draw a curly arrow FROM the lone pair on Br\u207b (or from the \u2212 charge on Br\u207b) TO the C\u207a of the carbocation, showing nucleophilic attack by Br\u207b.",
-          "Step 6 (Product): Draw the final product: (CH\u2083)\u2083C\u2013CHBr\u2013CH\u2082Br (1,2-dibromo-3,3-dimethylbutane) \u2013 both Br atoms on adjacent carbons.",
-          "Answer \u2013 Name of mechanism: Electrophilic addition"
+          "Part (a)(i) \u2013 Naming (CH\u2083)\u2083CCH=CH\u2082: Count the longest carbon chain containing the C=C double bond: C=C is between C1 and C2, giving a 4-carbon chain (but-1-ene). On C3 there are two methyl substituents \u2192 3,3-dimethyl. Full name: 3,3-dimethylbut-1-ene.",
+          "Part (a)(ii) \u2013 Step 1 (1st curly arrow): The electron-rich C=C double bond acts as a nucleophile. Draw a curly arrow FROM the C=C double bond TO the nearest Br atom of Br\u2013Br. This shows the \u03c0 electrons attacking the electrophile.",
+          "Part (a)(ii) \u2013 Step 2 (2nd curly arrow + dipole): The Br\u2013Br bond is polarised by the approaching alkene: the closer Br becomes \u03b4+ and the far Br becomes \u03b4\u2212. Mark these dipoles (\u03b4+ on near Br, \u03b4\u2212 on far Br). Draw a second curly arrow FROM the Br\u2013Br bond TO the \u03b4\u2212 Br, showing the Br\u2013Br bond breaking heterolytically, releasing Br\u207b.",
+          "Part (a)(ii) \u2013 Step 3 (3rd curly arrow + carbocation intermediate): After the first Br bonds to one carbon of the double bond, a carbocation (C+) forms on the other carbon. Because (CH\u2083)\u2083C\u2013 is attached to the left carbon, the + charge forms on the RIGHT carbon (CH\u2082\u207a) OR the left carbon \u2014 the mark scheme allows either. Draw a curly arrow FROM the lone pair on Br\u207b TO the C+ of the carbocation.",
+          "Part (a)(ii) \u2013 Product: Both Br atoms have now added across the double bond. The product is (CH\u2083)\u2083C\u2013CHBr\u2013CH\u2082Br (1,2-dibromo-3,3-dimethylbutane). Draw it showing a Br on each of the two carbons that were originally double-bonded.",
+          "Part (a)(ii) \u2013 Name of mechanism: Electrophilic addition."
         ],
         "msShow": [
           9
@@ -3149,18 +3137,18 @@
           12,
           13
         ],
-        "explanation": "For part (a), relative atomic mass = sum of (mass \u00d7 % abundance) / 100. For part (b), use protons + neutrons = mass number, and electron configuration plus charge to identify the element.",
+        "explanation": "For part (a), relative atomic mass is calculated as the weighted mean of each isotope's mass multiplied by its percentage abundance, divided by 100. For part (b), use protons + neutrons = mass number, and the electron configuration/charge to identify the element and fill in missing values.",
         "steps": [
           "PART (a): Formula: Ar = \u03a3(isotope mass \u00d7 % abundance) / 100",
-          "From the spectrum: m/z 188 = 12.13%, m/z 189 = 16.75%, m/z 190 = 27.23%, m/z 192 = 43.89%",
-          "Ar = [(188 \u00d7 12.13) + (189 \u00d7 16.75) + (190 \u00d7 27.23) + (192 \u00d7 43.89)] / 100",
-          "= [2280.44 + 3165.75 + 5173.70 + 8426.88] / 100",
-          "= 19046.77 / 100 = 190.47 (to 2 d.p.)",
-          "Answer (a): Relative atomic mass = 190.47",
-          "---",
-          "PART (b) Row 1: Protons = 28, Neutrons = 34, so Mass number = 28 + 34 = 62. Charge = 0, so it's a neutral atom. Element with 28 protons = Nickel (Ni). Electron config (28 electrons): 1s\u00b22s\u00b22p\u20763s\u00b23p\u20763d\u20784s\u00b2",
-          "PART (b) Row 2: Mass number = 33, Charge = 3\u2212, electron config = 1s\u00b22s\u00b22p\u20763s\u00b23p\u2076 (18 electrons). Ion has 3\u2212 charge so protons = 18 \u2212 3 = 15. Element with 15 protons = Phosphorus (P). Neutrons = 33 \u2212 15 = 18.",
-          "Answer (b): Row 1 \u2014 Element: Ni, Mass number: 62, Electron config: 1s\u00b22s\u00b22p\u20763s\u00b23p\u20763d\u20784s\u00b2  |  Row 2 \u2014 Element: P, Protons: 15, Neutrons: 18"
+          "Read from the spectrum: m/z 188 \u2192 12.13%, m/z 189 \u2192 16.75%, m/z 190 \u2192 27.23%, m/z 192 \u2192 43.89%",
+          "Substitute: Ar = (188 \u00d7 12.13) + (189 \u00d7 16.75) + (190 \u00d7 27.23) + (192 \u00d7 43.89) / 100",
+          "= (2280.44 + 3165.75 + 5173.70 + 8426.88) / 100",
+          "= 19046.77 / 100 = 190.4677",
+          "Answer (a): Relative atomic mass = 190.47 (to 2 decimal places)",
+          "PART (b) \u2014 Row 1: Protons = 28, Neutrons = 34, so Mass number = 28 + 34 = 62. Element with 28 protons = Nickel (Ni). Charge = 0 (neutral atom), so electrons = 28. Electron configuration: 1s\u00b22s\u00b22p\u20763s\u00b23p\u20763d\u20784s\u00b2",
+          "PART (b) \u2014 Row 2: Mass number = 33, charge = 3\u2212, electron configuration given = 1s\u00b22s\u00b22p\u20763s\u00b23p\u2076 (18 electrons). Since charge is 3\u2212, the atom gained 3 electrons, so protons = 18 \u2212 3 = 15. Element with 15 protons = Phosphorus (P). Neutrons = 33 \u2212 15 = 18.",
+          "Answer (b) Row 1: Element = Ni, Mass number = 62, Electron config = 1s\u00b22s\u00b22p\u20763s\u00b23p\u20763d\u20784s\u00b2",
+          "Answer (b) Row 2: Element = P, Protons = 15, Neutrons = 18"
         ],
         "msShow": [
           12
@@ -3191,14 +3179,20 @@
           14,
           15
         ],
-        "explanation": "This question covers ionic bonding definition, labelling an ionic lattice, and completing an oxyanion table using oxidation states and charge balance.",
+        "explanation": "These questions test ionic bonding definition, ionic lattice labelling, and working out oxyanion names/formulas from oxidation states and ionic charges.",
         "steps": [
-          "PART (a)(i) \u2013 Definition of ionic bonding: Ionic bonding is the electrostatic attraction between oppositely charged ions (i.e. between + and \u2013 ions). Key word: 'attraction' must be included.",
-          "PART (a)(ii) \u2013 Labelling the MgS lattice: Mg is in Group 2 \u2192 loses 2 electrons \u2192 forms Mg\u00b2\u207a. Sulfur is in Group 6 \u2192 gains 2 electrons \u2192 forms S\u00b2\u207b. In the lattice, Mg\u00b2\u207a and S\u00b2\u207b alternate. Label four circles as Mg\u00b2\u207a and the other four circles as S\u00b2\u207b, alternating so that each Mg\u00b2\u207a is surrounded by S\u00b2\u207b and vice versa.",
-          "PART (b) \u2013 Completing the oxyanion table:",
-          "Row 1: Formula given as BrO\u2082\u207b, charge 1\u2013. The element is Br. Oxidation state: let x + 2(\u20132) = \u20131 \u2192 x = +3. Name = Bromate(III).",
-          "Row 3: Name given as Phosphate(V), charge 3\u2013. P is in oxidation state +5. Balance charges: P(+5) + 4O(\u20132) = +5 \u2013 8 = \u20133, so formula is PO\u2084\u00b3\u207b.",
-          "Answer summary: (a)(i) Electrostatic attraction between oppositely charged (+ and \u2013) ions. (a)(ii) Label four circles Mg\u00b2\u207a and four circles S\u00b2\u207b alternately. (b) Row 1 name = Bromate(III); Row 3 formula = PO\u2084\u00b3\u207b."
+          "**Part (a)(i) \u2013 Definition of ionic bonding:**",
+          "Key idea: ionic bonding is the electrostatic attraction between oppositely charged ions (positive and negative ions).",
+          "Answer: '(Electrostatic) attraction between oppositely charged / + and \u2013 ions.'",
+          "**Part (a)(ii) \u2013 Labelling the MgS lattice diagram:**",
+          "Step 1: Work out the ions. Mg is in Group 2 \u2192 loses 2 electrons \u2192 Mg\u00b2\u207a. S is in Group 6 \u2192 gains 2 electrons \u2192 S\u00b2\u207b.",
+          "Step 2: In a giant ionic lattice, the ions alternate. Each Mg\u00b2\u207a is surrounded by S\u00b2\u207b and vice versa.",
+          "Step 3: Label four circles as Mg\u00b2\u207a and four circles as S\u00b2\u207b, alternating so that no two same ions are directly bonded to each other.",
+          "Answer: Four circles labelled Mg\u00b2\u207a alternating with four circles labelled S\u00b2\u207b throughout the diagram.",
+          "**Part (b) \u2013 Completing the oxyanion table:**",
+          "Row 1 (Name missing, charge 1\u2013, formula BrO\u2082\u207b): The formula contains Br and O. Br oxidation state: let it = x. Each O is \u20132, two O atoms = \u20134. Overall charge = 1\u2013, so x + (\u20134) = \u20131 \u2192 x = +3. Name = Bromate(III).",
+          "Row 3 (Phosphate(V), charge 3\u2013, formula missing): P is in oxidation state +5. Use: P oxidation state +5, overall charge 3\u2013. Balance: +5 + (number of O \u00d7 \u20132) = \u20133 \u2192 number of O = (5+3)/2 = 4. Formula = PO\u2084\u00b3\u207b.",
+          "Answer: Row 1 name = Bromate(III); Row 3 formula = PO\u2084\u00b3\u207b"
         ],
         "msShow": [
           14,
@@ -3234,12 +3228,14 @@
           16,
           17
         ],
-        "explanation": "Disproportionation means the same element is simultaneously oxidised AND reduced in the same reaction. For Cl\u2082 + NaOH, chlorine starts at oxidation state 0 and goes to both +1 (in NaClO) and \u22121 (in NaCl), proving both oxidation and reduction of the same element occur.",
+        "explanation": "Disproportionation means the same element is simultaneously oxidised AND reduced in the same reaction. For the equation, balance Cl\u2082 with NaOH to give the two sodium products (NaClO and NaCl) plus water, then use oxidation numbers on Cl to prove both processes occur.",
         "steps": [
-          "Step 1 \u2013 Define disproportionation (part i): Oxidation and reduction of the SAME element occurring simultaneously in the same reaction.",
-          "Step 2 \u2013 Construct the equation (part ii): Balance Cl\u2082 reacting with NaOH. Cl\u2082 + 2NaOH \u2192 NaClO + NaCl + H\u2082O. Check: 2 Na, 2 Cl, 2 O, 2 H each side \u2713",
-          "Step 3 \u2013 Assign oxidation numbers to Cl to prove disproportionation: In Cl\u2082, oxidation number of Cl = 0. In NaClO, Cl = +1 (Na is +1, O is \u22122, so Cl must be +1). In NaCl, Cl = \u22121.",
-          "Step 4 \u2013 Explain disproportionation: Cl is OXIDISED from 0 (in Cl\u2082) to +1 (in NaClO), AND Cl is REDUCED from 0 (in Cl\u2082) to \u22121 (in NaCl). Since the same element (chlorine) is both oxidised and reduced, this confirms disproportionation has occurred."
+          "Part (a)(i) \u2013 Definition: Disproportionation is when the SAME element (here chlorine) is simultaneously oxidised AND reduced in the same reaction.",
+          "Part (a)(ii) \u2013 Equation: Balance Cl\u2082 reacting with 2NaOH. Cl\u2082 has 2 Cl atoms; one goes into NaClO (oxidised) and one into NaCl (reduced), with water as the third product. Balanced equation: Cl\u2082 + 2NaOH \u2192 NaClO + NaCl + H\u2082O",
+          "Explanation \u2013 assign oxidation numbers to Cl: In Cl\u2082, Cl = 0. In NaClO (NaClO), O = \u22122, Na = +1, so Cl = +1. In NaCl, Na = +1, so Cl = \u22121.",
+          "Cl is OXIDISED from 0 (in Cl\u2082) to +1 (in NaClO) \u2014 oxidation number increases.",
+          "Cl is REDUCED from 0 (in Cl\u2082) to \u22121 (in NaCl) \u2014 oxidation number decreases.",
+          "Answer: Because the same element (Cl) has both increased and decreased in oxidation number in the same reaction, disproportionation has taken place."
         ],
         "msShow": [
           16
@@ -3271,14 +3267,14 @@
           19,
           20
         ],
-        "explanation": "Use q = mc\u0394T to find heat released, then divide by moles of Ba(OH)\u2082 (the limiting reagent from the equation) to get \u0394H per mole. Remember to use the total combined volume of solution for mass, and give a negative sign since the reaction is exothermic (temperature rises).",
+        "explanation": "Use q = mc\u0394T to find heat released, then divide by moles of Ba(OH)\u2082 (the limiting reagent as written in Equation 25.1) to get \u0394H per mole. The reaction is exothermic so \u0394H is negative.",
         "steps": [
           "Step 1 \u2013 Find \u0394T: \u0394T = 39.0 \u2212 20.5 = 18.5 \u00b0C",
-          "Step 2 \u2013 Find total mass of solution: total volume = 25.0 + 50.0 = 75.0 cm\u00b3; assuming density = 1 g cm\u207b\u00b3, mass = 75.0 g",
+          "Step 2 \u2013 Find total mass of solution: total volume = 25.0 + 50.0 = 75.0 cm\u00b3, so mass = 75.0 g (density = 1 g/cm\u00b3)",
           "Step 3 \u2013 Calculate heat released using q = mc\u0394T: q = 75.0 \u00d7 4.18 \u00d7 18.5 = 5799.75 J = 5.79975 kJ",
-          "Step 4 \u2013 Find moles of Ba(OH)\u2082 (limiting reagent in the equation, 1 mol Ba(OH)\u2082 reacts with 2 mol HNO\u2083): n(Ba(OH)\u2082) = 2.00 mol dm\u207b\u00b3 \u00d7 (25.0/1000) dm\u00b3 = 0.0500 mol. Check HNO\u2083: n(HNO\u2083) = 2.00 \u00d7 (50.0/1000) = 0.100 mol \u2014 exactly 2\u00d7 the Ba(OH)\u2082 moles, so Ba(OH)\u2082 is the correct reference (1 mol Ba(OH)\u2082 per equation).",
-          "Step 5 \u2013 Calculate \u0394H per mole of Ba(OH)\u2082: \u0394H = \u22125.79975 kJ \u00f7 0.0500 mol = \u2212116 kJ mol\u207b\u00b9 (negative because exothermic)",
-          "Answer: \u0394\u1d63H = \u2212116 kJ mol\u207b\u00b9 (to 3 significant figures)"
+          "Step 4 \u2013 Find moles of Ba(OH)\u2082 (this is the species with 1 mol in Equation 25.1): n(Ba(OH)\u2082) = 2.00 \u00d7 (25.0/1000) = 0.0500 mol",
+          "Step 5 \u2013 Calculate \u0394H per mole of Ba(OH)\u2082: \u0394H = \u22125.79975 / 0.0500 = \u2212116 kJ mol\u207b\u00b9 (negative because exothermic)",
+          "Answer: \u0394\u1d63H = \u2212116 kJ mol\u207b\u00b9"
         ],
         "msShow": [
           18,
@@ -3307,13 +3303,13 @@
           22,
           23
         ],
-        "explanation": "This is an SN2 nucleophilic substitution mechanism. The nucleophile OH\u207b attacks the \u03b4+ carbon of the C\u2013Cl bond, while the C\u2013Cl bond breaks heterolytically, releasing Cl\u207b as a leaving group.",
+        "explanation": "This is an SN2 nucleophilic substitution mechanism. The OH\u207b ion acts as the nucleophile, attacking the \u03b4+ carbon of the C\u2013Cl bond, while the C\u2013Cl bond breaks heterolytically with both electrons going to Cl, forming Cl\u207b.",
         "steps": [
-          "Step 1 \u2013 Show the dipole on the C\u2013Cl bond: Cl is more electronegative than C, so label the carbon as \u03b4+ and the chlorine as \u03b4\u2212 on the C\u2013Cl bond in the structure of 1-chloropropane.",
-          "Step 2 \u2013 Draw the first curly arrow: from the lone pair (or negative charge) on the oxygen of OH\u207b, pointing TO the \u03b4+ carbon of the C\u2013Cl bond. This shows the nucleophile donating electrons to form a new O\u2013C bond.",
+          "Step 1 \u2013 Show the dipole on the C\u2013Cl bond: Cl is more electronegative than C, so label the carbon as \u03b4+ and the chlorine as \u03b4\u2212 on the C\u2013Cl bond.",
+          "Step 2 \u2013 Draw the first curly arrow: from the lone pair (or negative charge) on the O of OH\u207b, pointing TO the \u03b4+ carbon of the C\u2013Cl bond. This shows the nucleophile donating electrons to form the new O\u2013C bond.",
           "Step 3 \u2013 Draw the second curly arrow: from the C\u2013Cl bond, pointing TO the Cl atom. This shows the bonding pair moving onto Cl as it leaves, forming Cl\u207b.",
-          "Step 4 \u2013 Show the products: the organic product is propan-1-ol (C\u2082H\u2085CH\u2082OH, i.e. the carbon now bonded to OH instead of Cl) AND Cl\u207b ion must both be shown.",
-          "Answer: The mechanism is SN2 \u2014 one concerted step with OH\u207b attacking C from the back, C\u2013Cl bond breaking simultaneously, giving C\u2082H\u2085CH\u2082OH + Cl\u207b."
+          "Step 4 \u2013 Show the products: the organic product is propan-1-ol (C\u2082H\u2085CH\u2082OH, i.e. the structure with \u2013OH replacing \u2013Cl) AND Cl\u207b ion must both be shown.",
+          "Answer: Mechanism has (1) \u03b4+/\u03b4\u2212 dipole on C\u2013Cl AND curly arrow from OH\u207b lone pair to the \u03b4+ C, (2) curly arrow from C\u2013Cl bond to Cl atom, (3) products C\u2082H\u2085CH\u2082OH and Cl\u207b."
         ],
         "msShow": [
           21,
@@ -3980,13 +3976,13 @@
           11,
           12
         ],
-        "explanation": "This question tests knowledge of covalent bonding, dot-and-cross diagrams, VSEPR theory for shapes/bond angles, and how lone pairs affect molecular geometry differently in NF\u2083 vs BF\u2083.",
+        "explanation": "This question tests knowledge of covalent bonding, dot-and-cross diagrams, molecular shapes determined by electron pair repulsion (VSEPR), and how lone pairs affect bond angles differently in NF\u2083 vs BF\u2083.",
         "steps": [
-          "Part (a)(i) \u2013 Covalent bond definition: A covalent bond is a SHARED PAIR of electrons (between two atoms).",
-          "Part (a)(ii) \u2013 Dot-and-cross diagrams: NF\u2083: Draw N in the centre with 3 F atoms around it. Each N\u2013F bond is shown as one dot and one cross (shared pair). N has 1 lone pair remaining. Each F has 3 lone pairs. BF\u2083: Draw B in the centre with 3 F atoms around it. Each B\u2013F bond is shown as one dot and one cross. B has NO lone pairs (only 3 bonding pairs, giving B only 6 outer electrons). Each F has 3 lone pairs.",
-          "Part (b)(i) \u2013 Shapes and bond angles: Count electron pairs around the central atom using VSEPR. NF\u2083: N has 3 bonding pairs + 1 lone pair = 4 electron pairs \u2192 pyramidal shape, bond angle 107\u00b0. BF\u2083: B has 3 bonding pairs + 0 lone pairs = 3 electron pairs \u2192 trigonal planar shape, bond angle 120\u00b0.",
-          "Part (b)(ii) \u2013 Explanation of different shapes: NF\u2083 has 3 bonded pairs AND 1 lone pair on N. Lone pairs repel MORE strongly than bonded pairs, pushing the bonding pairs closer together \u2192 bond angle reduced to ~107\u00b0 \u2192 pyramidal shape. BF\u2083 has only 3 bonded pairs (no lone pair on B), so all repulsions are equal \u2192 bond pairs spread to 120\u00b0 \u2192 trigonal planar shape.",
-          "Answer summary: (a)(i) Shared pair of electrons. (a)(ii) NF\u2083: N centre, 1 lone pair on N, 3 dot-and-cross bonds, 3 lone pairs on each F; BF\u2083: B centre, no lone pair on B, 3 dot-and-cross bonds, 3 lone pairs on each F. (b)(i) NF\u2083: 107\u00b0, pyramidal; BF\u2083: 120\u00b0, trigonal planar. (b)(ii) NF\u2083 has 3 bonded pairs + 1 lone pair; lone pairs repel more than bonded pairs, compressing bond angle. BF\u2083 has only 3 bonded pairs, no lone pair, so 120\u00b0 spacing."
+          "Part (a)(i) \u2013 Definition of a covalent bond: A covalent bond is a SHARED PAIR of electrons (between two atoms). That's all you need for the 1 mark.",
+          "Part (a)(ii) \u2013 Dot-and-cross diagrams (outer electrons only): NF\u2083: Nitrogen has 5 outer electrons; each F has 7. Draw N in the centre with 3 bond pairs (one to each F, shown as one dot and one cross per bond) and 1 lone pair on N. Each F atom also has 3 lone pairs around it. Key: N has 3 bonding pairs + 1 lone pair = 8 electrons total (octet). BF\u2083: Boron has 3 outer electrons; each F has 7. Draw B in the centre with 3 bond pairs ONLY \u2013 no lone pair on B (B only has 6 electrons, incomplete octet). Each F atom still has 3 lone pairs. Use dots for one atom's electrons and crosses for the other's to distinguish them.",
+          "Part (b)(i) \u2013 Shapes and bond angles: Count electron pairs around the CENTRAL atom using VSEPR. NF\u2083: N has 3 bonding pairs + 1 lone pair = 4 electron pairs \u2192 pyramidal shape, bond angle \u2248 107\u00b0. BF\u2083: B has 3 bonding pairs + 0 lone pairs = 3 electron pairs \u2192 trigonal planar shape, bond angle = 120\u00b0.",
+          "Part (b)(ii) \u2013 Why the shapes differ: NF\u2083 has a lone pair on N in addition to the 3 bond pairs. Lone pair\u2013bond pair repulsion is greater than bond pair\u2013bond pair repulsion, so the lone pair pushes the three N\u2013F bonds closer together, reducing the bond angle from 120\u00b0 to ~107\u00b0 and creating a pyramidal shape. BF\u2083 has NO lone pair on B; it has only 3 bond pairs which repel each other equally, giving 120\u00b0 angles and a flat trigonal planar shape.",
+          "Answer summary: (a)(i) Shared pair of electrons. (a)(ii) NF\u2083: N central with 1 lone pair + 3 bond pairs, each F with 3 lone pairs; BF\u2083: B central with 3 bond pairs only, each F with 3 lone pairs. (b)(i) NF\u2083 \u2192 pyramidal, 107\u00b0; BF\u2083 \u2192 trigonal planar, 120\u00b0. (b)(ii) NF\u2083 has a lone pair on N causing greater repulsion, compressing bond angles; BF\u2083 has no lone pair on B so bond pairs repel equally giving 120\u00b0."
         ],
         "msShow": [
           11,
@@ -4026,12 +4022,11 @@
           13,
           14
         ],
-        "explanation": "This question tests: (a) the definition of a strong acid, (b)(i) metal oxide + acid \u2192 salt + water, and (b)(ii) carbonate + acid \u2192 salt + water + CO\u2082, requiring correct formulae and balancing.",
+        "explanation": "A strong acid completely dissociates/ionises in water, releasing all its H\u207a ions. For the equations, use standard acid-base reactions: metal oxide + acid \u2192 salt + water, and carbonate + acid \u2192 salt + water + CO\u2082.",
         "steps": [
-          "Part (a) \u2013 Definition of a strong acid: A strong acid is one that COMPLETELY/FULLY dissociates (ionises) in aqueous solution. e.g. HCl \u2192 H\u207a + Cl\u207b (100% dissociation). Do NOT say 'easily dissociates' \u2013 must say completely/fully.",
-          "Part (b)(i) \u2013 CuO with dilute HCl: Metal oxide + acid \u2192 salt + water. CuO + 2HCl \u2192 CuCl\u2082 + H\u2082O. Check balance: Cu:1=1 \u2713, O:1=1 \u2713, H:2=2 \u2713, Cl:2=2 \u2713",
-          "Part (b)(ii) \u2013 (NH\u2084)\u2082CO\u2083 with dilute HNO\u2083: Carbonate + acid \u2192 salt + water + carbon dioxide. (NH\u2084)\u2082CO\u2083 + 2HNO\u2083 \u2192 2NH\u2084NO\u2083 + CO\u2082 + H\u2082O. Check balance: N (left): 2+2=4; N (right): 2\u00d72=4 \u2713, H (left): 8+2=10; H (right): 8+2=10 \u2713, C:1=1 \u2713, O (left): 3+6=9; O (right): 6+2+1=9 \u2713. Note: H\u2082CO\u2083 is also accepted instead of CO\u2082 + H\u2082O (counts as 2 correct formulae).",
-          "Answer (a): A strong acid completely/fully dissociates in solution. Answer (b)(i): CuO + 2HCl \u2192 CuCl\u2082 + H\u2082O. Answer (b)(ii): (NH\u2084)\u2082CO\u2083 + 2HNO\u2083 \u2192 2NH\u2084NO\u2083 + CO\u2082 + H\u2082O"
+          "Part (a): A strong acid is one that completely/fully dissociates (ionises) in aqueous solution. All H\u207a ions are released. Do NOT say 'easily dissociates' \u2014 it must be 'completely' or 'fully'.",
+          "Part (b)(i): CuO reacts with HCl. Metal oxide + acid \u2192 salt + water. CuO + 2HCl \u2192 CuCl\u2082 + H\u2082O. Check: Cu balances (1 each side), O balances (1 each side), H balances (2 each side), Cl balances (2 each side). \u2713",
+          "Part (b)(ii): Ammonium carbonate reacts with nitric acid. Carbonate + acid \u2192 salt + water + CO\u2082. (NH\u2084)\u2082CO\u2083 + 2HNO\u2083 \u2192 2NH\u2084NO\u2083 + CO\u2082 + H\u2082O. Check: N from carbonate side = 2 (in 2\u00d7NH\u2084\u207a), N from acid side = 2 (in 2HNO\u2083 giving 2NH\u2084NO\u2083 has 4N total \u2014 recheck: left: 2N in (NH\u2084)\u2082CO\u2083 + 2N in 2HNO\u2083 = 4N; right: 4N in 2NH\u2084NO\u2083 \u2713. H: left 8+2=10; right 8+2=10 \u2713. C: 1=1 \u2713. O: left 3+6=9; right 6+2+1=9 \u2713. Balanced. \u2713"
         ],
         "msShow": [
           13,
@@ -4068,21 +4063,18 @@
           17,
           18
         ],
-        "explanation": "This question covers two skills: balancing combustion equations for alkanes, and drawing enthalpy profile diagrams showing reactants, products, \u0394H, and activation energy E\u2090 correctly for an exothermic reaction.",
+        "explanation": "For parts (a)(i) and (a)(ii): heptane is C\u2087H\u2081\u2086 (alkane formula C\u2099H\u2082\u2099\u208a\u2082, n=7), so balance C, H, then O for complete combustion. For (a)(ii), since \u0394H = \u2212746 kJ mol\u207b\u00b9 (negative), the reaction is exothermic, so products sit lower than reactants on the enthalpy profile, with a hump (transition state) above reactants representing the activation energy E\u2090.",
         "steps": [
-          "Part (a)(i) \u2013 Combustion of heptane (C\u2087H\u2081\u2086): Complete combustion produces CO\u2082 and H\u2082O only.",
-          "Step 1: Write unbalanced equation: C\u2087H\u2081\u2086 + O\u2082 \u2192 CO\u2082 + H\u2082O",
-          "Step 2: Balance C: 7 carbons \u2192 7CO\u2082",
-          "Step 3: Balance H: 16 hydrogens \u2192 8H\u2082O",
-          "Step 4: Balance O: 7\u00d72 + 8\u00d71 = 22 oxygen atoms needed \u2192 11O\u2082",
+          "Part (a)(i) \u2014 Write the formula for heptane: alkanes follow C\u2099H\u2082\u2099\u208a\u2082, so heptane (n=7) is C\u2087H\u2081\u2086.",
+          "Balance carbon: 7C on left \u2192 7CO\u2082 on right.",
+          "Balance hydrogen: 16H on left \u2192 8H\u2082O on right.",
+          "Balance oxygen: right side has 7\u00d72 + 8\u00d71 = 14 + 8 = 22 oxygen atoms \u2192 need 11O\u2082 on left.",
           "Answer (a)(i): C\u2087H\u2081\u2086 + 11O\u2082 \u2192 7CO\u2082 + 8H\u2082O",
-          "Part (a)(ii) \u2013 Enthalpy profile diagram for 2CO + 2NO \u2192 2CO\u2082 + N\u2082, \u0394H = \u2212746 kJ mol\u207b\u00b9:",
-          "Step 1: Since \u0394H is NEGATIVE, this is EXOTHERMIC \u2192 products must be drawn LOWER than reactants on the enthalpy axis.",
-          "Step 2: Draw a curve that rises from the reactant level to a peak (transition state), then falls to the product level below the reactants.",
-          "Step 3: Label the reactant level '2CO(g) + 2NO(g)' and the product level '2CO\u2082(g) + N\u2082(g)'.",
-          "Step 4: Draw a downward arrow between the reactant level and the product level, label it \u0394H (arrow must point downwards from reactants to products).",
-          "Step 5: Draw an upward arrow from the reactant level to the top (peak) of the curve, label it E\u2090 (activation energy). Arrow must point upward to the maximum of the curve.",
-          "Answer (a)(ii): Exothermic profile with 2CO+2NO above 2CO\u2082+N\u2082; \u0394H arrow pointing down between these levels; E\u2090 arrow pointing up from reactant level to peak of curve."
+          "Part (a)(ii) \u2014 Draw the enthalpy profile: because \u0394H = \u2212746 kJ mol\u207b\u00b9 (exothermic), the products (2CO\u2082 + N\u2082) are drawn LOWER than the reactants (2CO + 2NO).",
+          "Draw a curved hump rising from the reactants level to a peak (transition state), then falling to the lower products level.",
+          "Label the reactants line '2CO + 2NO', the products line '2CO\u2082 + N\u2082'.",
+          "Label the vertical drop from reactants to products as \u0394H (= \u2212746 kJ mol\u207b\u00b9, shown as negative/downward arrow).",
+          "Label the vertical distance from the reactants level up to the peak of the hump as E\u2090 (activation energy)."
         ],
         "msShow": [
           15,
@@ -4114,13 +4106,12 @@
           19,
           20
         ],
-        "explanation": "For homogeneous equilibrium, all species must be in the same state/phase. For Le Chatelier's, you must link each condition change to the direction of shift AND give the chemical reason why.",
+        "explanation": "A homogeneous equilibrium means all species (reactants AND products) are in the same state/phase. For part (b), Le Chatelier's principle states that if a system at equilibrium is disturbed, it shifts to oppose the change \u2014 apply this separately to pressure, temperature, and catalyst.",
         "steps": [
-          "Part (a): A homogeneous equilibrium is one where ALL reactants AND products are in the SAME state/phase. Here SO\u2082(g), O\u2082(g), and SO\u2083(g) are all gases \u2014 so it is homogeneous.",
-          "Part (b) \u2014 PRESSURE (2 marks): Increased pressure shifts the equilibrium to the RIGHT (towards SO\u2083), increasing the yield of SO\u2083. REASON: The right-hand side has fewer moles of gas (3 moles of gas \u2192 2 moles of gas: 2SO\u2082 + O\u2082 gives 2SO\u2083), so the system minimises pressure by favouring the side with fewer gas molecules.",
-          "Part (b) \u2014 TEMPERATURE (2 marks): Increased temperature shifts the equilibrium to the LEFT, decreasing the yield of SO\u2083. REASON: The forward reaction is exothermic (\u0394H = \u2212197 kJ mol\u207b\u00b9); by Le Chatelier's principle, increasing temperature favours the endothermic (reverse) direction to oppose the change.",
-          "Part (b) \u2014 CATALYST (1 mark): A catalyst has NO effect on the equilibrium position and does NOT change the yield of SO\u2083. It increases the rates of BOTH the forward and reverse reactions equally, so equilibrium is reached faster but the position is unchanged.",
-          "Answer summary: (a) All species are in the same state (all gases). (b) Higher pressure \u2192 more SO\u2083 (3 mol gas \u2192 2 mol gas); Higher temperature \u2192 less SO\u2083 (forward reaction is exothermic); Catalyst \u2192 no change in yield."
+          "PART (a): Look at the equation: 2SO\u2082(g) + O\u2082(g) \u21cc 2SO\u2083(g). All three species are gases (same state/phase). Answer: All reactants and products are in the same state (all gases), so it is a homogeneous equilibrium.",
+          "PART (b) \u2014 PRESSURE (2 marks): Count moles of gas on each side: left = 2+1 = 3 moles of gas; right = 2 moles of gas. Increasing pressure shifts equilibrium to the side with fewer moles of gas, i.e. to the RIGHT \u2192 increases yield of SO\u2083. (State both: the direction of shift AND the reason \u2014 fewer moles on right.)",
+          "PART (b) \u2014 TEMPERATURE (2 marks): \u0394H = \u2212197 kJ mol\u207b\u00b9, so the forward reaction is EXOTHERMIC. Increasing temperature shifts equilibrium to oppose the change \u2014 it favours the endothermic (reverse) direction, shifting equilibrium to the LEFT \u2192 decreases yield of SO\u2083. (State both: the direction of shift AND that the forward reaction is exothermic.)",
+          "PART (b) \u2014 CATALYST (1 mark): A catalyst speeds up both the forward and reverse reactions equally. It does NOT shift the equilibrium position, so it has NO effect on the yield of SO\u2083. (Do not say 'increases yield' \u2014 a catalyst only helps equilibrium be reached faster.)"
         ],
         "msShow": [
           19
@@ -4151,21 +4142,15 @@
           21,
           22
         ],
-        "explanation": "Part (a) requires comparing London dispersion forces between butane and pentane using chain length. Part (b) requires two propagation steps using skeletal formulae with radical dots to form 2-bromobutane.",
+        "explanation": "For part (a), the difference in boiling points is explained by London (dispersion) forces \u2014 pentane has a longer chain giving greater surface area and therefore stronger London forces requiring more energy to overcome. For part (b), propagation in radical substitution consists of two steps: a radical abstracts an H from the alkane to form a new carbon radical, then that radical reacts with Br\u2082 to give the product and regenerate a Br radical.",
         "steps": [
-          "PART (a) - Boiling point difference:",
-          "Step 1 (Chain length): Pentane has a longer carbon chain than butane (5C vs 4C), giving it a greater surface area / more surface contact between molecules.",
-          "Step 2 (London forces): More surface contact means stronger/more London dispersion forces (induced dipole\u2013dipole interactions) between pentane molecules.",
-          "Answer (a): More energy is needed to overcome these stronger London forces in pentane, so pentane has a higher boiling point (36\u00b0C vs 0\u00b0C).",
-          "---",
-          "PART (b) - Propagation steps to form 2-bromobutane (skeletal formulae required):",
-          "Step 1 (Propagation 1): Bromine radical abstracts a hydrogen from C-2 of butane to form a secondary carbon radical and HBr.",
-          "  CH\u2083CH\u2082CH\u2082CH\u2083  +  Br\u2022  \u2192  CH\u2083\u2022CHCH\u2082CH\u2083  +  HBr",
-          "  (In skeletal form: butane skeletal + Br\u2022 \u2192 secondary butyl radical with dot on C2 + HBr)",
-          "Step 2 (Propagation 2): The secondary carbon radical reacts with Br\u2082 to form 2-bromobutane and regenerate a Br radical.",
-          "  CH\u2083\u2022CHCH\u2082CH\u2083  +  Br\u2082  \u2192  CH\u2083CHBrCH\u2082CH\u2083  +  Br\u2022",
-          "  (In skeletal form: secondary butyl radical with dot on C2 + Br\u2082 \u2192 2-bromobutane skeletal with Br on C2 + Br\u2022)",
-          "Answer (b): Two propagation steps as above \u2014 the radical dot must be shown on C2 of butane in step 1, and Br must appear on C2 of the product in step 2."
+          "PART (a): Both butane and pentane are non-polar molecules held together by London (dispersion) forces only.",
+          "Pentane has a longer carbon chain (5C) than butane (4C), giving it a greater surface area / more surface contact between molecules.",
+          "Greater surface area \u2192 stronger London forces between pentane molecules \u2192 more energy needed to separate them \u2192 higher boiling point (36\u00b0C vs 0\u00b0C).",
+          "Award point 1: 'Pentane has a longer chain / greater surface area giving more surface contact.' Award point 2: 'Pentane has stronger/more London forces OR more energy is needed to break the London forces.'",
+          "PART (b): Propagation step 1 \u2014 the Br\u2022 radical (from initiation) abstracts a hydrogen from carbon-2 of butane, forming a secondary carbon radical at C2 and HBr: CH\u2083CH\u2022CH\u2082CH\u2083 + HBr (skeletal: butane skeleton + Br\u2022 \u2192 2-butyl radical\u2022 + HBr).",
+          "Propagation step 2 \u2014 the 2-butyl radical reacts with Br\u2082, breaking the Br\u2013Br bond, to form 2-bromobutane and regenerate a Br\u2022 radical: 2-butyl radical\u2022 + Br\u2082 \u2192 2-bromobutane + Br\u2022.",
+          "Key points: use skeletal formulae, show the dot (\u2022) on the correct carbon (C2) in step 1, and regenerate Br\u2022 in step 2. No molecular formulae allowed for organic structures."
         ],
         "msShow": [
           21
@@ -4850,13 +4835,12 @@
           11,
           12
         ],
-        "explanation": "Relative atomic mass is calculated by multiplying each isotope's mass number by its relative abundance (as a percentage), summing these values, then dividing by 100 (total abundance).",
+        "explanation": "Relative atomic mass is calculated by multiplying each isotope's mass number by its relative abundance (as a percentage), summing these values, then dividing by 100 (the total percentage).",
         "steps": [
-          "Step 1 \u2013 Write the formula: Ar = \u03a3(isotope mass \u00d7 relative abundance) / 100",
-          "Step 2 \u2013 Multiply each isotope mass by its abundance: (54 \u00d7 78.54) + (56 \u00d7 8.88) + (57 \u00d7 5.10) + (58 \u00d7 7.48)",
-          "Step 3 \u2013 Calculate each term: (54 \u00d7 78.54) = 4241.16, (56 \u00d7 8.88) = 497.28, (57 \u00d7 5.10) = 290.70, (58 \u00d7 7.48) = 433.84",
-          "Step 4 \u2013 Sum the terms: 4241.16 + 497.28 + 290.70 + 433.84 = 5462.98",
-          "Step 5 \u2013 Divide by 100: 5462.98 / 100 = 54.6298",
+          "Step 1 \u2013 Write the formula: Ar = \u03a3(isotope mass \u00d7 relative abundance) \u00f7 100",
+          "Step 2 \u2013 Multiply each isotope mass by its abundance: (54 \u00d7 78.54) = 4241.16, (56 \u00d7 8.88) = 497.28, (57 \u00d7 5.10) = 290.70, (58 \u00d7 7.48) = 433.84",
+          "Step 3 \u2013 Sum all values: 4241.16 + 497.28 + 290.70 + 433.84 = 5462.98",
+          "Step 4 \u2013 Divide by 100: 5462.98 \u00f7 100 = 54.6298",
           "Answer: Relative atomic mass = 54.63 (to 2 decimal places)"
         ],
         "msShow": [
@@ -4884,16 +4868,14 @@
           14,
           15
         ],
-        "explanation": "This question tests strong vs weak acid definitions, titration calculations (titres, mean titre), and a multi-step mole calculation to find % composition by mass. The key ideas are: full vs partial dissociation, using concordant titres for the mean, and scaling moles from 25.0 cm\u00b3 aliquot to the full 250 cm\u00b3 flask.",
+        "explanation": "For part (a), the key distinction is about the degree of dissociation/ionisation in water. For part (b)(i), titres are simply calculated by subtracting initial reading from final reading, and must be given to 2 decimal places.",
         "steps": [
-          "PART (a) \u2013 Strong vs Weak Acid: A strong acid FULLY dissociates/ionises in solution. A weak acid PARTIALLY dissociates/ionises in solution.",
-          "PART (b)(i) \u2013 Calculate the titres (Titre = Final reading \u2212 Initial reading): Titration 1: 48.95 \u2212 24.55 = 24.40 cm\u00b3. Titration 2: 24.15 \u2212 0.00 = 24.15 cm\u00b3. Titration 3: 48.35 \u2212 24.10 = 24.25 cm\u00b3.",
-          "PART (b)(ii) \u2013 Mean titre using CONCORDANT titres only: Titrations 2 and 3 are concordant (close together: 24.15 and 24.25 cm\u00b3). Titration 1 (24.40 cm\u00b3) is discarded. Mean titre = (24.15 + 24.25) \u00f7 2 = 24.20 cm\u00b3.",
-          "PART (b)(iii) Step 1 \u2013 Moles of Na\u2082CO\u2083 used in titration: n = c \u00d7 V(dm\u00b3) = 0.200 \u00d7 (24.20/1000) = 4.84 \u00d7 10\u207b\u00b3 mol",
-          "PART (b)(iii) Step 2 \u2013 Moles of CH\u2083COOH in the 25.0 cm\u00b3 pipette aliquot: From the equation 2CH\u2083COOH : 1Na\u2082CO\u2083, so n(CH\u2083COOH) = 2 \u00d7 4.84 \u00d7 10\u207b\u00b3 = 9.68 \u00d7 10\u207b\u00b3 mol",
-          "PART (b)(iii) Step 3 \u2013 Scale up to the full 250.0 cm\u00b3 volumetric flask: The 25.0 cm\u00b3 aliquot is 1/10 of 250.0 cm\u00b3, so n(CH\u2083COOH) in 250 cm\u00b3 = 10 \u00d7 9.68 \u00d7 10\u207b\u00b3 = 9.68 \u00d7 10\u207b\u00b2 mol",
-          "PART (b)(iii) Step 4 \u2013 Mass of CH\u2083COOH in the flask (Mr of CH\u2083COOH = 60): mass = n \u00d7 Mr = 9.68 \u00d7 10\u207b\u00b2 \u00d7 60 = 5.808 g",
-          "PART (b)(iii) Step 5 \u2013 % composition by mass: % = (mass of CH\u2083COOH / mass of descaler sample) \u00d7 100 = (5.808 / 6.50) \u00d7 100 = 89.4% (3 SF)"
+          "Part (a): A strong acid FULLY dissociates/ionises in water (e.g. HCl \u2192 H\u207a + Cl\u207b completely). A weak acid PARTIALLY dissociates/ionises in water (e.g. CH\u2083COOH \u21cc H\u207a + CH\u2083COO\u207b, equilibrium lies to the left). Both parts must be stated for the mark.",
+          "Part (b)(i): Titre = Final reading \u2212 Initial reading",
+          "Titration 1: 48.95 \u2212 24.55 = 24.40 cm\u00b3",
+          "Titration 2: 24.15 \u2212 0.00 = 24.15 cm\u00b3",
+          "Titration 3: 48.35 \u2212 24.10 = 24.25 cm\u00b3",
+          "Answer: Titres are 24.40, 24.15, and 24.25 cm\u00b3 (all to 2 decimal places)"
         ],
         "msShow": [
           13,
@@ -4927,21 +4909,25 @@
           18,
           19
         ],
-        "explanation": "For (i), dynamic equilibrium has two key features: equal forward/reverse rates and constant concentrations in a closed system. For (ii), use Le Chatelier's principle: the reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9) and goes from 4 moles of gas to 2 moles of gas.",
+        "explanation": "For (a)(i), a dynamic equilibrium has two key features: equal forward and reverse rates, and constant concentrations, all within a closed system. For (a)(ii), use Le Chatelier's principle \u2014 the reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9) so low temperature favours the forward reaction, and there are fewer moles of gas on the right (4 mol \u2192 2 mol) so high pressure shifts equilibrium towards products.",
         "steps": [
-          "Part (i) \u2014 Two features of dynamic equilibrium:",
+          "Part (a)(i) \u2014 Two features of dynamic equilibrium:",
           "Feature 1: The rate of the forward reaction equals the rate of the reverse reaction.",
-          "Feature 2: The concentrations of reactants and products remain constant (in a closed system).",
-          "Part (ii) \u2014 Temperature:",
-          "The forward reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9, gives out heat).",
-          "By Le Chatelier's principle, lowering temperature shifts equilibrium to the right (towards products/NH\u2083) to release more heat.",
-          "Therefore: use LOW temperature to maximise equilibrium yield.",
-          "Part (ii) \u2014 Pressure:",
-          "Count moles of gas on each side: reactants = 1 + 3 = 4 moles gas; products = 2 moles gas.",
-          "The right-hand side has fewer gaseous moles (4 \u2192 2).",
-          "By Le Chatelier's principle, increasing pressure shifts equilibrium to the side with fewer gas moles (right/products).",
-          "Therefore: use HIGH pressure to maximise equilibrium yield.",
-          "Equilibrium shift statement (needed for 3rd mark): Both low temperature and high pressure shift/move the equilibrium to the right, favouring production of NH\u2083."
+          "Feature 2: The concentrations of reactants and products remain constant (do not change over time).",
+          "(Note: it must occur in a closed system \u2014 nothing can enter or leave.)",
+          "---",
+          "Part (a)(ii) \u2014 Temperature:",
+          "The forward reaction is EXOTHERMIC (\u0394H = \u221292 kJ mol\u207b\u00b9, negative, gives out heat).",
+          "By Le Chatelier's principle, lowering temperature shifts equilibrium to the right (towards the exothermic direction) to produce more heat.",
+          "Therefore: LOW temperature increases the equilibrium yield of NH\u2083.",
+          "---",
+          "Part (a)(ii) \u2014 Pressure:",
+          "Count moles of gas on each side: left = 1 + 3 = 4 moles of gas; right = 2 moles of gas.",
+          "The right-hand side has FEWER moles of gas (4 mol \u2192 2 mol).",
+          "By Le Chatelier's principle, increasing pressure shifts equilibrium towards the side with fewer gas moles (the right).",
+          "Therefore: HIGH pressure increases the equilibrium yield of NH\u2083.",
+          "---",
+          "Answer summary: Low temperature (because forward reaction is exothermic) AND high pressure (because 4 moles of gas form 2 moles of gas), both shift the equilibrium to the right towards NH\u2083."
         ],
         "msShow": [
           16
@@ -4973,12 +4959,13 @@
           21,
           22
         ],
-        "explanation": "The boiling points of these C\u2086H\u2081\u2084 isomers decrease as branching increases because more branched molecules have less surface contact with neighbouring molecules, resulting in weaker London (induced dipole-dipole) forces that require less energy to overcome.",
+        "explanation": "All three isomers have the same molecular formula (C\u2086H\u2081\u2084) so the same number of electrons, meaning the difference in boiling points is due to the degree of branching, which affects how well molecules can make surface contact with each other, and therefore the strength of London (induced dipole\u2013dipole) forces between molecules.",
         "steps": [
-          "Step 1 \u2013 State the trend: Boiling point decreases from A (69\u00b0C) to B (63\u00b0C) to C (58\u00b0C) as branching increases. A has no branching (straight chain hexane), B has one branch, and C has the most branching (2,2-dimethylbutane).",
-          "Step 2 \u2013 Link branching to surface contact: More branching means the molecule is more compact/spherical, so there is less surface contact/interaction between neighbouring molecules.",
-          "Step 3 \u2013 Link surface contact to intermolecular forces: Less surface contact means fewer/weaker London forces (induced dipole\u2013dipole interactions) between molecules.",
-          "Step 4 \u2013 Link to energy and boiling point: Less energy is needed to overcome the weaker London forces, so the boiling point is lower. Isomer A (least branched) has the strongest London forces and highest boiling point (69\u00b0C); isomer C (most branched) has the weakest London forces and lowest boiling point (58\u00b0C)."
+          "Step 1 \u2013 State the trend: Boiling point decreases from A (69\u00b0C) to B (63\u00b0C) to C (58\u00b0C) as branching increases. A has no branching (straight chain hexane), B has one branch (2-methylpentane), and C has the most branching (2,2-dimethylbutane).",
+          "Step 2 \u2013 Link branching to surface contact: More branching makes the molecule more spherical/compact, reducing the surface area available for contact between neighbouring molecules. Less surface contact means fewer points of interaction between molecules.",
+          "Step 3 \u2013 Name the intermolecular force: The forces between these non-polar alkane molecules are London forces (induced dipole\u2013dipole interactions). Greater surface contact \u2192 stronger London forces.",
+          "Step 4 \u2013 Link to energy and boiling point: More energy is needed to overcome stronger London forces. Isomer A (least branched) has the greatest surface contact, strongest London forces, and therefore the highest boiling point. Isomer C (most branched) has the least surface contact, weakest London forces, and therefore the lowest boiling point.",
+          "Answer: Boiling point decreases with increasing branching (A > B > C) because greater branching reduces surface contact between molecules, weakening London forces, so less energy is required to overcome them."
         ],
         "msShow": [
           20
@@ -5006,17 +4993,16 @@
           24,
           25
         ],
-        "explanation": "For part (a), balance the combustion equation using C\u2085H\u2081\u2082O + O\u2082 \u2192 CO\u2082 + H\u2082O. For part (b), work backwards from the oxidation products: a carboxylic acid comes from a primary alcohol, a ketone from a secondary alcohol, and 'no reaction' means a tertiary alcohol.",
+        "explanation": "For part (a), balance the complete combustion equation (products are CO2 and H2O only). For part (b), work backwards from the oxidation product: a carboxylic acid means primary alcohol (A), a ketone means secondary alcohol (B), and no reaction means tertiary alcohol (C).",
         "steps": [
-          "PART (a) - Complete combustion: C\u2093H\u1d67O + O\u2082 \u2192 CO\u2082 + H\u2082O",
-          "Balance C: 5 carbons \u2192 5 CO\u2082",
-          "Balance H: 12 hydrogens \u2192 6 H\u2082O",
-          "Balance O: left side has 1 O (in alcohol) + O\u2082; right side has 5\u00d72 + 6\u00d71 = 16 O atoms. So O\u2082 needed = (16 - 1)/2 = 7\u00bd",
-          "Answer (a): C\u2085H\u2081\u2082O + 7\u00bd O\u2082 \u2192 5 CO\u2082 + 6 H\u2082O",
-          "PART (b) - Identify each alcohol from its oxidation product:",
-          "Alcohol A: Product is a CARBOXYLIC ACID (has \u2013COOH group, shown as C=O with OH). Carboxylic acids are made by oxidising PRIMARY alcohols. The product shown is 2-methylbutanoic acid (4 carbons in chain + branch), so alcohol A is 2-methylbutan-1-ol: CH\u2083CH\u2082CH(CH\u2083)CH\u2082OH",
-          "Alcohol B: Product is a KETONE (C=O, no OH). Ketones are made by oxidising SECONDARY alcohols. The ketone shown is 3-methylbutan-2-one, so alcohol B is 3-methylbutan-2-ol: CH\u2083CH(OH)CH(CH\u2083)\u2082",
-          "Alcohol C: NO REACTION with acidified dichromate. This means it is a TERTIARY alcohol (\u2013OH on a carbon bonded to 3 other carbons). With 5 carbons and a tertiary OH, alcohol C is 2-methylbutan-2-ol: CH\u2083C(CH\u2083)(OH)CH\u2082CH\u2083"
+          "PART (a): Complete combustion formula: C\u2093H\u1d67O + O\u2082 \u2192 CO\u2082 + H\u2082O",
+          "C\u2085H\u2081\u2082O has 5 C, 12 H, 1 O. Products: 5CO\u2082 and 6H\u2082O.",
+          "Balance O: left side needs 5\u00d72 + 6\u00d71 = 16 O from products, minus 1 O already in molecule = 15/2 O\u2082 (or use \u00d72 to get whole numbers).",
+          "Balanced equation: C\u2085H\u2081\u2082O + 7\u00bd O\u2082 \u2192 5CO\u2082 + 6H\u2082O  (or 2C\u2085H\u2081\u2082O + 15O\u2082 \u2192 10CO\u2082 + 12H\u2082O)",
+          "PART (b) \u2014 Alcohol A: The product is a carboxylic acid (has C=O and \u2013OH). Carboxylic acids come from oxidising PRIMARY alcohols. The product shown is a branched 5-carbon carboxylic acid: 2-methylbutanoic acid structure. So alcohol A is the corresponding primary alcohol: CH\u2083CH\u2082CH(CH\u2083)CH\u2082OH (2-methylbutan-1-ol).",
+          "PART (b) \u2014 Alcohol B: The product is a ketone (C=O, no \u2013OH). Ketones come from oxidising SECONDARY alcohols. The product is a branched ketone, so alcohol B is the secondary alcohol: CH\u2083CH(OH)CH(CH\u2083)\u2082 \u2014 i.e. 3-methylbutan-2-ol.",
+          "PART (b) \u2014 Alcohol C: No reaction with acidified dichromate means it is a TERTIARY alcohol (no H on the carbon bearing \u2013OH). Alcohol C is 2-methylbutan-2-ol: CH\u2083C(CH\u2083)(OH)CH\u2082CH\u2083.",
+          "Answer (a): C\u2085H\u2081\u2082O + 7\u00bdO\u2082 \u2192 5CO\u2082 + 6H\u2082O. Answer (b): A = primary alcohol (2-methylbutan-1-ol), B = secondary alcohol (3-methylbutan-2-ol), C = tertiary alcohol (2-methylbutan-2-ol)."
         ],
         "msShow": [
           23
@@ -5524,15 +5510,12 @@
           8,
           9
         ],
-        "explanation": "This question covers three parts: defining weighted mean mass, drawing a dot-and-cross diagram for MgBr\u2082, and calculating the total number of ions in 1.74 g of MgBr\u2082. Each requires a different skill: definition recall, ionic bonding diagrams, and mole calculations.",
+        "explanation": "Weighted mean mass means the average mass of an element's atoms is not a simple average \u2014 it accounts for how abundant each isotope is, so more common isotopes contribute more to the overall value.",
         "steps": [
-          "PART (a) \u2013 Weighted mean mass: The mean/average mass of an atom taking into account the relative abundances of all its isotopes. Key phrase: 'relative abundances of the isotopes' must be included.",
-          "PART (b)(i) \u2013 Dot-and-cross diagram for MgBr\u2082: MgBr\u2082 is ionic. Mg loses 2 electrons to form Mg\u00b2\u207a (empty outer shell \u2014 draw square brackets with 'Mg' inside, no outer electrons, charge 2+). Each Br gains 1 electron to form Br\u207b (full outer octet of 8 electrons \u2014 draw square brackets with Br and 8 electrons in outer shell, charge \u2212). Draw TWO separate Br\u207b ions. The 'extra' electron on each Br\u207b must be shown with the same symbol (dot or cross) as those lost from Mg.",
-          "PART (b)(ii) \u2013 Step 1: Find molar mass of MgBr\u2082. Mr = 24.3 + (2 \u00d7 79.9) = 24.3 + 159.8 = 184.1 g mol\u207b\u00b9",
-          "Step 2: Find moles of MgBr\u2082. n = mass \u00f7 Mr = 1.74 \u00f7 184.1 = 0.009451... mol",
-          "Step 3: Each formula unit of MgBr\u2082 gives 3 ions (1 Mg\u00b2\u207a + 2 Br\u207b). Moles of ions = 0.009451 \u00d7 3 = 0.02835... mol",
-          "Step 4: Number of ions = moles \u00d7 Avogadro's constant = 0.02835 \u00d7 6.02 \u00d7 10\u00b2\u00b3 = 1.71 \u00d7 10\u00b2\u00b2 ions",
-          "Answer: 1.71 \u00d7 10\u00b2\u00b2 ions (3 significant figures)"
+          "Step 1: Recognise that elements exist as different isotopes (atoms with the same number of protons but different numbers of neutrons), each with a different mass.",
+          "Step 2: A simple average would treat all isotopes equally, but a WEIGHTED mean takes into account how abundant (common) each isotope is.",
+          "Step 3: Mathematically: Ar = \u03a3(isotopic mass \u00d7 % abundance) / 100, so isotopes present in higher amounts have a greater effect on the final value.",
+          "Answer: Weighted mean mass is the mean/average mass of an atom of the element, taking into account the relative abundances of all its isotopes."
         ],
         "msShow": [
           6,
@@ -5568,15 +5551,11 @@
           11,
           12
         ],
-        "explanation": "For equilibrium yield: use Le Chatelier's principle \u2014 increase pressure to favour the side with fewer moles of gas, and decrease temperature to favour the exothermic forward reaction. For sustainability: a catalyst lowers the energy needed, reducing fossil fuel use and CO\u2082 emissions.",
+        "explanation": "Use Le Chatelier's principle: the equilibrium will shift to oppose any change. Consider both the moles of gas on each side and the sign of \u0394H to determine the best pressure and temperature conditions for maximum yield.",
         "steps": [
-          "Part (a) \u2014 Count moles of gas on each side: Left (reactants): CO(g) + 2H\u2082(g) = 3 moles of gas. Right (products): CH\u2083OH(g) = 1 mole of gas.",
-          "Pressure: HIGH pressure favours the side with FEWER moles of gas (right-hand side, 1 mole). So high pressure increases yield of CH\u2083OH.",
-          "Temperature: \u0394H = \u221291 kJ mol\u207b\u00b9, so the forward reaction is EXOTHERMIC. LOW temperature favours the forward (exothermic) reaction, shifting equilibrium right to increase yield.",
-          "Answer (a): High pressure AND low temperature. Reason for pressure: RHS has fewer gaseous moles/molecules. Reason for temperature: forward reaction is exothermic.",
-          "Part (b) \u2014 Two ways catalysts help sustainability:",
-          "1. Reaction can be carried out at lower temperatures (or lower pressures), meaning lower energy demand.",
-          "2. Less fossil fuels are burnt / less CO\u2082 emissions (lower carbon footprint)."
+          "Step 1 \u2013 PRESSURE: Count moles of gas on each side. Left side: 1 mol CO + 2 mol H\u2082 = 3 mol gas. Right side: 1 mol CH\u2083OH = 1 mol gas. The product side has FEWER moles of gas, so HIGH pressure shifts equilibrium to the right (towards fewer moles), increasing yield of CH\u2083OH.",
+          "Step 2 \u2013 TEMPERATURE: \u0394H = \u221291 kJ mol\u207b\u00b9, so the forward reaction is EXOTHERMIC. By Le Chatelier's principle, LOW temperature favours the exothermic (forward) reaction, shifting equilibrium to the right and increasing yield of CH\u2083OH.",
+          "Answer: HIGH pressure AND LOW temperature give the maximum equilibrium yield of CH\u2083OH. Reason for pressure: the right-hand side has fewer moles of gas, so high pressure shifts equilibrium towards products. Reason for temperature: the forward reaction is exothermic, so low temperature shifts equilibrium towards products."
         ],
         "msShow": [
           10
@@ -5608,16 +5587,13 @@
           14,
           15
         ],
-        "explanation": "This question covers three parts: (a) a redox reaction with Mg and ethanoic acid requiring an equation and oxidation number analysis; (b) identifying conjugate acid-base pairs in a proton transfer equilibrium between two weak acids; the stronger acid (higher Ka) donates the proton.",
+        "explanation": "For part (a): Mg reacts with ethanoic acid to form magnesium ethanoate and hydrogen gas; oxidation numbers track electron transfer. For part (b): the stronger acid (HCOOH, larger Ka) donates a proton to the weaker acid's conjugate base, giving two conjugate acid-base pairs.",
         "steps": [
-          "PART (a) \u2013 Equation: Mg reacts with ethanoic acid. Mg displaces H from the acid. Balance: Mg + 2CH\u2083COOH \u2192 (CH\u2083COO)\u2082Mg + H\u2082",
-          "PART (a) \u2013 Oxidation: Mg goes from oxidation number 0 (element) to +2 (in the salt). Loss of electrons = oxidation. So Mg is oxidised (0 \u2192 +2).",
-          "PART (a) \u2013 Reduction: H in CH\u2083COOH has oxidation number +1. In H\u2082 it is 0. Gain of electrons = reduction. So H is reduced (+1 \u2192 0).",
-          "PART (b) \u2013 Identify the stronger acid: HCOOH has Ka = 1.82\u00d710\u207b\u2074, CH\u2083COOH has Ka = 1.78\u00d710\u207b\u2075. HCOOH is the stronger acid (larger Ka), so HCOOH donates the proton to CH\u2083COOH.",
-          "PART (b) \u2013 Complete the equilibrium: HCOOH + CH\u2083COOH \u21cc HCOO\u207b + CH\u2083COOH\u2082\u207a",
-          "PART (b) \u2013 Label conjugate pairs: A1 = HCOOH (acid), B1 = HCOO\u207b (its conjugate base) \u2014 they differ by one H\u207a. B2 = CH\u2083COOH (base), A2 = CH\u2083COOH\u2082\u207a (its conjugate acid) \u2014 they differ by one H\u207a.",
-          "Answer (a): Equation: Mg + 2CH\u2083COOH \u2192 (CH\u2083COO)\u2082Mg + H\u2082; Oxidation: Mg from 0 to +2; Reduction: H from +1 to 0.",
-          "Answer (b): HCOOH + CH\u2083COOH \u21cc HCOO\u207b + CH\u2083COOH\u2082\u207a, with A1/B1 = HCOOH/HCOO\u207b and A2/B2 = CH\u2083COOH\u2082\u207a/CH\u2083COOH."
+          "PART (a) \u2014 Equation: Mg reacts with 2 molecules of CH\u2083COOH. Products are magnesium ethanoate and hydrogen gas. Equation: Mg + 2CH\u2083COOH \u2192 (CH\u2083COO)\u2082Mg + H\u2082",
+          "Oxidation: Mg starts as a neutral metal, oxidation number = 0. In (CH\u2083COO)\u2082Mg, Mg is +2. So Mg is oxidised: oxidation number goes from 0 to +2.",
+          "Reduction: H in CH\u2083COOH (the acidic H) has oxidation number +1. In H\u2082 gas, H has oxidation number 0. So H is reduced: oxidation number goes from +1 to 0.",
+          "PART (b) \u2014 Completing the equilibrium: HCOOH has a larger Ka (1.82 \u00d7 10\u207b\u2074) than CH\u2083COOH (1.78 \u00d7 10\u207b\u2075), so HCOOH acts as the proton donor (acid) and CH\u2083COOH acts as the proton acceptor (base). HCOOH donates H\u207a to CH\u2083COOH, giving: HCOOH + CH\u2083COOH \u21cc HCOO\u207b + CH\u2083COOH\u2082\u207a",
+          "Labelling conjugate pairs: HCOOH (A1) and HCOO\u207b (B1) are one conjugate acid-base pair. CH\u2083COOH (B2) and CH\u2083COOH\u2082\u207a (A2) are the other conjugate acid-base pair. So labels go: HCOOH = A1, CH\u2083COOH = B2, HCOO\u207b = B1, CH\u2083COOH\u2082\u207a = A2."
         ],
         "msShow": [
           13,
@@ -5649,13 +5625,12 @@
           16,
           17
         ],
-        "explanation": "A standard electrochemical cell requires two half-cells connected by a salt bridge and a voltmeter. Each half-cell must contain the correct species at standard conditions (1 mol dm\u207b\u00b3, 298 K). System 3 uses a simple metal/ion electrode (Ag/Ag\u207a), while system 4 uses an inert Pt electrode since MnO\u2084\u207b/Mn\u00b2\u207a are both in solution.",
+        "explanation": "To set up a standard electrochemical cell, you need two half-cells connected by a salt bridge and an external circuit with a voltmeter. Each half-cell must contain the correct species at standard conditions (1 mol dm\u207b\u00b3, 298 K).",
         "steps": [
-          "Step 1 \u2013 Draw the CIRCUIT: Two beakers connected by a salt bridge (e.g. KNO\u2083 in agar), with a high-resistance voltmeter connected externally between the two electrodes. Label both the salt bridge and the voltmeter.",
-          "Step 2 \u2013 Draw HALF-CELL 3 (System 3: Ag\u207a/Ag, E\u00b0 = +0.80 V): A silver (Ag) metal electrode dipped into 1 mol dm\u207b\u00b3 Ag\u207a(aq) solution. Label: Ag electrode, Ag\u207a(aq) 1 mol dm\u207b\u00b3.",
-          "Step 3 \u2013 Draw HALF-CELL 4 (System 4: MnO\u2084\u207b/Mn\u00b2\u207a, E\u00b0 = +1.51 V): A platinum (Pt) inert electrode dipped into a solution containing MnO\u2084\u207b(aq), Mn\u00b2\u207a(aq), and H\u207a(aq) (acidified), all at 1 mol dm\u207b\u00b3 (equimolar). Label: Pt electrode, MnO\u2084\u207b(aq)/Mn\u00b2\u207a(aq)/H\u207a(aq) 1 mol dm\u207b\u00b3.",
-          "Step 4 \u2013 Check standard conditions: Temperature = 298 K, all solution concentrations = 1 mol dm\u207b\u00b3. No gases are involved in these systems so pressure is not relevant.",
-          "Answer: Diagram must show \u2014 (1) complete circuit with voltmeter AND labelled salt bridge; (2) Ag electrode in 1 mol dm\u207b\u00b3 Ag\u207a(aq); (3) Pt electrode in 1 mol dm\u207b\u00b3 MnO\u2084\u207b/Mn\u00b2\u207a/H\u207a solution. [3 marks]"
+          "Step 1 \u2013 CIRCUIT: Draw two beakers connected by a salt bridge (labelled). Connect both electrodes externally through a voltmeter (high-resistance voltmeter to draw negligible current). The circuit must be complete.",
+          "Step 2 \u2013 HALF-CELL for System 3 (Ag\u207a/Ag): Place a silver metal (Ag) electrode into a solution of Ag\u207a(aq) at 1 mol dm\u207b\u00b3. Label both the electrode (Ag) and the solution (Ag\u207a, 1 mol dm\u207b\u00b3).",
+          "Step 3 \u2013 HALF-CELL for System 4 (MnO\u2084\u207b/Mn\u00b2\u207a): Because neither species is a solid metal, use a platinum (Pt) inert electrode. The beaker must contain MnO\u2084\u207b(aq), Mn\u00b2\u207a(aq), and H\u207a(aq) (acidified solution), all at 1 mol dm\u207b\u00b3 / equimolar concentrations. Label Pt electrode and all solution species.",
+          "Answer: A labelled diagram showing \u2014 (1) complete circuit with voltmeter AND labelled salt bridge linking the two half-cells; (2) Ag electrode in 1 mol dm\u207b\u00b3 Ag\u207a(aq); (3) Pt electrode in 1 mol dm\u207b\u00b3 MnO\u2084\u207b/Mn\u00b2\u207a/H\u207a solution. This scores all 3 marks."
         ],
         "msShow": [
           16
@@ -5681,15 +5656,12 @@
           18,
           19
         ],
-        "explanation": "This question covers pseudo-first-order kinetics (part a) and Kc calculation (part b). Using excess methanol keeps [CH\u2083OH] effectively constant, allowing isolation of the order with respect to CH\u2083COOH only.",
+        "explanation": "Using a large excess of CH\u2083OH means its concentration barely changes during the reaction, so it can be treated as effectively constant. This is the 'isolation method' \u2014 it allows you to study the effect of [CH\u2083COOH] on rate alone, without [CH\u2083OH] being a variable.",
         "steps": [
-          "Part (a)(i): The student uses a large excess of CH\u2083OH so that its concentration remains effectively constant throughout the experiment. This means any change in rate is only due to change in [CH\u2083COOH], allowing the order with respect to CH\u2083COOH to be determined (pseudo-first-order conditions). It also ensures equilibrium lies far to the right.",
-          "Part (a)(ii) \u2014 Determining order from half-life: Read the graph to find two half-lives. Starting concentration \u2248 5.0 \u00d7 10\u207b\u00b3 mol dm\u207b\u00b3. Half of this = 2.5 \u00d7 10\u207b\u00b3 mol dm\u207b\u00b3, which is reached at ~106 min (i.e. t\u00bd \u2248 106 min). Check second half-life: from 2.5 \u2192 1.25 \u00d7 10\u207b\u00b3, also ~106 min. Since the half-life is constant, the reaction is FIRST ORDER with respect to CH\u2083COOH.",
-          "Part (a)(iii) \u2014 Calculating rate at t = 0 using half-life method: Formula: k = ln2 / t\u00bd = 0.693 / 106 = 0.00654 min\u207b\u00b9. Rate at t = 0: rate = k \u00d7 [CH\u2083COOH]\u2080 = 0.00654 \u00d7 5 \u00d7 10\u207b\u00b3 = 3.27 \u00d7 10\u207b\u2075 mol dm\u207b\u00b3 min\u207b\u00b9.",
-          "Part (b) \u2014 Calculating Kc: Step 1: Find initial moles. n(CH\u2083OH) = 9.6/32 = 0.30 mol. n(CH\u2083COOH) = 12/60 = 0.20 mol.",
-          "Step 2: Find moles reacted. At equilibrium, [CH\u2083COOH] = 0.03 mol (given as remaining). So moles of CH\u2083COOH reacted = 0.20 \u2212 0.03 = 0.17 mol.",
-          "Step 3: Use 1:1:1:1 stoichiometry. n(CH\u2083OH) at equilibrium = 0.30 \u2212 0.17 = 0.13 mol. n(CH\u2083COOCH\u2083) at equilibrium = 0.17 mol. n(H\u2082O) at equilibrium = 0.17 mol.",
-          "Step 4: Write Kc expression. Kc = [CH\u2083COOCH\u2083][H\u2082O] / [CH\u2083COOH][CH\u2083OH]. Since volume V cancels (equal moles on each side): Kc = (0.17/V \u00d7 0.17/V) / (0.03/V \u00d7 0.13/V) = (0.17 \u00d7 0.17) / (0.03 \u00d7 0.13) = 0.0289 / 0.0039 = 7.4"
+          "Step 1: Recognise that the student wants to find the order with respect to CH\u2083COOH only.",
+          "Step 2: If CH\u2083OH is in large excess, the small amount consumed during the reaction makes negligible difference to its concentration \u2014 so [CH\u2083OH] stays (effectively) constant throughout.",
+          "Step 3: This means any change in reaction rate can be attributed solely to changes in [CH\u2083COOH], making it possible to determine the order with respect to CH\u2083COOH.",
+          "Answer: To keep [CH\u2083OH] effectively constant (so the order with respect to CH\u2083COOH can be determined independently)."
         ],
         "msShow": [
           18
@@ -5715,13 +5687,13 @@
           20,
           21
         ],
-        "explanation": "This question tests displacement reactions of halogens and the trend in reactivity (oxidising power) down Group 17, explained using atomic structure (size, shielding, nuclear attraction).",
+        "explanation": "Bromine is dissolved in an organic solvent \u2014 when it reacts with iodide ions it displaces iodine (visible as violet in the organic layer), but it cannot displace chloride ions (organic layer stays orange = unreacted bromine). This shows bromine is more reactive than iodine but less reactive than chlorine, demonstrating reactivity decreases down Group 17(7).",
         "steps": [
-          "Step 1 \u2013 Interpret the results: The orange colour in the NaCl test tube = bromine still present (no reaction occurred). The violet colour in the NaI test tube = iodine has been produced (a reaction DID occur).",
-          "Step 2 \u2013 State the trend shown: Bromine can displace iodide ions (from NaI) but CANNOT displace chloride ions (from NaCl). This shows bromine is more reactive than iodine but less reactive than chlorine, so reactivity DECREASES down Group 17.",
-          "Step 3 \u2013 Write the ionic equation for the reaction that occurs (Br\u2082 + NaI): Br\u2082 + 2I\u207b \u2192 2Br\u207b + I\u2082",
-          "Step 4 \u2013 Explain the trend using atomic structure (3 linked points needed): (a) Reactivity decreases down the group because oxidising power decreases / halogens gain electrons less easily / form 1\u2013 ions less easily. (b) Going down the group, atoms have greater atomic radius / more electron shells / more shielding of the nucleus by inner electrons. (c) Therefore there is less nuclear attraction on the outer shell, so an incoming electron is attracted less strongly, making it harder to gain an electron.",
-          "Answer summary: Orange layer = Br\u2082, no reaction with Cl\u207b. Violet layer = I\u2082 formed, reaction with I\u207b. Ionic equation: Br\u2082 + 2I\u207b \u2192 2Br\u207b + I\u2082. Reactivity decreases down the group because atomic radius increases, more shielding, less nuclear attraction on incoming electron, so electron gained less easily (oxidising power decreases)."
+          "Step 1 \u2013 Interpret the results: The organic layer with sodium chloride stays ORANGE \u2192 this is just the original bromine dissolved in solvent; NO reaction has occurred. Bromine cannot displace chloride ions because chlorine is MORE reactive than bromine.",
+          "Step 2 \u2013 Interpret the results: The organic layer with sodium iodide turns VIOLET \u2192 iodine has been produced and dissolved into the organic layer. Bromine HAS reacted, displacing iodide ions because bromine is MORE reactive than iodine.",
+          "Step 3 \u2013 Evidence for the trend: Together, the results show bromine can displace iodine but NOT chlorine, confirming that reactivity decreases down Group 17(7): Cl > Br > I.",
+          "Step 4 \u2013 Write the ionic equation for the reaction that takes place (Br\u2082 + NaI): Br\u2082 + 2I\u207b \u2192 2Br\u207b + I\u2082",
+          "Step 5 \u2013 Explain the trend using chemical knowledge: Down Group 17(7), each halogen has a greater atomic radius, more electron shells, and more shielding from the nucleus. This means there is LESS nuclear attraction on an incoming electron, so the halogen gains electrons less easily (oxidising power/reactivity decreases). Reactivity decreases because the electron affinity becomes less negative (less energy released when gaining an electron) down the group."
         ],
         "msShow": [
           20
@@ -6262,41 +6234,12 @@
           7,
           8
         ],
-        "explanation": "This question covers metallic bonding, ionisation energies, enthalpy of solution, and trends in magnesium halides. Each part requires specific chemical knowledge and reasoning.",
+        "explanation": "Metallic bonding involves a regular lattice of positive metal ions surrounded by a 'sea' of delocalised electrons. Conduction occurs because these electrons are free to move and carry charge through the structure.",
         "steps": [
-          "Part (a) - Metallic bonding diagram (3 marks):",
-          "Step 1: Draw a regular arrangement (at least 2 rows, 2 ions per row) of Mg\u00b2\u207a ions (circles labelled '2+' or 'Mg\u00b2\u207a').",
-          "Step 2: Show delocalised electrons (labelled 'e\u207b' or '-') scattered between the ions.",
-          "Step 3: State/label that the electrons are DELOCALISED and that they can MOVE \u2014 this is why Mg conducts electricity (mobile electrons carry charge through the lattice).",
-          "Part (b)(i) - Equation for 4th ionisation energy (1 mark):",
-          "The 4th IE removes an electron from Mg\u00b3\u207a(g).",
-          "Answer: Mg\u00b3\u207a(g) \u2192 Mg\u2074\u207a(g) + e\u207b",
-          "Part (b)(ii) - Evidence for group 2 from Table 16.1 (1 mark):",
-          "Look for the biggest jump in successive ionisation energies.",
-          "IE2 = 1451, IE3 = 7733 \u2192 large jump between 2nd and 3rd.",
-          "This shows 2 electrons are easily removed (outer shell), then the 3rd is in a lower shell \u2014 confirming Mg is in Group 2.",
-          "Answer: Big jump/larger difference between ionisation numbers 2 and 3.",
-          "Part (b)(iii) - Which ionisation energies are larger than the previous (1 mark):",
-          "Compare each IE to the one before it and identify where a large jump occurs relative to a pattern. The question asks which IEs show a significantly larger value than expected from the general trend \u2014 i.e., the first of each new shell.",
-          "Looking at the data: big jumps occur at 1st\u2192 (start), 3rd (new shell after 2), 4th, 5th (within 2p, smaller jumps between 3-8), 9th and 11th show larger jumps.",
-          "Answer: 1st AND 3rd AND 4th AND 5th AND 9th AND 11th ionisation energies are larger than predicted by trend.",
-          "Part (c)(i) - Definition of enthalpy of solution (1 mark):",
-          "Answer: The enthalpy change when 1 mole of a compound dissolves in sufficient water to form an infinitely dilute solution.",
-          "Part (c)(ii) - Born-Haber/enthalpy cycle steps for MgF\u2082 dissolving (2 marks):",
-          "Step 1: MgF\u2082(s) \u2192 Mg\u00b2\u207a(aq) + 2F\u207b(g)   [lattice enthalpy reversed] \u2192 label: Mg\u00b2\u207a(aq) + 2F\u207b(g)",
-          "Step 2: Mg\u00b2\u207a(aq) + 2F\u207b(g) \u2192 Mg\u00b2\u207a(aq) + 2F\u207b(aq)   [hydration of F\u207b ions]",
-          "These are the two steps shown in the cycle.",
-          "Part (c)(iii) - Calculate enthalpy of solution of MgF\u2082 (1 mark):",
-          "Formula: \u0394solH = \u2212\u0394latticeH + \u0394hydH(Mg\u00b2\u207a) + 2\u00d7\u0394hydH(F\u207b)",
-          "\u0394solH(MgF\u2082) = \u2212(\u22122926) + (\u22121920) + 2\u00d7(\u2212506)",
-          "= +2926 \u2212 1920 \u2212 1012",
-          "= \u22126 kJ mol\u207b\u00b9",
-          "Answer: \u22126 kJ mol\u207b\u00b9",
-          "Part (c)(iv) - Why enthalpy of solution cannot be predicted going down Group 7 (4 marks):",
-          "Point 1 (Ionic radius): Halide ion gets larger down the group (F\u207b < Cl\u207b < Br\u207b < I\u207b).",
-          "Point 2 (Lattice enthalpy): Larger ion \u2192 ions further apart \u2192 less attraction \u2192 lattice enthalpy becomes less exothermic down the group.",
-          "Point 3 (Hydration enthalpy): Larger ion \u2192 less charge density \u2192 less attraction for water \u2192 hydration enthalpy becomes less exothermic down the group.",
-          "Point 4 (Enthalpy of solution): It is difficult to predict because both lattice enthalpy AND hydration enthalpy decrease (become less exothermic) \u2014 we cannot tell which effect dominates, so the overall sign/magnitude of \u0394solH is unpredictable."
+          "Step 1 \u2013 Draw the diagram: Show a regular arrangement of circles (at least 2 rows, at least 2 ions per row), each labelled 'Mg\u00b2\u207a' (or '2+' inside the circle). This represents the lattice of positive ions.",
+          "Step 2 \u2013 Show electrons: Place small minus signs or 'e\u207b' symbols between the ions to represent the electrons surrounding them. Label these as '(delocalised) electrons'.",
+          "Step 3 \u2013 Describe metallic bonding in writing: 'Magnesium consists of a regular lattice of Mg\u00b2\u207a ions surrounded by a sea of delocalised electrons.' The electrostatic attraction between the positive ions and the delocalised electrons holds the structure together.",
+          "Step 4 \u2013 Explain electrical conduction: 'The delocalised electrons are free to move (mobile) through the lattice, so when a potential difference is applied, they move towards the positive terminal \u2014 this is an electric current. Hence magnesium conducts electricity.'"
         ],
         "msShow": [
           7
@@ -6367,16 +6310,16 @@
           12,
           13
         ],
-        "explanation": "This question tests knowledge of copper chemistry: reactions with acid, redox ionic equations, and iodine-thiosulfate titration indicators. Each part requires applying specific chemical knowledge in sequence.",
+        "explanation": "Parts (a), (b), and (c) test knowledge of reactions with acid, ionic equations with state symbols, and the iodine-thiosulfate titration indicator respectively.",
         "steps": [
-          "PART (a): The gas produced when a copper(II) compound reacts with HNO\u2083 (acid) is CO\u2082, so the compound must contain carbonate \u2014 copper(II) carbonate, CuCO\u2083.",
+          "PART (a): The gas produced when a copper(II) compound reacts with HNO\u2083 is CO\u2082, so the compound must be copper(II) carbonate, CuCO\u2083 (a carbonate reacts with acid to give CO\u2082 gas).",
           "Formula: CuCO\u2083",
-          "Equation: CuCO\u2083 + 2HNO\u2083 \u2192 Cu(NO\u2083)\u2082 + CO\u2082 + H\u2082O",
-          "PART (b): In Step 3, Cu\u00b2\u207a ions oxidise I\u207b ions, being reduced to Cu\u207a (forming CuI precipitate), while I\u207b is oxidised to I\u2082. Write the ionic equation with state symbols:",
-          "2Cu\u00b2\u207a(aq) + 4I\u207b(aq) \u2192 2CuI(s) + I\u2082(aq)",
-          "PART (c): The titration involves I\u2082 being reduced to I\u207b by thiosulfate. The indicator for iodine titrations is starch solution, which forms a blue-black complex with I\u2082.",
+          "Equation: CuCO\u2083 + 2HNO\u2083 \u2192 Cu(NO\u2083)\u2082 + CO\u2082 + H\u2082O  (balance: 1 Cu, 1 C, 3 O from carbonate + 2 HNO\u2083 gives the nitrate salt, carbon dioxide, and water)",
+          "PART (b): In Step 3, Cu\u00b2\u207a ions oxidise iodide ions (I\u207b) to iodine (I\u2082), and are themselves reduced to Cu\u207a which precipitates as CuI(s). Balance: 2 Cu\u00b2\u207a need 4 e\u207b in total; 4 I\u207b \u2192 2 I\u2082 would give 4 e\u207b... but only I\u2082 is released, not 2I\u2082. Check: 2Cu\u00b2\u207a + 4I\u207b \u2192 2CuI(s) + I\u2082(aq). Left: charge = 4+ + 4\u2212 = 0; Right: 0 + 0 = 0. \u2713",
+          "Ionic equation: 2Cu\u00b2\u207a(aq) + 4I\u207b(aq) \u2192 2CuI(s) + I\u2082(aq)  (state symbols required)",
+          "PART (c): The titration in Step 4 uses sodium thiosulfate to reduce I\u2082 back to I\u207b. The indicator used to detect the end point is starch solution, which turns blue-black in the presence of I\u2082.",
           "Indicator: starch (solution)",
-          "Colour change at end point: blue-black TO colourless (as all I\u2082 is consumed by thiosulfate)"
+          "Colour change at end point: blue-black \u2192 colourless (all I\u2082 has been consumed by thiosulfate)"
         ],
         "msShow": [
           12
@@ -6410,13 +6353,20 @@
           14,
           15
         ],
-        "explanation": "For part (i), an electrochemical cell needs two half-cells connected by a salt bridge and a voltmeter. For part (ii), combine the two half-equations by balancing electrons transferred \u2014 system 1 (Cr oxidised, reversed) loses 3e\u207b per Cr, system 4 gains 5e\u207b per MnO\u2084\u207b, so multiply to equalise at 15e\u207b.",
+        "explanation": "For part (i), an electrochemical cell needs two half-cells connected by a salt bridge and a voltmeter. System 1 uses a solid Cr electrode in Cr\u00b3\u207a(aq); System 4 uses a Pt (inert) electrode in MnO\u2084\u207b/Mn\u00b2\u207a/H\u207a(aq). For part (ii), balance electrons between the two half-equations to get the overall cell equation.",
         "steps": [
-          "Part (i) \u2014 Diagram requirements: Draw two beakers (half-cells). Left half-cell: Cr electrode dipping into Cr\u00b3\u207a(aq) solution. Right half-cell: Pt electrode dipping into MnO\u2084\u207b(aq) + Mn\u00b2\u207a(aq) + H\u207a(aq) solution. Connect the two solutions with a labelled salt bridge. Connect the two electrodes externally through a voltmeter (V). Label all components.",
-          "Part (ii) \u2014 Identify which half-equation is oxidation and which is reduction: System 4 has the more positive E\u00b0 (+1.51 V), so it proceeds FORWARD (reduction): MnO\u2084\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H\u2082O. System 1 has more negative E\u00b0 (\u22120.74 V), so it proceeds in REVERSE (oxidation): Cr \u2192 Cr\u00b3\u207a + 3e\u207b.",
-          "Balance electrons: System 1 (oxidation) \u00d7 5 gives 15e\u207b: 5Cr \u2192 5Cr\u00b3\u207a + 15e\u207b. System 4 (reduction) \u00d7 3 gives 15e\u207b: 3MnO\u2084\u207b + 24H\u207a + 15e\u207b \u2192 3Mn\u00b2\u207a + 12H\u2082O.",
-          "Add the two equations and cancel the 15e\u207b: 5Cr + 3MnO\u2084\u207b + 24H\u207a \u2192 5Cr\u00b3\u207a + 3Mn\u00b2\u207a + 12H\u2082O",
-          "Answer (ii): 5Cr + 3MnO\u2084\u207b + 24H\u207a \u2192 5Cr\u00b3\u207a + 3Mn\u00b2\u207a + 12H\u2082O"
+          "Part (i) \u2013 Diagram requirements (3 marks):",
+          "Mark 1: Draw a complete circuit with a voltmeter (V) connecting the two half-cells via external wires.",
+          "Mark 2: Include a labelled salt bridge linking the two solutions.",
+          "Mark 3a: Left half-cell \u2014 solid Cr electrode dipping into Cr\u00b3\u207a(aq) solution.",
+          "Mark 3b: Right half-cell \u2014 Pt (inert) electrode dipping into a solution containing MnO\u2084\u207b(aq), Mn\u00b2\u207a(aq), and H\u207a(aq).",
+          "Part (ii) \u2013 Overall cell equation:",
+          "Step 1: System 1 (oxidation at Cr): Cr \u2192 Cr\u00b3\u207a + 3e\u207b. System 4 (reduction): MnO\u2084\u207b + 8H\u207a + 5e\u207b \u2192 Mn\u00b2\u207a + 4H\u2082O.",
+          "Step 2: Balance electrons \u2014 LCM of 3 and 5 is 15, so multiply System 1 by 5 and System 4 by 3:",
+          "  5Cr \u2192 5Cr\u00b3\u207a + 15e\u207b",
+          "  3MnO\u2084\u207b + 24H\u207a + 15e\u207b \u2192 3Mn\u00b2\u207a + 12H\u2082O",
+          "Step 3: Add and cancel electrons:",
+          "Answer: 5Cr + 3MnO\u2084\u207b + 24H\u207a \u2192 5Cr\u00b3\u207a + 3Mn\u00b2\u207a + 12H\u2082O"
         ],
         "msShow": [
           14
@@ -6447,18 +6397,16 @@
           17,
           18
         ],
-        "explanation": "This question tests dynamic equilibrium features, feasibility using \u0394G = \u0394H \u2212 T\u0394S, and the maximum temperature for feasibility (where \u0394G = 0). For feasibility \u0394G must be negative (< 0).",
+        "explanation": "Dynamic equilibrium means forward and reverse reactions occur at equal rates. Feasibility requires \u0394G < 0, calculated using \u0394G = \u0394H \u2212 T\u0394S. The maximum temperature for feasibility is where \u0394G = 0, so T = \u0394H/\u0394S.",
         "steps": [
-          "PART (a): State ONE other feature of dynamic equilibrium (besides being in a closed system). Answer: The rate of the forward reaction equals the rate of the backward reaction. (OR: concentrations/pressure/temperature remain constant.)",
-          "PART (b)(i) \u2013 Show feasibility at 25\u00b0C: Use \u0394G = \u0394H \u2212 T\u0394S. Units must match: convert \u0394S from J to kJ \u2192 \u0394S = \u2212147 J mol\u207b\u00b9 K\u207b\u00b9 = \u22120.147 kJ mol\u207b\u00b9 K\u207b\u00b9. T = 25 + 273 = 298 K.",
-          "Substitute: \u0394G = \u2212114 \u2212 (298 \u00d7 \u22120.147)",
-          "\u0394G = \u2212114 \u2212 (\u221243.806)",
-          "\u0394G = \u2212114 + 43.806 = \u221270.2 kJ mol\u207b\u00b9",
-          "Since \u0394G < 0, the reaction IS feasible at 25\u00b0C. \u2713",
-          "PART (b)(ii) \u2013 Maximum temperature for feasibility: At the maximum temperature, \u0394G = 0, so \u0394H = T\u0394S.",
-          "Formula: T_max = \u0394H / \u0394S = \u2212114 / \u22120.147",
-          "T_max = 776 K (to 3 significant figures, matching the data given)",
-          "Answer: maximum temperature = 776 K"
+          "Part (a): State ONE other feature of dynamic equilibrium (beyond 'closed system'). Answer: The rate of the forward reaction equals the rate of the backward reaction. OR: Concentrations/pressure/temperature remain constant.",
+          "Part (b)(i) \u2013 Show feasibility at 25\u00b0C: Use the formula \u0394G = \u0394H \u2212 T\u0394S",
+          "Convert units to be consistent: \u0394H = \u2212114 kJ mol\u207b\u00b9, \u0394S = \u2212147 J mol\u207b\u00b9 K\u207b\u00b9 = \u22120.147 kJ mol\u207b\u00b9 K\u207b\u00b9. T = 25\u00b0C = 298 K",
+          "Substitute: \u0394G = \u2212114 \u2212 (298 \u00d7 \u22120.147) = \u2212114 \u2212 (\u221243.806) = \u2212114 + 43.806 = \u221270.2 kJ mol\u207b\u00b9",
+          "Conclusion: \u0394G = \u221270.2 kJ mol\u207b\u00b9, which is negative (\u0394G < 0), so the reaction IS feasible at 25\u00b0C.",
+          "Part (b)(ii) \u2013 Maximum temperature for feasibility: At the maximum temperature, \u0394G = 0, so \u0394H = T\u0394S \u2192 T = \u0394H/\u0394S",
+          "T = \u2212114 / \u22120.147 = 776 K (3 significant figures, matching the data given)",
+          "Answer: Maximum temperature = 776 K"
         ],
         "msShow": [
           16
@@ -6493,16 +6441,18 @@
           19,
           20
         ],
-        "explanation": "For part (i), compare experiments to find orders; for part (ii), the rate-determining step must only contain the species in the rate equation (S\u2082O\u2083\u00b2\u207b only), then write a second step using the remaining species to complete the overall equation.",
+        "explanation": "For part (i), compare experiments to find the order with respect to each reactant. For part (ii), the rate-determining (slow) step must contain only the species in the rate equation, then the second step uses the remaining reactants to complete the overall equation.",
         "steps": [
           "PART (a)(i) \u2014 Supporting the rate equation rate = k[S\u2082O\u2083\u00b2\u207b]:",
-          "Step 1 \u2014 Show first order w.r.t. S\u2082O\u2083\u00b2\u207b: Compare Expts 1 and 2: [H\u207a] is constant at 1.00 mol dm\u207b\u00b3. [S\u2082O\u2083\u00b2\u207b] halves from 0.16 \u2192 0.08 mol dm\u207b\u00b3 (\u00d7\u00bd), and rate halves from 0.0120 \u2192 0.0060 mol dm\u207b\u00b3 s\u207b\u00b9 (\u00d7\u00bd). Rate \u221d [S\u2082O\u2083\u00b2\u207b]\u00b9 \u2192 first order w.r.t. S\u2082O\u2083\u00b2\u207b. \u2713",
-          "Step 2 \u2014 Show zero order w.r.t. H\u207a: Compare Expts 2 and 3: [S\u2082O\u2083\u00b2\u207b] quarters (0.08\u21920.02) AND [H\u207a] halves (1.00\u21920.50). Rate quarters (0.0060\u21920.0015). The entire rate change is explained by [S\u2082O\u2083\u00b2\u207b] alone (\u00d7\u00bc from \u00d7\u00bc in [S\u2082O\u2083\u00b2\u207b]); halving [H\u207a] causes no additional change \u2192 zero order w.r.t. H\u207a. \u2713",
-          "Answer (a)(i): When [S\u2082O\u2083\u00b2\u207b] halves (Expts 1\u21922, [H\u207a] constant), rate halves \u2192 first order in S\u2082O\u2083\u00b2\u207b. When [H\u207a] halves (Expts 2\u21923, accounting for [S\u2082O\u2083\u00b2\u207b] change), rate is unaffected by [H\u207a] \u2192 zero order in H\u207a. This supports rate = k[S\u2082O\u2083\u00b2\u207b].",
-          "PART (a)(ii) \u2014 Two-step mechanism (Step 1 is rate-determining):",
-          "Step 1 (rate-determining, so only S\u2082O\u2083\u00b2\u207b appears as reactant \u2014 no H\u207a): S\u2082O\u2083\u00b2\u207b \u2192 S + SO\u2083\u00b2\u207b",
-          "Step 2 (fast step, uses remaining species H\u207a to give overall products): SO\u2083\u00b2\u207b + 2H\u207a \u2192 SO\u2082 + H\u2082O",
-          "Answer (a)(ii): Step 1: S\u2082O\u2083\u00b2\u207b \u2192 S + SO\u2083\u00b2\u207b  |  Step 2: SO\u2083\u00b2\u207b + 2H\u207a \u2192 SO\u2082 + H\u2082O  (Overall adds to S\u2082O\u2083\u00b2\u207b + 2H\u207a \u2192 S + SO\u2082 + H\u2082O \u2713)"
+          "Step 1 \u2014 Order with respect to S\u2082O\u2083\u00b2\u207b: Compare Experiments 1 and 2, where [H\u207a] is constant at 1.00 mol dm\u207b\u00b3. [S\u2082O\u2083\u00b2\u207b] halves from 0.16 \u2192 0.08, and the rate also halves from 0.0120 \u2192 0.0060. Rate \u221d [S\u2082O\u2083\u00b2\u207b], so the reaction is FIRST ORDER with respect to S\u2082O\u2083\u00b2\u207b.",
+          "Step 2 \u2014 Order with respect to H\u207a: Compare Experiments 2 and 3. [S\u2082O\u2083\u00b2\u207b] quarters (0.08 \u2192 0.02) AND [H\u207a] halves (1.00 \u2192 0.50), yet the rate also quarters (0.0060 \u2192 0.0015). If H\u207a had any effect, the rate would have changed by more than a factor of 4. The factor of 4 change is fully explained by [S\u2082O\u2083\u00b2\u207b] alone, so the reaction is ZERO ORDER with respect to H\u207a.",
+          "Conclusion for (i): The data show rate is proportional to [S\u2082O\u2083\u00b2\u207b] and independent of [H\u207a], confirming rate = k[S\u2082O\u2083\u00b2\u207b].",
+          "PART (a)(ii) \u2014 Two-step mechanism where Step 1 is rate-determining:",
+          "Step 3 \u2014 Since the rate equation contains only S\u2082O\u2083\u00b2\u207b, the slow (rate-determining) step must involve ONLY S\u2082O\u2083\u00b2\u207b as a reactant. H\u207a must appear in the fast second step.",
+          "Step 4 \u2014 One valid mechanism that adds up to the overall equation S\u2082O\u2083\u00b2\u207b + 2H\u207a \u2192 S + SO\u2082 + H\u2082O is:",
+          "Step 1 (slow/RDS): S\u2082O\u2083\u00b2\u207b \u2192 S + SO\u2083\u00b2\u207b",
+          "Step 2 (fast): SO\u2083\u00b2\u207b + 2H\u207a \u2192 SO\u2082 + H\u2082O",
+          "Answer: Step 1 contains only S\u2082O\u2083\u00b2\u207b (consistent with the rate equation); Step 2 uses the intermediate SO\u2083\u00b2\u207b and the H\u207a ions to give the remaining products."
         ],
         "msShow": [
           19
@@ -6533,26 +6483,16 @@
           22,
           23
         ],
-        "explanation": "This question covers three skills: finding pH of a strong base via Kw, showing excess by comparing moles, and calculating enthalpy changes from calorimetry data.",
+        "explanation": "For part (a), NaOH is a strong base that fully dissociates, so [OH\u207b] = [NaOH]. Use Kw = [H\u207a][OH\u207b] = 1.00\u00d710\u207b\u00b9\u2074 to find [H\u207a], then pH = -log[H\u207a]. For part (b)(i), calculate moles of each reactant and use the 1:2 molar ratio from the equation to show NaOH is in excess.",
         "steps": [
-          "PART (a): pH of 0.140 mol dm\u207b\u00b3 NaOH",
-          "Step 1 \u2013 NaOH is a strong base, fully dissociates: [OH\u207b] = 0.140 mol dm\u207b\u00b3",
-          "Step 2 \u2013 Use Kw: [H\u207a] = Kw / [OH\u207b] = (1.00 \u00d7 10\u207b\u00b9\u2074) / 0.140 = 7.14 \u00d7 10\u207b\u00b9\u2074 mol dm\u207b\u00b3",
-          "Step 3 \u2013 pH = \u2212log(7.14 \u00d7 10\u207b\u00b9\u2074) = 13.15",
+          "PART (a): NaOH fully dissociates, so [OH\u207b] = 0.140 mol dm\u207b\u00b3",
+          "Use Kw = [H\u207a][OH\u207b]: [H\u207a] = Kw / [OH\u207b] = (1.00\u00d710\u207b\u00b9\u2074) / 0.140 = 7.14\u00d710\u207b\u00b9\u2074 mol dm\u207b\u00b3",
+          "pH = -log(7.14\u00d710\u207b\u00b9\u2074) = 13.15",
           "Answer (a): pH = 13.15",
-          "PART (b)(i): Show NaOH is in excess",
-          "Step 1 \u2013 n(H\u2082SO\u2084) = concentration \u00d7 volume = 1.60 \u00d7 (25.0/1000) = 0.0400 mol",
-          "Step 2 \u2013 n(NaOH) = 1.50 \u00d7 (55.0/1000) = 0.0825 mol",
-          "Step 3 \u2013 From equation H\u2082SO\u2084 + 2NaOH \u2192 \u2026, 0.0400 mol H\u2082SO\u2084 requires 2 \u00d7 0.0400 = 0.0800 mol NaOH",
-          "Step 4 \u2013 NaOH available (0.0825 mol) > NaOH needed (0.0800 mol), so NaOH is in excess.",
-          "PART (b)(ii): Calculate \u0394H\u2081 and \u0394_neut H",
-          "Step 1 \u2013 Total volume mixed = 25.0 + 55.0 = 80.0 cm\u00b3 \u2192 mass = 80.0 g",
-          "Step 2 \u2013 q = mc\u0394T = 80.0 \u00d7 4.18 \u00d7 13.0 = 4347.2 J = 4.3472 kJ",
-          "Step 3 \u2013 \u0394H\u2081 = \u2212q / n(H\u2082SO\u2084) = \u22124.3472 / 0.0400 = \u2212108.68 kJ mol\u207b\u00b9  (negative: exothermic)",
-          "Step 4 \u2013 Equation shows 1 mol H\u2082SO\u2084 produces 2 mol water, so \u0394_neut H = \u0394H\u2081 / 2 = \u2212108.68 / 2 = \u221254.34 kJ mol\u207b\u00b9",
-          "Answer (b)(ii): \u0394H\u2081 = \u2212109 kJ mol\u207b\u00b9; \u0394_neut H = \u221254.3 kJ mol\u207b\u00b9",
-          "PART (b)(iii): Temperature change if volumes doubled",
-          "The temperature rise would be THE SAME (13\u00b0C). Doubling the moles doubles the energy released, but the volume (and hence mass) also doubles, so \u0394T = q/mc remains unchanged."
+          "PART (b)(i): Calculate moles of H\u2082SO\u2084: n = concentration \u00d7 volume(dm\u00b3) = 1.60 \u00d7 (25.0/1000) = 0.0400 mol",
+          "Calculate moles of NaOH: n = 1.50 \u00d7 (55.0/1000) = 0.0825 mol",
+          "From Equation 22.1, the ratio is 1 mol H\u2082SO\u2084 : 2 mol NaOH, so 0.0400 mol H\u2082SO\u2084 requires 0.0400 \u00d7 2 = 0.0800 mol NaOH to react completely",
+          "0.0825 mol NaOH available > 0.0800 mol NaOH required, therefore NaOH is in excess"
         ],
         "msShow": [
           21,
@@ -7051,19 +6991,15 @@
           8,
           9
         ],
-        "explanation": "Part (a) requires filling electrons into sub-shell boxes using Hund's rule and the Aufbau principle for nitrogen (Z=7, configuration 1s\u00b22s\u00b22p\u00b3). Part (b) applies Le Chatelier's principle: since the forward reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9), increasing temperature shifts equilibrium to oppose the change (backward direction), reducing NH\u2083 and decreasing Kc/Kp.",
+        "explanation": "For part (a), nitrogen has 7 electrons arranged as 1s\u00b2 2s\u00b2 2p\u00b3, and the electron-in-box diagram must show Hund's rule (electrons fill singly before pairing) for the 2p sub-shell. For part (b), Le Chatelier's principle: increasing temperature favours the endothermic direction; since the forward reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9), the equilibrium shifts backward, changing composition and decreasing Kc.",
         "steps": [
-          "Part (a) \u2013 Electron-in-box diagram for nitrogen (1s\u00b22s\u00b22p\u00b3):",
-          "Box 1 labelled '1s': \u2191\u2193 (paired)",
-          "Box 2 labelled '2s': \u2191\u2193 (paired)",
-          "Boxes 3, 4, 5 labelled '2p': \u2191 | \u2191 | \u2191 (one electron each, all spin-up by Hund's rule)",
-          "Labels under the boxes: 1s, 2s, 2p",
-          "Part (b) \u2013 Effect of increasing temperature:",
-          "Step 1: Identify the enthalpy change. \u0394H = \u221292 kJ mol\u207b\u00b9, so the forward reaction (making NH\u2083) is EXOTHERMIC.",
-          "Step 2: Apply Le Chatelier's principle. Increasing temperature favours the ENDOTHERMIC (backward) reaction to oppose the change.",
-          "Step 3: Composition effect \u2014 the backward reaction is favoured, so there will be MORE N\u2082 and H\u2082 (reactants) and LESS NH\u2083 in the equilibrium mixture.",
-          "Step 4: Effect on Kp/Kc \u2014 because the backward reaction is favoured, the equilibrium constant K DECREASES in value.",
-          "Answer: Increasing temperature shifts equilibrium to the left (toward reactants); the proportion of NH\u2083 decreases (more N\u2082 and H\u2082 present), and the value of the equilibrium constant decreases."
+          "Part (a): Nitrogen has 7 electrons. Fill sub-shells in order: 1s\u00b2, 2s\u00b2, 2p\u00b3.",
+          "Draw the boxes: 1s box gets \u2191\u2193 (2 electrons paired). Label next box '2s' with \u2191\u2193 (2 electrons paired). Label the three remaining boxes '2p' \u2014 apply Hund's rule: place one electron (\u2191) in each of the three 2p boxes before pairing. So each 2p box has one \u2191 arrow.",
+          "Labels under the boxes: 1s, then 2s, then 2p (covering the three boxes).",
+          "Part (b): The forward reaction is exothermic (\u0394H = \u221292 kJ mol\u207b\u00b9), so increasing temperature favours the reverse (endothermic) reaction \u2014 this is Le Chatelier's principle.",
+          "Effect on composition: equilibrium shifts LEFT \u2192 more N\u2082 and H\u2082 (reactants) and less NH\u2083 in the equilibrium mixture.",
+          "Effect on Kc: increasing temperature for an exothermic reaction decreases the equilibrium constant Kc (Kc decreases).",
+          "Answer: The equilibrium shifts to the left (less NH\u2083, more N\u2082 and H\u2082), and the value of the equilibrium constant decreases."
         ],
         "msShow": [
           8
@@ -7093,18 +7029,18 @@
           10,
           11
         ],
-        "explanation": "To find the rate constant k, first determine the order with respect to each reactant by comparing experiments, then write the rate equation and rearrange to find k. For part (ii), substitute the new concentrations into the rate equation using the k value found.",
+        "explanation": "To find the rate constant k, you must first determine the orders of reaction from the data, write the rate equation, then substitute values to calculate k with correct units.",
         "steps": [
-          "Step 1 \u2013 Find order w.r.t. ICl: Compare Experiments 1 and 2 where [H\u2082] is constant (0.500). [ICl] doubles (0.250 \u2192 0.500) and rate doubles (2.04\u00d710\u207b\u00b2 \u2192 4.08\u00d710\u207b\u00b2). Rate doubles when [ICl] doubles \u2192 order w.r.t. ICl = 1 (first order).",
-          "Step 2 \u2013 Find order w.r.t. H\u2082: Compare Experiments 1 and 3. [ICl] halves (0.250 \u2192 0.125) and [H\u2082] halves (0.500 \u2192 0.250). Rate goes from 2.04\u00d710\u207b\u00b2 to 5.10\u00d710\u207b\u00b3 (\u00f74). Each concentration halved, so rate \u00f7 2 \u00d7 \u00f7 2 = \u00f7 4, consistent with both being first order. Order w.r.t. H\u2082 = 1.",
-          "Step 3 \u2013 Write rate equation: rate = k[ICl][H\u2082]",
+          "Step 1 \u2013 Find order with respect to ICl: Compare Experiments 1 and 2 where [H\u2082] is constant (0.500). [ICl] doubles (0.250\u21920.500) and rate doubles (2.04\u00d710\u207b\u00b2\u21924.08\u00d710\u207b\u00b2). Rate \u221d [ICl]\u00b9, so order = 1.",
+          "Step 2 \u2013 Find order with respect to H\u2082: Compare Experiments 1 and 3. [ICl] halves (0.250\u21920.125) and [H\u2082] halves (0.500\u21920.250). Rate goes from 2.04\u00d710\u207b\u00b2 to 5.10\u00d710\u207b\u00b3 (factor of 4 decrease). If both are first order: rate factor = (0.5)\u00b9 \u00d7 (0.5)\u00b9 = 0.25, so rate = 2.04\u00d710\u207b\u00b2 \u00d7 0.25 = 5.10\u00d710\u207b\u00b3 \u2713. Order w.r.t. H\u2082 = 1.",
+          "Step 3 \u2013 Write the rate equation: rate = k[ICl][H\u2082]",
           "Step 4 \u2013 Rearrange to find k: k = rate / ([ICl][H\u2082])",
           "Step 5 \u2013 Substitute values from Experiment 1: k = (2.04\u00d710\u207b\u00b2) / (0.250 \u00d7 0.500) = (2.04\u00d710\u207b\u00b2) / (0.125) = 0.163 dm\u00b3 mol\u207b\u00b9 s\u207b\u00b9",
-          "Step 6 \u2013 Determine units: rate (mol dm\u207b\u00b3 s\u207b\u00b9) / [concentration]\u00b2 (mol\u00b2 dm\u207b\u2076) = mol dm\u207b\u00b3 s\u207b\u00b9 \u00f7 mol\u00b2 dm\u207b\u2076 = dm\u00b3 mol\u207b\u00b9 s\u207b\u00b9",
-          "Answer (i): k = 0.163 dm\u00b3 mol\u207b\u00b9 s\u207b\u00b9",
-          "Step 7 \u2013 Part (ii): Use rate = k[ICl][H\u2082] with [ICl] = 3.00\u00d710\u207b\u00b3 mol dm\u207b\u00b3 and [H\u2082] = 2.00\u00d710\u207b\u00b3 mol dm\u207b\u00b3",
-          "rate = 0.163 \u00d7 (3.00\u00d710\u207b\u00b3) \u00d7 (2.00\u00d710\u207b\u00b3) = 0.163 \u00d7 6.00\u00d710\u207b\u2076 = 9.78\u00d710\u207b\u2077 mol dm\u207b\u00b3 s\u207b\u00b9",
-          "Answer (ii): rate = 9.78\u00d710\u207b\u2077 mol dm\u207b\u00b3 s\u207b\u00b9"
+          "Step 6 \u2013 Units: rate (mol dm\u207b\u00b3 s\u207b\u00b9) \u00f7 [ICl](mol dm\u207b\u00b3) \u00f7 [H\u2082](mol dm\u207b\u00b3) = dm\u00b3 mol\u207b\u00b9 s\u207b\u00b9",
+          "Answer (a)(i): k = 0.163 dm\u00b3 mol\u207b\u00b9 s\u207b\u00b9",
+          "Step 7 (a)(ii) \u2013 Use rate = k[ICl][H\u2082] with the new concentrations: rate = 0.163 \u00d7 (3.00\u00d710\u207b\u00b3) \u00d7 (2.00\u00d710\u207b\u00b3)",
+          "rate = 0.163 \u00d7 6.00\u00d710\u207b\u2076 = 9.78\u00d710\u207b\u2077 mol dm\u207b\u00b3 s\u207b\u00b9",
+          "Answer (a)(ii): rate = 9.78\u00d710\u207b\u2077 mol dm\u207b\u00b3 s\u207b\u00b9"
         ],
         "msShow": [
           10
@@ -7168,14 +7104,13 @@
           14,
           15
         ],
-        "explanation": "Part (a) requires a balanced equation with state symbols for Mg reacting with HCl, plus observations. Part (b) requires comparing lattice enthalpies of MgCl\u2082 and CaCl\u2082 using ionic radius and charge density reasoning.",
+        "explanation": "Part (a) requires a balanced equation with state symbols for Mg reacting with HCl, plus observable changes. Part (b) requires comparing lattice enthalpies using ionic radius and charge density reasoning.",
         "steps": [
-          "PART (a) \u2014 Equation: Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g). Key points: Mg is solid, HCl is aqueous, MgCl\u2082 is aqueous, H\u2082 is gas \u2014 state symbols are required for the mark.",
-          "PART (a) \u2014 Observations: (1) Effervescence (bubbles of H\u2082 gas produced). (2) The solid magnesium dissolves (solid disappears). Both observations are needed for full marks.",
-          "PART (b) \u2014 State the conclusion first: The lattice enthalpy of MgCl\u2082 is MORE exothermic (more negative) than that of CaCl\u2082.",
-          "PART (b) \u2014 Reason 1 (ionic size): The Mg\u00b2\u207a ion is smaller than the Ca\u00b2\u207a ion (Mg is higher in Group 2, so has fewer electron shells and a smaller ionic radius).",
-          "PART (b) \u2014 Reason 2 (charge density/attraction): Because Mg\u00b2\u207a is smaller, it has a greater charge density, so the electrostatic attraction between Mg\u00b2\u207a and Cl\u207b is greater than between Ca\u00b2\u207a and Cl\u207b.",
-          "Answer summary \u2014 (a) Equation: Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g); Observations: effervescence AND solid dissolves. (b) MgCl\u2082 has a more exothermic lattice enthalpy because Mg\u00b2\u207a is smaller/has greater charge density, giving stronger attraction to Cl\u207b ions."
+          "PART (a) \u2014 Equation: Balance Mg with 2HCl to give MgCl\u2082 and H\u2082 gas. Include state symbols: Mg(s) + 2HCl(aq) \u2192 MgCl\u2082(aq) + H\u2082(g)",
+          "PART (a) \u2014 Observations: You must state TWO things you see: (1) Effervescence (bubbles of H\u2082 gas produced) AND (2) the solid (magnesium) dissolves/disappears.",
+          "PART (b) \u2014 State which is larger: The lattice enthalpy of MgCl\u2082 is MORE exothermic (more negative) than that of CaCl\u2082.",
+          "PART (b) \u2014 Explain using ionic radius: The Mg\u00b2\u207a ion is smaller than Ca\u00b2\u207a (both have the same +2 charge), so Mg\u00b2\u207a has a greater charge density than Ca\u00b2\u207a.",
+          "PART (b) \u2014 Link to lattice enthalpy: Because Mg\u00b2\u207a has greater charge density, the electrostatic attraction between Mg\u00b2\u207a and Cl\u207b ions is stronger than between Ca\u00b2\u207a and Cl\u207b, so more energy is released when the lattice forms \u2192 more exothermic lattice enthalpy for MgCl\u2082."
         ],
         "msShow": [
           13,
@@ -7207,17 +7142,17 @@
           16,
           17
         ],
-        "explanation": "To prepare a standard solution of known pH, you must calculate the required concentration from Ka and pH, then find the mass of solid needed for 250 cm\u00b3, and describe the standard solution preparation technique.",
+        "explanation": "To prepare a standard solution at a given pH, you must work backwards: pH \u2192 [H\u207a] \u2192 use Ka expression to find concentration \u2192 calculate moles needed for 250 cm\u00b3 \u2192 convert to mass \u2192 describe the practical procedure.",
         "steps": [
           "Step 1 \u2013 Find [H\u207a] from pH: [H\u207a] = 10^(\u2212pH) = 10^(\u22122.19) = 6.46 \u00d7 10\u207b\u00b3 mol dm\u207b\u00b3",
-          "Step 2 \u2013 Find concentration of acid using Ka expression. For a weak acid: Ka = [H\u207a]\u00b2/[HA], so [HA] = [H\u207a]\u00b2/Ka = (6.46 \u00d7 10\u207b\u00b3)\u00b2/(1.38 \u00d7 10\u207b\u2074) = 4.173 \u00d7 10\u207b\u2075/1.38 \u00d7 10\u207b\u2074 = 0.0302 mol dm\u207b\u00b3",
-          "Step 3 \u2013 Find moles needed for 250 cm\u00b3: n = 0.0302 \u00d7 (250/1000) = 7.55 \u00d7 10\u207b\u00b3 mol",
-          "Step 4 \u2013 Find mass needed. Mr of CH\u2083CH(OH)COOH = (3\u00d712) + (6\u00d71) + (2\u00d716) + 12 + 1 = 90 g mol\u207b\u00b9. Mass = 7.55 \u00d7 10\u207b\u00b3 \u00d7 90 = 0.680 g (\u2248 6.80 g \u2014 note: mark scheme uses 0.0755 mol giving 6.80 g; recheck: 0.0302 \u00d7 250/1000 = 0.00755 mol \u2192 0.00755 \u00d7 90 = 0.680 g). Mass = 6.80 g",
-          "Step 5 \u2013 Practical procedure: Weigh out 6.80 g of solid 2-hydroxypropanoic acid on a balance.",
-          "Step 6 \u2013 Dissolve the solid in a small amount of distilled water in a beaker, stirring to dissolve completely.",
-          "Step 7 \u2013 Transfer the solution into a 250 cm\u00b3 volumetric flask. Rinse the beaker several times with distilled water, adding all washings to the flask (to ensure all solid is transferred).",
-          "Step 8 \u2013 Make up to the 250 cm\u00b3 graduation mark with distilled water, stopper the flask, and invert several times to mix thoroughly.",
-          "Answer: Weigh 6.80 g of solid, dissolve in distilled water in a beaker, transfer quantitatively to a 250 cm\u00b3 volumetric flask with washings, and make up to the mark with distilled water, mixing by inversion."
+          "Step 2 \u2013 Use the Ka expression for a weak acid (Ka = [H\u207a]\u00b2/[HA], rearranged): [CH\u2083CH(OH)COOH] = [H\u207a]\u00b2 / Ka = (6.46 \u00d7 10\u207b\u00b3)\u00b2 / (1.38 \u00d7 10\u207b\u2074) = 4.17 \u00d7 10\u207b\u2075 / 1.38 \u00d7 10\u207b\u2074 = 0.0302 mol dm\u207b\u00b3",
+          "Step 3 \u2013 Find moles needed for 250 cm\u00b3: n = concentration \u00d7 volume(dm\u00b3) = 0.0302 \u00d7 (250/1000) = 0.0302 \u00d7 0.250 = 7.55 \u00d7 10\u207b\u00b3 mol (= 0.00755 mol). Note: mark scheme uses 0.0302 \u00d7 250/1000 = 0.0755 mol \u2014 check: 0.302 \u00d7 250/1000 = 0.0755, so concentration = 0.302 mol dm\u207b\u00b3 \u2014 recalculating: (6.46\u00d710\u207b\u00b3)\u00b2/(1.38\u00d710\u207b\u2074) = 4.173\u00d710\u207b\u2075/1.38\u00d710\u207b\u2074 = 0.302 mol dm\u207b\u00b3 \u2713. So n = 0.302 \u00d7 0.250 = 0.0755 mol",
+          "Step 4 \u2013 Convert moles to mass (Mr of CH\u2083CH(OH)COOH = 90 g mol\u207b\u00b9): mass = 0.0755 \u00d7 90 = 6.80 g",
+          "Step 5 \u2013 Practical procedure: Weigh out 6.80 g of solid 2-hydroxypropanoic acid accurately using a balance.",
+          "Step 6 \u2013 Dissolve the solid in a small amount of distilled water in a beaker, stirring to dissolve.",
+          "Step 7 \u2013 Transfer the solution to a 250 cm\u00b3 volumetric flask, washing the beaker several times with distilled water and adding all washings to the flask.",
+          "Step 8 \u2013 Make the solution up to the 250 cm\u00b3 graduation mark with distilled water, stopper the flask and invert several times to mix thoroughly.",
+          "Answer: 6.80 g of 2-hydroxypropanoic acid dissolved and made up to exactly 250 cm\u00b3 in a volumetric flask gives the required standard solution at pH 2.19."
         ],
         "msShow": [
           16
@@ -7243,12 +7178,12 @@
           18,
           19
         ],
-        "explanation": "To measure a standard cell potential you need two correctly set-up half-cells connected by a salt bridge and voltmeter, with all species at standard conditions (298 K, 100 kPa, 1 mol dm\u207b\u00b3 concentrations).",
+        "explanation": "To measure a standard cell potential, you need two correctly set-up half-cells connected by a salt bridge and voltmeter, with all solutions at standard concentration (1 mol dm\u207b\u00b3) and standard conditions (298 K, 100 kPa).",
         "steps": [
-          "Step 1 \u2013 Half-cell for System 4 (Ag\u207a/Ag): Place a silver (Ag) metal electrode into a beaker containing 1 mol dm\u207b\u00b3 Ag\u207a(aq) solution.",
-          "Step 2 \u2013 Half-cell for System 5 (Fe\u00b3\u207a/Fe\u00b2\u207a): Because neither ion is a solid metal, use an inert platinum (Pt) metal electrode placed into a beaker containing BOTH 1 mol dm\u207b\u00b3 Fe\u00b2\u207a(aq) AND 1 mol dm\u207b\u00b3 Fe\u00b3\u207a(aq) solution.",
-          "Step 3 \u2013 Complete the circuit: Connect the two half-cells with a salt bridge (e.g. KNO\u2083 in agar) to allow ion flow, connect the two electrodes to a high-resistance voltmeter with wires.",
-          "Step 4 \u2013 Standard conditions: Ensure temperature = 298 K (25 \u00b0C) and pressure = 100 kPa (or 101 kPa / 1 atm), with all ion concentrations at exactly 1 mol dm\u207b\u00b3.",
+          "Step 1 \u2013 Half-cell for redox system 4 (Ag\u207a/Ag): Place a silver (Ag) metal electrode into a beaker containing 1 mol dm\u207b\u00b3 Ag\u207a(aq) solution.",
+          "Step 2 \u2013 Half-cell for redox system 5 (Fe\u00b3\u207a/Fe\u00b2\u207a): Because this is an all-ionic system (no solid metal ion), use a platinum (Pt) metal electrode (inert conductor) placed into a beaker containing BOTH 1 mol dm\u207b\u00b3 Fe\u00b2\u207a(aq) AND 1 mol dm\u207b\u00b3 Fe\u00b3\u207a(aq).",
+          "Step 3 \u2013 Complete the circuit: Connect the two half-cells with a salt bridge (e.g. filter paper soaked in KNO\u2083 solution) to allow ion flow. Connect the two electrodes to a high-resistance voltmeter using wires to measure the potential difference.",
+          "Step 4 \u2013 Standard conditions: Ensure the temperature is 298 K (25 \u00b0C) and pressure is 100 kPa (1 atm). All ion concentrations must be 1 mol dm\u207b\u00b3.",
           "Answer: The voltmeter reading gives the standard cell potential, E\u00b0cell = E\u00b0cathode \u2212 E\u00b0anode = +0.80 \u2212 (+0.77) = +0.03 V."
         ],
         "msShow": [

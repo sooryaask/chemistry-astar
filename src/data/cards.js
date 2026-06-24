@@ -19,6 +19,9 @@ function slug(pdfName) {
 function qpImageUrl(pdfName, page, number) {
   return `${import.meta.env.BASE_URL}rendered/${slug(pdfName)}_p${page}_q${number}.png`
 }
+function renderedUrl(filename) {
+  return `${import.meta.env.BASE_URL}rendered/${filename}`
+}
 // Per-question mark-scheme crop (rendered by smartmark/render_ms_crops.py).
 function msCropUrl(pdfName, page, number) {
   return `${import.meta.env.BASE_URL}rendered/${slug(pdfName)}_p${page}_q${number}.png`
@@ -54,9 +57,12 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       summary: q.summary || '',
       paperLabel: paperLabel(paper),
       qpUrl: qpImageUrl(paper, q.page, q.number),
-      // msShow trims the mark scheme to the parts visible on the shown QP page
-      // (a multi-page question's QP crop only shows its first page).
-      msUrls: (q.msShow || q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number)),
+      // Mark scheme cropped to ONLY the sub-parts visible on the shown QP page
+      // (msShownImgs is the precise, roman-aware list, with mid-page cut crops).
+      msUrls:
+        q.msShownImgs && q.msShownImgs.length
+          ? q.msShownImgs.map(renderedUrl)
+          : (q.msShow || q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number)),
       isMcq: q.marks === 1,
       calc: isCalc(q.topic, q.summary),
       explanation: q.explanation || '',

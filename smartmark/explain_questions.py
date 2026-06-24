@@ -88,7 +88,7 @@ def explain(client, qp_imgs, ms_imgs, q):
         f"Image 1 is question {q['number']} ({q.get('marks')} mark(s)). The remaining "
         f"image(s) are its official mark scheme. Produce the worked solution as JSON."
     )})
-    msg = client.messages.create(model=MODEL, max_tokens=900, system=SYSTEM,
+    msg = client.messages.create(model=MODEL, max_tokens=1500, system=SYSTEM,
                                  messages=[{"role": "user", "content": content}])
     out = "".join(b.text for b in msg.content if b.type == "text")
     return parse_json(out)

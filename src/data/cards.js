@@ -54,7 +54,9 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       summary: q.summary || '',
       paperLabel: paperLabel(paper),
       qpUrl: qpImageUrl(paper, q.page, q.number),
-      msUrls: (q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number)),
+      // msShow trims the mark scheme to the parts visible on the shown QP page
+      // (a multi-page question's QP crop only shows its first page).
+      msUrls: (q.msShow || q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number)),
       isMcq: q.marks === 1,
       calc: isCalc(q.topic, q.summary),
       explanation: q.explanation || '',

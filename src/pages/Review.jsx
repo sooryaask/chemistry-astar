@@ -26,15 +26,22 @@ export default function Review() {
   const title = useMemo(() => deckTitle(deckId), [deckId])
 
   const [queue, setQueue] = useState(() => buildSession(allCards).queue)
+  const [sessionTotal] = useState(() => buildSession(allCards).queue.length)
   const [counts, setCounts] = useState(() => deckCounts(allCards))
   const [revealed, setRevealed] = useState(false)
   const [answers, setAnswers] = useState([])
+  const [ticks, setTicks] = useState([])
   const [menuOpen, setMenuOpen] = useState(false)
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
   const slots = card?.slots?.length ? card.slots : [{ label: '', marks: card?.marks ?? 1 }]
+  const totalMarks = slots.reduce((s, sl) => s + sl.marks, 0)
   const wroteSomething = answers.some((a) => a && a.trim())
+
+  // Progress
+  const currentIndex = sessionTotal - queue.length
+  const progressPct = sessionTotal > 0 ? (currentIndex / sessionTotal) * 100 : 0
 
   function refreshCounts() {
     setCounts(deckCounts(allCards))
@@ -43,6 +50,7 @@ export default function Review() {
   function resetView() {
     setRevealed(false)
     setAnswers([])
+    setTicks([])
     setMenuOpen(false)
   }
 
@@ -50,6 +58,14 @@ export default function Review() {
     setAnswers((a) => {
       const next = a.slice()
       next[i] = val
+      return next
+    })
+  }
+
+  function toggleTick(i) {
+    setTicks((t) => {
+      const next = [...t]
+      next[i] = !next[i]
       return next
     })
   }
@@ -79,11 +95,13 @@ export default function Review() {
     return (
       <div className="review done">
         <h2>All caught up</h2>
-        <p className="muted">No cards due in “{title}” right now.</p>
+        <p className="muted">No cards due in "{title}" right now.</p>
         <Link className="pill" to="/">← Back to decks</Link>
       </div>
     )
   }
+
+  const tickedCount = ticks.filter(Boolean).length
 
   return (
     <div className="review">
@@ -92,36 +110,46 @@ export default function Review() {
         <span className="review-title">{title}</span>
       </div>
 
+      {/* Progress bar */}
+      <div className="progress-bar-wrap">
+        <div className="progress-bar-fill" style={{ width: `${progressPct}%` }} />
+        <span className="progress-label">{currentIndex} / {sessionTotal}</span>
+      </div>
+
       <div className="review-scroll">
-        {/* Question */}
-        <div className="q-area">
-          <div className="q-meta">{card.paperLabel} · Q{card.number} · {card.marks} mark{card.marks !== 1 ? 's' : ''}</div>
-          <img className="q-image" src={card.qpUrl} alt={`Question ${card.number}`} />
+        {/* Question paper card — continuous white paper */}
+        <div className="q-meta">
+          {card.paperLabel} · Q{card.number}{card.subPart ? `(${card.subPart})` : ''} · {totalMarks} mark{totalMarks !== 1 ? 's' : ''}
+        </div>
+        <div className="paper-card">
+          {card.qpUrls.map((url, i) => (
+            <img key={url} className="q-image" src={url} alt={`Question ${card.number} page ${i + 1}`} />
+          ))}
+
+          {/* Answer input — lined paper, one box per sub-part */}
+          {!revealed && (
+            <div className="a-area">
+              {slots.map((s, i) => (
+                <div className="slot" key={i}>
+                  {s.label && (
+                    <span className="slot-label">{s.label}<span className="slot-marks">[{s.marks}]</span></span>
+                  )}
+                  <textarea
+                    className="answer-box"
+                    value={answers[i] || ''}
+                    onChange={(e) => setAnswer(i, e.target.value)}
+                    placeholder={s.label ? `Your answer to ${s.label}…` : 'Write your answer here…'}
+                    autoFocus={i === 0}
+                    rows={s.marks > 1 ? Math.max(s.marks + 1, 3) : 2}
+                  />
+                </div>
+              ))}
+              <button className="show-btn" onClick={() => setRevealed(true)}>Show Answer</button>
+            </div>
+          )}
         </div>
 
-        {/* Answer input — one box per sub-part shown on the page */}
-        {!revealed && (
-          <div className="a-area">
-            {slots.map((s, i) => (
-              <div className="slot" key={i}>
-                {s.label && (
-                  <span className="slot-label">{s.label}<span className="slot-marks">[{s.marks}]</span></span>
-                )}
-                <textarea
-                  className="answer-box"
-                  value={answers[i] || ''}
-                  onChange={(e) => setAnswer(i, e.target.value)}
-                  placeholder={s.label ? `Your answer to ${s.label}…` : 'Jot your answer, then reveal the mark scheme…'}
-                  autoFocus={i === 0}
-                  rows={s.marks > 1 ? 3 : 2}
-                />
-              </div>
-            ))}
-            <button className="show-btn" onClick={() => setRevealed(true)}>Show Answer</button>
-          </div>
-        )}
-
-        {/* Revealed: official mark scheme cropped to this question */}
+        {/* Revealed: mark scheme with tick boxes */}
         {revealed && (
           <div className="reveal">
             {wroteSomething && (
@@ -137,27 +165,28 @@ export default function Review() {
             )}
 
             <div className="ms-block">
-              <span className="ra-label">Official mark scheme</span>
+              <span className="ra-label">Mark scheme — tick each mark you earned</span>
               {card.msUrls.length > 0 ? (
-                card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" />)
+                <div className="ms-with-ticks">
+                  <div className="ms-images">
+                    {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" />)}
+                  </div>
+                  <div className="tick-col">
+                    {Array.from({ length: totalMarks }, (_, i) => (
+                      <label className={`tick-box ${ticks[i] ? 'ticked' : ''}`} key={i}>
+                        <input type="checkbox" checked={!!ticks[i]} onChange={() => toggleTick(i)} />
+                        <span className="tick-icon">{ticks[i] ? '✓' : '✗'}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
               ) : (
                 <p className="muted">Mark scheme page not available for this question.</p>
               )}
+              <div className="tick-score">{tickedCount} / {totalMarks} marks</div>
             </div>
 
-            {(card.explanation || card.steps?.length > 0) && (
-              <div className="solve-block">
-                <span className="ra-label">How to solve it</span>
-                {card.explanation && <p className="solve-explanation">{card.explanation}</p>}
-                {card.steps?.length > 0 && (
-                  <ol className="solve-steps">
-                    {card.steps.map((s, i) => <li key={i}>{s}</li>)}
-                  </ol>
-                )}
-              </div>
-            )}
-
-            {/* Grade buttons — the interval shows when you'll next see this card */}
+            {/* Grade buttons */}
             <div className="grades">
               <button className="g again" onClick={() => gradeCard('again')}>
                 Again<span className="g-int">{labels.again}</span>
@@ -176,7 +205,7 @@ export default function Review() {
         )}
       </div>
 
-      {/* Bottom bar: Skip / counter / More — like the Anki mockup */}
+      {/* Bottom bar */}
       <div className="bottom-bar">
         <button className="pill ghost" onClick={() => advance(queue.length)}>Skip</button>
         <Counter counts={counts} />

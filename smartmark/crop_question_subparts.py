@@ -122,19 +122,31 @@ def keep_bottom(page, y0, y1):
     return max(bottoms) if bottoms else None
 
 
+# A main sub-part label at the START of a line — allowing an optional question
+# number prefix ("22 (a)") and any trailing text on the same line ("(b) (i)",
+# "(c)* Table 16.1", "(a) A"). This is far more robust than requiring the span to
+# be exactly "(x)", which missed labels that share a line with following content.
+LABEL_RE = re.compile(r'^\s*\d{0,2}\s*\(([a-f])\)')
+LABEL_MAX_X = 120  # labels sit at x~50-96; wider than 80 to catch indented ones
+
+
 def find_subparts(doc, page_idxs):
     out = []
+    seen = set()
     for pg in page_idxs:
         page = doc[pg]
         for b in page.get_text('dict')['blocks']:
             if 'lines' not in b:
                 continue
             for ln in b['lines']:
-                for sp in ln['spans']:
-                    t = sp['text'].strip()
-                    inner = t[1:-1] if t.startswith('(') and t.endswith(')') else ''
-                    if MAIN_RE.match(inner) and sp['bbox'][0] < MARGIN_X:
-                        out.append((pg, sp['bbox'][1], inner))
+                x0 = ln['spans'][0]['bbox'][0]
+                if x0 >= LABEL_MAX_X:
+                    continue
+                txt = ''.join(s['text'] for s in ln['spans'])
+                m = LABEL_RE.match(txt)
+                if m and m.group(1) not in seen:   # first (topmost) per letter wins
+                    seen.add(m.group(1))
+                    out.append((pg, ln['spans'][0]['bbox'][1], m.group(1)))
     return out
 
 

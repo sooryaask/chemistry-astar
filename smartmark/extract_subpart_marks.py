@@ -15,29 +15,44 @@ from pathlib import Path
 PAPERS_DIR = Path('smartmark/papers')
 PI_PATH = Path('src/data/paperIndex.json')
 
-MARGIN_X = 80
-MAIN_RE = re.compile(r'^[a-f]$')
 BRACKET_RE = re.compile(r'\[(\d{1,2})\]')
+# Main sub-part label at the start of a line (see crop_question_subparts.py).
+LABEL_RE = re.compile(r'^\s*\d{0,2}\s*\(([a-f])\)')
+LABEL_MAX_X = 120
 
 
 def find_subparts(doc, page_idxs):
     out = []
+    seen = set()
     for pg in page_idxs:
         page = doc[pg]
         for b in page.get_text('dict')['blocks']:
             if 'lines' not in b:
                 continue
             for ln in b['lines']:
-                for sp in ln['spans']:
-                    t = sp['text'].strip()
-                    inner = t[1:-1] if t.startswith('(') and t.endswith(')') else ''
-                    if MAIN_RE.match(inner) and sp['bbox'][0] < MARGIN_X:
-                        out.append((pg, sp['bbox'][1], inner))
+                x0 = ln['spans'][0]['bbox'][0]
+                if x0 >= LABEL_MAX_X:
+                    continue
+                txt = ''.join(s['text'] for s in ln['spans'])
+                m = LABEL_RE.match(txt)
+                if m and m.group(1) not in seen:
+                    seen.add(m.group(1))
+                    out.append((pg, ln['spans'][0]['bbox'][1], m.group(1)))
     return out
 
 
-def marks_in_band(doc, pg_start, y_start, pg_end, y_end):
-    total = 0
+# A sub-part is a calculation (excluded from the decks) if its wording asks the
+# student to compute a numeric result. Kept conservative so prose "explain/state"
+# parts are never caught.
+CALC_RE = re.compile(
+    r'\bcalculate\b|\bwork out\b|how many (?:moles|atoms|molecules|ions)|'
+    r'\bdetermine the (?:value|mass|concentration|amount|volume|ph|number of moles)\b',
+    re.IGNORECASE,
+)
+
+
+def band_lines(doc, pg_start, y_start, pg_end, y_end):
+    """Yield the text lines that fall inside a sub-part's band."""
     for pg in range(pg_start, pg_end + 1):
         page = doc[pg]
         lo = y_start if pg == pg_start else 0
@@ -48,10 +63,20 @@ def marks_in_band(doc, pg_start, y_start, pg_end, y_end):
             for ln in b['lines']:
                 y = ln['spans'][0]['bbox'][1]
                 if lo - 2 <= y <= hi + 2:
-                    txt = ''.join(s['text'] for s in ln['spans'])
-                    for m in BRACKET_RE.findall(txt):
-                        total += int(m)
+                    yield ''.join(s['text'] for s in ln['spans'])
+
+
+def marks_in_band(doc, pg_start, y_start, pg_end, y_end):
+    total = 0
+    for txt in band_lines(doc, pg_start, y_start, pg_end, y_end):
+        for m in BRACKET_RE.findall(txt):
+            total += int(m)
     return total
+
+
+def band_is_calc(doc, pg_start, y_start, pg_end, y_end):
+    text = ' '.join(band_lines(doc, pg_start, y_start, pg_end, y_end))
+    return bool(CALC_RE.search(text))
 
 
 pi = json.loads(PI_PATH.read_text())
@@ -83,12 +108,19 @@ for qp_name, data in pi.items():
         last_ph = doc[page_idxs[-1]].rect.height
         bounded = parts + [(page_idxs[-1], last_ph, '_end')]
         marks = {}
+        calc_parts = []
         for i in range(len(bounded) - 1):
             ps, ys, lbl = bounded[i]
             pe, ye, _ = bounded[i + 1]
             m = marks_in_band(doc, ps, ys, pe, ye)
             if m:
                 marks[lbl] = marks.get(lbl, 0) + m
+            if band_is_calc(doc, ps, ys, pe, ye):
+                calc_parts.append(lbl)
+        if calc_parts:
+            q['calcSubParts'] = calc_parts
+        else:
+            q.pop('calcSubParts', None)
         if marks:
             q['subPartMarks'] = marks
             fixed += 1

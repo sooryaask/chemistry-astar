@@ -57,7 +57,9 @@ for (const [paper, data] of Object.entries(paperIndex)) {
     if (q.subPartImgs && Object.keys(q.subPartImgs).length >= 2) {
       // One card per sub-part — each with its OWN cropped mark scheme so the
       // student only sees the answer to the part they just attempted.
+      const calcParts = new Set(q.calcSubParts || [])
       for (const [lbl, fnames] of Object.entries(q.subPartImgs)) {
+        if (calcParts.has(lbl)) continue  // skip calculation sub-parts
         const marks = (q.subPartMarks && q.subPartMarks[lbl]) || marksByLetter[lbl] || 1
         const partMs = q.msSubPartImgs && q.msSubPartImgs[lbl]
         cards.push({

@@ -746,7 +746,7 @@
         },
         "subPartMarks": {
           "a": 4,
-          "b": 2
+          "b": 3
         }
       },
       {
@@ -795,6 +795,37 @@
           15,
           16,
           17
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2017_QP_p14_sa.png"
+          ],
+          "b": [
+            "June_2017_QP_p15_sb.png"
+          ],
+          "c": [
+            "June_2017_QP_p16_sc.png"
+          ]
+        },
+        "msSubPartImgs": {
+          "b": [
+            "June_2017_MS_p8_msb.png"
+          ],
+          "c": [
+            "June_2017_MS_p9_msc.png",
+            "June_2017_MS_p10_msc.png"
+          ],
+          "a": [
+            "June_2017_MS_p10_msa.png"
+          ]
+        },
+        "subPartMarks": {
+          "a": 4,
+          "b": 5,
+          "c": 7
+        },
+        "calcSubParts": [
+          "a"
         ]
       },
       {
@@ -859,10 +890,13 @@
           ]
         },
         "subPartMarks": {
-          "c": 3,
-          "a": 1,
-          "b": 2
-        }
+          "a": 4,
+          "b": 2,
+          "c": 2
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "24",
@@ -932,10 +966,14 @@
           ]
         },
         "subPartMarks": {
-          "a": 2,
+          "a": 1,
           "b": 3,
-          "c": 8
-        }
+          "c": 6
+        },
+        "calcSubParts": [
+          "b",
+          "c"
+        ]
       },
       {
         "number": "25",
@@ -1000,8 +1038,12 @@
           ]
         },
         "subPartMarks": {
-          "a": 4
-        }
+          "a": 4,
+          "b": 5
+        },
+        "calcSubParts": [
+          "a"
+        ]
       }
     ]
   },
@@ -1747,8 +1789,12 @@
         },
         "subPartMarks": {
           "a": 3,
-          "b": 2
-        }
+          "b": 4,
+          "c": 1
+        },
+        "calcSubParts": [
+          "a"
+        ]
       },
       {
         "number": "22",
@@ -1811,9 +1857,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 5,
-          "b": 1
-        }
+          "a": 8,
+          "b": 5
+        },
+        "calcSubParts": [
+          "a",
+          "b"
+        ]
       },
       {
         "number": "23",
@@ -1871,9 +1921,12 @@
           ]
         },
         "subPartMarks": {
-          "a": 10,
+          "a": 6,
           "b": 4
-        }
+        },
+        "calcSubParts": [
+          "a"
+        ]
       },
       {
         "number": "24",
@@ -1928,7 +1981,7 @@
           ]
         },
         "subPartMarks": {
-          "a": 7,
+          "a": 5,
           "b": 5
         }
       },
@@ -1998,7 +2051,7 @@
         },
         "subPartMarks": {
           "a": 4,
-          "b": 6
+          "b": 5
         }
       }
     ]
@@ -2861,7 +2914,11 @@
           "a": 2,
           "b": 3,
           "c": 2
-        }
+        },
+        "calcSubParts": [
+          "a",
+          "b"
+        ]
       },
       {
         "number": "23",
@@ -2917,7 +2974,7 @@
         },
         "subPartMarks": {
           "a": 3,
-          "b": 7
+          "b": 5
         }
       },
       {
@@ -2988,7 +3045,11 @@
         "subPartMarks": {
           "a": 6,
           "b": 4
-        }
+        },
+        "calcSubParts": [
+          "a",
+          "b"
+        ]
       },
       {
         "number": "25",
@@ -3059,7 +3120,7 @@
         },
         "subPartMarks": {
           "a": 5,
-          "b": 9
+          "b": 7
         }
       }
     ]
@@ -3788,7 +3849,28 @@
         "qpPages": [
           12,
           13
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2022_QP_p12_sa.png"
+          ],
+          "b": [
+            "June_2022_QP_p13_sb.png"
+          ]
+        },
+        "msSubPartImgs": {
+          "a": [
+            "June_2022_MS_p9_msa.png"
+          ],
+          "b": [
+            "June_2022_MS_p10_msb.png",
+            "June_2022_MS_p11_msb.png"
+          ]
+        },
+        "subPartMarks": {
+          "a": 6,
+          "b": 2
+        }
       },
       {
         "number": "22",
@@ -3859,8 +3941,12 @@
         },
         "subPartMarks": {
           "a": 2,
+          "b": 2,
           "c": 3
-        }
+        },
+        "calcSubParts": [
+          "a"
+        ]
       },
       {
         "number": "23",
@@ -3937,7 +4023,9 @@
           ]
         },
         "subPartMarks": {
-          "a": 1
+          "a": 3,
+          "b": 2,
+          "c": 4
         }
       },
       {
@@ -3998,7 +4086,8 @@
           ]
         },
         "subPartMarks": {
-          "b": 10
+          "a": 4,
+          "b": 5
         }
       },
       {
@@ -4059,9 +4148,12 @@
           ]
         },
         "subPartMarks": {
-          "a": 4,
+          "a": 6,
           "b": 3
-        }
+        },
+        "calcSubParts": [
+          "a"
+        ]
       },
       {
         "number": "26",
@@ -4121,7 +4213,8 @@
           ]
         },
         "subPartMarks": {
-          "b": 7
+          "a": 3,
+          "b": 5
         }
       }
     ]
@@ -4893,7 +4986,7 @@
         },
         "subPartMarks": {
           "a": 3,
-          "b": 3
+          "b": 4
         }
       },
       {
@@ -4964,9 +5057,12 @@
         },
         "subPartMarks": {
           "a": 1,
-          "b": 4,
-          "c": 3
-        }
+          "b": 3,
+          "c": 7
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "23",
@@ -5035,9 +5131,12 @@
           ]
         },
         "subPartMarks": {
-          "a": 2,
-          "b": 1
-        }
+          "a": 6,
+          "b": 4
+        },
+        "calcSubParts": [
+          "b"
+        ]
       },
       {
         "number": "24",
@@ -5105,7 +5204,10 @@
           "a": 1,
           "b": 5,
           "c": 3
-        }
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "25",
@@ -5956,10 +6058,14 @@
           ]
         },
         "subPartMarks": {
-          "a": 3,
+          "a": 2,
           "b": 2,
           "c": 3
-        }
+        },
+        "calcSubParts": [
+          "a",
+          "c"
+        ]
       },
       {
         "number": "22",
@@ -6024,8 +6130,12 @@
           ]
         },
         "subPartMarks": {
+          "a": 1,
           "b": 7
-        }
+        },
+        "calcSubParts": [
+          "b"
+        ]
       },
       {
         "number": "23",
@@ -6104,10 +6214,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 3,
-          "b": 17,
+          "a": 5,
+          "b": 3,
           "c": 2
-        }
+        },
+        "calcSubParts": [
+          "b"
+        ]
       },
       {
         "number": "24",
@@ -6172,7 +6285,7 @@
         },
         "subPartMarks": {
           "a": 4,
-          "b": 6,
+          "b": 5,
           "c": 5
         }
       },
@@ -6224,6 +6337,9 @@
           24
         ],
         "subPartImgs": {
+          "a": [
+            "June_2024_QP_p20_sa.png"
+          ],
           "b": [
             "June_2024_QP_p20_sb.png"
           ],
@@ -6252,6 +6368,7 @@
           ]
         },
         "subPartMarks": {
+          "a": 2,
           "b": 3,
           "c": 2,
           "d": 4
@@ -6829,9 +6946,14 @@
         ],
         "subPartImgs": {
           "a": [
-            "Nov_2020_QP_p9_sa_cont0.png",
-            "Nov_2020_QP_p10_sa_cont1.png",
-            "Nov_2020_QP_p11_sa_cont2.png"
+            "Nov_2020_QP_p9_sa.png"
+          ],
+          "b": [
+            "Nov_2020_QP_p9_sb.png"
+          ],
+          "c": [
+            "Nov_2020_QP_p10_sc_cont0.png",
+            "Nov_2020_QP_p11_sc_cont1.png"
           ],
           "d": [
             "Nov_2020_QP_p12_sd_cont0.png",
@@ -6850,9 +6972,15 @@
           ]
         },
         "subPartMarks": {
-          "a": 6,
-          "d": 4
-        }
+          "a": 1,
+          "b": 5,
+          "c": 6,
+          "d": 7
+        },
+        "calcSubParts": [
+          "b",
+          "d"
+        ]
       },
       {
         "number": "17",
@@ -6926,7 +7054,10 @@
           "b": 2,
           "c": 5,
           "d": 3
-        }
+        },
+        "calcSubParts": [
+          "d"
+        ]
       },
       {
         "number": "18",
@@ -6994,10 +7125,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 4,
+          "a": 3,
           "b": 2,
-          "c": 2
-        }
+          "c": 6
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "19",
@@ -7059,7 +7193,10 @@
           "a": 3,
           "b": 4,
           "c": 2
-        }
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "20",
@@ -7113,9 +7250,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 6,
+          "a": 5,
           "b": 4
-        }
+        },
+        "calcSubParts": [
+          "a",
+          "b"
+        ]
       },
       {
         "number": "21",
@@ -7177,7 +7318,7 @@
         },
         "subPartMarks": {
           "a": 5,
-          "b": 2,
+          "b": 1,
           "c": 3
         }
       },
@@ -7228,6 +7369,9 @@
           28
         ],
         "subPartImgs": {
+          "a": [
+            "Nov_2020_QP_p24_sa.png"
+          ],
           "b": [
             "Nov_2020_QP_p25_sb.png"
           ],
@@ -7249,9 +7393,13 @@
           ]
         },
         "subPartMarks": {
+          "a": 6,
           "b": 4,
           "c": 5
-        }
+        },
+        "calcSubParts": [
+          "b"
+        ]
       }
     ]
   },
@@ -7835,10 +7983,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 2,
-          "b": 9,
+          "a": 3,
+          "b": 3,
           "c": 8
-        }
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "17",
@@ -7907,7 +8058,7 @@
         },
         "subPartMarks": {
           "a": 4,
-          "b": 1
+          "b": 7
         }
       },
       {
@@ -8001,7 +8152,8 @@
           "b": 1,
           "c": 1,
           "d": 4,
-          "e": 2
+          "e": 2,
+          "f": 2
         }
       },
       {
@@ -8074,10 +8226,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 5,
+          "a": 4,
           "b": 4,
           "c": 3
-        }
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "20",
@@ -8132,6 +8287,9 @@
           "a": [
             "Nov_2021_QP_p20_sa.png"
           ],
+          "b": [
+            "Nov_2021_QP_p20_sb.png"
+          ],
           "c": [
             "Nov_2021_QP_p21_sc.png"
           ]
@@ -8152,7 +8310,10 @@
           "a": 1,
           "b": 3,
           "c": 7
-        }
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "21",
@@ -8220,7 +8381,10 @@
         "subPartMarks": {
           "a": 4,
           "b": 6
-        }
+        },
+        "calcSubParts": [
+          "b"
+        ]
       },
       {
         "number": "22",
@@ -8279,12 +8443,14 @@
           ],
           "b": [
             "Nov_2021_QP_p26_sb_cont0.png",
-            "Nov_2021_QP_p27_sb_cont1.png",
-            "Nov_2021_QP_p28_sb_cont2.png",
-            "Nov_2021_QP_p29_sb_cont3.png",
-            "Nov_2021_QP_p30_sb_cont4.png",
-            "Nov_2021_QP_p31_sb_cont5.png",
-            "Nov_2021_QP_p32_sb_cont6.png"
+            "Nov_2021_QP_p27_sb_cont1.png"
+          ],
+          "c": [
+            "Nov_2021_QP_p28_sc_cont0.png",
+            "Nov_2021_QP_p29_sc_cont1.png",
+            "Nov_2021_QP_p30_sc_cont2.png",
+            "Nov_2021_QP_p31_sc_cont3.png",
+            "Nov_2021_QP_p32_sc_cont4.png"
           ]
         },
         "isCalculation": true,
@@ -8301,9 +8467,15 @@
           ]
         },
         "subPartMarks": {
-          "a": 4,
-          "b": 7
-        }
+          "a": 2,
+          "b": 8,
+          "c": 6
+        },
+        "calcSubParts": [
+          "a",
+          "b",
+          "c"
+        ]
       }
     ]
   },
@@ -8900,9 +9072,13 @@
           "a": 2,
           "b": 2,
           "c": 5,
-          "d": 7,
+          "d": 3,
           "e": 3
-        }
+        },
+        "calcSubParts": [
+          "c",
+          "d"
+        ]
       },
       {
         "number": "17",
@@ -8948,6 +9124,29 @@
         "qpPages": [
           14,
           15
+        ],
+        "subPartImgs": {
+          "a": [
+            "Specimen_QP_p14_sa.png"
+          ],
+          "b": [
+            "Specimen_QP_p15_sb.png"
+          ]
+        },
+        "msSubPartImgs": {
+          "a": [
+            "Specimen_MS_p10_msa.png"
+          ],
+          "b": [
+            "Specimen_MS_p11_msb.png"
+          ]
+        },
+        "subPartMarks": {
+          "a": 5,
+          "b": 2
+        },
+        "calcSubParts": [
+          "a"
         ]
       },
       {
@@ -9039,9 +9238,11 @@
             "Specimen_QP_p18_sb.png"
           ],
           "c": [
-            "Specimen_QP_p19_sc_cont0.png",
-            "Specimen_QP_p20_sc_cont1.png",
-            "Specimen_QP_p21_sc_cont2.png"
+            "Specimen_QP_p19_sc.png"
+          ],
+          "d": [
+            "Specimen_QP_p20_sd_cont0.png",
+            "Specimen_QP_p21_sd_cont1.png"
           ]
         },
         "msSubPartImgs": {
@@ -9061,8 +9262,12 @@
         "subPartMarks": {
           "a": 2,
           "b": 3,
-          "c": 8
-        }
+          "c": 5,
+          "d": 6
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "20",
@@ -9127,10 +9332,13 @@
           ]
         },
         "subPartMarks": {
-          "a": 9,
+          "a": 8,
           "b": 2,
-          "c": 7
-        }
+          "c": 6
+        },
+        "calcSubParts": [
+          "c"
+        ]
       },
       {
         "number": "21",
@@ -9168,6 +9376,10 @@
           25
         ],
         "subPartImgs": {
+          "a": [
+            "Specimen_QP_p24_sa_cont0.png",
+            "Specimen_QP_p25_sa_cont1.png"
+          ],
           "b": [
             "Specimen_QP_p25_sb.png"
           ],
@@ -9187,6 +9399,7 @@
           ]
         },
         "subPartMarks": {
+          "a": 6,
           "b": 1,
           "c": 2
         }
@@ -9236,7 +9449,28 @@
           26,
           27,
           28
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "Specimen_QP_p26_sa.png"
+          ],
+          "b": [
+            "Specimen_QP_p27_sb_cont0.png",
+            "Specimen_QP_p28_sb_cont1.png"
+          ]
+        },
+        "msSubPartImgs": {
+          "a": [
+            "Specimen_MS_p20_msa.png"
+          ],
+          "b": [
+            "Specimen_MS_p21_msb.png"
+          ]
+        },
+        "subPartMarks": {
+          "a": 9,
+          "b": 6
+        }
       }
     ]
   }

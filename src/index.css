@@ -101,9 +101,11 @@ button {
 }
 .review-scroll {
   flex: 1;
+  min-height: 0; /* allow the flex child to shrink so overflow-y actually scrolls */
   overflow-y: auto;
-  display: flex;
-  flex-direction: column;
+  /* NOT a flex column: a flex column would let .paper-card shrink below its
+     content and, with its overflow:hidden, clip the answer area + Show Answer
+     button on tall questions. A plain block lets content flow and scroll. */
   padding-bottom: 1.5rem;
 }
 .review-top {
@@ -212,6 +214,24 @@ button {
   box-shadow: none;
 }
 
+.paper-card .answer-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.paper-card .mark-btn {
+  background: var(--accent);
+  color: #10233f;
+  border: none;
+  padding: 0.6rem 1.6rem;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.paper-card .mark-btn:hover { filter: brightness(1.07); }
+.paper-card .mark-btn:disabled { opacity: 0.45; cursor: not-allowed; }
 .paper-card .show-btn {
   align-self: center;
   background: #f0f0f0;
@@ -222,6 +242,62 @@ button {
   font-size: 0.95rem;
 }
 .paper-card .show-btn:hover { background: #e4e4e4; }
+.paper-card .ghost-btn {
+  background: transparent;
+  color: #888;
+  border: none;
+  padding: 0.2rem;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+.paper-card .ghost-btn:hover { background: transparent; color: #555; }
+
+/* AI examiner feedback panel */
+.ai-feedback {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.ai-feedback.loading {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.6rem;
+  color: var(--muted);
+}
+.ai-feedback.error { border-color: var(--learn); }
+.ai-feedback.error p { margin: 0; }
+.spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.ai-score-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.ai-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.ai-score-label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.ai-sec { display: flex; flex-direction: column; gap: 0.2rem; }
+.ai-sec p { margin: 0; font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+.ai-sec-h { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
+.ai-sec.good .ai-sec-h { color: var(--due); }
+.ai-sec.improve .ai-sec-h { color: #e0a86c; }
+.ai-sec.model .ai-sec-h { color: var(--muted); }
 
 /* mark scheme images (outside paper card) */
 .ms-image {

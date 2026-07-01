@@ -328,21 +328,31 @@ async function fetchImageBase64(url) {
 }
 
 // Assess a past-paper answer using vision (QP page + MS page + typed answer).
-export async function assessPaperQuestion({ qpImageUrl, msImageUrls, questionNo, answer, isMcq = false }) {
+export async function assessPaperQuestion({ qpImageUrl, qpImageUrls, msImageUrls, questionNo, answer, isMcq = false }) {
   const key = getApiKey()
 
-  // Fetch all images in parallel
-  const [qpB64, ...msB64s] = await Promise.all([
-    fetchImageBase64(qpImageUrl),
+  const qpUrls = qpImageUrls && qpImageUrls.length ? qpImageUrls : [qpImageUrl]
+
+  // Fetch all images in parallel: question image(s) first, then mark scheme(s)
+  const all = await Promise.all([
+    ...qpUrls.map((url) => fetchImageBase64(url)),
     ...msImageUrls.map((url) => fetchImageBase64(url)),
   ])
+  const qpB64s = all.slice(0, qpUrls.length)
+  const msB64s = all.slice(qpUrls.length)
 
-  // Build content blocks: QP image, then MS image(s), then text
+  const nQp = qpB64s.length
+  const qpLabel = nQp > 1 ? `Images 1–${nQp} are the question` : 'Image 1 is the question'
+  const msNums = msB64s.map((_, i) => i + 1 + nQp)
+  const msLabel =
+    `Image${msB64s.length > 1 ? 's' : ''} ${msNums.join(' and ')} ${msB64s.length > 1 ? 'are' : 'is'} the official mark scheme`
+
+  // Build content blocks: QP image(s), then MS image(s), then text
   const content = [
-    {
+    ...qpB64s.map((data) => ({
       type: 'image',
-      source: { type: 'base64', media_type: 'image/png', data: qpB64 },
-    },
+      source: { type: 'base64', media_type: 'image/png', data },
+    })),
     ...msB64s.map((data) => ({
       type: 'image',
       source: { type: 'base64', media_type: 'image/png', data },
@@ -350,8 +360,8 @@ export async function assessPaperQuestion({ qpImageUrl, msImageUrls, questionNo,
     {
       type: 'text',
       text:
-        `Image 1 is the question paper page. Image${msB64s.length > 1 ? 's' : ''} ${msB64s.map((_, i) => i + 2).join(' and ')} ${msB64s.length > 1 ? 'are' : 'is'} the official mark scheme.\n\n` +
-        `Mark my answer to question ${questionNo} on this page.\n\n` +
+        `${qpLabel} (already cropped to just the part I answered). ${msLabel} for that same part.\n\n` +
+        `Mark my answer to question ${questionNo} strictly against the mark scheme.\n\n` +
         `My answer:\n${answer.trim() || '[no answer given]'}\n\n` +
         `Respond with valid JSON only.`,
     },

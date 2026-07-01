@@ -36,7 +36,8 @@ for (const [paper, data] of Object.entries(paperIndex)) {
     if (q.marks <= 1) continue           // skip MCQs
     if (q.isCalculation) continue        // skip calculation questions
 
-    const msUrls =
+    // Whole-question mark scheme (fallback when a part has no per-part crop)
+    const wholeMsUrls =
       q.msShownImgs && q.msShownImgs.length
         ? q.msShownImgs.map(renderedUrl)
         : (q.msShow || q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number))
@@ -54,9 +55,11 @@ for (const [paper, data] of Object.entries(paperIndex)) {
     }
 
     if (q.subPartImgs && Object.keys(q.subPartImgs).length >= 2) {
-      // One card per sub-part
+      // One card per sub-part — each with its OWN cropped mark scheme so the
+      // student only sees the answer to the part they just attempted.
       for (const [lbl, fnames] of Object.entries(q.subPartImgs)) {
-        const marks = marksByLetter[lbl] || 1
+        const marks = (q.subPartMarks && q.subPartMarks[lbl]) || marksByLetter[lbl] || 1
+        const partMs = q.msSubPartImgs && q.msSubPartImgs[lbl]
         cards.push({
           id: `pp::${ps}::q${q.number}::s${lbl}`,
           type: 'image',
@@ -67,7 +70,7 @@ for (const [paper, data] of Object.entries(paperIndex)) {
           summary: q.summary || '',
           paperLabel: paperLabel(paper),
           qpUrls: fnames.map(renderedUrl),
-          msUrls,
+          msUrls: partMs && partMs.length ? partMs.map(renderedUrl) : wholeMsUrls,
           explanation: q.explanation || '',
           steps: q.steps || [],
           slots: [{ label: `(${lbl})`, marks }],
@@ -87,7 +90,7 @@ for (const [paper, data] of Object.entries(paperIndex)) {
         summary: q.summary || '',
         paperLabel: paperLabel(paper),
         qpUrls: fullQpUrls,
-        msUrls,
+        msUrls: wholeMsUrls,
         explanation: q.explanation || '',
         steps: q.steps || [],
         slots,

@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getDeckCards, deckTitle } from '../data/cards.js'
 import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard } from '../utils/srs.js'
 import { todayISO } from '../utils/localStorage.js'
+import { assessPaperQuestion } from '../api/anthropic.js'
 
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
@@ -32,6 +33,9 @@ export default function Review() {
   const [answers, setAnswers] = useState([])
   const [ticks, setTicks] = useState([])
   const [menuOpen, setMenuOpen] = useState(false)
+  const [marking, setMarking] = useState(false)
+  const [assessment, setAssessment] = useState(null)
+  const [markError, setMarkError] = useState(null)
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
@@ -52,6 +56,34 @@ export default function Review() {
     setAnswers([])
     setTicks([])
     setMenuOpen(false)
+    setMarking(false)
+    setAssessment(null)
+    setMarkError(null)
+  }
+
+  // Send the typed answer to Claude to be marked against this part's mark scheme.
+  async function markAnswer() {
+    setRevealed(true)
+    setAssessment(null)
+    setMarkError(null)
+    setMarking(true)
+    try {
+      const result = await assessPaperQuestion({
+        qpImageUrls: card.qpUrls,
+        msImageUrls: card.msUrls,
+        questionNo: `${card.number}${card.subPart ? `(${card.subPart})` : ''}`,
+        answer: answers.filter(Boolean).join('\n'),
+      })
+      setAssessment(result)
+      // Pre-fill the tick boxes from the AI's score so grading is one glance away.
+      if (typeof result?.score === 'number') {
+        setTicks(Array.from({ length: totalMarks }, (_, i) => i < result.score))
+      }
+    } catch (err) {
+      setMarkError(err.message || 'Marking failed.')
+    } finally {
+      setMarking(false)
+    }
   }
 
   function setAnswer(i, val) {
@@ -144,7 +176,14 @@ export default function Review() {
                   />
                 </div>
               ))}
-              <button className="show-btn" onClick={() => setRevealed(true)}>Show Answer</button>
+              <div className="answer-actions">
+                <button className="mark-btn" onClick={markAnswer} disabled={!wroteSomething}>
+                  Mark my answer
+                </button>
+                <button className="show-btn ghost-btn" onClick={() => setRevealed(true)}>
+                  Just show the answer
+                </button>
+              </div>
             </div>
           )}
         </div>
@@ -161,6 +200,46 @@ export default function Review() {
                     <span>{answers[i]}</span>
                   </div>
                 ) : null)}
+              </div>
+            )}
+
+            {/* AI examiner feedback */}
+            {marking && (
+              <div className="ai-feedback loading">
+                <span className="spinner" /> Marking your answer against the mark scheme…
+              </div>
+            )}
+            {markError && (
+              <div className="ai-feedback error">
+                <span className="ra-label">Couldn’t mark automatically</span>
+                <p>{markError}</p>
+                <p className="muted">Self-mark against the scheme below instead.</p>
+              </div>
+            )}
+            {assessment && (
+              <div className="ai-feedback">
+                <div className="ai-score-row">
+                  <span className="ai-score">{assessment.score ?? '?'} / {assessment.questionMarks ?? totalMarks}</span>
+                  <span className="ai-score-label">AI examiner mark</span>
+                </div>
+                {assessment.whatWentWell && (
+                  <div className="ai-sec good">
+                    <span className="ai-sec-h">✓ What went well</span>
+                    <p>{assessment.whatWentWell}</p>
+                  </div>
+                )}
+                {assessment.howToImprove && (
+                  <div className="ai-sec improve">
+                    <span className="ai-sec-h">→ How to improve</span>
+                    <p>{assessment.howToImprove}</p>
+                  </div>
+                )}
+                {assessment.markSchemeAnswer && (
+                  <div className="ai-sec model">
+                    <span className="ai-sec-h">Model answer</span>
+                    <p>{assessment.markSchemeAnswer}</p>
+                  </div>
+                )}
               </div>
             )}
 

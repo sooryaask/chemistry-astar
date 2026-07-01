@@ -100,11 +100,17 @@ export default function Review() {
     setMarkError(null)
     setMarking(true)
     try {
+      const labelledAnswer = slots
+        .map((s, i) => (answers[i] && answers[i].trim())
+          ? `${s.label ? s.label + ' ' : ''}${answers[i].trim()}`
+          : null)
+        .filter(Boolean)
+        .join('\n')
       const result = await assessPaperQuestion({
         qpImageUrls: card.qpUrls,
         msImageUrls: card.msUrls,
         questionNo: `${card.number}${card.subPart ? `(${card.subPart})` : ''}`,
-        answer: answers.filter(Boolean).join('\n'),
+        answer: labelledAnswer,
       })
       setAssessment(result)
       // Pre-fill the tick boxes from the AI's score so grading is one glance away.

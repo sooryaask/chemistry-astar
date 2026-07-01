@@ -79,6 +79,51 @@ def band_is_calc(doc, pg_start, y_start, pg_end, y_end):
     return bool(CALC_RE.search(text))
 
 
+# A roman sub-sub-part label — on its own line, or trailing a main label on the
+# same line ("(a) (i) …"). Matched at the start of a line only.
+ROMAN_RE = re.compile(r'^\s*(?:\d{0,2}\s*\([a-f]\)\s*)?\(([ivx]{1,4})\)')
+ROMAN_MAX_X = 140
+
+
+def roman_labels(doc, pg_start, y_start, pg_end, y_end):
+    """(pg, y, roman) for each roman sub-sub-part label inside a main-part band."""
+    out = []
+    seen = set()
+    for pg in range(pg_start, pg_end + 1):
+        page = doc[pg]
+        lo = y_start if pg == pg_start else 0
+        hi = y_end if pg == pg_end else page.rect.height
+        for b in page.get_text('dict')['blocks']:
+            if 'lines' not in b:
+                continue
+            for ln in b['lines']:
+                x0 = ln['spans'][0]['bbox'][0]
+                y0 = ln['spans'][0]['bbox'][1]
+                if x0 >= ROMAN_MAX_X or not (lo - 2 <= y0 <= hi + 2):
+                    continue
+                m = ROMAN_RE.match(''.join(s['text'] for s in ln['spans']))
+                if m and m.group(1) not in seen:
+                    seen.add(m.group(1))
+                    out.append((pg, y0, m.group(1)))
+    return out
+
+
+def build_slots(doc, pg_s, y_s, pg_e, y_e, part_marks):
+    """Answer slots for one main part: one box per roman sub-sub-part ((i),(ii)…)
+    when present, otherwise a single box for the whole part."""
+    romans = roman_labels(doc, pg_s, y_s, pg_e, y_e)
+    if len(romans) < 2:
+        return [{'label': '', 'marks': part_marks or 1}]
+    bounded = romans + [(pg_e, y_e, '_end')]
+    slots = []
+    for i in range(len(bounded) - 1):
+        rp, ry, rlbl = bounded[i]
+        np_, ny, _ = bounded[i + 1]
+        m = marks_in_band(doc, rp, ry, np_, ny)
+        slots.append({'label': f'({rlbl})', 'marks': m or 1})
+    return slots
+
+
 pi = json.loads(PI_PATH.read_text())
 qp_cache = {}
 fixed = 0
@@ -109,6 +154,7 @@ for qp_name, data in pi.items():
         bounded = parts + [(page_idxs[-1], last_ph, '_end')]
         marks = {}
         calc_parts = []
+        slots_map = {}
         for i in range(len(bounded) - 1):
             ps, ys, lbl = bounded[i]
             pe, ye, _ = bounded[i + 1]
@@ -117,6 +163,8 @@ for qp_name, data in pi.items():
                 marks[lbl] = marks.get(lbl, 0) + m
             if band_is_calc(doc, ps, ys, pe, ye):
                 calc_parts.append(lbl)
+            slots_map[lbl] = build_slots(doc, ps, ys, pe, ye, m)
+        q['subPartSlots'] = slots_map
         if calc_parts:
             q['calcSubParts'] = calc_parts
         else:

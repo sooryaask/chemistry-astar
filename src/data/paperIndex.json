@@ -747,6 +747,28 @@
         "subPartMarks": {
           "a": 4,
           "b": 3
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ]
         }
       },
       {
@@ -826,7 +848,43 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 3
+            },
+            {
+              "label": "(iv)",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -896,7 +954,27 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "24",
@@ -973,7 +1051,35 @@
         "calcSubParts": [
           "b",
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "25",
@@ -1043,7 +1149,25 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
+        }
       }
     ]
   },
@@ -1794,7 +1918,35 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ]
+        }
       },
       {
         "number": "22",
@@ -1863,7 +2015,37 @@
         "calcSubParts": [
           "a",
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            },
+            {
+              "label": "(iv)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -1926,7 +2108,25 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "24",
@@ -1983,6 +2183,28 @@
         "subPartMarks": {
           "a": 5,
           "b": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            }
+          ]
         }
       },
       {
@@ -2052,6 +2274,28 @@
         "subPartMarks": {
           "a": 4,
           "b": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ]
         }
       }
     ]
@@ -2840,6 +3084,44 @@
           "b": 2,
           "c": 2,
           "d": 8
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "d": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            },
+            {
+              "label": "(iv)",
+              "marks": 2
+            }
+          ]
         }
       },
       {
@@ -2918,7 +3200,31 @@
         "calcSubParts": [
           "a",
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -2975,6 +3281,20 @@
         "subPartMarks": {
           "a": 3,
           "b": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
         }
       },
       {
@@ -3049,7 +3369,29 @@
         "calcSubParts": [
           "a",
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "25",
@@ -3121,6 +3463,36 @@
         "subPartMarks": {
           "a": 5,
           "b": 7
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 3
+            }
+          ]
         }
       }
     ]
@@ -3870,6 +4242,28 @@
         "subPartMarks": {
           "a": 6,
           "b": 2
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 5
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ]
         }
       },
       {
@@ -3946,7 +4340,27 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -4026,6 +4440,30 @@
           "a": 3,
           "b": 2,
           "c": 4
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ]
         }
       },
       {
@@ -4088,6 +4526,24 @@
         "subPartMarks": {
           "a": 4,
           "b": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
         }
       },
       {
@@ -4153,7 +4609,25 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "26",
@@ -4215,6 +4689,20 @@
         "subPartMarks": {
           "a": 3,
           "b": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
         }
       }
     ]
@@ -4987,6 +5475,28 @@
         "subPartMarks": {
           "a": 3,
           "b": 4
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ]
         }
       },
       {
@@ -5062,7 +5572,43 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 1
+            },
+            {
+              "label": "(iv)",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -5136,7 +5682,33 @@
         },
         "calcSubParts": [
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "24",
@@ -5207,7 +5779,31 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ]
+        }
       },
       {
         "number": "25",
@@ -5277,6 +5873,26 @@
           "a": 2,
           "b": 2,
           "c": 4
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ]
         }
       },
       {
@@ -6065,7 +6681,31 @@
         "calcSubParts": [
           "a",
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "22",
@@ -6135,7 +6775,29 @@
         },
         "calcSubParts": [
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 5
+            }
+          ]
+        }
       },
       {
         "number": "23",
@@ -6220,7 +6882,31 @@
         },
         "calcSubParts": [
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "24",
@@ -6287,6 +6973,26 @@
           "a": 4,
           "b": 5,
           "c": 5
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
         }
       },
       {
@@ -6372,6 +7078,36 @@
           "b": 3,
           "c": 2,
           "d": 4
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "d": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ]
         }
       }
     ]
@@ -6980,7 +7716,45 @@
         "calcSubParts": [
           "b",
           "d"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 6
+            }
+          ],
+          "d": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "17",
@@ -7057,7 +7831,33 @@
         },
         "calcSubParts": [
           "d"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "d": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "18",
@@ -7131,7 +7931,31 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "19",
@@ -7196,7 +8020,27 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "20",
@@ -7256,7 +8100,29 @@
         "calcSubParts": [
           "a",
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "21",
@@ -7320,6 +8186,26 @@
           "a": 5,
           "b": 1,
           "c": 3
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ]
         }
       },
       {
@@ -7399,7 +8285,31 @@
         },
         "calcSubParts": [
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 6
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ]
+        }
       }
     ]
   },
@@ -7989,7 +8899,47 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            },
+            {
+              "label": "(iii)",
+              "marks": 1
+            },
+            {
+              "label": "(iv)",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "17",
@@ -8059,6 +9009,24 @@
         "subPartMarks": {
           "a": 4,
           "b": 7
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 6
+            }
+          ]
         }
       },
       {
@@ -8154,6 +9122,48 @@
           "d": 4,
           "e": 2,
           "f": 2
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "d": [
+            {
+              "label": "",
+              "marks": 4
+            }
+          ],
+          "e": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "f": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
         }
       },
       {
@@ -8232,7 +9242,43 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 1
+            }
+          ]
+        }
       },
       {
         "number": "20",
@@ -8313,7 +9359,35 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 3
+            }
+          ]
+        }
       },
       {
         "number": "21",
@@ -8384,7 +9458,33 @@
         },
         "calcSubParts": [
           "b"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "22",
@@ -8475,7 +9575,35 @@
           "a",
           "b",
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 4
+            },
+            {
+              "label": "(iii)",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 6
+            }
+          ]
+        }
       }
     ]
   },
@@ -9078,7 +10206,43 @@
         "calcSubParts": [
           "c",
           "d"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 5
+            }
+          ],
+          "d": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "e": [
+            {
+              "label": "(i)",
+              "marks": 1
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "17",
@@ -9147,7 +10311,25 @@
         },
         "calcSubParts": [
           "a"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 1
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
+        }
       },
       {
         "number": "18",
@@ -9267,7 +10449,37 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 3
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 3
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "d": [
+            {
+              "label": "",
+              "marks": 6
+            }
+          ]
+        }
       },
       {
         "number": "20",
@@ -9338,7 +10550,31 @@
         },
         "calcSubParts": [
           "c"
-        ]
+        ],
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 8
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ],
+          "c": [
+            {
+              "label": "(i)",
+              "marks": 2
+            },
+            {
+              "label": "(ii)",
+              "marks": 4
+            }
+          ]
+        }
       },
       {
         "number": "21",
@@ -9402,6 +10638,30 @@
           "a": 6,
           "b": 1,
           "c": 2
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "(i)",
+              "marks": 4
+            },
+            {
+              "label": "(ii)",
+              "marks": 2
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 1
+            }
+          ],
+          "c": [
+            {
+              "label": "",
+              "marks": 2
+            }
+          ]
         }
       },
       {
@@ -9470,6 +10730,20 @@
         "subPartMarks": {
           "a": 9,
           "b": 6
+        },
+        "subPartSlots": {
+          "a": [
+            {
+              "label": "",
+              "marks": 9
+            }
+          ],
+          "b": [
+            {
+              "label": "",
+              "marks": 6
+            }
+          ]
         }
       }
     ]

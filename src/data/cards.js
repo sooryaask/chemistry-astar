@@ -60,7 +60,14 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       const calcParts = new Set(q.calcSubParts || [])
       for (const [lbl, fnames] of Object.entries(q.subPartImgs)) {
         if (calcParts.has(lbl)) continue  // skip calculation sub-parts
-        const marks = (q.subPartMarks && q.subPartMarks[lbl]) || marksByLetter[lbl] || 1
+        // One answer box per roman sub-sub-part ((i),(ii),(iii)…) when the part
+        // has them and can't be split further (shared table/context); otherwise
+        // a single box for the whole part.
+        const partSlots =
+          q.subPartSlots && q.subPartSlots[lbl] && q.subPartSlots[lbl].length
+            ? q.subPartSlots[lbl]
+            : [{ label: '', marks: (q.subPartMarks && q.subPartMarks[lbl]) || marksByLetter[lbl] || 1 }]
+        const marks = partSlots.reduce((s, sl) => s + (sl.marks || 0), 0)
         const partMs = q.msSubPartImgs && q.msSubPartImgs[lbl]
         cards.push({
           id: `pp::${ps}::q${q.number}::s${lbl}`,
@@ -75,7 +82,7 @@ for (const [paper, data] of Object.entries(paperIndex)) {
           msUrls: partMs && partMs.length ? partMs.map(renderedUrl) : wholeMsUrls,
           explanation: q.explanation || '',
           steps: q.steps || [],
-          slots: [{ label: `(${lbl})`, marks }],
+          slots: partSlots,
         })
       }
     } else {

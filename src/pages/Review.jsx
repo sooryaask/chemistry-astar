@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getDeckCards, deckTitle } from '../data/cards.js'
-import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard } from '../utils/srs.js'
+import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
 import { todayISO } from '../utils/localStorage.js'
 import { assessPaperQuestion } from '../api/anthropic.js'
 
@@ -27,8 +27,8 @@ export default function Review() {
   const title = useMemo(() => deckTitle(deckId), [deckId])
 
   const [queue, setQueue] = useState(() => buildSession(allCards).queue)
-  const [sessionTotal] = useState(() => buildSession(allCards).queue.length)
   const [counts, setCounts] = useState(() => deckCounts(allCards))
+  const [mastery, setMastery] = useState(() => masteryStats(allCards))
   const [revealed, setRevealed] = useState(false)
   const [answers, setAnswers] = useState([])
   const [ticks, setTicks] = useState([])
@@ -43,12 +43,9 @@ export default function Review() {
   const totalMarks = slots.reduce((s, sl) => s + sl.marks, 0)
   const wroteSomething = answers.some((a) => a && a.trim())
 
-  // Progress
-  const currentIndex = sessionTotal - queue.length
-  const progressPct = sessionTotal > 0 ? (currentIndex / sessionTotal) * 100 : 0
-
   function refreshCounts() {
     setCounts(deckCounts(allCards))
+    setMastery(masteryStats(allCards))
   }
 
   function resetView() {
@@ -142,10 +139,10 @@ export default function Review() {
         <span className="review-title">{title}</span>
       </div>
 
-      {/* Progress bar */}
-      <div className="progress-bar-wrap">
-        <div className="progress-bar-fill" style={{ width: `${progressPct}%` }} />
-        <span className="progress-label">{currentIndex} / {sessionTotal}</span>
+      {/* Paper mastery — how much of this paper you've mastered, toward 100% */}
+      <div className="progress-bar-wrap" title="Cards mastered (graded Good/Easy) in this paper">
+        <div className="progress-bar-fill" style={{ width: `${mastery.pct}%` }} />
+        <span className="progress-label">{mastery.pct}% mastered · {mastery.mastered}/{mastery.total}</span>
       </div>
 
       <div className="review-scroll">

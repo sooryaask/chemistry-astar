@@ -74,8 +74,25 @@ button {
   transition: background 0.12s, border-color 0.12s;
 }
 .deck-row:hover { background: var(--surface-2); border-color: var(--accent); }
-.deck-label { display: flex; flex-direction: column; }
+.deck-label { display: flex; flex-direction: column; gap: 0.35rem; }
 .deck-sub { font-size: 0.78rem; color: var(--muted); }
+.deck-mastery { display: flex; align-items: center; gap: 0.5rem; }
+.deck-mastery-bar {
+  flex: 1;
+  max-width: 180px;
+  height: 6px;
+  background: var(--surface-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.deck-mastery-fill {
+  display: block;
+  height: 100%;
+  background: var(--due);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+.deck-mastery-pct { font-size: 0.72rem; color: var(--muted); min-width: 2.4em; }
 
 /* counter chips (deck list + review bottom) */
 .counts, .counter {

@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { getPaperList } from '../data/cards.js'
-import { deckCounts } from '../utils/srs.js'
+import { deckCounts, masteryStats } from '../utils/srs.js'
 
 function Counts({ cards }) {
   const c = useMemo(() => deckCounts(cards), [cards])
@@ -18,11 +18,18 @@ function Counts({ cards }) {
 
 function PaperRow({ paper }) {
   const totalMarks = paper.cards.reduce((s, c) => s + c.marks, 0)
+  const m = useMemo(() => masteryStats(paper.cards), [paper.cards])
   return (
     <Link className="deck-row" to={`/review/${encodeURIComponent(paper.deckId)}`}>
       <span className="deck-label">
         {paper.label} — Paper 1
         <span className="deck-sub">{paper.cards.length} questions · {totalMarks} marks</span>
+        <span className="deck-mastery">
+          <span className="deck-mastery-bar">
+            <span className="deck-mastery-fill" style={{ width: `${m.pct}%` }} />
+          </span>
+          <span className="deck-mastery-pct">{m.pct}%</span>
+        </span>
       </span>
       <Counts cards={paper.cards} />
     </Link>

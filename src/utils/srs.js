@@ -166,3 +166,20 @@ export function buildSession(cards, today = todayISO()) {
 export function deckCounts(cards, today = todayISO()) {
   return buildSession(cards, today).counts
 }
+
+// A card is "mastered" once it has been graded Good/Easy at least once without a
+// subsequent lapse — `reps` counts successful reps and resets to 0 on "Again".
+// This is what the paper-mastery progress bar counts toward 100%: it climbs as
+// you answer and grade correctly, and dips if you later forget a card.
+export function isMastered(cardState) {
+  return !!cardState && !cardState.suspended && (cardState.reps || 0) >= 1
+}
+
+// Fraction of a deck's cards that are mastered (persists across sessions).
+export function masteryStats(cards) {
+  const state = getState()
+  let mastered = 0
+  for (const card of cards) if (isMastered(state[card.id])) mastered += 1
+  const total = cards.length
+  return { mastered, total, pct: total ? Math.round((mastered / total) * 100) : 0 }
+}

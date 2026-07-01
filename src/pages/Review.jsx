@@ -8,6 +8,37 @@ import { assessPaperQuestion } from '../api/anthropic.js'
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
 
+// Wrap each awarded mark-scheme "evidence" phrase found in the student's answer
+// in a green <mark>, so you can see exactly which words earned which mark.
+function highlightHits(text, evidences) {
+  if (!text) return text
+  const lower = text.toLowerCase()
+  const ranges = []
+  for (const ev of evidences || []) {
+    const q = (ev || '').trim()
+    if (q.length < 3) continue
+    const idx = lower.indexOf(q.toLowerCase())
+    if (idx !== -1) ranges.push([idx, idx + q.length])
+  }
+  if (!ranges.length) return text
+  ranges.sort((a, b) => a[0] - b[0])
+  const merged = []
+  for (const r of ranges) {
+    const last = merged[merged.length - 1]
+    if (last && r[0] <= last[1]) last[1] = Math.max(last[1], r[1])
+    else merged.push([r[0], r[1]])
+  }
+  const nodes = []
+  let cursor = 0
+  merged.forEach(([a, b], i) => {
+    if (a > cursor) nodes.push(text.slice(cursor, a))
+    nodes.push(<mark className="hit" key={i}>{text.slice(a, b)}</mark>)
+    cursor = b
+  })
+  if (cursor < text.length) nodes.push(text.slice(cursor))
+  return nodes
+}
+
 function Counter({ counts }) {
   return (
     <div className="counter" title="new + learning + due">
@@ -42,6 +73,10 @@ export default function Review() {
   const slots = card?.slots?.length ? card.slots : [{ label: '', marks: card?.marks ?? 1 }]
   const totalMarks = slots.reduce((s, sl) => s + sl.marks, 0)
   const wroteSomething = answers.some((a) => a && a.trim())
+  // Verbatim phrases the AI says earned a mark — highlighted green in the answer.
+  const awardedEvidence = (assessment?.markingPoints || [])
+    .filter((p) => p && p.awarded && p.evidence)
+    .map((p) => p.evidence)
 
   function refreshCounts() {
     setCounts(deckCounts(allCards))
@@ -190,11 +225,13 @@ export default function Review() {
           <div className="reveal">
             {wroteSomething && (
               <div className="your-answer">
-                <span className="ra-label">You wrote</span>
+                <span className="ra-label">
+                  You wrote{awardedEvidence.length > 0 && <span className="ra-hint"> — green = earned a mark</span>}
+                </span>
                 {slots.map((s, i) => (answers[i] && answers[i].trim()) ? (
                   <div className="ya-slot" key={i}>
                     {s.label && <span className="ya-label">{s.label}</span>}
-                    <span>{answers[i]}</span>
+                    <span>{highlightHits(answers[i], awardedEvidence)}</span>
                   </div>
                 ) : null)}
               </div>
@@ -219,6 +256,16 @@ export default function Review() {
                   <span className="ai-score">{assessment.score ?? '?'} / {assessment.questionMarks ?? totalMarks}</span>
                   <span className="ai-score-label">AI examiner mark</span>
                 </div>
+                {Array.isArray(assessment.markingPoints) && assessment.markingPoints.length > 0 && (
+                  <div className="ai-points">
+                    {assessment.markingPoints.map((p, i) => (
+                      <div className={`ai-point ${p.awarded ? 'hit' : 'miss'}`} key={i}>
+                        <span className="ai-point-icon">{p.awarded ? '✓' : '✗'}</span>
+                        <span>{p.point}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
                 {assessment.whatWentWell && (
                   <div className="ai-sec good">
                     <span className="ai-sec-h">✓ What went well</span>

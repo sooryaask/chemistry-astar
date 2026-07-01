@@ -275,8 +275,16 @@ Respond with VALID JSON ONLY:
   "score": 2,
   "whatWentWell": "Specific praise for what scored.",
   "howToImprove": "Specific, actionable next steps to gain the missed marks.",
-  "markSchemeAnswer": "The exact mark-scheme phrasing that would score full marks, point by point."
-}`
+  "markSchemeAnswer": "The exact mark-scheme phrasing that would score full marks, point by point.",
+  "markingPoints": [
+    { "point": "the mark-scheme marking point, concisely", "awarded": true, "evidence": "the EXACT words from the student's answer that earned this mark" },
+    { "point": "another marking point the student missed", "awarded": false, "evidence": "" }
+  ]
+}
+
+"markingPoints" MUST have one entry per available mark (so its length equals questionMarks). For each:
+- "awarded": true only if the student's answer clearly satisfies that mark-scheme point.
+- "evidence": when awarded, copy the phrase VERBATIM from the student's answer (an exact substring, character-for-character, so it can be highlighted). When not awarded, use "".`
 
 const MCQ_MARKING_PROMPT = `You are an expert OCR A Chemistry examiner helping Sooryaa, an A-level student aiming for an A*.
 

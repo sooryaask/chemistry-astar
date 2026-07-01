@@ -309,12 +309,6 @@ button {
   color: var(--accent);
 }
 .ai-score-label { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
-.ai-sec { display: flex; flex-direction: column; gap: 0.2rem; }
-.ai-sec p { margin: 0; font-size: 0.92rem; line-height: 1.5; color: var(--text); }
-.ai-sec-h { font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
-.ai-sec.good .ai-sec-h { color: var(--due); }
-.ai-sec.improve .ai-sec-h { color: #e0a86c; }
-.ai-sec.model .ai-sec-h { color: var(--muted); }
 
 /* green highlight on the words in the student's answer that earned a mark */
 mark.hit {
@@ -323,16 +317,17 @@ mark.hit {
   border-radius: 3px;
   padding: 0 1px;
 }
-.ra-hint { font-weight: 500; text-transform: none; letter-spacing: 0; color: var(--due); }
-
-/* per-mark checklist: which mark-scheme points were hit / missed */
-.ai-points { display: flex; flex-direction: column; gap: 0.3rem; }
-.ai-point { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.9rem; line-height: 1.4; }
+/* per-mark checklist: which mark-scheme points were hit / missed, with a concept
+   explanation ("why") under each missed point */
+.ai-points { display: flex; flex-direction: column; gap: 0.5rem; }
+.ai-point { display: flex; gap: 0.5rem; align-items: flex-start; font-size: 0.9rem; line-height: 1.45; }
 .ai-point-icon { flex-shrink: 0; font-weight: 800; width: 1em; }
+.ai-point-body { display: flex; flex-direction: column; gap: 0.2rem; }
 .ai-point.hit { color: var(--text); }
 .ai-point.hit .ai-point-icon { color: var(--due); }
-.ai-point.miss { color: var(--muted); }
+.ai-point.miss { color: var(--text); }
 .ai-point.miss .ai-point-icon { color: var(--learn); }
+.ai-point-why { font-size: 0.85rem; color: var(--muted); line-height: 1.5; }
 
 /* mark scheme images (outside paper card) */
 .ms-image {

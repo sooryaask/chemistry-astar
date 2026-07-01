@@ -273,18 +273,16 @@ Respond with VALID JSON ONLY:
   "found": true,
   "questionMarks": 3,
   "score": 2,
-  "whatWentWell": "Specific praise for what scored.",
-  "howToImprove": "Specific, actionable next steps to gain the missed marks.",
-  "markSchemeAnswer": "The exact mark-scheme phrasing that would score full marks, point by point.",
   "markingPoints": [
-    { "point": "the mark-scheme marking point, concisely", "awarded": true, "evidence": "the EXACT words from the student's answer that earned this mark" },
-    { "point": "another marking point the student missed", "awarded": false, "evidence": "" }
+    { "point": "the mark-scheme marking point, concisely", "awarded": true, "evidence": "the EXACT words from the student's answer that earned this mark", "why": "" },
+    { "point": "another marking point the student missed", "awarded": false, "evidence": "", "why": "a concise explanation of the underlying chemistry concept for this point, so the student understands WHY it is the answer" }
   ]
 }
 
 "markingPoints" MUST have one entry per available mark (so its length equals questionMarks). For each:
 - "awarded": true only if the student's answer clearly satisfies that mark-scheme point.
-- "evidence": when awarded, copy the phrase VERBATIM from the student's answer (an exact substring, character-for-character, so it can be highlighted). When not awarded, use "".`
+- "evidence": when awarded, copy the phrase VERBATIM from the student's answer (an exact substring, character-for-character, so it can be highlighted). When not awarded, use "".
+- "why": for points NOT awarded, explain the concept behind the mark in 1-2 sentences so the student learns it (this is the main feedback). For awarded points use "".`
 
 const MCQ_MARKING_PROMPT = `You are an expert OCR A Chemistry examiner helping Sooryaa, an A-level student aiming for an A*.
 

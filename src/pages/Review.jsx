@@ -231,9 +231,6 @@ export default function Review() {
           <div className="reveal">
             {wroteSomething && (
               <div className="your-answer">
-                <span className="ra-label">
-                  You wrote{awardedEvidence.length > 0 && <span className="ra-hint"> — green = earned a mark</span>}
-                </span>
                 {slots.map((s, i) => (answers[i] && answers[i].trim()) ? (
                   <div className="ya-slot" key={i}>
                     {s.label && <span className="ya-label">{s.label}</span>}
@@ -267,27 +264,12 @@ export default function Review() {
                     {assessment.markingPoints.map((p, i) => (
                       <div className={`ai-point ${p.awarded ? 'hit' : 'miss'}`} key={i}>
                         <span className="ai-point-icon">{p.awarded ? '✓' : '✗'}</span>
-                        <span>{p.point}</span>
+                        <div className="ai-point-body">
+                          <span>{p.point}</span>
+                          {!p.awarded && p.why && <span className="ai-point-why">{p.why}</span>}
+                        </div>
                       </div>
                     ))}
-                  </div>
-                )}
-                {assessment.whatWentWell && (
-                  <div className="ai-sec good">
-                    <span className="ai-sec-h">✓ What went well</span>
-                    <p>{assessment.whatWentWell}</p>
-                  </div>
-                )}
-                {assessment.howToImprove && (
-                  <div className="ai-sec improve">
-                    <span className="ai-sec-h">→ How to improve</span>
-                    <p>{assessment.howToImprove}</p>
-                  </div>
-                )}
-                {assessment.markSchemeAnswer && (
-                  <div className="ai-sec model">
-                    <span className="ai-sec-h">Model answer</span>
-                    <p>{assessment.markSchemeAnswer}</p>
                   </div>
                 )}
               </div>

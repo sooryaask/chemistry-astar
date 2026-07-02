@@ -49,3 +49,21 @@ regenerate them locally from the papers with the `smartmark/` scripts if needed.
 ## Dev
 - `npm run dev` / `npm run build` (config in `.claude/launch.json` for the preview).
 - `src/data/paperIndex.json` is the single source of truth for card content.
+
+## Testing agent (mandatory post-prompt workflow)
+After **every prompt** that modifies source code, you MUST run the testing agent
+before responding to the user:
+
+1. Run `npm test` (Vitest suite — unit + component tests).
+2. Run `node tests/test-agent.js` for the full pipeline: change detection, targeted
+   tests, build validation, and insights report.
+3. Report the results to the user: what passed, what failed, and the insights
+   (unnecessary additions vs. valuable changes).
+
+If any test fails, fix the issue before moving on. Do NOT skip or summarise — always
+run the actual commands so the test output is real.
+
+### Test scripts
+- `npm test` — run the full Vitest suite (unit + component tests)
+- `npm run test:detect` — detect changes and list affected test modules
+- `npm run test:agent` — full testing agent pipeline (detect + test + build + insights)

@@ -7,6 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:detect": "node tests/detect-changes.js",
+    "test:agent": "node tests/test-agent.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -16,8 +20,13 @@
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@vitejs/plugin-react": "^4.3.2",
     "gh-pages": "^6.1.1",
-    "vite": "^5.4.8"
+    "jsdom": "^29.1.1",
+    "vite": "^5.4.8",
+    "vitest": "^4.1.9"
   }
 }

@@ -1,0 +1,64 @@
+.chem-input-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Toolbar ── */
+.chem-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  padding: 5px 4px;
+  background: #f7f7f8;
+  border-bottom: 1px solid #e0e0e0;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;          /* Firefox */
+}
+.chem-toolbar::-webkit-scrollbar {
+  display: none;                  /* Chrome / Safari */
+}
+
+/* ── Buttons ── */
+.chem-btn {
+  min-width: 36px;
+  height: 32px;
+  padding: 0 7px;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #d8d8dc;
+  color: #333;
+  font-size: 0.82rem;
+  font-weight: 500;
+  line-height: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: background 0.1s, border-color 0.1s;
+}
+.chem-btn:hover {
+  background: #eaeaec;
+}
+.chem-btn:active {
+  background: #ddd;
+}
+.chem-btn.active {
+  background: #d0e4ff;
+  border-color: #6ea8fe;
+  color: #1a5dba;
+}
+
+/* Charge buttons are slightly narrower */
+.chem-btn.charge {
+  font-size: 0.78rem;
+  padding: 0 5px;
+}
+
+/* ── Group separator ── */
+.chem-sep {
+  width: 1px;
+  height: 20px;
+  background: #d8d8dc;
+  margin: 0 3px;
+  flex-shrink: 0;
+}

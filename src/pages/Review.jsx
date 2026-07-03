@@ -4,6 +4,7 @@ import { getDeckCards, deckTitle } from '../data/cards.js'
 import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
 import { todayISO } from '../utils/localStorage.js'
 import { assessPaperQuestion } from '../api/anthropic.js'
+import ChemInput from '../components/ChemInput.jsx'
 
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
@@ -204,10 +205,9 @@ export default function Review() {
                   {s.label && (
                     <span className="slot-label">{s.label}<span className="slot-marks">[{s.marks}]</span></span>
                   )}
-                  <textarea
-                    className="answer-box"
+                  <ChemInput
                     value={answers[i] || ''}
-                    onChange={(e) => setAnswer(i, e.target.value)}
+                    onChange={(val) => setAnswer(i, val)}
                     placeholder={s.label ? `Your answer to ${s.label}…` : 'Write your answer here…'}
                     autoFocus={i === 0}
                     rows={s.marks > 1 ? Math.max(s.marks + 1, 3) : 2}

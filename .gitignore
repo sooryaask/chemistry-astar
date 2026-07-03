@@ -11,3 +11,7 @@ smartmark/index.json
 
 # coordinator: personal localStorage export (do not commit)
 imports/
+
+# Obsidian vault — personal study notes, not app code
+.obsidian/
+vault/

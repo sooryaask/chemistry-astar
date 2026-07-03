@@ -4,9 +4,14 @@ Per-sub-part mark-scheme cropping.
 OCR mark schemes are landscape tables: Question | Answer | Marks | Guidance.
 The left "Question" column holds the sub-part labels ("16 (a)", "(b)", "(i)"...).
 Full-width horizontal rules separate the rows. For each main sub-part (a),(b),...
-we crop the band between the rule at its row top and the rule at the next main
-sub-part's row top (or the table bottom). This gives one mark-scheme image per
-sub-part, so a card reveals ONLY the answer for the part being practised.
+we crop the band between the rule at its row top and the rule at the NEXT label's
+row top (main letter OR roman numeral). This ensures each crop shows ONLY the
+answer for that sub-part.
+
+Roman numeral rows ((i),(ii)…) that appear without a preceding main letter on
+the same page are grouped under the next expected letter from the question data.
+For example, if Q16 has subPartImgs {a,b,c,d} and the MS labels are (a),(i),(ii),
+the roman numerals are assigned to (b) since (a) is already accounted for.
 
 Writes q['msSubPartImgs'] = { 'a': [files], 'b': [files], ... } into paperIndex.json
 and the PNGs into smartmark/rendered/. Output naming: {msSlug}_p{page}_ms{letter}.png
@@ -23,6 +28,7 @@ DPI = 200
 SCALE = DPI / 72
 QCOL_X = 135          # Question column is left of this x
 MAIN_RE = re.compile(r'\(([a-f])\)')   # main sub-part letter in the row text
+ROMAN_RE = re.compile(r'\((i{1,4}v?|vi{0,3})\)')  # roman numeral sub-sub-parts
 PAD = 2
 
 
@@ -60,8 +66,12 @@ def band_marks(page, top, bot):
     return total
 
 
-def main_label_rows(page):
-    """[(y, letter)] for each row in the Question column that starts a main sub-part."""
+def all_label_rows(page):
+    """[(y, type, value)] for ALL labels in the question column.
+
+    type='main' value='a'  → main sub-part letter
+    type='roman' value='i' → roman numeral sub-sub-part
+    """
     rows = []
     for b in page.get_text('dict')['blocks']:
         if 'lines' not in b:
@@ -74,13 +84,20 @@ def main_label_rows(page):
             txt = ' '.join(s['text'] for s in ln['spans'])
             m = MAIN_RE.search(txt)
             if m:
-                rows.append((y0, m.group(1)))
-    # de-dupe: keep the first (topmost) occurrence of each letter on the page
-    seen = {}
-    for y, letter in sorted(rows):
-        if letter not in seen:
-            seen[letter] = y
-    return sorted((y, l) for l, y in seen.items())
+                rows.append((y0, 'main', m.group(1)))
+                continue
+            r = ROMAN_RE.search(txt)
+            if r:
+                rows.append((y0, 'roman', r.group(1)))
+    # de-dupe: keep the first (topmost) occurrence of each label
+    seen = set()
+    deduped = []
+    for y, typ, val in sorted(rows):
+        key = (typ, val)
+        if key not in seen:
+            seen.add(key)
+            deduped.append((y, typ, val))
+    return deduped
 
 
 def snap_below(rules, y, tol=4):
@@ -105,38 +122,84 @@ def process_question(q, doc, slug):
     ms_pages = q.get('msPages') or q.get('msShow') or []
     if not ms_pages:
         return None
-    # Collect main labels per page (in page order)
+
+    # The question's expected sub-part letters (from subPartImgs)
+    expected_letters = sorted((q.get('subPartImgs') or {}).keys())
+
+    # Collect all labels (main + roman) per page
     per_page = []
     for pg in ms_pages:
         idx = pg - 1
         if idx < 0 or idx >= doc.page_count:
             continue
         page = doc[idx]
-        per_page.append((pg, page, horizontal_rules(page), main_label_rows(page)))
+        per_page.append((pg, page, horizontal_rules(page), all_label_rows(page)))
 
-    # Flatten labels with their page, in document order
+    # Flatten all labels into a unified list and assign each to a parent letter.
+    # Main labels keep their letter. Roman numerals get assigned to the next
+    # expected letter that doesn't already have a main label.
+    # e.g. labels [(a), (i), (ii), (c)] with expected [a,b,c,d] → (i),(ii) → b
     flat = []  # (page_num, page, rules, y, letter)
+    main_letters_seen = set()
+
+    # First pass: collect all main labels
     for pg, page, rules, labels in per_page:
-        for y, letter in labels:
-            flat.append((pg, page, rules, y, letter))
+        for y, typ, val in labels:
+            if typ == 'main':
+                main_letters_seen.add(val)
+
+    # Second pass: assign roman numerals to missing parent letters
+    current_parent = None  # tracks which letter the current roman group belongs to
+    for pg, page, rules, labels in per_page:
+        for y, typ, val in labels:
+            if typ == 'main':
+                flat.append((pg, page, rules, y, val))
+                current_parent = None  # reset — next romans need a new parent
+            elif typ == 'roman':
+                # Find the parent letter for this roman numeral group.
+                # It's the first expected letter not already seen as a main label.
+                if current_parent is None:
+                    for el in expected_letters:
+                        if el not in main_letters_seen:
+                            current_parent = el
+                            main_letters_seen.add(el)  # claim it
+                            break
+                if current_parent:
+                    flat.append((pg, page, rules, y, current_parent))
+
     if len(flat) < 2:
         return None  # not enough sub-parts to split — keep whole-question MS
 
     out = {}
     marks = {}
-    for i, (pg, page, rules, y, letter) in enumerate(flat):
+
+    # Group consecutive entries with the same letter on the same page into
+    # a single crop (top of first → top of next different entry or table bottom).
+    i = 0
+    while i < len(flat):
+        pg, page, rules, y, letter = flat[i]
         top = snap_below(rules, y)
-        # bottom = next main label's row top, if it's on the SAME page; else table bottom of this page
-        if i + 1 < len(flat) and flat[i + 1][0] == pg:
-            bot = snap_below(flat[i + 1][2], flat[i + 1][3])
+
+        # Find the end: skip consecutive entries for the same letter on the same page
+        j = i + 1
+        while j < len(flat) and flat[j][4] == letter and flat[j][0] == pg:
+            j += 1
+
+        # Bottom = next entry's row top (if same page), else table bottom
+        if j < len(flat) and flat[j][0] == pg:
+            bot = snap_below(flat[j][2], flat[j][3])
         else:
             bot = rules[-1] if rules else page.rect.height
+
         fname = crop_band(page, slug, pg, letter, top, bot)
         if fname:
             out.setdefault(letter, []).append(fname)
             m = band_marks(page, top, bot)
             if m:
                 marks[letter] = marks.get(letter, 0) + m
+
+        i = j
+
     return (out, marks) if out else None
 
 
@@ -172,7 +235,9 @@ for qp_name, data in pi.items():
         if result:
             imgs, marks = result
             q['msSubPartImgs'] = imgs
-            if marks:
+            # Only set subPartMarks if the question doesn't already have them.
+            # Tick-counted marks are unreliable; manually-set values take priority.
+            if marks and 'subPartMarks' not in q:
                 q['subPartMarks'] = marks
             done += 1
             print(f'  {qp_name.split(" - ")[0]} Q{q["number"]}: ' +

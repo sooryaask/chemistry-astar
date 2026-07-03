@@ -5,6 +5,7 @@
 
 /* ── Toolbar ── */
 .chem-toolbar {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 3px;
@@ -14,6 +15,20 @@
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;          /* Firefox */
+}
+.chem-toolbar.scrollable::after {
+  content: '';
+  position: sticky;
+  right: 0;
+  flex-shrink: 0;
+  width: 32px;
+  height: 100%;
+  margin-left: -32px;
+  background: linear-gradient(to right, transparent, #f7f7f8);
+  pointer-events: none;
+}
+.chem-toolbar.scrolled-end::after {
+  display: none;
 }
 .chem-toolbar::-webkit-scrollbar {
   display: none;                  /* Chrome / Safari */

@@ -74,7 +74,8 @@ describe('grade', () => {
   })
 
   it('creates new card state on first grade', () => {
-    const next = grade('new-card', 'good', TODAY)
+    const { cardState: next, saved } = grade('new-card', 'good', TODAY)
+    expect(saved).toBe(true)
     expect(next.reps).toBe(1)
     expect(next.intervalDays).toBe(1) // STEPS[0]
     expect(next.due).toBe(addDays(TODAY, 1))
@@ -83,7 +84,7 @@ describe('grade', () => {
 
   it('"again" resets reps and reduces ease', () => {
     grade('card-a', 'good', TODAY) // reps=1
-    const next = grade('card-a', 'again', TODAY)
+    const { cardState: next } = grade('card-a', 'again', TODAY)
     expect(next.reps).toBe(0)
     expect(next.lapses).toBe(1)
     expect(next.ease).toBeLessThan(2.5)
@@ -92,30 +93,30 @@ describe('grade', () => {
 
   it('"good" advances through STEPS then multiplies by ease', () => {
     grade('card-b', 'good', TODAY) // reps=1, interval=1d
-    const s2 = grade('card-b', 'good', TODAY) // reps=2, interval=3d (STEPS[1])
+    const { cardState: s2 } = grade('card-b', 'good', TODAY) // reps=2, interval=3d (STEPS[1])
     expect(s2.reps).toBe(2)
     expect(s2.intervalDays).toBe(3)
-    const s3 = grade('card-b', 'good', TODAY) // reps=3, interval=3*2.5=8d
+    const { cardState: s3 } = grade('card-b', 'good', TODAY) // reps=3, interval=3*2.5=8d
     expect(s3.reps).toBe(3)
     expect(s3.intervalDays).toBe(Math.round(3 * 2.5))
   })
 
   it('"easy" gives a bigger jump and increases ease', () => {
-    const s1 = grade('card-c', 'easy', TODAY) // reps=1
+    const { cardState: s1 } = grade('card-c', 'easy', TODAY) // reps=1
     expect(s1.ease).toBe(2.5 + 0.15) // ease increases
     expect(s1.intervalDays).toBeGreaterThanOrEqual(2) // at least STEPS[0]+1
   })
 
   it('"hard" on a learning card keeps it due today', () => {
     grade('card-d', 'good', TODAY) // reps=1 (still learning, < STEPS.length)
-    const s2 = grade('card-d', 'hard', TODAY)
+    const { cardState: s2 } = grade('card-d', 'hard', TODAY)
     expect(s2.due).toBe(TODAY) // stays due today
   })
 
   it('"hard" on a mature card bumps interval by 1.2x', () => {
     grade('card-e', 'good', TODAY) // reps=1
     grade('card-e', 'good', TODAY) // reps=2, interval=3
-    const s3 = grade('card-e', 'hard', TODAY) // mature: interval = round(3*1.2)=4
+    const { cardState: s3 } = grade('card-e', 'hard', TODAY) // mature: interval = round(3*1.2)=4
     expect(s3.intervalDays).toBe(Math.max(1, Math.round(3 * 1.2)))
   })
 

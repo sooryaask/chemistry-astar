@@ -483,6 +483,20 @@ mark.hit {
 }
 .muted { color: var(--muted); }
 
+/* save failure warning banner */
+.save-warning {
+  background: #e8a020;
+  color: #1a1a1a;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  flex-shrink: 0;
+}
+
 @media (max-width: 560px) {
   .q-text { font-size: 1.1rem; }
   .grades { grid-template-columns: repeat(2, 1fr); }

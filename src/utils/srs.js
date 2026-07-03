@@ -20,7 +20,7 @@ export function getState() {
 }
 
 function saveState(state) {
-  setItem(KEYS.srs, state)
+  return setItem(KEYS.srs, state)
 }
 
 // Add `n` whole days to a YYYY-MM-DD string (local time).
@@ -84,13 +84,13 @@ function computeNext(prev, g, today) {
   return card
 }
 
-// Apply a grade to a card id and persist. Returns the new card state.
+// Apply a grade to a card id and persist. Returns { cardState, saved }.
 export function grade(cardId, g, today = todayISO()) {
   const state = getState()
   const next = computeNext(state[cardId], g, today)
   state[cardId] = next
-  saveState(state)
-  return next
+  const saved = saveState(state)
+  return { cardState: next, saved }
 }
 
 // Human-readable "next interval" for each grade button (e.g. "soon", "1d", "8d").

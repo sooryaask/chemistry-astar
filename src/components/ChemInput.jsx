@@ -1,4 +1,4 @@
-import { useRef, useState, useCallback } from 'react'
+import { useRef, useState, useCallback, useEffect } from 'react'
 import './ChemInput.css'
 
 // Unicode mapping tables
@@ -28,7 +28,27 @@ const MATH = [
 
 export default function ChemInput({ value, onChange, placeholder, rows, autoFocus }) {
   const ref = useRef(null)
+  const toolbarRef = useRef(null)
   const [mode, setMode] = useState(null) // null | 'sub' | 'super'
+  const [scrollable, setScrollable] = useState(false)
+  const [scrolledEnd, setScrolledEnd] = useState(false)
+
+  useEffect(() => {
+    const el = toolbarRef.current
+    if (!el) return
+    const check = () => {
+      const canScroll = el.scrollWidth > el.clientWidth + 1
+      setScrollable(canScroll)
+      setScrolledEnd(canScroll && el.scrollLeft + el.clientWidth >= el.scrollWidth - 1)
+    }
+    check()
+    el.addEventListener('scroll', check, { passive: true })
+    window.addEventListener('resize', check)
+    return () => {
+      el.removeEventListener('scroll', check)
+      window.removeEventListener('resize', check)
+    }
+  }, [])
 
   // Insert text at cursor position and restore cursor
   const insertAt = useCallback((text) => {
@@ -108,7 +128,7 @@ export default function ChemInput({ value, onChange, placeholder, rows, autoFocu
 
   return (
     <div className="chem-input-wrap">
-      <div className="chem-toolbar">
+      <div ref={toolbarRef} className={`chem-toolbar${scrollable ? ' scrollable' : ''}${scrolledEnd ? ' scrolled-end' : ''}`}>
         {/* Mode toggles */}
         <button
           type="button"

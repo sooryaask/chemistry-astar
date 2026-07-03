@@ -68,6 +68,7 @@ export default function Review() {
   const [marking, setMarking] = useState(false)
   const [assessment, setAssessment] = useState(null)
   const [markError, setMarkError] = useState(null)
+  const [saveWarning, setSaveWarning] = useState(false)
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
@@ -154,11 +155,15 @@ export default function Review() {
   }
 
   function gradeCard(g) {
-    const next = grade(card.id, g)
+    const { cardState, saved } = grade(card.id, g)
+    if (!saved) {
+      setSaveWarning(true)
+      setTimeout(() => setSaveWarning(false), 5000)
+    }
     refreshCounts()
     // If the card is due again today (Again, or Hard while still learning), it
     // resurfaces later this session; otherwise it's scheduled for a future day.
-    const stillDueToday = next.due <= todayISO()
+    const stillDueToday = cardState.due <= todayISO()
     advance(stillDueToday ? GAPS[g] ?? 0 : null)
   }
 
@@ -180,6 +185,12 @@ export default function Review() {
         <Link className="back-link" to="/">←</Link>
         <span className="review-title">{title}</span>
       </div>
+
+      {saveWarning && (
+        <div className="save-warning" onClick={() => setSaveWarning(false)}>
+          Storage full — progress wasn't saved. Free up space or clear old data.
+        </div>
+      )}
 
       {/* Paper mastery — how much of this paper you've mastered, toward 100% */}
       <div className="progress-bar-wrap" title="Cards mastered (graded Good/Easy) in this paper">

@@ -69,6 +69,8 @@ export default function Review() {
   const [assessment, setAssessment] = useState(null)
   const [markError, setMarkError] = useState(null)
   const [saveWarning, setSaveWarning] = useState(false)
+  const [imgError, setImgError] = useState(false)
+  const [confirmAction, setConfirmAction] = useState(null) // 'suspend' | 'reset' | null
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
@@ -93,6 +95,8 @@ export default function Review() {
     setMarking(false)
     setAssessment(null)
     setMarkError(null)
+    setImgError(false)
+    setConfirmAction(null)
   }
 
   // Send the typed answer to Claude to be marked against this part's mark scheme.
@@ -205,8 +209,13 @@ export default function Review() {
         </div>
         <div className="paper-card">
           {card.qpUrls.map((url, i) => (
-            <img key={url} className="q-image" src={url} alt={`Question ${card.number} page ${i + 1}`} />
+            <img key={url} className="q-image" src={url} alt={`Question ${card.number} page ${i + 1}`} onError={() => setImgError(true)} />
           ))}
+          {imgError && (
+            <div className="img-error">
+              Question image failed to load. Check that rendered/ images exist, or use "Just show the answer" to self-mark.
+            </div>
+          )}
 
           {/* Answer input — lined paper, one box per sub-part */}
           {!revealed && (
@@ -226,7 +235,7 @@ export default function Review() {
                 </div>
               ))}
               <div className="answer-actions">
-                <button className="mark-btn" onClick={markAnswer} disabled={!wroteSomething}>
+                <button className="mark-btn" onClick={markAnswer} disabled={!wroteSomething || imgError}>
                   Mark my answer
                 </button>
                 <button className="show-btn ghost-btn" onClick={() => setRevealed(true)}>
@@ -291,7 +300,7 @@ export default function Review() {
               {card.msUrls.length > 0 ? (
                 <div className="ms-with-ticks">
                   <div className="ms-images">
-                    {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" />)}
+                    {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" onError={(e) => { e.target.style.display = 'none' }} />)}
                   </div>
                   <div className="tick-col">
                     {Array.from({ length: totalMarks }, (_, i) => (
@@ -335,8 +344,16 @@ export default function Review() {
           <button className="pill ghost" onClick={() => setMenuOpen((o) => !o)}>More ▾</button>
           {menuOpen && (
             <div className="more-menu">
-              <button onClick={() => { setSuspended(card.id, true); refreshCounts(); advance(null) }}>Suspend card</button>
-              <button onClick={() => { resetCard(card.id); refreshCounts(); resetView() }}>Reset progress</button>
+              {confirmAction === 'suspend' ? (
+                <button className="confirm-btn" onClick={() => { setSuspended(card.id, true); refreshCounts(); advance(null) }}>Tap again to suspend</button>
+              ) : (
+                <button onClick={() => { setConfirmAction('suspend'); setTimeout(() => setConfirmAction((c) => c === 'suspend' ? null : c), 3000) }}>Suspend card</button>
+              )}
+              {confirmAction === 'reset' ? (
+                <button className="confirm-btn" onClick={() => { resetCard(card.id); refreshCounts(); resetView() }}>Tap again to reset</button>
+              ) : (
+                <button onClick={() => { setConfirmAction('reset'); setTimeout(() => setConfirmAction((c) => c === 'reset' ? null : c), 3000) }}>Reset progress</button>
+              )}
             </div>
           )}
         </div>

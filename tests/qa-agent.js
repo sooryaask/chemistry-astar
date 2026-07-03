@@ -12,6 +12,7 @@
  *   node tests/qa-agent.js --focus "toolbar mobile"  # Focus on specific area
  *   node tests/qa-agent.js --fix                    # Enable auto-fix mode
  *   node tests/qa-agent.js --fix --focus "toolbar"  # Focused + fix mode
+ *   node tests/qa-agent.js --browser webkit         # Test with Safari/WebKit engine
  *
  * Exit codes:
  *   0 = no critical findings
@@ -40,6 +41,14 @@ const VITE_URL = `http://localhost:${VITE_PORT}${VITE_BASE}`
 const isFull = process.argv.includes('--full')
 const fixMode = process.argv.includes('--fix')
 
+// Parse --browser flag: chromium (default) or webkit (Safari engine)
+let browserEngine = 'chromium'
+for (let i = 2; i < process.argv.length; i++) {
+  if (process.argv[i] === '--browser' && process.argv[i + 1]) {
+    browserEngine = process.argv[++i]
+  }
+}
+
 const focusAreas = []
 for (let i = 2; i < process.argv.length; i++) {
   if (process.argv[i] === '--focus' && process.argv[i + 1]) {
@@ -47,6 +56,16 @@ for (let i = 2; i < process.argv.length; i++) {
   }
 }
 const hasFocus = focusAreas.length > 0
+
+// Device profiles for realistic emulation (Playwright device descriptors)
+const DEVICES = {
+  'iphone-14': { width: 390, height: 844, deviceScaleFactor: 3, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' },
+  'iphone-se': { width: 375, height: 667, deviceScaleFactor: 2, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' },
+  'iphone-14-pro-max': { width: 430, height: 932, deviceScaleFactor: 3, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' },
+  'pixel-7': { width: 412, height: 915, deviceScaleFactor: 2.625, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36' },
+  'ipad': { width: 810, height: 1080, deviceScaleFactor: 2, isMobile: true, hasTouch: true, userAgent: 'Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1' },
+  'laptop': { width: 1440, height: 900, deviceScaleFactor: 2, isMobile: false, hasTouch: false, userAgent: '' },
+}
 
 const SOURCE_FILES = [
   'src/pages/Review.jsx',
@@ -176,10 +195,12 @@ function stopVite() {
 let browser = null
 
 async function startBrowser() {
-  console.log('  Launching Playwright Chromium...')
   const pw = await import('playwright')
-  browser = await pw.chromium.launch({ headless: true })
-  console.log('  Browser ready')
+  const engine = browserEngine === 'webkit' ? pw.webkit : pw.chromium
+  const label = browserEngine === 'webkit' ? 'WebKit (Safari)' : 'Chromium'
+  console.log(`  Launching Playwright ${label}...`)
+  browser = await engine.launch({ headless: true })
+  console.log(`  ${label} browser ready`)
 }
 
 async function stopBrowser() {
@@ -254,36 +275,56 @@ const grepCodeTool = tool(
 
 const screenshotTool = tool(
   'screenshot',
-  'Take a screenshot of the running app at a given viewport width. Returns a PNG image. Use this to visually inspect layout, spacing, and responsiveness.',
+  `Take a screenshot of the running app. Returns a PNG image. Use device names for realistic emulation or a custom viewport width.
+
+Available devices: ${Object.keys(DEVICES).join(', ')}
+
+Examples:
+- screenshot(device="iphone-14") — iPhone 14 with touch, correct user agent
+- screenshot(device="laptop") — 1440px desktop
+- screenshot(viewport_width=375) — custom width without device emulation`,
   {
     url_path: z.string().default(VITE_BASE).describe('URL path, e.g. /chemistry-astar/ or /chemistry-astar/#/review/some-deck'),
-    viewport_width: z.number().int().default(375).describe('Viewport width in pixels (375=mobile, 1440=laptop)'),
+    device: z.string().default('').describe(`Device name: ${Object.keys(DEVICES).join(', ')} — or leave empty for custom viewport_width`),
+    viewport_width: z.number().int().default(375).describe('Viewport width in pixels (only used if device is empty)'),
   },
   async (args) => {
     if (!browser) {
       return { content: [{ type: 'text', text: 'ERROR: Browser not available' }], isError: true }
     }
-    const page = await browser.newPage()
+
+    const dev = args.device && DEVICES[args.device]
+    const contextOpts = dev
+      ? {
+          viewport: { width: dev.width, height: dev.height },
+          deviceScaleFactor: dev.deviceScaleFactor,
+          isMobile: dev.isMobile,
+          hasTouch: dev.hasTouch,
+          ...(dev.userAgent ? { userAgent: dev.userAgent } : {}),
+        }
+      : { viewport: { width: args.viewport_width, height: 900 } }
+
+    const context = await browser.newContext(contextOpts)
+    const page = await context.newPage()
     try {
-      await page.setViewportSize({ width: args.viewport_width, height: 900 })
       await page.goto(`http://localhost:${VITE_PORT}${args.url_path}`, {
         waitUntil: 'networkidle',
         timeout: 15000,
       })
-      // Wait a beat for CSS transitions
       await page.waitForTimeout(500)
       const buffer = await page.screenshot({ fullPage: true })
+      const label = dev ? `${args.device} (${dev.width}x${dev.height})` : `${args.viewport_width}px`
       return {
-        content: [{
-          type: 'image',
-          data: buffer.toString('base64'),
-          mimeType: 'image/png',
-        }],
+        content: [
+          { type: 'text', text: `Screenshot: ${label} on ${browserEngine}` },
+          { type: 'image', data: buffer.toString('base64'), mimeType: 'image/png' },
+        ],
       }
     } catch (err) {
       return { content: [{ type: 'text', text: `Screenshot failed: ${err.message}` }], isError: true }
     } finally {
       await page.close()
+      await context.close()
     }
   }
 )
@@ -356,7 +397,7 @@ YOU HAVE TOOLS — USE THEM ACTIVELY:
 - read_file: Read source files to understand the code. Don't guess — read.
 - glob_files: Find files by pattern.
 - grep_code: Search code for patterns.
-- screenshot: Take screenshots at different viewport widths. ALWAYS take at least one mobile (375px) and one laptop (1440px) screenshot.
+- screenshot: Take screenshots using real device profiles. ALWAYS take at least one mobile screenshot (device="iphone-14") and one desktop (device="laptop"). Available devices: ${Object.keys(DEVICES).join(', ')}.
 - run_tests: Run the test suite to verify nothing is broken.
 ${fixMode ? '- edit_file: Fix issues you find. After editing, ALWAYS run_tests to verify the fix.' : ''}
 
@@ -486,6 +527,7 @@ async function main() {
   header('AGENT JERRY — chemistry-astar QA')
   console.log(`  Time: ${new Date().toLocaleString()}`)
   console.log(`  Mode: ${hasFocus ? 'FOCUSED' : isFull ? 'FULL' : 'CHANGED FILES'}${fixMode ? ' + FIX' : ''}`)
+  console.log(`  Browser: ${browserEngine === 'webkit' ? 'WebKit (Safari)' : 'Chromium'}`)
   if (hasFocus) console.log(`  Focus: ${focusAreas.join(' · ')}`)
 
   // ── Phase 1: History ──
@@ -547,7 +589,7 @@ The app is running at ${VITE_URL} — use the screenshot tool to visually inspec
 Source files to focus on:
 ${filesToMention.map((f) => `- ${f}`).join('\n')}
 
-Start by reading the key source files, then take screenshots at both mobile (375px) and laptop (1440px) viewports. Report your findings as structured JSON at the end.`
+Start by reading the key source files, then take screenshots using device profiles (e.g. device="iphone-14" for mobile, device="laptop" for desktop). Report your findings as structured JSON at the end.`
 
   const systemPrompt = buildSystemPrompt(previousTitles)
   const qaServer = buildMcpServer()

@@ -473,6 +473,16 @@ mark.hit {
   font-size: 0.85rem;
 }
 .more-menu button:hover { background: var(--surface-2); }
+.more-menu .confirm-btn { color: var(--learn); font-weight: 600; }
+
+/* image load error */
+.img-error {
+  padding: 1rem 1.5rem;
+  color: #b44;
+  font-size: 0.85rem;
+  text-align: center;
+  background: #fff5f5;
+}
 
 /* done / empty state */
 .review.done {

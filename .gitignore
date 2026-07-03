@@ -12,6 +12,9 @@ smartmark/index.json
 # coordinator: personal localStorage export (do not commit)
 imports/
 
+# QA agent history (auto-generated, contains session-specific findings)
+tests/.qa-history.json
+
 # Obsidian vault — personal study notes, not app code
 .obsidian/
 vault/

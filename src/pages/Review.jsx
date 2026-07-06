@@ -124,6 +124,7 @@ export default function Review() {
   const [confirmAction, setConfirmAction] = useState(null) // 'suspend' | 'reset' | null
   const confirmTimerRef = useRef(null)
   const moreRef = useRef(null)
+  const markingCardRef = useRef(null)
 
   // Close More menu on outside click or Escape
   useEffect(() => {
@@ -178,6 +179,9 @@ export default function Review() {
 
   // Send the typed answer to Claude to be marked against this part's mark scheme.
   async function markAnswer() {
+    if (marking) return
+    const targetCardId = card.id
+    markingCardRef.current = targetCardId
     setRevealed(true)
     setAssessment(null)
     setMarkError(null)
@@ -195,15 +199,21 @@ export default function Review() {
         questionNo: `${card.number}${card.subPart ? `(${card.subPart})` : ''}`,
         answer: labelledAnswer,
       })
+      // Bail if the card changed while we were waiting (user skipped/graded)
+      if (markingCardRef.current !== targetCardId) return
       setAssessment(result)
-      // Pre-fill the tick boxes from the AI's score so grading is one glance away.
-      if (typeof result?.score === 'number') {
+      // Pre-fill tick boxes from per-point awarded status when available,
+      // falling back to sequential score count.
+      if (Array.isArray(result?.markingPoints) && result.markingPoints.length > 0) {
+        setTicks(result.markingPoints.map((p) => !!p.awarded))
+      } else if (typeof result?.score === 'number') {
         setTicks(Array.from({ length: totalMarks }, (_, i) => i < result.score))
       }
     } catch (err) {
+      if (markingCardRef.current !== targetCardId) return
       setMarkError(err.message || 'Marking failed.')
     } finally {
-      setMarking(false)
+      if (markingCardRef.current === targetCardId) setMarking(false)
     }
   }
 

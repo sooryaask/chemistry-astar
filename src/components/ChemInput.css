@@ -3,7 +3,42 @@
   flex-direction: column;
 }
 
-/* ── Toolbar ── */
+/* ── MathQuill field wrapper ── */
+.mq-field-wrap {
+  position: relative;
+  background: #fff;
+  padding: 0.4rem 0.5rem;
+}
+
+/* Override MathQuill defaults to match exam-style paper */
+.chem-mq-field {
+  border: none !important;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #1a1a1a;
+  width: 100%;
+  min-height: inherit;
+}
+.chem-mq-field .mq-editable-field {
+  min-height: inherit;
+}
+.chem-mq-field:focus-within {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Placeholder text shown when field is empty */
+.mq-placeholder {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.6rem;
+  color: #b8b8b8;
+  font-style: italic;
+  font-size: 1rem;
+  pointer-events: none;
+}
+
+/* ── Toolbar (below the field) ── */
 .chem-toolbar {
   position: relative;
   display: flex;
@@ -11,7 +46,7 @@
   gap: 3px;
   padding: 5px 4px;
   background: #f7f7f8;
-  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;          /* Firefox */
@@ -56,11 +91,6 @@
 }
 .chem-btn:active {
   background: #ddd;
-}
-.chem-btn.active {
-  background: #d0e4ff;
-  border-color: #6ea8fe;
-  color: #1a5dba;
 }
 
 /* Charge buttons are slightly narrower */

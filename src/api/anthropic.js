@@ -69,10 +69,13 @@ function getApiKey() {
 // existing callers are unchanged; fast paths override model/system.
 async function callClaude(userMessage, { maxTokens = 2048, model = MODEL, system = SYSTEM_PROMPT } = {}) {
   const key = getApiKey()
+  const controller = new AbortController()
+  const timeoutId = setTimeout(() => controller.abort(), 25000)
   let res
   try {
     res = await fetch(API_URL, {
       method: 'POST',
+      signal: controller.signal,
       headers: {
         'content-type': 'application/json',
         'x-api-key': key,
@@ -88,9 +91,14 @@ async function callClaude(userMessage, { maxTokens = 2048, model = MODEL, system
       }),
     })
   } catch (err) {
+    if (err.name === 'AbortError') {
+      throw new Error('Marking timed out — try again.')
+    }
     throw new Error(
       `Network error calling Anthropic. If this is the deployed site, browser CORS or the missing key is the likely cause. (${err.message})`
     )
+  } finally {
+    clearTimeout(timeoutId)
   }
 
   if (!res.ok) {

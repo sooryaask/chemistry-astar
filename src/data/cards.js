@@ -35,6 +35,7 @@ for (const [paper, data] of Object.entries(paperIndex)) {
   for (const q of data.questions || []) {
     if (q.marks <= 1) continue           // skip MCQs
     if (q.isCalculation) continue        // skip calculation questions
+    if (q.isDiagram) continue            // skip diagram-only questions (draw, label, sketch)
 
     // Whole-question mark scheme (fallback when a part has no per-part crop)
     const wholeMsUrls =
@@ -58,8 +59,10 @@ for (const [paper, data] of Object.entries(paperIndex)) {
       // One card per sub-part — each with its OWN cropped mark scheme so the
       // student only sees the answer to the part they just attempted.
       const calcParts = new Set(q.calcSubParts || [])
+      const diagramParts = new Set(q.diagramSubParts || [])
       for (const [lbl, fnames] of Object.entries(q.subPartImgs)) {
         if (calcParts.has(lbl)) continue  // skip calculation sub-parts
+        if (diagramParts.has(lbl)) continue  // skip diagram sub-parts (draw, label, sketch)
         // One answer box per roman sub-sub-part ((i),(ii),(iii)…) when the part
         // has them and can't be split further (shared table/context); otherwise
         // a single box for the whole part.

@@ -166,6 +166,7 @@ button {
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--text);
+  text-shadow: 0 0 4px var(--bg), 0 0 4px var(--bg), 0 0 2px var(--bg);
 }
 
 .q-meta { color: var(--muted); font-size: 0.8rem; margin-bottom: 0.6rem; }

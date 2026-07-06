@@ -1,10 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getDeckCards, deckTitle } from '../data/cards.js'
 import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
 import { todayISO } from '../utils/localStorage.js'
 import { assessPaperQuestion } from '../api/anthropic.js'
-import ChemInput from '../components/ChemInput.jsx'
+import ChemInput, { StaticMathField } from '../components/ChemInput.jsx'
 
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
@@ -70,7 +70,32 @@ export default function Review() {
   const [markError, setMarkError] = useState(null)
   const [saveWarning, setSaveWarning] = useState(false)
   const [imgError, setImgError] = useState(false)
+  const [msImgError, setMsImgError] = useState(false)
   const [confirmAction, setConfirmAction] = useState(null) // 'suspend' | 'reset' | null
+  const confirmTimerRef = useRef(null)
+  const moreRef = useRef(null)
+
+  // Close More menu on outside click or Escape
+  useEffect(() => {
+    if (!menuOpen) return
+    const handleClick = (e) => {
+      if (moreRef.current && !moreRef.current.contains(e.target)) setMenuOpen(false)
+    }
+    const handleKey = (e) => {
+      if (e.key === 'Escape') setMenuOpen(false)
+    }
+    document.addEventListener('mousedown', handleClick)
+    document.addEventListener('keydown', handleKey)
+    return () => {
+      document.removeEventListener('mousedown', handleClick)
+      document.removeEventListener('keydown', handleKey)
+    }
+  }, [menuOpen])
+
+  // Cleanup confirm timer on unmount
+  useEffect(() => {
+    return () => { if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current) }
+  }, [])
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
@@ -96,7 +121,9 @@ export default function Review() {
     setAssessment(null)
     setMarkError(null)
     setImgError(false)
+    setMsImgError(false)
     setConfirmAction(null)
+    if (confirmTimerRef.current) { clearTimeout(confirmTimerRef.current); confirmTimerRef.current = null }
   }
 
   // Send the typed answer to Claude to be marked against this part's mark scheme.
@@ -254,7 +281,7 @@ export default function Review() {
                 {slots.map((s, i) => (answers[i] && answers[i].trim()) ? (
                   <div className="ya-slot" key={i}>
                     {s.label && <span className="ya-label">{s.label}</span>}
-                    <span>{highlightHits(answers[i], awardedEvidence)}</span>
+                    <StaticMathField>{answers[i]}</StaticMathField>
                   </div>
                 ) : null)}
               </div>
@@ -300,7 +327,8 @@ export default function Review() {
               {card.msUrls.length > 0 ? (
                 <div className="ms-with-ticks">
                   <div className="ms-images">
-                    {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" onError={(e) => { e.target.style.display = 'none' }} />)}
+                    {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" onError={(e) => { e.target.style.display = 'none'; setMsImgError(true) }} />)}
+                    {msImgError && <p className="img-error">Mark scheme image failed to load.</p>}
                   </div>
                   <div className="tick-col">
                     {Array.from({ length: totalMarks }, (_, i) => (
@@ -338,21 +366,21 @@ export default function Review() {
 
       {/* Bottom bar */}
       <div className="bottom-bar">
-        <button className="pill ghost" onClick={() => advance(queue.length)}>Skip</button>
+        <button className="pill ghost" onClick={() => advance(queue.length)} disabled={queue.length <= 1}>Skip</button>
         <Counter counts={counts} />
-        <div className="more-wrap">
+        <div className="more-wrap" ref={moreRef}>
           <button className="pill ghost" onClick={() => setMenuOpen((o) => !o)}>More ▾</button>
           {menuOpen && (
             <div className="more-menu">
               {confirmAction === 'suspend' ? (
                 <button className="confirm-btn" onClick={() => { setSuspended(card.id, true); refreshCounts(); advance(null) }}>Tap again to suspend</button>
               ) : (
-                <button onClick={() => { setConfirmAction('suspend'); setTimeout(() => setConfirmAction((c) => c === 'suspend' ? null : c), 3000) }}>Suspend card</button>
+                <button onClick={() => { setConfirmAction('suspend'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'suspend' ? null : c), 3000) }}>Suspend card</button>
               )}
               {confirmAction === 'reset' ? (
                 <button className="confirm-btn" onClick={() => { resetCard(card.id); refreshCounts(); resetView() }}>Tap again to reset</button>
               ) : (
-                <button onClick={() => { setConfirmAction('reset'); setTimeout(() => setConfirmAction((c) => c === 'reset' ? null : c), 3000) }}>Reset progress</button>
+                <button onClick={() => { setConfirmAction('reset'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'reset' ? null : c), 3000) }}>Reset progress</button>
               )}
             </div>
           )}

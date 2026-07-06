@@ -1,37 +1,37 @@
 import { useRef, useState, useCallback, useEffect } from 'react'
+import { addStyles, EditableMathField, StaticMathField } from 'react-mathquill'
 import './ChemInput.css'
 
-// Unicode mapping tables
-const SUB_DIGITS = { '0':'₀','1':'₁','2':'₂','3':'₃','4':'₄','5':'₅','6':'₆','7':'₇','8':'₈','9':'₉' }
-const SUP_DIGITS = { '0':'⁰','1':'¹','2':'²','3':'³','4':'⁴','5':'⁵','6':'⁶','7':'⁷','8':'⁸','9':'⁹' }
-const SUP_SIGNS  = { '+':'⁺', '-':'⁻' }
+// Inject MathQuill CSS once
+addStyles()
 
-// Quick-insert charge sequences
+// Chemistry-specific symbols (insert as LaTeX commands)
+const CHEM_SYMBOLS = [
+  { label: '→', latex: '\\rightarrow' },
+  { label: '⇌', latex: '\\rightleftharpoons' },
+  { label: 'Δ', latex: '\\Delta' },
+]
+
 const CHARGES = [
-  { label: '²⁺', chars: '²⁺' },
-  { label: '⁻',  chars: '⁻'  },
-  { label: '²⁻', chars: '²⁻' },
-  { label: '³⁺', chars: '³⁺' },
+  { label: '²⁺', latex: '^{2+}' },
+  { label: '⁻', latex: '^{-}' },
+  { label: '²⁻', latex: '^{2-}' },
+  { label: '³⁺', latex: '^{3+}' },
 ]
 
-// One-tap symbol buttons
-const SYMBOLS = [
-  { label: '→', char: '→' },
-  { label: '⇌', char: '⇌' },
-  { label: 'Δ', char: 'Δ' },
+const STRUCTURES = [
+  { label: 'x₂', latex: '_{2}', title: 'Subscript 2' },
+  { label: 'x²', latex: '^{2}', title: 'Superscript 2' },
+  { label: '½', latex: '\\frac{}{}', title: 'Fraction' },
+  { label: '√', latex: '\\sqrt{}', title: 'Square root' },
 ]
 
-const MATH = [
-  { label: '×', char: '×' },
-  { label: '÷', char: '÷' },
-]
-
-export default function ChemInput({ value, onChange, placeholder, rows, autoFocus }) {
-  const ref = useRef(null)
+export default function ChemInput({ value, onChange, placeholder, autoFocus, rows }) {
+  const mqRef = useRef(null)
   const toolbarRef = useRef(null)
-  const [mode, setMode] = useState(null) // null | 'sub' | 'super'
   const [scrollable, setScrollable] = useState(false)
   const [scrolledEnd, setScrolledEnd] = useState(false)
+  const [isEmpty, setIsEmpty] = useState(!value)
 
   useEffect(() => {
     const el = toolbarRef.current
@@ -50,112 +50,67 @@ export default function ChemInput({ value, onChange, placeholder, rows, autoFocu
     }
   }, [])
 
-  // Insert text at cursor position and restore cursor
-  const insertAt = useCallback((text) => {
-    const ta = ref.current
-    if (!ta) return
-    const start = ta.selectionStart
-    const end = ta.selectionEnd
-    const before = value.slice(0, start)
-    const after = value.slice(end)
-    const next = before + text + after
-    onChange(next)
-    // Restore cursor after React re-render
-    const newPos = start + text.length
-    requestAnimationFrame(() => {
-      ta.focus()
-      ta.setSelectionRange(newPos, newPos)
-    })
-  }, [value, onChange])
+  const insertLatex = useCallback((latex) => {
+    const mf = mqRef.current
+    if (!mf) return
+    mf.write(latex)
+    mf.focus()
+  }, [])
 
-  // Handle key interception for sub/super modes
-  const handleKeyDown = useCallback((e) => {
-    if (!mode) return
+  const handleChange = useCallback((mf) => {
+    const latex = mf.latex()
+    setIsEmpty(!latex)
+    onChange(latex)
+  }, [onChange])
 
-    const key = e.key
+  const handleMount = useCallback((mf) => {
+    mqRef.current = mf
+    if (autoFocus) mf.focus()
+  }, [autoFocus])
 
-    if (mode === 'sub') {
-      if (SUB_DIGITS[key]) {
-        e.preventDefault()
-        insertAt(SUB_DIGITS[key])
-        return
-      }
-      // Any non-digit exits subscript mode
-      setMode(null)
-    }
-
-    if (mode === 'super') {
-      if (SUP_DIGITS[key]) {
-        e.preventDefault()
-        insertAt(SUP_DIGITS[key])
-        return
-      }
-      if (SUP_SIGNS[key]) {
-        e.preventDefault()
-        insertAt(SUP_SIGNS[key])
-        return
-      }
-      // Any non-digit/sign exits superscript mode
-      setMode(null)
-    }
-  }, [mode, insertAt])
-
-  // Global keyboard shortcuts: Ctrl+Shift+ArrowDown/Up for sub/super
-  const handleKeyDownGlobal = useCallback((e) => {
-    if ((e.ctrlKey || e.metaKey) && e.shiftKey) {
-      if (e.key === 'ArrowDown') {
-        e.preventDefault()
-        setMode((m) => m === 'sub' ? null : 'sub')
-        return
-      }
-      if (e.key === 'ArrowUp') {
-        e.preventDefault()
-        setMode((m) => m === 'super' ? null : 'super')
-        return
-      }
-    }
-    handleKeyDown(e)
-  }, [handleKeyDown])
-
-  const toggleMode = (m) => {
-    setMode((prev) => prev === m ? null : m)
-    ref.current?.focus()
-  }
-
-  const insertSymbol = (char) => {
-    insertAt(char)
-  }
+  // Calculate min-height from rows prop
+  const minHeight = rows ? `${Math.max(rows * 1.6, 3.2)}em` : '3.2em'
 
   return (
     <div className="chem-input-wrap">
-      <div ref={toolbarRef} className={`chem-toolbar${scrollable ? ' scrollable' : ''}${scrolledEnd ? ' scrolled-end' : ''}`}>
-        {/* Mode toggles */}
-        <button
-          type="button"
-          className={`chem-btn ${mode === 'sub' ? 'active' : ''}`}
-          onClick={() => toggleMode('sub')}
-          title="Subscript mode (Ctrl+Shift+↓)"
-        >
-          x₂
-        </button>
-        <button
-          type="button"
-          className={`chem-btn ${mode === 'super' ? 'active' : ''}`}
-          onClick={() => toggleMode('super')}
-          title="Superscript mode (Ctrl+Shift+↑)"
-        >
-          x²⁺
-        </button>
+      <div className="mq-field-wrap" style={{ minHeight }}>
+        <EditableMathField
+          latex={value}
+          onChange={handleChange}
+          mathquillDidMount={handleMount}
+          className="chem-mq-field"
+        />
+        {isEmpty && placeholder && (
+          <span className="mq-placeholder">{placeholder}</span>
+        )}
+      </div>
 
-        <span className="chem-sep" />
-
-        {/* Arrows & Greek */}
-        {SYMBOLS.map((s) => (
+      <div
+        ref={toolbarRef}
+        className={`chem-toolbar${scrollable ? ' scrollable' : ''}${scrolledEnd ? ' scrolled-end' : ''}`}
+      >
+        {/* Math structures */}
+        {STRUCTURES.map((s) => (
           <button
             type="button"
             key={s.label}
             className="chem-btn"
-            onClick={() => insertSymbol(s.char)}
+            onClick={() => insertLatex(s.latex)}
+            title={s.title}
+          >
+            {s.label}
+          </button>
+        ))}
+
+        <span className="chem-sep" />
+
+        {/* Chemistry arrows & Greek */}
+        {CHEM_SYMBOLS.map((s) => (
+          <button
+            type="button"
+            key={s.label}
+            className="chem-btn"
+            onClick={() => insertLatex(s.latex)}
             title={`Insert ${s.label}`}
           >
             {s.label}
@@ -164,45 +119,22 @@ export default function ChemInput({ value, onChange, placeholder, rows, autoFocu
 
         <span className="chem-sep" />
 
-        {/* Common charges */}
+        {/* Ion charges */}
         {CHARGES.map((c) => (
           <button
             type="button"
             key={c.label}
             className="chem-btn charge"
-            onClick={() => insertSymbol(c.chars)}
+            onClick={() => insertLatex(c.latex)}
             title={`Insert ${c.label}`}
           >
             {c.label}
           </button>
         ))}
-
-        <span className="chem-sep" />
-
-        {/* Math symbols */}
-        {MATH.map((m) => (
-          <button
-            type="button"
-            key={m.label}
-            className="chem-btn"
-            onClick={() => insertSymbol(m.char)}
-            title={`Insert ${m.label}`}
-          >
-            {m.label}
-          </button>
-        ))}
       </div>
-
-      <textarea
-        ref={ref}
-        className="answer-box"
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        onKeyDown={handleKeyDownGlobal}
-        placeholder={placeholder}
-        autoFocus={autoFocus}
-        rows={rows}
-      />
     </div>
   )
 }
+
+// Re-export StaticMathField for use in Review.jsx
+export { StaticMathField }

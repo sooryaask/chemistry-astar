@@ -32,9 +32,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -65,11 +62,7 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q2.png"
-        ],
-        "qpPages": [
-          2
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "3",
@@ -101,9 +94,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q3.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -136,11 +126,7 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q4.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "5",
@@ -170,11 +156,7 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q5.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "6",
@@ -207,9 +189,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q6.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -240,9 +219,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -273,9 +249,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q8.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -307,9 +280,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q9.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -342,9 +312,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -376,9 +343,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q11.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -410,11 +374,7 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q12.png"
-        ],
-        "qpPages": [
-          6
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "13",
@@ -444,9 +404,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -478,9 +435,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -511,9 +465,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q15.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -546,9 +497,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q16.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -579,9 +527,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q17.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -615,9 +560,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q18.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -648,9 +590,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q19.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -683,9 +622,6 @@
         ],
         "msShownImgs": [
           "June_2017_MS_p5_q20.png"
-        ],
-        "qpPages": [
-          10
         ]
       },
       {
@@ -724,52 +660,10 @@
         "msShownImgs": [
           "June_2017_MS_p6_q21_cut.png"
         ],
-        "qpPages": [
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2017_QP_p12_sa.png"
-          ],
-          "b": [
-            "June_2017_QP_p13_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2017_MS_p6_msa.png"
-          ],
-          "b": [
-            "June_2017_MS_p6_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 3
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "22",
@@ -812,79 +706,7 @@
         "msShownImgs": [
           "June_2017_MS_p7_q22_cut.png"
         ],
-        "qpPages": [
-          14,
-          15,
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2017_QP_p14_sa.png"
-          ],
-          "b": [
-            "June_2017_QP_p15_sb.png"
-          ],
-          "c": [
-            "June_2017_QP_p16_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "b": [
-            "June_2017_MS_p8_msb.png"
-          ],
-          "c": [
-            "June_2017_MS_p9_msc.png",
-            "June_2017_MS_p10_msc.png"
-          ],
-          "a": [
-            "June_2017_MS_p10_msa.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 5,
-          "c": 7
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 3
-            },
-            {
-              "label": "(iv)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -920,61 +742,8 @@
         "msShownImgs": [
           "June_2017_MS_p10_q23_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2017_QP_p18_sa.png"
-          ],
-          "b": [
-            "June_2017_QP_p19_sb.png"
-          ],
-          "c": [
-            "June_2017_QP_p19_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "c": [
-            "June_2017_MS_p10_msc.png",
-            "June_2017_MS_p11_msc.png"
-          ],
-          "a": [
-            "June_2017_MS_p10_msa.png"
-          ],
-          "b": [
-            "June_2017_MS_p11_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 2,
-          "c": 2
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "isDiagram": true
       },
       {
         "number": "24",
@@ -1017,69 +786,7 @@
           "June_2017_MS_p13_q24.png",
           "June_2017_MS_p14_q24_cut.png"
         ],
-        "qpPages": [
-          20,
-          21
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2017_QP_p20_sa.png"
-          ],
-          "b": [
-            "June_2017_QP_p20_sb.png"
-          ],
-          "c": [
-            "June_2017_QP_p21_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2017_MS_p13_msa.png"
-          ],
-          "b": [
-            "June_2017_MS_p13_msb.png"
-          ],
-          "c": [
-            "June_2017_MS_p14_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 3,
-          "c": 6
-        },
-        "calcSubParts": [
-          "b",
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -1120,54 +827,7 @@
         "msShownImgs": [
           "June_2017_MS_p15_q25_cut.png"
         ],
-        "qpPages": [
-          22,
-          23,
-          24
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2017_QP_p22_sa.png"
-          ],
-          "b": [
-            "June_2017_QP_p23_sb_cont0.png",
-            "June_2017_QP_p24_sb_cont1.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2017_MS_p15_msa.png"
-          ],
-          "b": [
-            "June_2017_MS_p15_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 5
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       }
     ]
   },
@@ -1202,9 +862,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -1236,9 +893,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -1270,9 +924,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q3.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -1303,11 +954,7 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q4.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "5",
@@ -1337,9 +984,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q5.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -1371,9 +1015,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q6.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -1406,9 +1047,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -1439,9 +1077,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q8.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -1472,9 +1107,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q9.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -1505,9 +1137,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -1541,9 +1170,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q11.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -1576,9 +1202,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -1608,9 +1231,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -1642,9 +1262,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -1675,9 +1292,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q15.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -1710,9 +1324,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q16.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -1743,9 +1354,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q17.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -1776,9 +1384,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q18.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -1810,9 +1415,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q19.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -1843,9 +1445,6 @@
         ],
         "msShownImgs": [
           "June_2018_MS_p6_q20.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -1884,69 +1483,7 @@
         "msShownImgs": [
           "June_2018_MS_p7_q21_cut.png"
         ],
-        "qpPages": [
-          10,
-          11
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2018_QP_p10_sa.png"
-          ],
-          "b": [
-            "June_2018_QP_p11_sb.png"
-          ],
-          "c": [
-            "June_2018_QP_p11_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2018_MS_p7_msa.png"
-          ],
-          "b": [
-            "June_2018_MS_p7_msb.png",
-            "June_2018_MS_p8_msb.png"
-          ],
-          "c": [
-            "June_2018_MS_p8_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 4,
-          "c": 1
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "22",
@@ -1987,65 +1524,7 @@
         "msShownImgs": [
           "June_2018_MS_p9_q22_cut.png"
         ],
-        "qpPages": [
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2018_QP_p12_sa_cont0.png",
-            "June_2018_QP_p13_sa_cont1.png"
-          ],
-          "b": [
-            "June_2018_QP_p13_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2018_MS_p9_msa.png"
-          ],
-          "b": [
-            "June_2018_MS_p10_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 8,
-          "b": 5
-        },
-        "calcSubParts": [
-          "a",
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            },
-            {
-              "label": "(iv)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -2079,54 +1558,7 @@
         "msShownImgs": [
           "June_2018_MS_p11_q23_cut.png"
         ],
-        "qpPages": [
-          14,
-          15,
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2018_QP_p14_sa_cont0.png",
-            "June_2018_QP_p15_sa_cont1.png"
-          ],
-          "b": [
-            "June_2018_QP_p16_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2018_MS_p11_msa.png"
-          ],
-          "b": [
-            "June_2018_MS_p12_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 4
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "24",
@@ -2160,52 +1592,7 @@
           "June_2018_MS_p13_q24.png",
           "June_2018_MS_p14_q24_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2018_QP_p18_sa.png"
-          ],
-          "b": [
-            "June_2018_QP_p19_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2018_MS_p13_msa.png"
-          ],
-          "b": [
-            "June_2018_MS_p14_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -2244,59 +1631,10 @@
           "June_2018_MS_p15_q25.png",
           "June_2018_MS_p16_q25_cut.png"
         ],
-        "qpPages": [
-          20,
-          21,
-          22,
-          23,
-          24
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2018_QP_p20_sa.png"
-          ],
-          "b": [
-            "June_2018_QP_p21_sb_cont0.png",
-            "June_2018_QP_p22_sb_cont1.png",
-            "June_2018_QP_p23_sb_cont2.png",
-            "June_2018_QP_p24_sb_cont3.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2018_MS_p15_msa.png"
-          ],
-          "b": [
-            "June_2018_MS_p16_msb.png",
-            "June_2018_MS_p17_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       }
     ]
   },
@@ -2331,9 +1669,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -2366,9 +1701,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -2399,11 +1731,7 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q3.png"
-        ],
-        "qpPages": [
-          2
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "4",
@@ -2437,11 +1765,7 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q4.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "5",
@@ -2473,11 +1797,7 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q5.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "6",
@@ -2510,11 +1830,7 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q6.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "7",
@@ -2545,9 +1861,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -2578,9 +1891,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q8.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -2613,9 +1923,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q9.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -2648,9 +1955,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -2682,9 +1986,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q11.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -2715,9 +2016,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -2748,9 +2046,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -2781,9 +2076,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q14.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -2813,9 +2105,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q15.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -2847,9 +2136,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q16.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -2880,9 +2166,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q17.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -2915,9 +2198,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q18.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -2950,9 +2230,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q19.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -2983,9 +2260,6 @@
         ],
         "msShownImgs": [
           "June_2019_MS_p5_q20.png"
-        ],
-        "qpPages": [
-          10
         ]
       },
       {
@@ -3045,84 +2319,10 @@
           "June_2019_MS_p6_q21.png",
           "June_2019_MS_p7_q21_cut.png"
         ],
-        "qpPages": [
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2019_QP_p12_sa.png"
-          ],
-          "b": [
-            "June_2019_QP_p12_sb.png"
-          ],
-          "c": [
-            "June_2019_QP_p12_sc.png"
-          ],
-          "d": [
-            "June_2019_QP_p13_sd.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2019_MS_p6_msa.png"
-          ],
-          "b": [
-            "June_2019_MS_p6_msb.png"
-          ],
-          "c": [
-            "June_2019_MS_p6_msc.png"
-          ],
-          "d": [
-            "June_2019_MS_p7_msd.png",
-            "June_2019_MS_p8_msd.png",
-            "June_2019_MS_p9_msd.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 2,
-          "c": 2,
-          "d": 8
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "d": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            },
-            {
-              "label": "(iv)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "c"
+        ]
       },
       {
         "number": "22",
@@ -3165,66 +2365,7 @@
           "June_2019_MS_p10_q22.png",
           "June_2019_MS_p11_q22_cut.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2019_QP_p14_sa.png"
-          ],
-          "b": [
-            "June_2019_QP_p14_sb.png"
-          ],
-          "c": [
-            "June_2019_QP_p15_sc.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2019_MS_p10_msa.png"
-          ],
-          "b": [
-            "June_2019_MS_p10_msb.png"
-          ],
-          "c": [
-            "June_2019_MS_p11_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 3,
-          "c": 2
-        },
-        "calcSubParts": [
-          "a",
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -3258,44 +2399,7 @@
           "June_2019_MS_p12_q23.png",
           "June_2019_MS_p13_q23_cut.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2019_QP_p16_sa.png"
-          ],
-          "b": [
-            "June_2019_QP_p17_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2019_MS_p12_msa.png"
-          ],
-          "b": [
-            "June_2019_MS_p13_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "24",
@@ -3341,57 +2445,7 @@
           "June_2019_MS_p14_q24.png",
           "June_2019_MS_p15_q24_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2019_QP_p18_sa.png"
-          ],
-          "b": [
-            "June_2019_QP_p19_sb.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2019_MS_p14_msa.png"
-          ],
-          "b": [
-            "June_2019_MS_p15_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 4
-        },
-        "calcSubParts": [
-          "a",
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -3434,66 +2488,10 @@
           "June_2019_MS_p16_q25.png",
           "June_2019_MS_p17_q25_cut.png"
         ],
-        "qpPages": [
-          20,
-          21,
-          22,
-          23,
-          24
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2019_QP_p20_sa.png"
-          ],
-          "b": [
-            "June_2019_QP_p21_sb_cont0.png",
-            "June_2019_QP_p22_sb_cont1.png",
-            "June_2019_QP_p23_sb_cont2.png",
-            "June_2019_QP_p24_sb_cont3.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2019_MS_p16_msa.png"
-          ],
-          "b": [
-            "June_2019_MS_p17_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 7
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       }
     ]
   },
@@ -3526,9 +2524,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -3560,9 +2555,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -3592,9 +2584,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q3.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -3625,9 +2614,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q4.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -3663,9 +2649,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q5.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -3697,9 +2680,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q6.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -3730,11 +2710,7 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q7.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "8",
@@ -3765,11 +2741,7 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q8.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "9",
@@ -3800,9 +2772,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q9.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -3834,9 +2803,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -3868,11 +2834,7 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q11.png"
-        ],
-        "qpPages": [
-          5
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "12",
@@ -3903,9 +2865,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -3938,9 +2897,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -3972,9 +2928,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q14.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -4005,9 +2958,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q15.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -4040,9 +2990,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q16.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -4075,9 +3022,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q17.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -4108,9 +3052,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q18.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -4141,9 +3082,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q19.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -4175,9 +3113,6 @@
         ],
         "msShownImgs": [
           "June_2022_MS_p8_q20.png"
-        ],
-        "qpPages": [
-          10
         ]
       },
       {
@@ -4218,53 +3153,10 @@
           "June_2022_MS_p9_q21.png",
           "June_2022_MS_p10_q21_cut.png"
         ],
-        "qpPages": [
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p12_sa.png"
-          ],
-          "b": [
-            "June_2022_QP_p13_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p9_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p10_msb.png",
-            "June_2022_MS_p11_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 2
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 5
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "22",
@@ -4307,60 +3199,7 @@
           "June_2022_MS_p12_q22.png",
           "June_2022_MS_p13_q22_cut.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p14_sa.png"
-          ],
-          "b": [
-            "June_2022_QP_p14_sb.png"
-          ],
-          "c": [
-            "June_2022_QP_p15_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p12_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p12_msb.png"
-          ],
-          "c": [
-            "June_2022_MS_p13_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 2,
-          "c": 3
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -4410,61 +3249,10 @@
           "June_2022_MS_p14_q23.png",
           "June_2022_MS_p15_q23_cut.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p16_sa.png"
-          ],
-          "b": [
-            "June_2022_QP_p16_sb.png"
-          ],
-          "c": [
-            "June_2022_QP_p17_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p14_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p15_msb.png"
-          ],
-          "c": [
-            "June_2022_MS_p15_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 2,
-          "c": 4
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "24",
@@ -4503,48 +3291,7 @@
           "June_2022_MS_p16_q24.png",
           "June_2022_MS_p17_q24_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p18_sa.png"
-          ],
-          "b": [
-            "June_2022_QP_p19_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p16_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p17_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -4581,53 +3328,7 @@
           "June_2022_MS_p18_q25.png",
           "June_2022_MS_p19_q25_cut.png"
         ],
-        "qpPages": [
-          20,
-          21
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p20_sa_cont0.png",
-            "June_2022_QP_p21_sa_cont1.png"
-          ],
-          "b": [
-            "June_2022_QP_p21_sb.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p18_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p20_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 3
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "26",
@@ -4664,46 +3365,8 @@
           "June_2022_MS_p22_q26.png",
           "June_2022_MS_p23_q26_cut.png"
         ],
-        "qpPages": [
-          22,
-          23,
-          24
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2022_QP_p22_sa.png"
-          ],
-          "b": [
-            "June_2022_QP_p23_sb_cont0.png",
-            "June_2022_QP_p24_sb_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2022_MS_p21_msa.png"
-          ],
-          "b": [
-            "June_2022_MS_p23_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "isDiagram": true
       }
     ]
   },
@@ -4737,9 +3400,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -4771,11 +3431,7 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q2.png"
-        ],
-        "qpPages": [
-          2
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "3",
@@ -4807,11 +3463,7 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q3.png"
-        ],
-        "qpPages": [
-          2
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "4",
@@ -4842,9 +3494,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q4.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -4881,9 +3530,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q5.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -4923,9 +3569,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q6.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -4957,9 +3600,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -4990,11 +3630,7 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q8.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "9",
@@ -5026,11 +3662,7 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q9.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "10",
@@ -5060,11 +3692,7 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q10.png"
-        ],
-        "qpPages": [
-          5
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "11",
@@ -5095,9 +3723,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q11.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -5129,9 +3754,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q12.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -5163,9 +3785,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -5196,9 +3815,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -5231,9 +3847,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q15.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -5265,9 +3878,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q16.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -5299,9 +3909,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q17.png"
-        ],
-        "qpPages": [
-          9
         ]
       },
       {
@@ -5333,9 +3940,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q18.png"
-        ],
-        "qpPages": [
-          10
         ]
       },
       {
@@ -5368,9 +3972,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q19.png"
-        ],
-        "qpPages": [
-          11
         ]
       },
       {
@@ -5403,9 +4004,6 @@
         ],
         "msShownImgs": [
           "June_2023_MS_p10_q20.png"
-        ],
-        "qpPages": [
-          11
         ]
       },
       {
@@ -5453,51 +4051,10 @@
           "June_2023_MS_p11_q21.png",
           "June_2023_MS_p12_q21_cut.png"
         ],
-        "qpPages": [
-          12
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2023_QP_p12_sa.png"
-          ],
-          "b": [
-            "June_2023_QP_p12_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2023_MS_p11_msa.png"
-          ],
-          "b": [
-            "June_2023_MS_p11_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 4
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "22",
@@ -5537,78 +4094,7 @@
         "msShownImgs": [
           "June_2023_MS_p13_q22_cut.png"
         ],
-        "qpPages": [
-          13,
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2023_QP_p13_sa.png"
-          ],
-          "b": [
-            "June_2023_QP_p13_sb.png"
-          ],
-          "c": [
-            "June_2023_QP_p14_sc_cont0.png",
-            "June_2023_QP_p15_sc_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2023_MS_p13_msa.png"
-          ],
-          "b": [
-            "June_2023_MS_p13_msb.png"
-          ],
-          "c": [
-            "June_2023_MS_p13_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 3,
-          "c": 7
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 1
-            },
-            {
-              "label": "(iv)",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -5654,61 +4140,10 @@
           "June_2023_MS_p15_q23.png",
           "June_2023_MS_p16_q23_cut.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2023_QP_p16_sa_cont0.png",
-            "June_2023_QP_p17_sa_cont1.png"
-          ],
-          "b": [
-            "June_2023_QP_p17_sb.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2023_MS_p15_msa.png"
-          ],
-          "b": [
-            "June_2023_MS_p17_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 4
-        },
-        "calcSubParts": [
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "24",
@@ -5745,65 +4180,7 @@
           "June_2023_MS_p19_q24.png",
           "June_2023_MS_p20_q24_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2023_QP_p18_sa.png"
-          ],
-          "b": [
-            "June_2023_QP_p18_sb.png"
-          ],
-          "c": [
-            "June_2023_QP_p19_sc.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2023_MS_p19_msa.png"
-          ],
-          "b": [
-            "June_2023_MS_p19_msb.png"
-          ],
-          "c": [
-            "June_2023_MS_p20_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 5,
-          "c": 3
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -5843,57 +4220,10 @@
           "June_2023_MS_p21_q25.png",
           "June_2023_MS_p22_q25_cut.png"
         ],
-        "qpPages": [
-          20,
-          21
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2023_QP_p20_sa.png"
-          ],
-          "b": [
-            "June_2023_QP_p20_sb.png"
-          ],
-          "c": [
-            "June_2023_QP_p21_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2023_MS_p21_msa.png"
-          ],
-          "b": [
-            "June_2023_MS_p21_msb.png"
-          ],
-          "c": [
-            "June_2023_MS_p22_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 2,
-          "c": 4
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "b"
+        ]
       },
       {
         "number": "26",
@@ -5926,10 +4256,9 @@
         "msShownImgs": [
           "June_2023_MS_p23_q26.png"
         ],
-        "qpPages": [
-          22,
-          23,
-          24
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "c"
         ]
       }
     ]
@@ -5964,9 +4293,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -5998,9 +4324,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -6032,9 +4355,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q3.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -6069,9 +4389,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q4.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -6102,9 +4419,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q5.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -6136,9 +4450,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q6.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -6169,9 +4480,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -6203,9 +4511,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q8.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -6238,9 +4543,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q9.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -6271,9 +4573,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -6305,11 +4604,7 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q11.png"
-        ],
-        "qpPages": [
-          5
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "12",
@@ -6339,9 +4634,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -6373,9 +4665,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q13.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -6406,9 +4695,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q14.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -6439,9 +4725,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q15.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -6473,9 +4756,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q16.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -6506,9 +4786,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q17.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -6539,9 +4816,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q18.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -6573,9 +4847,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q19.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -6610,9 +4881,6 @@
         ],
         "msShownImgs": [
           "June_2024_MS_p10_q20.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -6646,66 +4914,7 @@
         "msShownImgs": [
           "June_2024_MS_p11_q21_cut.png"
         ],
-        "qpPages": [
-          10,
-          11
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2024_QP_p10_sa.png"
-          ],
-          "b": [
-            "June_2024_QP_p11_sb.png"
-          ],
-          "c": [
-            "June_2024_QP_p11_sc.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2024_MS_p11_msa.png"
-          ],
-          "b": [
-            "June_2024_MS_p11_msb.png"
-          ],
-          "c": [
-            "June_2024_MS_p12_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 2,
-          "c": 3
-        },
-        "calcSubParts": [
-          "a",
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "22",
@@ -6746,58 +4955,7 @@
         "msShownImgs": [
           "June_2024_MS_p13_q22_cut.png"
         ],
-        "qpPages": [
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2024_QP_p12_sa.png"
-          ],
-          "b": [
-            "June_2024_QP_p12_sb_cont0.png",
-            "June_2024_QP_p13_sb_cont1.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "June_2024_MS_p13_msa.png"
-          ],
-          "b": [
-            "June_2024_MS_p13_msb.png",
-            "June_2024_MS_p14_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 7
-        },
-        "calcSubParts": [
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "23",
@@ -6849,64 +5007,7 @@
           "June_2024_MS_p16_q23.png",
           "June_2024_MS_p17_q23_cut.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2024_QP_p14_sa.png"
-          ],
-          "b": [
-            "June_2024_QP_p15_sb.png"
-          ],
-          "c": [
-            "June_2024_QP_p15_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2024_MS_p16_msa.png"
-          ],
-          "b": [
-            "June_2024_MS_p17_msb.png"
-          ],
-          "c": [
-            "June_2024_MS_p19_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 3,
-          "c": 2
-        },
-        "calcSubParts": [
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "24",
@@ -6941,59 +5042,7 @@
           "June_2024_MS_p20_q24.png",
           "June_2024_MS_p21_q24_cut.png"
         ],
-        "qpPages": [
-          16,
-          17,
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2024_QP_p16_sa.png"
-          ],
-          "b": [
-            "June_2024_QP_p17_sb.png"
-          ],
-          "c": [
-            "June_2024_QP_p18_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2024_MS_p20_msa.png"
-          ],
-          "b": [
-            "June_2024_MS_p21_msb.png"
-          ],
-          "c": [
-            "June_2024_MS_p22_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 5,
-          "c": 5
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "25",
@@ -7035,80 +5084,10 @@
           "June_2024_MS_p23_q25.png",
           "June_2024_MS_p24_q25_cut.png"
         ],
-        "qpPages": [
-          20,
-          21,
-          22,
-          23,
-          24
-        ],
-        "subPartImgs": {
-          "a": [
-            "June_2024_QP_p20_sa.png"
-          ],
-          "b": [
-            "June_2024_QP_p20_sb.png"
-          ],
-          "c": [
-            "June_2024_QP_p21_sc.png"
-          ],
-          "d": [
-            "June_2024_QP_p21_sd_cont0.png",
-            "June_2024_QP_p22_sd_cont1.png",
-            "June_2024_QP_p23_sd_cont2.png",
-            "June_2024_QP_p24_sd_cont3.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "June_2024_MS_p23_msa.png"
-          ],
-          "b": [
-            "June_2024_MS_p23_msb.png"
-          ],
-          "c": [
-            "June_2024_MS_p24_msc.png"
-          ],
-          "d": [
-            "June_2024_MS_p25_msd.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 3,
-          "c": 2,
-          "d": 4
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "d": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "b"
+        ]
       }
     ]
   },
@@ -7145,9 +5124,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -7179,9 +5155,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -7214,9 +5187,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q3.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -7248,11 +5218,7 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q4.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "5",
@@ -7283,9 +5249,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q5.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -7317,11 +5280,7 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q6.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "7",
@@ -7351,9 +5310,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -7385,9 +5341,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q8.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -7421,9 +5374,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q9.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -7455,9 +5405,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q10.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -7492,9 +5439,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q11.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -7527,9 +5471,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -7560,9 +5501,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q13.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -7593,9 +5531,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -7627,9 +5562,6 @@
         ],
         "msShownImgs": [
           "Nov_2020_MS_p5_q15.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -7673,91 +5605,10 @@
         "msShownImgs": [
           "Nov_2020_MS_p6_q16_cut.png"
         ],
-        "qpPages": [
-          9,
-          10,
-          11,
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p9_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p9_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p10_sc_cont0.png",
-            "Nov_2020_QP_p11_sc_cont1.png"
-          ],
-          "d": [
-            "Nov_2020_QP_p12_sd_cont0.png",
-            "Nov_2020_QP_p13_sd_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p6_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p6_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p7_msc.png"
-          ],
-          "d": [
-            "Nov_2020_MS_p8_msd.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 5,
-          "c": 6,
-          "d": 7
-        },
-        "calcSubParts": [
-          "b",
-          "d"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 6
-            }
-          ],
-          "d": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "b"
+        ]
       },
       {
         "number": "17",
@@ -7794,73 +5645,7 @@
           "Nov_2020_MS_p10_q17.png",
           "Nov_2020_MS_p11_q17_cut.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p14_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p14_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p15_sc.png"
-          ],
-          "d": [
-            "Nov_2020_QP_p15_sd.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p10_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p10_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p11_msc.png"
-          ],
-          "d": [
-            "Nov_2020_MS_p12_msd.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 2,
-          "c": 5,
-          "d": 3
-        },
-        "calcSubParts": [
-          "d"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "d": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "18",
@@ -7900,65 +5685,7 @@
         "msShownImgs": [
           "Nov_2020_MS_p13_q18_cut.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p16_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p16_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p17_sc.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p13_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p13_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p13_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 2,
-          "c": 6
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "19",
@@ -7990,60 +5717,8 @@
         "msShownImgs": [
           "Nov_2020_MS_p16_q19_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p18_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p19_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p19_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p16_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p16_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p17_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 4,
-          "c": 2
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "isDiagram": true
       },
       {
         "number": "20",
@@ -8075,57 +5750,7 @@
         "msShownImgs": [
           "Nov_2020_MS_p18_q20_cut.png"
         ],
-        "qpPages": [
-          20,
-          21
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p20_sa_cont0.png",
-            "Nov_2020_QP_p21_sa_cont1.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p21_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p18_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p19_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 4
-        },
-        "calcSubParts": [
-          "a",
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "21",
@@ -8159,57 +5784,7 @@
           "Nov_2020_MS_p20_q21.png",
           "Nov_2020_MS_p21_q21_cut.png"
         ],
-        "qpPages": [
-          22,
-          23
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p22_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p23_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p23_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p20_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p21_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p21_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 1,
-          "c": 3
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "22",
@@ -8250,69 +5825,7 @@
           "Nov_2020_MS_p23_q22.png",
           "Nov_2020_MS_p24_q22.png"
         ],
-        "qpPages": [
-          24,
-          25,
-          26,
-          27,
-          28
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2020_QP_p24_sa.png"
-          ],
-          "b": [
-            "Nov_2020_QP_p25_sb.png"
-          ],
-          "c": [
-            "Nov_2020_QP_p26_sc_cont0.png",
-            "Nov_2020_QP_p27_sc_cont1.png",
-            "Nov_2020_QP_p28_sc_cont2.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2020_MS_p22_msa.png"
-          ],
-          "b": [
-            "Nov_2020_MS_p24_msb.png"
-          ],
-          "c": [
-            "Nov_2020_MS_p24_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 4,
-          "c": 5
-        },
-        "calcSubParts": [
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 6
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ]
-        }
+        "_diagramClassified": true
       }
     ]
   },
@@ -8347,9 +5860,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -8381,9 +5891,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -8417,9 +5924,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q3.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -8450,9 +5954,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q4.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -8484,11 +5985,7 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q5.png"
-        ],
-        "qpPages": [
-          3
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "6",
@@ -8519,11 +6016,7 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q6.png"
-        ],
-        "qpPages": [
-          4
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "7",
@@ -8554,9 +6047,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -8589,9 +6079,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q8.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -8626,9 +6113,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q9.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -8661,9 +6145,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q10.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -8695,9 +6176,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q11.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -8728,9 +6206,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -8761,9 +6236,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q13.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -8795,9 +6267,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -8830,9 +6299,6 @@
         ],
         "msShownImgs": [
           "Nov_2021_MS_p6_q15.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -8865,84 +6331,10 @@
         "msShownImgs": [
           "Nov_2021_MS_p7_q16_cut.png"
         ],
-        "qpPages": [
-          10,
-          11,
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p10_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p10_sb_cont0.png",
-            "Nov_2021_QP_p11_sb_cont1.png"
-          ],
-          "c": [
-            "Nov_2021_QP_p12_sc_cont0.png",
-            "Nov_2021_QP_p13_sc_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p7_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p7_msb.png"
-          ],
-          "c": [
-            "Nov_2021_MS_p8_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 3,
-          "b": 3,
-          "c": 8
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            },
-            {
-              "label": "(iii)",
-              "marks": 1
-            },
-            {
-              "label": "(iv)",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "17",
@@ -8988,49 +6380,7 @@
           "Nov_2021_MS_p10_q17.png",
           "Nov_2021_MS_p11_q17.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p14_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p14_sb_cont0.png",
-            "Nov_2021_QP_p15_sb_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p9_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p9_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 7
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 6
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "18",
@@ -9074,100 +6424,7 @@
         "msShownImgs": [
           "Nov_2021_MS_p12_q18_cut.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p16_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p16_sb.png"
-          ],
-          "c": [
-            "Nov_2021_QP_p16_sc.png"
-          ],
-          "d": [
-            "Nov_2021_QP_p17_sd.png"
-          ],
-          "e": [
-            "Nov_2021_QP_p17_se.png"
-          ],
-          "f": [
-            "Nov_2021_QP_p17_sf.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p12_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p12_msb.png"
-          ],
-          "c": [
-            "Nov_2021_MS_p12_msc.png"
-          ],
-          "d": [
-            "Nov_2021_MS_p12_msd.png"
-          ],
-          "e": [
-            "Nov_2021_MS_p13_mse.png"
-          ],
-          "f": [
-            "Nov_2021_MS_p13_msf.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 1,
-          "c": 1,
-          "d": 4,
-          "e": 2,
-          "f": 2
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "d": [
-            {
-              "label": "",
-              "marks": 4
-            }
-          ],
-          "e": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "f": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "19",
@@ -9211,77 +6468,10 @@
         "msShownImgs": [
           "Nov_2021_MS_p14_q19_cut.png"
         ],
-        "qpPages": [
-          18,
-          19
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p18_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p19_sb.png"
-          ],
-          "c": [
-            "Nov_2021_QP_p19_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p14_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p14_msb.png",
-            "Nov_2021_MS_p15_msb.png"
-          ],
-          "c": [
-            "Nov_2021_MS_p15_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 4,
-          "c": 3
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 1
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "20",
@@ -9327,70 +6517,7 @@
           "Nov_2021_MS_p16_q20.png",
           "Nov_2021_MS_p17_q20_cut.png"
         ],
-        "qpPages": [
-          20,
-          21,
-          22
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p20_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p20_sb.png"
-          ],
-          "c": [
-            "Nov_2021_QP_p21_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p16_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p16_msb.png"
-          ],
-          "c": [
-            "Nov_2021_MS_p17_msc.png",
-            "Nov_2021_MS_p18_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 1,
-          "b": 3,
-          "c": 7
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 3
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "21",
@@ -9432,62 +6559,7 @@
         "msShownImgs": [
           "Nov_2021_MS_p19_q21_cut.png"
         ],
-        "qpPages": [
-          23,
-          24,
-          25
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p23_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p24_sb_cont0.png",
-            "Nov_2021_QP_p25_sb_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p19_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p19_msb.png",
-            "Nov_2021_MS_p20_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 4,
-          "b": 6
-        },
-        "calcSubParts": [
-          "b"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "22",
@@ -9531,82 +6603,7 @@
           "Nov_2021_MS_p21_q22.png",
           "Nov_2021_MS_p22_q22_cut.png"
         ],
-        "qpPages": [
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32
-        ],
-        "subPartImgs": {
-          "a": [
-            "Nov_2021_QP_p26_sa.png"
-          ],
-          "b": [
-            "Nov_2021_QP_p26_sb_cont0.png",
-            "Nov_2021_QP_p27_sb_cont1.png"
-          ],
-          "c": [
-            "Nov_2021_QP_p28_sc_cont0.png",
-            "Nov_2021_QP_p29_sc_cont1.png",
-            "Nov_2021_QP_p30_sc_cont2.png",
-            "Nov_2021_QP_p31_sc_cont3.png",
-            "Nov_2021_QP_p32_sc_cont4.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "Nov_2021_MS_p21_msa.png"
-          ],
-          "b": [
-            "Nov_2021_MS_p21_msb.png",
-            "Nov_2021_MS_p22_msb.png"
-          ],
-          "c": [
-            "Nov_2021_MS_p23_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 8,
-          "c": 6
-        },
-        "calcSubParts": [
-          "a",
-          "b",
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 4
-            },
-            {
-              "label": "(iii)",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 6
-            }
-          ]
-        }
+        "_diagramClassified": true
       }
     ]
   },
@@ -9641,9 +6638,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q1.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -9675,9 +6669,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q2.png"
-        ],
-        "qpPages": [
-          2
         ]
       },
       {
@@ -9708,9 +6699,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q3.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -9742,9 +6730,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q4.png"
-        ],
-        "qpPages": [
-          3
         ]
       },
       {
@@ -9775,9 +6760,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q5.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -9810,9 +6792,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q6.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -9844,9 +6823,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q7.png"
-        ],
-        "qpPages": [
-          4
         ]
       },
       {
@@ -9877,9 +6853,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q8.png"
-        ],
-        "qpPages": [
-          5
         ]
       },
       {
@@ -9910,11 +6883,7 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q9.png"
-        ],
-        "qpPages": [
-          5
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "10",
@@ -9945,11 +6914,7 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q10.png"
-        ],
-        "qpPages": [
-          6
-        ],
-        "isCalculation": true
+        ]
       },
       {
         "number": "11",
@@ -9981,9 +6946,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q11.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -10015,9 +6977,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q12.png"
-        ],
-        "qpPages": [
-          6
         ]
       },
       {
@@ -10050,9 +7009,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q13.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -10083,9 +7039,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q14.png"
-        ],
-        "qpPages": [
-          7
         ]
       },
       {
@@ -10116,9 +7069,6 @@
         ],
         "msShownImgs": [
           "Specimen_MS_p7_q15.png"
-        ],
-        "qpPages": [
-          8
         ]
       },
       {
@@ -10158,94 +7108,10 @@
         "msShownImgs": [
           "Specimen_MS_p8_q16_cut.png"
         ],
-        "qpPages": [
-          10,
-          11,
-          12,
-          13
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p10_sa.png"
-          ],
-          "b": [
-            "Specimen_QP_p10_sb.png"
-          ],
-          "c": [
-            "Specimen_QP_p11_sc.png"
-          ],
-          "d": [
-            "Specimen_QP_p12_sd.png"
-          ],
-          "e": [
-            "Specimen_QP_p12_se_cont0.png",
-            "Specimen_QP_p13_se_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p8_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p8_msb.png"
-          ],
-          "c": [
-            "Specimen_MS_p8_msc.png"
-          ],
-          "d": [
-            "Specimen_MS_p9_msd.png"
-          ],
-          "e": [
-            "Specimen_MS_p9_mse.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 2,
-          "c": 5,
-          "d": 3,
-          "e": 3
-        },
-        "calcSubParts": [
-          "c",
-          "d"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 5
-            }
-          ],
-          "d": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "e": [
-            {
-              "label": "(i)",
-              "marks": 1
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "diagramSubParts": [
+          "a"
+        ]
       },
       {
         "number": "17",
@@ -10288,51 +7154,7 @@
           "Specimen_MS_p10_q17.png",
           "Specimen_MS_p11_q17_cut.png"
         ],
-        "qpPages": [
-          14,
-          15
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p14_sa.png"
-          ],
-          "b": [
-            "Specimen_QP_p15_sb.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p10_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p11_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 5,
-          "b": 2
-        },
-        "calcSubParts": [
-          "a"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 1
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "18",
@@ -10365,11 +7187,7 @@
         "msShownImgs": [
           "Specimen_MS_p12_q18.png"
         ],
-        "qpPages": [
-          16,
-          17
-        ],
-        "isCalculation": true
+        "_diagramClassified": true
       },
       {
         "number": "19",
@@ -10409,80 +7227,7 @@
         "msShownImgs": [
           "Specimen_MS_p13_q19_cut.png"
         ],
-        "qpPages": [
-          18,
-          19,
-          20,
-          21
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p18_sa.png"
-          ],
-          "b": [
-            "Specimen_QP_p18_sb.png"
-          ],
-          "c": [
-            "Specimen_QP_p19_sc.png"
-          ],
-          "d": [
-            "Specimen_QP_p20_sd_cont0.png",
-            "Specimen_QP_p21_sd_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p13_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p13_msb.png"
-          ],
-          "c": [
-            "Specimen_MS_p13_msc.png"
-          ],
-          "d": [
-            "Specimen_MS_p14_msd.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 2,
-          "b": 3,
-          "c": 5,
-          "d": 6
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 3
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 3
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "d": [
-            {
-              "label": "",
-              "marks": 6
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "20",
@@ -10519,65 +7264,7 @@
         "msShownImgs": [
           "Specimen_MS_p16_q20_cut.png"
         ],
-        "qpPages": [
-          22,
-          23
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p22_sa.png"
-          ],
-          "b": [
-            "Specimen_QP_p23_sb.png"
-          ],
-          "c": [
-            "Specimen_QP_p23_sc.png"
-          ]
-        },
-        "isCalculation": true,
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p16_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p16_msb.png"
-          ],
-          "c": [
-            "Specimen_MS_p17_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 8,
-          "b": 2,
-          "c": 6
-        },
-        "calcSubParts": [
-          "c"
-        ],
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 8
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ],
-          "c": [
-            {
-              "label": "(i)",
-              "marks": 2
-            },
-            {
-              "label": "(ii)",
-              "marks": 4
-            }
-          ]
-        }
+        "_diagramClassified": true
       },
       {
         "number": "21",
@@ -10610,62 +7297,8 @@
         "msShownImgs": [
           "Specimen_MS_p18_q21_cut.png"
         ],
-        "qpPages": [
-          24,
-          25
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p24_sa_cont0.png",
-            "Specimen_QP_p25_sa_cont1.png"
-          ],
-          "b": [
-            "Specimen_QP_p25_sb.png"
-          ],
-          "c": [
-            "Specimen_QP_p25_sc.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p18_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p19_msb.png"
-          ],
-          "c": [
-            "Specimen_MS_p19_msc.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 6,
-          "b": 1,
-          "c": 2
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "(i)",
-              "marks": 4
-            },
-            {
-              "label": "(ii)",
-              "marks": 2
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 1
-            }
-          ],
-          "c": [
-            {
-              "label": "",
-              "marks": 2
-            }
-          ]
-        }
+        "_diagramClassified": true,
+        "isDiagram": true
       },
       {
         "number": "22",
@@ -10708,46 +7341,7 @@
           "Specimen_MS_p21_q22.png",
           "Specimen_MS_p22_q22.png"
         ],
-        "qpPages": [
-          26,
-          27,
-          28
-        ],
-        "subPartImgs": {
-          "a": [
-            "Specimen_QP_p26_sa.png"
-          ],
-          "b": [
-            "Specimen_QP_p27_sb_cont0.png",
-            "Specimen_QP_p28_sb_cont1.png"
-          ]
-        },
-        "msSubPartImgs": {
-          "a": [
-            "Specimen_MS_p20_msa.png"
-          ],
-          "b": [
-            "Specimen_MS_p21_msb.png"
-          ]
-        },
-        "subPartMarks": {
-          "a": 9,
-          "b": 6
-        },
-        "subPartSlots": {
-          "a": [
-            {
-              "label": "",
-              "marks": 9
-            }
-          ],
-          "b": [
-            {
-              "label": "",
-              "marks": 6
-            }
-          ]
-        }
+        "_diagramClassified": true
       }
     ]
   }

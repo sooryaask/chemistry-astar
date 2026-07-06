@@ -9,6 +9,56 @@ import ChemInput, { StaticMathField } from '../components/ChemInput.jsx'
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
 
+// Convert MathQuill LaTeX to readable plain text for the AI marker.
+const LATEX_TO_TEXT = [
+  [/\\rightleftharpoons/g, '⇌'],
+  [/\\rightarrow/g, '→'],
+  [/\\leftarrow/g, '←'],
+  [/\\Delta/g, 'Δ'],
+  [/\\times/g, '×'],
+  [/\\div/g, '÷'],
+  [/\\cdot/g, '·'],
+  [/\\pm/g, '±'],
+  [/\\infty/g, '∞'],
+  [/\\degree/g, '°'],
+  [/\\circ/g, '°'],
+  [/\\pi/g, 'π'],
+  [/\\theta/g, 'θ'],
+  [/\\alpha/g, 'α'],
+  [/\\beta/g, 'β'],
+  [/\\gamma/g, 'γ'],
+  [/\\le/g, '≤'],
+  [/\\ge/g, '≥'],
+  [/\\neq/g, '≠'],
+  [/\\approx/g, '≈'],
+]
+const SUB_MAP = { 0:'₀',1:'₁',2:'₂',3:'₃',4:'₄',5:'₅',6:'₆',7:'₇',8:'₈',9:'₉' }
+const SUP_MAP = { 0:'⁰',1:'¹',2:'²',3:'³',4:'⁴',5:'⁵',6:'⁶',7:'⁷',8:'⁸',9:'⁹','+':'⁺','-':'⁻' }
+
+function latexToText(latex) {
+  if (!latex) return ''
+  let t = latex
+  // Fractions → a/b
+  t = t.replace(/\\frac\{([^}]*)}\{([^}]*)}/g, '($1/$2)')
+  // Square roots
+  t = t.replace(/\\sqrt\{([^}]*)}/g, '√($1)')
+  // Subscripts → unicode
+  t = t.replace(/_\{([^}]*)}/g, (_, inner) => inner.split('').map(c => SUB_MAP[c] || c).join(''))
+  t = t.replace(/_([0-9])/g, (_, d) => SUB_MAP[d] || d)
+  // Superscripts → unicode
+  t = t.replace(/\^\{([^}]*)}/g, (_, inner) => inner.split('').map(c => SUP_MAP[c] || c).join(''))
+  t = t.replace(/\^([0-9])/g, (_, d) => SUP_MAP[d] || d)
+  // Named commands
+  for (const [re, rep] of LATEX_TO_TEXT) t = t.replace(re, rep)
+  // Clean up remaining braces and backslashes
+  t = t.replace(/[{}]/g, '')
+  t = t.replace(/\\\\/g, ' ')
+  t = t.replace(/\\ /g, ' ')
+  // Collapse whitespace
+  t = t.replace(/\s+/g, ' ').trim()
+  return t
+}
+
 // Wrap each awarded mark-scheme "evidence" phrase found in the student's answer
 // in a green <mark>, so you can see exactly which words earned which mark.
 function highlightHits(text, evidences) {
@@ -135,7 +185,7 @@ export default function Review() {
     try {
       const labelledAnswer = slots
         .map((s, i) => (answers[i] && answers[i].trim())
-          ? `${s.label ? s.label + ' ' : ''}${answers[i].trim()}`
+          ? `${s.label ? s.label + ' ' : ''}${latexToText(answers[i])}`
           : null)
         .filter(Boolean)
         .join('\n')

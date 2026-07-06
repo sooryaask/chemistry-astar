@@ -89,13 +89,22 @@ for (const [paper, data] of Object.entries(paperIndex)) {
         })
       }
     } else {
-      // Whole question as one card
-      const slots =
+      // Whole question as one card — filter out diagram/calc slots
+      const diagramParts = new Set(q.diagramSubParts || [])
+      const calcParts = new Set(q.calcSubParts || [])
+      const skipPart = (label) => {
+        const m = /^\(?\s*([a-f])\b/.exec((label || '').trim().toLowerCase())
+        return m && (diagramParts.has(m[1]) || calcParts.has(m[1]))
+      }
+      const rawSlots =
         q.slots && q.slots.length ? q.slots : [{ label: '', marks: q.marks ?? 1 }]
+      const slots = rawSlots.filter((s) => !skipPart(s.label))
+      if (slots.length === 0) continue  // all slots are diagram/calc
+      const marks = slots.reduce((s, sl) => s + (sl.marks || 0), 0)
       cards.push({
         id: `pp::${ps}::q${q.number}`,
         type: 'image',
-        marks: q.marks ?? 1,
+        marks,
         number: q.number,
         subPart: null,
         topic: q.topic || '',

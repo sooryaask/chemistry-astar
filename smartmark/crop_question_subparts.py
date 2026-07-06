@@ -127,6 +127,8 @@ def keep_bottom(page, y0, y1):
 # "(c)* Table 16.1", "(a) A"). This is far more robust than requiring the span to
 # be exactly "(x)", which missed labels that share a line with following content.
 LABEL_RE = re.compile(r'^\s*\d{0,2}\s*\(([a-f])\)')
+ROMAN_RE = re.compile(r'^\s*\(?(i{1,3}|iv|v|vi)\)?\s')
+ROMAN_MAP = {'i': 'i', 'ii': 'ii', 'iii': 'iii', 'iv': 'iv', 'v': 'v', 'vi': 'vi'}
 LABEL_MAX_X = 120  # labels sit at x~50-96; wider than 80 to catch indented ones
 
 
@@ -145,6 +147,27 @@ def find_subparts(doc, page_idxs):
                 txt = ''.join(s['text'] for s in ln['spans'])
                 m = LABEL_RE.match(txt)
                 if m and m.group(1) not in seen:   # first (topmost) per letter wins
+                    seen.add(m.group(1))
+                    out.append((pg, ln['spans'][0]['bbox'][1], m.group(1)))
+    return out
+
+
+def find_roman_subparts(doc, page_idxs):
+    """Fallback: find (i), (ii), (iii) labels when no (a)-(f) labels exist."""
+    out = []
+    seen = set()
+    for pg in page_idxs:
+        page = doc[pg]
+        for b in page.get_text('dict')['blocks']:
+            if 'lines' not in b:
+                continue
+            for ln in b['lines']:
+                x0 = ln['spans'][0]['bbox'][0]
+                if x0 >= LABEL_MAX_X:
+                    continue
+                txt = ''.join(s['text'] for s in ln['spans'])
+                m = ROMAN_RE.match(txt.strip())
+                if m and m.group(1) not in seen:
                     seen.add(m.group(1))
                     out.append((pg, ln['spans'][0]['bbox'][1], m.group(1)))
     return out
@@ -218,22 +241,60 @@ def process(qp_name, data, doc):
         page_idxs = [p - 1 for p in q.get('qpPages', [q['page']])]
         parts = find_subparts(doc, page_idxs)
         if len(parts) < 2:
-            q.pop('subPartImgs', None)
-            continue
-        last_ph = doc[page_idxs[-1]].rect.height
-        bounded = parts + [(page_idxs[-1], last_ph, '_end')]
-        sub_imgs = {}
-        for k in range(len(bounded) - 1):
-            ps, ys, lbl = bounded[k]
-            pe, ye, _ = bounded[k + 1]
-            sub_imgs[lbl] = crop_region(doc, ps, ys, pe, ye, slug, lbl)
-        q['subPartImgs'] = sub_imgs
-        print(f'  {slug} Q{q["number"]}: ' +
-              ', '.join(f'{k}->{len(v)}img' for k, v in sub_imgs.items()))
+            # Fallback: try roman numeral labels (i), (ii), (iii)
+            parts = find_roman_subparts(doc, page_idxs)
+        if len(parts) >= 2:
+            last_ph = doc[page_idxs[-1]].rect.height
+            bounded = parts + [(page_idxs[-1], last_ph, '_end')]
+            sub_imgs = {}
+            for k in range(len(bounded) - 1):
+                ps, ys, lbl = bounded[k]
+                pe, ye, _ = bounded[k + 1]
+                sub_imgs[lbl] = crop_region(doc, ps, ys, pe, ye, slug, lbl)
+            q['subPartImgs'] = sub_imgs
+            print(f'  {slug} Q{q["number"]}: ' +
+                  ', '.join(f'{k}->{len(v)}img' for k, v in sub_imgs.items()))
+        elif len(parts) == 1:
+            # Single sub-part found — crop just the question content as a whole
+            pg, y, lbl = parts[0]
+            last_ph = doc[page_idxs[-1]].rect.height
+            files = crop_region(doc, pg, y, page_idxs[-1], last_ph, slug, lbl)
+            if files:
+                q['subPartImgs'] = {lbl: files}
+                print(f'  {slug} Q{q["number"]}: {lbl}->1img (single)')
+        else:
+            # No sub-part labels at all — crop the whole question content
+            # from the top of the first page to the bottom, as one image
+            first_pg = page_idxs[0]
+            last_pg = page_idxs[-1]
+            # Find the question number label to get the start y
+            qnum_y = 0
+            page = doc[first_pg]
+            for b in page.get_text('dict')['blocks']:
+                if 'lines' not in b:
+                    continue
+                for ln in b['lines']:
+                    txt = ''.join(s['text'] for s in ln['spans'])
+                    if re.match(rf'^\s*{q["number"]}\b', txt):
+                        qnum_y = ln['spans'][0]['bbox'][1]
+                        break
+                if qnum_y:
+                    break
+            last_ph = doc[last_pg].rect.height
+            files = crop_region(doc, first_pg, qnum_y, last_pg, last_ph, slug, 'whole')
+            if files:
+                q['subPartImgs'] = {'whole': files}
+                print(f'  {slug} Q{q["number"]}: whole->1img (no labels)')
 
 
-# wipe stale sub-part crops
-stale = list(RENDERED_DIR.glob('*_s?.png')) + list(RENDERED_DIR.glob('*_s?_cont?.png'))
+# wipe stale sub-part crops (letters, roman numerals, and 'whole')
+stale = (list(RENDERED_DIR.glob('*_s?.png')) + list(RENDERED_DIR.glob('*_s?_cont?.png')) +
+         list(RENDERED_DIR.glob('*_si.png')) + list(RENDERED_DIR.glob('*_sii.png')) +
+         list(RENDERED_DIR.glob('*_siii.png')) + list(RENDERED_DIR.glob('*_siv.png')) +
+         list(RENDERED_DIR.glob('*_sv.png')) + list(RENDERED_DIR.glob('*_svi.png')) +
+         list(RENDERED_DIR.glob('*_si_cont?.png')) + list(RENDERED_DIR.glob('*_sii_cont?.png')) +
+         list(RENDERED_DIR.glob('*_siii_cont?.png')) + list(RENDERED_DIR.glob('*_swhole.png')) +
+         list(RENDERED_DIR.glob('*_swhole_cont?.png')))
 for f in stale:
     f.unlink()
 print(f'Removed {len(stale)} stale sub-part PNGs\n')

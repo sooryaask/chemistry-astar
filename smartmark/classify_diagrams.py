@@ -21,8 +21,8 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 RENDERED_DIR = Path(__file__).parent / "rendered"
-INDEX_PATH = Path(__file__).parent / "index.json"
-OUT_PATH = Path(__file__).parent.parent / "src" / "data" / "paperIndex.json"
+INDEX_PATH = Path(__file__).parent.parent / "src" / "data" / "paperIndex.json"
+OUT_PATH = INDEX_PATH  # read and write the same file
 MODEL = "claude-haiku-4-5"
 
 force = "--force" in sys.argv
@@ -238,10 +238,11 @@ def main():
                     q.pop("isDiagram", None)
                     print(f"  written  {label}")
 
-    # Save back
+    # Save back to both paperIndex.json and smartmark/index.json
     with open(INDEX_PATH, "w") as f:
         json.dump(index, f, indent=2, ensure_ascii=False)
-    with open(OUT_PATH, "w") as f:
+    sm_index = Path(__file__).parent / "index.json"
+    with open(sm_index, "w") as f:
         json.dump(index, f, indent=2, ensure_ascii=False)
 
     print(f"\nDone: {classified}/{total} classified, {diagram_count} diagram parts found.")

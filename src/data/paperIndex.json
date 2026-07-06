@@ -786,7 +786,15 @@
           "June_2017_MS_p13_q24.png",
           "June_2017_MS_p14_q24_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2017_QP_p20_sa.png"
+          ],
+          "b": [
+            "June_2017_QP_p20_sb.png"
+          ]
+        }
       },
       {
         "number": "25",
@@ -2322,7 +2330,18 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "c"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2019_QP_p12_sa.png"
+          ],
+          "b": [
+            "June_2019_QP_p12_sb.png"
+          ],
+          "c": [
+            "June_2019_QP_p12_sc.png"
+          ]
+        }
       },
       {
         "number": "22",
@@ -2365,7 +2384,15 @@
           "June_2019_MS_p10_q22.png",
           "June_2019_MS_p11_q22_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2019_QP_p14_sa.png"
+          ],
+          "b": [
+            "June_2019_QP_p14_sb.png"
+          ]
+        }
       },
       {
         "number": "23",
@@ -3199,7 +3226,15 @@
           "June_2022_MS_p12_q22.png",
           "June_2022_MS_p13_q22_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2022_QP_p14_sa.png"
+          ],
+          "b": [
+            "June_2022_QP_p14_sb.png"
+          ]
+        }
       },
       {
         "number": "23",
@@ -3252,7 +3287,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "a"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2022_QP_p16_sa.png"
+          ],
+          "b": [
+            "June_2022_QP_p16_sb.png"
+          ]
+        }
       },
       {
         "number": "24",
@@ -4054,7 +4097,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "a"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2023_QP_p12_sa.png"
+          ],
+          "b": [
+            "June_2023_QP_p12_sb.png"
+          ]
+        }
       },
       {
         "number": "22",
@@ -4094,7 +4145,15 @@
         "msShownImgs": [
           "June_2023_MS_p13_q22_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2023_QP_p13_sa.png"
+          ],
+          "b": [
+            "June_2023_QP_p13_sb.png"
+          ]
+        }
       },
       {
         "number": "23",
@@ -4180,7 +4239,15 @@
           "June_2023_MS_p19_q24.png",
           "June_2023_MS_p20_q24_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2023_QP_p18_sa.png"
+          ],
+          "b": [
+            "June_2023_QP_p18_sb.png"
+          ]
+        }
       },
       {
         "number": "25",
@@ -4223,7 +4290,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "b"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2023_QP_p20_sa.png"
+          ],
+          "b": [
+            "June_2023_QP_p20_sb.png"
+          ]
+        }
       },
       {
         "number": "26",
@@ -4259,7 +4334,8 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "c"
-        ]
+        ],
+        "isDiagram": true
       }
     ]
   },
@@ -4955,7 +5031,15 @@
         "msShownImgs": [
           "June_2024_MS_p13_q22_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "June_2024_QP_p12_sa.png"
+          ],
+          "b": [
+            "June_2024_QP_p12_sb.png"
+          ]
+        }
       },
       {
         "number": "23",
@@ -5087,7 +5171,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "b"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "June_2024_QP_p20_sa.png"
+          ],
+          "b": [
+            "June_2024_QP_p20_sb.png"
+          ]
+        }
       }
     ]
   },
@@ -5608,7 +5700,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "b"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "Nov_2020_QP_p9_sa.png"
+          ],
+          "b": [
+            "Nov_2020_QP_p9_sb.png"
+          ]
+        }
       },
       {
         "number": "17",
@@ -5645,7 +5745,15 @@
           "Nov_2020_MS_p10_q17.png",
           "Nov_2020_MS_p11_q17_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2020_QP_p14_sa.png"
+          ],
+          "b": [
+            "Nov_2020_QP_p14_sb.png"
+          ]
+        }
       },
       {
         "number": "18",
@@ -5685,7 +5793,18 @@
         "msShownImgs": [
           "Nov_2020_MS_p13_q18_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2020_QP_p16_sa.png"
+          ],
+          "b": [
+            "Nov_2020_QP_p16_sb.png"
+          ]
+        },
+        "diagramSubParts": [
+          "b"
+        ]
       },
       {
         "number": "19",
@@ -6334,7 +6453,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "a"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "Nov_2021_QP_p10_sa.png"
+          ],
+          "b": [
+            "Nov_2021_QP_p10_sb.png"
+          ]
+        }
       },
       {
         "number": "17",
@@ -6380,7 +6507,15 @@
           "Nov_2021_MS_p10_q17.png",
           "Nov_2021_MS_p11_q17.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2021_QP_p14_sa.png"
+          ],
+          "b": [
+            "Nov_2021_QP_p14_sb.png"
+          ]
+        }
       },
       {
         "number": "18",
@@ -6424,7 +6559,18 @@
         "msShownImgs": [
           "Nov_2021_MS_p12_q18_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2021_QP_p16_sa.png"
+          ],
+          "b": [
+            "Nov_2021_QP_p16_sb.png"
+          ],
+          "c": [
+            "Nov_2021_QP_p16_sc.png"
+          ]
+        }
       },
       {
         "number": "19",
@@ -6517,7 +6663,15 @@
           "Nov_2021_MS_p16_q20.png",
           "Nov_2021_MS_p17_q20_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2021_QP_p20_sa.png"
+          ],
+          "b": [
+            "Nov_2021_QP_p20_sb.png"
+          ]
+        }
       },
       {
         "number": "21",
@@ -6603,7 +6757,15 @@
           "Nov_2021_MS_p21_q22.png",
           "Nov_2021_MS_p22_q22_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Nov_2021_QP_p26_sa.png"
+          ],
+          "b": [
+            "Nov_2021_QP_p26_sb.png"
+          ]
+        }
       }
     ]
   },
@@ -7111,7 +7273,15 @@
         "_diagramClassified": true,
         "diagramSubParts": [
           "a"
-        ]
+        ],
+        "subPartImgs": {
+          "a": [
+            "Specimen_QP_p10_sa.png"
+          ],
+          "b": [
+            "Specimen_QP_p10_sb.png"
+          ]
+        }
       },
       {
         "number": "17",
@@ -7227,7 +7397,15 @@
         "msShownImgs": [
           "Specimen_MS_p13_q19_cut.png"
         ],
-        "_diagramClassified": true
+        "_diagramClassified": true,
+        "subPartImgs": {
+          "a": [
+            "Specimen_QP_p18_sa.png"
+          ],
+          "b": [
+            "Specimen_QP_p18_sb.png"
+          ]
+        }
       },
       {
         "number": "20",

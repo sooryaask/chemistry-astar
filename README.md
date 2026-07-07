@@ -1,12 +1,17 @@
 # Chemistry A* — OCR A AS Paper 1 Reviewer
 
-A spaced-repetition study tool for **OCR A Chemistry AS Paper 1 (H032)**, Modules 1–4. Built with React + Vite, plain CSS, and the Anthropic API for AI-powered marking against real mark schemes.
+A spaced-repetition study tool for **OCR A Chemistry AS Paper 1 (H032)**, Modules 1–4. Built with React + Vite, plain CSS, and the Anthropic API for AI-powered marking against real mark schemes. Includes **1,000 AI-generated exam-style questions** covering all 23 topics across Modules 1–4 plus past-paper image cards from 9 exam sessions.
 
 ## How it works
 
-Each past-paper written question is split into one card per sub-part. Two screens:
+Two card sources feed into an Anki-style spaced-repetition reviewer:
 
-- **Decks** — one deck per past paper, showing mastery percentage and SRS counts (new + learning + due).
+1. **Past-paper image cards** — real OCR questions split into one card per sub-part, with cropped question and mark-scheme images from 9 exam sessions.
+2. **AI-generated text cards** — 1,000 original exam-style questions (MCQ + written) generated from the OCR A H032 specification, covering all 23 topics. MCQs are marked locally; written questions carry their own mark points for AI or manual marking.
+
+Two screens:
+
+- **Decks** — one deck per past paper + an AI Questions deck, showing mastery percentage and SRS counts (new + learning + due).
 - **Review** — an Anki-style reviewer. Type your answer, then either:
   - **Mark my answer** — sends your answer + the question crop + mark scheme crop to Claude (`claude-sonnet-4-6`), which returns a score, per-point awarded/missed breakdown, and pre-fills the tick boxes.
   - **Just show the answer** — reveals the mark scheme for manual self-marking.
@@ -41,7 +46,7 @@ The API key is bundled into the client JavaScript via Vite. On a public site, an
 ## Testing
 
 ```bash
-npm test                # Vitest suite (116 unit + component tests)
+npm test                # Vitest suite (127 unit + component tests)
 npm run test:agent      # Full pipeline: change detection + tests + build + insights
 ```
 
@@ -68,6 +73,15 @@ npm run deploy
 This builds the app and pushes `dist/` to a `gh-pages` branch. Then in **Settings → Pages**, set the source to the `gh-pages` branch.
 
 The app uses `HashRouter`, so deep links and refreshes work on Pages without extra configuration.
+
+## AI-generated questions
+
+`src/data/aiQuestions/` contains **1,000 exam-style questions** across 23 topic files, generated from the OCR A H032 specification. Each file is a JSON array of question objects in two formats:
+
+- **MCQ** — four options, correct answer, step-by-step explanation, and worked solution.
+- **Written** — 1–6 marks, per-mark marking points, model answer, and examiner commentary.
+
+Questions are auto-loaded via `import.meta.glob` in `src/data/cards.js` and appear as a dedicated "AI Generated questions" deck. The test suite (`src/__tests__/data/aiQuestions.test.js`) validates schema integrity, ID uniqueness, mark-point counts, and text-only constraints across all 1,000 questions.
 
 ## Image pipeline
 

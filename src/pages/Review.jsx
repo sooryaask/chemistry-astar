@@ -3,8 +3,9 @@ import { useParams, Link } from 'react-router-dom'
 import { getDeckCards, deckTitle } from '../data/cards.js'
 import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
 import { todayISO } from '../utils/localStorage.js'
-import { assessPaperQuestion } from '../api/anthropic.js'
+import { assessPaperQuestion, assessTextQuestion } from '../api/anthropic.js'
 import ChemInput, { StaticMathField } from '../components/ChemInput.jsx'
+import PeriodicTable from '../components/PeriodicTable.jsx'
 
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
@@ -122,6 +123,7 @@ export default function Review() {
   const [imgError, setImgError] = useState(false)
   const [msImgError, setMsImgError] = useState(false)
   const [confirmAction, setConfirmAction] = useState(null) // 'suspend' | 'reset' | null
+  const [ptOpen, setPtOpen] = useState(false)
   const confirmTimerRef = useRef(null)
   const moreRef = useRef(null)
   const markingCardRef = useRef(null)
@@ -193,12 +195,19 @@ export default function Review() {
           : null)
         .filter(Boolean)
         .join('\n')
-      const result = await assessPaperQuestion({
-        qpImageUrls: card.qpUrls,
-        msImageUrls: card.msUrls,
-        questionNo: `${card.number}${card.subPart ? `(${card.subPart})` : ''}`,
-        answer: labelledAnswer,
-      })
+      const result = card.isText
+        ? await assessTextQuestion({
+            question: card.question,
+            markPoints: card.markPoints,
+            marks: card.marks,
+            answer: labelledAnswer,
+          })
+        : await assessPaperQuestion({
+            qpImageUrls: card.qpUrls,
+            msImageUrls: card.msUrls,
+            questionNo: `${card.number}${card.subPart ? `(${card.subPart})` : ''}`,
+            answer: labelledAnswer,
+          })
       // Bail if the card changed while we were waiting (user skipped/graded)
       if (markingCardRef.current !== targetCardId) return
       setAssessment(result)
@@ -215,6 +224,13 @@ export default function Review() {
     } finally {
       if (markingCardRef.current === targetCardId) setMarking(false)
     }
+  }
+
+  // MCQs are checked locally — no API call. The correct letter is baked into
+  // the card data, so just reveal and pre-tick the mark.
+  function checkMcq() {
+    if (card.correctOption) setTicks([answers[0] === card.correctOption])
+    setRevealed(true)
   }
 
   function setAnswer(i, val) {
@@ -275,7 +291,12 @@ export default function Review() {
       <div className="review-top">
         <Link className="back-link" to="/">←</Link>
         <span className="review-title">{title}</span>
+        <button className="pt-toggle" onClick={() => setPtOpen(true)} title="Show the periodic table">
+          Periodic table
+        </button>
       </div>
+
+      {ptOpen && <PeriodicTable onClose={() => setPtOpen(false)} />}
 
       {saveWarning && (
         <div className="save-warning" onClick={() => setSaveWarning(false)}>
@@ -292,22 +313,52 @@ export default function Review() {
       <div className="review-scroll">
         {/* Question paper card — continuous white paper */}
         <div className="q-meta">
-          {card.paperLabel} · Q{card.number}{card.subPart ? `(${card.subPart})` : ''} · {totalMarks} mark{totalMarks !== 1 ? 's' : ''}
+          {card.isText
+            ? `${card.paperLabel} · ${card.topic}`
+            : `${card.paperLabel} · Q${card.number}${card.subPart ? `(${card.subPart})` : ''}`} · {totalMarks} mark{totalMarks !== 1 ? 's' : ''}
         </div>
         <div className="paper-card">
-          {card.qpUrls.map((url, i) => (
-            <img key={url} className="q-image" src={url} alt={`Question ${card.number} page ${i + 1}`} onError={() => setImgError(true)} />
-          ))}
-          {imgError && (
-            <div className="img-error">
-              Question image failed to load. Check that rendered/ images exist, or use "Just show the answer" to self-mark.
+          {card.isText ? (
+            <div className="q-text">
+              <p className="q-text-body">{card.question}</p>
+              {card.options && (
+                <div className="q-options">
+                  {['A', 'B', 'C', 'D'].map((o) => (
+                    <div className="q-option" key={o}><strong>{o}</strong> {card.options[o]}</div>
+                  ))}
+                </div>
+              )}
             </div>
+          ) : (
+            <>
+              {card.qpUrls.map((url, i) => (
+                <img key={url} className="q-image" src={url} alt={`Question ${card.number} page ${i + 1}`} onError={() => setImgError(true)} />
+              ))}
+              {imgError && (
+                <div className="img-error">
+                  Question image failed to load. Check that rendered/ images exist, or use "Just show the answer" to self-mark.
+                </div>
+              )}
+            </>
           )}
 
           {/* Answer input — lined paper, one box per sub-part */}
           {!revealed && (
             <div className="a-area">
-              {slots.map((s, i) => (
+              {card.isMcq ? (
+                <div className="mcq-options">
+                  {['A', 'B', 'C', 'D'].map((opt) => (
+                    <button
+                      key={opt}
+                      type="button"
+                      className={`mcq-option ${answers[0] === opt ? 'selected' : ''}`}
+                      onClick={() => setAnswer(0, opt)}
+                    >
+                      {opt}
+                    </button>
+                  ))}
+                </div>
+              ) : slots.map((s, i) => (
                 <div className="slot" key={i}>
                   {s.label && (
                     <span className="slot-label">{s.label}<span className="slot-marks">[{s.marks}]</span></span>
@@ -322,9 +373,15 @@ export default function Review() {
                 </div>
               ))}
               <div className="answer-actions">
-                <button className="mark-btn" onClick={markAnswer} disabled={!wroteSomething || imgError}>
-                  Mark my answer
-                </button>
+                {card.isMcq ? (
+                  <button className="mark-btn" onClick={checkMcq} disabled={!answers[0]}>
+                    Check answer
+                  </button>
+                ) : (
+                  <button className="mark-btn" onClick={markAnswer} disabled={!wroteSomething || (imgError && !card.isText)}>
+                    Mark my answer
+                  </button>
+                )}
                 <button className="show-btn ghost-btn" onClick={() => setRevealed(true)}>
                   Just show the answer
                 </button>
@@ -341,9 +398,40 @@ export default function Review() {
                 {slots.map((s, i) => (answers[i] && answers[i].trim()) ? (
                   <div className="ya-slot" key={i}>
                     {s.label && <span className="ya-label">{s.label}</span>}
-                    <StaticMathField>{answers[i]}</StaticMathField>
+                    {card.isMcq
+                      ? <span className="ya-mcq">You chose: <strong>{answers[i]}</strong></span>
+                      : <StaticMathField>{answers[i]}</StaticMathField>}
                   </div>
                 ) : null)}
+              </div>
+            )}
+
+            {/* MCQ: local verdict + logical walkthrough (no AI marking needed) */}
+            {card.isMcq && (
+              <div className="ai-feedback mcq-feedback">
+                {card.correctOption && (
+                  answers[0] ? (
+                    <div className={`mcq-verdict ${answers[0] === card.correctOption ? 'correct' : 'wrong'}`}>
+                      {answers[0] === card.correctOption ? '✓ Correct' : '✗ Incorrect'} — the answer is <strong>{card.correctOption}</strong>
+                    </div>
+                  ) : (
+                    <div className="mcq-verdict">The answer is <strong>{card.correctOption}</strong></div>
+                  )
+                )}
+                {card.explanation && (
+                  <div className="mcq-section">
+                    <span className="mcq-section-label">How to work it out</span>
+                    <p>{card.explanation}</p>
+                  </div>
+                )}
+                {card.steps.length > 0 && (
+                  <div className="mcq-section">
+                    <span className="mcq-section-label">Working</span>
+                    <div className="mcq-steps">
+                      {card.steps.map((s, i) => <p key={i}>{s}</p>)}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
@@ -384,7 +472,32 @@ export default function Review() {
 
             <div className="ms-block">
               <span className="ra-label">Mark scheme — tick each mark you earned</span>
-              {card.msUrls.length > 0 ? (
+              {card.isText ? (
+                <div className="ms-with-ticks">
+                  <div className="ms-points-col">
+                    {card.isMcq ? (
+                      <p className="ms-point">Correct answer: <strong>{card.correctOption}</strong></p>
+                    ) : (
+                      <>
+                        {card.markPoints.map((p, i) => (
+                          <p className="ms-point" key={i}><strong>{i + 1}.</strong> {p}</p>
+                        ))}
+                        {card.modelAnswer && (
+                          <p className="ms-model"><strong>Model answer:</strong> {card.modelAnswer}</p>
+                        )}
+                      </>
+                    )}
+                  </div>
+                  <div className="tick-col">
+                    {Array.from({ length: totalMarks }, (_, i) => (
+                      <label className={`tick-box ${ticks[i] ? 'ticked' : ''}`} key={i}>
+                        <input type="checkbox" checked={!!ticks[i]} onChange={() => toggleTick(i)} />
+                        <span className="tick-icon">{ticks[i] ? '✓' : '✗'}</span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              ) : card.msUrls.length > 0 ? (
                 <div className="ms-with-ticks">
                   <div className="ms-images">
                     {card.msUrls.map((u) => <img key={u} className="ms-image" src={u} alt="Mark scheme" onError={(e) => { e.target.style.display = 'none'; setMsImgError(true) }} />)}
@@ -401,6 +514,9 @@ export default function Review() {
                 </div>
               ) : (
                 <p className="muted">Mark scheme page not available for this question.</p>
+              )}
+              {card.isText && !card.isMcq && card.explanation && (
+                <p className="ms-approach"><strong>How to approach it:</strong> {card.explanation}</p>
               )}
               <div className="tick-score">{tickedCount} / {totalMarks} marks</div>
             </div>

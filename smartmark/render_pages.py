@@ -27,6 +27,8 @@ OUTPUT_DIR = Path(__file__).parent / "rendered"
 RENDER_DPI = 200
 MARGIN_ABOVE = 8   # extra pixels above the question start
 MARGIN_BELOW = 12  # extra pixels below the crop end
+GAP_BEFORE_NEXT = 24  # pull the cut up above the next question's label so its
+                      # first line never bleeds into this question's crop
 
 
 def slug(pdf_name: str) -> str:
@@ -165,9 +167,9 @@ def main():
                         rendered += 1
                         continue
 
-                    # y_end is the start of the next question, or page bottom
+                    # y_end is just above the start of the next question, or page bottom
                     if i + 1 < len(positioned) and positioned[i + 1][1] is not None:
-                        y_end = positioned[i + 1][1]
+                        y_end = positioned[i + 1][1] - GAP_BEFORE_NEXT
                     else:
                         y_end = page_height
 

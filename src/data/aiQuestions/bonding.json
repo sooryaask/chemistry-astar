@@ -1,0 +1,706 @@
+[
+  {
+    "id": "bonding-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(a)",
+    "question": "Which statement best describes ionic bonding?",
+    "options": {
+      "A": "The electrostatic attraction between oppositely charged ions",
+      "B": "The attraction between a shared pair of electrons and the nuclei of the bonded atoms",
+      "C": "The attraction between positive ions and delocalised electrons",
+      "D": "The attraction between molecules with permanent dipoles"
+    },
+    "correctOption": "A",
+    "explanation": "Ionic bonding is defined as the electrostatic attraction between oppositely charged ions. Option B describes covalent bonding, C describes metallic bonding and D describes permanent dipole–dipole interactions.",
+    "steps": [
+      "Step 1 – Recall the three types of strong chemical bonding: ionic, covalent and metallic.",
+      "Step 2 – Ionic bonding involves ions of opposite charge attracting each other electrostatically.",
+      "Step 3 – Eliminate B (covalent definition), C (metallic definition) and D (an intermolecular force, not a bond).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "bonding-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(c)",
+    "question": "Sodium chloride conducts electricity when molten but not when solid.\n\nWhich statement explains this?",
+    "options": {
+      "A": "Molten sodium chloride contains delocalised electrons",
+      "B": "The ions are free to move in the molten state but are fixed in position in the solid lattice",
+      "C": "Covalent bonds break on melting, releasing electrons",
+      "D": "Sodium chloride conducts in all states because it contains charged particles"
+    },
+    "correctOption": "B",
+    "explanation": "In solid NaCl the ions are held in fixed positions in the giant ionic lattice, so no charged particles can move. On melting, the lattice breaks down and the ions become mobile charge carriers. Ionic compounds never conduct via electrons.",
+    "steps": [
+      "Step 1 – Conduction requires charged particles that are free to move.",
+      "Step 2 – In solid NaCl the Na⁺ and Cl⁻ ions vibrate about fixed positions in the lattice, so no conduction occurs.",
+      "Step 3 – When molten, the ions are free to move and carry charge; A and C wrongly invoke electrons and covalent bonds, and D contradicts the observation that the solid does not conduct.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(e)",
+    "question": "In which species is a dative covalent bond present?",
+    "options": { "A": "NH₃", "B": "CH₄", "C": "NH₄⁺", "D": "N₂" },
+    "correctOption": "C",
+    "explanation": "In NH₄⁺ the nitrogen lone pair is donated to an H⁺ ion, so both electrons in that N–H bond come from the nitrogen atom — a dative covalent bond. In NH₃, CH₄ and N₂ every bond is formed from one electron from each atom.",
+    "steps": [
+      "Step 1 – A dative covalent bond forms when both electrons in the shared pair come from the same atom.",
+      "Step 2 – NH₄⁺ forms when the lone pair on the N of NH₃ is donated to an H⁺ ion, which brings no electrons of its own.",
+      "Step 3 – In NH₃, CH₄ and N₂ each bonded atom contributes one electron to every bond, so there is no dative bond.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "bonding-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Which substance has a giant covalent structure?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Silicon dioxide",
+      "C": "Sulfur dioxide",
+      "D": "Iodine"
+    },
+    "correctOption": "B",
+    "explanation": "Silicon dioxide is a giant covalent lattice in which every silicon atom is covalently bonded to oxygen atoms in a continuous network. CO₂, SO₂ and I₂ are all simple molecular substances with weak intermolecular forces between molecules.",
+    "steps": [
+      "Step 1 – Distinguish giant covalent structures (a continuous network of covalent bonds) from simple molecular structures (discrete molecules).",
+      "Step 2 – SiO₂ forms a giant lattice of Si and O atoms joined by strong covalent bonds throughout.",
+      "Step 3 – CO₂, SO₂ and I₂ exist as small discrete molecules, which is why they have low melting/boiling points.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Diamond has a very high melting point.\n\nWhich statement explains this?",
+    "options": {
+      "A": "There are strong London forces between the molecules of diamond",
+      "B": "A large amount of energy is needed to break the many strong covalent bonds in the giant lattice",
+      "C": "There is strong electrostatic attraction between oppositely charged ions",
+      "D": "Delocalised electrons hold the layers of carbon atoms together"
+    },
+    "correctOption": "B",
+    "explanation": "Diamond is a giant covalent lattice in which each carbon atom is joined to four others by strong covalent bonds. Melting requires breaking these covalent bonds, which needs a very large amount of energy. Diamond has no molecules, no ions and no delocalised electrons.",
+    "steps": [
+      "Step 1 – Identify the structure: diamond is a giant covalent lattice, not molecular (A), ionic (C) or layered with delocalised electrons (D — that is graphite).",
+      "Step 2 – Each carbon atom is covalently bonded to four others throughout the lattice.",
+      "Step 3 – Melting means breaking many strong covalent bonds, which requires a very large amount of energy, so the melting point is very high.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-006",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(h)",
+    "question": "Which statement describes the bonding in solid magnesium?",
+    "options": {
+      "A": "Electrostatic attraction between Mg²⁺ ions and delocalised electrons",
+      "B": "Electrostatic attraction between Mg²⁺ ions and O²⁻ ions",
+      "C": "Shared pairs of electrons between magnesium atoms",
+      "D": "London forces between magnesium molecules"
+    },
+    "correctOption": "A",
+    "explanation": "A metal consists of a giant lattice of positive metal ions surrounded by delocalised electrons; the metallic bond is the electrostatic attraction between the cations and these delocalised electrons. Option B describes the ionic bonding in magnesium oxide, not the element.",
+    "steps": [
+      "Step 1 – Magnesium is a metal, so the bonding is metallic.",
+      "Step 2 – Metallic bonding = electrostatic attraction between the positive metal ions (Mg²⁺) and the sea of delocalised electrons.",
+      "Step 3 – B describes MgO (an ionic compound), C describes covalent bonding, and D wrongly treats a metal as molecular.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "bonding-007",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(c)",
+    "question": "A white solid melts at 776 °C. It dissolves in water and conducts electricity when molten or in aqueous solution, but not when solid.\n\nWhat type of structure does the solid have?",
+    "options": {
+      "A": "Giant covalent",
+      "B": "Giant ionic",
+      "C": "Giant metallic",
+      "D": "Simple molecular"
+    },
+    "correctOption": "B",
+    "explanation": "A high melting point with conduction only when molten or dissolved is the signature of a giant ionic lattice: the ions are fixed in the solid but become mobile when the lattice is broken down by melting or dissolving. A metal would conduct when solid; a giant covalent solid would not conduct at all; a simple molecular solid would melt at a low temperature.",
+    "steps": [
+      "Step 1 – High melting point (776 °C) rules out a simple molecular structure (D).",
+      "Step 2 – No conduction when solid rules out a metal (C), which conducts in all states via delocalised electrons.",
+      "Step 3 – Conduction when molten or aqueous means mobile ions are released, which fits a giant ionic lattice; a giant covalent solid (A) would not conduct even when molten.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-008",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(g)",
+    "question": "Average bond enthalpy is a measure of which property?",
+    "options": {
+      "A": "The strength of a covalent bond",
+      "B": "The strength of the London forces between molecules",
+      "C": "The energy released when a covalent bond breaks",
+      "D": "The strength of an ionic lattice"
+    },
+    "correctOption": "A",
+    "explanation": "Average bond enthalpy is the energy required to break one mole of a given type of bond in gaseous molecules, averaged over different environments — a direct measure of covalent bond strength. Bond breaking absorbs energy (endothermic), so C is wrong.",
+    "steps": [
+      "Step 1 – Define average bond enthalpy: the energy needed to break one mole of a given bond in gaseous molecules, averaged over many compounds.",
+      "Step 2 – Since it measures the energy needed to break a covalent bond, it measures covalent bond strength.",
+      "Step 3 – Eliminate B and D (bond enthalpy concerns covalent bonds, not intermolecular forces or ionic lattices) and C (breaking bonds requires energy; it does not release it).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "bonding-009",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(a)",
+    "question": "Sodium chloride is an ionic compound.\n\nDefine the term ionic bonding and describe the structure of solid sodium chloride.",
+    "marks": 3,
+    "markPoints": [
+      "Ionic bonding is the electrostatic attraction between oppositely charged ions",
+      "Solid sodium chloride is a giant ionic lattice",
+      "Each ion is surrounded by oppositely charged ions / Na⁺ and Cl⁻ ions are arranged in a regular repeating pattern"
+    ],
+    "modelAnswer": "Ionic bonding is the electrostatic attraction between oppositely charged ions. Solid sodium chloride has a giant ionic lattice structure in which each Na⁺ ion is surrounded by Cl⁻ ions and each Cl⁻ ion is surrounded by Na⁺ ions, in a regular repeating arrangement.",
+    "explanation": "The definition mark needs 'electrostatic attraction' and 'oppositely charged ions'. The structure marks need 'giant ionic lattice' and the idea that oppositely charged ions surround each other in a regular arrangement."
+  },
+  {
+    "id": "bonding-010",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(c)",
+    "question": "Magnesium oxide has a melting point of 2852 °C.\n\nExplain, in terms of structure and bonding, why the melting point of magnesium oxide is very high.",
+    "marks": 3,
+    "markPoints": [
+      "Magnesium oxide has a giant ionic lattice (structure)",
+      "There is strong electrostatic attraction between the oppositely charged ions (Mg²⁺ and O²⁻, which are both highly charged)",
+      "A large amount of energy is needed to overcome these attractions / break down the lattice"
+    ],
+    "modelAnswer": "Magnesium oxide has a giant ionic lattice in which there is strong electrostatic attraction between the oppositely charged Mg²⁺ and O²⁻ ions. Because both ions carry a 2+ or 2− charge the attraction is very strong, so a very large amount of energy is needed to overcome the attractions and break down the lattice, giving a very high melting point.",
+    "explanation": "Melting point explanations follow the pattern: name the structure, name the force being overcome (attraction between oppositely charged ions), then link to the energy required. The 2+/2− charges make MgO's attractions stronger than NaCl's."
+  },
+  {
+    "id": "bonding-011",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(c)",
+    "question": "Explain why potassium chloride does not conduct electricity when solid but does conduct when molten or in aqueous solution.",
+    "marks": 3,
+    "markPoints": [
+      "In the solid the ions are fixed in position in the (giant ionic) lattice and cannot move",
+      "When molten or dissolved in water the ions are free to move",
+      "The mobile ions carry the charge / act as charge carriers, allowing a current to flow"
+    ],
+    "modelAnswer": "In solid potassium chloride the K⁺ and Cl⁻ ions are held in fixed positions in the giant ionic lattice, so they cannot move and no current can flow. When the compound is molten or dissolved in water, the lattice breaks down and the ions become free to move. These mobile ions carry the charge, so the liquid and the solution conduct electricity.",
+    "explanation": "Conductivity in ionic compounds is always about mobile ions, never electrons. State the situation in the solid (ions fixed), the change on melting/dissolving (ions free) and the consequence (ions carry charge)."
+  },
+  {
+    "id": "bonding-012",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(d)",
+    "question": "Define the term covalent bond.",
+    "marks": 2,
+    "markPoints": [
+      "The strong electrostatic attraction between a shared pair of electrons",
+      "and the nuclei of the (two) bonded atoms"
+    ],
+    "modelAnswer": "A covalent bond is the strong electrostatic attraction between a shared pair of electrons and the nuclei of the bonded atoms.",
+    "explanation": "Both halves of the definition are needed: the shared pair of electrons and the attraction to the nuclei. 'Sharing electrons' alone is a GCSE answer and does not score full marks at AS."
+  },
+  {
+    "id": "bonding-013",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(e)",
+    "question": "An ammonium ion, NH₄⁺, forms when a molecule of ammonia reacts with a hydrogen ion.\n\nDescribe how the fourth N–H bond in NH₄⁺ is formed and name the type of bond produced.",
+    "marks": 3,
+    "markPoints": [
+      "The nitrogen atom in NH₃ has a lone pair of electrons",
+      "The lone pair is donated to the H⁺ ion, so both electrons in the shared pair come from the nitrogen atom",
+      "This is a dative covalent (coordinate) bond"
+    ],
+    "modelAnswer": "The nitrogen atom in ammonia has a lone pair of electrons. This lone pair is donated to the H⁺ ion, which has no electrons of its own, so both electrons in the shared pair come from the nitrogen atom. The bond formed is a dative covalent (coordinate) bond.",
+    "explanation": "A dative covalent bond differs from a normal covalent bond only in its formation: both electrons of the shared pair come from the same atom. Once formed, all four N–H bonds in NH₄⁺ are identical."
+  },
+  {
+    "id": "bonding-014",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(e)",
+    "question": "State the number of bonding pairs and the number of lone pairs of electrons around the nitrogen atom in a molecule of ammonia, NH₃.",
+    "marks": 2,
+    "markPoints": [
+      "Three bonding pairs",
+      "One lone pair"
+    ],
+    "modelAnswer": "The nitrogen atom in ammonia has three bonding pairs (one to each hydrogen atom) and one lone pair of electrons.",
+    "explanation": "Nitrogen has five outer electrons: three are shared in N–H bonds (three bonding pairs) and the remaining two form one lone pair. This lone pair is what allows ammonia to form the dative bond in NH₄⁺."
+  },
+  {
+    "id": "bonding-015",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(g)",
+    "question": "State what is meant by the term average bond enthalpy and state how average bond enthalpy is related to the strength of a covalent bond.",
+    "marks": 2,
+    "markPoints": [
+      "The energy required to break one mole of a given type of bond (in gaseous molecules), averaged over different molecules/environments",
+      "The larger the average bond enthalpy, the stronger the covalent bond"
+    ],
+    "modelAnswer": "Average bond enthalpy is the energy required to break one mole of a given type of bond in gaseous molecules, averaged over the different molecules in which the bond occurs. The larger the average bond enthalpy, the stronger the covalent bond.",
+    "explanation": "The 'average' is needed because the same bond (e.g. C–H) has slightly different strengths in different molecules. Bond enthalpy measures the energy to break the bond, so a larger value means a stronger bond."
+  },
+  {
+    "id": "bonding-016",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Diamond is a form of carbon.\n\nExplain, in terms of structure and bonding, why diamond has a very high melting point.",
+    "marks": 3,
+    "markPoints": [
+      "Diamond has a giant covalent structure/lattice",
+      "Each carbon atom is joined to four other carbon atoms by strong covalent bonds",
+      "Melting requires breaking many strong covalent bonds, which needs a very large amount of energy"
+    ],
+    "modelAnswer": "Diamond has a giant covalent lattice in which each carbon atom is joined to four other carbon atoms by strong covalent bonds. To melt diamond, many of these strong covalent bonds must be broken, which requires a very large amount of energy, so the melting point is very high.",
+    "explanation": "For giant covalent substances the bonds broken on melting are the covalent bonds themselves — unlike simple molecular substances, where only weak intermolecular forces are overcome."
+  },
+  {
+    "id": "bonding-017",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Graphite conducts electricity but diamond does not.\n\nExplain this difference in terms of the structure and bonding of the two forms of carbon.",
+    "marks": 3,
+    "markPoints": [
+      "In graphite each carbon atom bonds to only three others, so one outer electron per atom is delocalised (between the layers)",
+      "These delocalised electrons are free to move (along the layers) and carry charge, so graphite conducts",
+      "In diamond each carbon atom uses all four outer electrons in covalent bonds, so there are no delocalised electrons / no mobile charge carriers"
+    ],
+    "modelAnswer": "In graphite each carbon atom is covalently bonded to only three others, so the fourth outer electron of each atom is delocalised between the layers. These delocalised electrons are free to move through the structure and carry charge, so graphite conducts electricity. In diamond every carbon atom uses all four of its outer electrons in covalent bonds, so there are no delocalised electrons and diamond cannot conduct.",
+    "explanation": "The key comparison is three bonds per atom (graphite, one spare delocalised electron) versus four bonds per atom (diamond, no spare electrons). Conduction always needs mobile charge carriers."
+  },
+  {
+    "id": "bonding-018",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Iodine melts at 114 °C even though the I–I covalent bond is strong.\n\nExplain why iodine has a low melting point.",
+    "marks": 3,
+    "markPoints": [
+      "Iodine has a simple molecular (lattice) structure made up of I₂ molecules",
+      "On melting, only the weak London forces (induced dipole–dipole interactions) between the molecules are overcome, which requires little energy",
+      "The strong covalent bonds within the I₂ molecules are not broken"
+    ],
+    "modelAnswer": "Iodine has a simple molecular lattice made up of I₂ molecules. When iodine melts, only the weak London forces between the molecules are overcome, which requires little energy, so the melting point is low. The strong covalent bonds within the I₂ molecules are not broken during melting.",
+    "explanation": "The examiners are testing whether you know which forces break on melting: for simple molecular substances it is the intermolecular forces, not the covalent bonds. Stating that the covalent bonds are unaffected is a standard mark."
+  },
+  {
+    "id": "bonding-019",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Carbon dioxide and silicon dioxide are both oxides of Group 14 elements. Carbon dioxide sublimes at −78 °C whereas silicon dioxide melts at over 1600 °C.\n\nExplain this large difference in terms of structure and bonding.",
+    "marks": 4,
+    "markPoints": [
+      "Carbon dioxide has a simple molecular structure (discrete CO₂ molecules)",
+      "Only weak London forces between the CO₂ molecules need to be overcome, requiring little energy, so CO₂ changes state at a low temperature",
+      "Silicon dioxide has a giant covalent structure/lattice",
+      "Many strong (Si–O) covalent bonds must be broken to melt SiO₂, requiring a very large amount of energy"
+    ],
+    "modelAnswer": "Carbon dioxide is a simple molecular substance made of discrete CO₂ molecules. When it sublimes, only the weak London forces between the molecules are overcome, which needs little energy, so this happens at a low temperature. Silicon dioxide has a giant covalent lattice in which every silicon atom is joined to oxygen atoms by strong covalent bonds. To melt SiO₂, many of these strong covalent bonds must be broken, which requires a very large amount of energy, so its melting point is very high.",
+    "explanation": "Both oxides contain strong covalent bonds — the difference is the structure. In CO₂ the covalent bonds survive the change of state and only intermolecular forces are overcome, whereas in SiO₂ the covalent bonds themselves must be broken."
+  },
+  {
+    "id": "bonding-020",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(h)",
+    "question": "Describe the bonding in a solid metal such as copper and explain why metals conduct electricity.",
+    "marks": 3,
+    "markPoints": [
+      "Metallic bonding is the (strong electrostatic) attraction between positive metal ions (cations) and delocalised electrons",
+      "The positive ions are arranged in a giant (metallic) lattice surrounded by a sea of delocalised electrons",
+      "The delocalised electrons are free to move through the structure and carry charge, so a current can flow"
+    ],
+    "modelAnswer": "In a solid metal, positive metal ions are arranged in a giant lattice surrounded by a sea of delocalised electrons. Metallic bonding is the strong electrostatic attraction between these cations and the delocalised electrons. Metals conduct electricity because the delocalised electrons are free to move through the lattice and carry charge when a potential difference is applied.",
+    "explanation": "The three ideas OCR looks for are: cations in a giant lattice, delocalised electrons attracted to them (the metallic bond), and mobile delocalised electrons acting as charge carriers."
+  },
+  {
+    "id": "bonding-021",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(h)",
+    "question": "Explain why metals such as aluminium can be bent and shaped without breaking.",
+    "marks": 2,
+    "markPoints": [
+      "The layers of (positive) metal ions can slide over one another",
+      "The delocalised electrons continue to attract the ions / the metallic bonding is maintained because it is not directional, so the structure does not break apart"
+    ],
+    "modelAnswer": "The layers of positive metal ions in the lattice can slide over one another when a force is applied. Because the delocalised electrons move with the structure and continue to attract the ions, the metallic bonding is maintained and the metal changes shape without breaking.",
+    "explanation": "Malleability follows from the non-directional nature of metallic bonding: whichever way the layers of cations slide, they are still surrounded by, and attracted to, the delocalised electrons."
+  },
+  {
+    "id": "bonding-022",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Substance Q melts above 1500 °C, is insoluble in water and does not conduct electricity in either the solid or the molten state.\n\nDeduce the type of structure and bonding present in Q. Justify your answer using the data given.",
+    "marks": 3,
+    "markPoints": [
+      "Q has a giant covalent structure (with covalent bonding)",
+      "The very high melting point shows that many strong covalent bonds must be broken to melt it",
+      "It does not conduct even when molten because there are no mobile ions or delocalised electrons (ruling out ionic and metallic structures)"
+    ],
+    "modelAnswer": "Q has a giant covalent structure. The very high melting point shows that strong bonds extend throughout the structure, so many strong covalent bonds must be broken on melting. Since Q does not conduct electricity even when molten, it contains no mobile ions (ruling out an ionic lattice) and no delocalised electrons (ruling out a metal), which is consistent with a giant covalent lattice.",
+    "explanation": "Structure-prediction questions want each piece of data linked to a conclusion: high melting point → giant structure; no conduction when molten → not ionic; no conduction when solid → not metallic. Only giant covalent fits everything."
+  },
+  {
+    "id": "bonding-023",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Substance R is a gas at room temperature and does not conduct electricity in any state.\n\nDeduce the type of structure and bonding present in R. Justify your answer.",
+    "marks": 3,
+    "markPoints": [
+      "R has a simple molecular structure, with covalent bonds within the molecules",
+      "It is a gas at room temperature because only weak intermolecular forces (London forces) act between the molecules, so little energy is needed to separate them",
+      "It does not conduct because the molecules are uncharged / there are no mobile ions or delocalised electrons"
+    ],
+    "modelAnswer": "R is a simple molecular substance in which the atoms within each molecule are joined by covalent bonds. It is a gas at room temperature because only weak London forces act between the molecules, so very little energy is needed to separate them. It never conducts electricity because the molecules are uncharged and there are no mobile ions or delocalised electrons to carry charge.",
+    "explanation": "A very low boiling point points to weak forces between particles (simple molecular), and the complete absence of conduction confirms there are no charged particles free to move in any state."
+  },
+  {
+    "id": "bonding-024",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(c)",
+    "question": "Many ionic compounds, such as sodium chloride, dissolve in water.\n\nExplain why ionic compounds are often soluble in water.",
+    "marks": 2,
+    "markPoints": [
+      "Water molecules are polar (the O is δ− and the H atoms are δ+)",
+      "The polar water molecules attract the ions and pull them out of the lattice / the ions are surrounded (hydrated) by water molecules"
+    ],
+    "modelAnswer": "Water molecules are polar, with a δ− oxygen atom and δ+ hydrogen atoms. The δ− oxygen atoms attract the positive ions and the δ+ hydrogen atoms attract the negative ions, pulling the ions out of the lattice so that each ion becomes surrounded by water molecules.",
+    "explanation": "Dissolving happens when the attractions between the polar water molecules and the ions are strong enough to compensate for breaking up the ionic lattice. The δ+/δ− attractions to the ions are the key marking point."
+  },
+  {
+    "id": "bonding-025",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(e)",
+    "question": "The oxonium ion, H₃O⁺, forms when a water molecule reacts with a hydrogen ion.\n\nExplain how the third O–H bond in H₃O⁺ is formed and name the type of bond produced.",
+    "marks": 3,
+    "markPoints": [
+      "The oxygen atom in H₂O has a lone pair of electrons",
+      "The lone pair is donated to the H⁺ ion, so both electrons in the shared pair come from the oxygen atom",
+      "This is a dative covalent (coordinate) bond"
+    ],
+    "modelAnswer": "The oxygen atom in a water molecule has lone pairs of electrons. One of these lone pairs is donated to the H⁺ ion, which has no electrons of its own, so both electrons in the shared pair come from the oxygen atom. The bond formed is a dative covalent (coordinate) bond.",
+    "explanation": "H₃O⁺ is the other standard dative-bond example alongside NH₄⁺. The pattern of the answer is identical: identify the lone pair, state that it is donated to H⁺, and name the bond."
+  },
+  {
+    "id": "bonding-026",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Sodium chloride, diamond and carbon dioxide are all solids at −100 °C.\n\nCompare the structure and bonding of these three substances, and use your answer to explain the differences in their melting points and in their electrical conductivities.",
+    "marks": 6,
+    "markPoints": [
+      "Sodium chloride has a giant ionic lattice with strong electrostatic attraction between oppositely charged ions (Na⁺ and Cl⁻), giving a high melting point",
+      "Solid NaCl does not conduct because the ions are fixed, but molten (or aqueous) NaCl conducts because the ions become free to move and carry charge",
+      "Diamond has a giant covalent structure in which each carbon atom is joined to four others by strong covalent bonds",
+      "Diamond has a very high melting point because many strong covalent bonds must be broken, and it never conducts because there are no mobile ions or delocalised electrons",
+      "Carbon dioxide has a simple molecular structure: strong covalent bonds within the molecules but only weak London forces between the molecules",
+      "CO₂ changes state at a very low temperature because only the weak intermolecular forces are overcome, and it never conducts because there are no charged particles free to move"
+    ],
+    "modelAnswer": "Sodium chloride is a giant ionic lattice held together by strong electrostatic attraction between oppositely charged Na⁺ and Cl⁻ ions, so a large amount of energy is needed to break down the lattice and its melting point is high. It does not conduct when solid because the ions are fixed in the lattice, but it conducts when molten or dissolved because the ions become free to move and carry charge. Diamond is a giant covalent lattice in which each carbon atom is covalently bonded to four others; melting requires breaking many strong covalent bonds, so its melting point is extremely high, and it never conducts because it has no mobile ions or delocalised electrons. Carbon dioxide is a simple molecular substance: its molecules contain strong covalent bonds, but only weak London forces act between the molecules, so very little energy is needed to separate them and it changes state at a very low temperature. It never conducts electricity because its molecules are uncharged and there are no mobile charge carriers.",
+    "explanation": "Six-mark compare questions are marked in pairs per substance: one point for structure and bonding, one for linking it to the properties. Cover all three substances and address both melting point and conductivity for each."
+  },
+  {
+    "id": "bonding-027",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(h)",
+    "question": "Magnesium has a higher melting point than sodium.\n\nExplain why, in terms of metallic bonding.",
+    "marks": 3,
+    "markPoints": [
+      "Magnesium ions have a greater charge than sodium ions (Mg²⁺ compared with Na⁺) and are smaller",
+      "Magnesium has more delocalised electrons per atom (two rather than one)",
+      "So the electrostatic attraction between the cations and the delocalised electrons is stronger in magnesium, and more energy is needed to overcome it"
+    ],
+    "modelAnswer": "In magnesium the metal ions are Mg²⁺, which have a greater charge and a smaller radius than the Na⁺ ions in sodium, and each magnesium atom contributes two delocalised electrons rather than one. The electrostatic attraction between the cations and the delocalised electrons is therefore stronger in magnesium, so more energy is needed to overcome the metallic bonding and the melting point is higher.",
+    "explanation": "The strength of metallic bonding depends on the charge and size of the cations and the number of delocalised electrons. Mg beats Na on both counts: 2+ ions and two delocalised electrons per atom."
+  },
+  {
+    "id": "bonding-028",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.2(f)",
+    "question": "Graphite is used as a lubricant.\n\nExplain, in terms of its structure and bonding, why graphite is slippery.",
+    "marks": 2,
+    "markPoints": [
+      "Graphite consists of layers of covalently bonded carbon atoms",
+      "Only weak (London) forces act between the layers, so the layers can slide over one another"
+    ],
+    "modelAnswer": "Graphite is made up of layers of covalently bonded carbon atoms. Only weak London forces act between the layers, so the layers can slide over one another easily, which makes graphite slippery and useful as a lubricant.",
+    "explanation": "Within each graphite layer the covalent bonding is strong, but between the layers there are only weak intermolecular-type forces. It is the sliding of the layers, not any weakness of the covalent bonds, that makes graphite a lubricant."
+  },
+  {
+    "id": "bonding-029",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(a)",
+    "question": "Which of the following correctly describes electronegativity?",
+    "options": {
+      "A": "The ability of an atom to lose electrons when forming an ionic bond",
+      "B": "The ability of an atom to attract the shared pair of electrons in a covalent bond towards itself",
+      "C": "The energy released when an atom gains an electron in the gas phase",
+      "D": "The energy required to remove one electron from an atom in the gas phase"
+    },
+    "correctOption": "B",
+    "explanation": "Electronegativity is defined as the ability of an atom to attract the shared pair of electrons in a covalent bond towards itself. Option C defines electron affinity and D defines first ionisation energy. Option A is not a recognised definition.",
+    "steps": [
+      "Step 1 – Electronegativity relates to covalent bonding, not ionic bonding, so A is eliminated.",
+      "Step 2 – The definition involves attracting the shared electrons in a covalent bond — this is the OCR definition.",
+      "Step 3 – C describes electron affinity and D describes ionisation energy; neither involves a shared pair in a bond.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-030",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(b)",
+    "question": "Fluorine is more electronegative than chlorine. Which statement about a molecule of chlorine monofluoride, ClF, is correct?",
+    "options": {
+      "A": "The bond is non-polar because both atoms are halogens",
+      "B": "The chlorine atom carries a partial positive charge (δ+) and the fluorine atom carries a partial negative charge (δ−)",
+      "C": "The fluorine atom carries a partial positive charge (δ+) and the chlorine atom carries a partial negative charge (δ−)",
+      "D": "The bond is ionic because there is a large difference in electronegativity"
+    },
+    "correctOption": "B",
+    "explanation": "Fluorine is more electronegative, so it pulls the bonding electrons towards itself, acquiring a partial negative charge (δ−). The chlorine atom, having lost electron density, acquires a partial positive charge (δ+). The bond is polar covalent, not ionic.",
+    "steps": [
+      "Step 1 – The more electronegative atom attracts the shared electrons and becomes δ−.",
+      "Step 2 – Fluorine is the most electronegative element, so it is δ− in ClF; chlorine is therefore δ+.",
+      "Step 3 – The bond is polar covalent, not non-polar (A) or fully ionic (D); C has the charges the wrong way round.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-031",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Which of the following trends in electronegativity across Period 3 (Na to Cl) is correct?",
+    "options": {
+      "A": "Electronegativity decreases across Period 3 because the atomic radius increases",
+      "B": "Electronegativity increases across Period 3 because nuclear charge increases and atomic radius decreases",
+      "C": "Electronegativity stays the same across Period 3 because the number of electron shells does not change",
+      "D": "Electronegativity first increases then decreases across Period 3, reaching a maximum at silicon"
+    },
+    "correctOption": "B",
+    "explanation": "Across a period, nuclear charge increases while atomic radius decreases (shielding remains roughly constant). Both factors increase the attraction of the nucleus for bonding electrons, so electronegativity increases across Period 3 from Na to Cl.",
+    "steps": [
+      "Step 1 – Going across Period 3, the nuclear charge increases from Na (Z = 11) to Cl (Z = 17).",
+      "Step 2 – Shielding stays roughly constant (same inner shells), so the effective nuclear charge increases and atoms become smaller.",
+      "Step 3 – Greater nuclear charge and smaller atomic radius both increase the ability to attract bonding electrons, so electronegativity increases. A, C and D are all incorrect.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-032",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(d)",
+    "question": "A covalent bond between two atoms of equal electronegativity is best described as:",
+    "options": {
+      "A": "Polar, because electrons are shared",
+      "B": "Non-polar, because the shared electrons are attracted equally by both nuclei",
+      "C": "Ionic, because there is no electronegativity difference",
+      "D": "Dative, because one atom donates both electrons"
+    },
+    "correctOption": "B",
+    "explanation": "When two atoms of the same electronegativity share a pair of electrons, each nucleus exerts an equal pull on the electrons. The electron density is symmetrically distributed and there is no permanent dipole, so the bond is non-polar covalent. Examples include H–H and Cl–Cl.",
+    "steps": [
+      "Step 1 – Bond polarity arises from a difference in electronegativity between the two bonded atoms.",
+      "Step 2 – If electronegativity is equal, neither atom attracts the electrons more strongly, so the electron density is evenly shared.",
+      "Step 3 – Equal sharing means no partial charges, no dipole, and therefore a non-polar covalent bond. Options A, C and D are all incorrect.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "bonding-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(a)",
+    "question": "Define the term electronegativity.",
+    "marks": 1,
+    "markPoints": [
+      "The ability of an atom to attract the shared pair of electrons (in a covalent bond) towards itself"
+    ],
+    "modelAnswer": "Electronegativity is the ability of an atom to attract the shared pair of electrons in a covalent bond towards itself.",
+    "explanation": "This is a one-mark definition that must refer to the shared pair of electrons in a covalent bond. Simply saying 'attracts electrons' is insufficient — the electrons must be identified as the shared bonding pair."
+  },
+  {
+    "id": "bonding-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(b)",
+    "question": "A hydrogen chloride molecule, HCl, contains a polar covalent bond.\n\nExplain what is meant by a polar covalent bond, and identify which atom in HCl carries the partial negative charge.",
+    "marks": 3,
+    "markPoints": [
+      "A polar covalent bond has an uneven distribution of electron density / the shared electrons are attracted more towards one atom",
+      "This arises because the two bonded atoms have different electronegativities",
+      "Chlorine is more electronegative than hydrogen, so chlorine carries the partial negative charge (δ−)"
+    ],
+    "modelAnswer": "A polar covalent bond forms when the two bonded atoms have different electronegativities, causing the shared electrons to be attracted more towards the more electronegative atom, creating a permanent dipole. In HCl, chlorine is more electronegative than hydrogen, so the electron density is shifted towards the chlorine atom, giving it a partial negative charge (δ−) and leaving the hydrogen atom with a partial positive charge (δ+).",
+    "explanation": "The marks require: a definition of bond polarity (uneven distribution/electronegativity difference), and the correct identification of Cl as δ−. Stating 'different electronegativities' without linking it to uneven electron density scores only one of the first two marks."
+  },
+  {
+    "id": "bonding-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Explain why fluorine is more electronegative than chlorine.",
+    "marks": 3,
+    "markPoints": [
+      "Fluorine has a smaller atomic radius than chlorine (fewer electron shells)",
+      "Fluorine has fewer inner electron shells, so there is less shielding of the nuclear charge",
+      "The nucleus in fluorine therefore exerts a greater attractive force on the bonding pair / the bonding pair is closer to the nucleus in fluorine"
+    ],
+    "modelAnswer": "Fluorine has a smaller atomic radius than chlorine because it has fewer electron shells, and the inner electrons provide less shielding of the nucleus. As a result, the bonding pair in a covalent bond is closer to the fluorine nucleus, which can exert a stronger attractive force on the shared electrons. This makes fluorine more electronegative than chlorine.",
+    "explanation": "Electronegativity comparisons always link atomic radius and shielding to the ability to attract the bonding pair. Fluorine's smaller size and lower shielding are both needed; quoting the nuclear charge alone is insufficient because F (Z = 9) has a smaller nuclear charge than Cl (Z = 17)."
+  },
+  {
+    "id": "bonding-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(d)",
+    "question": "Explain why a molecule of hydrogen, H₂, contains a non-polar bond, whereas a molecule of hydrogen fluoride, HF, contains a polar bond.",
+    "marks": 2,
+    "markPoints": [
+      "In H₂ both atoms are identical / have the same electronegativity, so the shared electrons are attracted equally by both nuclei and there is no permanent dipole",
+      "In HF fluorine is more electronegative than hydrogen, so the shared electrons are attracted more towards the fluorine atom, creating a permanent dipole / partial charges δ+ on H and δ− on F"
+    ],
+    "modelAnswer": "In H₂ both hydrogen atoms have the same electronegativity, so the shared pair of electrons is attracted equally by each nucleus and there is no permanent dipole — the bond is non-polar. In HF, fluorine is more electronegative than hydrogen, so it attracts the shared electrons towards itself, creating an uneven distribution of electron density. This gives the fluorine a partial negative charge (δ−) and the hydrogen a partial positive charge (δ+), making the bond polar.",
+    "explanation": "The contrast between H₂ and HF neatly illustrates the origin of bond polarity: it arises only when the two bonded atoms differ in electronegativity. The answer must explicitly address both molecules for full marks."
+  },
+  {
+    "id": "bonding-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(e)",
+    "question": "Explain the trend in electronegativity going down Group 7 (from fluorine to iodine).",
+    "marks": 3,
+    "markPoints": [
+      "Electronegativity decreases going down Group 7",
+      "Atomic radius increases down the group because there are more electron shells",
+      "Shielding of the nuclear charge increases / the bonding pair is further from the nucleus, so the nuclear attraction for the bonding pair is weaker"
+    ],
+    "modelAnswer": "Electronegativity decreases going down Group 7 from fluorine to iodine. As you descend the group, each element has more electron shells, so the atomic radius increases. The increasing number of inner electron shells also increases the shielding of the nuclear charge. Both effects mean the bonding pair is further from the nucleus and experiences less attraction, so each element is less able to attract bonding electrons and electronegativity decreases.",
+    "explanation": "Down a group the nuclear charge does increase, but this is outweighed by the increase in atomic radius and shielding. The key point is that the bonding pair is further from and more shielded from the nucleus, reducing the ability to attract it."
+  },
+  {
+    "id": "bonding-038",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(f)",
+    "question": "Sodium chloride is described as an ionic compound, whereas hydrogen chloride is described as a covalent compound.\n\nUsing the concept of electronegativity, explain why sodium chloride is ionic and hydrogen chloride is covalent.",
+    "marks": 4,
+    "markPoints": [
+      "In sodium chloride there is a very large difference in electronegativity between sodium (low) and chlorine (high)",
+      "The electron from sodium is transferred completely to chlorine, forming Na⁺ and Cl⁻ ions / the bond is ionic",
+      "In hydrogen chloride the difference in electronegativity between hydrogen and chlorine is smaller",
+      "Electrons are shared (not transferred) between the atoms, forming a polar covalent bond"
+    ],
+    "modelAnswer": "Sodium has a very low electronegativity and chlorine has a very high electronegativity, so there is a very large difference in electronegativity between them. This causes the outer electron from sodium to be transferred completely to chlorine, forming Na⁺ and Cl⁻ ions — an ionic bond. Hydrogen also has a lower electronegativity than chlorine, but the difference is much smaller. Neither atom has sufficient electronegativity to remove electrons completely from the other, so the electrons are shared rather than transferred, giving a polar covalent bond.",
+    "explanation": "The distinction between ionic and covalent bonding can be approached through electronegativity difference: a very large difference leads to electron transfer (ionic), a moderate difference leads to polar covalent bonding, and no difference gives non-polar covalent bonding. The answer must compare the size of the electronegativity differences for both compounds."
+  },
+  {
+    "id": "bonding-039",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(g)",
+    "question": "State and explain the trend in bond polarity in the hydrogen halides HF, HCl and HBr.",
+    "marks": 4,
+    "markPoints": [
+      "Bond polarity decreases from HF to HBr (HF is the most polar, HBr is the least polar)",
+      "Electronegativity of the halogen decreases from F to Br (down Group 7)",
+      "As electronegativity of the halogen decreases, the difference in electronegativity between H and the halogen decreases",
+      "So the shared electrons are attracted less strongly towards the halogen, giving a smaller permanent dipole / the bond becomes less polar"
+    ],
+    "modelAnswer": "Bond polarity decreases from HF to HBr. Going from F to Br down Group 7, the electronegativity of the halogen decreases because atomic radius increases and shielding increases, so the nucleus has less attraction for the bonding electrons. As the electronegativity of the halogen decreases, the difference in electronegativity between hydrogen and the halogen becomes smaller. The shared electrons are therefore attracted less strongly towards the halogen, creating a smaller permanent dipole, so the bond becomes less polar.",
+    "explanation": "Bond polarity depends on the electronegativity difference. Since H has a fixed electronegativity, only the trend in halogen electronegativity matters. The fall in halogen electronegativity down Group 7 directly reduces the electronegativity difference and therefore the bond polarity."
+  },
+  {
+    "id": "bonding-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Bonding & Structure",
+    "specRef": "2.2.1(b)",
+    "question": "A student states that a molecule of carbon tetrachloride, CCl₄, must be polar because it contains polar C–Cl bonds.\n\nEvaluate this statement.",
+    "marks": 3,
+    "markPoints": [
+      "The student is correct that each C–Cl bond is polar because chlorine is more electronegative than carbon (so each bond has a dipole with δ+ on C and δ− on Cl)",
+      "However, CCl₄ has a symmetrical tetrahedral shape",
+      "The four bond dipoles are equal in magnitude and arranged symmetrically, so they cancel out, and the overall molecule is non-polar / has no net dipole moment"
+    ],
+    "modelAnswer": "The student is partially correct: each C–Cl bond is polar because chlorine is more electronegative than carbon, so there is a dipole with δ+ on the carbon and δ− on each chlorine. However, the molecule as a whole is non-polar. CCl₄ has a symmetrical tetrahedral shape, and the four equal bond dipoles point symmetrically in four directions. Because they cancel out, the net dipole moment of the molecule is zero and CCl₄ is a non-polar molecule overall.",
+    "explanation": "This question tests the distinction between bond polarity and molecular polarity. A molecule can contain polar bonds and yet be non-polar overall if the bonds are arranged symmetrically so their dipoles cancel. This is an important examiner trap: always consider molecular shape when discussing polarity."
+  }
+]

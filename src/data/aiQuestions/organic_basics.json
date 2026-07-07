@@ -1,0 +1,695 @@
+[
+  {
+    "id": "organic_basics-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "What is the IUPAC name of CH₃CH(CH₃)CH₂CH₃?",
+    "options": {
+      "A": "2-methylbutane",
+      "B": "3-methylbutane",
+      "C": "1,1-dimethylpropane",
+      "D": "pentane"
+    },
+    "correctOption": "A",
+    "explanation": "The longest chain is four carbons (butane) with a methyl branch. Numbering from the end nearest the branch places the methyl group on carbon 2, giving 2-methylbutane. Numbering from the other end (3-methylbutane) breaks the lowest-locant rule, and pentane would need an unbranched five-carbon chain.",
+    "steps": [
+      "Step 1 – Find the longest continuous carbon chain: CH₃–CH–CH₂–CH₃ is four carbons, so the stem is butane.",
+      "Step 2 – Identify the substituent: one CH₃ (methyl) branch on the second carbon of the chain.",
+      "Step 3 – Number from the end that gives the branch the lowest locant: methyl on carbon 2, not carbon 3.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_basics-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(c)",
+    "question": "Which is the general formula of the homologous series of alkenes?",
+    "options": {
+      "A": "CₙH₂ₙ₊₂",
+      "B": "CₙH₂ₙ",
+      "C": "CₙH₂ₙ₋₂",
+      "D": "CₙH₂ₙ₊₁"
+    },
+    "correctOption": "B",
+    "explanation": "Alkenes contain one C=C double bond, so they have two fewer hydrogen atoms than the corresponding alkane. Alkanes are CₙH₂ₙ₊₂, so alkenes are CₙH₂ₙ. CₙH₂ₙ₊₁ is an alkyl group, not a complete molecule.",
+    "steps": [
+      "Step 1 – Recall that alkanes (saturated) have the general formula CₙH₂ₙ₊₂.",
+      "Step 2 – One C=C double bond removes two hydrogen atoms, giving CₙH₂ₙ for alkenes.",
+      "Step 3 – Check with ethene: n = 2 gives C₂H₄, which is correct.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_basics-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(b)",
+    "question": "Which compound contains a ketone functional group?",
+    "options": {
+      "A": "CH₃CH₂CHO",
+      "B": "CH₃COCH₃",
+      "C": "CH₃CH₂COOH",
+      "D": "CH₃CH₂CH₂OH"
+    },
+    "correctOption": "B",
+    "explanation": "A ketone has a C=O group attached to two carbon atoms, as in CH₃COCH₃ (propanone). CH₃CH₂CHO is an aldehyde (C=O at the end of the chain), CH₃CH₂COOH is a carboxylic acid (COOH) and CH₃CH₂CH₂OH is an alcohol (OH).",
+    "steps": [
+      "Step 1 – A ketone contains a carbonyl group (C=O) bonded to two other carbon atoms.",
+      "Step 2 – In CH₃COCH₃ the CO group sits between two methyl groups, so it is a ketone (propanone).",
+      "Step 3 – CHO is an aldehyde, COOH is a carboxylic acid and OH is an alcohol, so eliminate A, C and D.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_basics-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "How many structural isomers have the molecular formula C₅H₁₂?",
+    "options": { "A": "2", "B": "3", "C": "4", "D": "5" },
+    "correctOption": "B",
+    "explanation": "C₅H₁₂ has three structural isomers: pentane, 2-methylbutane and 2,2-dimethylpropane. Counting four usually comes from counting 3-methylbutane as a separate isomer, but it is the same molecule as 2-methylbutane.",
+    "steps": [
+      "Step 1 – Start with the straight chain: pentane, CH₃CH₂CH₂CH₂CH₃.",
+      "Step 2 – Shorten the chain to four carbons with one branch: 2-methylbutane, CH₃CH(CH₃)CH₂CH₃.",
+      "Step 3 – Shorten to three carbons with two branches: 2,2-dimethylpropane, C(CH₃)₄. No other distinct arrangements exist, so there are 3 isomers.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_basics-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "What is the empirical formula of butane, C₄H₁₀?",
+    "options": { "A": "C₄H₁₀", "B": "CH₂", "C": "C₂H₅", "D": "CH₃" },
+    "correctOption": "C",
+    "explanation": "The empirical formula is the simplest whole-number ratio of atoms. The ratio 4 : 10 simplifies to 2 : 5, giving C₂H₅. CH₂ is the empirical formula of alkenes, and the ratio cannot be reduced to CH₃ (that would be 1 : 3).",
+    "steps": [
+      "Step 1 – Empirical formula = simplest whole-number ratio of atoms of each element.",
+      "Step 2 – Divide C : H = 4 : 10 by the highest common factor, 2, giving 2 : 5.",
+      "Step 3 – So the empirical formula is C₂H₅; 4 : 10 cannot simplify to 1 : 2 or 1 : 3.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_basics-006",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "Which pair of compounds are functional group isomers of each other?",
+    "options": {
+      "A": "butane and 2-methylpropane",
+      "B": "propan-1-ol and propan-2-ol",
+      "C": "propanal and propanone",
+      "D": "but-1-ene and but-2-ene"
+    },
+    "correctOption": "C",
+    "explanation": "Propanal (CH₃CH₂CHO, an aldehyde) and propanone (CH₃COCH₃, a ketone) both have the molecular formula C₃H₆O but different functional groups, so they are functional group isomers. A shows chain isomerism; B and D show position isomerism.",
+    "steps": [
+      "Step 1 – Functional group isomers have the same molecular formula but different functional groups.",
+      "Step 2 – Propanal (aldehyde) and propanone (ketone) are both C₃H₆O with different functional groups.",
+      "Step 3 – Butane/2-methylpropane differ in chain; propan-1-ol/propan-2-ol and but-1-ene/but-2-ene differ only in the position of the same group.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_basics-007",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "A covalent bond breaks by homolytic fission.\n\nWhat are the products?",
+    "options": {
+      "A": "Two radicals",
+      "B": "A cation and an anion",
+      "C": "Two cations",
+      "D": "Two anions"
+    },
+    "correctOption": "A",
+    "explanation": "In homolytic fission the two shared electrons are split equally, one going to each atom. Each product has an unpaired electron, so two radicals form. A cation and an anion form in heterolytic fission, where both electrons go to one atom.",
+    "steps": [
+      "Step 1 – Homolytic fission: the bond pair is shared equally, one electron to each atom.",
+      "Step 2 – Each fragment therefore has one unpaired electron, which is the definition of a radical.",
+      "Step 3 – Ions (cation + anion) are the products of heterolytic fission, so eliminate B, C and D.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_basics-008",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(h)",
+    "question": "Which species is most likely to behave as an electrophile?",
+    "options": { "A": "OH⁻", "B": "NH₃", "C": "H⁺", "D": "Br⁻" },
+    "correctOption": "C",
+    "explanation": "An electrophile is an electron pair acceptor and is attracted to regions of high electron density. H⁺ is positively charged with an empty orbital, so it accepts an electron pair. OH⁻, NH₃ and Br⁻ all have lone pairs to donate, so they are nucleophiles.",
+    "steps": [
+      "Step 1 – Electrophile = electron pair acceptor; usually positively charged or electron deficient.",
+      "Step 2 – H⁺ has no electrons and readily accepts an electron pair.",
+      "Step 3 – OH⁻, NH₃ and Br⁻ each have lone pairs and donate electron pairs, so they are nucleophiles.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_basics-009",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "How many σ bonds and π bonds are present in one molecule of ethene, CH₂=CH₂?",
+    "options": {
+      "A": "4 σ and 2 π",
+      "B": "5 σ and 1 π",
+      "C": "6 σ and 0 π",
+      "D": "5 σ and 2 π"
+    },
+    "correctOption": "B",
+    "explanation": "Every single bond is one σ bond, and a double bond is one σ bond plus one π bond. Ethene has four C–H σ bonds and a C=C consisting of one σ and one π bond, giving 5 σ and 1 π in total.",
+    "steps": [
+      "Step 1 – Count the C–H bonds: four, each a σ bond.",
+      "Step 2 – The C=C double bond is made of one σ bond and one π bond.",
+      "Step 3 – Total: 4 + 1 = 5 σ bonds and 1 π bond.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_basics-010",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "What is the percentage by mass of carbon in ethanol, C₂H₅OH? (Mr of ethanol = 46.0; Ar: C = 12.0, H = 1.0, O = 16.0)",
+    "options": { "A": "26.1%", "B": "34.8%", "C": "52.2%", "D": "62.1%" },
+    "correctOption": "C",
+    "explanation": "Ethanol contains two carbon atoms: mass of C = 2 × 12.0 = 24.0. Percentage by mass = (24.0 ÷ 46.0) × 100 = 52.2%. Choosing 26.1% comes from counting only one carbon atom.",
+    "steps": [
+      "Step 1 – Mass of carbon in one mole of ethanol = 2 × 12.0 = 24.0 g.",
+      "Step 2 – Percentage by mass = (24.0 ÷ 46.0) × 100.",
+      "Step 3 – = 52.17… = 52.2% (3 significant figures).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_basics-011",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "What is the IUPAC name of CH₃CH₂CH(OH)CH₃?",
+    "options": {
+      "A": "butan-1-ol",
+      "B": "butan-2-ol",
+      "C": "butan-3-ol",
+      "D": "2-methylpropan-2-ol"
+    },
+    "correctOption": "B",
+    "explanation": "The longest chain containing the OH group has four carbons (butanol). Numbering from the end nearest the OH group places it on carbon 2, giving butan-2-ol. Butan-3-ol breaks the lowest-locant rule, and 2-methylpropan-2-ol has a branched three-carbon chain.",
+    "steps": [
+      "Step 1 – The longest chain is four carbons with an OH group: the stem is butanol.",
+      "Step 2 – Number from the end nearest the functional group: OH is on carbon 2 from the right-hand end.",
+      "Step 3 – Lowest locant rule gives butan-2-ol, not butan-3-ol; the chain is unbranched so it is not a methylpropanol.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_basics-012",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "What is the IUPAC name of CH₃CCl(CH₃)CH₃?",
+    "options": {
+      "A": "2-chlorobutane",
+      "B": "1-chloro-1,1-dimethylethane",
+      "C": "2-chloro-2-methylpropane",
+      "D": "3-chloro-2-methylpropane"
+    },
+    "correctOption": "C",
+    "explanation": "The longest chain is three carbons (propane) with a methyl group and a chlorine atom both on carbon 2, giving 2-chloro-2-methylpropane. 2-chlorobutane wrongly counts a four-carbon chain, and the correct name must use the longest chain, not an ethane stem.",
+    "steps": [
+      "Step 1 – Find the longest chain: three carbons (propane); the fourth CH₃ is a methyl branch.",
+      "Step 2 – Both the Cl and the CH₃ branch are attached to the middle carbon, carbon 2.",
+      "Step 3 – Name substituents alphabetically with locants: 2-chloro-2-methylpropane.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_basics-013",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(c)",
+    "question": "Alkanes form a homologous series.\n\nState three features of a homologous series.",
+    "marks": 3,
+    "markPoints": [
+      "Same functional group / same general formula",
+      "Each successive member differs by CH₂",
+      "Similar chemical properties (and a gradual trend in physical properties)"
+    ],
+    "modelAnswer": "A homologous series is a family of compounds with the same functional group and the same general formula, in which each successive member differs by CH₂. Members have similar chemical properties and show a gradual trend in physical properties such as boiling point.",
+    "explanation": "OCR expects the three standard features: same functional group/general formula, successive members differ by CH₂, similar chemical properties. The gradual trend in physical properties is an acceptable alternative wording for the third point."
+  },
+  {
+    "id": "organic_basics-014",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(b)",
+    "question": "State what is meant by the term functional group.",
+    "marks": 1,
+    "markPoints": [
+      "The group of atoms (or the part of a molecule) responsible for the characteristic chemical reactions of a compound"
+    ],
+    "modelAnswer": "A functional group is the group of atoms in a molecule that is responsible for its characteristic chemical reactions.",
+    "explanation": "The key idea is that the functional group determines the chemistry: all molecules containing the same functional group react in similar ways, which is why members of a homologous series behave alike."
+  },
+  {
+    "id": "organic_basics-015",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "Give the IUPAC name of the compound CH₃CH(CH₃)CH₂OH.",
+    "marks": 1,
+    "markPoints": [
+      "2-methylpropan-1-ol"
+    ],
+    "modelAnswer": "2-methylpropan-1-ol.",
+    "explanation": "The longest chain containing the OH group is three carbons (propanol). Numbering from the end nearest the OH group puts the OH on carbon 1 and the methyl branch on carbon 2, giving 2-methylpropan-1-ol."
+  },
+  {
+    "id": "organic_basics-016",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "Write the condensed structural formula of 3-methylpent-1-ene.",
+    "marks": 2,
+    "markPoints": [
+      "Five-carbon chain with C=C between carbon 1 and carbon 2: CH₂=CH–",
+      "Methyl group on carbon 3: CH₂=CHCH(CH₃)CH₂CH₃"
+    ],
+    "modelAnswer": "CH₂=CHCH(CH₃)CH₂CH₃.",
+    "explanation": "Pent-1-ene means a five-carbon chain with the double bond starting at carbon 1. The 3-methyl prefix places a CH₃ branch on carbon 3, counting from the double-bond end."
+  },
+  {
+    "id": "organic_basics-017",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "But-1-ene has the molecular formula C₄H₈.\n\nExplain the difference between a molecular formula and an empirical formula, and give the empirical formula of but-1-ene.",
+    "marks": 3,
+    "markPoints": [
+      "Molecular formula shows the actual number of atoms of each element in a molecule",
+      "Empirical formula shows the simplest whole-number ratio of atoms of each element",
+      "Empirical formula of but-1-ene = CH₂"
+    ],
+    "modelAnswer": "The molecular formula gives the actual number of atoms of each element in one molecule, whereas the empirical formula gives the simplest whole-number ratio of atoms of each element. For but-1-ene, C₄H₈ simplifies to the empirical formula CH₂.",
+    "explanation": "Definitions must include 'actual number' (molecular) and 'simplest whole-number ratio' (empirical). Divide 4 : 8 by 4 to get 1 : 2, so the empirical formula is CH₂."
+  },
+  {
+    "id": "organic_basics-018",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(e)",
+    "question": "Describe in words what a skeletal formula of an organic compound shows.",
+    "marks": 2,
+    "markPoints": [
+      "The carbon skeleton is shown as lines, with a carbon atom at each end and vertex/junction of the lines, and hydrogen atoms on carbon are omitted",
+      "Functional groups / atoms other than carbon and their hydrogens (e.g. OH, Br) are shown explicitly"
+    ],
+    "modelAnswer": "A skeletal formula represents the carbon skeleton as a chain of lines, with a carbon atom understood at each end and at each junction of the lines. Hydrogen atoms attached to carbon are not shown, but any functional groups and atoms other than carbon, such as OH or Br, are written in full.",
+    "explanation": "The two marking ideas are: carbons and their hydrogens are implied by the line skeleton, and heteroatoms/functional groups must still be shown. This wording lets you describe skeletal formulae without any picture."
+  },
+  {
+    "id": "organic_basics-019",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(e)",
+    "question": "Describe in words what a displayed formula of an organic compound shows.",
+    "marks": 2,
+    "markPoints": [
+      "Shows every atom in the molecule",
+      "Shows every bond between the atoms (each bond represented individually)"
+    ],
+    "modelAnswer": "A displayed formula shows all of the atoms in the molecule and all of the bonds between them, with every single bond represented individually.",
+    "explanation": "The two ideas required are 'all atoms' and 'all bonds'. This distinguishes a displayed formula from a structural formula, which shows the arrangement of atoms but not every individual bond."
+  },
+  {
+    "id": "organic_basics-020",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "State what is meant by the term structural isomers and name the three types of structural isomerism.",
+    "marks": 4,
+    "markPoints": [
+      "Compounds with the same molecular formula but different structural formulae",
+      "Chain isomerism",
+      "Position isomerism",
+      "Functional group isomerism"
+    ],
+    "modelAnswer": "Structural isomers are compounds with the same molecular formula but different structural formulae. The three types are chain isomerism (different carbon skeletons), position isomerism (the same functional group in different positions) and functional group isomerism (different functional groups).",
+    "explanation": "The definition must contain both halves: same molecular formula AND different structural formula. The three categories describe how the structures can differ: the skeleton, the position of the group, or the group itself."
+  },
+  {
+    "id": "organic_basics-021",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "There are four structural isomers with the molecular formula C₄H₉Br.\n\nName all four isomers.",
+    "marks": 4,
+    "markPoints": [
+      "1-bromobutane",
+      "2-bromobutane",
+      "1-bromo-2-methylpropane",
+      "2-bromo-2-methylpropane"
+    ],
+    "modelAnswer": "The four isomers are 1-bromobutane (CH₃CH₂CH₂CH₂Br), 2-bromobutane (CH₃CHBrCH₂CH₃), 1-bromo-2-methylpropane (CH₃CH(CH₃)CH₂Br) and 2-bromo-2-methylpropane ((CH₃)₃CBr).",
+    "explanation": "Work systematically: take the straight butane chain and place Br on carbon 1 then carbon 2, then take the branched 2-methylpropane skeleton and place Br on the end carbon and on the central carbon. Any other placements repeat one of these four."
+  },
+  {
+    "id": "organic_basics-022",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "Name the three structural isomers with the molecular formula C₅H₁₂.",
+    "marks": 3,
+    "markPoints": [
+      "Pentane",
+      "2-methylbutane",
+      "2,2-dimethylpropane"
+    ],
+    "modelAnswer": "Pentane (CH₃CH₂CH₂CH₂CH₃), 2-methylbutane (CH₃CH(CH₃)CH₂CH₃) and 2,2-dimethylpropane (C(CH₃)₄).",
+    "explanation": "Shorten the chain step by step: the straight five-carbon chain, then a four-carbon chain with one methyl branch, then a three-carbon chain with two methyl branches on the central carbon. These are chain isomers of each other."
+  },
+  {
+    "id": "organic_basics-023",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "Describe the difference between a σ bond and a π bond in terms of how the orbitals overlap and where the electron density lies.",
+    "marks": 3,
+    "markPoints": [
+      "σ bond: formed by direct (head-on / end-on) overlap of orbitals",
+      "σ bond electron density lies on the axis directly between the two nuclei",
+      "π bond: formed by sideways overlap of p orbitals, with electron density above and below the axis joining the two nuclei"
+    ],
+    "modelAnswer": "A σ bond forms by direct, head-on overlap of orbitals, so its electron density lies on the axis directly between the two nuclei. A π bond forms by the sideways overlap of p orbitals, so its electron density lies above and below the axis between the nuclei.",
+    "explanation": "The contrast examiners want is overlap type (head-on vs sideways) and electron density location (between the nuclei vs above and below the internuclear axis). A double bond consists of one σ bond plus one π bond."
+  },
+  {
+    "id": "organic_basics-024",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "A covalent bond can break by homolytic fission or by heterolytic fission.\n\nExplain the difference between these two types of bond fission and state the type of species formed in each case.",
+    "marks": 4,
+    "markPoints": [
+      "Homolytic fission: the bonding pair of electrons is split equally, one electron going to each atom",
+      "Homolytic fission forms two radicals (each with an unpaired electron)",
+      "Heterolytic fission: both electrons of the bonding pair go to one of the atoms",
+      "Heterolytic fission forms two oppositely charged ions (a cation and an anion)"
+    ],
+    "modelAnswer": "In homolytic fission the bonding pair of electrons is shared equally between the two atoms, one electron going to each, forming two radicals. In heterolytic fission both electrons of the bond go to just one of the atoms, forming a negative ion (anion) and a positive ion (cation).",
+    "explanation": "Homo- means the same: each atom gets the same share (one electron each), so radicals form. Hetero- means different: one atom takes both electrons and becomes the anion, leaving the other as a cation."
+  },
+  {
+    "id": "organic_basics-025",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "State what is meant by the term radical.",
+    "marks": 1,
+    "markPoints": [
+      "A species with an unpaired electron"
+    ],
+    "modelAnswer": "A radical is a species that has an unpaired electron.",
+    "explanation": "The single marking idea is 'unpaired electron'. Radicals form when a bond breaks homolytically and are very reactive because the unpaired electron readily pairs up by forming a new bond."
+  },
+  {
+    "id": "organic_basics-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(h)",
+    "question": "Define the terms nucleophile and electrophile.",
+    "marks": 2,
+    "markPoints": [
+      "Nucleophile: an electron pair donor (attacks regions of positive charge / electron-deficient atoms)",
+      "Electrophile: an electron pair acceptor (attacks regions of high electron density)"
+    ],
+    "modelAnswer": "A nucleophile is an electron pair donor: it donates a lone pair of electrons to an electron-deficient atom. An electrophile is an electron pair acceptor: it accepts a pair of electrons from a region of high electron density.",
+    "explanation": "The definitions must be in terms of electron pairs: donor (nucleophile) and acceptor (electrophile). Saying a nucleophile is 'attracted to a nucleus/positive charge' alone is not enough for the mark without the donor/acceptor idea."
+  },
+  {
+    "id": "organic_basics-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "Calculate the percentage by mass of carbon in propan-1-ol, CH₃CH₂CH₂OH.\n(Ar: C = 12.0, H = 1.0, O = 16.0)",
+    "marks": 2,
+    "markPoints": [
+      "Mr of propan-1-ol = 60.0 and mass of carbon = 3 × 12.0 = 36.0",
+      "Percentage of carbon = (36.0 ÷ 60.0) × 100 = 60.0%"
+    ],
+    "modelAnswer": "Mr of C₃H₇OH = (3 × 12.0) + (8 × 1.0) + 16.0 = 60.0. Mass of carbon = 3 × 12.0 = 36.0. Percentage by mass of carbon = (36.0 ÷ 60.0) × 100 = 60.0%.",
+    "explanation": "Percentage composition = (total mass of that element in the formula ÷ Mr) × 100. Remember propan-1-ol has 8 hydrogen atoms in total (CH₃CH₂CH₂OH), giving Mr = 60.0."
+  },
+  {
+    "id": "organic_basics-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "Calculate the percentage by mass of oxygen in ethanoic acid, CH₃COOH. Give your answer to 3 significant figures.\n(Ar: C = 12.0, H = 1.0, O = 16.0)",
+    "marks": 2,
+    "markPoints": [
+      "Mr of ethanoic acid = 60.0 and mass of oxygen = 2 × 16.0 = 32.0",
+      "Percentage of oxygen = (32.0 ÷ 60.0) × 100 = 53.3%"
+    ],
+    "modelAnswer": "Mr of CH₃COOH = (2 × 12.0) + (4 × 1.0) + (2 × 16.0) = 60.0. Mass of oxygen = 2 × 16.0 = 32.0. Percentage by mass of oxygen = (32.0 ÷ 60.0) × 100 = 53.3% (3 s.f.).",
+    "explanation": "Ethanoic acid contains two oxygen atoms (in the COOH group). The common error is to count only one oxygen, giving 26.7% instead of 53.3%."
+  },
+  {
+    "id": "organic_basics-029",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(d)",
+    "question": "A hydrocarbon contains 82.8% carbon and 17.2% hydrogen by mass. Its relative molecular mass is 58.0.\n\nDetermine the empirical formula and the molecular formula of the hydrocarbon.\n(Ar: C = 12.0, H = 1.0)",
+    "marks": 3,
+    "markPoints": [
+      "Moles: C = 82.8 ÷ 12.0 = 6.90 and H = 17.2 ÷ 1.0 = 17.2",
+      "Ratio C : H = 1 : 2.49 ≈ 2 : 5, so empirical formula = C₂H₅",
+      "Empirical mass = 29.0; 58.0 ÷ 29.0 = 2, so molecular formula = C₄H₁₀"
+    ],
+    "modelAnswer": "Moles of C = 82.8 ÷ 12.0 = 6.90; moles of H = 17.2 ÷ 1.0 = 17.2. The ratio 6.90 : 17.2 = 1 : 2.49, which doubles to the whole-number ratio 2 : 5, so the empirical formula is C₂H₅. The empirical formula mass is 29.0, and 58.0 ÷ 29.0 = 2, so the molecular formula is C₄H₁₀ (butane).",
+    "explanation": "Divide each percentage by the Ar to get moles, then find the simplest whole-number ratio — multiply up if the ratio is not whole (1 : 2.5 becomes 2 : 5). Finally scale the empirical formula so its mass matches the Mr."
+  },
+  {
+    "id": "organic_basics-030",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "Give the IUPAC names of the following two compounds:\n\n(i) CH₃CH₂CH₂CHO\n(ii) CH₃COCH₂CH₃",
+    "marks": 2,
+    "markPoints": [
+      "(i) butanal",
+      "(ii) butanone"
+    ],
+    "modelAnswer": "(i) Butanal — a four-carbon chain ending in the aldehyde group CHO. (ii) Butanone — a four-carbon chain with the ketone C=O on carbon 2.",
+    "explanation": "Aldehydes take the suffix -al and the CHO carbon is always carbon 1, so no locant is needed. Ketones take the suffix -one; for butanone no locant is needed because the C=O can only be on carbon 2."
+  },
+  {
+    "id": "organic_basics-031",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "But-1-ene and but-2-ene are structural isomers.\n\nState the type of structural isomerism shown and explain your answer.",
+    "marks": 2,
+    "markPoints": [
+      "Position isomerism",
+      "Both have the same molecular formula (C₄H₈) and the same functional group (C=C), but the double bond is in a different position on the chain"
+    ],
+    "modelAnswer": "They show position isomerism. Both compounds have the molecular formula C₄H₈ and contain the same C=C functional group, but the double bond is between carbons 1 and 2 in but-1-ene and between carbons 2 and 3 in but-2-ene.",
+    "explanation": "Position isomers keep the same carbon skeleton and the same functional group; only the locant of the functional group changes. Chain isomers would differ in the skeleton, and functional group isomers would have different groups."
+  },
+  {
+    "id": "organic_basics-032",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "Propanal, CH₃CH₂CHO, and propanone, CH₃COCH₃, are structural isomers.\n\nState the molecular formula of the two compounds and the type of structural isomerism they show.",
+    "marks": 2,
+    "markPoints": [
+      "Molecular formula of both = C₃H₆O",
+      "Functional group isomerism (aldehyde and ketone)"
+    ],
+    "modelAnswer": "Both compounds have the molecular formula C₃H₆O. They show functional group isomerism, because propanal contains an aldehyde group whereas propanone contains a ketone group.",
+    "explanation": "Count the atoms in each condensed formula to confirm both are C₃H₆O. Since the difference between them is the functional group itself (CHO vs C=O between two carbons), this is functional group isomerism."
+  },
+  {
+    "id": "organic_basics-033",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(b)",
+    "question": "Name the functional group present in each of the following compounds:\n\n(i) CH₃CH₂COOH\n(ii) CH₃CH₂CH₂CHO\n(iii) CH₃CHBrCH₃",
+    "marks": 3,
+    "markPoints": [
+      "(i) carboxylic acid (COOH)",
+      "(ii) aldehyde (CHO)",
+      "(iii) haloalkane / C–Br (bromo group)"
+    ],
+    "modelAnswer": "(i) Carboxylic acid (the COOH group). (ii) Aldehyde (the CHO group at the end of the chain). (iii) Haloalkane — a bromine atom bonded to the carbon chain.",
+    "explanation": "Read condensed formulae from the characteristic endings: COOH is a carboxylic acid, CHO written at the end of a chain is an aldehyde, and a halogen atom (Br) attached to a carbon makes the compound a haloalkane."
+  },
+  {
+    "id": "organic_basics-034",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(c)",
+    "question": "Alkanes have the general formula CₙH₂ₙ₊₂.\n\nUse this general formula to deduce the molecular formula of the alkane containing 14 carbon atoms, and state the general formula of the homologous series of alcohols.",
+    "marks": 2,
+    "markPoints": [
+      "C₁₄H₃₀",
+      "Alcohols: CₙH₂ₙ₊₁OH (or CₙH₂ₙ₊₂O)"
+    ],
+    "modelAnswer": "With n = 14, the alkane is C₁₄H₃₀ (2 × 14 + 2 = 30 hydrogen atoms). The general formula of the alcohols is CₙH₂ₙ₊₁OH, which can also be written CₙH₂ₙ₊₂O.",
+    "explanation": "Substitute n into the general formula: hydrogens = 2n + 2. Alcohols are alkanes with one H replaced by OH, so their general formula is CₙH₂ₙ₊₁OH."
+  },
+  {
+    "id": "organic_basics-035",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(b)",
+    "question": "Explain the difference between a saturated hydrocarbon and an unsaturated hydrocarbon.",
+    "marks": 2,
+    "markPoints": [
+      "Saturated: contains only single (C–C) bonds",
+      "Unsaturated: contains at least one carbon–carbon multiple bond (C=C double bond or C≡C triple bond)"
+    ],
+    "modelAnswer": "A saturated hydrocarbon contains only single carbon–carbon bonds, whereas an unsaturated hydrocarbon contains at least one carbon–carbon multiple bond, such as the C=C double bond in an alkene.",
+    "explanation": "Saturation refers only to the carbon–carbon bonding: alkanes are saturated; alkenes are unsaturated because of the C=C double bond. Both are hydrocarbons because they contain carbon and hydrogen only."
+  },
+  {
+    "id": "organic_basics-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "Give the IUPAC name of the compound CH₃CHClCH(CH₃)CH₃ and explain how you decided which locants to use.",
+    "marks": 2,
+    "markPoints": [
+      "2-chloro-3-methylbutane",
+      "Numbering from either end gives the locant set {2,3}, so the lower locant is given to the substituent that is first alphabetically (chloro before methyl)"
+    ],
+    "modelAnswer": "The compound is 2-chloro-3-methylbutane. The longest chain is four carbons; numbering from either end gives locants 2 and 3 for the two substituents, so the tie is broken alphabetically: chloro comes before methyl, so chlorine takes the lower locant, 2.",
+    "explanation": "When the locant sets are identical from both ends, IUPAC rules assign the lower number to the substituent cited first in alphabetical order. Chloro (c) precedes methyl (m), so the name is 2-chloro-3-methylbutane, not 3-chloro-2-methylbutane."
+  },
+  {
+    "id": "organic_basics-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "Write the condensed structural formula and the molecular formula of 2,2-dimethylbutane.",
+    "marks": 2,
+    "markPoints": [
+      "Condensed structural formula: CH₃C(CH₃)₂CH₂CH₃",
+      "Molecular formula: C₆H₁₄"
+    ],
+    "modelAnswer": "The condensed structural formula is CH₃C(CH₃)₂CH₂CH₃ and the molecular formula is C₆H₁₄.",
+    "explanation": "Butane gives a four-carbon main chain; 2,2-dimethyl adds two CH₃ groups to carbon 2. Counting all six carbons and fourteen hydrogens confirms the molecular formula C₆H₁₄, which fits CₙH₂ₙ₊₂ for n = 6."
+  },
+  {
+    "id": "organic_basics-038",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "Propene has the structure CH₂=CHCH₃.\n\nDeduce the number of σ bonds and the number of π bonds in one molecule of propene.",
+    "marks": 2,
+    "markPoints": [
+      "8 σ bonds (6 C–H bonds, 1 C–C single bond and the σ component of the C=C)",
+      "1 π bond (in the C=C double bond)"
+    ],
+    "modelAnswer": "Propene contains 8 σ bonds: six C–H bonds, one C–C single bond, and one σ bond within the C=C double bond. It contains 1 π bond, which is the second bond of the C=C.",
+    "explanation": "Every bond contains exactly one σ bond; a double bond adds one π bond on top. Count the bonds: 6 C–H + 2 carbon–carbon linkages = 8 σ, plus 1 π from the double bond."
+  },
+  {
+    "id": "organic_basics-039",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(g)",
+    "question": "When hydrogen bromide reacts with an alkene, the H–Br bond breaks to form H⁺ and Br⁻.\n\nState the type of bond fission occurring and explain why bromine forms the negative ion.",
+    "marks": 2,
+    "markPoints": [
+      "Heterolytic fission (both bonding electrons go to one atom)",
+      "Bromine is more electronegative than hydrogen, so it takes both electrons from the bonding pair and becomes Br⁻"
+    ],
+    "modelAnswer": "The H–Br bond breaks by heterolytic fission, because both electrons of the bonding pair go to one atom. Bromine is more electronegative than hydrogen, so it attracts and keeps both bonding electrons, forming Br⁻ and leaving H⁺.",
+    "explanation": "Ions signal heterolytic fission. Which atom keeps the pair is decided by electronegativity: the more electronegative atom (Br) gains both electrons and carries the negative charge."
+  },
+  {
+    "id": "organic_basics-040",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(f)",
+    "question": "There are four alcohols with the molecular formula C₄H₁₀O.\n\nDefine structural isomerism, name all four alcohols, and identify one pair that shows position isomerism and one pair that shows chain isomerism.",
+    "marks": 6,
+    "markPoints": [
+      "Structural isomers have the same molecular formula but different structural formulae",
+      "Butan-1-ol",
+      "Butan-2-ol",
+      "2-methylpropan-1-ol",
+      "2-methylpropan-2-ol",
+      "Butan-1-ol and butan-2-ol are position isomers; butan-1-ol (or butan-2-ol) and 2-methylpropan-1-ol (or 2-methylpropan-2-ol) are chain isomers"
+    ],
+    "modelAnswer": "Structural isomers are compounds with the same molecular formula but different structural formulae. The four alcohols with the formula C₄H₁₀O are butan-1-ol (CH₃CH₂CH₂CH₂OH), butan-2-ol (CH₃CH(OH)CH₂CH₃), 2-methylpropan-1-ol (CH₃CH(CH₃)CH₂OH) and 2-methylpropan-2-ol ((CH₃)₃COH). Butan-1-ol and butan-2-ol are position isomers because only the position of the OH group differs on the same chain. Butan-1-ol and 2-methylpropan-1-ol are chain isomers because their carbon skeletons differ (straight chain versus branched).",
+    "explanation": "Generate the isomers systematically: put OH on carbon 1 then carbon 2 of the straight butane chain, then repeat on the branched 2-methylpropane skeleton (end carbon and central carbon). Position isomers share the same skeleton; chain isomers have different skeletons."
+  },
+  {
+    "id": "organic_basics-041",
+    "type": "written",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(c)",
+    "question": "Members of the same homologous series have similar chemical properties but their boiling points gradually increase along the series.\n\nExplain these two observations.",
+    "marks": 3,
+    "markPoints": [
+      "Similar chemical properties because every member contains the same functional group (which determines the reactions)",
+      "Successive members differ by CH₂, so chain length / number of electrons increases along the series",
+      "Larger molecules have stronger induced dipole–dipole (London) forces, so more energy is needed to separate them and boiling points increase"
+    ],
+    "modelAnswer": "All members of a homologous series contain the same functional group, and the functional group determines the chemical reactions, so their chemical properties are similar. Each successive member has an extra CH₂ group, so the molecules become larger with more electrons along the series. This strengthens the induced dipole–dipole (London) forces between molecules, so more energy is needed to overcome them and boiling points rise.",
+    "explanation": "Chemical similarity comes from the shared functional group; the physical trend comes from intermolecular forces. Link chain length to electron count and to stronger London forces — that causal chain is what earns the marks."
+  }
+]

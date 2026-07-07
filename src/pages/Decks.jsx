@@ -22,7 +22,7 @@ function PaperRow({ paper }) {
   return (
     <Link className="deck-row" to={`/review/${encodeURIComponent(paper.deckId)}`}>
       <span className="deck-label">
-        {paper.label} — Paper 1
+        {paper.title}
         <span className="deck-sub">{paper.cards.length} questions · {totalMarks} marks</span>
         <span className="deck-mastery">
           <span className="deck-mastery-bar">

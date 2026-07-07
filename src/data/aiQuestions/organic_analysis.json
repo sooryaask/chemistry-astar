@@ -1,0 +1,718 @@
+[
+  {
+    "id": "organic_analysis-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(a)",
+    "question": "The mass spectrum of a straight-chain alcohol has a molecular ion peak at m/z = 60.\n\nWhat is the alcohol?",
+    "options": { "A": "propan-1-ol", "B": "butan-1-ol", "C": "ethanol", "D": "pentan-1-ol" },
+    "correctOption": "A",
+    "explanation": "The molecular ion peak gives the relative molecular mass of the compound. Propan-1-ol, C₃H₇OH, has Mr = (3 × 12.0) + (8 × 1.0) + 16.0 = 60.0, matching m/z = 60.",
+    "steps": [
+      "Step 1 – The molecular ion peak (M⁺) appears at the m/z value equal to the relative molecular mass.",
+      "Step 2 – Calculate Mr for each option: propan-1-ol C₃H₈O = 60; butan-1-ol C₄H₁₀O = 74; ethanol C₂H₆O = 46; pentan-1-ol C₅H₁₂O = 88.",
+      "Step 3 – Only propan-1-ol has Mr = 60.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "The infrared spectrum of an organic compound has a strong absorption at 1715 cm⁻¹ but no broad absorption in the range 2500–3300 cm⁻¹ or 3200–3600 cm⁻¹.\n\nWhich compound could it be?",
+    "options": { "A": "propan-1-ol", "B": "propanoic acid", "C": "propanone", "D": "propane" },
+    "correctOption": "C",
+    "explanation": "An absorption at 1715 cm⁻¹ is in the C=O range (1630–1820 cm⁻¹). The absence of a broad O–H absorption rules out an alcohol (3200–3600 cm⁻¹) and a carboxylic acid (2500–3300 cm⁻¹), so the compound is the ketone propanone.",
+    "steps": [
+      "Step 1 – 1715 cm⁻¹ lies in the C=O range 1630–1820 cm⁻¹, so a carbonyl group is present. This rules out propan-1-ol and propane.",
+      "Step 2 – A carboxylic acid would also show a very broad O–H absorption at 2500–3300 cm⁻¹, which is absent, ruling out propanoic acid.",
+      "Step 3 – A C=O with no O–H is consistent with a ketone (or aldehyde): propanone.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_analysis-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "The mass spectrum of butane has a fragment ion peak at m/z = 29.\n\nWhich ion is responsible for this peak?",
+    "options": { "A": "CH₃⁺", "B": "C₂H₅⁺", "C": "C₃H₇⁺", "D": "C₂H₄⁺" },
+    "correctOption": "B",
+    "explanation": "C₂H₅⁺ has mass (2 × 12.0) + (5 × 1.0) = 29. Fragment peaks are caused by positive ions formed when the molecular ion breaks apart; only ions are detected.",
+    "steps": [
+      "Step 1 – Calculate the mass of each fragment ion: CH₃⁺ = 15, C₂H₅⁺ = 29, C₃H₇⁺ = 43, C₂H₄⁺ = 28.",
+      "Step 2 – The peak at m/z = 29 matches C₂H₅⁺, formed when the butane molecular ion loses a •CH₃ radical.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "The mass spectrum of an organic compound has a molecular ion peak at m/z = 72 and a fragment peak at m/z = 57.\n\nWhich species is lost from the molecular ion to give the fragment at m/z = 57?",
+    "options": { "A": "OH", "B": "CH₃", "C": "C₂H₅", "D": "H₂O" },
+    "correctOption": "B",
+    "explanation": "The difference 72 − 57 = 15, which is the mass of a methyl group, CH₃ (12 + 3 × 1). The neutral radical •CH₃ is lost and the remaining positive fragment is detected at m/z = 57.",
+    "steps": [
+      "Step 1 – Mass lost = 72 − 57 = 15.",
+      "Step 2 – Compare with the options: OH = 17, CH₃ = 15, C₂H₅ = 29, H₂O = 18.",
+      "Step 3 – A loss of 15 corresponds to a methyl group.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "A student has samples of butan-1-ol and 2-methylpropan-2-ol.\n\nWhich reagent could be used to distinguish between them?",
+    "options": {
+      "A": "bromine water",
+      "B": "acidified potassium dichromate(VI)",
+      "C": "distilled water",
+      "D": "dilute sodium hydroxide"
+    },
+    "correctOption": "B",
+    "explanation": "Butan-1-ol is a primary alcohol, so it is oxidised by K₂Cr₂O₇/H₂SO₄ and the mixture turns from orange to green. 2-Methylpropan-2-ol is a tertiary alcohol and is not oxidised, so the mixture stays orange.",
+    "steps": [
+      "Step 1 – Classify the alcohols: butan-1-ol is primary; 2-methylpropan-2-ol is tertiary.",
+      "Step 2 – Primary and secondary alcohols are oxidised by acidified dichromate(VI) (orange → green); tertiary alcohols are not (stays orange).",
+      "Step 3 – Bromine water tests for C=C, and neither water nor NaOH gives a visible difference.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-006",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Which reagents and conditions are needed to convert ethanol into ethanoic acid?",
+    "options": {
+      "A": "excess acidified K₂Cr₂O₇, heat under reflux",
+      "B": "acidified K₂Cr₂O₇, distil the product off as it forms",
+      "C": "bromine water at room temperature",
+      "D": "steam with an H₃PO₄ catalyst"
+    },
+    "correctOption": "A",
+    "explanation": "Complete oxidation of a primary alcohol to a carboxylic acid needs an excess of the oxidising agent and heating under reflux, so the intermediate aldehyde stays in the flask and is oxidised further.",
+    "steps": [
+      "Step 1 – Ethanol (primary alcohol) → ethanoic acid is a full oxidation, via the aldehyde ethanal.",
+      "Step 2 – Reflux keeps the volatile ethanal in the reaction mixture so it is oxidised further; excess oxidising agent ensures complete oxidation.",
+      "Step 3 – Distilling as the product forms (option B) would give ethanal instead; C and D are not oxidations.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-007",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Ethene is converted into ethanoic acid in a two-step synthesis:\n\nStep 1: ethene → ethanol\nStep 2: ethanol → ethanoic acid\n\nWhich pair of reagents/conditions is correct?",
+    "options": {
+      "A": "Step 1: H₂O(g)/H₃PO₄ catalyst; Step 2: excess K₂Cr₂O₇/H₂SO₄, reflux",
+      "B": "Step 1: HBr; Step 2: NaOH(aq), reflux",
+      "C": "Step 1: H₂/Ni catalyst; Step 2: K₂Cr₂O₇/H₂SO₄, distil",
+      "D": "Step 1: Br₂; Step 2: excess K₂Cr₂O₇/H₂SO₄, reflux"
+    },
+    "correctOption": "A",
+    "explanation": "Ethene is hydrated with steam and a phosphoric acid catalyst to give ethanol, which is then fully oxidised to ethanoic acid by refluxing with excess acidified dichromate(VI).",
+    "steps": [
+      "Step 1 – Alkene → alcohol: steam hydration, H₂O(g) with an H₃PO₄ catalyst (high temperature and pressure).",
+      "Step 2 – Primary alcohol → carboxylic acid: heat under reflux with excess acidified potassium dichromate(VI).",
+      "Step 3 – HBr gives a bromoalkane, H₂/Ni gives ethane, Br₂ gives a dibromoalkane — none gives ethanol.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-008",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Which compound decolourises bromine water at room temperature?",
+    "options": { "A": "butane", "B": "butan-1-ol", "C": "but-1-ene", "D": "1-bromobutane" },
+    "correctOption": "C",
+    "explanation": "Bromine water is decolourised (orange to colourless) by compounds containing a C=C double bond, which undergo electrophilic addition. But-1-ene is the only unsaturated compound listed.",
+    "steps": [
+      "Step 1 – The bromine water test detects a C=C double bond (unsaturation).",
+      "Step 2 – Butane, butan-1-ol and 1-bromobutane are all saturated, so the bromine water stays orange.",
+      "Step 3 – But-1-ene contains C=C, so bromine adds across the double bond and the orange colour is lost.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_analysis-009",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(a)",
+    "question": "In the mass spectrum of a hydrocarbon, the M+1 peak has an abundance of 6.6% of the molecular ion peak.\n\nGiven that the natural abundance of ¹³C is about 1.1%, how many carbon atoms are in one molecule of the hydrocarbon?",
+    "options": { "A": "4", "B": "5", "C": "6", "D": "7" },
+    "correctOption": "C",
+    "explanation": "The M+1 peak arises from molecules containing one ¹³C atom. Its relative abundance is approximately (number of C atoms) × 1.1%, so n = 6.6 ÷ 1.1 = 6 carbon atoms.",
+    "steps": [
+      "Step 1 – The M+1 peak is due to the 1.1% of carbon atoms that are the ¹³C isotope.",
+      "Step 2 – Relative height of M+1 ≈ n × 1.1%, where n = number of carbon atoms.",
+      "Step 3 – n = 6.6 ÷ 1.1 = 6.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_analysis-010",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "The infrared spectrum of compound X has a very broad absorption between 2500 and 3300 cm⁻¹ and a strong absorption at 1710 cm⁻¹.\n\nWhich functional group is present in X?",
+    "options": { "A": "alcohol", "B": "carboxylic acid", "C": "ketone", "D": "alkene" },
+    "correctOption": "B",
+    "explanation": "A carboxylic acid shows both a very broad O–H absorption at 2500–3300 cm⁻¹ and a strong C=O absorption in the range 1630–1820 cm⁻¹. Together these two absorptions identify the COOH group.",
+    "steps": [
+      "Step 1 – The broad absorption at 2500–3300 cm⁻¹ is the O–H of a carboxylic acid (an alcohol O–H would be at 3200–3600 cm⁻¹).",
+      "Step 2 – The strong absorption at 1710 cm⁻¹ is a C=O bond (range 1630–1820 cm⁻¹).",
+      "Step 3 – O–H (acid) together with C=O indicates the carboxyl group, COOH.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-011",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(d)",
+    "question": "Which gas in the atmosphere absorbs infrared radiation and contributes to the greenhouse effect?",
+    "options": { "A": "N₂", "B": "O₂", "C": "CO₂", "D": "Ar" },
+    "correctOption": "C",
+    "explanation": "The C=O bonds in CO₂ absorb infrared radiation emitted from the Earth's surface, causing the bonds to vibrate; some of this energy is re-emitted towards the surface, warming the atmosphere. N₂, O₂ and Ar do not absorb IR in this way.",
+    "steps": [
+      "Step 1 – Greenhouse gases have bonds that absorb infrared radiation, e.g. C=O in CO₂, C–H in CH₄, O–H in H₂O.",
+      "Step 2 – Ar is monatomic (no bonds) and the bonds in N₂ and O₂ do not absorb IR effectively.",
+      "Step 3 – CO₂ absorbs IR strongly and re-emits it, contributing to global warming.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "organic_analysis-012",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "A student oxidises 23.0 g of ethanol (Mr = 46.0) and obtains 15.4 g of ethanal (Mr = 44.0).\n\nWhat is the percentage yield?",
+    "options": { "A": "35%", "B": "50%", "C": "67%", "D": "70%" },
+    "correctOption": "D",
+    "explanation": "Moles of ethanol = 23.0 ÷ 46.0 = 0.500 mol, so the theoretical yield of ethanal is 0.500 mol. Actual moles = 15.4 ÷ 44.0 = 0.350 mol. Percentage yield = 0.350 ÷ 0.500 × 100 = 70%.",
+    "steps": [
+      "Step 1 – Moles of ethanol = 23.0 ÷ 46.0 = 0.500 mol; the 1 : 1 ratio means 0.500 mol ethanal is the theoretical yield.",
+      "Step 2 – Moles of ethanal obtained = 15.4 ÷ 44.0 = 0.350 mol.",
+      "Step 3 – Percentage yield = (0.350 ÷ 0.500) × 100 = 70%.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "organic_analysis-013",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "The mass spectrum of ethanoic acid, CH₃COOH, has a fragment peak at m/z = 45.\n\nWhich ion is responsible for this peak?",
+    "options": { "A": "CH₃CO⁺", "B": "COOH⁺", "C": "C₂H₅O⁺", "D": "CH₃⁺" },
+    "correctOption": "B",
+    "explanation": "COOH⁺ has mass 12 + 16 + 16 + 1 = 45. It forms when the molecular ion of ethanoic acid (m/z = 60) loses a •CH₃ radical (mass 15).",
+    "steps": [
+      "Step 1 – Mr of ethanoic acid = 60, so the fragment at 45 corresponds to a loss of 15 (a CH₃ group).",
+      "Step 2 – Losing •CH₃ from CH₃COOH⁺• leaves COOH⁺, mass 45.",
+      "Step 3 – Check the alternatives: CH₃CO⁺ = 43, CH₃⁺ = 15; C₂H₅O⁺ (45) cannot form from ethanoic acid's structure by a single bond break.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-014",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Which reagent and conditions convert 1-bromopropane into propan-1-ol?",
+    "options": {
+      "A": "NaOH(aq), heat under reflux",
+      "B": "H₂O(g), H₃PO₄ catalyst",
+      "C": "K₂Cr₂O₇/H₂SO₄, heat under reflux",
+      "D": "Br₂ at room temperature"
+    },
+    "correctOption": "A",
+    "explanation": "Haloalkanes are hydrolysed to alcohols by heating under reflux with aqueous sodium hydroxide. The OH⁻ ion substitutes for the bromine atom (nucleophilic substitution).",
+    "steps": [
+      "Step 1 – Haloalkane → alcohol is a hydrolysis / nucleophilic substitution.",
+      "Step 2 – The standard reagent is aqueous NaOH (or water), heated under reflux: CH₃CH₂CH₂Br + OH⁻ → CH₃CH₂CH₂OH + Br⁻.",
+      "Step 3 – Steam/H₃PO₄ hydrates alkenes, dichromate oxidises alcohols, and Br₂ would not replace Br with OH.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-015",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(a)",
+    "question": "A student wants to prepare propanal by oxidising propan-1-ol with acidified potassium dichromate(VI).\n\nWhich technique should be used to obtain propanal rather than propanoic acid?",
+    "options": {
+      "A": "heat under reflux with excess oxidising agent",
+      "B": "distil the propanal out of the reaction mixture as it forms",
+      "C": "carry out the reaction at room temperature with no heating",
+      "D": "add anti-bumping granules and reflux for several hours"
+    },
+    "correctOption": "B",
+    "explanation": "Propanal has a lower boiling point than propan-1-ol, so it can be distilled off as soon as it forms. Removing it from the mixture prevents further oxidation to propanoic acid, which would occur under reflux.",
+    "steps": [
+      "Step 1 – Oxidation of a primary alcohol goes alcohol → aldehyde → carboxylic acid; to stop at the aldehyde it must be removed from the oxidising mixture.",
+      "Step 2 – The aldehyde boils at a lower temperature than the alcohol, so distillation removes it as it forms.",
+      "Step 3 – Refluxing (options A and D) keeps the aldehyde in contact with the oxidising agent and gives the carboxylic acid.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-016",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "Compound X has a molecular ion peak at m/z = 74 in its mass spectrum. Its infrared spectrum has a very broad absorption between 2500 and 3300 cm⁻¹ and a strong absorption at 1715 cm⁻¹.\n\nWhat is X?",
+    "options": { "A": "butan-1-ol", "B": "propanoic acid", "C": "butanal", "D": "butan-2-ol" },
+    "correctOption": "B",
+    "explanation": "The IR absorptions (broad O–H at 2500–3300 cm⁻¹ plus C=O at 1715 cm⁻¹) show a carboxylic acid. Propanoic acid, C₂H₅COOH, has Mr = 74, matching the molecular ion peak.",
+    "steps": [
+      "Step 1 – Broad 2500–3300 cm⁻¹ = carboxylic acid O–H; 1715 cm⁻¹ = C=O. X is a carboxylic acid, ruling out the alcohols and the aldehyde.",
+      "Step 2 – Check the Mr: propanoic acid C₃H₆O₂ = 74, which matches the molecular ion at m/z = 74.",
+      "Step 3 – Butan-1-ol and butan-2-ol (Mr 74) have no C=O; butanal (Mr 72) has no broad acid O–H.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-017",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "A compound with molecular formula C₃H₆O has a mass spectrum with a major fragment peak at m/z = 43 and a peak at m/z = 15, but no significant peak at m/z = 29.\n\nWhich compound is it?",
+    "options": { "A": "propanal", "B": "propanone", "C": "prop-2-en-1-ol", "D": "propan-1-ol" },
+    "correctOption": "B",
+    "explanation": "Propanone, CH₃COCH₃, fragments by losing a •CH₃ radical to give CH₃CO⁺ at m/z = 43 and also gives CH₃⁺ at m/z = 15. Propanal would give a significant CHO⁺/C₂H₅⁺ peak at m/z = 29.",
+    "steps": [
+      "Step 1 – Propan-1-ol is C₃H₈O (Mr 60), not C₃H₆O, so it is eliminated immediately.",
+      "Step 2 – Propanal, CH₃CH₂CHO, readily fragments to give CHO⁺ and C₂H₅⁺, both at m/z = 29 — but this peak is absent.",
+      "Step 3 – Propanone loses •CH₃ to give CH₃CO⁺ (m/z = 43) and forms CH₃⁺ (m/z = 15), matching the data.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-018",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(a)",
+    "question": "After preparing a liquid organic product, a student shakes it with water in a separating funnel and runs off the aqueous layer.\n\nWhich substance should be added next to remove traces of water from the organic layer?",
+    "options": {
+      "A": "anhydrous MgSO₄",
+      "B": "concentrated H₂SO₄",
+      "C": "dilute NaOH",
+      "D": "bromine water"
+    },
+    "correctOption": "A",
+    "explanation": "Anhydrous magnesium sulfate is a drying agent: it absorbs the remaining water from the organic liquid and is then removed by filtration or decanting before the product is redistilled.",
+    "steps": [
+      "Step 1 – The step after separating the aqueous layer is drying the organic layer.",
+      "Step 2 – A solid anhydrous salt such as anhydrous MgSO₄ (or CaCl₂) absorbs the water and can be filtered off.",
+      "Step 3 – Concentrated H₂SO₄ could react with the product, and NaOH or bromine water would add water/react, not remove it.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-019",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Which two-step sequence converts 1-bromopropane into propanoic acid?",
+    "options": {
+      "A": "Step 1: NaOH(aq), reflux; Step 2: excess K₂Cr₂O₇/H₂SO₄, reflux",
+      "B": "Step 1: K₂Cr₂O₇/H₂SO₄, reflux; Step 2: NaOH(aq), reflux",
+      "C": "Step 1: H₂O(g)/H₃PO₄; Step 2: K₂Cr₂O₇/H₂SO₄, distil",
+      "D": "Step 1: NaOH(aq), reflux; Step 2: K₂Cr₂O₇/H₂SO₄, distil"
+    },
+    "correctOption": "A",
+    "explanation": "Hydrolysis with aqueous NaOH under reflux converts 1-bromopropane into propan-1-ol. Refluxing the primary alcohol with excess acidified dichromate(VI) then oxidises it fully to propanoic acid.",
+    "steps": [
+      "Step 1 – 1-bromopropane → propan-1-ol: hydrolysis with NaOH(aq), heat under reflux.",
+      "Step 2 – propan-1-ol → propanoic acid: full oxidation needs excess acidified K₂Cr₂O₇ heated under reflux.",
+      "Step 3 – Distilling in step 2 (option D) would stop the oxidation at propanal; oxidising the haloalkane first (B) does not work; steam hydration (C) is for alkenes.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-020",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(a)",
+    "question": "In mass spectrometry, a molecular ion peak is seen in the spectrum of an organic compound.\n\nState what is meant by the term molecular ion.",
+    "marks": 1,
+    "markPoints": [
+      "The (positive) ion formed when a molecule loses one electron / the ion formed from the whole (unfragmented) molecule, M⁺"
+    ],
+    "modelAnswer": "The molecular ion is the positive ion formed when a complete molecule of the compound loses one electron in the mass spectrometer, M⁺.",
+    "explanation": "The molecular ion is the intact molecule minus one electron. Its m/z value equals the relative molecular mass of the compound, which is why the molecular ion peak is used to find Mr."
+  },
+  {
+    "id": "organic_analysis-021",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "The mass spectrum of butane, C₄H₁₀, has a molecular ion peak and fragment peaks at m/z = 43 and m/z = 29.\n\nState the m/z value of the molecular ion peak and identify the ions responsible for the two fragment peaks.",
+    "marks": 3,
+    "markPoints": [
+      "Molecular ion peak at m/z = 58",
+      "m/z = 43 is C₃H₇⁺ (loss of CH₃)",
+      "m/z = 29 is C₂H₅⁺ (loss of C₂H₅ / CH₃CH₂)"
+    ],
+    "modelAnswer": "The molecular ion peak is at m/z = 58 (Mr of C₄H₁₀). The peak at m/z = 43 is the C₃H₇⁺ ion, formed when the molecular ion loses a •CH₃ radical, and the peak at m/z = 29 is the C₂H₅⁺ ion, formed by loss of an ethyl radical.",
+    "explanation": "Fragment m/z values are found by subtracting from the molecular ion: 58 − 15 = 43 (loss of CH₃) and 58 − 29 = 29 (loss of C₂H₅). Only the positively charged fragment is detected; the radical lost is neutral."
+  },
+  {
+    "id": "organic_analysis-022",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(a)",
+    "question": "The mass spectrum of an organic compound shows a small peak one unit higher than the molecular ion peak, called the M+1 peak.\n\nExplain the origin of the M+1 peak.",
+    "marks": 2,
+    "markPoints": [
+      "Some molecules contain a ¹³C atom (an isotope of carbon)",
+      "¹³C has one more mass unit than ¹²C, so these molecular ions appear at one m/z unit higher (about 1.1% of carbon is ¹³C)"
+    ],
+    "modelAnswer": "About 1.1% of carbon atoms are the ¹³C isotope. Molecules that contain one ¹³C atom in place of ¹²C have a mass one unit greater, so their molecular ions produce a small peak at M+1.",
+    "explanation": "The M+1 peak links mass spectrometry back to isotopes. Its height relative to M can even be used to estimate the number of carbon atoms, since each carbon contributes about 1.1% probability of being ¹³C."
+  },
+  {
+    "id": "organic_analysis-023",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "The infrared spectrum of compound A has a broad absorption at 3350 cm⁻¹ and no absorption in the range 1630–1820 cm⁻¹.\n\nIdentify the functional group in A and justify your answer using both pieces of data.",
+    "marks": 2,
+    "markPoints": [
+      "Hydroxyl / O–H group of an alcohol, because the broad absorption at 3350 cm⁻¹ lies in the O–H (alcohol) range 3200–3600 cm⁻¹",
+      "No absorption at 1630–1820 cm⁻¹ means no C=O, so A is not a carboxylic acid (or aldehyde/ketone)"
+    ],
+    "modelAnswer": "A contains the O–H group of an alcohol. The broad absorption at 3350 cm⁻¹ is within the alcohol O–H range of 3200–3600 cm⁻¹, and the absence of any absorption at 1630–1820 cm⁻¹ shows there is no C=O bond, ruling out a carboxylic acid.",
+    "explanation": "Always use both the presence and the absence of key absorptions: the broad O–H at 3200–3600 cm⁻¹ identifies the alcohol, and the missing C=O confirms it is not an acid."
+  },
+  {
+    "id": "organic_analysis-024",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "The infrared spectrum of compound X has a very broad absorption between 2500 and 3300 cm⁻¹ and a strong absorption at 1715 cm⁻¹.\n\nIdentify the functional group in X and state which bond is responsible for each absorption.",
+    "marks": 3,
+    "markPoints": [
+      "X contains a carboxylic acid / COOH group",
+      "The broad absorption at 2500–3300 cm⁻¹ is caused by the O–H bond (of a carboxylic acid)",
+      "The strong absorption at 1715 cm⁻¹ is caused by the C=O bond (range 1630–1820 cm⁻¹)"
+    ],
+    "modelAnswer": "X contains a carboxylic acid (COOH) group. The very broad absorption at 2500–3300 cm⁻¹ is due to the O–H bond of the acid, and the strong absorption at 1715 cm⁻¹ is due to the C=O bond.",
+    "explanation": "The COOH group produces two diagnostic absorptions: the acid O–H (very broad, 2500–3300 cm⁻¹, often overlapping the C–H region) and the C=O (1630–1820 cm⁻¹). Seeing both together identifies a carboxylic acid."
+  },
+  {
+    "id": "organic_analysis-025",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(e)",
+    "question": "Compound X contains carbon, hydrogen and oxygen only.\n\nThe mass spectrum of X has a molecular ion peak at m/z = 74 and fragment peaks at m/z = 57, m/z = 45 and m/z = 29.\n\nThe infrared spectrum of X has a very broad absorption between 2500 and 3300 cm⁻¹ and a strong absorption at 1710 cm⁻¹.\n\nDeduce the structure of X. In your answer, explain how each piece of spectroscopic evidence supports your structure.",
+    "marks": 6,
+    "markPoints": [
+      "Broad IR absorption at 2500–3300 cm⁻¹ shows an O–H of a carboxylic acid",
+      "Strong IR absorption at 1710 cm⁻¹ shows a C=O bond, so X contains a COOH group",
+      "Molecular ion at m/z = 74 gives Mr = 74, consistent with C₂H₅COOH (propanoic acid)",
+      "m/z = 57 corresponds to loss of OH (74 − 17), giving C₂H₅CO⁺",
+      "m/z = 45 is COOH⁺ (and/or m/z = 29 is C₂H₅⁺, showing an ethyl group)",
+      "X is propanoic acid, CH₃CH₂COOH"
+    ],
+    "modelAnswer": "The broad IR absorption at 2500–3300 cm⁻¹ is a carboxylic acid O–H and the strong absorption at 1710 cm⁻¹ is a C=O, so X contains a COOH group. The molecular ion at m/z = 74 gives Mr = 74, which fits C₂H₅COOH. The fragments confirm this: 74 − 57 = 17 is loss of OH giving C₂H₅CO⁺; m/z = 45 is COOH⁺; and m/z = 29 is C₂H₅⁺, showing an ethyl group. X is therefore propanoic acid, CH₃CH₂COOH.",
+    "explanation": "Structure-deduction questions want a logical chain: IR identifies the functional group, the molecular ion gives Mr and hence the molecular formula, and the fragment losses (17 = OH, 45 = COOH, 29 = C₂H₅) confirm which pieces the molecule is built from."
+  },
+  {
+    "id": "organic_analysis-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "A student has two unlabelled samples: one is butan-1-ol and the other is 2-methylpropan-2-ol.\n\nDescribe a chemical test the student could use to identify which sample is which. Include the reagent and the observation with each alcohol.",
+    "marks": 3,
+    "markPoints": [
+      "Add acidified potassium dichromate(VI) (K₂Cr₂O₇/H₂SO₄) and warm",
+      "Butan-1-ol (primary alcohol): the mixture turns from orange to green (it is oxidised)",
+      "2-methylpropan-2-ol (tertiary alcohol): the mixture stays orange (no oxidation)"
+    ],
+    "modelAnswer": "Warm each sample with acidified potassium dichromate(VI). Butan-1-ol is a primary alcohol, so it is oxidised and the solution turns from orange to green. 2-Methylpropan-2-ol is a tertiary alcohol, so it is not oxidised and the solution remains orange.",
+    "explanation": "Acidified dichromate distinguishes primary/secondary alcohols (oxidised, orange → green as Cr₂O₇²⁻ is reduced to Cr³⁺) from tertiary alcohols (resist oxidation). Both observations are needed for full marks."
+  },
+  {
+    "id": "organic_analysis-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Describe a test-tube reaction to show that cyclohexene is unsaturated but cyclohexane is not. State the reagent and the observation with each compound.",
+    "marks": 2,
+    "markPoints": [
+      "Add bromine water (and shake): with cyclohexene the bromine water is decolourised / turns from orange to colourless",
+      "With cyclohexane the bromine water remains orange (no reaction at room temperature)"
+    ],
+    "modelAnswer": "Shake each compound with bromine water. Cyclohexene decolourises the bromine water (orange to colourless) because bromine adds across the C=C double bond. With cyclohexane the bromine water stays orange, showing no C=C is present.",
+    "explanation": "Bromine water is the standard AS test for unsaturation. The colour change must be stated as orange to colourless — 'clear' is not accepted because clear means transparent, not colourless."
+  },
+  {
+    "id": "organic_analysis-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Ethanoic acid can be made from ethene in a two-step synthesis via ethanol.\n\nState the reagents and conditions needed for each step of this synthesis.",
+    "marks": 4,
+    "markPoints": [
+      "Step 1: steam / H₂O(g)",
+      "Step 1 conditions: H₃PO₄ (phosphoric acid) catalyst (with high temperature and pressure)",
+      "Step 2: (excess) potassium dichromate(VI) acidified with (dilute) sulfuric acid",
+      "Step 2 conditions: heat under reflux"
+    ],
+    "modelAnswer": "Step 1: react ethene with steam using a phosphoric acid (H₃PO₄) catalyst at high temperature and pressure to give ethanol. Step 2: heat the ethanol under reflux with excess potassium dichromate(VI) acidified with dilute sulfuric acid to oxidise it fully to ethanoic acid.",
+    "explanation": "Each synthesis step earns marks for the reagent AND the conditions. Hydration of an alkene needs steam with an acid catalyst; full oxidation of a primary alcohol needs excess acidified dichromate and reflux (distillation would stop at the aldehyde)."
+  },
+  {
+    "id": "organic_analysis-029",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Plan a two-step synthesis of butanoic acid, CH₃CH₂CH₂COOH, starting from 1-bromobutane.\n\nFor each step, name the organic product and state the reagents and conditions.",
+    "marks": 4,
+    "markPoints": [
+      "Step 1: heat 1-bromobutane under reflux with aqueous sodium hydroxide (NaOH(aq))",
+      "Step 1 product: butan-1-ol",
+      "Step 2: heat under reflux with excess potassium dichromate(VI) acidified with sulfuric acid",
+      "Step 2 product: butanoic acid"
+    ],
+    "modelAnswer": "Step 1: heat 1-bromobutane under reflux with aqueous sodium hydroxide; hydrolysis gives butan-1-ol. Step 2: heat the butan-1-ol under reflux with excess acidified potassium dichromate(VI); the primary alcohol is oxidised fully to butanoic acid.",
+    "explanation": "The route is haloalkane → alcohol → carboxylic acid. Hydrolysis needs NaOH(aq) and reflux; full oxidation needs excess oxidising agent and reflux so the intermediate butanal is oxidised further rather than escaping."
+  },
+  {
+    "id": "organic_analysis-030",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "A student oxidises 7.40 g of butan-1-ol (Mr = 74.0) to butanoic acid (Mr = 88.0) and obtains 6.16 g of pure butanoic acid.\n\nCalculate the percentage yield. Give your answer to 3 significant figures.",
+    "marks": 3,
+    "markPoints": [
+      "Moles of butan-1-ol = 7.40 ÷ 74.0 = 0.100 mol (= theoretical moles of butanoic acid, 1 : 1)",
+      "Moles of butanoic acid obtained = 6.16 ÷ 88.0 = 0.0700 mol (or theoretical mass = 8.80 g)",
+      "Percentage yield = (0.0700 ÷ 0.100) × 100 = 70.0%"
+    ],
+    "modelAnswer": "Moles of butan-1-ol = 7.40 ÷ 74.0 = 0.100 mol, so the theoretical yield of butanoic acid is 0.100 mol (8.80 g). Actual moles = 6.16 ÷ 88.0 = 0.0700 mol. Percentage yield = (0.0700 ÷ 0.100) × 100 = 70.0%.",
+    "explanation": "Percentage yield = actual moles ÷ theoretical moles × 100. Work in moles because the reactant and product have different molar masses; the 1 : 1 stoichiometry means moles of alcohol = theoretical moles of acid."
+  },
+  {
+    "id": "organic_analysis-031",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "The percentage yield of an organic synthesis is usually less than 100%.\n\nSuggest two reasons for this.",
+    "marks": 2,
+    "markPoints": [
+      "The reaction may be incomplete / at equilibrium / side reactions form by-products",
+      "Product is lost during separation and purification (e.g. transfers between containers, left in apparatus, lost during distillation or in the separating funnel)"
+    ],
+    "modelAnswer": "The reaction may not go to completion, or side reactions may convert some reactant into by-products. In addition, some product is lost during purification steps such as transferring between containers, separating layers and distilling.",
+    "explanation": "The two standard reason categories are chemical (incomplete reaction, equilibrium, side reactions) and practical (losses during work-up and purification). Give one of each for a safe two marks."
+  },
+  {
+    "id": "organic_analysis-032",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(d)",
+    "question": "Carbon dioxide in the atmosphere contributes to global warming.\n\nExplain, in terms of infrared radiation, how CO₂ acts as a greenhouse gas.",
+    "marks": 3,
+    "markPoints": [
+      "The Earth's surface emits / radiates infrared radiation",
+      "The C=O bonds in CO₂ absorb this infrared radiation, making the bonds vibrate (stretch/bend)",
+      "The energy is re-emitted / re-radiated (in all directions, some back towards the Earth's surface), warming the atmosphere"
+    ],
+    "modelAnswer": "The Earth's surface absorbs energy from the Sun and re-emits it as infrared radiation. The C=O bonds in CO₂ molecules absorb some of this infrared radiation, causing the bonds to vibrate. The molecules then re-emit the energy in all directions, including back towards the Earth, so heat is trapped in the atmosphere and the temperature rises.",
+    "explanation": "Link the IR spectroscopy idea (bonds absorb IR and vibrate) to the greenhouse effect: absorption of IR emitted by the Earth, then re-emission of that energy back towards the surface."
+  },
+  {
+    "id": "organic_analysis-033",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(a)",
+    "question": "The mass spectrum of an unknown compound shows a molecular ion peak at m/z = 88.\n\nThe compound contains only carbon, hydrogen and oxygen and has one degree of unsaturation.\n\nWhich molecular formula is consistent with these data?",
+    "options": {
+      "A": "C₄H₈O₂",
+      "B": "C₅H₁₂O",
+      "C": "C₄H₁₆O",
+      "D": "C₃H₄O₃"
+    },
+    "correctOption": "A",
+    "explanation": "Mr = 88 and one degree of unsaturation (e.g. a C=O in a carboxylic acid or ester). C₄H₈O₂ has Mr = (4×12) + (8×1) + (2×16) = 48 + 8 + 32 = 88 and one degree of unsaturation from the C=O group. C₅H₁₂O has Mr = 88 but zero degrees of unsaturation (saturated alcohol). C₄H₁₆O and C₃H₄O₃ do not satisfy both constraints simultaneously.",
+    "steps": [
+      "Step 1 – Calculate Mr for each option: C₄H₈O₂ = 48 + 8 + 32 = 88; C₅H₁₂O = 60 + 12 + 16 = 88; C₄H₁₆O = 48 + 16 + 16 = 80 (not 88); C₃H₄O₃ = 36 + 4 + 48 = 88.",
+      "Step 2 – Eliminate C₄H₁₆O (Mr = 80, not 88).",
+      "Step 3 – Check degrees of unsaturation. For CₙHₘOₓ: DoU = (2n + 2 − m) ÷ 2. C₄H₈O₂: (10 − 8) ÷ 2 = 1 (correct). C₅H₁₂O: (12 − 12) ÷ 2 = 0 (no unsaturation). C₃H₄O₃: (8 − 4) ÷ 2 = 2 (two degrees).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "organic_analysis-034",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "Which absorption in the infrared spectrum would confirm the presence of a primary amine (–NH₂) group in an organic compound?",
+    "options": {
+      "A": "Broad absorption at 2500–3300 cm⁻¹",
+      "B": "Two absorptions in the range 3300–3500 cm⁻¹",
+      "C": "Strong absorption at 1715 cm⁻¹ only",
+      "D": "Absorption at 1000–1300 cm⁻¹ only"
+    },
+    "correctOption": "B",
+    "explanation": "A primary amine contains an –NH₂ group, which gives two N–H stretching absorptions (symmetric and asymmetric) in the range 3300–3500 cm⁻¹. A carboxylic acid O–H gives a single very broad absorption at 2500–3300 cm⁻¹, while 1715 cm⁻¹ corresponds to C=O and 1000–1300 cm⁻¹ is the fingerprint region.",
+    "steps": [
+      "Step 1 – N–H bonds in amines absorb IR in the 3300–3500 cm⁻¹ region.",
+      "Step 2 – A primary amine has two N–H bonds (–NH₂), producing two distinct absorptions (symmetric and asymmetric N–H stretch) in that range.",
+      "Step 3 – A broad absorption at 2500–3300 cm⁻¹ is diagnostic of a carboxylic acid O–H, not an amine.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-035",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(a)",
+    "question": "A student carries out a multi-step synthesis and wants to purify their liquid organic product by distillation.\n\nWhich action should be taken immediately before distillation to ensure the product is dry?",
+    "options": {
+      "A": "Filter the product through a Buchner funnel under reduced pressure",
+      "B": "Stir the product with anhydrous calcium chloride, then filter off the drying agent",
+      "C": "Wash the product with concentrated sulfuric acid in a separating funnel",
+      "D": "Boil the product with excess sodium carbonate solution"
+    },
+    "correctOption": "B",
+    "explanation": "Before distillation the organic product must be dried by stirring with a solid anhydrous drying agent such as anhydrous CaCl₂ or MgSO₄. The hydrated drying agent is then removed by filtration or decanting, leaving a dry organic liquid that can be distilled to give the pure product.",
+    "steps": [
+      "Step 1 – Distillation separates liquids by boiling point; any residual water will either contaminate the product or form an azeotrope, so the product must be dried first.",
+      "Step 2 – The standard procedure is to add a solid anhydrous drying agent (e.g. anhydrous CaCl₂, MgSO₄ or Na₂SO₄) to absorb water, leave it to stand, then filter or decant.",
+      "Step 3 – Concentrated H₂SO₄ is a chemical desiccant but would likely react with many organic products; Na₂CO₃ solution adds water rather than removing it; Buchner filtration removes insoluble solids, not dissolved water.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "organic_analysis-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(b)",
+    "question": "The mass spectrum of pentan-2-one, CH₃COCH₂CH₂CH₃, has a molecular ion peak and two major fragment peaks.\n\nPredict the m/z values of the two major fragment peaks and identify the ion responsible for each peak.",
+    "marks": 4,
+    "markPoints": [
+      "Fragment at m/z = 43: CH₃CO⁺ (acetyl cation), formed by loss of a propyl radical •CH₂CH₂CH₃ (mass 43 from M = 86, loss of 43)",
+      "Fragment at m/z = 71: C₄H₇O⁺ / CH₃COCH₂CH₂⁺, formed by loss of •CH₃ (mass 15) from the molecular ion at m/z = 86",
+      "Molecular ion is at m/z = 86 (Mr of C₅H₁₀O: 5×12 + 10×1 + 16 = 86)",
+      "Only ions (not radicals) are detected in the mass spectrometer"
+    ],
+    "modelAnswer": "The molecular ion peak is at m/z = 86 (Mr of pentan-2-one, C₅H₁₀O). Two major fragments arise: loss of •CH₃ (mass 15) gives m/z = 71, the ion CH₃COCH₂CH₂⁺; loss of •CH₂CH₂CH₃ (a propyl radical, mass 43) gives m/z = 43, the CH₃CO⁺ ion. Only the charged fragment is detected in the mass spectrometer.",
+    "explanation": "Ketones fragment on either side of the C=O group. The two most common losses from pentan-2-one are •CH₃ (giving m/z = 71) and the propyl radical •C₃H₇ (giving the very stable CH₃CO⁺ acylium cation at m/z = 43). Identifying both the m/z value and the ion formula earns full marks."
+  },
+  {
+    "id": "organic_analysis-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(c)",
+    "question": "A chemist is investigating an unknown compound Y that contains only carbon, hydrogen and oxygen.\n\nThe infrared spectrum of Y shows a strong, sharp absorption at 1735 cm⁻¹ but no absorptions in the ranges 2500–3300 cm⁻¹ or 3200–3600 cm⁻¹.\n\nState which functional group is present in Y and explain how the infrared data support your conclusion.",
+    "marks": 3,
+    "markPoints": [
+      "Y contains an ester (C=O) group",
+      "The absorption at 1735 cm⁻¹ is within the C=O range (1630–1820 cm⁻¹), consistent with an ester carbonyl",
+      "The absence of O–H absorptions (no broad peak at 2500–3300 cm⁻¹ and no peak at 3200–3600 cm⁻¹) rules out both carboxylic acid and alcohol, confirming the ester"
+    ],
+    "modelAnswer": "Y contains an ester group. The sharp absorption at 1735 cm⁻¹ falls within the C=O stretching range (1630–1820 cm⁻¹), indicating a carbonyl group. The absence of the broad carboxylic acid O–H at 2500–3300 cm⁻¹ rules out a carboxylic acid, and the absence of an alcohol O–H at 3200–3600 cm⁻¹ rules out an alcohol; taken together with the C=O, this is consistent with an ester.",
+    "explanation": "Esters have a C=O absorption typically at 1735–1750 cm⁻¹ (slightly higher wavenumber than ketones or carboxylic acids) with no O–H peak. The strategy is: identify what is present, then use absences to eliminate alternative functional groups."
+  },
+  {
+    "id": "organic_analysis-038",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(b)",
+    "question": "Describe a three-step synthesis of propan-1-ol starting from propene.\n\nFor each step, state the reagents and conditions and the type of reaction occurring.",
+    "marks": 6,
+    "markPoints": [
+      "Step 1: react propene with HBr (hydrogen bromide) — electrophilic addition — to give 1-bromopropane",
+      "Step 1 conditions: room temperature, no catalyst required (or HBr gas/concentrated HBr)",
+      "Step 2: heat 1-bromopropane under reflux with NaOH(aq) — nucleophilic substitution (hydrolysis) — to give propan-1-ol",
+      "Step 2 conditions: aqueous sodium hydroxide, heat under reflux",
+      "Alternative step 1–2: direct hydration of propene with steam / H₃PO₄ catalyst (electrophilic addition) to give propan-1-ol in one step — but question says three steps, so a different route is expected",
+      "Any valid three-step route fully described with correct reagents, conditions and reaction types"
+    ],
+    "modelAnswer": "One valid route: Step 1 — pass HBr gas over propene (electrophilic addition) to give 1-bromopropane. Step 2 — heat 1-bromopropane under reflux with aqueous NaOH (nucleophilic substitution / hydrolysis) to give propan-1-ol. This is actually two steps; for a genuine three-step route from propene: Step 1 — brominate propene with Br₂ (electrophilic addition, room temperature) to give 1,2-dibromopropane. Step 2 — heat with excess KOH in ethanol (elimination) to give prop-1-yne or propyne. Step 3 — hydrate with steam / H₃PO₄ (addition) to give propan-2-ol or propan-1-ol depending on Markovnikov selectivity. Accept any chemically valid three-step sequence with correct reagents, conditions and reaction types clearly stated for each step.",
+    "explanation": "Multi-step synthesis questions reward candidates who can connect functional-group transformations: alkene → haloalkane (electrophilic addition), haloalkane → alcohol (nucleophilic substitution). A clear statement of reagents, conditions AND reaction type is needed for all the marks."
+  },
+  {
+    "id": "organic_analysis-039",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.3(a)",
+    "question": "A student heats ethanol under reflux with acidified potassium dichromate(VI) to prepare ethanoic acid.\n\n(a) State what is meant by 'heating under reflux'.\n(b) Explain why reflux is used rather than simple distillation for this preparation.",
+    "marks": 3,
+    "markPoints": [
+      "(a) The reaction mixture is heated with a condenser attached vertically so that vapours condense and return to the flask, allowing prolonged heating without loss of volatile material",
+      "(b) Distillation would remove the volatile intermediate ethanal from the flask before it could be oxidised further to ethanoic acid",
+      "(b) Reflux keeps ethanal in contact with the oxidising agent so it is fully oxidised to ethanoic acid"
+    ],
+    "modelAnswer": "(a) Heating under reflux means heating the reaction mixture in a flask fitted with a vertical condenser; vapours rise, condense in the condenser and drain back into the flask, allowing the mixture to be heated for a long time without losing material. (b) The oxidation of ethanol goes: ethanol → ethanal → ethanoic acid. Ethanal is volatile and would be distilled out of the flask if simple distillation were used, stopping the reaction at the aldehyde stage. Reflux keeps ethanal in the reaction mixture so the excess oxidising agent can convert it fully into ethanoic acid.",
+    "explanation": "Reflux vs. distillation is a classic practical distinction. Reflux = heat + condenser returning liquid to flask (no product removed). Distillation = heat + condenser collecting product externally (product removed as formed). For carboxylic acid synthesis you need reflux; for aldehyde synthesis you use distillation."
+  },
+  {
+    "id": "organic_analysis-040",
+    "type": "written",
+    "module": 4,
+    "topic": "Organic Synthesis & Analysis",
+    "specRef": "4.2.4(e)",
+    "question": "An organic compound Z contains only carbon, hydrogen and oxygen. The following data are obtained:\n\nMass spectrum: molecular ion peak at m/z = 46; fragment peaks at m/z = 45 and m/z = 29.\nInfrared spectrum: broad absorption at 3200–3600 cm⁻¹; no absorption in the range 1630–1820 cm⁻¹.\n\nUsing all of the data, identify compound Z and justify your answer.",
+    "marks": 5,
+    "markPoints": [
+      "Broad absorption at 3200–3600 cm⁻¹ indicates an alcohol O–H group",
+      "Absence of absorption at 1630–1820 cm⁻¹ shows there is no C=O, ruling out carboxylic acid, aldehyde or ketone",
+      "Molecular ion at m/z = 46 gives Mr = 46; consistent with ethanol, C₂H₅OH (Mr = 2×12 + 6×1 + 16 = 46)",
+      "Fragment at m/z = 45 corresponds to loss of H (mass 1) giving C₂H₅O⁺, or loss of •H from the molecular ion",
+      "Fragment at m/z = 29 corresponds to C₂H₅⁺ (loss of •OH, mass 17) / CHO⁺ — confirms an ethyl group is present; Z is ethanol, CH₃CH₂OH"
+    ],
+    "modelAnswer": "The broad IR absorption at 3200–3600 cm⁻¹ indicates an alcohol O–H group, and the absence of any absorption at 1630–1820 cm⁻¹ confirms there is no C=O, ruling out all carbonyl-containing compounds. The molecular ion at m/z = 46 gives Mr = 46, which matches ethanol (C₂H₅OH, Mr = 46). The fragment at m/z = 45 arises from loss of •H (mass 1) to give C₂H₅O⁺, and the fragment at m/z = 29 is C₂H₅⁺ formed by loss of •OH (mass 17), confirming the ethyl group. Z is therefore ethanol, CH₃CH₂OH.",
+    "explanation": "Work systematically: IR gives the functional group(s) present and absent, the molecular ion gives Mr, and the fragment differences (M − 1 = 45, M − 17 = 29) confirm the structural pieces. Always quote which bonds/groups the IR wavenumbers correspond to."
+  }
+]

@@ -1,0 +1,711 @@
+[
+  {
+    "id": "group7-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(a)",
+    "question": "Which halogen is a solid at room temperature and pressure?",
+    "options": { "A": "Fluorine", "B": "Chlorine", "C": "Bromine", "D": "Iodine" },
+    "correctOption": "D",
+    "explanation": "Boiling and melting points increase down Group 7 as the London forces between the diatomic molecules strengthen. At RTP fluorine and chlorine are gases, bromine is a liquid and iodine is a grey-black solid.",
+    "steps": [
+      "Step 1 – Recall the states at RTP: F₂ pale yellow gas, Cl₂ pale green gas, Br₂ orange-brown liquid, I₂ grey-black solid.",
+      "Step 2 – Melting and boiling points increase down the group because the molecules have more electrons, giving stronger London forces.",
+      "Step 3 – Iodine is furthest down the group of the options, so it is the only solid.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "group7-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(a)",
+    "question": "Which statement explains why the boiling point of bromine is higher than the boiling point of chlorine?",
+    "options": {
+      "A": "The Br–Br bond is stronger than the Cl–Cl bond",
+      "B": "Br₂ molecules have more electrons, so the London forces between molecules are stronger",
+      "C": "Br₂ is more polar than Cl₂",
+      "D": "Bromine has a greater nuclear attraction for its outer electrons"
+    },
+    "correctOption": "B",
+    "explanation": "Boiling separates molecules by overcoming intermolecular forces, not covalent bonds. Br₂ has more electrons than Cl₂, so its instantaneous and induced dipoles are larger, giving stronger London forces that need more energy to overcome.",
+    "steps": [
+      "Step 1 – Identify what is broken on boiling: the intermolecular forces between the diatomic molecules, not the covalent halogen–halogen bond (eliminates A).",
+      "Step 2 – Both Cl₂ and Br₂ are non-polar molecules, so the only intermolecular forces are London (induced dipole–dipole) forces (eliminates C).",
+      "Step 3 – Br₂ has more electrons than Cl₂, so its London forces are stronger and more energy is needed to overcome them; D describes an atomic property, not an intermolecular one.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group7-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(c)",
+    "question": "Which statement correctly explains why chlorine is more reactive than bromine?",
+    "options": {
+      "A": "Chlorine has a smaller atomic radius and less shielding, so it attracts an electron into its outer shell more strongly",
+      "B": "Chlorine has a larger nuclear charge than bromine",
+      "C": "The Cl–Cl bond is weaker than the Br–Br bond",
+      "D": "Chlorine loses its outer electrons more easily than bromine"
+    },
+    "correctOption": "A",
+    "explanation": "Halogens react by gaining an electron. Chlorine's outer shell is closer to the nucleus and shielded by fewer inner shells than bromine's, so the nuclear attraction on the incoming electron is greater and the electron is gained more easily.",
+    "steps": [
+      "Step 1 – Halogen reactivity depends on how easily the atom gains an electron to form a halide ion (eliminates D, which describes metal reactivity).",
+      "Step 2 – Bromine actually has the larger nuclear charge, but this is outweighed by the increases in radius and shielding, so B is wrong.",
+      "Step 3 – Chlorine's smaller radius and lower shielding mean stronger attraction on the gained electron, so chlorine is the more reactive; bond strengths (C) are not the accepted explanation.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "group7-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Aqueous chlorine is added to a solution of potassium bromide and the mixture is shaken with cyclohexane.\n\nWhat colour is the cyclohexane layer?",
+    "options": { "A": "Violet", "B": "Orange", "C": "Pale green", "D": "Colourless" },
+    "correctOption": "B",
+    "explanation": "Chlorine displaces bromide ions: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. The bromine formed dissolves in the cyclohexane layer, which turns orange. A violet layer would indicate iodine.",
+    "steps": [
+      "Step 1 – Chlorine is a stronger oxidising agent than bromine, so it oxidises Br⁻: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂.",
+      "Step 2 – Bromine is more soluble in the non-polar cyclohexane than in water, so it concentrates in the organic layer.",
+      "Step 3 – Bromine in cyclohexane is orange; iodine in cyclohexane would be violet.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group7-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Which ionic equation represents the reaction that occurs when chlorine water is added to aqueous potassium iodide?",
+    "options": {
+      "A": "Cl₂ + 2K⁺ → 2KCl + I₂",
+      "B": "Cl⁻ + I₂ → I⁻ + Cl₂",
+      "C": "Cl₂ + 2I⁻ → 2Cl⁻ + I₂",
+      "D": "Cl₂ + I⁻ → Cl⁻ + I"
+    },
+    "correctOption": "C",
+    "explanation": "Chlorine is a stronger oxidising agent than iodine, so it oxidises iodide ions to iodine and is itself reduced to chloride ions. Potassium ions are spectator ions and do not appear in the ionic equation.",
+    "steps": [
+      "Step 1 – Chlorine displaces the less reactive halogen from its halide: Cl₂ oxidises I⁻ to I₂.",
+      "Step 2 – Remove the spectator ion K⁺ (eliminates A) and balance charges and atoms: Cl₂ + 2I⁻ → 2Cl⁻ + I₂.",
+      "Step 3 – B is the reverse (iodine cannot displace chloride) and D is unbalanced and forms an iodine atom, not I₂.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group7-006",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Which halogen is the weakest oxidising agent?",
+    "options": { "A": "Fluorine", "B": "Chlorine", "C": "Bromine", "D": "Iodine" },
+    "correctOption": "D",
+    "explanation": "Oxidising power decreases down Group 7. Down the group the atomic radius and shielding increase, so the nucleus attracts the incoming electron less strongly and the halogen gains an electron less readily.",
+    "steps": [
+      "Step 1 – An oxidising agent gains electrons; halogens gain one electron to form halide ions.",
+      "Step 2 – Down the group the atom becomes larger and more shielded, so the attraction on the incoming electron decreases.",
+      "Step 3 – Iodine is furthest down the group of the options, so it gains an electron least readily and is the weakest oxidising agent.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "group7-007",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine reacts with water:\n\nCl₂ + H₂O ⇌ HClO + HCl\n\nWhat are the oxidation numbers of chlorine in HClO and in HCl?",
+    "options": {
+      "A": "HClO: +1, HCl: −1",
+      "B": "HClO: −1, HCl: +1",
+      "C": "HClO: +1, HCl: +1",
+      "D": "HClO: 0, HCl: −1"
+    },
+    "correctOption": "A",
+    "explanation": "In HClO, H is +1 and O is −2, so Cl must be +1. In HCl, H is +1, so Cl is −1. Chlorine starts at 0 in Cl₂ and is simultaneously oxidised to +1 and reduced to −1: a disproportionation reaction.",
+    "steps": [
+      "Step 1 – In HClO: (+1) + Cl + (−2) = 0, so the oxidation number of Cl is +1.",
+      "Step 2 – In HCl: (+1) + Cl = 0, so the oxidation number of Cl is −1.",
+      "Step 3 – Chlorine goes from 0 in Cl₂ to both +1 and −1, which is disproportionation.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "group7-008",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine reacts with cold, dilute aqueous sodium hydroxide to form bleach.\n\nWhat are the products of this reaction?",
+    "options": {
+      "A": "NaCl, NaClO₃ and H₂O",
+      "B": "NaCl, NaClO and H₂O",
+      "C": "NaClO and H₂",
+      "D": "NaCl and O₂"
+    },
+    "correctOption": "B",
+    "explanation": "With cold, dilute NaOH chlorine disproportionates: Cl₂ + 2NaOH → NaCl + NaClO + H₂O. Sodium chlorate(I), NaClO, is the active ingredient in household bleach. NaClO₃ forms only with hot concentrated alkali.",
+    "steps": [
+      "Step 1 – Recall the bleach equation: Cl₂ + 2NaOH → NaCl + NaClO + H₂O.",
+      "Step 2 – Chlorine disproportionates from 0 to −1 (in NaCl) and +1 (in NaClO).",
+      "Step 3 – NaClO₃ (chlorine +5) requires hot concentrated NaOH, and no H₂ or O₂ gas is produced.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group7-009",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Acidified silver nitrate solution is added to an unknown solution and a yellow precipitate forms. The precipitate does not dissolve in concentrated ammonia.\n\nWhich ion is present in the unknown solution?",
+    "options": { "A": "Cl⁻", "B": "Br⁻", "C": "I⁻", "D": "CO₃²⁻" },
+    "correctOption": "C",
+    "explanation": "Silver iodide is a yellow precipitate that is insoluble even in concentrated ammonia. AgCl is white and dissolves in dilute NH₃; AgBr is cream and dissolves only in concentrated NH₃. Carbonate ions would give effervescence with the acid, not a precipitate with Ag⁺.",
+    "steps": [
+      "Step 1 – Match precipitate colours: AgCl white, AgBr cream, AgI yellow.",
+      "Step 2 – Confirm with ammonia solubility: AgI is insoluble in both dilute and concentrated NH₃.",
+      "Step 3 – Both observations point to iodide; carbonate would have reacted with the acid to give bubbles of CO₂.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group7-010",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Which row correctly describes the precipitate formed when acidified silver nitrate solution is added to aqueous sodium bromide?",
+    "options": {
+      "A": "White precipitate, soluble in dilute ammonia",
+      "B": "Cream precipitate, soluble in concentrated ammonia but not dilute ammonia",
+      "C": "Yellow precipitate, insoluble in concentrated ammonia",
+      "D": "Cream precipitate, soluble in dilute ammonia"
+    },
+    "correctOption": "B",
+    "explanation": "Bromide ions give a cream precipitate of silver bromide: Ag⁺ + Br⁻ → AgBr. AgBr does not dissolve in dilute ammonia but does dissolve in concentrated ammonia, distinguishing it from AgCl (dissolves in dilute) and AgI (insoluble in both).",
+    "steps": [
+      "Step 1 – Br⁻ gives silver bromide, which is a cream precipitate (eliminates A and C).",
+      "Step 2 – Recall the ammonia solubility pattern: AgCl dissolves in dilute NH₃, AgBr only in concentrated NH₃, AgI in neither.",
+      "Step 3 – So the cream precipitate dissolves in concentrated but not dilute ammonia.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group7-011",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Why is dilute nitric acid added before carrying out the silver nitrate test for halide ions?",
+    "options": {
+      "A": "To dissolve any silver halide precipitate that forms",
+      "B": "To remove carbonate ions, which would also form a precipitate with silver ions",
+      "C": "To provide chloride ions for the reaction",
+      "D": "To oxidise the halide ions to halogens"
+    },
+    "correctOption": "B",
+    "explanation": "Carbonate ions form insoluble silver carbonate, which could be confused with a silver halide. Dilute nitric acid reacts with any carbonate, removing it as CO₂ and water. Nitric acid is used because it adds no ions that interfere with the test.",
+    "steps": [
+      "Step 1 – Identify the interfering ion: CO₃²⁻ would give a white precipitate of Ag₂CO₃, giving a false positive.",
+      "Step 2 – The acid destroys carbonate: 2H⁺ + CO₃²⁻ → H₂O + CO₂.",
+      "Step 3 – Hydrochloric acid could not be used because it would add Cl⁻ (option C is what must be avoided); the acid neither dissolves silver halides nor oxidises halides.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group7-012",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(b)",
+    "question": "A solution may contain carbonate, sulfate and halide ions.\n\nIn which order should the tests for these ions be carried out?",
+    "options": {
+      "A": "Halide, sulfate, carbonate",
+      "B": "Sulfate, carbonate, halide",
+      "C": "Carbonate, sulfate, halide",
+      "D": "Carbonate, halide, sulfate"
+    },
+    "correctOption": "C",
+    "explanation": "Test for carbonate first (only carbonate gives effervescence with acid), then sulfate with acidified barium chloride, then halide with acidified silver nitrate. This order works because barium carbonate and silver carbonate are insoluble, and silver sulfate is also insoluble, so earlier ions must be ruled out or removed before the later tests.",
+    "steps": [
+      "Step 1 – Carbonate must be tested first: adding acid gives effervescence of CO₂, and neither sulfate nor halide ions give this result.",
+      "Step 2 – Sulfate is tested second with Ba²⁺, because BaCO₃ is also a white precipitate — carbonate must already be absent or removed.",
+      "Step 3 – Halide is tested last with Ag⁺, because both Ag₂CO₃ and Ag₂SO₄ are insoluble and would give false positives.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group7-013",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(a)",
+    "question": "Explain why the boiling points of the halogens increase down Group 7 from chlorine to iodine.",
+    "marks": 3,
+    "markPoints": [
+      "Number of electrons (in the molecule) increases down the group",
+      "London forces / induced dipole–dipole interactions between molecules become stronger",
+      "More energy is needed to overcome the (stronger) intermolecular forces, so the boiling point increases"
+    ],
+    "modelAnswer": "Down the group each halogen molecule has more electrons, so the instantaneous and induced dipoles are larger and the London forces between the molecules are stronger. More energy is therefore needed to overcome these intermolecular forces, so the boiling point increases from chlorine to iodine.",
+    "explanation": "The key is to talk about intermolecular London forces, not the covalent X–X bond. Marks come from linking more electrons → stronger London forces → more energy to overcome → higher boiling point."
+  },
+  {
+    "id": "group7-014",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(a)",
+    "question": "State the appearance, including physical state, of chlorine, bromine and iodine at room temperature and pressure.",
+    "marks": 3,
+    "markPoints": [
+      "Chlorine: pale green gas",
+      "Bromine: orange-brown / red-brown liquid",
+      "Iodine: grey-black / shiny grey solid"
+    ],
+    "modelAnswer": "At RTP chlorine is a pale green gas, bromine is an orange-brown liquid and iodine is a grey-black solid.",
+    "explanation": "The states show the increasing boiling points down the group (gas → liquid → solid). Both the colour and the state are needed for each mark."
+  },
+  {
+    "id": "group7-015",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(c)",
+    "question": "Explain why the reactivity of the halogens decreases down Group 7 from chlorine to iodine.",
+    "marks": 4,
+    "markPoints": [
+      "Halogens react by gaining an electron (into the outer shell) to form halide ions",
+      "Atomic radius increases down the group, so the outer shell is further from the nucleus",
+      "Shielding by inner electron shells increases down the group",
+      "Nuclear attraction on the incoming electron decreases (despite the increased nuclear charge), so the electron is gained less easily and reactivity decreases"
+    ],
+    "modelAnswer": "Halogens react by gaining an electron to form a halide ion. Down the group the atomic radius increases and there are more inner shells, so shielding increases. The attraction between the nucleus and the electron being gained therefore decreases, despite the greater nuclear charge, so the electron is attracted less easily and the halogens become less reactive down the group.",
+    "explanation": "This is the mirror image of the Group 2 reactivity argument: halogens gain an electron rather than lose one. The same three factors (radius, shielding, nuclear charge) must be applied to the incoming electron."
+  },
+  {
+    "id": "group7-016",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Chlorine water is added to aqueous potassium bromide.\n\nState what you would observe and write the ionic equation for the reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Solution turns orange / yellow-orange",
+      "(Because) bromine is formed / chlorine displaces bromide ions",
+      "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂"
+    ],
+    "modelAnswer": "The colourless solution turns orange because chlorine oxidises the bromide ions to bromine: Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂.",
+    "explanation": "Chlorine is above bromine in the group so it is the stronger oxidising agent and displaces bromide. The potassium ions are spectators, so they must not appear in the ionic equation."
+  },
+  {
+    "id": "group7-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Bromine water is added to aqueous potassium iodide.\n\nState what you would observe, write the ionic equation for the reaction, and explain what this reaction shows about the relative oxidising power of bromine and iodine.",
+    "marks": 4,
+    "markPoints": [
+      "Solution turns (dark) brown (iodine is formed)",
+      "Br₂ + 2I⁻ → 2Br⁻ + I₂",
+      "Bromine gains electrons / oxidises the iodide ions",
+      "So bromine is a stronger oxidising agent than iodine"
+    ],
+    "modelAnswer": "The orange solution turns dark brown as iodine forms: Br₂ + 2I⁻ → 2Br⁻ + I₂. Bromine gains electrons from the iodide ions, oxidising them to iodine, which shows that bromine is a stronger oxidising agent than iodine.",
+    "explanation": "Displacement reactions are the evidence for the oxidising power trend: the halogen that takes the electrons (bromine here) is the stronger oxidising agent. Observation, ionic equation and the electron-transfer explanation each earn marks."
+  },
+  {
+    "id": "group7-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "A student carries out halogen displacement reactions and shakes each mixture with cyclohexane.\n\nExplain why cyclohexane is added and state the colour of the cyclohexane layer when it contains bromine and when it contains iodine.",
+    "marks": 3,
+    "markPoints": [
+      "Halogens are more soluble in cyclohexane (than in water) / the colours are easier to distinguish in cyclohexane (especially bromine and iodine, which look similar in water)",
+      "Bromine in cyclohexane: orange",
+      "Iodine in cyclohexane: violet / purple"
+    ],
+    "modelAnswer": "The non-polar halogens are more soluble in cyclohexane than in water, so they dissolve into the organic layer where their colours are more distinct — bromine and iodine can look similar in aqueous solution. Bromine gives an orange cyclohexane layer and iodine gives a violet cyclohexane layer.",
+    "explanation": "In water, bromine (orange) and iodine (brown) can be confused. In cyclohexane the colours are clearly different: orange for bromine, violet for iodine, and pale green for chlorine."
+  },
+  {
+    "id": "group7-019",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Explain why chlorine displaces bromine from aqueous potassium bromide, but iodine does not displace chlorine from aqueous potassium chloride.",
+    "marks": 3,
+    "markPoints": [
+      "Chlorine is a stronger oxidising agent than bromine / gains electrons more readily than bromine",
+      "So chlorine oxidises Br⁻ to Br₂ (and is reduced to Cl⁻)",
+      "Iodine is a weaker oxidising agent than chlorine, so it cannot remove electrons from / oxidise Cl⁻ ions"
+    ],
+    "modelAnswer": "Chlorine is a stronger oxidising agent than bromine, so it gains electrons from bromide ions, oxidising them to bromine. Iodine is a weaker oxidising agent than chlorine, so it cannot take electrons from chloride ions and no reaction occurs.",
+    "explanation": "A halogen can only displace a halide of a less reactive (weaker oxidising) halogen. Oxidising power decreases down the group, so displacement only works downwards."
+  },
+  {
+    "id": "group7-020",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine reacts with water:\n\nCl₂ + H₂O ⇌ HClO + HCl\n\nUse oxidation numbers to explain why this reaction is an example of disproportionation.",
+    "marks": 4,
+    "markPoints": [
+      "Oxidation number of Cl in Cl₂ is 0",
+      "Cl is oxidised from 0 to +1 in HClO",
+      "Cl is reduced from 0 to −1 in HCl",
+      "Disproportionation is the oxidation and reduction of the same element (in the same reaction)"
+    ],
+    "modelAnswer": "In Cl₂ chlorine has oxidation number 0. In HClO chlorine is +1, so it has been oxidised, and in HCl chlorine is −1, so it has been reduced. Because the same element, chlorine, is simultaneously oxidised and reduced in the same reaction, this is disproportionation.",
+    "explanation": "Quote all three oxidation numbers (0, +1, −1), say which change is oxidation and which is reduction, and finish with the definition of disproportionation applied to chlorine."
+  },
+  {
+    "id": "group7-021",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine reacts with cold, dilute aqueous sodium hydroxide.\n\nWrite the equation for this reaction, name the chlorine-containing product with chlorine in the +1 oxidation state, and state a use of the resulting solution.",
+    "marks": 3,
+    "markPoints": [
+      "Cl₂ + 2NaOH → NaCl + NaClO + H₂O",
+      "NaClO named as sodium chlorate(I) (or sodium hypochlorite)",
+      "Use: (household) bleach / disinfectant / killing bacteria"
+    ],
+    "modelAnswer": "Cl₂ + 2NaOH → NaCl + NaClO + H₂O. The product with chlorine in the +1 state is sodium chlorate(I), NaClO. The resulting solution is used as household bleach (a disinfectant).",
+    "explanation": "This is the second disproportionation of chlorine on the specification. The conditions matter: the alkali must be cold and dilute. NaClO is the active ingredient of bleach."
+  },
+  {
+    "id": "group7-022",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine is added to drinking water in many countries.\n\nDiscuss the benefits and risks of chlorinating drinking water.",
+    "marks": 4,
+    "markPoints": [
+      "Benefit: kills bacteria / microorganisms in the water",
+      "Benefit: prevents water-borne diseases such as cholera or typhoid (protects public health)",
+      "Risk: chlorine gas is toxic / respiratory irritant (hazardous if there is a leak or overdose)",
+      "Risk: chlorine can react with organic matter (e.g. from decaying vegetation) to form chlorinated hydrocarbons, which are suspected carcinogens"
+    ],
+    "modelAnswer": "Chlorination kills bacteria and other microorganisms, preventing water-borne diseases such as cholera and typhoid, so it protects public health. However, chlorine itself is a toxic gas that is hazardous if released, and chlorine can react with organic matter in the water to form chlorinated hydrocarbons, which are suspected of causing cancer. Most people accept that the health benefits greatly outweigh these small risks.",
+    "explanation": "A balanced discussion needs at least one benefit and one risk clearly developed. The named risk OCR expects is the formation of chlorinated hydrocarbons from reactions with organic matter."
+  },
+  {
+    "id": "group7-023",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "The reaction of chlorine with cold, dilute sodium hydroxide is a disproportionation reaction:\n\nCl₂ + 2NaOH → NaCl + NaClO + H₂O\n\nState the oxidation number of chlorine in each chlorine-containing species and identify which change is oxidation and which is reduction.",
+    "marks": 3,
+    "markPoints": [
+      "Cl₂: 0; NaCl: −1; NaClO: +1",
+      "0 → +1 (Cl₂ → NaClO) is oxidation (increase in oxidation number)",
+      "0 → −1 (Cl₂ → NaCl) is reduction (decrease in oxidation number)"
+    ],
+    "modelAnswer": "Chlorine is 0 in Cl₂, −1 in NaCl and +1 in NaClO. The change from 0 to +1 in NaClO is oxidation because the oxidation number increases, and the change from 0 to −1 in NaCl is reduction because the oxidation number decreases.",
+    "explanation": "In NaClO, Na is +1 and O is −2, so Cl must be +1. Always link oxidation to an increase, and reduction to a decrease, in oxidation number."
+  },
+  {
+    "id": "group7-024",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Describe how you would use silver nitrate solution to test for halide ions in an aqueous solution, and give the expected result for chloride, bromide and iodide ions.",
+    "marks": 4,
+    "markPoints": [
+      "Add dilute nitric acid, then add silver nitrate solution",
+      "Chloride: white precipitate (of AgCl)",
+      "Bromide: cream precipitate (of AgBr)",
+      "Iodide: yellow precipitate (of AgI)"
+    ],
+    "modelAnswer": "Acidify the solution with dilute nitric acid, then add aqueous silver nitrate. A white precipitate of silver chloride shows chloride ions are present, a cream precipitate of silver bromide shows bromide ions, and a yellow precipitate of silver iodide shows iodide ions.",
+    "explanation": "The full test needs the acidification step (nitric acid, to remove carbonate ions) as well as the three precipitate colours. The general ionic equation is Ag⁺ + X⁻ → AgX."
+  },
+  {
+    "id": "group7-025",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "The colours of silver halide precipitates can be difficult to tell apart.\n\nDescribe how aqueous ammonia can be used to confirm which silver halide has been formed.",
+    "marks": 3,
+    "markPoints": [
+      "Silver chloride dissolves in dilute ammonia",
+      "Silver bromide is insoluble in dilute ammonia but dissolves in concentrated ammonia",
+      "Silver iodide does not dissolve in either dilute or concentrated ammonia"
+    ],
+    "modelAnswer": "Add dilute ammonia to the precipitate: silver chloride dissolves. If the precipitate remains, add concentrated ammonia: silver bromide dissolves in concentrated ammonia, but silver iodide is insoluble even in concentrated ammonia.",
+    "explanation": "The ammonia solubility test resolves any doubt about the precipitate colours: AgCl dissolves in dilute NH₃, AgBr only in concentrated NH₃, AgI in neither."
+  },
+  {
+    "id": "group7-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Explain why the solution being tested must be acidified with dilute nitric acid before silver nitrate solution is added in the test for halide ions.",
+    "marks": 2,
+    "markPoints": [
+      "To remove / react with carbonate ions (and other interfering anions such as hydroxide)",
+      "(Otherwise) carbonate ions would also form a precipitate with silver ions (Ag₂CO₃), giving a false positive result"
+    ],
+    "modelAnswer": "The nitric acid reacts with and removes any carbonate ions in the solution. If they were not removed, the carbonate ions would form a precipitate of silver carbonate with the silver ions, which could be mistaken for a silver halide.",
+    "explanation": "The acid destroys the interfering ion: 2H⁺ + CO₃²⁻ → H₂O + CO₂. Without this step a white precipitate could be Ag₂CO₃ rather than AgCl."
+  },
+  {
+    "id": "group7-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "A student suggests acidifying with dilute hydrochloric acid instead of dilute nitric acid before adding silver nitrate solution in the test for halide ions.\n\nExplain why this would make the test invalid.",
+    "marks": 2,
+    "markPoints": [
+      "Hydrochloric acid contains chloride ions",
+      "These would react with the silver ions to give a white precipitate (of AgCl), so a positive result would be obtained even if the original solution contained no halide ions / a false positive"
+    ],
+    "modelAnswer": "Hydrochloric acid adds chloride ions to the solution. These chloride ions would react with the silver nitrate to form a white precipitate of silver chloride, so the test would give a positive result even if no halide ions were present in the original sample.",
+    "explanation": "The acid used must not introduce any ion being tested for. Nitric acid is safe because nitrate ions do not form a precipitate with silver ions; sulfuric acid also fails because Ag₂SO₄ is insoluble."
+  },
+  {
+    "id": "group7-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Describe a test for carbonate ions in an aqueous solution and state the expected observation for a positive result.",
+    "marks": 3,
+    "markPoints": [
+      "Add a dilute acid (e.g. dilute nitric or hydrochloric acid)",
+      "Effervescence / bubbles of gas are seen",
+      "Bubble the gas through limewater, which turns cloudy / milky, confirming CO₂"
+    ],
+    "modelAnswer": "Add dilute nitric acid to the solution. If carbonate ions are present, effervescence is seen as carbon dioxide gas is produced. Bubbling the gas through limewater turns the limewater cloudy, confirming that the gas is CO₂.",
+    "explanation": "The reaction is CO₃²⁻ + 2H⁺ → H₂O + CO₂. Both the effervescence and the limewater confirmation are needed for full marks."
+  },
+  {
+    "id": "group7-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Describe a test for sulfate ions in an aqueous solution and state the expected observation for a positive result.",
+    "marks": 2,
+    "markPoints": [
+      "Add (acidified) barium chloride or barium nitrate solution",
+      "A white precipitate (of barium sulfate) forms if sulfate ions are present"
+    ],
+    "modelAnswer": "Add acidified barium chloride solution to the sample. If sulfate ions are present, a white precipitate of barium sulfate forms: Ba²⁺ + SO₄²⁻ → BaSO₄.",
+    "explanation": "Barium sulfate is very insoluble, so even dilute sulfate solutions give a dense white precipitate. If halide ions will be tested afterwards, barium nitrate should be used rather than barium chloride to avoid adding Cl⁻."
+  },
+  {
+    "id": "group7-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(b)",
+    "question": "A solution is known to contain one of the following anions: carbonate, sulfate, chloride, bromide or iodide.\n\nDescribe a sequence of tests that would identify which anion is present, explaining why the tests must be carried out in this order. Include expected observations.",
+    "marks": 6,
+    "markPoints": [
+      "Test 1 – add dilute (nitric) acid: effervescence / CO₂ gas (turning limewater cloudy) shows carbonate",
+      "Test 2 – add acidified barium chloride/nitrate solution: white precipitate (BaSO₄) shows sulfate",
+      "Test 3 – add acidified silver nitrate solution: white precipitate = chloride, cream = bromide, yellow = iodide",
+      "(Confirm halide with ammonia): AgCl dissolves in dilute NH₃, AgBr only in concentrated NH₃, AgI in neither",
+      "Carbonate must be tested first because barium carbonate (and silver carbonate) are also (white) insoluble precipitates, so carbonate would give a false positive in the later tests",
+      "Sulfate must be tested before halide because silver sulfate is also insoluble / would give a precipitate with silver nitrate, but barium halides are soluble so halides do not interfere with the sulfate test"
+    ],
+    "modelAnswer": "First add dilute nitric acid: effervescence, with the gas turning limewater cloudy, shows carbonate ions. If there is no effervescence, add acidified barium nitrate solution: a white precipitate of barium sulfate shows sulfate ions. If there is no precipitate, add acidified silver nitrate solution: a white precipitate shows chloride, a cream precipitate shows bromide and a yellow precipitate shows iodide; the identity can be confirmed with ammonia, since AgCl dissolves in dilute ammonia, AgBr only in concentrated ammonia and AgI in neither. The tests must be done in this order because carbonate ions would form white precipitates with both barium ions (BaCO₃) and silver ions (Ag₂CO₃), and sulfate ions would form a precipitate with silver ions (Ag₂SO₄), giving false positives. Halide ions do not interfere with the earlier tests because barium halides are soluble.",
+    "explanation": "The order carbonate → sulfate → halide works because each test's reagent ions only form precipitates with ions that have already been ruled out. Explaining the false positives (BaCO₃, Ag₂CO₃, Ag₂SO₄) is what earns the top marks."
+  },
+  {
+    "id": "group7-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(b)",
+    "question": "Explain why the test for carbonate ions must be carried out before the test for sulfate ions when analysing an unknown solution.",
+    "marks": 2,
+    "markPoints": [
+      "Carbonate ions would (also) form a white precipitate with barium ions / BaCO₃ is insoluble",
+      "So a white precipitate in the barium test could be mistaken for barium sulfate / would give a false positive for sulfate"
+    ],
+    "modelAnswer": "If carbonate ions were present, they would react with the barium ions to give a white precipitate of barium carbonate, which looks identical to barium sulfate. Testing for (and removing) carbonate first ensures that a white precipitate in the barium test can only be barium sulfate.",
+    "explanation": "BaCO₃ and BaSO₄ are both white insoluble solids, so carbonate must be shown to be absent (or destroyed with acid) before the sulfate test is meaningful."
+  },
+  {
+    "id": "group7-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "You are provided with separate aqueous solutions of sodium chloride and sodium bromide.\n\nDescribe a test you could use to distinguish between the two solutions, giving the expected result for each.",
+    "marks": 3,
+    "markPoints": [
+      "Add dilute nitric acid followed by silver nitrate solution (to each)",
+      "Sodium chloride gives a white precipitate; sodium bromide gives a cream precipitate",
+      "(Confirm with ammonia): the white precipitate (AgCl) dissolves in dilute ammonia, but the cream precipitate (AgBr) only dissolves in concentrated ammonia"
+    ],
+    "modelAnswer": "Acidify each solution with dilute nitric acid and add silver nitrate solution. The sodium chloride gives a white precipitate of silver chloride, whereas the sodium bromide gives a cream precipitate of silver bromide. To confirm, add ammonia: the white precipitate dissolves in dilute ammonia but the cream precipitate dissolves only in concentrated ammonia.",
+    "explanation": "Because white and cream can be hard to distinguish by eye, the ammonia confirmation is the safest way to secure the final mark. Chlorine water displacement would also work as an alternative test."
+  },
+  {
+    "id": "group7-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Chlorine gas is bubbled through aqueous potassium iodide.\n\nState two observations you would make.",
+    "marks": 2,
+    "markPoints": [
+      "The (colourless) solution turns brown",
+      "A dark grey / black precipitate (of iodine) may form (if iodine is in excess of its solubility)"
+    ],
+    "modelAnswer": "The colourless solution turns brown as iodine forms, and if enough iodine is produced a dark grey-black solid precipitates out of solution.",
+    "explanation": "Iodine is only sparingly soluble in water: dilute solutions are brown, and excess iodine appears as a dark solid. Both observations come from Cl₂ + 2I⁻ → 2Cl⁻ + I₂."
+  },
+  {
+    "id": "group7-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(b)",
+    "question": "Chlorine reacts with aqueous iodide ions:\n\nCl₂ + 2I⁻ → 2Cl⁻ + I₂\n\nState the changes in oxidation number of chlorine and iodine, and identify the oxidising agent in this reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Chlorine decreases from 0 to −1 (reduced)",
+      "Iodine increases from −1 to 0 (oxidised)",
+      "Cl₂ is the oxidising agent (it gains electrons / oxidises the iodide ions)"
+    ],
+    "modelAnswer": "Chlorine's oxidation number decreases from 0 in Cl₂ to −1 in Cl⁻, so chlorine is reduced. Iodine's oxidation number increases from −1 in I⁻ to 0 in I₂, so iodide is oxidised. Chlorine is the oxidising agent because it accepts electrons from the iodide ions.",
+    "explanation": "The oxidising agent is the species that is itself reduced. In every halogen displacement the free halogen is the oxidising agent and the halide ion is oxidised."
+  },
+  {
+    "id": "group7-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(c)",
+    "question": "Explain, in terms of electron gain, why the oxidising power of the halogens decreases down Group 7.",
+    "marks": 3,
+    "markPoints": [
+      "An oxidising agent gains / accepts electrons; halogens gain one electron to form halide ions",
+      "Down the group the atomic radius and shielding increase",
+      "So the nuclear attraction on the incoming electron decreases and the electron is gained less readily, making the halogen a weaker oxidising agent"
+    ],
+    "modelAnswer": "An oxidising agent works by gaining electrons, and a halogen gains one electron to form a halide ion. Down the group the atoms get larger and there is more shielding from inner shells, so the attraction between the nucleus and the incoming electron decreases. The electron is gained less readily, so the oxidising power of the halogens decreases down the group.",
+    "explanation": "Oxidising power and reactivity are the same trend for halogens: both depend on how strongly the nucleus attracts the extra electron. Radius and shielding outweigh the increase in nuclear charge."
+  },
+  {
+    "id": "group7-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "A student adds dilute nitric acid and then aqueous silver nitrate to an unknown solution. A white precipitate forms, which dissolves when dilute ammonia is added.\n\nIdentify the ion responsible and write the ionic equation for the formation of the precipitate.",
+    "marks": 3,
+    "markPoints": [
+      "Chloride ion / Cl⁻ present",
+      "(White precipitate is) silver chloride, which dissolves in dilute ammonia (AgBr and AgI would not)",
+      "Ag⁺ + Cl⁻ → AgCl (state symbols not required, but Ag⁺(aq) + Cl⁻(aq) → AgCl(s) acceptable)"
+    ],
+    "modelAnswer": "The ion is chloride, Cl⁻. The white precipitate is silver chloride, which is the only silver halide that dissolves in dilute ammonia. Ionic equation: Ag⁺(aq) + Cl⁻(aq) → AgCl(s).",
+    "explanation": "Two pieces of evidence identify chloride: the white colour and the solubility in dilute ammonia. Spectator ions (Na⁺, NO₃⁻) are omitted from the ionic equation."
+  },
+  {
+    "id": "group7-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Aqueous barium chloride is added to a solution containing sulfate ions.\n\nWrite the ionic equation, including state symbols, for the reaction that occurs. Ignore spectator ions.",
+    "marks": 2,
+    "markPoints": [
+      "Ba²⁺ + SO₄²⁻ → BaSO₄",
+      "Correct state symbols: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s)"
+    ],
+    "modelAnswer": "Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). The chloride ions and the cation of the sulfate salt are spectator ions.",
+    "explanation": "The white precipitate is barium sulfate, so the solid product must carry the (s) state symbol while both reactant ions are (aq)."
+  },
+  {
+    "id": "group7-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.4(a)",
+    "question": "Dilute hydrochloric acid is added to aqueous sodium carbonate.\n\nWrite the ionic equation for the reaction, ignoring spectator ions, and describe how you would confirm the identity of the gas produced.",
+    "marks": 3,
+    "markPoints": [
+      "CO₃²⁻ + 2H⁺ → H₂O + CO₂",
+      "Bubble the gas through limewater (calcium hydroxide solution)",
+      "Limewater turns cloudy / milky (white precipitate of calcium carbonate), confirming carbon dioxide"
+    ],
+    "modelAnswer": "CO₃²⁻(aq) + 2H⁺(aq) → H₂O(l) + CO₂(g). To confirm the gas, bubble it through limewater; the limewater turns cloudy as a white precipitate of calcium carbonate forms, showing the gas is carbon dioxide.",
+    "explanation": "In the ionic equation Na⁺ and Cl⁻ are spectators. The 2H⁺ coefficient balances the 2− charge on the carbonate ion — forgetting the 2 is the common error."
+  },
+  {
+    "id": "group7-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Chlorine is toxic, yet it is deliberately added to drinking water.\n\nSuggest why the use of chlorine in water treatment is considered acceptable despite its toxicity.",
+    "marks": 2,
+    "markPoints": [
+      "Only very small / carefully controlled concentrations of chlorine are used (too low to harm humans)",
+      "The benefit of killing bacteria / preventing water-borne disease outweighs the (small) risk from the chlorine"
+    ],
+    "modelAnswer": "The chlorine is added in very small, carefully controlled amounts that are far too low to harm people. The benefit of killing the bacteria that cause water-borne diseases such as cholera greatly outweighs the small risk from these trace amounts of chlorine.",
+    "explanation": "'Suggest' questions about chlorination want a risk–benefit argument: controlled low dose plus the public-health benefit outweighing the hazard."
+  },
+  {
+    "id": "group7-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(d)",
+    "question": "Define the term disproportionation and identify the element that disproportionates in the reaction below.\n\nCl₂ + 2NaOH → NaCl + NaClO + H₂O",
+    "marks": 3,
+    "markPoints": [
+      "Disproportionation is a reaction in which the same element is both oxidised and reduced",
+      "Chlorine is the element that disproportionates",
+      "(Evidence): Cl goes from 0 (in Cl₂) to −1 (in NaCl, reduction) and to +1 (in NaClO, oxidation)"
+    ],
+    "modelAnswer": "Disproportionation is the simultaneous oxidation and reduction of the same element in a single reaction. Chlorine disproportionates here: it starts at oxidation number 0 in Cl₂ and is reduced to −1 in NaCl while being oxidised to +1 in NaClO.",
+    "explanation": "The definition mark requires 'same element' and both 'oxidised' and 'reduced'. Backing it up with the oxidation numbers 0, −1 and +1 secures the remaining marks."
+  },
+  {
+    "id": "group7-041",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 7 (Halogens)",
+    "specRef": "3.1.3(a)",
+    "question": "Astatine, At, is below iodine in Group 7.\n\nUse trends in Group 7 to predict the physical state of astatine at room temperature and how its reactivity compares with that of iodine. Justify each prediction.",
+    "marks": 3,
+    "markPoints": [
+      "Astatine is predicted to be a solid at RTP",
+      "Because boiling/melting points increase down the group (more electrons, stronger London forces) and iodine is already a solid",
+      "Astatine is predicted to be less reactive than iodine because reactivity decreases down the group (larger radius and more shielding, so weaker attraction on the incoming electron)"
+    ],
+    "modelAnswer": "Astatine should be a solid at room temperature, because melting and boiling points increase down the group as the molecules gain electrons and their London forces strengthen, and iodine above it is already a solid. Astatine should be less reactive than iodine, because reactivity decreases down the group: the atom is larger and more shielded, so it attracts the incoming electron less strongly.",
+    "explanation": "Prediction questions want the trend stated and then extrapolated one step further. Both predictions must be justified using the group trends, not just asserted."
+  }
+]

@@ -33,7 +33,40 @@ for (const [paper, data] of Object.entries(paperIndex)) {
   const cards = []
 
   for (const q of data.questions || []) {
-    if (q.marks <= 1) continue           // skip MCQs
+    if (q.marks <= 1) {
+      // Multiple-choice question — one card per MCQ, using its own per-question
+      // crop so only a single MCQ appears on the card.
+      const msUrls =
+        q.msShownImgs && q.msShownImgs.length
+          ? q.msShownImgs.map(renderedUrl)
+          : (q.msShow || q.msPages || []).map((p) => msCropUrl(q.msPaper, p, q.number))
+      // The correct letter lives in the explanation steps' "Answer: X" line
+      // (sometimes phrased "Answer: ... → X") — take the last standalone A-D.
+      let correctOption = null
+      for (const s of q.steps || []) {
+        if (!/\bAnswer\b/i.test(s)) continue
+        const ms = [...s.matchAll(/(?:^|[\s:(→\u2013\u2014-])([A-D])(?=[\s).,]|$)/g)]
+        if (ms.length) correctOption = ms[ms.length - 1][1]
+      }
+      cards.push({
+        id: `pp::${ps}::q${q.number}`,
+        type: 'mcq',
+        isMcq: true,
+        marks: 1,
+        number: q.number,
+        subPart: null,
+        topic: q.topic || '',
+        summary: q.summary || '',
+        paperLabel: paperLabel(paper),
+        qpUrls: [renderedUrl(`${ps}_p${q.page}_q${q.number}.png`)],
+        msUrls,
+        correctOption,
+        explanation: q.explanation || '',
+        steps: q.steps || [],
+        slots: [{ label: '', marks: 1 }],
+      })
+      continue
+    }
     if (q.isCalculation) continue        // skip calculation questions
     if (q.isDiagram) continue            // skip diagram-only questions (draw, label, sketch)
 
@@ -141,19 +174,62 @@ PAPER_LIST.sort((a, b) => {
   if (b.label.startsWith('Specimen')) return 1
   return a.label.localeCompare(b.label)
 })
+PAPER_LIST.forEach((p) => { p.title = `${p.label} — Paper 1` })
+
+// ---- AI-generated questions deck (text cards, no images) ----
+// Brand-new spec-following questions authored into src/data/aiQuestions/*.json.
+// Each file is an array of question objects; MCQs check locally, written
+// questions carry their own markPoints for ticking / text-based AI marking.
+const aiFiles = import.meta.glob('./aiQuestions/*.json', { eager: true })
+const AI_CARDS = Object.keys(aiFiles)
+  .sort()
+  .flatMap((f) => aiFiles[f].default || [])
+  .map((q, i) => ({
+    id: `ai::${q.id}`,
+    type: q.type,
+    isMcq: q.type === 'mcq',
+    isText: true,
+    marks: q.type === 'mcq' ? 1 : q.marks || 1,
+    number: i + 1,
+    subPart: null,
+    topic: q.topic || '',
+    summary: q.specRef || '',
+    paperLabel: 'AI Generated',
+    question: q.question || '',
+    options: q.options || null,
+    correctOption: q.correctOption || null,
+    markPoints: q.markPoints || [],
+    modelAnswer: q.modelAnswer || '',
+    explanation: q.explanation || '',
+    steps: q.steps || [],
+    qpUrls: [],
+    msUrls: [],
+    slots: [{ label: '', marks: q.type === 'mcq' ? 1 : q.marks || 1 }],
+  }))
+
+const AI_DECK = AI_CARDS.length > 0
+  ? {
+      slug: 'ai_generated',
+      label: 'AI Generated questions',
+      title: 'AI Generated questions',
+      deckId: 'ai:generated',
+      cards: AI_CARDS,
+    }
+  : null
+
+const DECK_LIST = AI_DECK ? [...PAPER_LIST, AI_DECK] : PAPER_LIST
 
 export function getDeckCards(deckId) {
+  if (deckId === 'ai:generated') return AI_CARDS
   const m = /^paper:(.+)$/.exec(deckId)
   return m ? (CARDS_BY_PAPER[m[1]] || []) : []
 }
 
 export function getPaperList() {
-  return PAPER_LIST
+  return DECK_LIST
 }
 
 export function deckTitle(deckId) {
-  const m = /^paper:(.+)$/.exec(deckId)
-  if (!m) return 'Past papers'
-  const paper = PAPER_LIST.find((p) => p.slug === m[1])
-  return paper ? `${paper.label} — Paper 1` : 'Past papers'
+  const deck = DECK_LIST.find((p) => p.deckId === deckId)
+  return deck ? deck.title : 'Past papers'
 }

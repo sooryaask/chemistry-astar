@@ -1,0 +1,719 @@
+[
+  {
+    "id": "haloalkanes-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "Separate samples of 1-chlorobutane, 1-bromobutane and 1-iodobutane are hydrolysed under identical conditions.\n\nWhich haloalkane is hydrolysed fastest, and why?",
+    "options": {
+      "A": "1-chlorobutane, because the C–Cl bond is the most polar",
+      "B": "1-iodobutane, because the C–I bond has the lowest bond enthalpy",
+      "C": "1-chlorobutane, because the C–Cl bond has the highest bond enthalpy",
+      "D": "1-iodobutane, because the C–I bond is the most polar"
+    },
+    "correctOption": "B",
+    "explanation": "The rate of hydrolysis depends on the strength of the carbon–halogen bond, not its polarity. The C–I bond has the lowest bond enthalpy, so it breaks most easily and 1-iodobutane is hydrolysed fastest.",
+    "steps": [
+      "Step 1 – Hydrolysis requires the carbon–halogen bond to break, so compare bond enthalpies: C–Cl > C–Br > C–I.",
+      "Step 2 – The C–I bond is the weakest, so it breaks most easily and 1-iodobutane reacts fastest.",
+      "Step 3 – Polarity would predict the opposite order (C–Cl is the most polar bond) but experiment shows bond enthalpy controls the rate, so A and D use the wrong factor and C draws the wrong conclusion.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(a)",
+    "question": "1-bromopropane reacts with aqueous sodium hydroxide.\n\nWhich species acts as the nucleophile in this reaction?",
+    "options": { "A": "Na⁺", "B": "OH⁻", "C": "Br⁻", "D": "H⁺" },
+    "correctOption": "B",
+    "explanation": "A nucleophile is an electron-pair donor attracted to an electron-deficient carbon atom. The hydroxide ion has a lone pair and a negative charge, and it attacks the δ+ carbon bonded to the bromine.",
+    "steps": [
+      "Step 1 – Definition: a nucleophile donates a lone pair of electrons to an electron-deficient (δ+) atom.",
+      "Step 2 – The C–Br bond is polar, making the carbon δ+; the OH⁻ ion is attracted to it and donates its lone pair.",
+      "Step 3 – Na⁺ is a spectator ion, Br⁻ is the leaving group, and H⁺ is an electrophile, not a nucleophile.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "Three haloalkanes are warmed with water and silver nitrate in ethanol.\n\nWhich haloalkane gives a precipitate first, and what is the colour of that precipitate?",
+    "options": {
+      "A": "1-chlorobutane; white precipitate",
+      "B": "1-iodobutane; white precipitate",
+      "C": "1-iodobutane; yellow precipitate",
+      "D": "1-bromobutane; yellow precipitate"
+    },
+    "correctOption": "C",
+    "explanation": "The C–I bond is the weakest, so 1-iodobutane hydrolyses fastest and releases iodide ions first. These react with the silver ions to give a yellow precipitate of silver iodide.",
+    "steps": [
+      "Step 1 – Rate of hydrolysis: C–I > C–Br > C–Cl (lowest bond enthalpy breaks first), so the iodoalkane reacts fastest.",
+      "Step 2 – The halide ion released reacts with Ag⁺: Ag⁺ + I⁻ → AgI.",
+      "Step 3 – Silver iodide is yellow (AgCl is white, AgBr is cream), so the first precipitate seen is yellow.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "haloalkanes-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(d)",
+    "question": "Which equation shows how a chlorine radical is regenerated during the breakdown of ozone in the stratosphere?",
+    "options": {
+      "A": "Cl• + O₃ → ClO• + O₂",
+      "B": "ClO• + O → Cl• + O₂",
+      "C": "Cl₂ → 2Cl•",
+      "D": "ClO• + O₃ → Cl• + 2O₂"
+    },
+    "correctOption": "B",
+    "explanation": "In the second propagation step, ClO• reacts with an oxygen atom to reform the Cl• radical, which can then destroy another ozone molecule. This regeneration is why chlorine acts as a catalyst.",
+    "steps": [
+      "Step 1 – The two propagation steps are: Cl• + O₃ → ClO• + O₂ then ClO• + O → Cl• + O₂.",
+      "Step 2 – 'Regenerated' means Cl• must appear as a product: only B and D produce Cl•, and B is the accepted second propagation step with an oxygen atom.",
+      "Step 3 – A consumes the Cl• radical (first step) and C is the initiation step that first forms the radicals from a C–Cl bond in a CFC.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(a)",
+    "question": "What is the name of the mechanism for the reaction of 1-chloropropane with hot aqueous sodium hydroxide?",
+    "options": {
+      "A": "Electrophilic addition",
+      "B": "Radical substitution",
+      "C": "Nucleophilic substitution",
+      "D": "Electrophilic substitution"
+    },
+    "correctOption": "C",
+    "explanation": "The hydroxide ion is a nucleophile that attacks the δ+ carbon and replaces (substitutes) the chlorine atom, forming propan-1-ol and a chloride ion. This is nucleophilic substitution (hydrolysis).",
+    "steps": [
+      "Step 1 – Identify the attacking species: OH⁻ donates a lone pair, so it is a nucleophile (eliminates A and D, which involve electrophiles).",
+      "Step 2 – The halogen is replaced by the OH group, so the overall change is substitution.",
+      "Step 3 – Radical substitution (B) is the mechanism for alkanes with halogens in UV light, not for hydrolysis of haloalkanes.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "haloalkanes-006",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(a)",
+    "question": "1-bromobutane is heated under reflux with aqueous sodium hydroxide.\n\nName the mechanism for this reaction, define the term nucleophile, and identify the nucleophile in this reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Mechanism: nucleophilic substitution (hydrolysis)",
+      "A nucleophile is an electron-pair donor / a species that donates a lone pair of electrons (to an electron-deficient carbon)",
+      "The nucleophile is the hydroxide ion, OH⁻"
+    ],
+    "modelAnswer": "The mechanism is nucleophilic substitution. A nucleophile is a species that donates a lone pair of electrons to an electron-deficient atom. In this reaction the nucleophile is the hydroxide ion, OH⁻, which attacks the δ+ carbon atom bonded to the bromine.",
+    "explanation": "The three standard marks: name the mechanism, define nucleophile as an electron-pair donor, and identify OH⁻. The reaction is also called hydrolysis because the haloalkane is broken down using a species from water/alkali."
+  },
+  {
+    "id": "haloalkanes-007",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(a)",
+    "question": "Write the equation for the reaction of 1-bromopropane with aqueous sodium hydroxide and name the organic product.",
+    "marks": 2,
+    "markPoints": [
+      "CH₃CH₂CH₂Br + NaOH → CH₃CH₂CH₂OH + NaBr (or with OH⁻ and Br⁻)",
+      "Organic product named as propan-1-ol"
+    ],
+    "modelAnswer": "CH₃CH₂CH₂Br + NaOH → CH₃CH₂CH₂OH + NaBr. The organic product is propan-1-ol.",
+    "explanation": "The OH replaces the Br on the same carbon, so 1-bromopropane gives propan-1-ol (not propan-2-ol). The ionic version CH₃CH₂CH₂Br + OH⁻ → CH₃CH₂CH₂OH + Br⁻ is equally acceptable."
+  },
+  {
+    "id": "haloalkanes-008",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(a)",
+    "question": "Explain why haloalkanes are susceptible to attack by nucleophiles.",
+    "marks": 2,
+    "markPoints": [
+      "The halogen is more electronegative than carbon, so the carbon–halogen bond is polar",
+      "The carbon (bonded to the halogen) carries a partial positive charge, δ+, which attracts electron-pair donors / nucleophiles"
+    ],
+    "modelAnswer": "The halogen atom is more electronegative than carbon, so the carbon–halogen bond is polar. The carbon atom carries a partial positive charge, δ+, and this electron-deficient carbon attracts nucleophiles, which donate a lone pair of electrons to it.",
+    "explanation": "Polarity explains where the nucleophile attacks (the δ+ carbon), even though bond enthalpy controls how fast the reaction goes. Keep the two ideas separate."
+  },
+  {
+    "id": "haloalkanes-009",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "The rate of hydrolysis of haloalkanes increases in the order chloroalkane < bromoalkane < iodoalkane.\n\nExplain this trend.",
+    "marks": 3,
+    "markPoints": [
+      "Rate depends on the (carbon–halogen) bond being broken / bond enthalpy, not on bond polarity",
+      "Bond enthalpy decreases in the order C–Cl > C–Br > C–I",
+      "The C–I bond is the weakest so it breaks most easily, so iodoalkanes hydrolyse fastest (and C–Cl is the strongest, so chloroalkanes hydrolyse slowest)"
+    ],
+    "modelAnswer": "The rate-determining factor is the strength of the carbon–halogen bond that must break during hydrolysis. Bond enthalpy decreases from C–Cl to C–Br to C–I, so the C–I bond is the weakest and breaks most easily. Iodoalkanes therefore hydrolyse fastest and chloroalkanes slowest — the trend follows bond enthalpy, not bond polarity.",
+    "explanation": "Examiners specifically credit bond enthalpy and often award a mark for rejecting the polarity argument. If polarity controlled the rate, the most polar C–Cl bond would react fastest, which is the opposite of what is observed."
+  },
+  {
+    "id": "haloalkanes-010",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "A student compares the rates of hydrolysis of three haloalkanes by warming each one with a mixture of water, ethanol and aqueous silver nitrate.\n\nState the purpose of the ethanol and identify the nucleophile in this experiment.",
+    "marks": 3,
+    "markPoints": [
+      "Ethanol acts as a (common) solvent",
+      "It allows the haloalkane and the aqueous solution to mix / form one layer (the haloalkane is insoluble in water alone)",
+      "The nucleophile is water / H₂O"
+    ],
+    "modelAnswer": "The ethanol is a solvent that allows the haloalkane and the aqueous silver nitrate to mix in a single layer, because haloalkanes are insoluble in water. In this experiment the nucleophile is water, which hydrolyses the haloalkane to release halide ions.",
+    "explanation": "There is no NaOH in this experiment, so water itself is the (weaker) nucleophile. Without ethanol the haloalkane and the aqueous reagents would form separate layers and barely react."
+  },
+  {
+    "id": "haloalkanes-011",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "In the silver nitrate experiment, hydrolysis of a haloalkane releases halide ions which react with silver ions.\n\nState the colour of the precipitate formed from 1-chlorobutane, 1-bromobutane and 1-iodobutane, and state which precipitate appears first.",
+    "marks": 3,
+    "markPoints": [
+      "1-chlorobutane: white precipitate (AgCl); 1-bromobutane: cream precipitate (AgBr)",
+      "1-iodobutane: yellow precipitate (AgI)",
+      "The yellow precipitate (from 1-iodobutane) appears first because the C–I bond is the weakest / hydrolysis is fastest"
+    ],
+    "modelAnswer": "1-chlorobutane gives a white precipitate of silver chloride, 1-bromobutane gives a cream precipitate of silver bromide and 1-iodobutane gives a yellow precipitate of silver iodide. The yellow precipitate appears first because the C–I bond has the lowest bond enthalpy, so 1-iodobutane is hydrolysed fastest.",
+    "explanation": "This experiment links two topics: the silver halide colours from Group 7 qualitative tests, and the bond-enthalpy explanation for the hydrolysis rates. The time for the precipitate to appear measures the rate."
+  },
+  {
+    "id": "haloalkanes-012",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "A student predicts that 1-chlorobutane will hydrolyse faster than 1-iodobutane because the C–Cl bond is more polar than the C–I bond.\n\nExplain why the student's prediction is incorrect.",
+    "marks": 3,
+    "markPoints": [
+      "The rate of hydrolysis is determined by the carbon–halogen bond enthalpy / bond strength, not by the bond polarity",
+      "The C–Cl bond is stronger / has a higher bond enthalpy than the C–I bond",
+      "So the C–I bond breaks more easily and 1-iodobutane hydrolyses faster (the opposite of the prediction)"
+    ],
+    "modelAnswer": "Although the C–Cl bond is more polar, the rate of hydrolysis depends on the bond enthalpy of the carbon–halogen bond, not its polarity. The C–Cl bond is much stronger than the C–I bond, so it is harder to break. The weaker C–I bond breaks more easily, so 1-iodobutane is hydrolysed faster than 1-chlorobutane.",
+    "explanation": "This is the classic polarity-versus-bond-enthalpy trap. Experimental rates prove that bond strength wins: the least polar carbon–halogen bond (C–I) reacts fastest because it is the weakest."
+  },
+  {
+    "id": "haloalkanes-013",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "1-iodobutane is warmed with water in the presence of silver nitrate and ethanol.\n\nWrite the equation for the hydrolysis of 1-iodobutane by water and the ionic equation for the formation of the precipitate.",
+    "marks": 3,
+    "markPoints": [
+      "CH₃CH₂CH₂CH₂I + H₂O → CH₃CH₂CH₂CH₂OH + HI (or + H⁺ + I⁻)",
+      "Ag⁺ + I⁻ → AgI",
+      "Correct identification/consistency: butan-1-ol as the organic product and AgI as a (yellow) precipitate, i.e. AgI(s)"
+    ],
+    "modelAnswer": "Hydrolysis: CH₃CH₂CH₂CH₂I + H₂O → CH₃CH₂CH₂CH₂OH + H⁺ + I⁻, forming butan-1-ol. The iodide ions released then react with the silver ions: Ag⁺(aq) + I⁻(aq) → AgI(s), giving a yellow precipitate of silver iodide.",
+    "explanation": "Water acts as the nucleophile, so the products are the alcohol plus H⁺ and the halide ion. The silver nitrate is only there to detect the halide ion as it is released — the time to see the precipitate measures the rate."
+  },
+  {
+    "id": "haloalkanes-014",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(d)",
+    "question": "CFCs were once widely used in aerosols and refrigerators.\n\nState the property of CFCs that made them suitable for these uses and explain why this same property caused an environmental problem.",
+    "marks": 2,
+    "markPoints": [
+      "CFCs are very unreactive / stable (also non-toxic and non-flammable) due to their strong carbon–halogen bonds",
+      "Their stability means they do not break down in the lower atmosphere, so they reach the stratosphere where UV radiation breaks them down (into chlorine radicals that destroy ozone)"
+    ],
+    "modelAnswer": "CFCs are chemically very stable (as well as non-toxic and non-flammable) because of their strong carbon–halogen bonds, which made them ideal refrigerants and aerosol propellants. However, this same stability means they are not broken down in the lower atmosphere, so they persist long enough to reach the stratosphere, where UV radiation breaks the C–Cl bonds and releases ozone-destroying chlorine radicals.",
+    "explanation": "The irony is the exam point: the property that made CFCs useful (inertness) is exactly what let them survive long enough to damage the ozone layer."
+  },
+  {
+    "id": "haloalkanes-015",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(d)",
+    "question": "Chlorine radicals catalyse the breakdown of ozone in the stratosphere.\n\nWrite the two propagation equations for this process and the overall equation for the breakdown of ozone.",
+    "marks": 4,
+    "markPoints": [
+      "Cl• + O₃ → ClO• + O₂",
+      "ClO• + O → Cl• + O₂",
+      "Overall: O₃ + O → 2O₂",
+      "Radical dots shown correctly / equations consistent (Cl• used up in step 1 and regenerated in step 2)"
+    ],
+    "modelAnswer": "Propagation step 1: Cl• + O₃ → ClO• + O₂. Propagation step 2: ClO• + O → Cl• + O₂. Adding the two steps and cancelling Cl• and ClO• gives the overall equation: O₃ + O → 2O₂.",
+    "explanation": "The overall equation is found by adding the propagation steps and cancelling the radicals, which appear on both sides. Because Cl• is regenerated, it does not appear in the overall equation — the signature of a catalyst."
+  },
+  {
+    "id": "haloalkanes-016",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(d)",
+    "question": "Explain why a single chlorine radical formed from a CFC molecule can destroy many thousands of ozone molecules.",
+    "marks": 3,
+    "markPoints": [
+      "The chlorine radical is used up in the first propagation step (Cl• + O₃ → ClO• + O₂)",
+      "But it is regenerated in the second propagation step (ClO• + O → Cl• + O₂)",
+      "So the chlorine radical acts as a catalyst / is not used up overall and can repeat the cycle many times, destroying an ozone molecule each cycle"
+    ],
+    "modelAnswer": "In the first propagation step the chlorine radical reacts with ozone (Cl• + O₃ → ClO• + O₂), but in the second step it is regenerated (ClO• + O → Cl• + O₂). Because the radical is reformed at the end of each cycle, it acts as a catalyst and is not used up overall, so one chlorine radical can go around the cycle thousands of times, destroying an ozone molecule on each pass.",
+    "explanation": "The key word is 'regenerated': the radical is a catalyst because it is consumed and then reformed, so a tiny amount of chlorine causes disproportionate ozone loss."
+  },
+  {
+    "id": "haloalkanes-017",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(d)",
+    "question": "CFCs have now been banned by international agreement.\n\nSuggest one class of compound developed as an alternative to CFCs and explain why it causes less damage to the ozone layer.",
+    "marks": 2,
+    "markPoints": [
+      "HFCs (hydrofluorocarbons) / hydrocarbons (e.g. as refrigerants and propellants)",
+      "HFCs contain no C–Cl bonds / contain only C–F bonds, which are too strong to be broken by UV, so no chlorine radicals form (hydrocarbons contain no halogens at all)"
+    ],
+    "modelAnswer": "Hydrofluorocarbons (HFCs) have replaced CFCs in many applications. HFCs contain no chlorine: their C–F bonds are so strong that they are not broken by UV radiation in the stratosphere, so no halogen radicals are released to destroy ozone.",
+    "explanation": "Alternatives work by removing the source of chlorine radicals: HFCs have only very strong C–F and C–H bonds, and hydrocarbon propellants contain no halogens at all."
+  },
+  {
+    "id": "haloalkanes-018",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.2.2(b)",
+    "question": "You are provided with 1-chlorobutane, 1-bromobutane and 1-iodobutane.\n\nDescribe an experiment, using aqueous silver nitrate and ethanol, to compare the rates of hydrolysis of the three haloalkanes. Include the expected observations and explain the order of reactivity you would expect.",
+    "marks": 6,
+    "markPoints": [
+      "Add each haloalkane to a separate test tube containing ethanol and aqueous silver nitrate (equal amounts/concentrations), with the tubes warmed in the same water bath (constant temperature) for a fair comparison",
+      "Time how long each mixture takes to form a precipitate",
+      "Hydrolysis releases halide ions, which react with silver ions: Ag⁺ + X⁻ → AgX",
+      "Observations: yellow precipitate (AgI) forms first, then cream (AgBr), then white (AgCl) forms slowest",
+      "Order of rate: 1-iodobutane > 1-bromobutane > 1-chlorobutane",
+      "Explanation: the C–I bond has the lowest bond enthalpy so it breaks most easily; rate depends on bond strength, not bond polarity"
+    ],
+    "modelAnswer": "Set up three test tubes, each containing the same volumes of ethanol and aqueous silver nitrate, and stand them in the same water bath so all are at the same temperature. Add equal amounts of one haloalkane to each tube, start timing, and record how long each mixture takes to form a precipitate. Water hydrolyses each haloalkane, releasing halide ions which react with the silver ions (Ag⁺ + X⁻ → AgX). The yellow precipitate of silver iodide appears first, then the cream silver bromide, and the white silver chloride appears slowest, showing the rate order 1-iodobutane > 1-bromobutane > 1-chlorobutane. This is because the rate depends on the carbon–halogen bond enthalpy, not the bond polarity: the C–I bond is the weakest so it breaks most easily, while the C–Cl bond is the strongest so it breaks most slowly.",
+    "explanation": "A 6-mark experiment answer needs: the method with fair-test controls (same temperature, same amounts), what is measured (time to precipitate), the chemistry that produces the signal (halide + Ag⁺), the three colours in order, the rate order, and the bond-enthalpy explanation."
+  },
+  {
+    "id": "haloalkanes-019",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Which statement correctly describes the polarity of the C–Cl bond in chloroethane?",
+    "options": {
+      "A": "The carbon carries a partial negative charge because it has more electrons than chlorine",
+      "B": "The chlorine carries a partial negative charge because it is more electronegative than carbon",
+      "C": "The bond is non-polar because both atoms share electrons equally",
+      "D": "The carbon carries a partial positive charge because it is more electronegative than chlorine"
+    },
+    "correctOption": "B",
+    "explanation": "Chlorine has a higher electronegativity than carbon, so the shared electrons are pulled towards the chlorine. This gives chlorine a partial negative charge (δ−) and carbon a partial positive charge (δ+).",
+    "steps": [
+      "Step 1 – Electronegativity increases across a period; chlorine (Group 17) is much more electronegative than carbon (Group 14).",
+      "Step 2 – The more electronegative atom (Cl) attracts the bonding electrons more strongly, gaining δ− and leaving carbon with δ+.",
+      "Step 3 – A is incorrect (δ− is on Cl, not C); C is wrong because the bond is polar; D has the polarity reversed.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-020",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "2-bromopropane reacts with excess ethanolic ammonia under pressure and heat.\n\nWhat is the organic product of this reaction?",
+    "options": {
+      "A": "propan-2-ol",
+      "B": "propan-2-amine",
+      "C": "propene",
+      "D": "propanenitrile"
+    },
+    "correctOption": "B",
+    "explanation": "Ammonia (NH₃) acts as a nucleophile and attacks the δ+ carbon, displacing the bromide ion. The product after deprotonation is propan-2-amine. Excess ammonia is used to minimise further substitution.",
+    "steps": [
+      "Step 1 – Reaction with NH₃ (nucleophilic substitution): the NH₃ nitrogen donates a lone pair to the δ+ carbon, displacing Br⁻.",
+      "Step 2 – The initial product is a secondary ammonium salt; excess NH₃ deprotonates it to give the secondary amine, propan-2-amine.",
+      "Step 3 – Propan-2-ol requires aqueous NaOH; propene requires ethanolic NaOH (elimination); propanenitrile requires KCN.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-021",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "1-bromopropane reacts with ethanolic potassium cyanide (KCN).\n\nWhich type of reaction takes place and what is the organic product?",
+    "options": {
+      "A": "Elimination; propene",
+      "B": "Nucleophilic substitution; butanenitrile",
+      "C": "Nucleophilic substitution; propanenitrile",
+      "D": "Electrophilic substitution; butanenitrile"
+    },
+    "correctOption": "B",
+    "explanation": "The CN⁻ ion is a nucleophile that attacks the δ+ carbon of 1-bromopropane, displacing Br⁻ (nucleophilic substitution). A new C–C bond forms, extending the chain from 3 to 4 carbons, giving butanenitrile.",
+    "steps": [
+      "Step 1 – CN⁻ is a nucleophile (lone pair on carbon of CN⁻), so the mechanism is nucleophilic substitution.",
+      "Step 2 – The cyanide group adds a carbon to the chain: 1-bromopropane has 3 carbons; the product has 3 + 1 = 4 carbons.",
+      "Step 3 – A nitrile with 4 carbons is butanenitrile (CH₃CH₂CH₂CN). Propanenitrile would require starting from a 2-carbon haloalkane.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-022",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(b)",
+    "question": "2-bromopropane is heated with ethanolic sodium hydroxide.\n\nWhich product is formed predominantly and why?",
+    "options": {
+      "A": "Propan-2-ol, because aqueous NaOH favours substitution",
+      "B": "Propene, because ethanolic NaOH and heat favour elimination",
+      "C": "Propan-1-ol, because elimination gives the more stable product",
+      "D": "Propyne, because repeated elimination removes two HBr units"
+    },
+    "correctOption": "B",
+    "explanation": "Ethanolic NaOH at high temperature is the standard condition for elimination. The OH⁻ acts as a base, abstracting a hydrogen from an adjacent carbon, and the halide leaves, forming a C=C double bond. The product is propene.",
+    "steps": [
+      "Step 1 – Distinguish conditions: aqueous NaOH → substitution (alcohol); ethanolic NaOH + heat → elimination (alkene).",
+      "Step 2 – In elimination, OH⁻ removes an H from the carbon adjacent to the C–Br, and Br⁻ leaves simultaneously, forming propene (CH₃CH=CH₂).",
+      "Step 3 – A gives the wrong product for aqueous NaOH; C is not the elimination product of 2-bromopropane; D requires two eliminations and excess base.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-023",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "A CFC molecule, CF₂Cl₂, reaches the stratosphere and absorbs UV radiation.\n\nWhich bond in CF₂Cl₂ is broken homolytically by UV radiation, and why?",
+    "options": {
+      "A": "The C–F bond, because it is the most polar",
+      "B": "The C–Cl bond, because it has a lower bond enthalpy than the C–F bond",
+      "C": "The C–F bond, because fluorine is the most electronegative atom",
+      "D": "The C–Cl bond, because chlorine is heavier than fluorine"
+    },
+    "correctOption": "B",
+    "explanation": "The C–Cl bond has a lower bond enthalpy than the C–F bond, so it requires less energy to break homolytically. UV radiation in the stratosphere has sufficient energy to break C–Cl but not C–F bonds, generating chlorine radicals.",
+    "steps": [
+      "Step 1 – Bond enthalpies: C–F (≈ 485 kJ mol⁻¹) is much stronger than C–Cl (≈ 338 kJ mol⁻¹).",
+      "Step 2 – UV radiation provides a fixed amount of energy; it is sufficient to break the weaker C–Cl bond but not the stronger C–F bond.",
+      "Step 3 – Polarity and atomic mass are not relevant here; bond enthalpy determines which bond the UV energy breaks.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-024",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Why does depletion of the ozone layer pose a risk to human health?",
+    "options": {
+      "A": "More infrared radiation reaches the Earth's surface, causing overheating",
+      "B": "More UV radiation reaches the Earth's surface, increasing the risk of skin cancer",
+      "C": "Less oxygen is available at ground level, causing breathing difficulties",
+      "D": "More carbon dioxide is produced as ozone breaks down, causing global warming"
+    },
+    "correctOption": "B",
+    "explanation": "Ozone absorbs harmful UV-B and UV-C radiation from the Sun. When the ozone layer is depleted, more UV radiation reaches the Earth's surface, increasing the risk of skin cancer (and cataracts) in humans.",
+    "steps": [
+      "Step 1 – The ozone layer in the stratosphere absorbs ultraviolet radiation, preventing most UV from reaching the surface.",
+      "Step 2 – Increased UV exposure at the surface is linked to DNA damage in skin cells, increasing the risk of skin cancer.",
+      "Step 3 – Infrared radiation (A) is absorbed by greenhouse gases, not by ozone; ozone depletion does not reduce O₂ at ground level (C) nor directly produce CO₂ (D).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-025",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Which set of reagents and conditions converts 2-iodopropane into propan-2-ol?",
+    "options": {
+      "A": "Ethanolic NaOH, heat",
+      "B": "Aqueous NaOH, heat under reflux",
+      "C": "Ethanolic KCN, heat under reflux",
+      "D": "Excess ethanolic NH₃, pressure"
+    },
+    "correctOption": "B",
+    "explanation": "Aqueous NaOH under reflux provides the OH⁻ nucleophile in an aqueous medium, which undergoes nucleophilic substitution to replace the iodide with a hydroxyl group, giving propan-2-ol.",
+    "steps": [
+      "Step 1 – To make an alcohol from a haloalkane, use nucleophilic substitution with OH⁻ (from NaOH) as the nucleophile.",
+      "Step 2 – The solvent must be aqueous (not ethanolic) so that the OH⁻ concentration is high and substitution is favoured over elimination.",
+      "Step 3 – Ethanolic NaOH (A) gives elimination (propene); KCN (C) gives a nitrile; NH₃ (D) gives an amine.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "haloalkanes-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "1-bromopropane can react with ammonia to form an organic product.\n\nWrite the equation for this reaction and name the organic product. State the type of reaction and explain why excess ammonia is used.",
+    "marks": 4,
+    "markPoints": [
+      "CH₃CH₂CH₂Br + NH₃ → CH₃CH₂CH₂NH₂ + HBr (or as ammonium salt initially)",
+      "Organic product: propylamine / propan-1-amine",
+      "Type of reaction: nucleophilic substitution",
+      "Excess ammonia is used to prevent further substitution / to ensure the amine (not a secondary or tertiary amine or quaternary ammonium salt) is the main product"
+    ],
+    "modelAnswer": "CH₃CH₂CH₂Br + NH₃ → CH₃CH₂CH₂NH₂ + HBr. The organic product is propylamine (propan-1-amine). The reaction is nucleophilic substitution: the lone pair on the nitrogen of NH₃ attacks the δ+ carbon. Excess ammonia is used because the amine product is also a nucleophile and can react further with the haloalkane; excess NH₃ minimises these further substitutions to keep propylamine as the major product.",
+    "explanation": "Two key exam points: excess NH₃ suppresses multiple substitution, and the product must be correctly named. The mechanism name (nucleophilic substitution) is always required."
+  },
+  {
+    "id": "haloalkanes-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Bromomethane reacts with ethanolic potassium cyanide.\n\nName the organic product and explain the significance of this reaction in synthesis.",
+    "marks": 3,
+    "markPoints": [
+      "Organic product: ethanenitrile / CH₃CN (acetonitrile)",
+      "The carbon chain is extended by one carbon atom (from 1 carbon to 2 carbons)",
+      "This is useful in synthesis because it allows the preparation of longer-chain compounds / the nitrile can be further hydrolysed to a carboxylic acid or reduced to an amine"
+    ],
+    "modelAnswer": "The product is ethanenitrile (CH₃CN). This reaction is significant in synthesis because the CN⁻ nucleophile adds one carbon atom to the chain, extending bromomethane (1 carbon) to a 2-carbon compound. The nitrile group can subsequently be hydrolysed to give ethanoic acid or reduced to give ethylamine, making chain extension a versatile synthetic route.",
+    "explanation": "The examiner is looking for: correct product name, the idea that the chain length increases by one carbon, and why this is synthetically useful (functional group versatility of nitriles)."
+  },
+  {
+    "id": "haloalkanes-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(b)",
+    "question": "State the reagents and conditions needed to carry out an elimination reaction on 2-chlorobutane, and write the equation for the reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Reagents: sodium hydroxide (NaOH) / potassium hydroxide (KOH) dissolved in ethanol (ethanolic NaOH/KOH)",
+      "Conditions: heat (under reflux)",
+      "CH₃CHClCH₂CH₃ + KOH → CH₃CH=CHCH₃ + KCl + H₂O (but-2-ene as the major product, or but-1-ene as minor product)"
+    ],
+    "modelAnswer": "Reagents: sodium hydroxide (or potassium hydroxide) dissolved in ethanol. Conditions: heat (under reflux). The equation is: CH₃CHClCH₂CH₃ + KOH(ethanolic) → CH₃CH=CHCH₃ + KCl + H₂O. But-2-ene is the major product (Zaitsev rule: more substituted alkene predominates), with but-1-ene as the minor product.",
+    "explanation": "Ethanolic alkali at elevated temperature is the definitive condition for elimination from a haloalkane. The more substituted alkene (but-2-ene) is the major product, though OCR A at AS level often accepts either regioisomer."
+  },
+  {
+    "id": "haloalkanes-029",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Describe how the conditions used determine whether nucleophilic substitution or elimination occurs when a haloalkane reacts with NaOH.",
+    "marks": 4,
+    "markPoints": [
+      "Aqueous NaOH (water as solvent) favours nucleophilic substitution",
+      "The product of nucleophilic substitution is an alcohol",
+      "Ethanolic NaOH (ethanol as solvent) and heat favour elimination",
+      "The product of elimination is an alkene (and water and a halide salt)"
+    ],
+    "modelAnswer": "When a haloalkane reacts with aqueous sodium hydroxide (NaOH dissolved in water), nucleophilic substitution is favoured and the product is an alcohol. When ethanolic sodium hydroxide (NaOH dissolved in ethanol) is used and the mixture is heated, elimination is favoured instead, producing an alkene. The key factor is the solvent: aqueous conditions promote substitution while ethanolic conditions promote elimination by allowing OH⁻ to act as a base rather than a nucleophile.",
+    "explanation": "The solvent choice is the decisive factor. In aqueous conditions OH⁻ acts as a nucleophile (attacks C); in ethanolic conditions OH⁻ acts as a base (abstracts a proton from an adjacent carbon) to give an alkene."
+  },
+  {
+    "id": "haloalkanes-030",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Explain why the C–F bond in fluoroalkanes is stronger than the C–I bond in iodoalkanes, with reference to atomic size and bond length.",
+    "marks": 3,
+    "markPoints": [
+      "Fluorine is a smaller atom than iodine / the atomic radius of F is much smaller than that of I",
+      "The C–F bond is shorter than the C–I bond",
+      "A shorter bond involves greater overlap of orbitals / electron density closer to both nuclei, so the bond is stronger (higher bond enthalpy)"
+    ],
+    "modelAnswer": "Fluorine is a much smaller atom than iodine, so the C–F bond is shorter than the C–I bond. A shorter bond results from greater overlap of the bonding orbitals, bringing the electron density closer to both nuclei. This gives the C–F bond a higher bond enthalpy and makes it much stronger than the C–I bond.",
+    "explanation": "Bond length and bond strength are inversely related: shorter bonds are stronger. This is the underlying reason for the bond-enthalpy trend C–F > C–Cl > C–Br > C–I and the reactivity trend in hydrolysis."
+  },
+  {
+    "id": "haloalkanes-031",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Write an equation for the initiation step in the breakdown of CFC-12 (CF₂Cl₂) by UV radiation in the stratosphere.",
+    "marks": 2,
+    "markPoints": [
+      "CF₂Cl₂ → CF₂Cl• + Cl• (homolytic fission of the C–Cl bond under UV radiation)",
+      "Radical dots shown on both product species / equation must include UV light as a condition"
+    ],
+    "modelAnswer": "CF₂Cl₂ → CF₂Cl• + Cl•  (UV radiation required as condition). The C–Cl bond undergoes homolytic fission, with one electron from the bond going to each atom, generating two radicals.",
+    "explanation": "This is homolytic fission — the bond breaks symmetrically, one electron to each fragment. The C–F bond is not broken because it has a higher bond enthalpy than C–Cl and requires more energy than UV radiation in the stratosphere provides."
+  },
+  {
+    "id": "haloalkanes-032",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "State two environmental consequences of ozone depletion and explain how international action has attempted to limit further damage.",
+    "marks": 4,
+    "markPoints": [
+      "Increased UV-B/UV radiation reaching the Earth's surface",
+      "This leads to increased risk of skin cancer / cataracts / damage to marine ecosystems / harm to phytoplankton",
+      "The Montreal Protocol (1987) / international agreements banned/phased out the production and use of CFCs",
+      "HFCs / hydrocarbons / HCFCs were introduced as less damaging alternatives (though HFCs are potent greenhouse gases)"
+    ],
+    "modelAnswer": "Ozone depletion allows more UV-B radiation to reach the Earth's surface, increasing the incidence of skin cancer in humans and damaging marine ecosystems by harming phytoplankton. Internationally, the Montreal Protocol (1987) led to a phased ban on CFC production and use worldwide. As a result, CFCs have been largely replaced by HFCs (hydrofluorocarbons), which contain no chlorine and therefore do not generate ozone-destroying radicals in the stratosphere.",
+    "explanation": "Two distinct environmental consequences are needed for the first two marks. The Montreal Protocol is the named international agreement the OCR A spec requires students to know. HFCs are the standard replacement mentioned, but note that HFCs themselves are potent greenhouse gases — an issue beyond AS level but worth awareness."
+  },
+  {
+    "id": "haloalkanes-033",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Outline the nucleophilic substitution mechanism for the reaction of 2-bromobutane with aqueous sodium hydroxide. Include the names of the mechanism, the nucleophile, the leaving group, and the organic product.",
+    "marks": 4,
+    "markPoints": [
+      "Mechanism: nucleophilic substitution",
+      "Nucleophile: hydroxide ion (OH⁻), which donates a lone pair to the δ+ carbon bonded to bromine",
+      "Leaving group: bromide ion (Br⁻), which departs taking both electrons from the C–Br bond",
+      "Organic product: butan-2-ol"
+    ],
+    "modelAnswer": "The mechanism is nucleophilic substitution. The nucleophile is the hydroxide ion (OH⁻), which has a lone pair and attacks the δ+ carbon atom bearing the bromine. The OH⁻ donates its lone pair to form a new C–O bond as the C–Br bond breaks heterolytically. The leaving group is the bromide ion (Br⁻), which departs with both electrons from the C–Br bond. The organic product is butan-2-ol.",
+    "explanation": "The four marks map exactly onto: mechanism name, nucleophile identification, leaving group identification, and correct product name. Note butan-2-ol (not butan-1-ol) because the OH replaces the Br on carbon 2."
+  },
+  {
+    "id": "haloalkanes-034",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "A student reacts 1-iodopropane with ethanolic potassium cyanide under reflux.\n\nName the organic product, state the number of carbon atoms it contains, and write the overall equation for the reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Organic product: butanenitrile (CH₃CH₂CH₂CN)",
+      "The product contains 4 carbon atoms (the original 3 from 1-iodopropane plus 1 from the CN⁻ group)",
+      "CH₃CH₂CH₂I + KCN → CH₃CH₂CH₂CN + KI"
+    ],
+    "modelAnswer": "The organic product is butanenitrile (CH₃CH₂CH₂CN), containing 4 carbon atoms — the three from 1-iodopropane plus one additional carbon from the cyanide group. The equation is: CH₃CH₂CH₂I + KCN → CH₃CH₂CH₂CN + KI.",
+    "explanation": "Reaction with KCN (or HCN) always extends the carbon chain by one. Starting from a 3-carbon iodoalkane gives a 4-carbon nitrile. The name butanenitrile (not propanenitrile) is the most common error."
+  },
+  {
+    "id": "haloalkanes-035",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(b)",
+    "question": "A sample of 2-iodo-2-methylpropane is treated with ethanolic NaOH and heated under reflux.\n\nName the type of reaction that occurs, write the equation for the reaction, and name the organic product.",
+    "marks": 3,
+    "markPoints": [
+      "Type of reaction: elimination",
+      "Equation: (CH₃)₃CI + NaOH(ethanolic) → (CH₃)₂C=CH₂ + NaI + H₂O",
+      "Organic product: 2-methylpropene (methylpropene)"
+    ],
+    "modelAnswer": "The type of reaction is elimination. The equation is: (CH₃)₃CI + NaOH(ethanolic) → (CH₃)₂C=CH₂ + NaI + H₂O. The organic product is 2-methylpropene (also called methylpropene), formed when a hydrogen atom is removed from one of the methyl groups adjacent to the C–I carbon and the iodide ion leaves.",
+    "explanation": "Ethanolic NaOH + heat always signals elimination. 2-iodo-2-methylpropane has only one type of beta-hydrogen (on the methyl groups), so only one alkene is possible: 2-methylpropene."
+  },
+  {
+    "id": "haloalkanes-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Chloroethane reacts with aqueous sodium hydroxide.\n\nExplain, using the concept of bond polarity, why the carbon atom bearing the chlorine is susceptible to nucleophilic attack.",
+    "marks": 3,
+    "markPoints": [
+      "Chlorine is more electronegative than carbon",
+      "The C–Cl bond is polar, with chlorine carrying δ− and carbon carrying δ+",
+      "The δ+ carbon is electron-deficient and therefore attracts nucleophiles, which are electron-pair donors"
+    ],
+    "modelAnswer": "Chlorine is more electronegative than carbon, so the C–Cl bond is polar: the electron density is shifted towards the chlorine, giving chlorine a partial negative charge (δ−) and the carbon a partial positive charge (δ+). This electron-deficient, δ+ carbon is susceptible to attack by nucleophiles, which are species that donate a lone pair of electrons to electron-deficient atoms.",
+    "explanation": "Three distinct points are needed: electronegativity comparison, assignment of δ− to Cl and δ+ to C, and the link between δ+ and nucleophilic attack. These should not be run together."
+  },
+  {
+    "id": "haloalkanes-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Explain why CFCs are more damaging to the ozone layer than HCFCs (hydrochlorofluorocarbons), even though both contain C–Cl bonds.",
+    "marks": 3,
+    "markPoints": [
+      "HCFCs also contain C–H bonds (as well as C–Cl and C–F bonds)",
+      "C–H bonds are weaker than C–F bonds and are broken by reactions in the lower atmosphere (e.g. with OH• radicals)",
+      "HCFCs are therefore partially broken down before reaching the stratosphere, so fewer chlorine radicals are released at ozone altitude; CFCs have no C–H bonds and survive intact to the stratosphere"
+    ],
+    "modelAnswer": "Unlike CFCs, HCFCs contain C–H bonds in addition to C–Cl and C–F bonds. The C–H bonds are reactive enough to be broken by hydroxyl radicals (OH•) in the lower atmosphere, so a proportion of HCFC molecules are destroyed before they can reach the stratosphere. Because fewer HCFC molecules survive the journey to the ozone layer, fewer chlorine radicals are released there compared to CFCs, which have no C–H bonds and are entirely unreactive in the lower atmosphere.",
+    "explanation": "The crucial point is that C–H bonds in HCFCs provide a degradation pathway in the troposphere, reducing the amount that reaches the stratosphere. CFCs lack this pathway entirely."
+  },
+  {
+    "id": "haloalkanes-038",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(a)",
+    "question": "State the reagents and conditions required to convert 1-chlorobutane into each of the following:\n(i) butan-1-ol\n(ii) pentanenitrile\n(iii) 1-aminobutane (butylamine)",
+    "marks": 6,
+    "markPoints": [
+      "(i) Reagent: aqueous sodium hydroxide (NaOH(aq))",
+      "(i) Conditions: heat under reflux",
+      "(ii) Reagent: ethanolic potassium cyanide (KCN in ethanol)",
+      "(ii) Conditions: heat under reflux",
+      "(iii) Reagent: excess ethanolic ammonia (NH₃ dissolved in ethanol)",
+      "(iii) Conditions: heat under pressure / sealed tube"
+    ],
+    "modelAnswer": "(i) Butan-1-ol: heat 1-chlorobutane under reflux with aqueous sodium hydroxide. The OH⁻ undergoes nucleophilic substitution, replacing Cl with OH. (ii) Pentanenitrile: heat under reflux with ethanolic potassium cyanide. The CN⁻ nucleophile extends the chain by one carbon, giving a 5-carbon nitrile. (iii) 1-aminobutane: heat with excess ethanolic ammonia under pressure. NH₃ acts as a nucleophile; excess is used to minimise further substitution.",
+    "explanation": "Three separate reactions, two marks each: reagent and conditions. All three involve nucleophilic substitution with different nucleophiles (OH⁻, CN⁻, NH₃). The conditions differ: aqueous for hydrolysis, ethanolic for CN⁻ and NH₃."
+  },
+  {
+    "id": "haloalkanes-039",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Bromoethane can undergo either nucleophilic substitution or elimination when treated with NaOH.\n\nFor each pathway, state the type of NaOH solution used, the role of OH⁻, and the organic product formed.",
+    "marks": 6,
+    "markPoints": [
+      "Substitution: aqueous NaOH (OH⁻ dissolved in water)",
+      "In substitution, OH⁻ acts as a nucleophile (donates lone pair to δ+ carbon)",
+      "Substitution product: ethanol (CH₃CH₂OH)",
+      "Elimination: ethanolic NaOH (OH⁻ dissolved in ethanol), heated",
+      "In elimination, OH⁻ acts as a base (accepts a proton from a carbon adjacent to the C–Br carbon)",
+      "Elimination product: ethene (CH₂=CH₂)"
+    ],
+    "modelAnswer": "Substitution: aqueous NaOH is used. OH⁻ acts as a nucleophile, donating its lone pair to the electron-deficient carbon bonded to bromine. The Br⁻ leaves and ethanol (CH₃CH₂OH) is formed. Elimination: ethanolic NaOH heated under reflux is used. OH⁻ acts as a base, abstracting a hydrogen atom from the adjacent carbon while Br⁻ leaves, forming a C=C double bond. The product is ethene (CH₂=CH₂).",
+    "explanation": "The contrast between nucleophile (substitution, forms alcohol) and base (elimination, forms alkene) is the central theme. Three marks per pathway: solvent/conditions, role of OH⁻, and product."
+  },
+  {
+    "id": "haloalkanes-040",
+    "type": "written",
+    "module": 4,
+    "topic": "Haloalkanes",
+    "specRef": "4.1.2(c)",
+    "question": "State the meaning of the term 'homolytic fission' and explain why the Cl• radical formed in the stratosphere is described as a catalyst.",
+    "marks": 4,
+    "markPoints": [
+      "Homolytic fission: the breaking of a covalent bond such that one electron from the bond goes to each atom / each fragment receives one electron, forming radicals",
+      "The Cl• radical reacts with ozone (Cl• + O₃ → ClO• + O₂), consuming the radical in the first propagation step",
+      "The Cl• radical is regenerated in the second propagation step (ClO• + O → Cl• + O₂)",
+      "Because Cl• is consumed and then reformed, it is not used up overall / appears in neither reactants nor products of the overall equation, so it is a catalyst"
+    ],
+    "modelAnswer": "Homolytic fission is the breaking of a covalent bond in which one electron from the bond goes to each atom, producing two radicals with unpaired electrons. The Cl• radical is a catalyst because in the first propagation step it reacts with ozone (Cl• + O₃ → ClO• + O₂) and is consumed, but in the second propagation step it is regenerated (ClO• + O → Cl• + O₂). Because Cl• is reformed in every cycle, it is not used up overall and does not appear in the overall equation (O₃ + O → 2O₂) — the definition of a catalyst.",
+    "explanation": "Two separate concepts: the definition of homolytic fission (one electron to each fragment → radicals) and why the radical is catalytic (consumed then regenerated each cycle, net zero consumption)."
+  }
+]

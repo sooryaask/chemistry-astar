@@ -1,0 +1,784 @@
+[
+  {
+    "id": "periodicity-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(c)",
+    "question": "Which element is in the p-block of the periodic table?",
+    "options": { "A": "Sodium", "B": "Calcium", "C": "Aluminium", "D": "Titanium" },
+    "correctOption": "C",
+    "explanation": "An element's block is determined by the sub-shell containing its highest-energy electron. Aluminium is 1s²2s²2p⁶3s²3p¹, so its highest-energy electron is in a p sub-shell and it is in the p-block.",
+    "steps": [
+      "Step 1 – Write the highest-energy sub-shell for each element: Na (3s¹), Ca (4s²), Al (3p¹), Ti (3d²).",
+      "Step 2 – The block matches the sub-shell of the highest-energy electron: Na and Ca are s-block, Ti is d-block.",
+      "Step 3 – Aluminium's outer electron is in the 3p sub-shell, so it is in the p-block.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "periodicity-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(b)",
+    "question": "An element has the electron configuration 1s²2s²2p⁶3s²3p⁴.\n\nIn which period and group of the periodic table is this element?",
+    "options": {
+      "A": "Period 3, Group 16",
+      "B": "Period 3, Group 14",
+      "C": "Period 2, Group 16",
+      "D": "Period 4, Group 6"
+    },
+    "correctOption": "A",
+    "explanation": "The highest occupied shell is n = 3, so the element is in Period 3. It has six outer-shell electrons (3s²3p⁴), placing it in Group 16. The element is sulfur.",
+    "steps": [
+      "Step 1 – The highest principal quantum number occupied is 3, so the element is in Period 3.",
+      "Step 2 – Count the outer-shell electrons: 3s² + 3p⁴ = 6 electrons.",
+      "Step 3 – Six outer electrons with the outer electron in a p sub-shell places the element in Group 16.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "periodicity-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(d)",
+    "question": "Which equation represents the first ionisation energy of magnesium?",
+    "options": {
+      "A": "Mg(s) → Mg⁺(s) + e⁻",
+      "B": "Mg(g) → Mg⁺(g) + e⁻",
+      "C": "Mg(g) → Mg²⁺(g) + 2e⁻",
+      "D": "Mg(g) + e⁻ → Mg⁻(g)"
+    },
+    "correctOption": "B",
+    "explanation": "The first ionisation energy is the energy required to remove one electron from each atom in one mole of gaseous atoms to form one mole of gaseous 1+ ions. All species must be gaseous and only one electron is removed.",
+    "steps": [
+      "Step 1 – Recall the definition: one electron removed from each gaseous atom to form gaseous 1+ ions.",
+      "Step 2 – A uses solid-state species, C removes two electrons (1st + 2nd combined), D is electron gain, not ionisation.",
+      "Step 3 – Only Mg(g) → Mg⁺(g) + e⁻ matches the definition exactly.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Which element in Period 3 has the highest first ionisation energy?",
+    "options": { "A": "Sodium", "B": "Aluminium", "C": "Chlorine", "D": "Argon" },
+    "correctOption": "D",
+    "explanation": "First ionisation energy shows a general increase across a period because nuclear charge increases while shielding stays the same. Argon is at the end of Period 3, so its outer electrons experience the greatest nuclear attraction and it has the highest first ionisation energy.",
+    "steps": [
+      "Step 1 – Across Period 3 the nuclear charge increases while electrons enter the same shell with the same shielding.",
+      "Step 2 – Nuclear attraction on the outer electrons therefore increases across the period.",
+      "Step 3 – Argon (Z = 18) is furthest across Period 3, so it has the highest first ionisation energy.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "periodicity-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of sulfur (1000 kJ mol⁻¹) is lower than that of phosphorus (1012 kJ mol⁻¹).\n\nWhat is the best explanation for this?",
+    "options": {
+      "A": "Sulfur has a larger atomic radius than phosphorus",
+      "B": "Sulfur has more shielding than phosphorus",
+      "C": "Sulfur has two paired electrons in one 3p orbital, which repel each other",
+      "D": "Sulfur has a smaller nuclear charge than phosphorus"
+    },
+    "correctOption": "C",
+    "explanation": "Phosphorus is 3p³ with one electron in each 3p orbital; sulfur is 3p⁴ so one 3p orbital contains a pair of electrons. The repulsion between the paired electrons makes one of them easier to remove, lowering the first ionisation energy despite sulfur's greater nuclear charge.",
+    "steps": [
+      "Step 1 – Write the outer configurations: P is 3s²3p³ (all 3p electrons unpaired), S is 3s²3p⁴ (one 3p orbital has a pair).",
+      "Step 2 – Paired electrons in the same orbital repel each other, so one of the pair is easier to remove.",
+      "Step 3 – A, B and D are false: sulfur is smaller than phosphorus, has the same shielding, and a larger nuclear charge.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "periodicity-006",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of aluminium (578 kJ mol⁻¹) is lower than that of magnesium (738 kJ mol⁻¹).\n\nWhat is the best explanation for this?",
+    "options": {
+      "A": "Aluminium's outer electron is in a 3p sub-shell, which is higher in energy than the 3s sub-shell",
+      "B": "Aluminium has paired electrons in its 3p sub-shell",
+      "C": "Aluminium has a smaller nuclear charge than magnesium",
+      "D": "Aluminium has one fewer electron shell than magnesium"
+    },
+    "correctOption": "A",
+    "explanation": "Magnesium's outer electron is in the 3s sub-shell; aluminium's is in the 3p sub-shell, which is higher in energy and slightly further from the nucleus (and shielded by the 3s electrons). The 3p electron is therefore easier to remove despite aluminium's greater nuclear charge.",
+    "steps": [
+      "Step 1 – Configurations: Mg is [Ne]3s², Al is [Ne]3s²3p¹.",
+      "Step 2 – The 3p sub-shell is higher in energy than the 3s sub-shell and is shielded by the 3s electrons, so the 3p electron is easier to remove.",
+      "Step 3 – B is wrong (Al has only one 3p electron so no pairing), C is wrong (Al has more protons), D is wrong (both are in Period 3).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "periodicity-007",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first four successive ionisation energies of an element are:\n\nIE₁–IE₄ / kJ mol⁻¹: 590, 1145, 4912, 6474\n\nIn which group of the periodic table is this element?",
+    "options": { "A": "Group 1", "B": "Group 2", "C": "Group 3 (13)", "D": "Group 4 (14)" },
+    "correctOption": "B",
+    "explanation": "There is a large jump between IE₂ (1145 kJ mol⁻¹) and IE₃ (4912 kJ mol⁻¹). This shows the third electron is removed from a new, inner shell that is closer to the nucleus and less shielded. The element therefore has two outer-shell electrons and is in Group 2.",
+    "steps": [
+      "Step 1 – Look for the largest relative jump between successive values: 1145 → 4912 is more than a fourfold increase.",
+      "Step 2 – The jump occurs between IE₂ and IE₃, so the third electron comes from an inner shell.",
+      "Step 3 – Two electrons are removed easily before the jump, so there are two outer electrons: Group 2.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-008",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "What happens to the atomic radius of the elements across Period 3 from sodium to chlorine, and why?",
+    "options": {
+      "A": "It increases, because the number of electrons increases",
+      "B": "It increases, because shielding increases",
+      "C": "It decreases, because nuclear charge increases while shielding stays roughly the same",
+      "D": "It decreases, because the number of shells decreases"
+    },
+    "correctOption": "C",
+    "explanation": "Across Period 3, electrons are added to the same outer shell so shielding is roughly constant, but the number of protons increases. The stronger nuclear attraction pulls the outer electrons closer, so atomic radius decreases.",
+    "steps": [
+      "Step 1 – Across a period, electrons enter the same shell, so shielding by inner shells is roughly constant.",
+      "Step 2 – The nuclear charge increases from Na (11+) to Cl (17+).",
+      "Step 3 – Greater attraction on the same shell pulls the electrons closer, so the radius decreases; D is wrong because the number of shells stays the same.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "periodicity-009",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Which element has the highest melting point in Period 3?",
+    "options": { "A": "Sodium", "B": "Aluminium", "C": "Silicon", "D": "Sulfur" },
+    "correctOption": "C",
+    "explanation": "Silicon has a giant covalent lattice in which every atom is joined to four others by strong covalent bonds. Melting silicon requires breaking these strong covalent bonds, so its melting point is far higher than the metals (giant metallic) or sulfur (simple molecular).",
+    "steps": [
+      "Step 1 – Classify the structures: Na and Al are giant metallic, Si is giant covalent, S₈ is simple molecular.",
+      "Step 2 – Melting a giant covalent lattice requires breaking many strong covalent bonds, which needs the most energy.",
+      "Step 3 – Silicon therefore has the highest melting point in Period 3.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "periodicity-010",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Which element has the lowest boiling point in Period 3?",
+    "options": { "A": "Chlorine", "B": "Argon", "C": "Phosphorus", "D": "Sulfur" },
+    "correctOption": "B",
+    "explanation": "Argon exists as single atoms, so the only forces between its particles are very weak London (induced dipole–dipole) forces. These need very little energy to overcome, giving argon the lowest boiling point in the period.",
+    "steps": [
+      "Step 1 – P₄, S₈ and Cl₂ are simple molecular; argon is monatomic.",
+      "Step 2 – The strength of London forces increases with the number of electrons in the particle: S₈ > P₄ > Cl₂ > Ar.",
+      "Step 3 – Argon's single atoms have the weakest London forces, so it boils at the lowest temperature.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-011",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(f)",
+    "question": "Which particles are present in the lattice of solid magnesium?",
+    "options": {
+      "A": "Magnesium atoms only",
+      "B": "Mg²⁺ ions and delocalised electrons",
+      "C": "Mg²⁺ ions and O²⁻ ions",
+      "D": "Magnesium molecules held by London forces"
+    },
+    "correctOption": "B",
+    "explanation": "Metallic bonding is the strong electrostatic attraction between a giant lattice of positive metal ions (cations) and a 'sea' of delocalised electrons. In magnesium each atom contributes its two outer electrons, leaving Mg²⁺ ions in the lattice.",
+    "steps": [
+      "Step 1 – Recall the model of metallic bonding: positive ions in a giant lattice surrounded by delocalised electrons.",
+      "Step 2 – Each magnesium atom releases its two 3s electrons into the delocalised system, leaving Mg²⁺ ions.",
+      "Step 3 – C describes magnesium oxide (ionic) and D describes a simple molecular substance, so both are wrong.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-012",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Which element in Period 2 has the highest first ionisation energy?",
+    "options": { "A": "Lithium", "B": "Nitrogen", "C": "Fluorine", "D": "Neon" },
+    "correctOption": "D",
+    "explanation": "First ionisation energy generally increases across Period 2 as nuclear charge increases with no change in shielding. Neon, at the end of the period, has the greatest nuclear attraction on its outer electrons and so the highest first ionisation energy.",
+    "steps": [
+      "Step 1 – Across Period 2, protons increase from 3 (Li) to 10 (Ne) while the outer electrons stay in the second shell.",
+      "Step 2 – Shielding is unchanged, so nuclear attraction on the outer electrons increases across the period.",
+      "Step 3 – Neon is furthest across the period, so its outer electron is hardest to remove.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "periodicity-013",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(c)",
+    "question": "Which element is in the d-block of the periodic table?",
+    "options": { "A": "Potassium", "B": "Iron", "C": "Germanium", "D": "Strontium" },
+    "correctOption": "B",
+    "explanation": "Iron's highest-energy electrons are being added to the 3d sub-shell ([Ar]3d⁶4s²), so it is a d-block element. Potassium and strontium are s-block; germanium is p-block.",
+    "steps": [
+      "Step 1 – Write the configurations: K is [Ar]4s¹, Sr is [Kr]5s², Ge is [Ar]3d¹⁰4s²4p², Fe is [Ar]3d⁶4s².",
+      "Step 2 – The block is set by the sub-shell being filled: K and Sr fill s, Ge fills p.",
+      "Step 3 – Iron is filling the 3d sub-shell, so it is in the d-block.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-014",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The successive ionisation energies of an element show a large increase between the fifth and sixth ionisation energies.\n\nIn which group of the periodic table is this element?",
+    "options": {
+      "A": "Group 4 (14)",
+      "B": "Group 5 (15)",
+      "C": "Group 6 (16)",
+      "D": "Group 3 (13)"
+    },
+    "correctOption": "B",
+    "explanation": "A large jump between IE₅ and IE₆ means the sixth electron is removed from an inner shell. Five electrons are removed from the outer shell before the jump, so the element has five outer electrons and is in Group 5 (15).",
+    "steps": [
+      "Step 1 – The big jump marks the change from removing outer-shell electrons to removing inner-shell electrons.",
+      "Step 2 – The jump comes after the fifth electron, so exactly five electrons occupy the outer shell.",
+      "Step 3 – Five outer-shell electrons corresponds to Group 5 (15), for example nitrogen or phosphorus.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "periodicity-015",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(d)",
+    "question": "Define the term first ionisation energy.",
+    "marks": 3,
+    "markPoints": [
+      "The energy required to remove one electron (from each atom)",
+      "From one mole of gaseous atoms",
+      "To form one mole of gaseous 1+ ions"
+    ],
+    "modelAnswer": "The first ionisation energy is the energy required to remove one electron from each atom in one mole of gaseous atoms to form one mole of gaseous 1+ ions.",
+    "explanation": "All three ideas are needed for full marks: one electron removed, one mole of gaseous atoms, and one mole of gaseous 1+ ions formed. Missing 'gaseous' or 'one mole' is the most common way to lose marks."
+  },
+  {
+    "id": "periodicity-016",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(d)",
+    "question": "Write the equation, including state symbols, that represents the first ionisation energy of sodium.",
+    "marks": 2,
+    "markPoints": [
+      "Na → Na⁺ + e⁻ (one electron removed from the atom to form a 1+ ion)",
+      "Correct state symbols: Na(g) → Na⁺(g) + e⁻"
+    ],
+    "modelAnswer": "Na(g) → Na⁺(g) + e⁻",
+    "explanation": "Ionisation energy equations must show gaseous species. Both the atom and the ion take the (g) state symbol; the electron does not need one."
+  },
+  {
+    "id": "periodicity-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(d)",
+    "question": "Write the equation, including state symbols, that represents the third ionisation energy of aluminium.",
+    "marks": 2,
+    "markPoints": [
+      "Al²⁺ → Al³⁺ + e⁻ (starting from the 2+ ion and removing one electron)",
+      "Correct state symbols: Al²⁺(g) → Al³⁺(g) + e⁻"
+    ],
+    "modelAnswer": "Al²⁺(g) → Al³⁺(g) + e⁻",
+    "explanation": "The nth ionisation energy always starts from the gaseous (n−1)+ ion and removes exactly one electron. For the third ionisation energy the starting species is Al²⁺(g), not Al(g)."
+  },
+  {
+    "id": "periodicity-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Explain why first ionisation energy shows a general increase across Period 3 from sodium to argon.",
+    "marks": 3,
+    "markPoints": [
+      "Nuclear charge (number of protons) increases across the period",
+      "Electrons are added to the same shell, so shielding stays (roughly) the same and atomic radius decreases",
+      "Nuclear attraction on the outer electrons increases, so more energy is needed to remove an electron"
+    ],
+    "modelAnswer": "Across Period 3 the nuclear charge increases as protons are added, but the electrons enter the same outer shell so shielding stays roughly the same and the atomic radius decreases. The outer electrons are therefore attracted more strongly to the nucleus, so more energy is needed to remove one.",
+    "explanation": "Across a period the deciding factor is nuclear charge: same shell, same shielding, more protons. Always link the increased attraction to the energy needed to remove the electron."
+  },
+  {
+    "id": "periodicity-019",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of aluminium (578 kJ mol⁻¹) is lower than that of magnesium (738 kJ mol⁻¹).\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "The outer electron of aluminium is in the 3p sub-shell whereas magnesium's is in the 3s sub-shell",
+      "The 3p sub-shell is higher in energy / further from the nucleus / shielded by the 3s electrons",
+      "So the 3p electron is easier to remove (less energy needed), despite aluminium's greater nuclear charge"
+    ],
+    "modelAnswer": "Aluminium's outer electron is in the 3p sub-shell, whereas magnesium's outer electrons are in the 3s sub-shell. The 3p sub-shell is at a higher energy and is shielded slightly by the 3s electrons, so the 3p electron is easier to remove even though aluminium has a greater nuclear charge.",
+    "explanation": "This is the first of the two dips across Period 3. It is a sub-shell argument: 3p is higher in energy than 3s, so the outer electron needs less energy to remove."
+  },
+  {
+    "id": "periodicity-020",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of sulfur (1000 kJ mol⁻¹) is lower than that of phosphorus (1012 kJ mol⁻¹).\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "In phosphorus (3p³) each 3p orbital contains one unpaired electron; in sulfur (3p⁴) one 3p orbital contains a pair of electrons",
+      "The paired electrons in the same orbital repel each other",
+      "So one of the paired electrons is easier to remove (less energy needed), despite sulfur's greater nuclear charge"
+    ],
+    "modelAnswer": "Phosphorus is 3s²3p³, with one electron in each 3p orbital, but sulfur is 3s²3p⁴, so one of its 3p orbitals contains a pair of electrons. The two paired electrons repel each other, so one of them is easier to remove. This repulsion outweighs sulfur's greater nuclear charge, giving sulfur the lower first ionisation energy.",
+    "explanation": "This is the second dip across Period 3 and it is a pairing argument: electron–electron repulsion within one doubly occupied p orbital makes removal easier."
+  },
+  {
+    "id": "periodicity-021",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of oxygen (1314 kJ mol⁻¹) is lower than that of nitrogen (1402 kJ mol⁻¹).\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Nitrogen (2p³) has one unpaired electron in each 2p orbital; oxygen (2p⁴) has one 2p orbital containing a pair of electrons",
+      "The paired electrons in the same orbital repel each other",
+      "So one of the paired electrons in oxygen is easier to remove, despite oxygen's greater nuclear charge"
+    ],
+    "modelAnswer": "Nitrogen is 2s²2p³ with one electron in each 2p orbital, whereas oxygen is 2s²2p⁴ so one 2p orbital holds a pair of electrons. The repulsion between these paired electrons makes one of them easier to remove, so oxygen's first ionisation energy is lower even though its nuclear charge is greater.",
+    "explanation": "The N→O dip in Period 2 mirrors the P→S dip in Period 3: it is caused by repulsion between the first pair of electrons forced into the same p orbital."
+  },
+  {
+    "id": "periodicity-022",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of boron (801 kJ mol⁻¹) is lower than that of beryllium (900 kJ mol⁻¹).\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Boron's outer electron is in the 2p sub-shell whereas beryllium's outer electrons are in the 2s sub-shell",
+      "The 2p sub-shell is higher in energy / further from the nucleus / shielded by the 2s electrons",
+      "So boron's outer electron is easier to remove, despite its greater nuclear charge"
+    ],
+    "modelAnswer": "Beryllium is 1s²2s², but boron is 1s²2s²2p¹, so boron's outer electron is in the 2p sub-shell. The 2p sub-shell is at a higher energy than the 2s sub-shell and is shielded slightly by the 2s electrons, so the 2p electron is easier to remove even though boron has one more proton.",
+    "explanation": "The Be→B dip in Period 2 mirrors the Mg→Al dip in Period 3: the new p sub-shell is higher in energy than the s sub-shell, so its electron needs less energy to remove."
+  },
+  {
+    "id": "periodicity-023",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Explain why first ionisation energy decreases down a group of the periodic table.",
+    "marks": 3,
+    "markPoints": [
+      "Atomic radius increases down the group (outer electron is further from the nucleus)",
+      "Shielding by inner shells increases",
+      "Nuclear attraction on the outer electron decreases (these factors outweigh the increase in nuclear charge), so less energy is needed to remove it"
+    ],
+    "modelAnswer": "Down a group each element has an extra shell, so the atomic radius increases and there is more shielding from the inner shells. The attraction between the nucleus and the outer electron therefore decreases, despite the increase in nuclear charge, so less energy is needed to remove the outer electron.",
+    "explanation": "Down a group, distance and shielding win against the increasing nuclear charge. Examiners expect you to state explicitly that these factors outweigh the greater nuclear charge."
+  },
+  {
+    "id": "periodicity-024",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first five successive ionisation energies of an element are:\n\nIE₁–IE₅ / kJ mol⁻¹: 578, 1817, 2745, 11 578, 14 842\n\nDeduce the group of the periodic table in which this element is found. Explain your reasoning.",
+    "marks": 3,
+    "markPoints": [
+      "There is a large increase between the 3rd (2745 kJ mol⁻¹) and 4th (11 578 kJ mol⁻¹) ionisation energies",
+      "So the 4th electron is removed from a new, inner shell that is closer to the nucleus / less shielded",
+      "The element has three outer-shell electrons, so it is in Group 3 (13)"
+    ],
+    "modelAnswer": "The large jump between IE₃ (2745 kJ mol⁻¹) and IE₄ (11 578 kJ mol⁻¹) shows that the fourth electron is removed from an inner shell, which is closer to the nucleus and experiences less shielding. Three electrons are removed relatively easily before the jump, so the element has three outer-shell electrons and is in Group 3 (13).",
+    "explanation": "The number of electrons removed before the big jump equals the number of outer-shell electrons, which equals the group number. Here the jump comes after the third electron, so the element is in Group 3 (13) — this data is for aluminium."
+  },
+  {
+    "id": "periodicity-025",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first four successive ionisation energies of an element Y are:\n\nIE₁–IE₄ / kJ mol⁻¹: 738, 1451, 7733, 10 543\n\nDeduce the group of the periodic table in which element Y is found. Explain your reasoning.",
+    "marks": 3,
+    "markPoints": [
+      "There is a large increase between the 2nd (1451 kJ mol⁻¹) and 3rd (7733 kJ mol⁻¹) ionisation energies",
+      "So the 3rd electron is removed from a new, inner shell that is closer to the nucleus / less shielded",
+      "The element has two outer-shell electrons, so it is in Group 2"
+    ],
+    "modelAnswer": "There is a large jump between IE₂ (1451 kJ mol⁻¹) and IE₃ (7733 kJ mol⁻¹), which shows the third electron is removed from an inner shell closer to the nucleus with less shielding. Two electrons are removed before the jump, so element Y has two outer-shell electrons and is in Group 2.",
+    "explanation": "Count the electrons removed before the big jump: two here, so Group 2. This data is for magnesium."
+  },
+  {
+    "id": "periodicity-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Explain why the successive ionisation energies of an element always increase.",
+    "marks": 2,
+    "markPoints": [
+      "Each electron is removed from an increasingly positive ion",
+      "The same nuclear charge attracts fewer electrons (less electron–electron repulsion), so each remaining electron is held more strongly and needs more energy to remove"
+    ],
+    "modelAnswer": "Each successive electron is removed from an ion with a greater positive charge. The same number of protons attracts fewer and fewer electrons, so the remaining electrons are pulled in more strongly and each one requires more energy to remove than the last.",
+    "explanation": "The proton-to-electron ratio rises with each ionisation, so attraction per electron increases. This general rise happens as well as the big jumps between shells."
+  },
+  {
+    "id": "periodicity-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first eight successive ionisation energies of an element X are:\n\nIE₁–IE₈ / kJ mol⁻¹: 1000, 2251, 3361, 4564, 7013, 8496, 27 107, 31 671\n\nDeduce the group of the periodic table in which element X is found. Explain your reasoning.",
+    "marks": 3,
+    "markPoints": [
+      "There is a large increase between the 6th (8496 kJ mol⁻¹) and 7th (27 107 kJ mol⁻¹) ionisation energies",
+      "So the 7th electron is removed from a new, inner shell that is closer to the nucleus / less shielded",
+      "Six electrons are removed before the jump, so element X has six outer-shell electrons and is in Group 6 (16)"
+    ],
+    "modelAnswer": "The large jump between IE₆ (8496 kJ mol⁻¹) and IE₇ (27 107 kJ mol⁻¹) shows the seventh electron is removed from an inner shell, closer to the nucleus and less shielded. Six electrons are removed before the jump, so element X has six outer-shell electrons and is in Group 6 (16).",
+    "explanation": "Scan the list for the biggest relative jump: 8496 to 27 107 is more than a threefold increase. Six outer electrons means Group 6 (16) — this data is for sulfur."
+  },
+  {
+    "id": "periodicity-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Explain why atomic radius decreases across Period 3 from sodium to chlorine.",
+    "marks": 3,
+    "markPoints": [
+      "Nuclear charge (number of protons) increases across the period",
+      "Electrons are added to the same (outer) shell, so shielding stays (roughly) the same",
+      "The outer electrons are attracted more strongly and pulled closer to the nucleus, so the radius decreases"
+    ],
+    "modelAnswer": "Across Period 3 the number of protons increases, but the added electrons all enter the same outer shell, so the shielding from inner shells stays roughly constant. The increasing nuclear charge therefore attracts the outer electrons more strongly and pulls them closer to the nucleus, decreasing the atomic radius.",
+    "explanation": "Same shell + same shielding + more protons = smaller atom. This is the same reasoning that explains the general increase in first ionisation energy across a period."
+  },
+  {
+    "id": "periodicity-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "State and explain which of sodium and magnesium has the smaller atomic radius.",
+    "marks": 2,
+    "markPoints": [
+      "Magnesium has the smaller atomic radius",
+      "Mg has one more proton (greater nuclear charge) but the same shielding / outer electrons in the same shell, so the outer electrons are attracted more strongly and pulled closer"
+    ],
+    "modelAnswer": "Magnesium has the smaller atomic radius. It has one more proton than sodium, but its outer electrons are in the same shell with the same shielding, so the greater nuclear charge attracts the outer electrons more strongly and pulls them closer to the nucleus.",
+    "explanation": "Comparisons across a period always come down to nuclear charge, because shells and shielding are unchanged between neighbouring elements."
+  },
+  {
+    "id": "periodicity-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(f)",
+    "question": "Describe the bonding in a solid metal such as sodium.",
+    "marks": 2,
+    "markPoints": [
+      "A giant lattice of positive (metal) ions / cations",
+      "(Strong electrostatic) attraction between the positive ions and delocalised electrons"
+    ],
+    "modelAnswer": "Solid sodium consists of a giant lattice of positive sodium ions. The ions are held together by the strong electrostatic attraction between the positive ions and the sea of delocalised electrons that surrounds them.",
+    "explanation": "Metallic bonding needs both particles named — cations in a giant lattice and delocalised electrons — and the word 'attraction' between them. Saying 'atoms' instead of 'ions' loses the mark."
+  },
+  {
+    "id": "periodicity-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Explain why magnesium has a higher melting point than sodium.",
+    "marks": 3,
+    "markPoints": [
+      "Mg forms 2+ ions whereas Na forms 1+ ions (greater ionic charge), and the Mg²⁺ ion is smaller",
+      "Mg contributes two delocalised electrons per atom compared with one for Na",
+      "The electrostatic attraction between the ions and the delocalised electrons is stronger, so more energy is needed to break the metallic bonding"
+    ],
+    "modelAnswer": "Magnesium forms Mg²⁺ ions, which have a greater charge and are smaller than Na⁺ ions, and each magnesium atom contributes two delocalised electrons rather than one. The electrostatic attraction between the ions and the delocalised electrons is therefore stronger in magnesium, so more energy is needed to break the metallic bonds and its melting point is higher.",
+    "explanation": "Metallic bond strength depends on ionic charge, ionic size and the number of delocalised electrons per atom. Mg beats Na on all three, so its metallic bonding is stronger."
+  },
+  {
+    "id": "periodicity-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(g)",
+    "question": "Silicon has a very high melting point.\n\nExplain this in terms of its structure and bonding.",
+    "marks": 3,
+    "markPoints": [
+      "Silicon has a giant covalent lattice (each Si atom bonded to four others)",
+      "Melting requires breaking (many) strong covalent bonds",
+      "This requires a large amount of energy, so the melting point is very high"
+    ],
+    "modelAnswer": "Silicon has a giant covalent lattice in which every silicon atom is joined to four others by strong covalent bonds. To melt silicon, many of these strong covalent bonds must be broken, which requires a very large amount of energy, so silicon's melting point is very high.",
+    "explanation": "Giant covalent explanations must state the structure (giant covalent lattice), what is broken on melting (strong covalent bonds, not intermolecular forces) and link this to the large energy required."
+  },
+  {
+    "id": "periodicity-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Sulfur (S₈) has a higher melting point than chlorine (Cl₂).\n\nExplain this difference in terms of structure and bonding.",
+    "marks": 3,
+    "markPoints": [
+      "Both are simple molecular substances with (weak) London / induced dipole–dipole forces between molecules",
+      "S₈ molecules are larger / have more electrons than Cl₂ molecules",
+      "So the London forces between S₈ molecules are stronger and more energy is needed to overcome them"
+    ],
+    "modelAnswer": "Both sulfur and chlorine are simple molecular substances, so only weak London (induced dipole–dipole) forces act between their molecules. However, an S₈ molecule has many more electrons than a Cl₂ molecule, so the London forces between S₈ molecules are stronger and more energy is needed to overcome them. Sulfur therefore melts at a higher temperature.",
+    "explanation": "For simple molecular substances the covalent bonds do not break on melting — only the intermolecular forces are overcome. London force strength scales with the number of electrons per molecule: S₈ > P₄ > Cl₂."
+  },
+  {
+    "id": "periodicity-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Describe and explain, in terms of structure and bonding, how the melting points of the elements change across Period 3 from sodium to argon.",
+    "marks": 6,
+    "markPoints": [
+      "Na, Mg and Al are giant metallic structures and their melting points increase from Na to Al",
+      "Because the ionic charge (+1 → +3) and the number of delocalised electrons per atom increase, so the metallic bonding gets stronger",
+      "Si has the highest melting point because it has a giant covalent lattice",
+      "Melting silicon requires breaking many strong covalent bonds, which needs a very large amount of energy",
+      "P₄, S₈ and Cl₂ are simple molecular (and Ar is monatomic) so melting points are low: only weak London forces between molecules are overcome",
+      "The melting points follow S₈ > P₄ > Cl₂ > Ar because the strength of the London forces increases with the number of electrons in each molecule"
+    ],
+    "modelAnswer": "Sodium, magnesium and aluminium have giant metallic structures, and their melting points increase across these three elements because the charge on the metal ion increases from +1 to +3 and each atom contributes more delocalised electrons, strengthening the electrostatic attraction in the metallic bonding. Silicon has the highest melting point in the period because it forms a giant covalent lattice; melting it requires breaking many strong covalent bonds, which needs a very large amount of energy. Phosphorus (P₄), sulfur (S₈) and chlorine (Cl₂) are simple molecular substances and argon is monatomic, so their melting points are low — only weak London forces between the particles have to be overcome. Among these, the melting points decrease in the order S₈ > P₄ > Cl₂ > Ar because the number of electrons per molecule decreases, weakening the London forces.",
+    "explanation": "Structure the answer around the three structural types: giant metallic (Na–Al, increasing), giant covalent (Si, highest) and simple molecular/monatomic (P–Ar, low). Then rank the molecular elements by electrons per molecule."
+  },
+  {
+    "id": "periodicity-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Describe and explain how the first ionisation energies of the Period 3 elements change from sodium to argon. In your answer, include an explanation of any elements that do not follow the general trend.",
+    "marks": 5,
+    "markPoints": [
+      "General increase across the period because nuclear charge increases",
+      "Electrons are added to the same shell so shielding stays the same (and radius decreases), giving stronger nuclear attraction on the outer electrons",
+      "Aluminium is lower than magnesium: Al's outer electron is in the 3p sub-shell, which is higher in energy than the 3s sub-shell (and shielded by the 3s electrons), so it is easier to remove",
+      "Sulfur is lower than phosphorus: in S one 3p orbital contains a pair of electrons whereas P has three unpaired 3p electrons",
+      "The repulsion between the paired electrons in sulfur makes one of them easier to remove"
+    ],
+    "modelAnswer": "First ionisation energy generally increases from sodium to argon because the nuclear charge increases while the electrons are added to the same shell, so shielding is unchanged and the outer electrons are attracted more strongly. There are two exceptions. Aluminium's first ionisation energy is lower than magnesium's because aluminium's outer electron is in the 3p sub-shell, which is higher in energy than magnesium's 3s sub-shell and is shielded by the 3s electrons, so it is easier to remove. Sulfur's first ionisation energy is lower than phosphorus's because sulfur (3p⁴) has one 3p orbital containing a pair of electrons, whereas phosphorus (3p³) has only unpaired 3p electrons; the repulsion between sulfur's paired electrons makes one of them easier to remove.",
+    "explanation": "The full period trend is: general rise (nuclear charge argument) plus the two dips — Mg→Al (sub-shell argument) and P→S (pairing argument). All three parts are needed in a 5–6 mark answer."
+  },
+  {
+    "id": "periodicity-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Neon has the lowest boiling point of the elements in Period 2.\n\nExplain why.",
+    "marks": 2,
+    "markPoints": [
+      "Neon exists as single atoms (it is monatomic)",
+      "Only very weak London (induced dipole–dipole) forces act between the atoms (few electrons), so very little energy is needed to overcome them"
+    ],
+    "modelAnswer": "Neon is monatomic, existing as single atoms. The only forces between the atoms are very weak London forces, because each atom has few electrons, so very little energy is needed to separate the atoms and the boiling point is very low.",
+    "explanation": "Noble gases sit at the bottom of every period's melting/boiling point pattern: single atoms, few electrons, weakest London forces."
+  },
+  {
+    "id": "periodicity-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(a)",
+    "question": "State what is meant by the term periodicity.",
+    "marks": 2,
+    "markPoints": [
+      "A repeating trend / pattern in the (physical or chemical) properties of the elements",
+      "Across each period / as atomic number increases"
+    ],
+    "modelAnswer": "Periodicity is a repeating trend or pattern in the properties of the elements across each period of the periodic table, as atomic number increases.",
+    "explanation": "Both ideas are needed: 'repeating pattern in properties' and 'across successive periods / with increasing atomic number'. Examples include the trends in ionisation energy, atomic radius and melting point."
+  },
+  {
+    "id": "periodicity-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(c)",
+    "question": "Calcium is described as an s-block element and chlorine as a p-block element.\n\nExplain how the block of an element is determined, and use electron configurations to justify the block of each element.",
+    "marks": 3,
+    "markPoints": [
+      "The block is the sub-shell that contains the highest-energy (outermost) electron(s)",
+      "Calcium is [Ar]4s² / 1s²2s²2p⁶3s²3p⁶4s²: its highest-energy electrons are in the 4s sub-shell, so it is s-block",
+      "Chlorine is 1s²2s²2p⁶3s²3p⁵: its highest-energy electrons are in the 3p sub-shell, so it is p-block"
+    ],
+    "modelAnswer": "An element's block is determined by the sub-shell containing its highest-energy electrons. Calcium has the configuration 1s²2s²2p⁶3s²3p⁶4s², so its highest-energy electrons are in the 4s sub-shell and it is in the s-block. Chlorine has the configuration 1s²2s²2p⁶3s²3p⁵, so its highest-energy electrons are in the 3p sub-shell and it is in the p-block.",
+    "explanation": "Blocks map directly onto the sub-shell being filled: Groups 1–2 (and He) are s-block, Groups 13–18 are p-block, and the transition elements are d-block."
+  },
+  {
+    "id": "periodicity-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(b)",
+    "question": "Write the full electron configuration of a phosphorus atom and state the block of the periodic table in which phosphorus is found.",
+    "marks": 2,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p³",
+      "p-block (highest-energy electrons in the 3p sub-shell)"
+    ],
+    "modelAnswer": "Phosphorus: 1s²2s²2p⁶3s²3p³. Its highest-energy electrons are in the 3p sub-shell, so phosphorus is in the p-block.",
+    "explanation": "Phosphorus has 15 electrons: 2 + 2 + 6 + 2 + 3. The three 3p electrons occupy separate orbitals with parallel spins, and the partly filled 3p sub-shell places phosphorus in the p-block."
+  },
+  {
+    "id": "periodicity-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "The first ionisation energy of sodium (496 kJ mol⁻¹) is much lower than that of neon (2081 kJ mol⁻¹), even though sodium has one more proton.\n\nExplain why.",
+    "marks": 3,
+    "markPoints": [
+      "Sodium's outer electron is in a new shell (3s) further from the nucleus",
+      "There is more shielding (by the complete inner shells) in sodium",
+      "The nuclear attraction on the outer electron is much weaker (outweighing the extra proton), so much less energy is needed to remove it"
+    ],
+    "modelAnswer": "Sodium's outer electron is in the 3s sub-shell, a new shell that is much further from the nucleus than neon's outer electrons, and it is shielded by two complete inner shells. The attraction between the nucleus and the outer electron is therefore much weaker in sodium, despite the extra proton, so far less energy is needed to remove the electron.",
+    "explanation": "The sharp drop in first ionisation energy between the end of one period and the start of the next is evidence for electron shells: the new outer electron is further out and better shielded."
+  },
+  {
+    "id": "periodicity-041",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(f)",
+    "question": "Explain, in terms of its structure and bonding, why solid aluminium conducts electricity.",
+    "marks": 2,
+    "markPoints": [
+      "Aluminium contains delocalised electrons (in a giant metallic lattice of Al³⁺ ions)",
+      "The delocalised electrons are free to move through the structure and carry charge (when a potential difference is applied)"
+    ],
+    "modelAnswer": "Aluminium has a giant metallic lattice of Al³⁺ ions surrounded by delocalised electrons. These delocalised electrons are mobile and can move through the lattice, carrying charge, so solid aluminium conducts electricity.",
+    "explanation": "Conductivity answers must name the mobile charge carrier (delocalised electrons) and state that it moves/carries charge. 'Free electrons' alone without 'move' or 'carry charge' does not earn the second mark."
+  },
+  {
+    "id": "periodicity-042",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Predict, with reasoning, which of sodium and magnesium has the higher first ionisation energy.",
+    "marks": 3,
+    "markPoints": [
+      "Magnesium has the higher first ionisation energy",
+      "Mg has one more proton / greater nuclear charge than Na, with the outer electrons in the same shell and the same shielding",
+      "The outer electron is attracted more strongly (smaller radius), so more energy is needed to remove it"
+    ],
+    "modelAnswer": "Magnesium has the higher first ionisation energy. It has one more proton than sodium, but its outer electrons are in the same shell with the same shielding, so the greater nuclear charge attracts the outer electrons more strongly and the atom is slightly smaller. More energy is therefore needed to remove an outer electron from magnesium.",
+    "explanation": "Neighbouring elements in a period are compared by nuclear charge alone, since shell and shielding are the same. Neither of the period's dips applies here because both outer electrons are in the 3s sub-shell."
+  },
+  {
+    "id": "periodicity-043",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "An element in Period 3 has successive ionisation energies that increase sharply between the second ionisation energy (1451 kJ mol⁻¹) and the third ionisation energy (7733 kJ mol⁻¹).\n\nIdentify the element and explain the sharp increase.",
+    "marks": 3,
+    "markPoints": [
+      "The element has two outer-shell electrons (Group 2), so in Period 3 it is magnesium",
+      "The third electron is removed from an inner shell (n = 2)",
+      "The inner-shell electron is closer to the nucleus / experiences less shielding, so much more energy is needed to remove it"
+    ],
+    "modelAnswer": "The sharp increase after the second ionisation energy shows the element has two outer-shell electrons, so it is in Group 2; in Period 3 this is magnesium. The third electron must be removed from the inner n = 2 shell, which is much closer to the nucleus and experiences far less shielding, so much more energy is required.",
+    "explanation": "Combine the two clues: the position of the big jump gives the group (2), and the period given in the question (3) then pins down the element as magnesium."
+  },
+  {
+    "id": "periodicity-044",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(h)",
+    "question": "Silicon melts at 1410 °C whereas chlorine melts at −101 °C.\n\nExplain this large difference in melting point in terms of structure and bonding.",
+    "marks": 4,
+    "markPoints": [
+      "Silicon has a giant covalent lattice",
+      "Melting silicon requires breaking many strong covalent bonds, which needs a very large amount of energy",
+      "Chlorine is simple molecular (Cl₂ molecules)",
+      "Melting chlorine only requires overcoming weak London (induced dipole–dipole) forces between the molecules, which needs little energy"
+    ],
+    "modelAnswer": "Silicon has a giant covalent lattice in which each atom is joined to four others by strong covalent bonds; melting silicon means breaking many of these strong bonds, which requires a very large amount of energy, so its melting point is very high. Chlorine consists of small Cl₂ molecules with only weak London forces between them; melting chlorine only overcomes these weak intermolecular forces (the covalent bonds within the molecules do not break), which requires very little energy, so its melting point is very low.",
+    "explanation": "Compare the structures and, crucially, what is broken on melting: strong covalent bonds for silicon versus weak London forces for chlorine. Never say the Cl–Cl covalent bonds break on melting."
+  },
+  {
+    "id": "periodicity-045",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(e)",
+    "question": "Explain why atomic radius increases down a group of the periodic table.",
+    "marks": 2,
+    "markPoints": [
+      "Each successive element has an extra (occupied) electron shell",
+      "The outer electrons are further from the nucleus and more shielded, and this outweighs the increased nuclear charge"
+    ],
+    "modelAnswer": "Down a group each element has one more occupied electron shell than the one above it. The outer electrons are therefore further from the nucleus and are shielded by more inner shells, and these effects outweigh the increase in nuclear charge, so the atomic radius increases.",
+    "explanation": "Extra shells dominate: distance and shielding both increase down the group and together they beat the rising nuclear charge."
+  },
+  {
+    "id": "periodicity-046",
+    "type": "written",
+    "module": 3,
+    "topic": "Periodicity",
+    "specRef": "3.1.1(d)",
+    "question": "Define the term first ionisation energy and write the equation, including state symbols, that represents the first ionisation energy of magnesium.",
+    "marks": 4,
+    "markPoints": [
+      "The energy required to remove one electron from each atom",
+      "In one mole of gaseous atoms to form one mole of gaseous 1+ ions",
+      "Mg → Mg⁺ + e⁻ (one electron removed to form a 1+ ion)",
+      "Correct state symbols: Mg(g) → Mg⁺(g) + e⁻"
+    ],
+    "modelAnswer": "The first ionisation energy is the energy required to remove one electron from each atom in one mole of gaseous atoms to form one mole of gaseous 1+ ions. For magnesium: Mg(g) → Mg⁺(g) + e⁻.",
+    "explanation": "This combines the two most common 2-mark items: the full definition (one electron, one mole, gaseous atoms, gaseous 1+ ions) and the matching equation with (g) state symbols on both magnesium species."
+  }
+]

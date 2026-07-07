@@ -1,0 +1,689 @@
+[
+  {
+    "id": "electron_structure-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(a)",
+    "question": "What is the maximum number of electrons that can occupy the third shell (n = 3)?",
+    "options": { "A": "8", "B": "10", "C": "18", "D": "32" },
+    "correctOption": "C",
+    "explanation": "The maximum number of electrons in a shell is 2n². For n = 3 this gives 2 × 3² = 18, made up of the 3s (2), 3p (6) and 3d (10) sub-shells.",
+    "steps": [
+      "Step 1 – Recall the formula for the maximum number of electrons in a shell: 2n².",
+      "Step 2 – Substitute n = 3: 2 × 3² = 2 × 9 = 18.",
+      "Step 3 – Check: 3s holds 2, 3p holds 6, 3d holds 10; 2 + 6 + 10 = 18. Option A (8) forgets the 3d sub-shell.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "How many orbitals are there in total in the third shell (n = 3)?",
+    "options": { "A": "3", "B": "4", "C": "9", "D": "18" },
+    "correctOption": "C",
+    "explanation": "The third shell contains one 3s orbital, three 3p orbitals and five 3d orbitals, giving 1 + 3 + 5 = 9 orbitals. Option D confuses orbitals with electrons (18 electrons fill 9 orbitals).",
+    "steps": [
+      "Step 1 – List the sub-shells in the third shell: 3s, 3p and 3d.",
+      "Step 2 – Count the orbitals in each: s has 1, p has 3, d has 5.",
+      "Step 3 – Total = 1 + 3 + 5 = 9 orbitals. (18 would be the number of electrons, since each orbital holds two.)",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Which is the electron configuration of a potassium atom (atomic number 19)?",
+    "options": {
+      "A": "1s²2s²2p⁶3s²3p⁶4s¹",
+      "B": "1s²2s²2p⁶3s²3p⁶3d¹",
+      "C": "1s²2s²2p⁶3s²3p⁷",
+      "D": "1s²2s²2p⁶3s²3p⁵4s²"
+    },
+    "correctOption": "A",
+    "explanation": "After the 3p sub-shell is full, the next electron enters the 4s sub-shell because 4s is lower in energy than 3d. A p sub-shell can never hold more than 6 electrons, ruling out C, and D wrongly fills 4s before 3p is complete.",
+    "steps": [
+      "Step 1 – Potassium has 19 electrons; fill sub-shells in order of increasing energy: 1s, 2s, 2p, 3s, 3p, then 4s.",
+      "Step 2 – 1s²2s²2p⁶3s²3p⁶ accounts for 18 electrons; the 19th enters 4s because 4s is lower in energy than 3d.",
+      "Step 3 – Eliminate B (fills 3d before 4s), C (3p⁷ exceeds the maximum of 6) and D (3p left unfilled).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "electron_structure-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Sub-shells are filled in order of increasing energy.\n\nWhich sub-shell is filled immediately after the 3p sub-shell?",
+    "options": { "A": "3d", "B": "4s", "C": "4p", "D": "4d" },
+    "correctOption": "B",
+    "explanation": "The 4s sub-shell is lower in energy than the 3d sub-shell, so 4s is filled first. This is why potassium and calcium have 4s electrons but empty 3d sub-shells.",
+    "steps": [
+      "Step 1 – Recall the filling order: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p.",
+      "Step 2 – The 4s sub-shell has a lower energy than 3d, so it fills before 3d despite belonging to a higher shell.",
+      "Step 3 – Option A is the classic error of filling shells strictly in numerical order.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "electron_structure-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "An atom has the electron configuration 1s²2s²2p⁶3s²3p⁶3d⁶4s².\n\nWhich element is it?",
+    "options": { "A": "Chromium", "B": "Manganese", "C": "Iron", "D": "Nickel" },
+    "correctOption": "C",
+    "explanation": "Adding the superscripts gives the total number of electrons: 2 + 2 + 6 + 2 + 6 + 6 + 2 = 26. A neutral atom with 26 electrons has 26 protons, so the element is iron.",
+    "steps": [
+      "Step 1 – Add up the electrons: 2 + 2 + 6 + 2 + 6 + 6 + 2 = 26.",
+      "Step 2 – In a neutral atom, the number of electrons equals the atomic number, so Z = 26.",
+      "Step 3 – The element with atomic number 26 is iron (Cr = 24, Mn = 25, Ni = 28).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-006",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Which Period 2 element has three unpaired electrons in its atoms?",
+    "options": { "A": "Carbon", "B": "Nitrogen", "C": "Oxygen", "D": "Fluorine" },
+    "correctOption": "B",
+    "explanation": "Nitrogen is 1s²2s²2p³. The three 2p electrons occupy the three 2p orbitals singly before any pairing occurs, so all three are unpaired. Carbon has two unpaired electrons, oxygen has two (one 2p orbital is paired) and fluorine has one.",
+    "steps": [
+      "Step 1 – Write the 2p occupancies: C 2p², N 2p³, O 2p⁴, F 2p⁵.",
+      "Step 2 – Electrons occupy the three 2p orbitals singly before pairing, so 2p³ means three orbitals each holding one electron.",
+      "Step 3 – Count the unpaired electrons: C = 2, N = 3, O = 2, F = 1. Nitrogen has three.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "electron_structure-007",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "What is the maximum number of electrons that can occupy a d sub-shell?",
+    "options": { "A": "2", "B": "6", "C": "10", "D": "14" },
+    "correctOption": "C",
+    "explanation": "A d sub-shell contains five orbitals and each orbital holds a maximum of two electrons, so a d sub-shell holds up to 5 × 2 = 10 electrons. Option B is the capacity of a p sub-shell.",
+    "steps": [
+      "Step 1 – A d sub-shell contains five orbitals.",
+      "Step 2 – Each orbital holds a maximum of two electrons (with opposite spins).",
+      "Step 3 – Maximum = 5 × 2 = 10 electrons; 6 is the p sub-shell capacity and 2 is the s sub-shell capacity.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-008",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Which is the electron configuration of the O²⁻ ion?",
+    "options": {
+      "A": "1s²2s²2p⁴",
+      "B": "1s²2s²2p⁶",
+      "C": "1s²2s²2p⁶3s²",
+      "D": "1s²2s²2p²"
+    },
+    "correctOption": "B",
+    "explanation": "An oxygen atom (1s²2s²2p⁴) gains two electrons to form O²⁻, giving 1s²2s²2p⁶ — the same configuration as neon. Option A is the atom, and D wrongly removes two electrons instead of adding them.",
+    "steps": [
+      "Step 1 – Oxygen atom: 8 electrons, configuration 1s²2s²2p⁴.",
+      "Step 2 – The 2− charge means two electrons have been gained: 8 + 2 = 10 electrons.",
+      "Step 3 – Ten electrons fill 1s²2s²2p⁶ (the configuration of neon).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "electron_structure-009",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "The electron configuration of calcium is 1s²2s²2p⁶3s²3p⁶4s².\n\nIn which block of the periodic table is calcium?",
+    "options": { "A": "s-block", "B": "p-block", "C": "d-block", "D": "f-block" },
+    "correctOption": "A",
+    "explanation": "An element's block is determined by the sub-shell containing its highest energy electrons. Calcium's highest energy electrons are in the 4s sub-shell, so calcium is in the s-block.",
+    "steps": [
+      "Step 1 – The block of an element is given by the sub-shell of its highest energy electrons.",
+      "Step 2 – Calcium's configuration ends in 4s², so its highest energy electrons are in an s sub-shell.",
+      "Step 3 – Calcium is therefore an s-block element (as are all of Groups 1 and 2).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "electron_structure-010",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "Which statement about atomic orbitals is correct?",
+    "options": {
+      "A": "A p sub-shell contains two orbitals",
+      "B": "An orbital can hold a maximum of two electrons, which must have opposite spins",
+      "C": "An s orbital is dumbbell-shaped",
+      "D": "The 3d sub-shell is filled before the 4s sub-shell"
+    },
+    "correctOption": "B",
+    "explanation": "Each orbital holds at most two electrons with opposite (paired) spins. A p sub-shell contains three orbitals, an s orbital is spherical (p orbitals are dumbbell-shaped), and 4s fills before 3d because it is lower in energy.",
+    "steps": [
+      "Step 1 – Recall the rule: any orbital holds a maximum of two electrons and they must have opposite spins — B is correct.",
+      "Step 2 – Check the others: a p sub-shell has three orbitals (not two), so A is wrong.",
+      "Step 3 – An s orbital is spherical, not dumbbell-shaped (C wrong), and 4s fills before 3d, not after (D wrong).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "electron_structure-011",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "The electron configuration of an atom ends in 3p⁴.\n\nWhich element is it?",
+    "options": { "A": "Silicon", "B": "Phosphorus", "C": "Sulfur", "D": "Chlorine" },
+    "correctOption": "C",
+    "explanation": "The full configuration is 1s²2s²2p⁶3s²3p⁴, which totals 16 electrons. The element with atomic number 16 is sulfur. Si ends 3p², P ends 3p³ and Cl ends 3p⁵.",
+    "steps": [
+      "Step 1 – Complete the configuration: 1s²2s²2p⁶3s²3p⁴.",
+      "Step 2 – Total electrons = 2 + 2 + 6 + 2 + 4 = 16, so the atomic number is 16.",
+      "Step 3 – Element 16 is sulfur (Si = 14, P = 15, Cl = 17).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-012",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(a)",
+    "question": "State the formula used to calculate the maximum number of electrons that can occupy a shell with principal quantum number n.\n\nUse this formula to deduce the maximum number of electrons in the fourth shell.",
+    "marks": 2,
+    "markPoints": [
+      "Maximum number of electrons = 2n²",
+      "For n = 4: 2 × 4² = 32 electrons"
+    ],
+    "modelAnswer": "The maximum number of electrons in a shell is 2n². For the fourth shell, n = 4, so the maximum is 2 × 4² = 32 electrons.",
+    "explanation": "The 2n² rule follows from the number of orbitals in each shell (n² orbitals, each holding two electrons). For n = 4 this is 4s (2) + 4p (6) + 4d (10) + 4f (14) = 32."
+  },
+  {
+    "id": "electron_structure-013",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "Describe the shapes of an s orbital and a p orbital.",
+    "marks": 2,
+    "markPoints": [
+      "An s orbital is spherical",
+      "A p orbital is dumbbell-shaped (two lobes on opposite sides of the nucleus)"
+    ],
+    "modelAnswer": "An s orbital is spherical. A p orbital is dumbbell-shaped, with two lobes on opposite sides of the nucleus.",
+    "explanation": "Only the shapes of s and p orbitals are required at AS. 'Spherical' and 'dumbbell-shaped' are the accepted descriptions; the three p orbitals in a sub-shell point at right angles to one another."
+  },
+  {
+    "id": "electron_structure-014",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "Define the term atomic orbital.",
+    "marks": 2,
+    "markPoints": [
+      "A region around the nucleus",
+      "that can hold up to two electrons, with opposite spins"
+    ],
+    "modelAnswer": "An atomic orbital is a region around the nucleus that can hold up to two electrons, which must have opposite spins.",
+    "explanation": "Both parts of the definition are needed: the 'region around the nucleus' idea and the maximum of two electrons with opposite spins. Omitting the opposite spins loses a mark."
+  },
+  {
+    "id": "electron_structure-015",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the full electron configuration of a sulfur atom.",
+    "marks": 1,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p⁴"
+    ],
+    "modelAnswer": "1s²2s²2p⁶3s²3p⁴",
+    "explanation": "Sulfur has 16 electrons. Fill the sub-shells in order of energy: 1s (2), 2s (2), 2p (6), 3s (2), leaving 4 electrons for the 3p sub-shell."
+  },
+  {
+    "id": "electron_structure-016",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the full electron configurations of a magnesium atom and a Mg²⁺ ion.",
+    "marks": 2,
+    "markPoints": [
+      "Mg atom: 1s²2s²2p⁶3s²",
+      "Mg²⁺ ion: 1s²2s²2p⁶"
+    ],
+    "modelAnswer": "Mg: 1s²2s²2p⁶3s². Mg²⁺: 1s²2s²2p⁶.",
+    "explanation": "The 2+ ion has lost the two outer 3s electrons, so its configuration ends at 2p⁶ — the same as neon. Writing the atom's configuration for the ion is the classic error."
+  },
+  {
+    "id": "electron_structure-017",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the full electron configuration of a bromine atom (atomic number 35).",
+    "marks": 1,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p⁵"
+    ],
+    "modelAnswer": "1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p⁵",
+    "explanation": "Bromine has 35 electrons. Remember that 4s fills before 3d, and OCR accepts the sub-shells written in either shell order (…3d¹⁰4s²4p⁵) or filling order (…4s²3d¹⁰4p⁵). Check the total: 2+2+6+2+6+10+2+5 = 35."
+  },
+  {
+    "id": "electron_structure-018",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "The electron configuration of potassium is 1s²2s²2p⁶3s²3p⁶4s¹.\n\nExplain why the outermost electron of a potassium atom occupies the 4s sub-shell rather than the 3d sub-shell.",
+    "marks": 2,
+    "markPoints": [
+      "The 4s sub-shell is at a lower energy than the 3d sub-shell",
+      "Sub-shells are filled in order of increasing energy (lowest energy first)"
+    ],
+    "modelAnswer": "Electrons fill sub-shells in order of increasing energy. The 4s sub-shell is lower in energy than the 3d sub-shell, so the outermost electron enters 4s before 3d begins to fill.",
+    "explanation": "Although the fourth shell is further from the nucleus overall, the 4s sub-shell dips below 3d in energy, so it fills first. This is why K and Ca are s-block elements."
+  },
+  {
+    "id": "electron_structure-019",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the electron configurations of a K⁺ ion and a Cl⁻ ion.\n\nState the noble gas that has the same electron configuration as both of these ions.",
+    "marks": 3,
+    "markPoints": [
+      "K⁺: 1s²2s²2p⁶3s²3p⁶",
+      "Cl⁻: 1s²2s²2p⁶3s²3p⁶",
+      "Argon"
+    ],
+    "modelAnswer": "K⁺: 1s²2s²2p⁶3s²3p⁶. Cl⁻: 1s²2s²2p⁶3s²3p⁶. Both ions have the same electron configuration as argon.",
+    "explanation": "K (19 electrons) loses one electron and Cl (17 electrons) gains one, so both ions have 18 electrons and are isoelectronic with argon."
+  },
+  {
+    "id": "electron_structure-020",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "A nitrogen atom has three electrons in its 2p sub-shell.\n\nDescribe, in words, how these three electrons are arranged in the 2p orbitals.",
+    "marks": 2,
+    "markPoints": [
+      "Each electron occupies a separate 2p orbital / the orbitals are occupied singly before any pairing",
+      "Because this minimises repulsion between the electrons (the unpaired electrons have parallel spins)"
+    ],
+    "modelAnswer": "The three 2p electrons each occupy a different 2p orbital, so all three orbitals are singly occupied. Electrons occupy orbitals singly before pairing because this minimises the repulsion between them.",
+    "explanation": "This is Hund's rule in words: within a sub-shell, orbitals fill singly (with parallel spins) before electrons pair up, because paired electrons in the same orbital repel each other more."
+  },
+  {
+    "id": "electron_structure-021",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "State the maximum number of electrons that can occupy a single orbital and state the condition that must apply to these electrons.",
+    "marks": 2,
+    "markPoints": [
+      "Two electrons",
+      "They must have opposite spins"
+    ],
+    "modelAnswer": "A single orbital can hold a maximum of two electrons, and the two electrons must have opposite spins.",
+    "explanation": "This is the Pauli pairing rule in words: no more than two electrons per orbital, and a pair must be spin-paired (one 'up', one 'down')."
+  },
+  {
+    "id": "electron_structure-022",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Element X has the electron configuration 1s²2s²2p⁶3s²3p³.\n\nIdentify element X and state the group and the block of the periodic table to which it belongs.",
+    "marks": 3,
+    "markPoints": [
+      "X is phosphorus",
+      "Group 15",
+      "p-block (its highest energy electrons are in a p sub-shell)"
+    ],
+    "modelAnswer": "The configuration contains 15 electrons, so X is phosphorus. It has five outer-shell electrons (3s²3p³), so it is in Group 15, and its highest energy electrons are in a p sub-shell, so it is in the p-block.",
+    "explanation": "Total the electrons to identify the element (15 = phosphorus). The group comes from the number of outer-shell electrons and the block from the sub-shell of the highest energy electrons."
+  },
+  {
+    "id": "electron_structure-023",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the full electron configuration of a vanadium atom (atomic number 23).",
+    "marks": 1,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p⁶3d³4s²"
+    ],
+    "modelAnswer": "1s²2s²2p⁶3s²3p⁶3d³4s²",
+    "explanation": "Vanadium has 23 electrons. The 4s sub-shell fills before 3d, so after 1s²2s²2p⁶3s²3p⁶4s² (20 electrons), the remaining three electrons enter the 3d sub-shell."
+  },
+  {
+    "id": "electron_structure-024",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "The electron configuration of an element ends in ns²np⁵, where n is the number of the outer shell.\n\nState the group of the periodic table to which this element belongs and explain your answer.",
+    "marks": 2,
+    "markPoints": [
+      "Group 17",
+      "Because the element has seven electrons in its outer shell (2 + 5 = 7)"
+    ],
+    "modelAnswer": "The element is in Group 17, because it has 2 + 5 = 7 electrons in its outer shell, and the group number reflects the number of outer-shell electrons.",
+    "explanation": "For main-group elements the group can be read straight from the outer-shell configuration: ns²np⁵ means seven outer electrons, which is the halogen (Group 17) pattern."
+  },
+  {
+    "id": "electron_structure-025",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(b)",
+    "question": "State the number of orbitals in the 2p sub-shell and the total number of orbitals in the second shell (n = 2).",
+    "marks": 2,
+    "markPoints": [
+      "The 2p sub-shell contains three orbitals",
+      "The second shell contains four orbitals in total (one 2s + three 2p)"
+    ],
+    "modelAnswer": "The 2p sub-shell contains three orbitals. The second shell contains four orbitals in total: one 2s orbital and three 2p orbitals.",
+    "explanation": "Every p sub-shell has three orbitals. The n = 2 shell has only s and p sub-shells, so 1 + 3 = 4 orbitals, which hold up to 8 electrons (matching 2n² = 8)."
+  },
+  {
+    "id": "electron_structure-026",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the electron configuration of an Al³⁺ ion and identify the noble gas atom that has the same electron configuration.",
+    "marks": 2,
+    "markPoints": [
+      "Al³⁺: 1s²2s²2p⁶",
+      "Neon"
+    ],
+    "modelAnswer": "Al³⁺: 1s²2s²2p⁶. This is the same electron configuration as a neon atom.",
+    "explanation": "Aluminium (13 electrons, 1s²2s²2p⁶3s²3p¹) loses its three outer electrons (3s²3p¹) to form Al³⁺ with 10 electrons — isoelectronic with neon."
+  },
+  {
+    "id": "electron_structure-027",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(a)",
+    "question": "Electrons in atoms are arranged in shells, sub-shells and orbitals.\n\nDescribe the difference between a shell and a sub-shell, and state what is meant by an orbital.",
+    "marks": 3,
+    "markPoints": [
+      "A shell is a main energy level, made up of all the orbitals with the same principal quantum number n",
+      "A sub-shell is a group of orbitals of the same type (s, p or d) within a shell",
+      "An orbital is a region around the nucleus that can hold up to two electrons with opposite spins"
+    ],
+    "modelAnswer": "A shell is a main energy level containing all the orbitals with the same principal quantum number n. Each shell is divided into sub-shells, which are groups of orbitals of the same type (s, p or d). An orbital is a region around the nucleus that can hold up to two electrons with opposite spins.",
+    "explanation": "The hierarchy is shell → sub-shell → orbital. For example, the third shell contains 3s, 3p and 3d sub-shells, and the 3p sub-shell contains three orbitals."
+  },
+  {
+    "id": "electron_structure-028",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "A sulfur atom has four electrons in its 3p sub-shell.\n\nDescribe, in words, how these four electrons are arranged in the three 3p orbitals.",
+    "marks": 3,
+    "markPoints": [
+      "Each of the three 3p orbitals is occupied singly first",
+      "The fourth electron then pairs up in one of the orbitals",
+      "So one 3p orbital contains a pair of electrons with opposite spins and the other two 3p orbitals each contain one unpaired electron"
+    ],
+    "modelAnswer": "The first three electrons occupy the three 3p orbitals singly, because electrons fill orbitals singly before pairing. The fourth electron then pairs up with one of them, so one 3p orbital contains a pair of electrons with opposite spins and the other two orbitals each contain a single unpaired electron.",
+    "explanation": "Apply Hund's rule (singly first) then the pairing rule (a pair must have opposite spins). Sulfur therefore has two unpaired electrons."
+  },
+  {
+    "id": "electron_structure-029",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the full electron configuration of a gallium atom (atomic number 31) and state the block of the periodic table to which gallium belongs.",
+    "marks": 2,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p¹",
+      "p-block (its highest energy electron is in a p sub-shell)"
+    ],
+    "modelAnswer": "Ga: 1s²2s²2p⁶3s²3p⁶3d¹⁰4s²4p¹. Gallium is in the p-block because its highest energy electron is in the 4p sub-shell.",
+    "explanation": "Gallium has 31 electrons: fill up to 4s² and 3d¹⁰ (30 electrons), then the final electron enters 4p. The block is set by the sub-shell of the highest energy electron."
+  },
+  {
+    "id": "electron_structure-030",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Explain why calcium is placed in the s-block of the periodic table and why bromine is placed in the p-block.",
+    "marks": 2,
+    "markPoints": [
+      "Calcium's highest energy electrons are in an s sub-shell (4s²)",
+      "Bromine's highest energy electrons are in a p sub-shell (4p⁵)"
+    ],
+    "modelAnswer": "The block of an element is determined by the sub-shell containing its highest energy electrons. Calcium's configuration ends in 4s², so its highest energy electrons are in an s sub-shell (s-block). Bromine's configuration ends in 4p⁵, so its highest energy electrons are in a p sub-shell (p-block).",
+    "explanation": "Block questions always come back to the same idea: identify the sub-shell of the highest energy (outermost) electrons and name the matching block."
+  },
+  {
+    "id": "electron_structure-031",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the electron configuration of the N³⁻ ion.",
+    "marks": 1,
+    "markPoints": [
+      "1s²2s²2p⁶"
+    ],
+    "modelAnswer": "1s²2s²2p⁶",
+    "explanation": "A nitrogen atom (7 electrons, 1s²2s²2p³) gains three electrons to form N³⁻, giving 10 electrons: 1s²2s²2p⁶, the same configuration as neon."
+  },
+  {
+    "id": "electron_structure-032",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Element Y is in Period 4 and Group 2 of the periodic table.\n\nIdentify element Y, write the full electron configuration of an atom of Y and of the ion that Y forms in its compounds, and state the block to which Y belongs.",
+    "marks": 4,
+    "markPoints": [
+      "Y is calcium",
+      "Atom: 1s²2s²2p⁶3s²3p⁶4s²",
+      "Ion: Y²⁺ = 1s²2s²2p⁶3s²3p⁶ (the two 4s electrons are lost)",
+      "s-block, because the highest energy electrons of the atom are in the 4s sub-shell"
+    ],
+    "modelAnswer": "Y is calcium. Ca atom: 1s²2s²2p⁶3s²3p⁶4s². In its compounds calcium forms Ca²⁺ by losing its two 4s electrons: 1s²2s²2p⁶3s²3p⁶. Calcium is in the s-block because its highest energy electrons are in the 4s sub-shell.",
+    "explanation": "Period 4 + Group 2 pins down calcium. Group 2 elements always form 2+ ions by losing their outer s² electrons, and the s² outer configuration puts them in the s-block."
+  },
+  {
+    "id": "electron_structure-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(a)",
+    "question": "State the number of electrons in each shell of a potassium atom, starting from the shell closest to the nucleus.\n\nExplain why the outermost electron is in the fourth shell rather than the third shell.",
+    "marks": 2,
+    "markPoints": [
+      "2, 8, 8, 1",
+      "The outermost electron occupies the 4s sub-shell because 4s is lower in energy than 3d"
+    ],
+    "modelAnswer": "The shells of a potassium atom contain 2, 8, 8 and 1 electrons. The outermost electron enters the fourth shell because the 4s sub-shell is lower in energy than the 3d sub-shell, and sub-shells fill in order of increasing energy.",
+    "explanation": "Although the third shell can hold 18 electrons (2n² = 18), the 3d sub-shell is higher in energy than 4s, so the 19th electron of potassium goes into 4s, giving the 2, 8, 8, 1 arrangement."
+  },
+  {
+    "id": "electron_structure-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Describe how electrons are arranged in atoms in terms of shells, sub-shells and orbitals, and describe the rules that determine the order in which the orbitals are filled.",
+    "marks": 5,
+    "markPoints": [
+      "Electrons occupy shells (main energy levels); the maximum number of electrons in shell n is 2n²",
+      "Shells are divided into sub-shells (s, p, d) containing 1, 3 and 5 orbitals respectively",
+      "Each orbital holds a maximum of two electrons, which must have opposite spins",
+      "Orbitals are filled in order of increasing energy, e.g. the 4s sub-shell is filled before the 3d sub-shell",
+      "Within a sub-shell, orbitals are occupied singly before electrons pair up"
+    ],
+    "modelAnswer": "Electrons occupy shells, or main energy levels, and the maximum number of electrons in shell n is 2n². Each shell is divided into sub-shells: an s sub-shell contains one orbital, a p sub-shell three orbitals and a d sub-shell five orbitals. Each orbital can hold up to two electrons, which must have opposite spins. Electrons fill the orbitals in order of increasing energy, so the 4s sub-shell fills before the 3d sub-shell. Within a sub-shell, the orbitals are occupied singly before any electrons pair up.",
+    "explanation": "A full description needs all five ideas: shells and 2n², sub-shells and their orbital counts, the two-electron/opposite-spin rule, energy-order filling (including 4s before 3d) and singly-before-pairing (Hund's rule)."
+  },
+  {
+    "id": "electron_structure-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "A neon atom contains ten electrons.\n\nDescribe how these ten electrons are distributed among the orbitals of the atom.",
+    "marks": 3,
+    "markPoints": [
+      "Two electrons (with opposite spins) fill the 1s orbital",
+      "Two electrons fill the 2s orbital",
+      "The remaining six electrons fill the 2p sub-shell, with a pair of electrons (with opposite spins) in each of the three 2p orbitals"
+    ],
+    "modelAnswer": "Two electrons with opposite spins fill the 1s orbital and two more fill the 2s orbital. The remaining six electrons fill the 2p sub-shell, with two electrons of opposite spin in each of the three 2p orbitals, giving the configuration 1s²2s²2p⁶.",
+    "explanation": "Neon's configuration is 1s²2s²2p⁶: every orbital in the first two shells is full, and every electron is paired. This full outer shell is why neon is so unreactive."
+  },
+  {
+    "id": "electron_structure-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Write the electron configurations of a sodium atom and a Na⁺ ion.\n\nState which noble gas has the same electron configuration as the Na⁺ ion.",
+    "marks": 3,
+    "markPoints": [
+      "Na: 1s²2s²2p⁶3s¹",
+      "Na⁺: 1s²2s²2p⁶",
+      "Neon"
+    ],
+    "modelAnswer": "Na: 1s²2s²2p⁶3s¹. Na⁺: 1s²2s²2p⁶. The Na⁺ ion has the same electron configuration as neon.",
+    "explanation": "Sodium loses its single 3s electron to form Na⁺ with 10 electrons. Positive ions have lost electrons from the outermost sub-shell, so the ion's configuration ends one sub-shell earlier than the atom's."
+  },
+  {
+    "id": "electron_structure-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.2.1(c)",
+    "question": "Deduce the number of unpaired electrons in an oxygen atom. Explain your reasoning.",
+    "marks": 2,
+    "markPoints": [
+      "Two unpaired electrons",
+      "Oxygen is 1s²2s²2p⁴: the four 2p electrons occupy the three 2p orbitals singly first, then the fourth pairs up, leaving two orbitals each with one unpaired electron"
+    ],
+    "modelAnswer": "An oxygen atom has two unpaired electrons. Its configuration is 1s²2s²2p⁴; the four 2p electrons occupy the three 2p orbitals singly before pairing, so one orbital contains a pair and the other two orbitals each contain a single unpaired electron.",
+    "explanation": "Apply Hund's rule to 2p⁴: three electrons fill the orbitals singly, the fourth pairs up in one of them, leaving two unpaired electrons. The 1s and 2s electrons are all paired."
+  },
+  {
+    "id": "electron_structure-038",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.1.1(f)",
+    "question": "The first ionisation energy of sodium is much lower than that of neon.\n\nWhich explanation is correct?",
+    "options": {
+      "A": "Sodium has more protons than neon, so the nuclear charge is greater",
+      "B": "The outer electron of sodium is in the third shell and is more shielded from the nucleus than the outer electrons of neon",
+      "C": "Sodium has a larger atomic radius than neon because it is a metal",
+      "D": "Neon has a full outer shell, which makes it harder to remove an electron from sodium"
+    },
+    "correctOption": "B",
+    "explanation": "The outer electron of Na is in the 3s sub-shell, which is further from the nucleus and shielded by the full first and second shells. Despite the larger nuclear charge, the electron is much easier to remove than a 2p electron in neon. Option A is true but explains why IE is higher, not lower. D is backwards — the full shell refers to neon, not sodium.",
+    "steps": [
+      "Step 1 – Na is 1s²2s²2p⁶3s¹; the outer electron is in the third shell. Ne is 1s²2s²2p⁶; its outer electrons are in the second shell.",
+      "Step 2 – The 3s electron of Na experiences more shielding (from 10 inner electrons) and is further from the nucleus, so the nuclear attraction is much weaker.",
+      "Step 3 – Even though Na has more protons (Z = 11 vs 10), the shielding and distance effects outweigh the extra nuclear charge, making the 3s electron easy to remove.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "electron_structure-039",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.1.1(g)",
+    "question": "The successive ionisation energies (in kJ mol⁻¹) of an element are:\n\n1st: 578   2nd: 1817   3rd: 2745   4th: 11 578   5th: 14 831\n\nIn which group of the periodic table is this element?",
+    "options": { "A": "Group 1", "B": "Group 2", "C": "Group 3", "D": "Group 4" },
+    "correctOption": "C",
+    "explanation": "There is a large jump between the 3rd and 4th ionisation energies (from 2745 to 11 578 kJ mol⁻¹). This large jump occurs when all the outer-shell electrons have been removed and the next electron must be removed from an inner shell. Three electrons are removed before the big jump, so the element has three outer-shell electrons and belongs to Group 3.",
+    "steps": [
+      "Step 1 – Look for the large jump in successive ionisation energies: it occurs between the 3rd IE (2745) and the 4th IE (11 578).",
+      "Step 2 – The large jump indicates that the 4th electron is in a shell much closer to the nucleus (a new, inner shell).",
+      "Step 3 – Since three electrons are removed before the big jump, the element has three outer electrons and is in Group 3.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "electron_structure-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.1.1(f)",
+    "question": "Explain why there is a large increase in successive ionisation energies between the second and third ionisation energies of magnesium.",
+    "marks": 3,
+    "markPoints": [
+      "The first two electrons are removed from the outer shell (3s sub-shell)",
+      "The third electron must be removed from the second shell (2p sub-shell), which is closer to the nucleus",
+      "Electrons in the second shell experience less shielding and are more strongly attracted to the nucleus, so more energy is required"
+    ],
+    "modelAnswer": "Magnesium has the configuration 1s²2s²2p⁶3s². The first two ionisation energies remove the two 3s electrons from the outer shell. The third ionisation energy requires removing an electron from the 2p sub-shell in the second shell, which is closer to the nucleus and experiences less shielding. The increased nuclear attraction means significantly more energy is needed, causing the large jump.",
+    "explanation": "Whenever successive ionisation energies show a large jump, it signals that an inner shell has been reached. For Mg (Group 2), the jump is between IE2 and IE3; for Al (Group 3) it would be between IE3 and IE4."
+  },
+  {
+    "id": "electron_structure-041",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.1.1(g)",
+    "question": "The first ionisation energies of the Period 3 elements sodium to argon show an overall increase across the period, but there are two downward steps.\n\nIdentify the two elements at which the first ionisation energy drops compared with the element before it, and explain each drop in terms of electron structure.",
+    "marks": 4,
+    "markPoints": [
+      "First drop: at aluminium (Al) — its IE1 is lower than that of magnesium (Mg)",
+      "Because Al's outer electron is in the 3p sub-shell, which is at a higher energy (and slightly further from the nucleus) than the 3s sub-shell of Mg",
+      "Second drop: at sulfur (S) — its IE1 is lower than that of phosphorus (P)",
+      "Because S has a paired electron in one of the 3p orbitals; inter-electron repulsion between the paired electrons makes the paired electron easier to remove"
+    ],
+    "modelAnswer": "The first downward step occurs at aluminium. Mg ends in 3s² and Al ends in 3p¹; the 3p sub-shell is at a higher energy than the 3s sub-shell, so the 3p electron in Al is easier to remove despite the higher nuclear charge. The second downward step occurs at sulfur. P ends in 3p³ (three singly occupied 3p orbitals) and S ends in 3p⁴ (one paired 3p orbital); the paired electrons in S repel each other, making the paired electron easier to remove than a singly occupied 3p electron in P.",
+    "explanation": "These two dips are classic examination targets. They reflect two different reasons: a sub-shell change (Mg→Al) and electron pairing repulsion (P→S). The same pattern appears in Period 2 at boron and oxygen."
+  },
+  {
+    "id": "electron_structure-042",
+    "type": "written",
+    "module": 2,
+    "topic": "Electron Structure",
+    "specRef": "2.1.1(f)",
+    "question": "Define the term first ionisation energy and write an equation, including state symbols, to represent the first ionisation energy of calcium.",
+    "marks": 3,
+    "markPoints": [
+      "The energy required to remove one mole of electrons from one mole of gaseous atoms",
+      "To form one mole of gaseous 1+ ions",
+      "Ca(g) → Ca⁺(g) + e⁻"
+    ],
+    "modelAnswer": "The first ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms to form one mole of gaseous 1+ ions. For calcium: Ca(g) → Ca⁺(g) + e⁻.",
+    "explanation": "The definition must specify: (1) one mole of electrons removed, (2) from one mole of gaseous atoms, (3) forming gaseous 1+ ions. The equation must show gaseous state symbols throughout — (g) for the atom, the ion, and the electron."
+  }
+]

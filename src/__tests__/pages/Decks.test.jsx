@@ -9,6 +9,7 @@ vi.mock('../../data/cards.js', () => ({
     {
       slug: 'Specimen',
       label: 'Specimen',
+      title: 'Specimen — Paper 1',
       deckId: 'paper:Specimen',
       cards: [
         { id: 'card1', marks: 3 },
@@ -18,6 +19,7 @@ vi.mock('../../data/cards.js', () => ({
     {
       slug: 'June_2023',
       label: 'June 2023',
+      title: 'June 2023 — Paper 1',
       deckId: 'paper:June_2023',
       cards: [
         { id: 'card3', marks: 4 },

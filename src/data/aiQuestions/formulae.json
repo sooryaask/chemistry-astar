@@ -1,0 +1,696 @@
+[
+  {
+    "id": "formulae-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "What is the formula of calcium nitrate?",
+    "options": {
+      "A": "CaNO₃",
+      "B": "Ca(NO₃)₂",
+      "C": "Ca₂NO₃",
+      "D": "Ca(NO₂)₂"
+    },
+    "correctOption": "B",
+    "explanation": "Calcium forms Ca²⁺ and nitrate is NO₃⁻. Two 1− nitrate ions are needed to balance one 2+ calcium ion, giving Ca(NO₃)₂. Ca(NO₂)₂ is calcium nitrite.",
+    "steps": [
+      "Step 1 – Write the ions: Ca²⁺ and NO₃⁻.",
+      "Step 2 – Balance the charges: one 2+ ion needs two 1− ions, so the ratio is 1 : 2.",
+      "Step 3 – Put brackets around the polyatomic ion: Ca(NO₃)₂. A ignores the charge balance, C inverts the ratio, D uses nitrite (NO₂⁻) instead of nitrate.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "formulae-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "What is the formula of ammonium sulfate?",
+    "options": {
+      "A": "NH₄SO₄",
+      "B": "(NH₄)₂SO₄",
+      "C": "NH₄(SO₄)₂",
+      "D": "(NH₄)₂SO₃"
+    },
+    "correctOption": "B",
+    "explanation": "Ammonium is NH₄⁺ and sulfate is SO₄²⁻. Two 1+ ammonium ions balance one 2− sulfate ion, giving (NH₄)₂SO₄. (NH₄)₂SO₃ is ammonium sulfite.",
+    "steps": [
+      "Step 1 – Write the ions: NH₄⁺ and SO₄²⁻.",
+      "Step 2 – Balance the charges: two 1+ ions are needed for each 2− ion.",
+      "Step 3 – Bracket the ammonium ion: (NH₄)₂SO₄. A forgets the sulfate charge is 2−, C inverts the ratio, D uses sulfite (SO₃²⁻).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "formulae-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "What is the name of the compound with the formula Fe₂(SO₄)₃?",
+    "options": {
+      "A": "Iron(II) sulfate",
+      "B": "Iron(III) sulfate",
+      "C": "Iron(III) sulfide",
+      "D": "Iron(II) sulfite"
+    },
+    "correctOption": "B",
+    "explanation": "The three sulfate ions contribute 3 × 2− = 6− in total, so the two iron ions must contribute 6+ in total, i.e. 3+ each. The compound is iron(III) sulfate.",
+    "steps": [
+      "Step 1 – Sulfate is SO₄²⁻; three sulfates give a total charge of 6−.",
+      "Step 2 – Two iron ions must balance this with 6+, so each iron ion is Fe³⁺.",
+      "Step 3 – Fe³⁺ with sulfate is named iron(III) sulfate. Sulfide would be S²⁻ and sulfite would be SO₃²⁻ — neither matches SO₄.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "formulae-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Aluminium burns in oxygen to form aluminium oxide:\n\n__Al + __O₂ → __Al₂O₃\n\nWhich set of coefficients balances the equation?",
+    "options": {
+      "A": "2, 3, 1",
+      "B": "4, 3, 2",
+      "C": "2, 3, 2",
+      "D": "4, 2, 3"
+    },
+    "correctOption": "B",
+    "explanation": "4Al + 3O₂ → 2Al₂O₃ gives 4 Al and 6 O atoms on each side. Balancing an odd number of oxygen atoms in Al₂O₃ against O₂ requires doubling to 2Al₂O₃.",
+    "steps": [
+      "Step 1 – Al₂O₃ has 3 oxygen atoms (odd), but O₂ supplies oxygen in pairs, so double the oxide: 2Al₂O₃ needs 6 O atoms = 3O₂.",
+      "Step 2 – 2Al₂O₃ contains 4 Al atoms, so 4Al is needed on the left.",
+      "Step 3 – Check: left 4 Al, 6 O; right 4 Al, 6 O. Balanced. A leaves oxygen unbalanced (6 vs 3), C and D leave aluminium or oxygen unbalanced.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "formulae-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Aqueous silver nitrate is mixed with aqueous sodium chloride and a white precipitate of silver chloride forms.\n\nWhat is the ionic equation for this reaction?",
+    "options": {
+      "A": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)",
+      "B": "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)",
+      "C": "Ag⁺(aq) + NaCl(aq) → AgCl(s) + Na⁺(aq)",
+      "D": "Ag⁺(aq) + Cl⁻(aq) → AgCl(aq)"
+    },
+    "correctOption": "A",
+    "explanation": "The ionic equation shows only the ions that react: Ag⁺(aq) + Cl⁻(aq) → AgCl(s). Na⁺ and NO₃⁻ are spectator ions and are cancelled; the precipitate must have the state symbol (s).",
+    "steps": [
+      "Step 1 – Write all soluble ionic compounds as separate aqueous ions and identify the product that leaves solution: AgCl(s).",
+      "Step 2 – Cancel the spectator ions Na⁺(aq) and NO₃⁻(aq), which appear unchanged on both sides.",
+      "Step 3 – B is the full equation, C still contains the spectator Na⁺, D gives the precipitate the wrong state symbol (aq).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "formulae-006",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Write the formula of each of the following compounds:\n\n(i) magnesium hydroxide\n(ii) aluminium sulfate\n(iii) ammonium carbonate",
+    "marks": 3,
+    "markPoints": [
+      "Mg(OH)₂",
+      "Al₂(SO₄)₃",
+      "(NH₄)₂CO₃"
+    ],
+    "modelAnswer": "(i) Mg(OH)₂ — Mg²⁺ needs two OH⁻ ions. (ii) Al₂(SO₄)₃ — two Al³⁺ (6+) balance three SO₄²⁻ (6−). (iii) (NH₄)₂CO₃ — two NH₄⁺ balance one CO₃²⁻.",
+    "explanation": "Write the ions first, then cross the charges to get the ratio. Brackets are essential whenever more than one polyatomic ion is present: MgOH₂ or Al₂SO₄₃ would be wrong."
+  },
+  {
+    "id": "formulae-007",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Name each of the following compounds:\n\n(i) Cu(NO₃)₂\n(ii) FeSO₄\n(iii) Cr₂O₃",
+    "marks": 3,
+    "markPoints": [
+      "Copper(II) nitrate",
+      "Iron(II) sulfate",
+      "Chromium(III) oxide"
+    ],
+    "modelAnswer": "(i) Copper(II) nitrate — Cu²⁺ balances two NO₃⁻. (ii) Iron(II) sulfate — Fe²⁺ balances one SO₄²⁻. (iii) Chromium(III) oxide — two Cr³⁺ (6+) balance three O²⁻ (6−).",
+    "explanation": "For transition metals, deduce the metal's charge from the known anion charges (NO₃⁻ 1−, SO₄²⁻ 2−, O²⁻ 2−) and show it as a Roman numeral in the name."
+  },
+  {
+    "id": "formulae-008",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Sodium reacts with water to form sodium hydroxide solution and hydrogen gas.\n\nWrite the balanced equation for this reaction, including state symbols.",
+    "marks": 2,
+    "markPoints": [
+      "2Na + 2H₂O → 2NaOH + H₂ correctly balanced",
+      "Correct state symbols: 2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)"
+    ],
+    "modelAnswer": "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g).",
+    "explanation": "Hydrogen gas is diatomic (H₂), which forces the 2Na and 2H₂O. Sodium hydroxide is soluble, so it is (aq); water in the liquid state is (l), not (aq)."
+  },
+  {
+    "id": "formulae-009",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Aqueous barium chloride reacts with aqueous sodium sulfate to form a white precipitate of barium sulfate.\n\nWrite the full balanced equation for this reaction, including state symbols, and then write the ionic equation.",
+    "marks": 3,
+    "markPoints": [
+      "BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq) correctly balanced",
+      "Correct state symbols throughout, with BaSO₄ as (s)",
+      "Ionic equation: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s), spectator ions (Na⁺ and Cl⁻) cancelled"
+    ],
+    "modelAnswer": "Full equation: BaCl₂(aq) + Na₂SO₄(aq) → BaSO₄(s) + 2NaCl(aq). Ionic equation: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). Na⁺ and Cl⁻ are spectator ions.",
+    "explanation": "In a precipitation reaction, only the two ions that form the solid appear in the ionic equation. The precipitate must carry the (s) state symbol; everything else in solution is (aq)."
+  },
+  {
+    "id": "formulae-010",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Radium (Ra) is in Group 2 of the periodic table and iodine (I) is in Group 17.\n\nPredict the formula of radium iodide and explain your reasoning.",
+    "marks": 2,
+    "markPoints": [
+      "RaI₂",
+      "Radium (Group 2) forms Ra²⁺ ions and iodine (Group 17) forms I⁻ ions, so two 1− iodide ions balance one 2+ radium ion"
+    ],
+    "modelAnswer": "RaI₂. As a Group 2 element, radium forms 2+ ions (Ra²⁺); as a Group 17 element, iodine forms 1− ions (I⁻). Two iodide ions are needed to balance the charge on each radium ion.",
+    "explanation": "The group number fixes the ion charge: Group 1 → 1+, Group 2 → 2+, Group 16 → 2−, Group 17 → 1−. Unfamiliar elements behave like the rest of their group."
+  },
+  {
+    "id": "formulae-011",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Propane, C₃H₈, undergoes complete combustion in oxygen.\n\nWrite the balanced equation for this reaction, including state symbols. Assume the water formed is a liquid.",
+    "marks": 2,
+    "markPoints": [
+      "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O correctly balanced",
+      "Correct state symbols: C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l)"
+    ],
+    "modelAnswer": "C₃H₈(g) + 5O₂(g) → 3CO₂(g) + 4H₂O(l).",
+    "explanation": "Balance carbon first (3CO₂), then hydrogen (4H₂O), then count oxygen on the right (6 + 4 = 10 atoms = 5O₂). Propane is a gas at room temperature."
+  },
+  {
+    "id": "formulae-012",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Iron forms compounds containing either Fe²⁺ or Fe³⁺ ions.\n\nWrite the formula of iron(III) hydroxide and the formula of iron(II) sulfate.",
+    "marks": 2,
+    "markPoints": [
+      "Iron(III) hydroxide: Fe(OH)₃",
+      "Iron(II) sulfate: FeSO₄"
+    ],
+    "modelAnswer": "Iron(III) hydroxide is Fe(OH)₃ — three OH⁻ ions balance one Fe³⁺. Iron(II) sulfate is FeSO₄ — one SO₄²⁻ balances one Fe²⁺.",
+    "explanation": "The Roman numeral gives the charge on the iron ion directly. Balance it against OH⁻ (1−) or SO₄²⁻ (2−); brackets are needed around OH when there is more than one."
+  },
+  {
+    "id": "formulae-013",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Dilute hydrochloric acid is neutralised by aqueous sodium hydroxide.\n\nWrite the ionic equation for this reaction, including state symbols, by cancelling the spectator ions.",
+    "marks": 2,
+    "markPoints": [
+      "H⁺ + OH⁻ → H₂O with Na⁺ and Cl⁻ identified/cancelled as spectator ions",
+      "Correct state symbols: H⁺(aq) + OH⁻(aq) → H₂O(l)"
+    ],
+    "modelAnswer": "H⁺(aq) + OH⁻(aq) → H₂O(l). The Na⁺ and Cl⁻ ions are spectators — they appear unchanged on both sides of the full equation, so they cancel.",
+    "explanation": "Every strong acid–strong alkali neutralisation reduces to the same ionic equation. Water must be (l), and no spectator ions may remain."
+  },
+  {
+    "id": "formulae-014",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "A metal X forms a sulfate with the formula X₂(SO₄)₃.\n\nDeduce the charge on the X ion. Given that X is chromium, name the compound.",
+    "marks": 2,
+    "markPoints": [
+      "Three SO₄²⁻ give 6−, so two X ions give 6+, i.e. X is 3+ (X³⁺)",
+      "Chromium(III) sulfate"
+    ],
+    "modelAnswer": "The three sulfate ions have a total charge of 3 × 2− = 6−, so the two X ions must total 6+, giving X³⁺. The compound is chromium(III) sulfate.",
+    "explanation": "Work from the known anion: total negative charge must equal total positive charge. The deduced 3+ charge becomes the Roman numeral in the name."
+  },
+  {
+    "id": "formulae-015",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Solid sodium hydrogencarbonate decomposes on heating to form sodium carbonate, water vapour and carbon dioxide.\n\nWrite the balanced equation for this reaction, including state symbols.",
+    "marks": 2,
+    "markPoints": [
+      "2NaHCO₃ → Na₂CO₃ + H₂O + CO₂ correctly balanced",
+      "Correct state symbols: 2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g)"
+    ],
+    "modelAnswer": "2NaHCO₃(s) → Na₂CO₃(s) + H₂O(g) + CO₂(g).",
+    "explanation": "Na₂CO₃ contains two sodium atoms, so two NaHCO₃ are needed. The question states water vapour, so H₂O takes the state symbol (g)."
+  },
+  {
+    "id": "formulae-016",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Gallium (Ga) is in Group 13 of the periodic table, directly below aluminium.\n\nPredict the formula of gallium oxide and explain your reasoning.",
+    "marks": 2,
+    "markPoints": [
+      "Ga₂O₃",
+      "Gallium (Group 13, like aluminium) forms 3+ ions and oxygen forms O²⁻ ions, so two Ga³⁺ (6+) balance three O²⁻ (6−)"
+    ],
+    "modelAnswer": "Ga₂O₃. Gallium is in the same group as aluminium, so it forms Ga³⁺ ions; oxide ions are O²⁻. Two Ga³⁺ ions (6+) are balanced by three O²⁻ ions (6−), the same pattern as Al₂O₃.",
+    "explanation": "Elements in the same group form ions with the same charge, so gallium oxide mirrors aluminium oxide. Cross the 3+ and 2− charges to get the 2 : 3 ratio."
+  },
+  {
+    "id": "formulae-017",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Magnesium reacts with dilute sulfuric acid to form aqueous magnesium sulfate and hydrogen gas.\n\nWrite the ionic equation for this reaction, including state symbols, and identify the spectator ion.",
+    "marks": 3,
+    "markPoints": [
+      "Mg + 2H⁺ → Mg²⁺ + H₂ correctly balanced",
+      "Correct state symbols: Mg(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g)",
+      "Spectator ion: sulfate / SO₄²⁻"
+    ],
+    "modelAnswer": "Mg(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g). The sulfate ion, SO₄²⁻, is the spectator ion because it is unchanged in solution on both sides of the full equation.",
+    "explanation": "In metal + acid reactions the acid's anion never changes, so it cancels. Only the metal, H⁺ and the products remain, and the charges must balance (2+ on each side)."
+  },
+  {
+    "id": "formulae-018",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Write the formula of ammonium phosphate and the formula of calcium hydrogencarbonate.",
+    "marks": 2,
+    "markPoints": [
+      "Ammonium phosphate: (NH₄)₃PO₄",
+      "Calcium hydrogencarbonate: Ca(HCO₃)₂"
+    ],
+    "modelAnswer": "Ammonium phosphate is (NH₄)₃PO₄ — three NH₄⁺ ions balance one PO₄³⁻ ion. Calcium hydrogencarbonate is Ca(HCO₃)₂ — two HCO₃⁻ ions balance one Ca²⁺ ion.",
+    "explanation": "These need both polyatomic ions bracketed: phosphate is PO₄³⁻ (3−, not 2−) and hydrogencarbonate is HCO₃⁻ (1−). Cross the charges to find the ratios 3 : 1 and 1 : 2."
+  },
+  {
+    "id": "formulae-019",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "What is the oxidation number of sulfur in H₂SO₄?",
+    "options": {
+      "A": "+4",
+      "B": "+6",
+      "C": "+2",
+      "D": "−2"
+    },
+    "correctOption": "B",
+    "explanation": "In H₂SO₄: each H is +1 (total +2), each O is −2 (total −8). For the compound to be neutral: +2 + x + (−8) = 0, so x = +6. Sulfur is +6.",
+    "steps": [
+      "Step 1 – Assign known oxidation numbers: H = +1, O = −2.",
+      "Step 2 – Write the equation: 2(+1) + x + 4(−2) = 0.",
+      "Step 3 – Solve: 2 + x − 8 = 0, so x = +6. A (+4) is correct for SO₂, C and D are wrong for sulfur in this compound.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "formulae-020",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "What is the oxidation number of nitrogen in NO₃⁻?",
+    "options": {
+      "A": "+3",
+      "B": "−3",
+      "C": "+5",
+      "D": "+1"
+    },
+    "correctOption": "C",
+    "explanation": "The nitrate ion has a 1− overall charge. Each O is −2 (total −6). So x + (−6) = −1, giving x = +5. Nitrogen is +5 in nitrate.",
+    "steps": [
+      "Step 1 – Assign O = −2; there are three oxygen atoms, giving −6.",
+      "Step 2 – The ion has a 1− charge: x + (−6) = −1.",
+      "Step 3 – x = +5. A is the oxidation state of N in NO₂⁻ (nitrite); B is nitrogen in NH₃; D is nitrogen in N₂O.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "formulae-021",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(d)",
+    "question": "Which of the following is the correct ionic equation for the reaction of excess zinc with dilute hydrochloric acid?",
+    "options": {
+      "A": "Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g)",
+      "B": "Zn(s) + H₂(g) → ZnH₂(s)",
+      "C": "Zn(s) + 2H⁺(aq) → Zn²⁺(aq) + H₂(g)",
+      "D": "Zn²⁺(aq) + 2Cl⁻(aq) → ZnCl₂(s)"
+    },
+    "correctOption": "C",
+    "explanation": "The ionic equation cancels spectator ions. Cl⁻ is a spectator because ZnCl₂ is soluble. The net ionic equation is Zn(s) + 2H⁺(aq) → Zn²⁺(aq) + H₂(g).",
+    "steps": [
+      "Step 1 – Write the full equation: Zn(s) + 2HCl(aq) → ZnCl₂(aq) + H₂(g).",
+      "Step 2 – Expand soluble ionic compounds into their ions: 2H⁺(aq) + 2Cl⁻(aq) on the left; Zn²⁺(aq) + 2Cl⁻(aq) on the right.",
+      "Step 3 – Cancel the spectator Cl⁻ ions to give C. A is the full molecular equation (not ionic). B and D are chemically incorrect.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "formulae-022",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Ethane, C₂H₆, undergoes complete combustion. Which balanced equation is correct?",
+    "options": {
+      "A": "C₂H₆ + 3O₂ → 2CO₂ + 3H₂O",
+      "B": "C₂H₆ + 3½O₂ → 2CO₂ + 3H₂O",
+      "C": "2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O",
+      "D": "C₂H₆ + 4O₂ → 2CO₂ + 2H₂O"
+    },
+    "correctOption": "C",
+    "explanation": "Complete combustion of C₂H₆ produces CO₂ and H₂O. With one mole of C₂H₆: 2CO₂ + 3H₂O requires 3.5 O₂. Doubling to avoid fractions gives 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. Verify: left C=4, H=12, O=14; right C=4, H=12, O=14.",
+    "steps": [
+      "Step 1 – Balance C: C₂H₆ gives 2CO₂ (2 carbon atoms).",
+      "Step 2 – Balance H: 6H gives 3H₂O.",
+      "Step 3 – Count O on the right: 4 + 3 = 7 atoms. O₂ gives 3.5 O₂, which is a fraction. Double everything: 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O. A has only 3O₂ (short by one O₂), B uses a fractional coefficient, D has unbalanced H.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "formulae-023",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "What is the correct IUPAC name for the compound MnO₂?",
+    "options": {
+      "A": "Manganese oxide",
+      "B": "Manganese(II) oxide",
+      "C": "Manganese(IV) oxide",
+      "D": "Dimanganese oxide"
+    },
+    "correctOption": "C",
+    "explanation": "In MnO₂, oxygen is O²⁻ (−2 each); two oxide ions give −4 total. Manganese must be +4 to balance. The IUPAC name is manganese(IV) oxide.",
+    "steps": [
+      "Step 1 – Assign O = −2; two oxygens give −4 total.",
+      "Step 2 – For charge neutrality: Mn + (−4) = 0, so Mn = +4.",
+      "Step 3 – Name as manganese(IV) oxide. A omits the Roman numeral needed for a variable-valency metal. B is MnO (only one O²⁻). D (dimanganese) is not used for ionic compounds.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "formulae-024",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(e)",
+    "question": "In which of the following equations is the state symbol for water incorrect?",
+    "options": {
+      "A": "H₂(g) + ½O₂(g) → H₂O(l) — standard enthalpy of combustion",
+      "B": "2Na(s) + 2H₂O(l) → 2NaOH(aq) + H₂(g)",
+      "C": "CuSO₄(aq) + 2NaOH(aq) → Cu(OH)₂(s) + Na₂SO₄(aq)",
+      "D": "MgO(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂O(g)"
+    },
+    "correctOption": "D",
+    "explanation": "In the reaction of a metal oxide with dilute sulfuric acid at room temperature, water is produced as a liquid, not a gas. H₂O(g) is incorrect; it should be H₂O(l).",
+    "steps": [
+      "Step 1 – Check each equation's context. A and B are standard reactions where water is liquid at the conditions implied.",
+      "Step 2 – C involves an aqueous reaction at room temperature producing a precipitate; water is implicit as solvent.",
+      "Step 3 – D specifies H₂O(g) for a reaction at room temperature with dilute acid; the water produced is liquid, so (l) is correct, not (g).",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "formulae-025",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "Determine the oxidation number of chlorine in each of the following species:\n\n(i) Cl₂\n(ii) HCl\n(iii) ClO₃⁻",
+    "marks": 3,
+    "markPoints": [
+      "Cl₂: oxidation number of Cl = 0",
+      "HCl: oxidation number of Cl = −1",
+      "ClO₃⁻: oxidation number of Cl = +5"
+    ],
+    "modelAnswer": "(i) Cl₂ is an uncombined element, so each Cl = 0. (ii) In HCl, H = +1, so Cl = −1 to give a neutral compound. (iii) In ClO₃⁻: each O = −2, total O = −6; ion charge = −1; so Cl + (−6) = −1, giving Cl = +5.",
+    "explanation": "Uncombined elements are always 0. In binary compounds with hydrogen, Cl takes −1. For the chlorate ion, subtract the total oxygen contribution from the ion's overall charge to find Cl."
+  },
+  {
+    "id": "formulae-026",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Calcium carbonate reacts with dilute hydrochloric acid to produce calcium chloride solution, water, and carbon dioxide gas.\n\nWrite the full balanced equation, including state symbols.",
+    "marks": 2,
+    "markPoints": [
+      "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ correctly balanced",
+      "Correct state symbols: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)"
+    ],
+    "modelAnswer": "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Two moles of HCl are needed to supply two Cl⁻ ions for CaCl₂ and to react with the carbonate.",
+    "explanation": "Calcium carbonate is insoluble and thus (s). The acid is aqueous (aq). CaCl₂ is soluble (aq). CO₂ is a gas (g) and water is liquid (l) at room temperature."
+  },
+  {
+    "id": "formulae-027",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(d)",
+    "question": "Aqueous iron(III) chloride is added to aqueous sodium hydroxide, producing a rust-brown precipitate of iron(III) hydroxide.\n\nWrite the ionic equation for this reaction, including state symbols.",
+    "marks": 2,
+    "markPoints": [
+      "Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s) correctly balanced with charges",
+      "Correct state symbols: Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s)"
+    ],
+    "modelAnswer": "Fe³⁺(aq) + 3OH⁻(aq) → Fe(OH)₃(s). The Na⁺ and Cl⁻ ions are spectators and are cancelled. Three hydroxide ions are needed to balance the 3+ charge on iron.",
+    "explanation": "A 3+ cation requires three OH⁻ to precipitate as the metal hydroxide. The spectator ions (Na⁺ from NaOH and Cl⁻ from FeCl₃) do not appear in the ionic equation."
+  },
+  {
+    "id": "formulae-028",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Name each of the following ionic compounds and state the charge on the metal ion in each case:\n\n(i) MnCl₂\n(ii) V₂O₅\n(iii) TiO₂",
+    "marks": 3,
+    "markPoints": [
+      "MnCl₂: manganese(II) chloride; Mn is 2+",
+      "V₂O₅: vanadium(V) oxide; V is 5+",
+      "TiO₂: titanium(IV) oxide; Ti is 4+"
+    ],
+    "modelAnswer": "(i) MnCl₂ — each Cl⁻ is −1; two Cl give −2, so Mn = 2+: manganese(II) chloride. (ii) V₂O₅ — five O²⁻ give −10; two V give +10, each V = 5+: vanadium(V) oxide. (iii) TiO₂ — two O²⁻ give −4; Ti = 4+: titanium(IV) oxide.",
+    "explanation": "Work from the anion charges you know (Cl⁻ = 1−, O²⁻ = 2−) to the total negative charge, then share it equally between the metal cations to find each metal's oxidation state."
+  },
+  {
+    "id": "formulae-029",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Iron(III) oxide reacts with carbon monoxide in a blast furnace:\n\nFe₂O₃ + CO → Fe + CO₂\n\nBalance this equation by inserting the correct coefficients.",
+    "marks": 2,
+    "markPoints": [
+      "Fe₂O₃ + 3CO → 2Fe + 3CO₂ correctly balanced",
+      "Atom check confirmed: Fe 2 = 2, O 3+3 = 6 = 6, C 3 = 3"
+    ],
+    "modelAnswer": "Fe₂O₃ + 3CO → 2Fe + 3CO₂. Balance Fe first (coefficient 2 on the right), then balance O: 3 from Fe₂O₃ plus 3 from 3CO = 6 on the left; 3CO₂ gives 6 O on the right. Carbon is then automatically balanced at 3.",
+    "explanation": "In equations involving CO and CO₂, note that each CO molecule brings one O from the ore and one from the CO itself. Systematically balance Fe, then O (the hardest), and carbon falls into place."
+  },
+  {
+    "id": "formulae-030",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "Identify which element is oxidised and which is reduced in the following reaction, giving the oxidation number change for each:\n\n2Mg(s) + O₂(g) → 2MgO(s)",
+    "marks": 4,
+    "markPoints": [
+      "Magnesium is oxidised: oxidation number increases from 0 to +2",
+      "Oxygen is reduced: oxidation number decreases from 0 to −2",
+      "Correct oxidation number for Mg in MgO is +2 (each Mg²⁺ balances one O²⁻)",
+      "Correct oxidation number for O in MgO is −2 and for O in O₂ is 0"
+    ],
+    "modelAnswer": "Magnesium is oxidised: its oxidation number increases from 0 (uncombined element) to +2 in MgO. Oxygen is reduced: its oxidation number decreases from 0 (uncombined O₂) to −2 in MgO. This is a redox reaction.",
+    "explanation": "Oxidation is an increase in oxidation number; reduction is a decrease. In any uncombined element the oxidation number is always 0. In MgO, the ionic charges are Mg²⁺ and O²⁻."
+  },
+  {
+    "id": "formulae-031",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(d)",
+    "question": "Aqueous potassium carbonate reacts with dilute nitric acid to produce aqueous potassium nitrate, water, and carbon dioxide.\n\nWrite the full balanced equation with state symbols, then derive the ionic equation by cancelling spectator ions.",
+    "marks": 4,
+    "markPoints": [
+      "K₂CO₃(aq) + 2HNO₃(aq) → 2KNO₃(aq) + H₂O(l) + CO₂(g) correctly balanced",
+      "Correct state symbols throughout",
+      "Ionic equation: CO₃²⁻(aq) + 2H⁺(aq) → H₂O(l) + CO₂(g) with charges balanced",
+      "Spectator ions K⁺ and NO₃⁻ correctly identified and cancelled"
+    ],
+    "modelAnswer": "Full equation: K₂CO₃(aq) + 2HNO₃(aq) → 2KNO₃(aq) + H₂O(l) + CO₂(g). Expanding ions: 2K⁺ + CO₃²⁻ + 2H⁺ + 2NO₃⁻ → 2K⁺ + 2NO₃⁻ + H₂O + CO₂. Cancel K⁺ and NO₃⁻ (spectators). Ionic equation: CO₃²⁻(aq) + 2H⁺(aq) → H₂O(l) + CO₂(g).",
+    "explanation": "Carbonate reacting with acid always gives this ionic equation regardless of which acid or soluble carbonate is used. Check that charges balance: left is 2− + 2+ = 0; right products are neutral."
+  },
+  {
+    "id": "formulae-032",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(a)",
+    "question": "Write the formula of each of the following compounds:\n\n(i) lead(IV) oxide\n(ii) copper(I) iodide\n(iii) tin(II) chloride",
+    "marks": 3,
+    "markPoints": [
+      "Lead(IV) oxide: PbO₂",
+      "Copper(I) iodide: CuI",
+      "Tin(II) chloride: SnCl₂"
+    ],
+    "modelAnswer": "(i) PbO₂ — Pb⁴⁺ balanced by two O²⁻. (ii) CuI — Cu⁺ balanced by one I⁻. (iii) SnCl₂ — Sn²⁺ balanced by two Cl⁻.",
+    "explanation": "The Roman numeral gives the cation charge directly. For (i), 4+ cation needs two 2− anions; for (ii), 1+ cation needs one 1− anion; for (iii), 2+ cation needs two 1− anions."
+  },
+  {
+    "id": "formulae-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Ammonia, NH₃, is oxidised by oxygen in the presence of a platinum catalyst:\n\nNH₃ + O₂ → NO + H₂O\n\nBalance this equation by inserting the correct coefficients.",
+    "marks": 2,
+    "markPoints": [
+      "4NH₃ + 5O₂ → 4NO + 6H₂O correctly balanced",
+      "Atom check confirmed: N 4 = 4, H 12 = 12, O 10 = 4 + 6 = 10"
+    ],
+    "modelAnswer": "4NH₃ + 5O₂ → 4NO + 6H₂O. Balance N (coefficient 4 throughout gives 4NH₃ and 4NO), then H (12H → 6H₂O), then count O on the right (4 + 6 = 10 O atoms = 5O₂).",
+    "explanation": "Balance by atoms that appear in only one compound first. N appears in NH₃ and NO so start there. H is next (only in NH₃ and H₂O), and O is last because it appears in three species."
+  },
+  {
+    "id": "formulae-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "Determine the oxidation number of phosphorus in each of the following:\n\n(i) PH₃\n(ii) H₃PO₄\n(iii) PCl₅",
+    "marks": 3,
+    "markPoints": [
+      "PH₃: oxidation number of P = −3",
+      "H₃PO₄: oxidation number of P = +5",
+      "PCl₅: oxidation number of P = +5"
+    ],
+    "modelAnswer": "(i) PH₃: H = +1 each, 3H = +3. P + 3 = 0, so P = −3. (ii) H₃PO₄: 3H = +3, 4O = −8. P + 3 − 8 = 0, so P = +5. (iii) PCl₅: Cl = −1 each, 5Cl = −5. P − 5 = 0, so P = +5.",
+    "explanation": "In metal hydrides and group 15 hydrides, hydrogen is +1 and the non-metal is negative. In oxyacids, O = −2 and H = +1, so the central element balances the remainder. In PCl₅ each Cl is −1."
+  },
+  {
+    "id": "formulae-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(d)",
+    "question": "Excess iron powder is added to copper(II) sulfate solution, and copper metal is deposited.\n\nWrite the ionic equation for this displacement reaction, including state symbols.",
+    "marks": 3,
+    "markPoints": [
+      "Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s) correctly formulated",
+      "Correct state symbols throughout",
+      "Spectator ion SO₄²⁻ correctly identified and cancelled"
+    ],
+    "modelAnswer": "Fe(s) + Cu²⁺(aq) → Fe²⁺(aq) + Cu(s). The sulfate ion SO₄²⁻ is a spectator — it appears unchanged in solution. Iron loses two electrons and copper gains two electrons.",
+    "explanation": "Iron is above copper in the reactivity series and displaces it. The ionic equation retains only the species that change: Fe and Cu²⁺ react; Fe²⁺ and Cu form. Check charge balance: 0 + 2+ → 2+ + 0."
+  },
+  {
+    "id": "formulae-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(e)",
+    "question": "Write the full balanced equation, including state symbols, for the following reaction:\n\nZinc oxide reacts with dilute sulfuric acid to form zinc sulfate solution and water.",
+    "marks": 2,
+    "markPoints": [
+      "ZnO + H₂SO₄ → ZnSO₄ + H₂O correctly balanced (1 : 1 : 1 : 1 ratio)",
+      "Correct state symbols: ZnO(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂O(l)"
+    ],
+    "modelAnswer": "ZnO(s) + H₂SO₄(aq) → ZnSO₄(aq) + H₂O(l). The equation is already balanced 1 : 1. Zinc oxide is an insoluble solid; zinc sulfate is a soluble salt (aq); water is liquid.",
+    "explanation": "Metal oxide + acid → salt + water. The oxide is always (s) because it is insoluble; the salt is (aq) because it dissolves in the aqueous acid; water is (l) at room temperature."
+  },
+  {
+    "id": "formulae-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(f)",
+    "question": "A student writes the following equation for the reaction of dilute nitric acid with aqueous potassium hydroxide:\n\nKOH(aq) + HNO₃(aq) → KNO₃(aq) + H₂O(l)\n\n(i) State whether this equation is balanced and give a reason.\n(ii) Write the ionic equation for this reaction.",
+    "marks": 3,
+    "markPoints": [
+      "The equation is balanced: atoms of each element and charges are equal on both sides (1 K, 1 O+1 O+1 N+3 O on left = products; or by inspection all atoms balance)",
+      "Ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l)",
+      "Spectator ions K⁺ and NO₃⁻ correctly identified and cancelled"
+    ],
+    "modelAnswer": "(i) The equation is balanced — each side has 1 K, 1 N, 4 O, and 2 H atoms. (ii) Expanding: K⁺ + OH⁻ + H⁺ + NO₃⁻ → K⁺ + NO₃⁻ + H₂O. Cancel K⁺ and NO₃⁻: H⁺(aq) + OH⁻(aq) → H₂O(l).",
+    "explanation": "This is a standard strong acid–strong alkali neutralisation. The molecular equation is already balanced in a 1 : 1 ratio. The ionic equation is always H⁺ + OH⁻ → H₂O regardless of the specific acid or alkali used."
+  },
+  {
+    "id": "formulae-038",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(b)",
+    "question": "Sulfur dioxide gas reacts with oxygen in the presence of a vanadium(V) oxide catalyst to produce sulfur trioxide:\n\n__SO₂(g) + __O₂(g) → __SO₃(g)\n\nInsert the correct balancing coefficients and explain why fractional coefficients are sometimes acceptable in equations.",
+    "marks": 3,
+    "markPoints": [
+      "2SO₂(g) + O₂(g) → 2SO₃(g) correctly balanced",
+      "Fractional coefficients (e.g. SO₂ + ½O₂ → SO₃) are sometimes acceptable because they still represent correct molar ratios",
+      "However, whole-number coefficients are preferred as they represent whole molecules and are required in most exam contexts"
+    ],
+    "modelAnswer": "2SO₂(g) + O₂(g) → 2SO₃(g). Balance S first (2 on each side), then O: left = 4 + 2 = 6; right = 6. Fractional coefficients such as SO₂ + ½O₂ → SO₃ are mathematically valid but whole-number coefficients are preferred in examinations as they correspond to whole molecules.",
+    "explanation": "This is the Contact Process equilibrium. Balancing O₂ (which provides 2 atoms at a time) against SO₃ (which needs 3 O each) makes fractional coefficients tempting, but doubling avoids them."
+  },
+  {
+    "id": "formulae-039",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(c)",
+    "question": "Potassium manganate(VII), KMnO₄, is a common oxidising agent.\n\n(i) Determine the oxidation number of manganese in KMnO₄.\n(ii) In acidic solution, KMnO₄ is reduced to Mn²⁺. State the change in oxidation number of manganese in this half-reaction.",
+    "marks": 3,
+    "markPoints": [
+      "KMnO₄: K = +1, 4O = −8, so Mn + 1 − 8 = 0, giving Mn = +7",
+      "Mn goes from +7 in MnO₄⁻ to +2 in Mn²⁺",
+      "Change in oxidation number: decreases by 5 (from +7 to +2), representing a gain of 5 electrons (reduction)"
+    ],
+    "modelAnswer": "(i) In KMnO₄: K = +1, O = −2 (four O give −8). +1 + Mn + (−8) = 0, so Mn = +7. (ii) Mn changes from +7 to +2, a decrease of 5. This is a reduction (oxidation number decreases; electrons are gained).",
+    "explanation": "KMnO₄ is a powerful oxidising agent precisely because Mn can be reduced from +7 all the way down to +2 in acid, accepting 5 electrons per Mn atom. In neutral/alkaline conditions the product is MnO₂ (+4)."
+  },
+  {
+    "id": "formulae-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Compounds Formulae & Equations",
+    "specRef": "2.1.2(f)",
+    "question": "A student attempts to write the ionic equation for the reaction between aqueous copper(II) sulfate and aqueous sodium hydroxide:\n\nCu²⁺(aq) + SO₄²⁻(aq) + Na⁺(aq) + OH⁻(aq) → Cu(OH)₂(s) + Na₂SO₄(aq)\n\nIdentify two errors the student has made and write the correct ionic equation.",
+    "marks": 3,
+    "markPoints": [
+      "Error 1: The spectator ions Na⁺ and SO₄²⁻ have not been cancelled (or: the equation is not balanced — there are two OH⁻ needed to precipitate Cu(OH)₂)",
+      "Error 2: The equation is not balanced in terms of atoms or charges (only one OH⁻ written but two are required; Na₂SO₄ retains spectator ions on the right)",
+      "Correct ionic equation: Cu²⁺(aq) + 2OH⁻(aq) → Cu(OH)₂(s)"
+    ],
+    "modelAnswer": "Error 1: Spectator ions Na⁺ and SO₄²⁻ are not cancelled — they must not appear in the ionic equation. Error 2: The equation is unbalanced — Cu(OH)₂ needs two OH⁻, not one. Correct ionic equation: Cu²⁺(aq) + 2OH⁻(aq) → Cu(OH)₂(s).",
+    "explanation": "An ionic equation must (1) cancel all spectator ions and (2) be balanced in both atoms and charge. Here 2+ on the left (Cu²⁺) must equal 2 × 1− (2OH⁻), giving net charge of 0 on both sides."
+  }
+]

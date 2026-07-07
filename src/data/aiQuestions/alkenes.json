@@ -1,0 +1,864 @@
+[
+  {
+    "id": "alkenes-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "Which compound is an alkene?",
+    "options": { "A": "C₄H₁₀", "B": "C₄H₈", "C": "C₄H₉Br", "D": "C₄H₆" },
+    "correctOption": "B",
+    "explanation": "Alkenes have the general formula CₙH₂ₙ. C₄H₈ fits this formula (n = 4, 2n = 8). C₄H₁₀ is an alkane (CₙH₂ₙ₊₂), C₄H₉Br is a haloalkane and C₄H₆ would contain two C=C bonds or a triple bond.",
+    "steps": [
+      "Step 1 – Recall the general formula of alkenes: CₙH₂ₙ.",
+      "Step 2 – Test each option: C₄H₁₀ fits CₙH₂ₙ₊₂ (alkane); C₄H₈ fits CₙH₂ₙ; C₄H₉Br contains a halogen; C₄H₆ fits CₙH₂ₙ₋₂.",
+      "Step 3 – Only C₄H₈ matches the alkene general formula.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(b)",
+    "question": "What is the bond angle around each carbon atom of the C=C bond in ethene?",
+    "options": { "A": "104.5°", "B": "109.5°", "C": "120°", "D": "180°" },
+    "correctOption": "C",
+    "explanation": "Each carbon of the C=C bond has three regions of electron density (two single bonds and the double bond, which counts as one region). Three regions repel to give a trigonal planar arrangement with bond angles of 120°.",
+    "steps": [
+      "Step 1 – Count the regions of electron density around each carbon in the double bond: two C–H bonds plus the C=C bond = 3 regions.",
+      "Step 2 – A multiple bond counts as one region of electron density.",
+      "Step 3 – Three regions repel equally to give a trigonal planar shape with 120° angles; 109.5° is tetrahedral (4 regions) and 104.5° is bent (water).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkenes-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "How many σ-bonds and π-bonds are present in one molecule of ethene, CH₂=CH₂?",
+    "options": {
+      "A": "4 σ-bonds and 2 π-bonds",
+      "B": "5 σ-bonds and 1 π-bond",
+      "C": "6 σ-bonds and 0 π-bonds",
+      "D": "4 σ-bonds and 1 π-bond"
+    },
+    "correctOption": "B",
+    "explanation": "Ethene has four C–H σ-bonds and the C=C double bond consists of one σ-bond and one π-bond, giving 5 σ-bonds and 1 π-bond in total.",
+    "steps": [
+      "Step 1 – Count the single bonds: four C–H bonds, each a σ-bond.",
+      "Step 2 – The C=C double bond is made up of one σ-bond plus one π-bond.",
+      "Step 3 – Total: 4 + 1 = 5 σ-bonds and 1 π-bond.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(c)",
+    "question": "Which alkene shows E/Z isomerism?",
+    "options": {
+      "A": "but-1-ene",
+      "B": "2-methylpropene",
+      "C": "but-2-ene",
+      "D": "propene"
+    },
+    "correctOption": "C",
+    "explanation": "E/Z isomerism requires a C=C bond with two different groups attached to each carbon of the double bond. In but-2-ene each carbon of the C=C carries one H and one CH₃, so E and Z isomers exist. In the other alkenes at least one carbon of the C=C has two identical groups (two H atoms or two CH₃ groups).",
+    "steps": [
+      "Step 1 – Requirement for E/Z isomerism: each carbon of the C=C must have two different groups attached.",
+      "Step 2 – But-1-ene (CH₂=CHCH₂CH₃) and propene (CH₂=CHCH₃) have a CH₂= carbon with two identical H atoms; 2-methylpropene ((CH₃)₂C=CH₂) has a carbon with two identical CH₃ groups.",
+      "Step 3 – But-2-ene (CH₃CH=CHCH₃) has H and CH₃ on each carbon of the double bond, so it exists as E and Z isomers.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkenes-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "Propene reacts with hydrogen bromide, HBr.\n\nWhat is the major organic product?",
+    "options": {
+      "A": "1-bromopropane",
+      "B": "2-bromopropane",
+      "C": "1,2-dibromopropane",
+      "D": "propan-2-ol"
+    },
+    "correctOption": "B",
+    "explanation": "Addition of HBr to propene proceeds via the more stable secondary carbocation, CH₃CH⁺CH₃, so the bromine ends up on the middle carbon giving 2-bromopropane (Markownikoff's rule).",
+    "steps": [
+      "Step 1 – HBr adds across the C=C: H to one carbon, Br to the other.",
+      "Step 2 – Two carbocations are possible: primary CH₂⁺CH₂CH₃ (Br on C1) or secondary CH₃CH⁺CH₃ (Br on C2).",
+      "Step 3 – The secondary carbocation is more stable (two alkyl groups donate electrons), so Br⁻ attacks it and the major product is 2-bromopropane. C would need Br₂ and D would need steam.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-006",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Bromine water is added to separate samples of hexane and hex-1-ene.\n\nWhich statement describes the observations?",
+    "options": {
+      "A": "Both samples turn the bromine water colourless",
+      "B": "The bromine water stays orange with hex-1-ene but turns colourless with hexane",
+      "C": "The bromine water turns colourless with hex-1-ene but stays orange with hexane",
+      "D": "The bromine water turns blue-black with hex-1-ene"
+    },
+    "correctOption": "C",
+    "explanation": "Hex-1-ene contains a C=C bond, so it decolourises bromine water by electrophilic addition. Hexane is saturated and does not react at room temperature, so the bromine water remains orange.",
+    "steps": [
+      "Step 1 – Bromine water is the standard test for unsaturation (a C=C bond).",
+      "Step 2 – Hex-1-ene undergoes addition with Br₂, so the orange colour is lost (orange → colourless).",
+      "Step 3 – Hexane has no C=C bond, so no reaction occurs and the mixture stays orange; blue-black is the starch–iodine colour, a distractor.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkenes-007",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Ethene is converted into ethanol in industry.\n\nWhich reagent and catalyst are used?",
+    "options": {
+      "A": "H₂O(g) with a phosphoric acid catalyst",
+      "B": "H₂O(l) with a nickel catalyst",
+      "C": "H₂(g) with a phosphoric acid catalyst",
+      "D": "NaOH(aq) with heat under reflux"
+    },
+    "correctOption": "A",
+    "explanation": "Ethanol is manufactured by the hydration of ethene using steam and a phosphoric acid (H₃PO₄) catalyst at high temperature and pressure: CH₂=CH₂ + H₂O → CH₃CH₂OH.",
+    "steps": [
+      "Step 1 – Adding H₂O across a C=C bond (hydration) makes an alcohol.",
+      "Step 2 – The industrial conditions are steam (H₂O(g)) with an H₃PO₄ (phosphoric acid) catalyst.",
+      "Step 3 – Nickel is the hydrogenation catalyst (with H₂), and NaOH(aq) is used for hydrolysis of haloalkanes, not alkenes.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alkenes-008",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(f)",
+    "question": "What is the name of the mechanism for the reaction between ethene and bromine?",
+    "options": {
+      "A": "Nucleophilic substitution",
+      "B": "Electrophilic addition",
+      "C": "Radical substitution",
+      "D": "Electrophilic substitution"
+    },
+    "correctOption": "B",
+    "explanation": "The electron-rich π-bond of ethene attacks the electrophile (Br₂, polarised by an induced dipole), and both bromine atoms add across the double bond. The mechanism is electrophilic addition.",
+    "steps": [
+      "Step 1 – The π-bond of an alkene is a region of high electron density, so it attracts electrophiles.",
+      "Step 2 – Both atoms of Br₂ add across the C=C bond — no atom is substituted — so the reaction is addition, not substitution.",
+      "Step 3 – Electrophile + addition = electrophilic addition; radical substitution is alkanes + halogens in UV light.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-009",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(h)",
+    "question": "A polymer has the repeat unit –CH₂–CHCl–.\n\nWhat is the monomer from which this polymer is made?",
+    "options": {
+      "A": "chloroethane",
+      "B": "chloroethene",
+      "C": "1,2-dichloroethene",
+      "D": "ethene"
+    },
+    "correctOption": "B",
+    "explanation": "In addition polymerisation the C=C of the monomer opens to form the backbone of the repeat unit. Replacing the single bond of –CH₂–CHCl– with a double bond gives the monomer CH₂=CHCl, chloroethene.",
+    "steps": [
+      "Step 1 – The repeat unit of an addition polymer has the same atoms as the monomer.",
+      "Step 2 – Convert the C–C single bond of the repeat unit back into a C=C: –CH₂–CHCl– comes from CH₂=CHCl.",
+      "Step 3 – CH₂=CHCl is chloroethene (the monomer of PVC); chloroethane has no C=C so it cannot polymerise by addition.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-010",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "Which carbocation is the most stable?",
+    "options": {
+      "A": "CH₃⁺",
+      "B": "CH₃CH₂⁺",
+      "C": "(CH₃)₂CH⁺",
+      "D": "(CH₃)₃C⁺"
+    },
+    "correctOption": "D",
+    "explanation": "Carbocation stability increases from primary to secondary to tertiary because alkyl groups donate electron density towards the positive carbon, spreading out the charge. (CH₃)₃C⁺ is tertiary, with three electron-donating alkyl groups.",
+    "steps": [
+      "Step 1 – Classify each carbocation by the number of alkyl groups attached to the positive carbon: CH₃⁺ (none), CH₃CH₂⁺ (primary, 1), (CH₃)₂CH⁺ (secondary, 2), (CH₃)₃C⁺ (tertiary, 3).",
+      "Step 2 – Alkyl groups push electron density towards the positive carbon, stabilising the charge.",
+      "Step 3 – The tertiary carbocation has the most alkyl groups, so it is the most stable.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "alkenes-011",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "But-2-ene reacts with bromine, Br₂.\n\nWhat is the organic product?",
+    "options": {
+      "A": "2-bromobutane",
+      "B": "1,2-dibromobutane",
+      "C": "2,3-dibromobutane",
+      "D": "1,4-dibromobutane"
+    },
+    "correctOption": "C",
+    "explanation": "Bromine adds across the C=C bond of but-2-ene, which is between C2 and C3. One Br atom adds to each of these carbons, giving 2,3-dibromobutane.",
+    "steps": [
+      "Step 1 – Locate the double bond: but-2-ene is CH₃CH=CHCH₃, with the C=C between C2 and C3.",
+      "Step 2 – In electrophilic addition of Br₂, one Br adds to each carbon of the C=C.",
+      "Step 3 – The product is CH₃CHBrCHBrCH₃ = 2,3-dibromobutane; 1,2-dibromobutane would come from but-1-ene and 2-bromobutane from HBr.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkenes-012",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(d)",
+    "question": "Using Cahn–Ingold–Prelog priority rules, which atom or group has the highest priority?",
+    "options": { "A": "–CH₃", "B": "–Br", "C": "–Cl", "D": "–OH" },
+    "correctOption": "B",
+    "explanation": "Cahn–Ingold–Prelog priority is decided by the atomic number of the atom directly attached to the carbon of the double bond. Br (Z = 35) has a higher atomic number than Cl (17), O (8) or C (6), so –Br has the highest priority.",
+    "steps": [
+      "Step 1 – CIP rules: compare the atomic number of the first atom of each group.",
+      "Step 2 – First atoms are C (in CH₃, Z = 6), Br (Z = 35), Cl (Z = 17) and O (in OH, Z = 8).",
+      "Step 3 – Bromine has the largest atomic number, so –Br is the highest-priority group.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-013",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Which reagent and conditions convert propene into propane?",
+    "options": {
+      "A": "H₂(g) with a nickel catalyst",
+      "B": "H₂O(g) with an H₃PO₄ catalyst",
+      "C": "HBr(g) at room temperature",
+      "D": "H₂(g) with a phosphoric acid catalyst"
+    },
+    "correctOption": "A",
+    "explanation": "Converting an alkene into an alkane is hydrogenation: hydrogen gas is added across the C=C bond using a nickel catalyst (typically around 150 °C): CH₃CH=CH₂ + H₂ → CH₃CH₂CH₃.",
+    "steps": [
+      "Step 1 – Propene → propane requires the addition of H₂ across the double bond (hydrogenation).",
+      "Step 2 – Hydrogenation uses H₂ gas with a Ni catalyst.",
+      "Step 3 – H₂O/H₃PO₄ gives an alcohol, HBr gives a bromoalkane, and phosphoric acid is not the hydrogenation catalyst.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alkenes-014",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(h)",
+    "question": "Which statement about addition polymerisation is correct?",
+    "options": {
+      "A": "A small molecule such as H₂O is released when each monomer joins the chain",
+      "B": "The empirical formula of the polymer is the same as that of its monomer",
+      "C": "The monomers must contain an –OH group",
+      "D": "The polymer contains C=C bonds along its backbone"
+    },
+    "correctOption": "B",
+    "explanation": "In addition polymerisation the monomers simply join together — nothing is lost — so the polymer contains exactly the same atoms, in the same ratio, as the monomers. The C=C bonds of the monomers become C–C single bonds in the saturated polymer backbone.",
+    "steps": [
+      "Step 1 – Addition polymerisation: monomers with C=C bonds join with no other product formed (option A describes condensation polymerisation).",
+      "Step 2 – Because no atoms are lost, the polymer and monomer have the same empirical formula and the atom economy is 100%.",
+      "Step 3 – The π-bonds break during polymerisation, so the backbone is saturated (D is wrong) and the monomer needs a C=C, not an –OH (C is wrong).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-015",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Waste poly(chloroethene), PVC, is disposed of by incineration.\n\nWhich toxic gas must be removed from the waste gases?",
+    "options": { "A": "CO₂", "B": "HCl", "C": "H₂O", "D": "N₂" },
+    "correctOption": "B",
+    "explanation": "PVC contains chlorine, so burning it releases hydrogen chloride, HCl, a toxic and corrosive gas. Modern incinerators remove the HCl from the waste gases, for example by scrubbing with a base.",
+    "steps": [
+      "Step 1 – PVC is poly(chloroethene): its repeat unit –CH₂–CHCl– contains chlorine.",
+      "Step 2 – Combustion of a chlorine-containing polymer produces HCl gas, which is toxic and corrosive (and causes acid rain).",
+      "Step 3 – CO₂ and H₂O are normal combustion products (CO₂ is a greenhouse gas but not classed as toxic here) and N₂ is harmless; the toxic gas that must be scrubbed out is HCl.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkenes-016",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "Describe the σ-bonding and π-bonding in a molecule of ethene, CH₂=CH₂.",
+    "marks": 4,
+    "markPoints": [
+      "A σ-bond forms by direct/head-on overlap of orbitals between the bonding atoms, with electron density on the line/axis between the two nuclei",
+      "Each carbon forms three σ-bonds (two C–H and one C–C)",
+      "A π-bond forms by sideways overlap of p-orbitals on each carbon of the C=C",
+      "The π-electron density lies above and below the plane of the molecule / of the σ-bond"
+    ],
+    "modelAnswer": "Each carbon atom forms three σ-bonds: two C–H bonds and one C–C bond. A σ-bond is formed by the direct overlap of orbitals, with the electron density concentrated on the axis between the two nuclei. Each carbon also has one electron in a p-orbital; these p-orbitals overlap sideways to form a π-bond, in which the electron density lies above and below the plane of the molecule.",
+    "explanation": "OCR wants two clear ideas: σ = direct (head-on) overlap on the internuclear axis; π = sideways overlap of p-orbitals with electron density above and below the plane. Always say where the electron density is for both bond types."
+  },
+  {
+    "id": "alkenes-017",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "Explain why there is restricted rotation about the C=C bond in an alkene.",
+    "marks": 2,
+    "markPoints": [
+      "The C=C contains a π-bond formed by sideways overlap of p-orbitals, with electron density above and below the plane of the bond",
+      "Rotation would break the π-bond / destroy the sideways p-orbital overlap, which requires too much energy"
+    ],
+    "modelAnswer": "The double bond contains a π-bond formed by the sideways overlap of p-orbitals, with electron density above and below the bond. Rotating one carbon relative to the other would break this sideways overlap and so break the π-bond, which requires too much energy, so rotation is restricted.",
+    "explanation": "Restricted rotation is the direct consequence of the π-bond's geometry: sideways overlap only works when the p-orbitals are parallel. This is also why E/Z isomerism exists in alkenes."
+  },
+  {
+    "id": "alkenes-018",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(c)",
+    "question": "State the two structural features a molecule must have to show E/Z isomerism.",
+    "marks": 2,
+    "markPoints": [
+      "A C=C double bond (about which rotation is restricted)",
+      "Two different groups attached to each carbon atom of the C=C bond"
+    ],
+    "modelAnswer": "The molecule must contain a C=C double bond, about which rotation is restricted, and each carbon atom of the double bond must have two different groups attached to it.",
+    "explanation": "Both conditions are needed: the double bond locks the groups in position, and each doubly-bonded carbon must carry two different groups, otherwise swapping them gives the same molecule."
+  },
+  {
+    "id": "alkenes-019",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(c)",
+    "question": "But-2-ene shows E/Z isomerism but but-1-ene does not.\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Both molecules contain a C=C bond with restricted rotation",
+      "In but-2-ene (CH₃CH=CHCH₃) each carbon of the C=C has two different groups attached (H and CH₃), so E and Z isomers exist",
+      "In but-1-ene (CH₂=CHCH₂CH₃) one carbon of the C=C has two identical groups (two H atoms), so the isomers would be identical"
+    ],
+    "modelAnswer": "Both alkenes have a C=C bond with restricted rotation. In but-2-ene, CH₃CH=CHCH₃, each carbon of the double bond carries two different groups, an H atom and a CH₃ group, so the two CH₃ groups can be fixed on the same side (Z) or opposite sides (E). In but-1-ene, CH₂=CHCH₂CH₃, the CH₂= carbon has two identical H atoms attached, so swapping them gives the same molecule and no E/Z isomers exist.",
+    "explanation": "To decide whether an alkene shows E/Z isomerism, check each carbon of the C=C in turn: if either carbon carries two identical groups, there is no E/Z isomerism."
+  },
+  {
+    "id": "alkenes-020",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(d)",
+    "question": "One isomer of 1-bromo-1-chloropropene has the Br atom and the CH₃ group on opposite sides of the C=C bond.\n\nUse Cahn–Ingold–Prelog priority rules to deduce, with reasoning, whether this isomer is the E isomer or the Z isomer.",
+    "marks": 3,
+    "markPoints": [
+      "On the carbon carrying the halogens, Br has a higher priority than Cl because Br has the higher atomic number",
+      "On the other carbon, CH₃ has a higher priority than H because C has a higher atomic number than H",
+      "The two higher-priority groups (Br and CH₃) are on opposite sides of the C=C, so the isomer is E"
+    ],
+    "modelAnswer": "On one carbon of the C=C the groups are Br and Cl; Br has the higher atomic number (35 > 17) so Br is the higher-priority group. On the other carbon the groups are CH₃ and H; carbon has a higher atomic number than hydrogen so CH₃ has the higher priority. The two higher-priority groups, Br and CH₃, are on opposite sides of the double bond, so this is the E isomer.",
+    "explanation": "Assign a priority to each group on each carbon of the C=C using atomic number of the first atom. Higher-priority groups on the same side = Z (zusammen, together); on opposite sides = E (entgegen, opposite)."
+  },
+  {
+    "id": "alkenes-021",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(c)",
+    "question": "Cis–trans isomerism is a special case of E/Z isomerism.\n\nState the extra condition needed for an E/Z isomer to be described using cis–trans terminology.",
+    "marks": 1,
+    "markPoints": [
+      "Each carbon of the C=C must have (at least) one substituent group in common, e.g. an H atom on each carbon (cis = same side, trans = opposite sides)"
+    ],
+    "modelAnswer": "Cis–trans terminology can only be used when the two carbon atoms of the C=C each carry one group that is the same, usually a hydrogen atom. The cis isomer has the two identical groups on the same side and the trans isomer has them on opposite sides.",
+    "explanation": "E/Z is the general system that works for any four different groups; cis–trans only works when each double-bond carbon shares a common substituent (typically H)."
+  },
+  {
+    "id": "alkenes-022",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Describe a simple chemical test to show that a hydrocarbon is unsaturated. Include the observation for a positive result.",
+    "marks": 2,
+    "markPoints": [
+      "Add bromine water (and shake)",
+      "The bromine water changes from orange to colourless if a C=C bond is present"
+    ],
+    "modelAnswer": "Shake the hydrocarbon with bromine water. If the hydrocarbon is unsaturated, the bromine water is decolourised, changing from orange to colourless.",
+    "explanation": "The bromine adds across the C=C bond, removing the coloured Br₂ from solution. Say 'colourless', never 'clear' — clear means transparent, not colourless, and loses the mark."
+  },
+  {
+    "id": "alkenes-023",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(f)",
+    "question": "Define the term electrophile.",
+    "marks": 1,
+    "markPoints": [
+      "An electron pair acceptor (a species attracted to a region of high electron density)"
+    ],
+    "modelAnswer": "An electrophile is an electron pair acceptor — a species that is attracted to a region of high electron density and accepts a pair of electrons to form a new covalent bond.",
+    "explanation": "The one-line definition OCR credits is 'electron pair acceptor'. Compare with a nucleophile, which is an electron pair donor."
+  },
+  {
+    "id": "alkenes-024",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(f)",
+    "question": "Ethene reacts with bromine.\n\nName the mechanism of this reaction and state what a curly arrow represents in a mechanism.",
+    "marks": 2,
+    "markPoints": [
+      "Electrophilic addition",
+      "A curly arrow represents the movement of a pair of electrons"
+    ],
+    "modelAnswer": "The mechanism is electrophilic addition. A curly arrow represents the movement of a pair of electrons, from the position at the tail of the arrow to the position at its head.",
+    "explanation": "Every mechanism question rests on these two facts: the alkene π-bond attacks an electrophile in an addition reaction, and curly arrows always show the movement of an electron pair, never of atoms."
+  },
+  {
+    "id": "alkenes-025",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(f)",
+    "question": "Describe, in words, the mechanism for the reaction of ethene with hydrogen bromide, HBr, to form bromoethane.",
+    "marks": 4,
+    "markPoints": [
+      "HBr is polar (H is δ+ and Br is δ−) because Br is more electronegative than H, so the H atom acts as the electrophile",
+      "The electron pair of the π-bond attacks the δ+ H atom of HBr, and the H–Br bond breaks heterolytically with both electrons going to Br",
+      "A carbocation intermediate (CH₃CH₂⁺) and a bromide ion, Br⁻, are formed",
+      "The lone pair on Br⁻ attacks the positively charged carbon of the carbocation, forming bromoethane"
+    ],
+    "modelAnswer": "Bromine is more electronegative than hydrogen, so HBr is polar with the hydrogen δ+ and the bromine δ−. The electron pair in the π-bond of ethene is attracted to the δ+ hydrogen and forms a bond to it; at the same time the H–Br bond breaks heterolytically, with both bonding electrons going to bromine. This produces a carbocation, CH₃CH₂⁺, and a bromide ion. The bromide ion then donates a lone pair to the positive carbon of the carbocation, forming bromoethane.",
+    "explanation": "The four stages to describe are: the dipole in HBr, attack of the π-electrons on δ+ H with heterolytic fission of H–Br, the carbocation + Br⁻ intermediate stage, and finally attack of Br⁻ on the carbocation."
+  },
+  {
+    "id": "alkenes-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(f)",
+    "question": "Bromine molecules are non-polar, yet Br₂ acts as an electrophile in its reaction with ethene.\n\nExplain how the bromine molecule becomes an electrophile as it approaches the ethene molecule.",
+    "marks": 3,
+    "markPoints": [
+      "The π-bond of ethene is a region of high electron density",
+      "As Br₂ approaches, the electrons in the Br–Br bond are repelled away from the alkene, inducing a dipole so the nearer Br becomes δ+ (Brδ+–Brδ−)",
+      "The δ+ bromine atom is attracted to / accepts the electron pair from the π-bond, so it acts as the electrophile"
+    ],
+    "modelAnswer": "The π-bond of ethene is a region of high electron density. As the Br₂ molecule approaches, the electron density in the π-bond repels the electrons in the Br–Br bond, inducing a dipole in the molecule: the bromine atom nearer the alkene becomes δ+ and the further one δ−. The δ+ bromine atom then accepts the electron pair from the π-bond, acting as the electrophile.",
+    "explanation": "This is the 'induced dipole' argument. The key phrase is that the alkene's π-electrons polarise the Br₂ molecule, making one Br atom δ+ so that it can accept the electron pair."
+  },
+  {
+    "id": "alkenes-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "State Markownikoff's rule for the addition of a hydrogen halide to an unsymmetrical alkene.",
+    "marks": 1,
+    "markPoints": [
+      "The hydrogen (of HX) adds to the carbon of the C=C that already has the greater number of hydrogen atoms attached (so the halogen adds to the carbon with more alkyl groups / fewer H atoms)"
+    ],
+    "modelAnswer": "When a hydrogen halide adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon of the double bond that already carries the greater number of hydrogen atoms, so the halogen attaches to the more substituted carbon. This gives the major product.",
+    "explanation": "Markownikoff's rule is the shorthand for 'the reaction goes via the more stable carbocation'. The H goes to the CH₂ end; the halogen ends up on the carbon bearing more alkyl groups."
+  },
+  {
+    "id": "alkenes-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "Explain why a tertiary carbocation is more stable than a primary carbocation.",
+    "marks": 3,
+    "markPoints": [
+      "A tertiary carbocation has three alkyl groups attached to the positive carbon; a primary carbocation has only one",
+      "Alkyl groups donate/push electron density towards the positively charged carbon",
+      "This spreads out / reduces the positive charge, stabilising the tertiary carbocation more"
+    ],
+    "modelAnswer": "In a tertiary carbocation the positively charged carbon is attached to three alkyl groups, whereas in a primary carbocation it is attached to only one. Alkyl groups donate electron density towards the positive carbon. With three electron-donating alkyl groups the positive charge is spread out and reduced more, so the tertiary carbocation is more stable.",
+    "explanation": "The three-part answer OCR looks for: count the alkyl groups, state that alkyl groups are electron-donating, and link this to the positive charge being spread out (stabilised)."
+  },
+  {
+    "id": "alkenes-029",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "2-Methylpropene, (CH₃)₂C=CH₂, reacts with HCl to form two isomeric products.\n\nName the major product and explain why it forms in the greater amount.",
+    "marks": 4,
+    "markPoints": [
+      "Major product is 2-chloro-2-methylpropane",
+      "The reaction can proceed via a tertiary carbocation, (CH₃)₃C⁺, or a primary carbocation",
+      "The tertiary carbocation is more stable because it has three electron-donating alkyl groups that spread out/reduce the positive charge",
+      "The more stable tertiary carbocation forms preferentially, so Cl⁻ attacks it and the major product has Cl on the tertiary carbon"
+    ],
+    "modelAnswer": "The major product is 2-chloro-2-methylpropane. When H adds to the CH₂ carbon, a tertiary carbocation, (CH₃)₃C⁺, is formed; adding H the other way round would give a primary carbocation. The tertiary carbocation is more stable because three alkyl groups donate electron density towards the positive carbon, spreading out the charge. The reaction therefore proceeds mainly through the tertiary carbocation, which is attacked by Cl⁻ to give 2-chloro-2-methylpropane as the major product.",
+    "explanation": "Always answer these in terms of the two possible carbocations, classify them (tertiary vs primary), explain the stability with electron-donating alkyl groups, then state that the halide attacks the more stable one."
+  },
+  {
+    "id": "alkenes-030",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Ethanol is manufactured from ethene.\n\nWrite the equation for this reaction and state the reagent, catalyst and essential conditions used.",
+    "marks": 3,
+    "markPoints": [
+      "CH₂=CH₂ + H₂O → CH₃CH₂OH (or C₂H₄ + H₂O → C₂H₅OH)",
+      "Reagent: steam / H₂O(g)",
+      "Catalyst: phosphoric acid (H₃PO₄), with high temperature and high pressure"
+    ],
+    "modelAnswer": "CH₂=CH₂ + H₂O → CH₃CH₂OH. Ethene is reacted with steam at high temperature and high pressure in the presence of a phosphoric acid (H₃PO₄) catalyst.",
+    "explanation": "Hydration of ethene: remember steam (not liquid water), the H₃PO₄ acid catalyst, and high temperature and pressure. This is the industrial route to ethanol from crude-oil-derived ethene."
+  },
+  {
+    "id": "alkenes-031",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Vegetable oils contain C=C bonds. In the manufacture of margarine, some of these C=C bonds are removed by reaction with hydrogen.\n\nName this type of reaction, state the catalyst used, and write the equation for the reaction of propene with hydrogen.",
+    "marks": 3,
+    "markPoints": [
+      "Hydrogenation (addition of hydrogen)",
+      "Nickel catalyst (around 150 °C)",
+      "CH₃CH=CH₂ + H₂ → CH₃CH₂CH₃ (or C₃H₆ + H₂ → C₃H₈)"
+    ],
+    "modelAnswer": "The reaction is hydrogenation, an addition reaction carried out with a nickel catalyst at about 150 °C. For propene: CH₃CH=CH₂ + H₂ → CH₃CH₂CH₃.",
+    "explanation": "Hydrogenation with H₂/Ni converts unsaturated oils into more saturated fats, raising their melting point so they are solid spreads at room temperature."
+  },
+  {
+    "id": "alkenes-032",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "But-1-ene reacts with bromine at room temperature.\n\nName the organic product and state why no ultraviolet light is needed for this reaction.",
+    "marks": 2,
+    "markPoints": [
+      "1,2-dibromobutane",
+      "The reaction is (electrophilic) addition across the C=C / the π-bond provides the electron density to react directly, unlike radical substitution in alkanes which needs UV to break Br–Br"
+    ],
+    "modelAnswer": "The product is 1,2-dibromobutane. The reaction is an electrophilic addition across the C=C bond: the electron-rich π-bond reacts directly with the bromine molecule, so no ultraviolet light is needed, unlike the radical substitution of alkanes.",
+    "explanation": "Alkenes react with bromine rapidly in the dark at room temperature because the π-electrons attack Br₂ directly. Alkanes need UV light to generate bromine radicals first."
+  },
+  {
+    "id": "alkenes-033",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(h)",
+    "question": "Describe what happens in addition polymerisation.",
+    "marks": 2,
+    "markPoints": [
+      "Many alkene monomers join together to form one long-chain molecule (the polymer), with no other product formed",
+      "The π-bond / C=C of each monomer breaks and new C–C single bonds link the monomers into a saturated chain"
+    ],
+    "modelAnswer": "In addition polymerisation, a very large number of small alkene molecules (monomers) join together to form one long saturated chain, the polymer, with no other substance produced. The π-bond of the C=C in each monomer breaks and new C–C single bonds form between the monomers.",
+    "explanation": "Two ideas earn the marks: many monomers join into one long chain with nothing else made, and the C=C double bonds open up to form the single-bonded backbone."
+  },
+  {
+    "id": "alkenes-034",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(h)",
+    "question": "Propene, CH₃CH=CH₂, undergoes addition polymerisation.\n\nName the polymer formed and describe its repeat unit in words or as a condensed formula.",
+    "marks": 2,
+    "markPoints": [
+      "Poly(propene)",
+      "Repeat unit: –CH₂–CH(CH₃)– (a two-carbon backbone unit with a methyl group on one carbon)"
+    ],
+    "modelAnswer": "The polymer is poly(propene). Its repeat unit is –CH₂–CH(CH₃)–: a two-carbon section of chain in which one carbon carries two hydrogen atoms and the other carries one hydrogen atom and one methyl group.",
+    "explanation": "The repeat unit always has a two-carbon backbone taken from the monomer's C=C; every substituent on the double-bond carbons (here the CH₃) stays attached in the same position."
+  },
+  {
+    "id": "alkenes-035",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(h)",
+    "question": "A polymer has the repeat unit –CF₂–CF₂–.\n\nIdentify the monomer used to make this polymer and give the systematic name of the polymer.",
+    "marks": 2,
+    "markPoints": [
+      "Monomer: CF₂=CF₂ (tetrafluoroethene)",
+      "Polymer named poly(tetrafluoroethene) / PTFE"
+    ],
+    "modelAnswer": "The monomer is tetrafluoroethene, CF₂=CF₂. The polymer is poly(tetrafluoroethene), PTFE.",
+    "explanation": "To go from repeat unit to monomer, put the C=C back between the two backbone carbons. The polymer is named by putting the monomer name in brackets after 'poly'."
+  },
+  {
+    "id": "alkenes-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Poly(ethene) objects can remain in landfill sites for many years without breaking down.\n\nExplain why poly(ethene) is so unreactive.",
+    "marks": 2,
+    "markPoints": [
+      "The polymer chain is saturated / contains only strong, non-polar C–C and C–H σ-bonds (no C=C)",
+      "The non-polar bonds are not attacked by nucleophiles/electrophiles/water, and the molecules are not broken down by organisms (not biodegradable)"
+    ],
+    "modelAnswer": "Poly(ethene) chains are saturated, containing only strong, non-polar C–C and C–H bonds and no reactive C=C bonds. These non-polar bonds are not attracted to or attacked by polar reagents, water or the enzymes of microorganisms, so the polymer is chemically inert and non-biodegradable.",
+    "explanation": "The reactivity of alkenes lives in the π-bond; once it has been used to form the polymer backbone, only strong non-polar σ-bonds remain, which is why poly(alkene)s persist in the environment."
+  },
+  {
+    "id": "alkenes-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Waste polymers can be incinerated.\n\nState one advantage and two disadvantages of disposing of waste polymers by incineration.",
+    "marks": 3,
+    "markPoints": [
+      "Advantage: energy is released, which can be used to generate electricity / heat (and landfill use is reduced)",
+      "Disadvantage 1: CO₂ is produced, contributing to global warming / climate change",
+      "Disadvantage 2: toxic gases such as HCl (from PVC) can be released and must be removed from the waste gases"
+    ],
+    "modelAnswer": "An advantage is that incineration releases energy, which can be used to generate electricity, and it reduces the volume of waste sent to landfill. However, burning polymers produces carbon dioxide, which contributes to climate change, and some polymers such as PVC release toxic gases like hydrogen chloride, which must be removed from the flue gases before they are released.",
+    "explanation": "Balance-sheet answers score best: energy recovery on the plus side; CO₂ (greenhouse gas) and toxic combustion products such as HCl on the minus side."
+  },
+  {
+    "id": "alkenes-038",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Explain why recycling waste poly(propene) is regarded as more sustainable than sending it to landfill, and state one difficulty associated with recycling polymers.",
+    "marks": 3,
+    "markPoints": [
+      "Recycling conserves finite crude oil / fossil fuel resources used to make new polymer",
+      "It reduces waste sent to landfill / reduces environmental pollution (and uses less energy than making polymer from scratch)",
+      "Difficulty: different polymers must be collected and sorted/separated, which is expensive/labour-intensive (or the recycled polymer may be of lower quality/contaminated)"
+    ],
+    "modelAnswer": "Recycling means that less crude oil, a finite resource, is needed to manufacture new polymer, and less waste is dumped in landfill sites, reducing environmental damage. A difficulty is that mixed plastic waste must first be sorted into the different polymer types, which is expensive and labour-intensive, and contamination can lower the quality of the recycled material.",
+    "explanation": "The sustainability marks come from conserving finite resources and cutting landfill waste; the standard drawback is the cost and difficulty of sorting mixed polymer waste."
+  },
+  {
+    "id": "alkenes-039",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(j)",
+    "question": "Chemists have developed biodegradable polymers.\n\nState what is meant by a biodegradable polymer and give two advantages of using biodegradable polymers instead of conventional poly(alkene)s.",
+    "marks": 3,
+    "markPoints": [
+      "A polymer that is broken down by microorganisms/bacteria (into water, carbon dioxide and biological compounds)",
+      "Advantage 1: it does not persist in landfill / reduces the volume of long-lived plastic waste",
+      "Advantage 2: it can be made from renewable raw materials such as plant starch/cellulose, conserving crude oil (or: less harm to wildlife/environment from litter)"
+    ],
+    "modelAnswer": "A biodegradable polymer is one that can be broken down by microorganisms into water, carbon dioxide and biological compounds. Advantages are that biodegradable polymers do not persist in landfill sites for decades, reducing plastic waste, and many are made from renewable raw materials such as plant starch, so they conserve finite crude oil supplies.",
+    "explanation": "The definition must mention breakdown by microorganisms. Advantages centre on reduced persistent waste and the use of renewable feedstocks rather than crude oil."
+  },
+  {
+    "id": "alkenes-040",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(j)",
+    "question": "Some carrier bags are made from photodegradable polymers.\n\nState what is meant by a photodegradable polymer and suggest one limitation of relying on photodegradability for waste disposal.",
+    "marks": 2,
+    "markPoints": [
+      "A polymer that is broken down by (absorbing) light / sunlight, because it contains bonds or additives that are weakened by light",
+      "Limitation: polymer buried in landfill receives no light so it will not break down (or degradation may start before the end of the item's useful life)"
+    ],
+    "modelAnswer": "A photodegradable polymer contains bonds or additives that absorb light, so the polymer breaks down when exposed to sunlight. A limitation is that waste buried in a landfill site is not exposed to light, so the polymer will not degrade there.",
+    "explanation": "Photodegradable = broken down by light. The classic limitation is that landfill waste is buried in the dark, so photodegradation cannot occur."
+  },
+  {
+    "id": "alkenes-041",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Poly(chloroethene), PVC, must be disposed of carefully.\n\nExplain the problem caused by burning PVC and describe how modern waste plants deal with this problem.",
+    "marks": 3,
+    "markPoints": [
+      "PVC contains chlorine, so combustion releases hydrogen chloride, HCl",
+      "HCl is a toxic/corrosive gas (which also contributes to acid rain)",
+      "Modern plants remove the HCl from the waste gases by scrubbing, e.g. neutralising it with a base/alkali (such as CaO or NaOH)"
+    ],
+    "modelAnswer": "PVC contains chlorine atoms, so when it is burned it releases hydrogen chloride gas, which is toxic and corrosive and can contribute to acid rain. Modern incineration plants remove the HCl from the flue gases by gas scrubbing, in which the acidic HCl is neutralised by passing the gases through a base such as calcium oxide or sodium hydroxide solution.",
+    "explanation": "Three linked points: Cl in the polymer means HCl on combustion; HCl is toxic/corrosive; the solution is scrubbing the flue gases with a base to neutralise the acid."
+  },
+  {
+    "id": "alkenes-042",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "The addition reactions of alkenes have an atom economy of 100%.\n\nExplain why.",
+    "marks": 2,
+    "markPoints": [
+      "In an addition reaction there is only one product / all the atoms of the reactants end up in the product",
+      "Atom economy = (Mr of desired product ÷ total Mr of all products) × 100, so with a single product this equals 100%"
+    ],
+    "modelAnswer": "In an addition reaction the alkene and the other reagent combine to give a single product, so every atom in the reactants ends up in the desired product. Since atom economy is the Mr of the desired product divided by the total Mr of all products, and there are no by-products, the atom economy is 100%.",
+    "explanation": "Any reaction with only one product has 100% atom economy by definition. Substitution and elimination reactions always produce by-products, so their atom economies are below 100%."
+  },
+  {
+    "id": "alkenes-043",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "Alkenes are much more reactive than alkanes.\n\nExplain why, in terms of the bonding in the two types of hydrocarbon.",
+    "marks": 3,
+    "markPoints": [
+      "Alkenes contain a π-bond (in the C=C); alkanes contain only σ-bonds",
+      "The π-bond is weaker than a σ-bond / the π-electrons are exposed above and below the plane of the bond (high electron density)",
+      "So the π-bond attracts electrophiles and breaks (relatively) easily in addition reactions, whereas the strong non-polar σ-bonds of alkanes do not"
+    ],
+    "modelAnswer": "Alkenes contain a π-bond as part of the C=C double bond, whereas alkanes contain only σ-bonds. The π-bond is weaker than a σ-bond and its electron density lies exposed above and below the plane of the molecule, so it attracts electrophiles. The π-bond therefore breaks relatively easily in addition reactions, while the strong, non-polar σ-bonds in alkanes are much harder to break.",
+    "explanation": "The reactivity of an alkene is entirely due to the π-bond: it is both weaker than a σ-bond and exposed, making it an electron-rich target for electrophiles."
+  },
+  {
+    "id": "alkenes-044",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "An alkene has a relative molecular mass of 70.0.\n\nDetermine the molecular formula of the alkene. Show your working.",
+    "marks": 2,
+    "markPoints": [
+      "General formula CₙH₂ₙ, so Mr = 12.0n + 1.0 × 2n = 14.0n; 14.0n = 70.0 gives n = 5",
+      "Molecular formula C₅H₁₀"
+    ],
+    "modelAnswer": "An alkene has the general formula CₙH₂ₙ, so its Mr = 12.0n + 2n × 1.0 = 14.0n. Setting 14.0n = 70.0 gives n = 5, so the molecular formula is C₅H₁₀.",
+    "explanation": "Every CH₂ unit contributes 14 to the Mr of an alkene, so divide the Mr by 14 to find n. 70 ÷ 14 = 5, giving C₅H₁₀ (e.g. pent-1-ene or pent-2-ene)."
+  },
+  {
+    "id": "alkenes-045",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(g)",
+    "question": "Propene reacts with hydrogen bromide to form a mixture of two isomeric bromoalkanes, one of which is formed in a much greater amount.\n\nName both products, identify the major product, and explain in detail why this product predominates. In your answer you should refer to the intermediates formed in the mechanism.",
+    "marks": 6,
+    "markPoints": [
+      "Products are 2-bromopropane and 1-bromopropane",
+      "Major product identified as 2-bromopropane",
+      "The mechanism is electrophilic addition, proceeding via a carbocation intermediate",
+      "Addition of H to C1 gives a secondary carbocation (CH₃CH⁺CH₃); addition of H to C2 gives a primary carbocation (⁺CH₂CH₂CH₃)",
+      "The secondary carbocation is more stable because two alkyl groups donate electron density towards the positive carbon, spreading out the charge (the primary carbocation has only one)",
+      "The more stable secondary carbocation forms preferentially, so Br⁻ attacks it and 2-bromopropane is the major product"
+    ],
+    "modelAnswer": "The two products are 2-bromopropane (major) and 1-bromopropane (minor). The reaction is an electrophilic addition that goes through a carbocation intermediate. If the hydrogen of HBr adds to the end carbon (C1) of propene, a secondary carbocation, CH₃CH⁺CH₃, is formed; if it adds to C2, a primary carbocation, ⁺CH₂CH₂CH₃, is formed. The secondary carbocation is more stable because it has two electron-donating alkyl groups attached to the positive carbon, which spread out and reduce the positive charge, whereas the primary carbocation has only one. The reaction therefore proceeds mainly via the more stable secondary carbocation, which is then attacked by the Br⁻ ion, so 2-bromopropane is the major product.",
+    "explanation": "A full 6-mark Markownikoff answer needs: both products named, the major one identified, the carbocation intermediates classified as primary/secondary, the stability argument in terms of electron-donating alkyl groups, and the link from the more stable carbocation to the major product."
+  },
+  {
+    "id": "alkenes-046",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(i)",
+    "question": "Society uses very large quantities of polymers manufactured from alkenes, but the disposal of polymer waste creates environmental problems.\n\nDiscuss the different methods available for dealing with waste polymers, including the benefits and drawbacks of each method.",
+    "marks": 6,
+    "markPoints": [
+      "Landfill: simple/cheap but poly(alkene)s are non-biodegradable so they persist for many years, and landfill space is running out",
+      "Recycling: conserves finite crude oil and reduces landfill waste",
+      "Recycling drawback: waste must be collected and sorted into polymer types, which is expensive, and recycled polymer may be lower quality",
+      "Incineration / use as fuel: releases energy that can generate electricity and reduces waste volume",
+      "Incineration drawbacks: produces CO₂ (greenhouse gas) and toxic gases such as HCl from PVC, which must be removed by scrubbing with a base",
+      "Development of biodegradable/photodegradable polymers (e.g. from plant starch): broken down by microorganisms or light, reducing persistent waste and using renewable raw materials"
+    ],
+    "modelAnswer": "Waste polymers can be sent to landfill, but poly(alkene)s are saturated and non-biodegradable, so they persist for many years and landfill space is limited. Recycling conserves the finite crude oil from which polymers are made and reduces landfill waste, but the mixed waste must first be collected and sorted into different polymer types, which is expensive, and recycled polymer can be of lower quality. Waste polymers can instead be incinerated and used as a fuel: this releases energy that can be used to generate electricity and greatly reduces the volume of waste, but combustion releases carbon dioxide, a greenhouse gas, and chlorinated polymers such as PVC release toxic hydrogen chloride, which must be removed from the flue gases by scrubbing with a base. Finally, chemists are developing biodegradable and photodegradable polymers, for example from plant starch, which are broken down by microorganisms or by light; these reduce persistent waste and use renewable raw materials, although they are currently more expensive.",
+    "explanation": "Level-of-response questions on polymer waste want a balanced discussion covering landfill, recycling, incineration/energy recovery and degradable polymers, with at least one benefit and one drawback for each method you include."
+  },
+  {
+    "id": "alkenes-047",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(c)",
+    "question": "An alkene has the structure CH₃CH=CHCH₂CH₃.\n\nGive the name of this alkene and explain why it exists as two stereoisomers.",
+    "marks": 3,
+    "markPoints": [
+      "Pent-2-ene",
+      "Rotation about the C=C bond is restricted (because of the π-bond)",
+      "Each carbon of the C=C has two different groups attached (H and CH₃ on one; H and CH₂CH₃/C₂H₅ on the other), so E and Z isomers exist"
+    ],
+    "modelAnswer": "The alkene is pent-2-ene. The π-bond of the C=C prevents rotation about the double bond, and each carbon of the double bond carries two different groups: one has an H atom and a CH₃ group, the other has an H atom and a C₂H₅ group. The groups can therefore be fixed on the same side (Z isomer) or on opposite sides (E isomer) of the double bond.",
+    "explanation": "Number the chain to give the double bond the lowest locant: the C=C starts at C2, so pent-2-ene. Both E/Z conditions are met: restricted rotation plus two different groups on each double-bond carbon."
+  },
+  {
+    "id": "alkenes-048",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "But-2-ene reacts with steam in the presence of an acid catalyst to form a single alcohol, whereas but-1-ene forms two isomeric alcohols under the same conditions.\n\nExplain this difference and name the alcohol formed from but-2-ene.",
+    "marks": 3,
+    "markPoints": [
+      "But-2-ene is symmetrical about the C=C, so adding H to one carbon and OH to the other gives the same product whichever way round the addition occurs",
+      "But-1-ene is unsymmetrical, so the OH can add to C1 or C2, giving butan-1-ol and butan-2-ol",
+      "But-2-ene forms butan-2-ol (only)"
+    ],
+    "modelAnswer": "But-2-ene, CH₃CH=CHCH₃, is symmetrical about the double bond, so it does not matter which carbon gains the H and which gains the OH — the product is the same either way: butan-2-ol. But-1-ene, CH₂=CHCH₂CH₃, is unsymmetrical, so the OH group can attach to either C1 or C2 of the double bond, producing a mixture of butan-1-ol and butan-2-ol.",
+    "explanation": "Symmetrical alkenes give a single addition product; unsymmetrical alkenes give two. With but-1-ene, the major product is butan-2-ol because the secondary carbocation is more stable."
+  },
+  {
+    "id": "alkenes-049",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(a)",
+    "question": "The mean bond enthalpy of a C=C bond is 612 kJ mol⁻¹ and that of a C–C bond is 347 kJ mol⁻¹.\n\nUse these values to compare the strength of a π-bond with that of a σ-bond, and explain how this comparison accounts for the addition reactions of alkenes.",
+    "marks": 3,
+    "markPoints": [
+      "π-bond enthalpy ≈ 612 − 347 = 265 kJ mol⁻¹",
+      "The π-bond (265 kJ mol⁻¹) is weaker than the σ-bond (347 kJ mol⁻¹)",
+      "In addition reactions only the weaker π-bond breaks (the σ-bond stays intact), so alkenes react readily by addition"
+    ],
+    "modelAnswer": "The C=C bond consists of one σ-bond and one π-bond, so the π-bond contributes approximately 612 − 347 = 265 kJ mol⁻¹. The π-bond is therefore weaker than the σ-bond (265 compared with 347 kJ mol⁻¹). In an addition reaction only the weaker π-bond needs to break while the σ-bond remains intact, so alkenes undergo addition reactions readily.",
+    "explanation": "Subtracting the C–C value from the C=C value isolates the π-contribution. Because it is the weaker component and its electron density is exposed, the π-bond is the part that breaks in every addition reaction."
+  },
+  {
+    "id": "alkenes-050",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkenes",
+    "specRef": "4.1.3(e)",
+    "question": "Two unlabelled bottles contain hexane and hex-2-ene.\n\nDescribe a chemical test you could carry out to identify which bottle contains hex-2-ene. Include the reagent, the observations with each liquid, and the name of the organic product formed from hex-2-ene.",
+    "marks": 4,
+    "markPoints": [
+      "Add bromine water to a sample from each bottle and shake",
+      "With hex-2-ene the bromine water is decolourised (orange to colourless)",
+      "With hexane the bromine water remains orange / no change",
+      "Organic product from hex-2-ene: 2,3-dibromohexane"
+    ],
+    "modelAnswer": "Shake a small sample from each bottle with bromine water. The bottle containing hex-2-ene decolourises the bromine water, which changes from orange to colourless, because bromine adds across the C=C bond to form 2,3-dibromohexane. With hexane there is no reaction and the bromine water stays orange.",
+    "explanation": "Bromine water distinguishes saturated from unsaturated hydrocarbons. The product name follows from the position of the double bond: hex-2-ene has the C=C between C2 and C3, so Br adds at those positions."
+  }
+]

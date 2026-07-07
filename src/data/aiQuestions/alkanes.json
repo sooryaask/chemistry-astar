@@ -1,0 +1,647 @@
+[
+  {
+    "id": "alkanes-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(a)",
+    "question": "What is the general formula of the alkanes?",
+    "options": {
+      "A": "CₙH₂ₙ",
+      "B": "CₙH₂ₙ₊₂",
+      "C": "CₙH₂ₙ₋₂",
+      "D": "CₙH₂ₙ₊₁"
+    },
+    "correctOption": "B",
+    "explanation": "Alkanes are saturated hydrocarbons with the general formula CₙH₂ₙ₊₂, e.g. CH₄ (n = 1) and C₂H₆ (n = 2). CₙH₂ₙ is the general formula of the alkenes (and cycloalkanes), and CₙH₂ₙ₊₁ describes an alkyl group, not a molecule.",
+    "steps": [
+      "Step 1 – Test each formula with methane, CH₄ (n = 1): only CₙH₂ₙ₊₂ gives CH₄.",
+      "Step 2 – Check with ethane (n = 2): C₂H₆ fits C₂H₍₂×₂₊₂₎ = C₂H₆.",
+      "Step 3 – CₙH₂ₙ is alkenes/cycloalkanes and CₙH₂ₙ₊₁ is an alkyl group, so they are eliminated.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkanes-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Which alkane has the highest boiling point?",
+    "options": {
+      "A": "Butane",
+      "B": "2-methylbutane",
+      "C": "2,2-dimethylpropane",
+      "D": "Pentane"
+    },
+    "correctOption": "D",
+    "explanation": "Pentane, 2-methylbutane and 2,2-dimethylpropane are all C₅H₁₂ isomers, but pentane is unbranched, so its molecules have the greatest surface area of contact and the strongest London forces. Butane (C₄H₁₀) has fewer electrons than any C₅ isomer, so it boils lowest of all.",
+    "steps": [
+      "Step 1 – Compare chain lengths first: butane (C₄H₁₀) has fewer electrons than the C₅H₁₂ isomers, so it is not the highest.",
+      "Step 2 – Among the C₅H₁₂ isomers, more branching means fewer points of contact between molecules and weaker London forces.",
+      "Step 3 – Pentane is the straight-chain isomer with the largest surface contact, so it has the strongest London forces and the highest boiling point.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "alkanes-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "Propane undergoes complete combustion in a plentiful supply of oxygen.\n\nWhat are the products?",
+    "options": {
+      "A": "CO₂ and H₂O",
+      "B": "CO and H₂O",
+      "C": "C and H₂O",
+      "D": "CO₂ and H₂"
+    },
+    "correctOption": "A",
+    "explanation": "Complete combustion of a hydrocarbon in excess oxygen always produces carbon dioxide and water: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. CO and C (soot) are only formed during incomplete combustion in a limited oxygen supply.",
+    "steps": [
+      "Step 1 – Complete combustion means a plentiful (excess) supply of oxygen.",
+      "Step 2 – In excess oxygen, all the carbon is oxidised to CO₂ and all the hydrogen to H₂O.",
+      "Step 3 – CO and C are incomplete-combustion products, and H₂ is never a combustion product, so B, C and D are wrong.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alkanes-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Methane reacts with chlorine to form chloromethane.\n\nWhich condition is essential for this reaction to occur?",
+    "options": {
+      "A": "A nickel catalyst",
+      "B": "High pressure",
+      "C": "Ultraviolet radiation",
+      "D": "An acid catalyst"
+    },
+    "correctOption": "C",
+    "explanation": "The radical substitution of alkanes by halogens requires ultraviolet radiation for the initiation step, in which the Cl–Cl bond breaks homolytically to form two chlorine radicals: Cl₂ → 2Cl•.",
+    "steps": [
+      "Step 1 – The reaction is a radical substitution, which must begin with initiation.",
+      "Step 2 – Initiation is the homolytic fission of Cl₂ into 2Cl•, which requires energy from UV radiation.",
+      "Step 3 – No catalyst or high pressure is involved; without UV light the mixture does not react at room temperature.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkanes-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(f)",
+    "question": "Which equation shows a propagation step in the reaction of methane with chlorine?",
+    "options": {
+      "A": "Cl₂ → 2Cl•",
+      "B": "CH₄ + Cl• → CH₃• + HCl",
+      "C": "CH₃• + Cl• → CH₃Cl",
+      "D": "CH₃• + CH₃• → C₂H₆"
+    },
+    "correctOption": "B",
+    "explanation": "Propagation steps have one radical on each side of the equation: a radical reacts with a molecule to form a new molecule and a new radical. CH₄ + Cl• → CH₃• + HCl fits this. A is initiation (no radical on the left), and C and D are terminations (two radicals combine to form a molecule).",
+    "steps": [
+      "Step 1 – Classify each equation by counting radicals: initiation makes radicals from a molecule, propagation has a radical in and a radical out, termination removes radicals.",
+      "Step 2 – A (Cl₂ → 2Cl•) is initiation; C and D combine two radicals into one molecule, so they are termination steps.",
+      "Step 3 – B has one radical reactant (Cl•) and one radical product (CH₃•), so it is a propagation step.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkanes-006",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "What is the H–C–H bond angle around each carbon atom in a molecule of ethane, C₂H₆?",
+    "options": { "A": "90°", "B": "104.5°", "C": "109.5°", "D": "120°" },
+    "correctOption": "C",
+    "explanation": "Each carbon atom in an alkane is surrounded by four bonding pairs and no lone pairs, so the arrangement around every carbon is tetrahedral with bond angles of 109.5°.",
+    "steps": [
+      "Step 1 – Each carbon in ethane forms four single (σ) bonds: three C–H and one C–C.",
+      "Step 2 – Four bonding pairs and no lone pairs repel equally into a tetrahedral arrangement.",
+      "Step 3 – The tetrahedral bond angle is 109.5°; 120° would need three electron pairs and 104.5° would need two lone pairs.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkanes-007",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(f)",
+    "question": "Which equation shows a termination step in the reaction of methane with chlorine?",
+    "options": {
+      "A": "CH₄ + Cl• → CH₃• + HCl",
+      "B": "CH₃• + Cl₂ → CH₃Cl + Cl•",
+      "C": "Cl₂ → 2Cl•",
+      "D": "CH₃• + Cl• → CH₃Cl"
+    },
+    "correctOption": "D",
+    "explanation": "In a termination step, two radicals combine to form a molecule, removing radicals from the mixture. CH₃• + Cl• → CH₃Cl has two radicals as reactants and no radical products. A and B are propagation steps and C is the initiation step.",
+    "steps": [
+      "Step 1 – Termination = two radicals combine to give a single molecule (no radicals remain).",
+      "Step 2 – A and B each have one radical on both sides, so they are propagation; C creates radicals, so it is initiation.",
+      "Step 3 – D combines the CH₃• and Cl• radicals into the molecule CH₃Cl, so it is a termination step.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "alkanes-008",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Pentane boils at 36 °C, but its isomer 2,2-dimethylpropane boils at 10 °C.\n\nWhat is the reason for this difference?",
+    "options": {
+      "A": "2,2-dimethylpropane has fewer electrons than pentane",
+      "B": "The branched molecules have fewer points of surface contact, so the London forces are weaker",
+      "C": "The C–C bonds in 2,2-dimethylpropane are weaker than those in pentane",
+      "D": "Pentane molecules have a permanent dipole"
+    },
+    "correctOption": "B",
+    "explanation": "The two isomers have the same molecular formula (C₅H₁₂) and the same number of electrons, so the difference is due to shape. The branched, more compact 2,2-dimethylpropane molecules cannot pack as closely, giving fewer points of surface contact and weaker London forces, so less energy is needed to separate them.",
+    "steps": [
+      "Step 1 – Both compounds are C₅H₁₂ isomers, so they have identical numbers of electrons (this eliminates A).",
+      "Step 2 – Boiling depends on intermolecular forces, not covalent bond strength (eliminates C); alkanes are non-polar (eliminates D).",
+      "Step 3 – Branching makes the molecule more compact, reducing surface contact between molecules and weakening the London forces, so the branched isomer boils lower.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkanes-009",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Ultraviolet radiation causes homolytic fission of a Cl₂ molecule.\n\nWhat is formed?",
+    "options": {
+      "A": "Cl⁺ and Cl⁻ ions",
+      "B": "Two Cl⁻ ions",
+      "C": "Two Cl• radicals",
+      "D": "One Cl• radical and one Cl⁻ ion"
+    },
+    "correctOption": "C",
+    "explanation": "In homolytic fission the covalent bond breaks evenly: each atom takes one electron from the shared pair, producing two radicals, Cl₂ → 2Cl•. Heterolytic fission would give ions, but that is not what happens with UV light and Cl₂.",
+    "steps": [
+      "Step 1 – Homolytic fission means the bonding pair of electrons is split evenly, one electron going to each atom.",
+      "Step 2 – Each chlorine atom therefore ends up with an unpaired electron, making it a radical, Cl•.",
+      "Step 3 – Options involving ions describe heterolytic fission, where both electrons go to one atom.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkanes-010",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "A faulty gas boiler burns methane in a limited supply of oxygen.\n\nWhich product of this incomplete combustion is a toxic gas?",
+    "options": {
+      "A": "Carbon dioxide",
+      "B": "Carbon monoxide",
+      "C": "Water vapour",
+      "D": "Carbon (soot)"
+    },
+    "correctOption": "B",
+    "explanation": "Incomplete combustion in a limited oxygen supply produces carbon monoxide, CO. CO is toxic because it binds to haemoglobin in the blood more strongly than oxygen does, preventing oxygen from being carried around the body.",
+    "steps": [
+      "Step 1 – Limited oxygen means incomplete combustion, forming CO (and possibly C) instead of only CO₂.",
+      "Step 2 – Of the products listed, CO₂ and H₂O are not toxic in this sense and soot is a solid particulate, not a toxic gas.",
+      "Step 3 – CO is the toxic gas: it binds irreversibly to haemoglobin and stops oxygen transport in the blood.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alkanes-011",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Which statement about the σ-bonds in alkanes is correct?",
+    "options": {
+      "A": "A σ-bond is formed by the sideways overlap of p orbitals",
+      "B": "A σ-bond prevents rotation of the atoms it joins",
+      "C": "A σ-bond is the direct overlap of orbitals on the line between the bonding atoms",
+      "D": "A σ-bond contains one electron from each of four atoms"
+    },
+    "correctOption": "C",
+    "explanation": "A σ-bond forms by the direct (head-on) overlap of orbitals along the line between the two nuclei, with each atom contributing one electron. Because the overlap lies on the bond axis, the atoms can rotate freely about a σ-bond. Sideways overlap of p orbitals describes a π-bond.",
+    "steps": [
+      "Step 1 – Recall the definition: a σ-bond is the direct overlap of orbitals between the two bonding atoms, on the axis joining the nuclei.",
+      "Step 2 – Sideways p-orbital overlap is a π-bond, so A is wrong; σ-bonds allow free rotation, so B is wrong.",
+      "Step 3 – A σ-bond contains two electrons, one from each of the two bonded atoms, so D is wrong and C is correct.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alkanes-012",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(a)",
+    "question": "Alkanes are described as saturated hydrocarbons.\n\nExplain the meaning of the terms saturated and hydrocarbon.",
+    "marks": 2,
+    "markPoints": [
+      "Saturated: contains single (C–C) bonds only / no double or triple bonds",
+      "Hydrocarbon: a compound containing carbon and hydrogen only"
+    ],
+    "modelAnswer": "A hydrocarbon is a compound that contains atoms of carbon and hydrogen only. Saturated means that the molecule contains only single carbon–carbon bonds, with no C=C double bonds.",
+    "explanation": "Both definitions need the word 'only': hydrogen and carbon only, and single bonds only. Missing 'only' is the most common way to drop these marks."
+  },
+  {
+    "id": "alkanes-013",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Explain why there is free rotation about the carbon–carbon bonds in ethane.",
+    "marks": 2,
+    "markPoints": [
+      "The C–C bond is a σ-bond, formed by the direct overlap of orbitals on the axis between the two carbon atoms",
+      "Rotation about the bond axis does not reduce/break the orbital overlap, so the atoms can rotate freely"
+    ],
+    "modelAnswer": "The carbon–carbon bond in ethane is a σ-bond, formed by the direct overlap of orbitals along the line between the two nuclei. Because the electron density lies on the bond axis, rotating one CH₃ group relative to the other does not affect the overlap, so there is free rotation about the C–C bond.",
+    "explanation": "Free rotation is a property of σ-bonds because the overlap is symmetrical about the bond axis. This contrasts with the π-bond in alkenes, where sideways overlap prevents rotation."
+  },
+  {
+    "id": "alkanes-014",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "State the shape around each carbon atom in a molecule of propane and state the bond angle. Explain why this shape arises.",
+    "marks": 3,
+    "markPoints": [
+      "Shape: tetrahedral (around each carbon atom)",
+      "Bond angle: 109.5°",
+      "Each carbon is surrounded by four bonding pairs (and no lone pairs), which repel equally and move as far apart as possible"
+    ],
+    "modelAnswer": "Each carbon atom in propane is tetrahedral with bond angles of 109.5°. Every carbon forms four single σ-bonds, so it is surrounded by four bonding pairs of electrons and no lone pairs. The four pairs repel one another equally and arrange themselves as far apart as possible, giving the tetrahedral arrangement.",
+    "explanation": "All alkane carbons are tetrahedral at 109.5° because they always carry four bonding pairs and no lone pairs. The explanation is standard electron pair repulsion."
+  },
+  {
+    "id": "alkanes-015",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "The boiling points of the straight-chain alkanes increase from methane to decane.\n\nExplain this trend.",
+    "marks": 3,
+    "markPoints": [
+      "As chain length increases, the molecules have more electrons (and a larger surface area of contact)",
+      "So the London (induced dipole–dipole) forces between the molecules are stronger",
+      "More energy is needed to overcome the (stronger) intermolecular forces, so the boiling point increases"
+    ],
+    "modelAnswer": "As the carbon chain gets longer, each molecule has more electrons and a greater surface area of contact with neighbouring molecules. The London (induced dipole–dipole) forces between the molecules are therefore stronger, so more energy is needed to overcome them and the boiling point increases from methane to decane.",
+    "explanation": "The chain-length argument has two contributing factors — more electrons and more surface contact — both of which strengthen London forces. Finish by linking force strength to the energy needed to boil."
+  },
+  {
+    "id": "alkanes-016",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Pentane and 2,2-dimethylpropane are structural isomers with the molecular formula C₅H₁₂. Pentane boils at 36 °C whereas 2,2-dimethylpropane boils at 10 °C.\n\nExplain the difference in boiling points.",
+    "marks": 3,
+    "markPoints": [
+      "2,2-dimethylpropane is (more) branched / more compact than (straight-chain) pentane",
+      "Branched molecules have fewer points of surface contact between molecules, so the London (induced dipole–dipole) forces are weaker",
+      "Less energy is needed to overcome the weaker intermolecular forces, so 2,2-dimethylpropane has the lower boiling point"
+    ],
+    "modelAnswer": "Both isomers have the same number of electrons, but 2,2-dimethylpropane is highly branched and almost spherical, whereas pentane is a straight chain. The branched molecules cannot pack as closely together, so there are fewer points of surface contact between them and the London forces are weaker. Less energy is needed to separate the molecules of 2,2-dimethylpropane, so it boils at the lower temperature.",
+    "explanation": "For isomers, electron count is equal, so the argument is purely about surface contact: branching reduces contact area, weakening London forces. Always name the type of intermolecular force."
+  },
+  {
+    "id": "alkanes-017",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "Butane, C₄H₁₀, is used as a fuel in portable stoves.\n\nWrite the equation for the complete combustion of butane.",
+    "marks": 2,
+    "markPoints": [
+      "Correct products: CO₂ and H₂O",
+      "Correctly balanced: C₄H₁₀ + 6½O₂ → 4CO₂ + 5H₂O (or 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O)"
+    ],
+    "modelAnswer": "C₄H₁₀ + 6½O₂ → 4CO₂ + 5H₂O (equivalently, 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O).",
+    "explanation": "Balance the carbons first (4CO₂), then the hydrogens (5H₂O), then count the oxygens (8 + 5 = 13 atoms = 6½O₂). Halves are acceptable in combustion equations, or double throughout."
+  },
+  {
+    "id": "alkanes-018",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "Methane burns in a limited supply of oxygen to form carbon monoxide and water.\n\nWrite the equation for this incomplete combustion and explain why carbon monoxide is toxic to humans.",
+    "marks": 3,
+    "markPoints": [
+      "CH₄ + 1½O₂ → CO + 2H₂O (or 2CH₄ + 3O₂ → 2CO + 4H₂O)",
+      "CO binds to haemoglobin (in red blood cells) more strongly than oxygen does / in preference to oxygen",
+      "So the blood can no longer carry (enough) oxygen around the body"
+    ],
+    "modelAnswer": "CH₄ + 1½O₂ → CO + 2H₂O. Carbon monoxide is toxic because it binds to haemoglobin in the blood more strongly than oxygen does. The haemoglobin can then no longer transport oxygen around the body, which can lead to oxygen starvation and death.",
+    "explanation": "The toxicity marks need both ideas: CO binds to haemoglobin in preference to oxygen, and this prevents oxygen transport. Simply saying 'CO is poisonous' scores nothing."
+  },
+  {
+    "id": "alkanes-019",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "In a very limited supply of oxygen, burning octane, C₈H₁₈, can produce carbon (soot) and water only.\n\nWrite the equation for this reaction and state one problem caused by soot.",
+    "marks": 2,
+    "markPoints": [
+      "C₈H₁₈ + 4½O₂ → 8C + 9H₂O (or 2C₈H₁₈ + 9O₂ → 16C + 18H₂O)",
+      "Soot causes breathing/respiratory problems, or blackens buildings, or blocks/damages engines and appliances (any one sensible problem)"
+    ],
+    "modelAnswer": "C₈H₁₈ + 4½O₂ → 8C + 9H₂O. Soot is a particulate that can cause breathing problems and blackens buildings; it can also build up in and damage engines or boilers.",
+    "explanation": "With the least oxygen available, carbon itself is a product. Balance the hydrogens as water first, then the oxygen; the carbon appears as the solid element."
+  },
+  {
+    "id": "alkanes-020",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Define the terms homolytic fission and radical.",
+    "marks": 2,
+    "markPoints": [
+      "Homolytic fission: breaking of a covalent bond in which each (bonding) atom receives one electron from the shared pair",
+      "Radical: a species with an unpaired electron"
+    ],
+    "modelAnswer": "Homolytic fission is the breaking of a covalent bond in which each of the bonded atoms takes one electron from the shared pair. A radical is a species that has an unpaired electron.",
+    "explanation": "These two definitions underpin the whole radical substitution mechanism. The radical definition must say 'unpaired electron' — 'lone electron pair' or 'free electron' are not accepted."
+  },
+  {
+    "id": "alkanes-021",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Chlorine reacts with methane by radical substitution.\n\nWrite the equation for the initiation step and state the essential condition for this step.",
+    "marks": 2,
+    "markPoints": [
+      "Cl₂ → 2Cl•",
+      "Ultraviolet (UV) radiation / sunlight"
+    ],
+    "modelAnswer": "Initiation: Cl₂ → 2Cl•. This step requires ultraviolet radiation, which provides the energy for homolytic fission of the Cl–Cl bond.",
+    "explanation": "Initiation is always the homolytic fission of the halogen molecule, because the Cl–Cl bond is weaker than the C–H bonds. The radical dot on each Cl• is required for the equation mark."
+  },
+  {
+    "id": "alkanes-022",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Write the equations for the two propagation steps in the reaction of methane with chlorine to form chloromethane.",
+    "marks": 2,
+    "markPoints": [
+      "CH₄ + Cl• → CH₃• + HCl",
+      "CH₃• + Cl₂ → CH₃Cl + Cl•"
+    ],
+    "modelAnswer": "Propagation 1: CH₄ + Cl• → CH₃• + HCl. Propagation 2: CH₃• + Cl₂ → CH₃Cl + Cl•. The Cl• radical is regenerated in the second step, so the chain reaction continues.",
+    "explanation": "In propagation, a radical always reacts with a molecule to give a new molecule and a new radical. The first step must produce HCl (not H•) — writing CH₄ + Cl• → CH₃Cl + H• is the classic error."
+  },
+  {
+    "id": "alkanes-023",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Write equations for two possible termination steps in the radical substitution of methane by chlorine.",
+    "marks": 2,
+    "markPoints": [
+      "Any one of: Cl• + Cl• → Cl₂, or CH₃• + Cl• → CH₃Cl, or CH₃• + CH₃• → C₂H₆",
+      "Any second, different termination step from the same list"
+    ],
+    "modelAnswer": "Two possible termination steps are CH₃• + Cl• → CH₃Cl and CH₃• + CH₃• → C₂H₆ (Cl• + Cl• → Cl₂ is also acceptable). In each case two radicals combine to form a molecule, removing radicals from the reaction mixture.",
+    "explanation": "Termination is any combination of two radicals to give a single molecule. The CH₃• + CH₃• → C₂H₆ step explains why traces of ethane are found in the product mixture."
+  },
+  {
+    "id": "alkanes-024",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Ethane reacts with bromine in the presence of ultraviolet radiation to form bromoethane, C₂H₅Br.\n\nName the mechanism and write equations for the initiation step, the two propagation steps and one termination step of this reaction.",
+    "marks": 6,
+    "markPoints": [
+      "Mechanism: radical substitution",
+      "Initiation: Br₂ → 2Br• (UV radiation)",
+      "Propagation 1: C₂H₆ + Br• → C₂H₅• + HBr",
+      "Propagation 2: C₂H₅• + Br₂ → C₂H₅Br + Br•",
+      "Any one termination, e.g. C₂H₅• + Br• → C₂H₅Br (or Br• + Br• → Br₂, or C₂H₅• + C₂H₅• → C₄H₁₀)",
+      "Radical dots shown correctly on all radicals throughout the equations"
+    ],
+    "modelAnswer": "The mechanism is radical substitution. Initiation: Br₂ → 2Br• (homolytic fission caused by UV radiation). Propagation 1: C₂H₆ + Br• → C₂H₅• + HBr. Propagation 2: C₂H₅• + Br₂ → C₂H₅Br + Br•. Termination (one example): C₂H₅• + Br• → C₂H₅Br. Other terminations are Br• + Br• → Br₂ and C₂H₅• + C₂H₅• → C₄H₁₀ (butane).",
+    "explanation": "The full mechanism is worth learning as a template: initiation makes radicals with UV, the two propagation steps form the products and regenerate the halogen radical, and termination combines any two radicals. Every radical must carry its dot, and propagation 1 must form HBr, not H•."
+  },
+  {
+    "id": "alkanes-025",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "A mixture of methane and chlorine does not react in the dark at room temperature, but reacts when exposed to ultraviolet radiation.\n\nExplain the role of the ultraviolet radiation.",
+    "marks": 2,
+    "markPoints": [
+      "UV provides the energy to break the Cl–Cl bond by homolytic fission",
+      "Forming chlorine radicals, Cl• (which start/initiate the chain reaction)"
+    ],
+    "modelAnswer": "The ultraviolet radiation supplies the energy needed to break the Cl–Cl bond by homolytic fission, producing chlorine radicals (Cl₂ → 2Cl•). These radicals initiate the chain reaction; without UV, no radicals form and no reaction occurs.",
+    "explanation": "UV is only needed for initiation. The Cl–Cl bond is the weakest bond present, so it is the one broken by the UV photon."
+  },
+  {
+    "id": "alkanes-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(f)",
+    "question": "A student reacts methane with excess chlorine in ultraviolet light, hoping to make pure chloromethane, CH₃Cl. The product is actually a mixture containing CH₂Cl₂, CHCl₃ and CCl₄ as well as CH₃Cl.\n\nExplain why these other products form.",
+    "marks": 3,
+    "markPoints": [
+      "Further substitution occurs: chlorine radicals can attack the chloromethane product (and each subsequent product)",
+      "Each substitution replaces another H atom with Cl, e.g. CH₃Cl + Cl• → CH₂Cl• + HCl then CH₂Cl• + Cl₂ → CH₂Cl₂ + Cl•",
+      "This continues (especially with excess chlorine) until all hydrogens can be replaced, giving CH₂Cl₂, CHCl₃ and CCl₄"
+    ],
+    "modelAnswer": "Chlorine radicals do not stop reacting once chloromethane has formed. Cl• can attack CH₃Cl in further propagation steps, replacing another hydrogen atom with chlorine (CH₃Cl + Cl• → CH₂Cl• + HCl, then CH₂Cl• + Cl₂ → CH₂Cl₂ + Cl•). With excess chlorine this further substitution continues, replacing hydrogens one at a time until CCl₄ can form, so a mixture of CH₃Cl, CH₂Cl₂, CHCl₃ and CCl₄ is produced.",
+    "explanation": "Radicals are unselective: any C–H bond in any molecule present can be attacked. Excess halogen pushes substitution further; excess alkane favours the monosubstituted product but never gives it pure."
+  },
+  {
+    "id": "alkanes-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(f)",
+    "question": "Explain two reasons why radical substitution is not a suitable method for synthesising a pure sample of a single haloalkane.",
+    "marks": 3,
+    "markPoints": [
+      "Further substitution gives a mixture of products with different numbers of halogen atoms (e.g. CH₂Cl₂, CHCl₃, CCl₄ as well as CH₃Cl)",
+      "Substitution can occur at different positions along the carbon chain, giving a mixture of (structural) isomers",
+      "So the desired product must be separated from the mixture (e.g. by fractional distillation), reducing the yield / making purification difficult"
+    ],
+    "modelAnswer": "Radical substitution gives a poor route to a pure product for two reasons. First, further substitution occurs: the halogen radicals continue to attack the halogenoalkane products, so compounds with two, three or more halogen atoms form alongside the desired product. Second, in longer alkanes substitution can happen at different carbon atoms along the chain, producing a mixture of structural isomers. The result is a complex mixture from which the desired compound must be separated, for example by fractional distillation, so the yield of any one pure product is low.",
+    "explanation": "The two limitations OCR expects are: further substitution (multiple halogenation) and substitution at different positions (isomeric products). Both stem from radicals being unselective."
+  },
+  {
+    "id": "alkanes-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "Write the overall equation for the reaction of methane with bromine to form bromomethane.",
+    "marks": 1,
+    "markPoints": [
+      "CH₄ + Br₂ → CH₃Br + HBr"
+    ],
+    "modelAnswer": "CH₄ + Br₂ → CH₃Br + HBr.",
+    "explanation": "The overall equation is the sum of the two propagation steps: the radicals cancel, leaving alkane + halogen → haloalkane + hydrogen halide."
+  },
+  {
+    "id": "alkanes-029",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Apart from combustion and reaction with halogens in UV light, alkanes are generally unreactive.\n\nSuggest two reasons for the low reactivity of alkanes.",
+    "marks": 2,
+    "markPoints": [
+      "The C–C and C–H σ-bonds are strong (high bond enthalpy), so a lot of energy is needed to break them",
+      "The C–C and C–H bonds are non-polar (C and H have very similar electronegativities), so alkanes do not attract nucleophiles or electrophiles"
+    ],
+    "modelAnswer": "The C–C and C–H σ-bonds in alkanes are strong, so a large amount of energy is needed to break them. In addition, carbon and hydrogen have very similar electronegativities, so the bonds are essentially non-polar and the molecules do not attract polar reagents such as nucleophiles or electrophiles.",
+    "explanation": "Two independent reasons: bond strength (kinetic barrier to breaking σ-bonds) and lack of polarity (no δ+ or δ− sites for attack). Give both for both marks."
+  },
+  {
+    "id": "alkanes-030",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "Butane and 2-methylpropane are structural isomers of C₄H₁₀.\n\nPredict, with a reason, which isomer has the higher boiling point.",
+    "marks": 3,
+    "markPoints": [
+      "Butane has the higher boiling point",
+      "Butane is unbranched, so its molecules have more points of surface contact / can get closer together than the branched 2-methylpropane molecules",
+      "So the London (induced dipole–dipole) forces between butane molecules are stronger and more energy is needed to overcome them"
+    ],
+    "modelAnswer": "Butane has the higher boiling point. It is the straight-chain isomer, so its molecules can line up closely with a large surface area of contact, whereas the branched 2-methylpropane molecules are more compact and touch at fewer points. The London forces between butane molecules are therefore stronger, so more energy is needed to separate them and butane boils at the higher temperature.",
+    "explanation": "Both isomers have the same number of electrons, so the branching/surface-contact argument decides it. State the prediction clearly first, then justify it."
+  },
+  {
+    "id": "alkanes-031",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "During the chlorination of methane, small amounts of ethane are found in the product mixture.\n\nExplain, with an equation, how the ethane forms.",
+    "marks": 2,
+    "markPoints": [
+      "Ethane forms in a termination step, when two methyl radicals combine",
+      "CH₃• + CH₃• → C₂H₆"
+    ],
+    "modelAnswer": "Ethane is formed in a termination step: two methyl radicals produced in the propagation stage collide and combine, CH₃• + CH₃• → C₂H₆.",
+    "explanation": "The presence of ethane is classic experimental evidence for the radical mechanism, because the only plausible source of ethane is the combination of two CH₃• radicals."
+  },
+  {
+    "id": "alkanes-032",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(c)",
+    "question": "The boiling points of hexane, 2-methylpentane and 2,2-dimethylbutane are 69 °C, 60 °C and 50 °C respectively. All three compounds have the molecular formula C₆H₁₄.\n\nExplain the differences in the boiling points of these three isomers.",
+    "marks": 5,
+    "markPoints": [
+      "All three isomers have the same number of electrons, so any difference in London forces is due to molecular shape, not electron count",
+      "The only intermolecular forces present are London (induced dipole–dipole) forces (alkanes are non-polar)",
+      "Branching increases from hexane (unbranched) to 2-methylpentane (one branch) to 2,2-dimethylbutane (two branches), making the molecules progressively more compact",
+      "More branching means fewer points of surface contact between neighbouring molecules, so the London forces become progressively weaker",
+      "Less energy is needed to overcome the weaker forces, so the boiling point decreases from hexane to 2-methylpentane to 2,2-dimethylbutane"
+    ],
+    "modelAnswer": "The three compounds are isomers with identical numbers of electrons, and because alkanes are non-polar the only intermolecular forces are London (induced dipole–dipole) forces. Hexane is unbranched, 2-methylpentane has one methyl branch and 2,2-dimethylbutane has two, so the molecules become increasingly compact along the series. More branching reduces the surface area of contact between neighbouring molecules, so the London forces become weaker from hexane to 2,2-dimethylbutane. Less energy is then needed to separate the molecules, which is why the boiling point falls from 69 °C to 60 °C to 50 °C as branching increases.",
+    "explanation": "For an extended-response comparison, structure the answer: same electrons (rules out one factor), identify the force (London only), describe the branching trend, link branching to surface contact and force strength, then link force strength to boiling point."
+  },
+  {
+    "id": "alkanes-033",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(f)",
+    "question": "Propane reacts with chlorine in ultraviolet light. Two monochlorinated structural isomers of C₃H₇Cl are formed.\n\nName the two isomers and explain why both are produced.",
+    "marks": 3,
+    "markPoints": [
+      "1-chloropropane",
+      "2-chloropropane",
+      "Chlorine radicals can remove a hydrogen atom from either an end carbon or the middle carbon of the chain (radical attack is unselective), so substitution occurs at different positions"
+    ],
+    "modelAnswer": "The two isomers are 1-chloropropane and 2-chloropropane. Chlorine radicals are unselective and can abstract a hydrogen atom from either of the end carbon atoms or from the middle carbon of propane, so the chlorine ends up in different positions along the chain and both structural isomers are formed.",
+    "explanation": "This illustrates the 'substitution at different positions' limitation of radical substitution: any C–H hydrogen can be replaced, so longer alkanes give mixtures of positional isomers."
+  },
+  {
+    "id": "alkanes-034",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "Ethane is present in natural gas.\n\nWrite the equation for the complete combustion of ethane and state why an adequate supply of oxygen is important when hydrocarbon fuels are burned indoors.",
+    "marks": 3,
+    "markPoints": [
+      "C₂H₆ + 3½O₂ → 2CO₂ + 3H₂O (or 2C₂H₆ + 7O₂ → 4CO₂ + 6H₂O)",
+      "In a limited oxygen supply, incomplete combustion occurs, producing carbon monoxide (and/or soot)",
+      "Carbon monoxide is toxic (binds to haemoglobin, preventing oxygen transport), so good ventilation prevents CO build-up"
+    ],
+    "modelAnswer": "C₂H₆ + 3½O₂ → 2CO₂ + 3H₂O. If the oxygen supply is limited, incomplete combustion occurs and toxic carbon monoxide is produced. CO binds to haemoglobin more strongly than oxygen, stopping the blood from carrying oxygen, so appliances burning fuels indoors need a good supply of air to ensure complete combustion.",
+    "explanation": "Combustion equations plus the safety context: limited oxygen → CO → haemoglobin. Balance C first, then H, then O; halves of O₂ are fine."
+  },
+  {
+    "id": "alkanes-035",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(e)",
+    "question": "In the radical substitution of ethane by chlorine, state what happens to the Cl• radical across the two propagation steps, and explain why only a small amount of ultraviolet light is needed for a large amount of product to form.",
+    "marks": 3,
+    "markPoints": [
+      "Cl• is used up in the first propagation step and regenerated in the second propagation step",
+      "So the propagation steps form a chain reaction / a cycle that repeats many times",
+      "One Cl• radical (from a single initiation event) can therefore lead to the formation of many product molecules, so only a little UV light is needed"
+    ],
+    "modelAnswer": "The Cl• radical is consumed in the first propagation step (C₂H₆ + Cl• → C₂H₅• + HCl) but regenerated in the second (C₂H₅• + Cl₂ → C₂H₅Cl + Cl•). Because the radical is regenerated, the pair of propagation steps repeats as a chain reaction, so a single chlorine radical produced by one UV initiation event can convert thousands of ethane molecules into product. Only a small amount of UV light is therefore needed.",
+    "explanation": "The chain-reaction idea is the key: propagation regenerates the halogen radical, so initiation only needs to happen occasionally. The chain stops when a termination step removes the radicals."
+  },
+  {
+    "id": "alkanes-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(b)",
+    "question": "Describe what is meant by a σ-bond and state how the σ-bonds in alkanes influence the shape around each carbon atom.",
+    "marks": 3,
+    "markPoints": [
+      "A σ-bond is formed by the direct/head-on overlap of orbitals between the two bonding atoms, with the electron density on the axis between the nuclei",
+      "Each carbon in an alkane forms four σ-bonds / is surrounded by four bonding pairs",
+      "The four bonding pairs repel equally, giving a tetrahedral shape with 109.5° angles around each carbon"
+    ],
+    "modelAnswer": "A σ-bond is a covalent bond formed by the direct overlap of orbitals on the line between the two bonded atoms, so the electron density lies on the axis joining the nuclei. In an alkane, every carbon atom forms four σ-bonds and has no lone pairs. The four bonding pairs repel one another equally and spread as far apart as possible, so the shape around each carbon is tetrahedral with bond angles of 109.5°.",
+    "explanation": "This links two spec points: the definition of a σ-bond and the tetrahedral geometry of alkane carbons. Free rotation about the σ-bonds follows from the overlap being on the bond axis."
+  },
+  {
+    "id": "alkanes-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Alkanes",
+    "specRef": "4.1.2(d)",
+    "question": "Explain why incomplete combustion of alkanes occurs, and state the two carbon-containing products that can form instead of carbon dioxide.",
+    "marks": 3,
+    "markPoints": [
+      "Incomplete combustion occurs when the supply of oxygen/air is limited (insufficient for complete oxidation)",
+      "Carbon monoxide, CO",
+      "Carbon / soot, C"
+    ],
+    "modelAnswer": "Incomplete combustion happens when there is a limited supply of oxygen, so the carbon in the fuel cannot be fully oxidised to carbon dioxide. Instead, carbon monoxide (CO) is formed, and in a very restricted oxygen supply carbon itself is produced as soot.",
+    "explanation": "The severity of the oxygen shortage determines the product: slightly limited oxygen gives CO, severely limited oxygen gives C (soot). Hydrogen is always oxidised to water first."
+  }
+]

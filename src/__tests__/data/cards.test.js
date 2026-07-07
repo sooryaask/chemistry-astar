@@ -5,8 +5,15 @@ vi.mock('../../data/paperIndex.json', () => ({
   default: {
     'June 2023 QP - Paper 1 OCR (A) Chemistry AS-Level.pdf': {
       questions: [
-        // MCQ (marks <= 1) — should be filtered out
-        { number: 1, marks: 1, page: 1, topic: 'Atomic structure', summary: 'MCQ' },
+        // MCQ (marks <= 1) — becomes an A/B/C/D card with its own crop
+        {
+          number: 1, marks: 1, page: 1, topic: 'Atomic structure', summary: 'MCQ',
+          msPaper: 'June 2023 MS - Paper 1 OCR (A) Chemistry AS-Level.pdf',
+          msPages: [5],
+          msShownImgs: ['June_2023_MS_p5_q1.png'],
+          explanation: 'Count the electrons in each ion.',
+          steps: ['Step 1 – Work out electrons for each option', 'Answer: C'],
+        },
         // Calculation — should be filtered out
         { number: 5, marks: 3, page: 3, topic: 'Moles', isCalculation: true, summary: 'Calc' },
         // Valid written question — whole card
@@ -77,11 +84,38 @@ vi.mock('../../data/paperIndex.json', () => ({
 const { getDeckCards, getPaperList, deckTitle } = await import('../../data/cards.js')
 
 describe('card generation', () => {
-  it('filters out MCQ questions (marks <= 1)', () => {
+  it('creates an MCQ card (marks <= 1) with its own per-question crop', () => {
     const papers = getPaperList()
     const june = papers.find((p) => p.label.includes('June 2023'))
-    const allIds = june.cards.map((c) => c.number)
-    expect(allIds).not.toContain(1) // MCQ filtered
+    const mcq = june.cards.find((c) => c.number === 1)
+    expect(mcq).toBeDefined()
+    expect(mcq.isMcq).toBe(true)
+    expect(mcq.type).toBe('mcq')
+    expect(mcq.marks).toBe(1)
+    // One MCQ per card: exactly one cropped question image
+    expect(mcq.qpUrls.length).toBe(1)
+    expect(mcq.qpUrls[0]).toMatch(/June_2023_QP_p1_q1\.png$/)
+    expect(mcq.msUrls[0]).toMatch(/June_2023_MS_p5_q1\.png$/)
+    expect(mcq.slots).toEqual([{ label: '', marks: 1 }])
+    // Correct letter parsed from the "Answer: X" step for local (no-API) checking
+    expect(mcq.correctOption).toBe('C')
+    expect(mcq.explanation).toBe('Count the electrons in each ion.')
+    expect(mcq.steps.length).toBe(2)
+  })
+
+  it('parses "Answer: ... → X" style answer lines', () => {
+    // covered by regex: last standalone A-D on the Answer line wins — the
+    // arrow-suffix format appears in June 2024 q3, Nov 2020 q15, Nov 2021 q3
+    const line = 'Answer: Empirical formula = N₂O₃ → D'
+    const ms = [...line.matchAll(/(?:^|[\s:(→\u2013\u2014-])([A-D])(?=[\s).,]|$)/g)]
+    expect(ms[ms.length - 1][1]).toBe('D')
+  })
+
+  it('does not set isMcq on written-question cards', () => {
+    const papers = getPaperList()
+    const june = papers.find((p) => p.label.includes('June 2023'))
+    const q3 = june.cards.find((c) => c.number === 3)
+    expect(q3.isMcq).toBeFalsy()
   })
 
   it('filters out calculation questions', () => {
@@ -146,10 +180,11 @@ describe('card generation', () => {
     }
   })
 
-  it('includes qpUrls and msUrls on every card', () => {
+  it('includes qpUrls and msUrls on every past-paper card', () => {
     const papers = getPaperList()
     for (const paper of papers) {
       for (const card of paper.cards) {
+        if (card.isText) continue // AI-generated cards are text-only, no crops
         expect(Array.isArray(card.qpUrls)).toBe(true)
         expect(card.qpUrls.length).toBeGreaterThan(0)
         expect(Array.isArray(card.msUrls)).toBe(true)
@@ -160,9 +195,13 @@ describe('card generation', () => {
 })
 
 describe('getPaperList', () => {
-  it('returns all papers with cards', () => {
+  it('returns all papers with cards plus the AI deck', () => {
     const papers = getPaperList()
-    expect(papers.length).toBe(2)
+    const pastPapers = papers.filter((p) => p.deckId.startsWith('paper:'))
+    expect(pastPapers.length).toBe(2)
+    const aiDeck = papers.find((p) => p.deckId === 'ai:generated')
+    expect(aiDeck).toBeTruthy()
+    expect(aiDeck.cards.length).toBeGreaterThan(0)
   })
 
   it('sorts Specimen paper first', () => {
@@ -174,7 +213,7 @@ describe('getPaperList', () => {
     for (const p of getPaperList()) {
       expect(typeof p.slug).toBe('string')
       expect(typeof p.label).toBe('string')
-      expect(p.deckId).toMatch(/^paper:/)
+      expect(p.deckId).toMatch(/^(paper|ai):/)
       expect(Array.isArray(p.cards)).toBe(true)
       expect(p.cards.length).toBeGreaterThan(0)
     }

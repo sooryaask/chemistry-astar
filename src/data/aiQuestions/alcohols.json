@@ -1,0 +1,707 @@
+[
+  {
+    "id": "alcohols-001",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Which of the following is a secondary alcohol?",
+    "options": {
+      "A": "butan-1-ol",
+      "B": "butan-2-ol",
+      "C": "2-methylpropan-2-ol",
+      "D": "2-methylpropan-1-ol"
+    },
+    "correctOption": "B",
+    "explanation": "In butan-2-ol the carbon bonded to the OH group is attached to two other carbon atoms, so it is secondary. Butan-1-ol and 2-methylpropan-1-ol are primary (OH carbon attached to one other carbon) and 2-methylpropan-2-ol is tertiary (OH carbon attached to three other carbons).",
+    "steps": [
+      "Step 1 – Classify by counting the carbon atoms attached to the carbon bearing the OH group.",
+      "Step 2 – Butan-2-ol: CH₃CH(OH)CH₂CH₃ — the OH carbon is bonded to two other carbons, so it is secondary.",
+      "Step 3 – Butan-1-ol and 2-methylpropan-1-ol have the OH on an end carbon (primary); 2-methylpropan-2-ol has the OH on a carbon bonded to three carbons (tertiary).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alcohols-002",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Propan-2-ol is heated under reflux with excess acidified potassium dichromate(VI), K₂Cr₂O₇.\n\nWhat is the organic product?",
+    "options": {
+      "A": "propanal",
+      "B": "propanone",
+      "C": "propanoic acid",
+      "D": "propene"
+    },
+    "correctOption": "B",
+    "explanation": "Propan-2-ol is a secondary alcohol, so oxidation produces the ketone propanone. Ketones resist further oxidation, so no carboxylic acid forms. Propanal and propanoic acid would come from oxidising the primary alcohol propan-1-ol, and propene is the dehydration product.",
+    "steps": [
+      "Step 1 – Classify the alcohol: propan-2-ol, CH₃CH(OH)CH₃, is secondary.",
+      "Step 2 – Secondary alcohols are oxidised to ketones: CH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O.",
+      "Step 3 – Ketones are not oxidised further even with excess oxidising agent under reflux, so the product is propanone.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alcohols-003",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Butan-1-ol is heated with acidified potassium dichromate(VI).\n\nWhat colour change is observed?",
+    "options": {
+      "A": "orange to green",
+      "B": "green to orange",
+      "C": "orange to colourless",
+      "D": "purple to colourless"
+    },
+    "correctOption": "A",
+    "explanation": "Butan-1-ol is a primary alcohol, so it is oxidised and the dichromate(VI) ions are reduced. Orange Cr₂O₇²⁻ ions are reduced to green Cr³⁺ ions. Purple to colourless describes acidified manganate(VII), a different oxidising agent.",
+    "steps": [
+      "Step 1 – Primary alcohols are oxidised by acidified K₂Cr₂O₇.",
+      "Step 2 – As the alcohol is oxidised, orange dichromate(VI) ions (Cr₂O₇²⁻) are reduced to green chromium(III) ions (Cr³⁺).",
+      "Step 3 – So the mixture turns from orange to green; the reverse change and colourless end points are wrong.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alcohols-004",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Which alcohol is resistant to oxidation by acidified potassium dichromate(VI)?",
+    "options": {
+      "A": "2-methylbutan-2-ol",
+      "B": "3-methylbutan-1-ol",
+      "C": "pentan-2-ol",
+      "D": "pentan-1-ol"
+    },
+    "correctOption": "A",
+    "explanation": "2-methylbutan-2-ol is a tertiary alcohol: the carbon bearing the OH group has no hydrogen atom attached, so it cannot be oxidised by acidified dichromate(VI). The primary alcohols (B and D) oxidise to aldehydes/carboxylic acids and the secondary alcohol (C) oxidises to a ketone.",
+    "steps": [
+      "Step 1 – Only tertiary alcohols resist oxidation by acidified K₂Cr₂O₇.",
+      "Step 2 – In 2-methylbutan-2-ol the OH carbon is bonded to three other carbons (tertiary) and has no C–H available for oxidation.",
+      "Step 3 – 3-methylbutan-1-ol and pentan-1-ol are primary, pentan-2-ol is secondary — all are oxidised.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alcohols-005",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(d)",
+    "question": "Butan-2-ol is heated with concentrated phosphoric acid and undergoes dehydration.\n\nHow many different alkenes, including E/Z isomers, can form?",
+    "options": { "A": "1", "B": "2", "C": "3", "D": "4" },
+    "correctOption": "C",
+    "explanation": "Water can be lost towards either neighbouring carbon: elimination towards carbon 1 gives but-1-ene, and elimination towards carbon 3 gives but-2-ene, which exists as E-but-2-ene and Z-but-2-ene. That gives three alkenes in total.",
+    "steps": [
+      "Step 1 – In dehydration, the OH leaves with an H from a carbon adjacent to the OH carbon.",
+      "Step 2 – Loss of H from carbon 1 gives but-1-ene; loss of H from carbon 3 gives but-2-ene.",
+      "Step 3 – But-2-ene has two different groups on each C=C carbon, so it exists as E and Z stereoisomers: 1 + 2 = 3 alkenes.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alcohols-006",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(e)",
+    "question": "Which reagents convert ethanol into bromoethane?",
+    "options": {
+      "A": "sodium bromide and concentrated sulfuric acid",
+      "B": "bromine water",
+      "C": "sodium bromide solution only",
+      "D": "bromine with ultraviolet radiation"
+    },
+    "correctOption": "A",
+    "explanation": "NaBr and concentrated H₂SO₄ react in situ to form HBr, which substitutes the OH group: C₂H₅OH + HBr → C₂H₅Br + H₂O. Bromine water tests for alkenes, NaBr alone provides no acid to generate HBr, and Br₂/UV is radical substitution of alkanes.",
+    "steps": [
+      "Step 1 – Converting an alcohol to a haloalkane is a substitution requiring a hydrogen halide (HBr).",
+      "Step 2 – HBr is generated in situ from sodium bromide and concentrated sulfuric acid: NaBr + H₂SO₄ → NaHSO₄ + HBr.",
+      "Step 3 – The HBr then reacts: C₂H₅OH + HBr → C₂H₅Br + H₂O. The other reagents cannot substitute the OH group.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alcohols-007",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(b)",
+    "question": "Propan-1-ol undergoes complete combustion:\n\nCH₃CH₂CH₂OH + x O₂ → 3CO₂ + 4H₂O\n\nWhat is the value of x?",
+    "options": { "A": "4", "B": "4.5", "C": "5", "D": "9" },
+    "correctOption": "B",
+    "explanation": "The right-hand side contains (3 × 2) + 4 = 10 oxygen atoms. The alcohol supplies one, so O₂ must supply 9 atoms = 4.5 molecules. Forgetting the oxygen atom already in the alcohol gives 5; the answer 9 confuses atoms with molecules.",
+    "steps": [
+      "Step 1 – Count oxygen atoms in the products: 3CO₂ gives 6 and 4H₂O gives 4, total 10.",
+      "Step 2 – Propan-1-ol already contains 1 oxygen atom, so O₂ must supply 10 − 1 = 9 atoms.",
+      "Step 3 – 9 oxygen atoms = 4.5 O₂ molecules, so x = 4.5.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alcohols-008",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Which statement explains why ethanol is completely soluble in water?",
+    "options": {
+      "A": "Ethanol forms hydrogen bonds with water molecules",
+      "B": "Ethanol is ionic so it dissociates in water",
+      "C": "Ethanol forms covalent bonds with water molecules",
+      "D": "Ethanol has strong London forces with water molecules"
+    },
+    "correctOption": "A",
+    "explanation": "The O–H group in ethanol forms hydrogen bonds with water molecules, so the two liquids mix completely. Ethanol is a covalent molecule (not ionic), no new covalent bonds form on dissolving, and London forces alone would not give complete miscibility.",
+    "steps": [
+      "Step 1 – Ethanol contains a polar O–H group with a lone pair on oxygen.",
+      "Step 2 – This O–H group can form hydrogen bonds with water molecules.",
+      "Step 3 – These hydrogen bonds replace the water–water hydrogen bonds broken on mixing, so ethanol dissolves; B, C and D describe bonding that does not occur.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alcohols-009",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Classify each of the following alcohols as primary, secondary or tertiary:\n\n(i) butan-1-ol\n(ii) pentan-3-ol\n(iii) 2-methylbutan-2-ol",
+    "marks": 3,
+    "markPoints": [
+      "(i) primary",
+      "(ii) secondary",
+      "(iii) tertiary"
+    ],
+    "modelAnswer": "(i) Butan-1-ol is primary: the carbon bonded to the OH group is attached to only one other carbon. (ii) Pentan-3-ol is secondary: the OH carbon is attached to two other carbons. (iii) 2-methylbutan-2-ol is tertiary: the OH carbon is attached to three other carbons.",
+    "explanation": "Classification depends only on how many carbon atoms are bonded to the carbon carrying the OH group: one for primary, two for secondary, three for tertiary."
+  },
+  {
+    "id": "alcohols-010",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Propan-2-ol, CH₃CH(OH)CH₃, is a secondary alcohol.\n\nExplain what is meant by a secondary alcohol, using propan-2-ol as your example.",
+    "marks": 2,
+    "markPoints": [
+      "A secondary alcohol has the OH group on a carbon atom that is bonded to two other carbon atoms",
+      "In propan-2-ol the OH group is on carbon 2, which is bonded to two CH₃ groups (two other carbons)"
+    ],
+    "modelAnswer": "In a secondary alcohol the carbon bonded to the OH group is attached to two other carbon atoms. In propan-2-ol the OH group is on the middle carbon (carbon 2), which is bonded to two methyl groups, so it is secondary.",
+    "explanation": "The definition must refer to the carbon bearing the OH group, not the molecule as a whole. Counting the carbon neighbours of that carbon (two in propan-2-ol) gives the classification."
+  },
+  {
+    "id": "alcohols-011",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "The boiling point of ethanol (78 °C) is much higher than the boiling point of propane (−42 °C), even though the two compounds have similar relative molecular masses.\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Ethanol molecules form hydrogen bonds between the O–H groups (as well as London forces)",
+      "Propane has only (weak) London / induced dipole–dipole forces between its molecules",
+      "Hydrogen bonds are much stronger than London forces, so more energy is needed to separate ethanol molecules"
+    ],
+    "modelAnswer": "Ethanol contains a polar O–H group, so hydrogen bonds form between its molecules in addition to London forces. Propane is non-polar and has only weak London (induced dipole–dipole) forces between molecules. Hydrogen bonds are much stronger, so much more energy is needed to overcome the intermolecular forces in ethanol, giving it a much higher boiling point.",
+    "explanation": "Boiling point comparisons at similar Mr come down to the type of intermolecular force. Name the forces in both compounds and state that hydrogen bonding is the stronger interaction requiring more energy to break."
+  },
+  {
+    "id": "alcohols-012",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Methanol is completely miscible with water, but hexan-1-ol is only slightly soluble.\n\nExplain these observations.",
+    "marks": 3,
+    "markPoints": [
+      "The O–H group of an alcohol forms hydrogen bonds with water molecules, so methanol mixes completely",
+      "Hexan-1-ol has a long non-polar hydrocarbon chain that cannot form hydrogen bonds with water",
+      "The large non-polar part disrupts the hydrogen bonding in water / outweighs the hydrogen bonding of the single OH group, so solubility is much lower"
+    ],
+    "modelAnswer": "The O–H group in an alcohol forms hydrogen bonds with water, so methanol, which is mostly OH with only a small carbon chain, is completely miscible. Hexan-1-ol has a long non-polar hydrocarbon chain that cannot hydrogen bond with water and disrupts water's own hydrogen bonding. Because the non-polar chain dominates over the single OH group, hexan-1-ol is only slightly soluble.",
+    "explanation": "Solubility in water is a balance: the OH group promotes hydrogen bonding with water, while the hydrocarbon chain opposes it. As chain length increases, the non-polar portion dominates and solubility falls."
+  },
+  {
+    "id": "alcohols-013",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(b)",
+    "question": "Ethanol is used as a fuel.\n\nWrite the equation for the complete combustion of ethanol, C₂H₅OH.",
+    "marks": 2,
+    "markPoints": [
+      "Correct products: CO₂ and H₂O only",
+      "Correctly balanced: C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O"
+    ],
+    "modelAnswer": "C₂H₅OH + 3O₂ → 2CO₂ + 3H₂O.",
+    "explanation": "Complete combustion of an alcohol gives carbon dioxide and water. Balance carbons (2CO₂), then hydrogens (3H₂O), then count oxygen: 4 + 3 = 7 atoms needed, minus the 1 in ethanol leaves 6, i.e. 3O₂."
+  },
+  {
+    "id": "alcohols-014",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(b)",
+    "question": "Write the equation for the complete combustion of butan-1-ol, C₄H₉OH.",
+    "marks": 2,
+    "markPoints": [
+      "Correct products: CO₂ and H₂O only",
+      "Correctly balanced: C₄H₉OH + 6O₂ → 4CO₂ + 5H₂O"
+    ],
+    "modelAnswer": "C₄H₉OH + 6O₂ → 4CO₂ + 5H₂O.",
+    "explanation": "Balance carbon first (4CO₂), then hydrogen (10 H gives 5H₂O), then oxygen: products need 8 + 5 = 13 atoms; the alcohol provides 1, so O₂ provides 12 atoms = 6 molecules."
+  },
+  {
+    "id": "alcohols-015",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Propan-1-ol is oxidised to an aldehyde using acidified potassium dichromate(VI).\n\nName the organic product, state how the reaction mixture is heated to obtain the aldehyde, and write the equation for the reaction using [O] to represent the oxidising agent.",
+    "marks": 3,
+    "markPoints": [
+      "Propanal",
+      "Heat gently and distil the aldehyde out as it forms (distillation, not reflux)",
+      "CH₃CH₂CH₂OH + [O] → CH₃CH₂CHO + H₂O"
+    ],
+    "modelAnswer": "The product is propanal. The mixture is heated gently with the apparatus arranged for distillation, so the propanal is removed as soon as it forms. Equation: CH₃CH₂CH₂OH + [O] → CH₃CH₂CHO + H₂O.",
+    "explanation": "To stop at the aldehyde the product must be removed before it can be oxidised further, so distillation is used. In [O] equations, water must appear as a product for the equation to balance."
+  },
+  {
+    "id": "alcohols-016",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Propan-1-ol is heated under reflux with excess acidified potassium dichromate(VI).\n\nName the organic product and write the equation for the reaction using [O] to represent the oxidising agent.",
+    "marks": 3,
+    "markPoints": [
+      "Propanoic acid",
+      "Two [O] used: CH₃CH₂CH₂OH + 2[O] → CH₃CH₂COOH + H₂O",
+      "Equation fully correct including H₂O as a product"
+    ],
+    "modelAnswer": "The product is propanoic acid. CH₃CH₂CH₂OH + 2[O] → CH₃CH₂COOH + H₂O.",
+    "explanation": "Under reflux with excess oxidising agent, a primary alcohol is oxidised through the aldehyde all the way to the carboxylic acid. This overall change needs two [O]: one for alcohol to aldehyde and one for aldehyde to acid."
+  },
+  {
+    "id": "alcohols-017",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "A student oxidises butan-1-ol with acidified potassium dichromate(VI). By choosing how to heat the mixture, the student can obtain either butanal or butanoic acid.\n\nExplain, in terms of the apparatus arrangement used, how each product is obtained.",
+    "marks": 4,
+    "markPoints": [
+      "For butanal: heat gently with the apparatus arranged for distillation",
+      "The aldehyde is distilled off / removed as soon as it forms because it has a lower boiling point than the alcohol, preventing further oxidation",
+      "For butanoic acid: heat under reflux with excess oxidising agent",
+      "Reflux condenses and returns evaporating vapour to the flask so the aldehyde stays in contact with the oxidising agent and is fully oxidised to the acid"
+    ],
+    "modelAnswer": "To obtain butanal, the mixture is heated gently with the apparatus arranged for distillation. Butanal has a lower boiling point than butan-1-ol (it cannot hydrogen bond), so it evaporates and is collected as soon as it forms, before it can be oxidised further. To obtain butanoic acid, the mixture is heated under reflux with excess acidified dichromate(VI). The condenser returns any evaporating aldehyde and alcohol to the flask, so the butanal remains in contact with the oxidising agent during prolonged heating and is fully oxidised to butanoic acid.",
+    "explanation": "The choice of technique controls how far oxidation goes: distillation removes the aldehyde early; reflux keeps everything in the flask for complete oxidation. Linking the aldehyde's lower boiling point (no hydrogen bonding) to its early removal is the key explanation mark."
+  },
+  {
+    "id": "alcohols-018",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Butan-2-ol is heated under reflux with acidified potassium dichromate(VI).\n\nName the organic product, state the colour change observed, and write the equation for the reaction using [O] to represent the oxidising agent.",
+    "marks": 3,
+    "markPoints": [
+      "Butanone",
+      "Orange to green",
+      "CH₃CH(OH)CH₂CH₃ + [O] → CH₃COCH₂CH₃ + H₂O"
+    ],
+    "modelAnswer": "The product is butanone. The mixture changes colour from orange to green as dichromate(VI) ions are reduced to chromium(III) ions. Equation: CH₃CH(OH)CH₂CH₃ + [O] → CH₃COCH₂CH₃ + H₂O.",
+    "explanation": "A secondary alcohol is oxidised to a ketone, which cannot be oxidised further, so only one [O] is needed. The orange → green colour change is the reduction of Cr₂O₇²⁻ (orange) to Cr³⁺ (green)."
+  },
+  {
+    "id": "alcohols-019",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "A student heats 2-methylpropan-2-ol under reflux with acidified potassium dichromate(VI).\n\nState what the student observes and explain the observation.",
+    "marks": 2,
+    "markPoints": [
+      "The mixture stays orange / no colour change",
+      "2-methylpropan-2-ol is a tertiary alcohol, which is resistant to oxidation (no H on the carbon bearing the OH group)"
+    ],
+    "modelAnswer": "The mixture remains orange — there is no colour change. 2-methylpropan-2-ol is a tertiary alcohol, so it is not oxidised by acidified dichromate(VI): the carbon bonded to the OH group carries no hydrogen atom, so no oxidation can occur and the dichromate(VI) ions are not reduced.",
+    "explanation": "Tertiary alcohols resist oxidation because oxidation requires removal of a hydrogen from the carbon carrying the OH group, and in a tertiary alcohol that carbon is bonded to three other carbons instead."
+  },
+  {
+    "id": "alcohols-020",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Two unlabelled bottles contain propan-2-ol and 2-methylpropan-2-ol.\n\nDescribe a chemical test the student could use to identify which alcohol is in each bottle. Include the observations expected for each alcohol.",
+    "marks": 3,
+    "markPoints": [
+      "Add acidified potassium dichromate(VI) to a sample of each alcohol and warm/heat",
+      "Propan-2-ol (secondary): the mixture turns from orange to green (it is oxidised to propanone)",
+      "2-methylpropan-2-ol (tertiary): the mixture stays orange (no oxidation)"
+    ],
+    "modelAnswer": "Warm a sample of each alcohol with acidified potassium dichromate(VI). The bottle containing propan-2-ol turns the mixture from orange to green, because the secondary alcohol is oxidised to propanone and the dichromate(VI) is reduced to Cr³⁺. The bottle containing 2-methylpropan-2-ol gives no colour change — the mixture stays orange — because tertiary alcohols are resistant to oxidation.",
+    "explanation": "Acidified dichromate(VI) distinguishes tertiary alcohols from primary and secondary ones: only the tertiary alcohol fails to reduce the orange dichromate to green Cr³⁺. Always give the reagent, the conditions (warm) and both observations."
+  },
+  {
+    "id": "alcohols-021",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(d)",
+    "question": "Propan-2-ol can be dehydrated to form an alkene.\n\nState the reagent and conditions needed, name the organic product, and write the equation for the reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Concentrated phosphoric acid (H₃PO₄) or concentrated sulfuric acid catalyst, with heat",
+      "Propene",
+      "CH₃CH(OH)CH₃ → CH₂=CHCH₃ + H₂O"
+    ],
+    "modelAnswer": "Propan-2-ol is heated with a concentrated phosphoric acid (H₃PO₄) catalyst (concentrated sulfuric acid also works). The product is propene: CH₃CH(OH)CH₃ → CH₂=CHCH₃ + H₂O. This is an elimination (dehydration) reaction.",
+    "explanation": "Dehydration of an alcohol is elimination of water, catalysed by a concentrated acid with heating. Whichever adjacent carbon loses the hydrogen, propan-2-ol can only form propene, so there is a single alkene product."
+  },
+  {
+    "id": "alcohols-022",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(d)",
+    "question": "Butan-2-ol is heated with concentrated sulfuric acid and undergoes dehydration to form a mixture of alkenes.\n\nName all of the alkenes formed, including any stereoisomers, and explain why more than one alkene forms.",
+    "marks": 4,
+    "markPoints": [
+      "But-1-ene",
+      "But-2-ene, which forms as two stereoisomers: E-but-2-ene and Z-but-2-ene",
+      "Water is eliminated: the OH is lost with a hydrogen from a carbon adjacent to the OH carbon",
+      "There are two different adjacent carbons (carbon 1 and carbon 3) from which the hydrogen can be lost, so different alkenes form"
+    ],
+    "modelAnswer": "The alkenes formed are but-1-ene, E-but-2-ene and Z-but-2-ene. Dehydration eliminates water: the OH group is removed together with a hydrogen atom from a carbon adjacent to the carbon bearing the OH group. In butan-2-ol the OH is on carbon 2, so the hydrogen can be lost from carbon 1 (giving but-1-ene) or from carbon 3 (giving but-2-ene). But-2-ene has two different groups on each carbon of the C=C, so it exists as E and Z stereoisomers.",
+    "explanation": "Look at both carbons next to the OH carbon: each can supply the eliminated hydrogen, giving alkenes with the double bond in different positions. Then check each alkene for E/Z isomerism — but-2-ene qualifies, but-1-ene does not (carbon 1 carries two identical hydrogen atoms)."
+  },
+  {
+    "id": "alcohols-023",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(e)",
+    "question": "Ethanol can be converted into bromoethane by heating it with sodium bromide and concentrated sulfuric acid.\n\nExplain the role of the sodium bromide and sulfuric acid, and write the equation for the reaction of ethanol that forms bromoethane.",
+    "marks": 3,
+    "markPoints": [
+      "NaBr and concentrated H₂SO₄ react together to form HBr in situ (NaBr + H₂SO₄ → NaHSO₄ + HBr)",
+      "The HBr is the substituting reagent / supplies the bromide",
+      "C₂H₅OH + HBr → C₂H₅Br + H₂O"
+    ],
+    "modelAnswer": "Sodium bromide reacts with the concentrated sulfuric acid to generate hydrogen bromide in situ: NaBr + H₂SO₄ → NaHSO₄ + HBr. The HBr then reacts with the ethanol in a substitution reaction, replacing the OH group with Br: C₂H₅OH + HBr → C₂H₅Br + H₂O.",
+    "explanation": "The key idea is 'in situ' generation of HBr — neither NaBr nor H₂SO₄ alone converts the alcohol. The substitution equation must show water as the other product."
+  },
+  {
+    "id": "alcohols-024",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(e)",
+    "question": "Propan-1-ol reacts with hydrogen bromide to form 1-bromopropane.\n\nState the type of reaction taking place and the role of the bromide in this reaction.",
+    "marks": 2,
+    "markPoints": [
+      "(Nucleophilic) substitution",
+      "The bromide ion acts as a nucleophile (electron pair donor)"
+    ],
+    "modelAnswer": "The reaction is a substitution (nucleophilic substitution): the Br replaces the OH group. The bromide ion acts as a nucleophile, donating a lone pair of electrons to the carbon atom.",
+    "explanation": "In alcohol-to-haloalkane conversions one group (OH) is swapped for another (Br), which defines substitution. Br⁻ has lone pairs and donates one, so its role is that of a nucleophile."
+  },
+  {
+    "id": "alcohols-025",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Butan-1-ol, butan-2-ol and 2-methylpropan-2-ol are three isomeric alcohols with the molecular formula C₄H₁₀O.\n\nCompare the behaviour of the three alcohols when each is heated under reflux with excess acidified potassium dichromate(VI). In your answer, classify each alcohol, name any organic products formed, and describe the observations.",
+    "marks": 6,
+    "markPoints": [
+      "Butan-1-ol is a primary alcohol; butan-2-ol is a secondary alcohol; 2-methylpropan-2-ol is a tertiary alcohol",
+      "Butan-1-ol is oxidised, under reflux with excess oxidising agent, all the way to butanoic acid (via butanal)",
+      "Butan-2-ol is oxidised to the ketone butanone",
+      "Butanone / ketones cannot be oxidised further",
+      "For butan-1-ol and butan-2-ol the mixture turns from orange to green (Cr₂O₇²⁻ reduced to Cr³⁺)",
+      "2-methylpropan-2-ol is resistant to oxidation, so the mixture stays orange / no reaction"
+    ],
+    "modelAnswer": "Butan-1-ol is a primary alcohol, butan-2-ol is a secondary alcohol and 2-methylpropan-2-ol is a tertiary alcohol. Heated under reflux with excess acidified dichromate(VI), butan-1-ol is oxidised via butanal all the way to butanoic acid, and butan-2-ol is oxidised to butanone, a ketone that cannot be oxidised any further. In both of these reactions the mixture changes from orange to green as the dichromate(VI) ions are reduced to chromium(III) ions. 2-methylpropan-2-ol is tertiary and resistant to oxidation, so no reaction occurs and the mixture remains orange.",
+    "explanation": "This is the classic three-way comparison: primary → carboxylic acid under reflux (aldehyde only if distilled off), secondary → ketone, tertiary → no reaction. The observation marks come from linking oxidation to the orange → green colour change, and no change for the tertiary alcohol."
+  },
+  {
+    "id": "alcohols-026",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(a)",
+    "question": "Alcohols are less volatile than alkanes with similar relative molecular masses.\n\nExplain why, in terms of the intermolecular forces present in each type of compound.",
+    "marks": 3,
+    "markPoints": [
+      "Alcohols form hydrogen bonds between molecules (due to the polar O–H group), in addition to London forces",
+      "Alkanes have only London / induced dipole–dipole forces",
+      "Hydrogen bonds are stronger, so more energy is needed to separate alcohol molecules and they evaporate less easily (lower volatility)"
+    ],
+    "modelAnswer": "Alcohol molecules are held together by hydrogen bonds between their polar O–H groups, in addition to London forces, whereas alkane molecules have only weak London (induced dipole–dipole) forces. Hydrogen bonds are much stronger, so more energy is required to separate alcohol molecules into the vapour. Alcohols therefore evaporate less easily and are less volatile than alkanes of similar relative molecular mass.",
+    "explanation": "Volatility is about how easily molecules escape the liquid. The extra hydrogen bonding in alcohols raises the energy needed for escape, lowering volatility relative to alkanes with only London forces."
+  },
+  {
+    "id": "alcohols-027",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(c)",
+    "question": "Alcohol X has the molecular formula C₄H₁₀O. When X is heated under reflux with excess acidified potassium dichromate(VI), the mixture remains orange.\n\nIdentify X by name and explain your reasoning.",
+    "marks": 3,
+    "markPoints": [
+      "No colour change means X is not oxidised, so X must be a tertiary alcohol",
+      "The only tertiary alcohol with the formula C₄H₁₀O is 2-methylpropan-2-ol / (CH₃)₃COH",
+      "X = 2-methylpropan-2-ol"
+    ],
+    "modelAnswer": "The mixture staying orange shows that X is not oxidised by acidified dichromate(VI), so X must be a tertiary alcohol. Of the four alcohols with the molecular formula C₄H₁₀O, only 2-methylpropan-2-ol, (CH₃)₃COH, is tertiary — its OH group is on a carbon bonded to three other carbon atoms. Therefore X is 2-methylpropan-2-ol.",
+    "explanation": "Work backwards from the observation: no reduction of dichromate means no oxidation, which is the signature of a tertiary alcohol. Then check the C₄H₁₀O isomers — butan-1-ol and 2-methylpropan-1-ol are primary, butan-2-ol is secondary, leaving only 2-methylpropan-2-ol."
+  },
+  {
+    "id": "alcohols-028",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.2.1(b)",
+    "question": "Methanol burns in a limited supply of oxygen, producing carbon monoxide and water.\n\nWrite the equation for this incomplete combustion of methanol and state why carbon monoxide is hazardous.",
+    "marks": 2,
+    "markPoints": [
+      "CH₃OH + O₂ → CO + 2H₂O",
+      "Carbon monoxide is toxic (it binds to haemoglobin, preventing oxygen transport in the blood)"
+    ],
+    "modelAnswer": "CH₃OH + O₂ → CO + 2H₂O. Carbon monoxide is toxic: it binds to haemoglobin in the blood more strongly than oxygen does, preventing oxygen from being transported around the body.",
+    "explanation": "In limited oxygen, carbon is only partially oxidised to CO. Check the balance: 1 C each side, 4 H each side, and 3 O on each side (1 in methanol + 2 in O₂ = 1 in CO + 2 in water)."
+  },
+  {
+    "id": "alcohols-029",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(a)",
+    "question": "Which of the following correctly defines a tertiary alcohol?",
+    "options": {
+      "A": "An alcohol in which the OH group is attached to a carbon with no other carbon atoms bonded to it",
+      "B": "An alcohol in which the OH group is attached to a carbon that is bonded to one other carbon atom",
+      "C": "An alcohol in which the OH group is attached to a carbon that is bonded to two other carbon atoms",
+      "D": "An alcohol in which the OH group is attached to a carbon that is bonded to three other carbon atoms"
+    },
+    "correctOption": "D",
+    "explanation": "Classification is based on how many carbon atoms are bonded to the carbon carrying the OH group. Zero other carbons = primary (in the special case of methanol), one = primary, two = secondary, three = tertiary. Only option D describes the tertiary case correctly.",
+    "steps": [
+      "Step 1 – The classification of an alcohol depends on the number of carbon atoms directly bonded to the carbon that carries the OH group.",
+      "Step 2 – Primary: one other carbon (or methanol with zero); secondary: two other carbons; tertiary: three other carbons.",
+      "Step 3 – Option D states 'bonded to three other carbon atoms', which is the definition of a tertiary alcohol. Options A and B describe primary situations, option C describes secondary.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "alcohols-030",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(c)",
+    "question": "A primary alcohol is heated under reflux with excess acidified potassium dichromate(VI), then the product is warmed with Fehling's solution.\n\nWhat are the expected observations?",
+    "options": {
+      "A": "Fehling's solution stays blue",
+      "B": "Fehling's solution turns from blue to brick-red precipitate",
+      "C": "Fehling's solution turns from blue to green",
+      "D": "Fehling's solution turns from orange to green"
+    },
+    "correctOption": "A",
+    "explanation": "Heating a primary alcohol under reflux with excess acidified dichromate(VI) oxidises it all the way to a carboxylic acid. Carboxylic acids do not reduce Fehling's solution (only aldehydes do), so the Fehling's solution remains blue. If the aldehyde had been isolated by distillation instead, a brick-red precipitate would form.",
+    "steps": [
+      "Step 1 – Under reflux with excess oxidising agent, a primary alcohol is fully oxidised to a carboxylic acid (not stopped at the aldehyde).",
+      "Step 2 – Fehling's solution is a test for aldehydes; carboxylic acids cannot reduce the Cu²⁺ ions in Fehling's solution.",
+      "Step 3 – Therefore Fehling's solution stays blue. A brick-red precipitate would only form if an aldehyde were present.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "alcohols-031",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(d)",
+    "question": "Ethanol is passed over a hot phosphoric acid catalyst.\n\nWhat is the organic product of this reaction?",
+    "options": {
+      "A": "Ethanal",
+      "B": "Ethanoic acid",
+      "C": "Ethene",
+      "D": "Ethane"
+    },
+    "correctOption": "C",
+    "explanation": "Passing an alcohol vapour over a hot concentrated acid catalyst causes dehydration (elimination of water) to give an alkene. Ethanol loses water to form ethene: C₂H₅OH → CH₂=CH₂ + H₂O. Ethanal and ethanoic acid are oxidation products; ethane would require a reduction.",
+    "steps": [
+      "Step 1 – A concentrated acid catalyst at high temperature promotes elimination (dehydration) of the alcohol.",
+      "Step 2 – Dehydration removes water (H from one carbon and OH from the OH carbon), producing a C=C double bond.",
+      "Step 3 – Ethanol (2 carbons) loses H₂O to form ethene, CH₂=CH₂. The other options result from oxidation or reduction, not dehydration.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "alcohols-032",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(e)",
+    "question": "Which of the following is an advantage of producing ethanol by fermentation of glucose rather than by industrial hydration of ethene?",
+    "options": {
+      "A": "Fermentation gives a higher purity of ethanol product",
+      "B": "Fermentation uses a renewable feedstock",
+      "C": "Fermentation is a continuous process",
+      "D": "Fermentation gives a faster rate of reaction"
+    },
+    "correctOption": "B",
+    "explanation": "Fermentation uses sugars (e.g. glucose from crops), which are renewable plant-based resources. Industrial hydration uses ethene derived from crude oil, a non-renewable fossil fuel. Fermentation is actually a batch process (not continuous), produces a dilute ethanol solution requiring distillation (lower purity initially), and is slower than catalytic hydration.",
+    "steps": [
+      "Step 1 – Compare the feedstocks: fermentation uses glucose from crops (renewable); hydration uses ethene from crude oil (non-renewable).",
+      "Step 2 – Eliminate incorrect options: fermentation is a batch process (not continuous), produces dilute ethanol (lower initial purity), and is slower than industrial hydration.",
+      "Step 3 – The correct advantage unique to fermentation is the use of a renewable feedstock.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "alcohols-033",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(a)",
+    "question": "Give the name and structural formula of one primary alcohol and one tertiary alcohol, each with the molecular formula C₅H₁₂O.",
+    "marks": 4,
+    "markPoints": [
+      "A correct primary alcohol with formula C₅H₁₂O, e.g. pentan-1-ol / CH₃CH₂CH₂CH₂CH₂OH",
+      "Correctly identified as primary (OH on a carbon bonded to one other carbon)",
+      "A correct tertiary alcohol with formula C₅H₁₂O, e.g. 2-methylbutan-2-ol / (CH₃)₂C(OH)CH₂CH₃",
+      "Correctly identified as tertiary (OH on a carbon bonded to three other carbons)"
+    ],
+    "modelAnswer": "Primary alcohol: pentan-1-ol, CH₃CH₂CH₂CH₂CH₂OH. The OH group is on carbon 1, which is bonded to only one other carbon, making it primary. Tertiary alcohol: 2-methylbutan-2-ol, (CH₃)₂C(OH)CH₂CH₃. The OH group is on carbon 2, which is bonded to three other carbon atoms (two methyl groups and one ethyl group), making it tertiary.",
+    "explanation": "Other valid primary C₅ alcohols include pentan-1-ol, 3-methylbutan-1-ol, and 2-methylbutan-1-ol. The only tertiary C₅ alcohol is 2-methylbutan-2-ol. For full marks, name and structural formula are both required for each."
+  },
+  {
+    "id": "alcohols-034",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(e)",
+    "question": "Ethanol can be produced by two industrial methods: fermentation of sugars and hydration of ethene.\n\nGive two differences between these two methods.",
+    "marks": 4,
+    "markPoints": [
+      "Fermentation uses a renewable feedstock (glucose/sugars from crops); hydration of ethene uses ethene from crude oil, a non-renewable resource",
+      "Fermentation is a batch process; hydration of ethene is a continuous process",
+      "Fermentation operates at lower temperatures (around 37 °C) and atmospheric pressure; hydration requires high temperature (around 300 °C) and high pressure",
+      "Fermentation produces dilute ethanol that requires distillation; hydration produces a more concentrated product directly"
+    ],
+    "modelAnswer": "First difference: fermentation uses a renewable feedstock (glucose from plant crops), whereas hydration of ethene uses ethene derived from crude oil, a non-renewable fossil fuel. Second difference: fermentation is a batch process, so the reactor must be emptied, cleaned and refilled, whereas hydration of ethene is a continuous process with a constant feedstock flow, making it more efficient for large-scale production.",
+    "explanation": "Any two valid differences gain marks, provided each is clearly contrasted between the two methods. Other acceptable differences include temperature/pressure conditions, reaction rate, and purity of the ethanol produced."
+  },
+  {
+    "id": "alcohols-035",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(e)",
+    "question": "Write the equation for the industrial production of ethanol by the hydration of ethene.\n\nState the catalyst and typical conditions used.",
+    "marks": 3,
+    "markPoints": [
+      "CH₂=CH₂ + H₂O → C₂H₅OH (or CH₃CH₂OH)",
+      "Phosphoric acid (H₃PO₄) catalyst",
+      "High temperature (approximately 300 °C) and high pressure (approximately 60–70 atm)"
+    ],
+    "modelAnswer": "CH₂=CH₂ + H₂O → CH₃CH₂OH. The catalyst is phosphoric acid (H₃PO₄), and the conditions are a high temperature of approximately 300 °C and a high pressure of approximately 60–70 atmospheres.",
+    "explanation": "The reaction is an addition of water (H and OH) across the C=C double bond. The H₃PO₄ is absorbed on a silica support and acts as a heterogeneous acid catalyst. Both temperature and pressure must be stated for the conditions mark."
+  },
+  {
+    "id": "alcohols-036",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(e)",
+    "question": "Ethanol produced by fermentation must be concentrated before it can be used as a fuel.\n\nExplain why the ethanol produced is impure and describe how it is concentrated.",
+    "marks": 3,
+    "markPoints": [
+      "Fermentation produces a dilute aqueous solution of ethanol (typically 10–15% ethanol by volume)",
+      "The mixture also contains water and other fermentation by-products (e.g. carbon dioxide has been produced / yeast cells present)",
+      "The ethanol is concentrated / purified by fractional distillation, exploiting the difference in boiling points of ethanol and water"
+    ],
+    "modelAnswer": "Fermentation converts glucose into ethanol and carbon dioxide using yeast enzymes, but the reaction stops when the ethanol concentration reaches approximately 10–15% because high alcohol concentrations kill the yeast. The resulting solution is a dilute aqueous mixture containing water, residual sugars, and yeast. To concentrate the ethanol, the mixture is separated by fractional distillation: ethanol (boiling point 78 °C) distils over before water (boiling point 100 °C), giving a more concentrated product.",
+    "explanation": "Two key ideas: (1) fermentation is limited to low ethanol concentrations because the yeast dies in high ethanol; (2) fractional distillation separates ethanol from water using their different boiling points."
+  },
+  {
+    "id": "alcohols-037",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(d)",
+    "question": "Pentan-2-ol undergoes dehydration when heated with concentrated phosphoric acid.\n\nWrite the equation for the formation of pent-1-ene from pentan-2-ol, and state the type of reaction occurring.",
+    "marks": 3,
+    "markPoints": [
+      "Elimination / dehydration",
+      "CH₃CH(OH)CH₂CH₂CH₃ → CH₂=CHCH₂CH₂CH₃ + H₂O",
+      "Equation correctly balanced with H₂O as the other product"
+    ],
+    "modelAnswer": "The reaction is an elimination (dehydration). The equation is: CH₃CH(OH)CH₂CH₂CH₃ → CH₂=CHCH₂CH₂CH₃ + H₂O. Water is eliminated as the OH group and a hydrogen from the adjacent carbon (carbon 1) are removed to form the C=C double bond.",
+    "explanation": "Dehydration removes H₂O across a C–C bond adjacent to the OH group. In pentan-2-ol, loss of H from carbon 1 gives pent-1-ene; loss from carbon 3 would give pent-2-ene. The question specifies pent-1-ene, so only the carbon 1 route is needed. Always include H₂O as the co-product."
+  },
+  {
+    "id": "alcohols-038",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(b)",
+    "question": "Ethanol is described as a carbon-neutral fuel when produced by fermentation.\n\nExplain what is meant by carbon neutral and evaluate whether fermentation-ethanol truly achieves this.",
+    "marks": 4,
+    "markPoints": [
+      "Carbon neutral means the net amount of carbon dioxide released into the atmosphere is zero (CO₂ released on combustion equals CO₂ absorbed during growth of the crop)",
+      "The CO₂ released when ethanol burns was previously absorbed by the sugar-crop plants during photosynthesis",
+      "However, energy-consuming processes such as harvesting, transporting, fermenting and distilling the ethanol also release CO₂",
+      "Therefore fermentation-ethanol is not truly carbon neutral, only approximately so"
+    ],
+    "modelAnswer": "Carbon neutral means no net release of CO₂ into the atmosphere: any CO₂ produced is balanced by CO₂ removed elsewhere. When fermentation-ethanol burns, it releases CO₂, but the crop plants that produced the glucose absorbed an equivalent amount of CO₂ from the atmosphere during photosynthesis. This makes the cycle approximately carbon neutral. However, the process is not truly carbon neutral because additional CO₂ is emitted in farming, transporting, fermenting and distilling the ethanol — all of which require energy, usually from fossil fuels.",
+    "explanation": "The key definition is 'net CO₂ change of zero'. The argument for carbon neutrality rests on photosynthesis absorbing the same CO₂ that combustion releases. The evaluation must acknowledge that real-world energy use in the production chain adds extra CO₂ emissions."
+  },
+  {
+    "id": "alcohols-039",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(c)",
+    "question": "A student carries out the oxidation of ethanol with acidified potassium dichromate(VI).\n\n(a) Name the organic product obtained if the ethanol is heated gently and the product distilled off immediately.\n(b) Name the organic product obtained if the ethanol is heated under reflux with excess acidified potassium dichromate(VI).\n(c) Write the equation, using [O] to represent the oxidising agent, for the conversion in part (b).",
+    "marks": 4,
+    "markPoints": [
+      "(a) Ethanal",
+      "(b) Ethanoic acid",
+      "(c) CH₃CH₂OH + 2[O] → CH₃COOH + H₂O",
+      "Equation fully correct including 2[O] and H₂O"
+    ],
+    "modelAnswer": "(a) Ethanal (the aldehyde CH₃CHO). (b) Ethanoic acid (the carboxylic acid CH₃COOH). (c) CH₃CH₂OH + 2[O] → CH₃COOH + H₂O. Two moles of oxidising agent [O] are required because the primary alcohol must be oxidised first to the aldehyde and then to the carboxylic acid.",
+    "explanation": "The technique determines the product: distillation removes the aldehyde before further oxidation occurs; reflux with excess oxidant drives the reaction all the way to the carboxylic acid. Two [O] atoms are needed for the overall conversion of alcohol to carboxylic acid."
+  },
+  {
+    "id": "alcohols-040",
+    "type": "written",
+    "module": 4,
+    "topic": "Alcohols",
+    "specRef": "4.1.3(e)",
+    "question": "Ethanol has two important industrial uses other than as a fuel: as a solvent and as a feedstock for making other chemicals.\n\nExplain why ethanol is useful as a solvent, and give one example of a chemical that can be made from ethanol.",
+    "marks": 3,
+    "markPoints": [
+      "Ethanol can dissolve both polar/ionic substances (due to its OH group forming hydrogen bonds) and non-polar substances (due to its hydrocarbon chain)",
+      "This makes it a versatile solvent suitable for a wide range of solutes",
+      "Example: ethanol can be dehydrated to form ethene / oxidised to ethanoic acid / reacted with HBr to form bromoethane (any one correct example)"
+    ],
+    "modelAnswer": "Ethanol is a useful solvent because its molecular structure contains both a polar OH group and a non-polar hydrocarbon chain. The OH group allows it to hydrogen bond with and dissolve polar or ionic solutes, while the hydrocarbon chain allows it to dissolve non-polar substances. This versatility makes ethanol suitable as a solvent in cosmetics, medicines and cleaning products. One chemical that can be made from ethanol is ethanoic acid, produced by oxidising ethanol with acidified potassium dichromate(VI) under reflux.",
+    "explanation": "The explanation of ethanol as a solvent must address both the polar (OH) and non-polar (C₂H₅) parts of the molecule. Any chemically accurate product derived from ethanol (ethene by dehydration, ethanoic acid by oxidation, bromoethane by substitution with HBr, ethyl ethanoate by esterification) earns the third mark."
+  }
+]

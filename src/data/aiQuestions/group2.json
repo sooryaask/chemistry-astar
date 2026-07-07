@@ -1,0 +1,696 @@
+[
+  {
+    "id": "group2-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "Which element has the largest atomic radius?",
+    "options": { "A": "Mg", "B": "Ca", "C": "Sr", "D": "Ba" },
+    "correctOption": "D",
+    "explanation": "Atomic radius increases down Group 2 because each successive element has an extra shell of electrons, so the outer electrons are further from the nucleus despite increased shielding.",
+    "steps": [
+      "Step 1 – All four elements are in Group 2, so compare their periods: Mg (Period 3), Ca (Period 4), Sr (Period 5), Ba (Period 6).",
+      "Step 2 – Down a group, the number of occupied electron shells increases, so atomic radius increases.",
+      "Step 3 – Ba is furthest down the group, so it has the most shells and the largest radius.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "group2-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Strontium reacts with water.\n\nWhat are the products of this reaction?",
+    "options": {
+      "A": "SrO and H₂",
+      "B": "Sr(OH)₂ and H₂",
+      "C": "SrO and H₂O₂",
+      "D": "Sr(OH)₂ and O₂"
+    },
+    "correctOption": "B",
+    "explanation": "Group 2 metals react with water to form the metal hydroxide and hydrogen gas: Sr(s) + 2H₂O(l) → Sr(OH)₂(aq) + H₂(g). The oxide only forms when the metal reacts with oxygen or steam.",
+    "steps": [
+      "Step 1 – Recall the general equation: Group 2 metal + water → metal hydroxide + hydrogen.",
+      "Step 2 – Write it for strontium: Sr + 2H₂O → Sr(OH)₂ + H₂.",
+      "Step 3 – Eliminate the options containing SrO (steam/oxygen product) or O₂ (not formed).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "Which equation represents the second ionisation energy of calcium?",
+    "options": {
+      "A": "Ca(g) → Ca²⁺(g) + 2e⁻",
+      "B": "Ca⁺(g) → Ca²⁺(g) + e⁻",
+      "C": "Ca(g) → Ca⁺(g) + e⁻",
+      "D": "Ca⁺(s) → Ca²⁺(s) + e⁻"
+    },
+    "correctOption": "B",
+    "explanation": "The second ionisation energy is the energy required to remove one electron from each ion in one mole of gaseous 1+ ions. It must start from Ca⁺(g) and remove exactly one electron.",
+    "steps": [
+      "Step 1 – Definition: second ionisation energy = removing 1 electron from each gaseous 1+ ion.",
+      "Step 2 – The starting species must therefore be Ca⁺ in the gas phase, forming Ca²⁺(g).",
+      "Step 3 – A removes two electrons at once (1st + 2nd combined), C is the first ionisation energy, D uses solid-state species.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "The hydroxides of the Group 2 elements Mg–Ba are added to water.\n\nWhich statement is correct?",
+    "options": {
+      "A": "Solubility of the hydroxides decreases down the group",
+      "B": "Mg(OH)₂ gives a more alkaline solution than Ba(OH)₂",
+      "C": "Ba(OH)₂ gives a more alkaline solution than Mg(OH)₂",
+      "D": "All Group 2 hydroxides are insoluble in water"
+    },
+    "correctOption": "C",
+    "explanation": "Solubility of Group 2 hydroxides increases down the group. Ba(OH)₂ is the most soluble, releasing the highest concentration of OH⁻(aq), so its solution has the highest pH.",
+    "steps": [
+      "Step 1 – Recall the trend: Group 2 hydroxide solubility increases down the group (Mg(OH)₂ least soluble, Ba(OH)₂ most).",
+      "Step 2 – More dissolved hydroxide → greater OH⁻(aq) concentration → higher pH (more alkaline).",
+      "Step 3 – So Ba(OH)₂(aq) is more alkaline than Mg(OH)₂(aq); A and D state the reverse/false trends.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group2-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "0.24 g of magnesium (Ar = 24.3, use 24 for this question) reacts completely with excess dilute hydrochloric acid at room temperature and pressure.\n\nWhat volume of hydrogen gas is produced? (1 mol of gas occupies 24.0 dm³ at RTP)",
+    "options": { "A": "120 cm³", "B": "240 cm³", "C": "480 cm³", "D": "24 dm³" },
+    "correctOption": "B",
+    "explanation": "Mg + 2HCl → MgCl₂ + H₂ is a 1 : 1 ratio between Mg and H₂, so moles of H₂ equal moles of Mg. Convert moles of gas to volume using 24.0 dm³ mol⁻¹.",
+    "steps": [
+      "Step 1 – Moles of Mg = 0.24 ÷ 24 = 0.010 mol.",
+      "Step 2 – Equation: Mg + 2HCl → MgCl₂ + H₂, so 1 mol Mg → 1 mol H₂; moles of H₂ = 0.010 mol.",
+      "Step 3 – Volume = 0.010 × 24.0 = 0.24 dm³ = 240 cm³.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-006",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "Explain why the first ionisation energy decreases down Group 2 from magnesium to barium.",
+    "marks": 3,
+    "markPoints": [
+      "Atomic radius increases (outer electron further from the nucleus)",
+      "Shielding by inner shells increases",
+      "Nuclear attraction on the outer electron decreases (outweighing the increase in nuclear charge), so less energy is needed to remove it"
+    ],
+    "modelAnswer": "Down the group the atomic radius increases and there are more inner shells, so shielding increases. The attraction between the nucleus and the outer electron therefore decreases, despite the greater nuclear charge, so less energy is needed to remove the outer electron.",
+    "explanation": "Ionisation energy trends always come down to three factors: distance (radius), shielding, and nuclear charge. Down a group, distance and shielding win against the rising nuclear charge."
+  },
+  {
+    "id": "group2-007",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Barium reacts with water.\n\nWrite the equation for this reaction, including state symbols, and state what you would observe.",
+    "marks": 3,
+    "markPoints": [
+      "Ba + 2H₂O → Ba(OH)₂ + H₂ correctly balanced",
+      "Correct state symbols: Ba(s) + 2H₂O(l) → Ba(OH)₂(aq) + H₂(g)",
+      "Observation: effervescence / bubbles of gas AND the metal disappears (vigorous reaction)"
+    ],
+    "modelAnswer": "Ba(s) + 2H₂O(l) → Ba(OH)₂(aq) + H₂(g). Vigorous effervescence is seen as hydrogen gas bubbles form and the barium disappears.",
+    "explanation": "Group 2 metals form the hydroxide with liquid water. Barium is near the bottom of the group so it reacts vigorously — reactivity with water increases down the group. Ba(OH)₂ is soluble, so it is (aq)."
+  },
+  {
+    "id": "group2-008",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Magnesium burns in oxygen.\n\nWrite the equation for this reaction and use oxidation numbers to show that magnesium is oxidised.",
+    "marks": 3,
+    "markPoints": [
+      "2Mg + O₂ → 2MgO",
+      "Oxidation number of Mg increases from 0 to +2",
+      "Increase in oxidation number / loss of electrons shows oxidation"
+    ],
+    "modelAnswer": "2Mg + O₂ → 2MgO. Magnesium's oxidation number increases from 0 in Mg to +2 in MgO; an increase in oxidation number means magnesium loses electrons and is oxidised.",
+    "explanation": "Group 2 redox questions want the oxidation number change stated explicitly (0 → +2) and linked to the definition of oxidation as an increase in oxidation number or loss of electrons."
+  },
+  {
+    "id": "group2-009",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Calcium hydroxide is used in agriculture.\n\nState the purpose of this use and write the equation for the reaction of calcium hydroxide with hydrochloric acid.",
+    "marks": 2,
+    "markPoints": [
+      "Used to neutralise acidic soils (increase soil pH)",
+      "Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O"
+    ],
+    "modelAnswer": "Calcium hydroxide is added to fields to neutralise acidic soil. Ca(OH)₂ + 2HCl → CaCl₂ + 2H₂O.",
+    "explanation": "OCR expects the standard uses: Ca(OH)₂ neutralises acid soils; Mg(OH)₂ and CaCO₃ are used in antacids. The neutralisation equation must be balanced — the 2HCl and 2H₂O are where marks are lost."
+  },
+  {
+    "id": "group2-010",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Explain why the reactivity of the Group 2 elements with water increases down the group.",
+    "marks": 3,
+    "markPoints": [
+      "Reactions involve loss of the two outer electrons (formation of 2+ ions) / ionisation",
+      "Ionisation energies decrease down the group (radius and shielding increase, outweighing nuclear charge)",
+      "So electrons are lost more easily down the group, making the metals more reactive"
+    ],
+    "modelAnswer": "When Group 2 metals react they lose their two outer electrons to form 2+ ions. Down the group the atomic radius and shielding increase, so the ionisation energies decrease. The outer electrons are lost more easily, so reactivity increases down the group.",
+    "explanation": "Link reactivity to how easily the metal is ionised: reactivity questions in Group 2 are ionisation-energy questions in disguise. State the trend in ionisation energy and connect it to easier electron loss."
+  },
+  {
+    "id": "group2-011",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "A student adds a small piece of calcium to cold water in a beaker.\n\nDescribe two observations the student would make and write the ionic equation for the reaction. Ignore spectator ions.",
+    "marks": 3,
+    "markPoints": [
+      "Effervescence / bubbles of (hydrogen) gas",
+      "Calcium disappears / white suspension (of calcium hydroxide) forms",
+      "Ca + 2H₂O → Ca²⁺ + 2OH⁻ + H₂"
+    ],
+    "modelAnswer": "Bubbles of hydrogen gas are seen and the calcium disappears, leaving a faint white suspension of calcium hydroxide. Ionic equation: Ca(s) + 2H₂O(l) → Ca²⁺(aq) + 2OH⁻(aq) + H₂(g).",
+    "explanation": "Calcium hydroxide is only slightly soluble, so a white suspension can form — a classic observation mark. In the ionic equation the sparingly soluble hydroxide is usually written as separate aqueous ions here because the solution is dilute."
+  },
+  {
+    "id": "group2-012",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Indigestion tablets often contain magnesium hydroxide.\n\nExplain why magnesium hydroxide is safe to swallow even though it is a base, and write the equation for its reaction with stomach acid (HCl).",
+    "marks": 3,
+    "markPoints": [
+      "Mg(OH)₂ is only very slightly soluble in water",
+      "So the concentration of OH⁻ is very low / solution is only weakly alkaline",
+      "Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O"
+    ],
+    "modelAnswer": "Magnesium hydroxide is almost insoluble in water, so very few OH⁻ ions are released and the suspension is only weakly alkaline, making it safe to swallow. In the stomach: Mg(OH)₂ + 2HCl → MgCl₂ + 2H₂O.",
+    "explanation": "The safety argument is a solubility argument: low solubility → low OH⁻ concentration → pH only slightly above 7. Then the neutralisation equation must be balanced with 2HCl."
+  },
+  {
+    "id": "group2-013",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Strontium reacts with dilute hydrochloric acid.\n\nWrite the full equation for this reaction and state the change in oxidation number of strontium.",
+    "marks": 2,
+    "markPoints": [
+      "Sr + 2HCl → SrCl₂ + H₂",
+      "Oxidation number of Sr changes from 0 to +2"
+    ],
+    "modelAnswer": "Sr + 2HCl → SrCl₂ + H₂. Strontium's oxidation number increases from 0 to +2 (it is oxidised).",
+    "explanation": "Group 2 metals displace hydrogen from dilute acids, forming the metal chloride and H₂. The metal always goes from oxidation number 0 to +2."
+  },
+  {
+    "id": "group2-014",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "State the full electron configuration of the Ca²⁺ ion and explain why calcium forms a 2+ ion in its compounds.",
+    "marks": 3,
+    "markPoints": [
+      "1s²2s²2p⁶3s²3p⁶",
+      "Calcium loses its two outer (4s) electrons",
+      "This gives the (stable) noble gas configuration / full outer shell (of argon)"
+    ],
+    "modelAnswer": "Ca²⁺: 1s²2s²2p⁶3s²3p⁶. Calcium loses the two electrons from its outer 4s subshell when it reacts, giving the same stable electron configuration as argon.",
+    "explanation": "Remember the ion has lost the 4s² electrons, so its configuration ends at 3p⁶. Writing the atom's configuration (…4s²) instead of the ion's is the classic error."
+  },
+  {
+    "id": "group2-015",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Magnesium reacts very slowly with cold water but rapidly with steam.\n\nWrite the equation for the reaction of magnesium with steam and name the magnesium-containing product.",
+    "marks": 2,
+    "markPoints": [
+      "Mg + H₂O → MgO + H₂",
+      "Product named as magnesium oxide"
+    ],
+    "modelAnswer": "Mg(s) + H₂O(g) → MgO(s) + H₂(g). The magnesium-containing product is magnesium oxide.",
+    "explanation": "With steam the oxide forms, not the hydroxide — the high temperature decomposes any hydroxide. With cold water the (very slow) product would be Mg(OH)₂."
+  },
+  {
+    "id": "group2-016",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "The first ionisation energies of calcium and potassium are 590 kJ mol⁻¹ and 419 kJ mol⁻¹ respectively.\n\nExplain why the first ionisation energy of calcium is greater than that of potassium.",
+    "marks": 3,
+    "markPoints": [
+      "Ca has one more proton / greater nuclear charge than K",
+      "Same shielding / outer electron in the same (4s) shell, and similar or smaller radius",
+      "So the outer electron is attracted more strongly and more energy is needed to remove it"
+    ],
+    "modelAnswer": "Calcium has one more proton than potassium, but its outer electron is in the same shell with the same shielding. The greater nuclear charge attracts the outer electron more strongly (the atom is slightly smaller), so more energy is needed to remove it.",
+    "explanation": "Across a period the deciding factor is nuclear charge: shells and shielding are unchanged, so more protons means stronger attraction and a higher ionisation energy."
+  },
+  {
+    "id": "group2-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Write the ionic equation, including state symbols, for the reaction of barium with dilute hydrochloric acid. Ignore spectator ions.",
+    "marks": 2,
+    "markPoints": [
+      "Ba + 2H⁺ → Ba²⁺ + H₂",
+      "Correct state symbols: Ba(s) + 2H⁺(aq) → Ba²⁺(aq) + H₂(g)"
+    ],
+    "modelAnswer": "Ba(s) + 2H⁺(aq) → Ba²⁺(aq) + H₂(g). Chloride ions are spectators and are left out.",
+    "explanation": "In metal + acid ionic equations the anion of the acid is a spectator ion. Only the metal, H⁺ and the products appear, and every species needs the right state symbol."
+  },
+  {
+    "id": "group2-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Suggest why farmers use calcium hydroxide rather than sodium hydroxide to reduce the acidity of soil, even though both are bases.",
+    "marks": 2,
+    "markPoints": [
+      "Ca(OH)₂ is only slightly soluble / releases OH⁻ slowly, so the soil does not become too alkaline (overshooting the pH); NaOH is very soluble / a much stronger source of OH⁻",
+      "NaOH would damage crops / is corrosive / more hazardous (any sensible comparative safety or pH-control point)"
+    ],
+    "modelAnswer": "Calcium hydroxide is only slightly soluble, so it raises the pH gradually and the soil cannot become strongly alkaline. Sodium hydroxide is very soluble and corrosive, so it would make the soil dangerously alkaline and damage crops.",
+    "explanation": "'Suggest' questions want you to apply solubility knowledge: low solubility = low OH⁻ concentration = gentle pH change. Comparative answers must mention both substances."
+  },
+  {
+    "id": "group2-019",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Which of the following correctly describes the trend in solubility of Group 2 sulfates from Mg to Ba?",
+    "options": {
+      "A": "Solubility increases from MgSO₄ to BaSO₄",
+      "B": "Solubility decreases from MgSO₄ to BaSO₄",
+      "C": "All Group 2 sulfates are equally insoluble",
+      "D": "Solubility first increases then decreases from Mg to Ba"
+    },
+    "correctOption": "B",
+    "explanation": "The solubility of Group 2 sulfates decreases down the group. MgSO₄ is readily soluble, CaSO₄ is slightly soluble, SrSO₄ is sparingly soluble, and BaSO₄ is essentially insoluble. This is the opposite trend to the hydroxides.",
+    "steps": [
+      "Step 1 – Recall that sulfate solubility trends are the reverse of hydroxide solubility trends in Group 2.",
+      "Step 2 – MgSO₄ (Epsom salts) is very soluble; BaSO₄ is famously insoluble (used in barium meals precisely because it will not dissolve).",
+      "Step 3 – The trend is therefore a decrease in solubility from Mg to Ba.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-020",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Calcium carbonate decomposes when heated strongly.\n\nWhich equation correctly represents this thermal decomposition?",
+    "options": {
+      "A": "CaCO₃(s) → Ca(s) + C(s) + 3O(g)",
+      "B": "CaCO₃(s) → CaO(s) + CO₂(g)",
+      "C": "CaCO₃(s) → Ca(OH)₂(s) + CO(g)",
+      "D": "2CaCO₃(s) → 2Ca(s) + 2CO₂(g) + O₂(g)"
+    },
+    "correctOption": "B",
+    "explanation": "Group 2 carbonates undergo thermal decomposition to give the metal oxide and carbon dioxide: MCO₃ → MO + CO₂. No reduction of the metal occurs and no CO is produced.",
+    "steps": [
+      "Step 1 – Recall the general equation: Group 2 carbonate → Group 2 oxide + carbon dioxide.",
+      "Step 2 – For calcium: CaCO₃ → CaO + CO₂. Check: Ca, C, and O atoms are all balanced.",
+      "Step 3 – Eliminate A (breaks into elements), C (gives Ca(OH)₂ and CO), and D (involves reduction of Ca²⁺ to Ca, which requires very high temperatures and electrical energy, not simple heating).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-021",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Which statement about the thermal stability of Group 2 carbonates is correct?",
+    "options": {
+      "A": "MgCO₃ requires a higher temperature to decompose than BaCO₃",
+      "B": "All Group 2 carbonates decompose at the same temperature",
+      "C": "BaCO₃ requires a higher temperature to decompose than MgCO₃",
+      "D": "CaCO₃ is the most thermally stable Group 2 carbonate"
+    },
+    "correctOption": "C",
+    "explanation": "Thermal stability of Group 2 carbonates increases down the group. BaCO₃ is the most thermally stable and requires the highest decomposition temperature, while MgCO₃ decomposes most easily. This is because the larger, more polarisable cations lower down the group distort the carbonate ion less.",
+    "steps": [
+      "Step 1 – Thermal stability of Group 2 carbonates increases down the group (Mg < Ca < Sr < Ba).",
+      "Step 2 – The small, highly charged Mg²⁺ ion strongly polarises the carbonate ion, making it easier to decompose; Ba²⁺ is larger so it polarises CO₃²⁻ less.",
+      "Step 3 – BaCO₃ therefore needs the highest temperature to decompose, making C correct.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group2-022",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Barium sulfate is used in X-ray imaging of the digestive tract (barium meals).\n\nWhich property of BaSO₄ makes it safe to swallow?",
+    "options": {
+      "A": "BaSO₄ is a strong base and neutralises stomach acid",
+      "B": "BaSO₄ is virtually insoluble in water and does not release toxic Ba²⁺ ions",
+      "C": "BaSO₄ reacts with stomach acid to release a harmless gas",
+      "D": "BaSO₄ contains no barium and is therefore non-toxic"
+    },
+    "correctOption": "B",
+    "explanation": "Although Ba²⁺ ions are toxic, BaSO₄ is so insoluble that it does not dissolve in the digestive tract and therefore does not release any significant concentration of Ba²⁺(aq). Its insolubility is what makes it safe, while still being opaque to X-rays.",
+    "steps": [
+      "Step 1 – Recall that Ba²⁺(aq) ions are toxic, yet barium sulfate is used medically.",
+      "Step 2 – BaSO₄ has extremely low solubility (Ksp ≈ 1 × 10⁻¹⁰ mol² dm⁻⁶), so virtually no Ba²⁺ ions are released in the gut.",
+      "Step 3 – A, C, and D are all chemically incorrect; only B correctly identifies insolubility as the safety mechanism.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-023",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Calcium oxide reacts with water.\n\nWhat is the correct equation and what type of reaction is this?",
+    "options": {
+      "A": "CaO + H₂O → Ca + H₂O₂ ; redox reaction",
+      "B": "CaO + H₂O → Ca(OH)₂ ; neutralisation reaction",
+      "C": "CaO + H₂O → Ca(OH)₂ ; acid–base reaction",
+      "D": "2CaO + H₂O → Ca₂O(OH)₂ ; hydration reaction"
+    },
+    "correctOption": "C",
+    "explanation": "Calcium oxide is a basic oxide. It reacts with water (which acts as an acid) to form calcium hydroxide. This is an acid–base reaction. The equation CaO + H₂O → Ca(OH)₂ is also a neutralisation, but option B incorrectly labels it as neutralisation rather than the broader acid–base classification that OCR favours.",
+    "steps": [
+      "Step 1 – CaO is a basic oxide; water acts as a weak acid source of H⁺. The product is Ca(OH)₂.",
+      "Step 2 – Equation: CaO(s) + H₂O(l) → Ca(OH)₂(aq). This is balanced (1 Ca, 2 O, 2 H each side after combining).",
+      "Step 3 – The reaction is an acid–base reaction (base + water). Option C is the best description; D has the wrong formula.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "group2-024",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Magnesium nitrate, Mg(NO₃)₂, is heated strongly.\n\nWhich set of products is formed?",
+    "options": {
+      "A": "MgO, NO₂ and O₂",
+      "B": "MgO, N₂ and O₂",
+      "C": "Mg, NO₂ and O₂",
+      "D": "MgO and N₂O₄"
+    },
+    "correctOption": "A",
+    "explanation": "Group 2 nitrates decompose on heating to give the metal oxide, nitrogen dioxide (a brown gas), and oxygen: 2Mg(NO₃)₂ → 2MgO + 4NO₂ + O₂. This is different from Group 1 nitrates (Li excepted), which decompose to the nitrite and oxygen.",
+    "steps": [
+      "Step 1 – Recall: Group 2 nitrates → metal oxide + NO₂ + O₂ on heating.",
+      "Step 2 – Balanced: 2Mg(NO₃)₂ → 2MgO + 4NO₂ + O₂.",
+      "Step 3 – Eliminate B (N₂ not produced), C (Mg metal not formed by simple heating), D (N₂O₄ not a thermal decomposition product here).",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "group2-025",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "The atomic radii of four Group 2 elements are listed below (values are approximate).\n\nMg: 160 pm   Ca: 197 pm   Sr: 215 pm   Ba: 222 pm\n\nWhich conclusion is supported by these data?",
+    "options": {
+      "A": "The increase in atomic radius is constant between each successive element",
+      "B": "The increase in atomic radius decreases from Mg to Ba",
+      "C": "The increase in atomic radius increases from Mg to Ba",
+      "D": "Atomic radius is independent of the number of electron shells"
+    },
+    "correctOption": "B",
+    "explanation": "The differences are: Ca − Mg = 37 pm; Sr − Ca = 18 pm; Ba − Sr = 7 pm. The incremental increase gets smaller each step down, showing that the increase in atomic radius decreases as you go from Mg to Ba. This is because the additional shells are at greater distances and the effect of adding one more shell on the overall radius diminishes.",
+    "steps": [
+      "Step 1 – Calculate successive differences: Ca − Mg = 197 − 160 = 37 pm; Sr − Ca = 215 − 197 = 18 pm; Ba − Sr = 222 − 215 = 7 pm.",
+      "Step 2 – The differences are 37, 18, 7 — each is smaller than the previous one.",
+      "Step 3 – The increase in atomic radius decreases down the group, so B is the correct conclusion.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "group2-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "State the trend in solubility of Group 2 sulfates from magnesium to barium and give one use of barium sulfate that depends on this trend.",
+    "marks": 2,
+    "markPoints": [
+      "Solubility of Group 2 sulfates decreases down the group (MgSO₄ soluble; BaSO₄ insoluble)",
+      "BaSO₄ is used in barium meals / X-ray imaging of the gut, because it is insoluble and therefore non-toxic"
+    ],
+    "modelAnswer": "The solubility of Group 2 sulfates decreases from MgSO₄ (soluble) to BaSO₄ (essentially insoluble). Barium sulfate is used in barium meals for X-ray imaging of the digestive tract because its insolubility means that toxic Ba²⁺ ions are not released.",
+    "explanation": "The two trends for Group 2 — sulfates become less soluble, hydroxides become more soluble going down — are regularly tested together. Always link the use of BaSO₄ to its insolubility as the reason it is safe."
+  },
+  {
+    "id": "group2-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Write a balanced equation for the thermal decomposition of barium carbonate and explain why barium carbonate requires a higher temperature to decompose than magnesium carbonate.",
+    "marks": 3,
+    "markPoints": [
+      "BaCO₃(s) → BaO(s) + CO₂(g)",
+      "The small Mg²⁺ ion has a high charge density and strongly polarises (distorts) the carbonate ion",
+      "This weakens the C–O bonds in CO₃²⁻, lowering the temperature needed for decomposition; Ba²⁺ is larger and polarises CO₃²⁻ less, so more energy (higher temperature) is needed"
+    ],
+    "modelAnswer": "BaCO₃(s) → BaO(s) + CO₂(g). MgCO₃ decomposes more easily because the small, highly charged Mg²⁺ ion strongly polarises (distorts) the carbonate ion, weakening the C–O bonds. The larger Ba²⁺ ion has lower charge density and polarises CO₃²⁻ to a much lesser extent, so more energy is required to break the bonds and BaCO₃ needs a higher decomposition temperature.",
+    "explanation": "Thermal stability of Group 2 carbonates increases down the group. The key idea is cation polarising power (charge density): small Mg²⁺ distorts CO₃²⁻ more than large Ba²⁺, making decomposition easier for MgCO₃."
+  },
+  {
+    "id": "group2-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Write the equation, including state symbols, for the reaction of calcium oxide with water and state the pH of the resulting solution.",
+    "marks": 3,
+    "markPoints": [
+      "CaO(s) + H₂O(l) → Ca(OH)₂(aq)",
+      "The solution is alkaline",
+      "pH greater than 7 (accept pH 11–13 as a typical value)"
+    ],
+    "modelAnswer": "CaO(s) + H₂O(l) → Ca(OH)₂(aq). The resulting solution of calcium hydroxide is alkaline with a pH above 7 (typically around 12).",
+    "explanation": "Metal oxides reacting with water to form hydroxides is a key Group 2 reaction. Ca(OH)₂ is only moderately soluble so the solution is alkaline but not extremely so. Always give the state symbol (aq) for the dissolved product and state that pH > 7."
+  },
+  {
+    "id": "group2-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Write a balanced equation for the thermal decomposition of magnesium nitrate and identify the brown gas produced.",
+    "marks": 3,
+    "markPoints": [
+      "2Mg(NO₃)₂ → 2MgO + 4NO₂ + O₂",
+      "Equation correctly balanced (2:2:4:1 ratio)",
+      "Brown gas identified as nitrogen dioxide (NO₂)"
+    ],
+    "modelAnswer": "2Mg(NO₃)₂(s) → 2MgO(s) + 4NO₂(g) + O₂(g). The brown gas produced is nitrogen dioxide, NO₂.",
+    "explanation": "Group 2 nitrates decompose to give the oxide, NO₂ (brown fumes), and O₂. The 2:4:1 stoichiometry is easy to derive by balancing: 2 Mg(NO₃)₂ has 4 N and 12 O; 2 MgO uses 2 O; remaining 10 O and 4 N give 4NO₂ (8 O) + O₂ (2 O) = 10 O. Check the balance."
+  },
+  {
+    "id": "group2-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Compare the solubility of Group 2 hydroxides and Group 2 sulfates as you go down the group from Mg to Ba. State the trend for each.",
+    "marks": 2,
+    "markPoints": [
+      "Solubility of Group 2 hydroxides increases down the group (Mg(OH)₂ least soluble, Ba(OH)₂ most soluble)",
+      "Solubility of Group 2 sulfates decreases down the group (MgSO₄ most soluble, BaSO₄ least soluble)"
+    ],
+    "modelAnswer": "The solubility of Group 2 hydroxides increases down the group: Mg(OH)₂ is only sparingly soluble but Ba(OH)₂ dissolves readily. In contrast, the solubility of Group 2 sulfates decreases down the group: MgSO₄ is readily soluble whereas BaSO₄ is almost insoluble.",
+    "explanation": "These two opposing trends are a favourite exam pairing. Hydroxide: up in solubility going down the group. Sulfate: down in solubility going down the group. Remembering the contrast is the key."
+  },
+  {
+    "id": "group2-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "Explain why the atomic radius of barium is larger than the atomic radius of magnesium.",
+    "marks": 2,
+    "markPoints": [
+      "Barium has more electron shells than magnesium (Ba has 6 shells, Mg has 3 shells)",
+      "The outer electrons in Ba are further from the nucleus / greater distance between outer electrons and nucleus"
+    ],
+    "modelAnswer": "Barium has more occupied electron shells than magnesium (6 compared to 3), so the outer electrons are at a greater distance from the nucleus, giving barium a larger atomic radius.",
+    "explanation": "Atomic radius increases down a group because successive elements have additional electron shells. The key mark is linking more shells to greater distance of the outer electrons from the nucleus — do not confuse this with increased nuclear charge, which acts in opposition but is outweighed."
+  },
+  {
+    "id": "group2-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "A student carries out a test to identify the presence of sulfate ions in a solution.\n\nDescribe the test and the expected result if barium ions are added to a solution containing sulfate ions.",
+    "marks": 2,
+    "markPoints": [
+      "A white precipitate forms",
+      "The precipitate is barium sulfate, BaSO₄"
+    ],
+    "modelAnswer": "When barium ions are added to a solution containing sulfate ions, a white precipitate of barium sulfate (BaSO₄) forms immediately, because BaSO₄ is insoluble in water.",
+    "explanation": "The barium ion test for sulfates produces an immediate white precipitate of BaSO₄ — the extreme insolubility of BaSO₄ makes this a reliable qualitative test. Dilute HCl is often added first to rule out carbonate or sulfite ions."
+  },
+  {
+    "id": "group2-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Write the equation for the reaction of strontium oxide with water and state the type of oxide that strontium oxide is.",
+    "marks": 2,
+    "markPoints": [
+      "SrO + H₂O → Sr(OH)₂",
+      "Strontium oxide is a basic oxide"
+    ],
+    "modelAnswer": "SrO(s) + H₂O(l) → Sr(OH)₂(aq). Strontium oxide is a basic oxide because it reacts with water (and acids) to form a hydroxide without acting as an acid itself.",
+    "explanation": "All Group 2 oxides are basic oxides — they react with water to form alkalis and react with acids in neutralisation reactions. Do not confuse with amphoteric oxides (e.g. Al₂O₃) or acidic oxides (e.g. SO₂)."
+  },
+  {
+    "id": "group2-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Calcium carbonate decomposes on heating. State two conditions under which this decomposition is used industrially and name the products formed.",
+    "marks": 4,
+    "markPoints": [
+      "High temperature / strongly heated (in a kiln / lime kiln)",
+      "Continuous removal of CO₂ (or the reaction is carried out in a kiln where CO₂ escapes)",
+      "Product 1: calcium oxide (CaO) / quicklime",
+      "Product 2: carbon dioxide (CO₂)"
+    ],
+    "modelAnswer": "Calcium carbonate is heated to a high temperature in a lime kiln. Carbon dioxide is continuously removed (it escapes from the kiln). The products are calcium oxide (quicklime, CaO) and carbon dioxide (CO₂).",
+    "explanation": "The industrial decomposition of CaCO₃ produces 'quicklime' (CaO), which is a major industrial chemical used in steel-making, glass, cement, and soil treatment. Removing CO₂ drives the equilibrium towards products. These are standard OCR application marks."
+  },
+  {
+    "id": "group2-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(a)",
+    "question": "Explain why the first ionisation energies of the Group 2 elements are higher than those of the Group 1 elements in the same period.",
+    "marks": 3,
+    "markPoints": [
+      "Group 2 elements have a greater nuclear charge than Group 1 elements in the same period",
+      "The outer electron in Group 2 is in the same shell with similar shielding",
+      "So the outer (ns²) electron in Group 2 is attracted more strongly and requires more energy to remove"
+    ],
+    "modelAnswer": "Group 2 elements have one more proton than the Group 1 element in the same period, but the outer electron is in the same principal shell with similar shielding. The greater nuclear charge therefore attracts the outer electron more strongly, so more energy is needed to remove it and the first ionisation energy is higher.",
+    "explanation": "Comparing Groups 1 and 2 across a period is a nuclear charge question. Both have their outer electron in the same ns subshell with virtually the same shielding, so the extra proton in Group 2 is the decisive factor."
+  },
+  {
+    "id": "group2-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Calcium hydroxide solution can be used to test for carbon dioxide gas.\n\nWrite the ionic equation for the reaction that produces a white precipitate and explain why the precipitate dissolves if excess CO₂ is bubbled through.",
+    "marks": 4,
+    "markPoints": [
+      "Ca²⁺(aq) + CO₃²⁻(aq) → CaCO₃(s) — ionic equation for white precipitate",
+      "The CO₃²⁻ comes from CO₂ dissolving in water / CO₂ + H₂O → H₂CO₃ → H⁺ + HCO₃⁻",
+      "Excess CO₂ converts CaCO₃ to soluble calcium hydrogencarbonate / Ca(HCO₃)₂",
+      "CaCO₃(s) + CO₂(g) + H₂O(l) → Ca(HCO₃)₂(aq) — equation for dissolving"
+    ],
+    "modelAnswer": "When CO₂ is bubbled through Ca(OH)₂ solution, a white precipitate of CaCO₃ forms: Ca²⁺(aq) + CO₃²⁻(aq) → CaCO₃(s). With excess CO₂, the precipitate dissolves because CaCO₃ reacts with CO₂ and water to form soluble calcium hydrogencarbonate: CaCO₃(s) + CO₂(g) + H₂O(l) → Ca(HCO₃)₂(aq).",
+    "explanation": "This is a classic multi-step observation. The first CO₂ produces insoluble CaCO₃ (milky). Excess CO₂ converts it to soluble Ca(HCO₃)₂ so the solution clears. Two separate equations are needed for full marks."
+  },
+  {
+    "id": "group2-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(b)",
+    "question": "Magnesium is placed in dilute sulfuric acid.\n\nWrite the full balanced equation for this reaction, state one observation, and identify the reducing agent.",
+    "marks": 3,
+    "markPoints": [
+      "Mg + H₂SO₄ → MgSO₄ + H₂",
+      "Observation: effervescence / bubbles of gas produced AND magnesium disappears",
+      "Reducing agent: magnesium (Mg) — it loses electrons / is oxidised from 0 to +2"
+    ],
+    "modelAnswer": "Mg(s) + H₂SO₄(aq) → MgSO₄(aq) + H₂(g). Bubbles of gas are seen and the magnesium disappears. Magnesium is the reducing agent because it loses electrons (its oxidation number increases from 0 to +2).",
+    "explanation": "Any Group 2 metal reacting with a dilute acid is a redox reaction. The metal is always the reducing agent (it donates electrons to H⁺). Include a physical observation for the solid metal disappearing and gas being produced."
+  },
+  {
+    "id": "group2-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "Explain why the pH of a saturated solution of Ba(OH)₂ is higher than the pH of a saturated solution of Mg(OH)₂.",
+    "marks": 2,
+    "markPoints": [
+      "Ba(OH)₂ is more soluble than Mg(OH)₂",
+      "So the concentration of OH⁻(aq) ions is higher in Ba(OH)₂ solution, giving a higher pH"
+    ],
+    "modelAnswer": "Barium hydroxide is considerably more soluble than magnesium hydroxide, so a saturated Ba(OH)₂ solution has a much higher concentration of OH⁻(aq) ions. A higher OH⁻ concentration means a lower pOH and therefore a higher pH.",
+    "explanation": "pH in Group 2 hydroxide questions always comes back to solubility: more soluble hydroxide → more OH⁻ ions in solution → higher pH. This is a key application of the solubility trend."
+  },
+  {
+    "id": "group2-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(d)",
+    "question": "Calcium nitrate, Ca(NO₃)₂, is heated strongly. Write a balanced equation for its thermal decomposition and state what you would observe during the reaction.",
+    "marks": 3,
+    "markPoints": [
+      "2Ca(NO₃)₂ → 2CaO + 4NO₂ + O₂",
+      "Equation correctly balanced (2:2:4:1 ratio)",
+      "Brown fumes / brown gas observed (NO₂) AND a white solid remains (CaO)"
+    ],
+    "modelAnswer": "2Ca(NO₃)₂(s) → 2CaO(s) + 4NO₂(g) + O₂(g). During the reaction, brown fumes of nitrogen dioxide are produced and a white solid (calcium oxide) remains in the container.",
+    "explanation": "The visual observations for Group 2 nitrate decomposition are the brown fumes of NO₂ and the residual white solid oxide. Ensure the equation is balanced: 2 Ca(NO₃)₂ gives 2 CaO, 4 NO₂ and 1 O₂."
+  },
+  {
+    "id": "group2-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Group 2",
+    "specRef": "3.1.2(c)",
+    "question": "A student claims that calcium hydroxide could be used as an antacid instead of magnesium hydroxide.\n\nEvaluate this claim by comparing the suitability of Ca(OH)₂ and Mg(OH)₂ as antacids.",
+    "marks": 4,
+    "markPoints": [
+      "Both Ca(OH)₂ and Mg(OH)₂ are bases that neutralise excess stomach acid (HCl)",
+      "Mg(OH)₂ is very sparingly soluble, releasing very few OH⁻ ions, so the pH is only slightly above 7 — safe to ingest",
+      "Ca(OH)₂ is somewhat more soluble than Mg(OH)₂, releasing more OH⁻ ions and potentially raising pH higher — less safe / more likely to cause irritation",
+      "Conclusion: Mg(OH)₂ is the better antacid because its lower solubility makes it safer and provides more controlled neutralisation"
+    ],
+    "modelAnswer": "Both Ca(OH)₂ and Mg(OH)₂ neutralise excess HCl in the stomach and could in principle act as antacids. However, Mg(OH)₂ is only very sparingly soluble, so it releases very few OH⁻ ions and only slightly raises the pH — this makes it safe to swallow. Calcium hydroxide is more soluble than Mg(OH)₂, meaning more OH⁻ ions are released, and the solution becomes more strongly alkaline. This increases the risk of irritation to the stomach lining. Therefore the claim is not justified: Mg(OH)₂ is the safer and more appropriate antacid.",
+    "explanation": "Evaluate questions require a balanced discussion of both sides followed by a reasoned conclusion. The key chemistry is the solubility difference: more soluble → higher OH⁻ → higher pH → more strongly alkaline → more hazardous. Link solubility directly to safety."
+  }
+]

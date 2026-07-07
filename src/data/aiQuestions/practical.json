@@ -1,0 +1,710 @@
+[
+  {
+    "id": "practical-001",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.3",
+    "question": "A student weighs 2.50 g of a solid by difference using a balance with an uncertainty of ±0.005 g in each reading.\n\nWhat is the percentage uncertainty in the mass of solid weighed?",
+    "options": {
+      "A": "0.2%",
+      "B": "0.4%",
+      "C": "0.8%",
+      "D": "4.0%"
+    },
+    "correctOption": "B",
+    "explanation": "Weighing by difference involves two balance readings, so the total uncertainty is 2 × 0.005 = 0.01 g. Percentage uncertainty = (0.01 ÷ 2.50) × 100 = 0.4%.",
+    "steps": [
+      "Step 1 – Weighing by difference uses two readings (container + solid, then empty container), so total uncertainty = 2 × 0.005 = 0.01 g.",
+      "Step 2 – Percentage uncertainty = (total uncertainty ÷ measured value) × 100.",
+      "Step 3 – (0.01 ÷ 2.50) × 100 = 0.4%.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-002",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.3",
+    "question": "A student carries out four titrations and obtains the following titres:\n\nTitre 1: 24.55 cm³, Titre 2: 24.10 cm³, Titre 3: 24.05 cm³, Titre 4: 23.80 cm³\n\nWhich titres should be used to calculate the mean titre?",
+    "options": {
+      "A": "Titres 1, 2, 3 and 4",
+      "B": "Titres 2 and 3 only",
+      "C": "Titres 1 and 2 only",
+      "D": "Titres 3 and 4 only"
+    },
+    "correctOption": "B",
+    "explanation": "Only concordant titres — those within 0.10 cm³ of each other — are averaged. Titres 2 and 3 differ by 0.05 cm³, so they are concordant. Titre 1 (usually the rough titre) and titre 4 are more than 0.10 cm³ away and must be discarded.",
+    "steps": [
+      "Step 1 – Concordant titres agree within 0.10 cm³ of each other.",
+      "Step 2 – Compare the values: 24.10 and 24.05 differ by only 0.05 cm³, so they are concordant.",
+      "Step 3 – 24.55 is 0.45 cm³ above and 23.80 is 0.25 cm³ below the concordant pair, so both are excluded from the mean.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-003",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "Which piece of apparatus should be used to measure exactly 25.0 cm³ of a solution with the smallest uncertainty?",
+    "options": {
+      "A": "100 cm³ beaker",
+      "B": "50 cm³ measuring cylinder",
+      "C": "25 cm³ volumetric pipette",
+      "D": "250 cm³ conical flask"
+    },
+    "correctOption": "C",
+    "explanation": "A volumetric pipette is calibrated to deliver a single fixed volume with a very small uncertainty (typically ±0.06 cm³ for a 25 cm³ pipette). Measuring cylinders, beakers and conical flasks have much larger uncertainties and are not suitable for accurate volume measurement.",
+    "steps": [
+      "Step 1 – The volume needed (25.0 cm³) is a single fixed volume, which is exactly what a volumetric pipette delivers.",
+      "Step 2 – Typical uncertainties: pipette ±0.06 cm³, measuring cylinder ±0.5 cm³ or more; beakers and conical flasks are not calibrated for accurate measurement at all.",
+      "Step 3 – The pipette therefore gives the smallest percentage uncertainty.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "practical-004",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "Before starting a titration, a student prepares a burette to be filled with dilute hydrochloric acid.\n\nWhat should the student rinse the burette with immediately before filling it?",
+    "options": {
+      "A": "Distilled water only",
+      "B": "The dilute hydrochloric acid it will contain",
+      "C": "The sodium hydroxide solution from the conical flask",
+      "D": "A small amount of indicator solution"
+    },
+    "correctOption": "B",
+    "explanation": "The burette must be rinsed with the solution it will contain. Any residual water left after rinsing with water alone would dilute the acid, lowering its concentration and making the titre larger than it should be.",
+    "steps": [
+      "Step 1 – Any liquid left on the inside walls of the burette will mix with the acid when it is filled.",
+      "Step 2 – Residual water would dilute the acid (fewer moles per cm³), giving a titre that is too large; residual alkali would neutralise some of the acid.",
+      "Step 3 – Rinsing with the acid itself means any residue has no effect on its concentration.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-005",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "A student wants to collect a gas by displacement of water using an inverted measuring cylinder.\n\nWhich gas is least suitable for collection by this method?",
+    "options": {
+      "A": "Hydrogen",
+      "B": "Oxygen",
+      "C": "Ammonia",
+      "D": "Methane"
+    },
+    "correctOption": "C",
+    "explanation": "Collection over water only works for gases that are insoluble (or nearly insoluble) in water. Ammonia is extremely soluble in water, so it would dissolve rather than collect in the cylinder. Hydrogen, oxygen and methane are only very slightly soluble.",
+    "steps": [
+      "Step 1 – Collection over water requires the gas to be insoluble or only slightly soluble in water.",
+      "Step 2 – Hydrogen, oxygen and methane have very low solubility, so they can be collected this way.",
+      "Step 3 – Ammonia is extremely soluble in water, so it would dissolve and very little gas would be collected.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "practical-006",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "Describe how a student should prepare 250 cm³ of a standard solution of sodium carbonate starting from the solid.",
+    "marks": 5,
+    "markPoints": [
+      "Weigh the required mass of sodium carbonate accurately (by difference) using a balance reading to at least 2 decimal places",
+      "Dissolve the solid in distilled water in a beaker, stirring until it has all dissolved",
+      "Transfer the solution to a 250 cm³ volumetric flask, rinsing the beaker (and stirring rod) with distilled water and adding the washings to the flask",
+      "Add distilled water up to the graduation mark so the bottom of the meniscus sits on the line (viewed at eye level), adding the final drops with a dropping pipette",
+      "Stopper the flask and invert it several times to mix the solution thoroughly"
+    ],
+    "modelAnswer": "Weigh the required mass of sodium carbonate accurately by difference using a 2 decimal place balance. Dissolve the solid in distilled water in a beaker, stirring until it has completely dissolved. Transfer the solution to a 250 cm³ volumetric flask and rinse the beaker and stirring rod with distilled water, adding all the washings to the flask so no solute is lost. Add distilled water until the bottom of the meniscus sits exactly on the graduation mark, viewing at eye level and using a dropping pipette for the final few drops. Finally, stopper the flask and invert it several times to mix.",
+    "explanation": "The five classic marking points are: accurate weighing, dissolving in distilled water, quantitative transfer with washings, making up to the mark reading the bottom of the meniscus, and mixing by inversion. Omitting the washings or the mixing step is the most common way to lose marks."
+  },
+  {
+    "id": "practical-007",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "A student rinses a burette with distilled water only, then fills it with dilute sulfuric acid and carries out a titration.\n\nExplain the effect of this mistake on the titre obtained.",
+    "marks": 2,
+    "markPoints": [
+      "The residual water dilutes the acid, so its concentration is lower than expected",
+      "More acid solution is needed to supply the same number of moles, so the titre is larger than it should be"
+    ],
+    "modelAnswer": "The water left in the burette dilutes the sulfuric acid, so the concentration of the acid in the burette is lower than its stated value. A larger volume of the diluted acid is then needed to deliver the same number of moles of acid, so the titre is larger than the true value.",
+    "explanation": "Rinsing errors are moles arguments: dilution lowers concentration, and since moles = concentration × volume, a lower concentration means a larger volume is needed for the same moles."
+  },
+  {
+    "id": "practical-008",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.3",
+    "question": "A student weighs 1.20 g of a solid by difference. The balance has an uncertainty of ±0.005 g in each reading.\n\nCalculate the percentage uncertainty in the mass of solid. Give your answer to 2 significant figures.",
+    "marks": 3,
+    "markPoints": [
+      "Two balance readings are taken, so total uncertainty = 2 × 0.005 = 0.01 g",
+      "Percentage uncertainty = (0.01 ÷ 1.20) × 100",
+      "= 0.83%"
+    ],
+    "modelAnswer": "Weighing by difference involves two balance readings, so the total uncertainty is 2 × 0.005 = 0.01 g. Percentage uncertainty = (0.01 ÷ 1.20) × 100 = 0.83% (2 s.f.).",
+    "explanation": "The key step is doubling the uncertainty because weighing by difference subtracts two readings, each with its own uncertainty. Then apply percentage uncertainty = (total uncertainty ÷ measured value) × 100."
+  },
+  {
+    "id": "practical-009",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.3",
+    "question": "A 25.0 cm³ volumetric pipette has an uncertainty of ±0.06 cm³.\n\nCalculate the percentage uncertainty in a volume measured with this pipette.",
+    "marks": 2,
+    "markPoints": [
+      "Percentage uncertainty = (0.06 ÷ 25.0) × 100",
+      "= 0.24%"
+    ],
+    "modelAnswer": "Percentage uncertainty = (0.06 ÷ 25.0) × 100 = 0.24%.",
+    "explanation": "A pipette delivers a single fixed volume, so only one uncertainty applies (no doubling). Divide the uncertainty by the measured volume and multiply by 100."
+  },
+  {
+    "id": "practical-010",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "Describe how a student should carry out a titration so that an accurate titre is obtained.",
+    "marks": 4,
+    "markPoints": [
+      "Add the solution from the burette dropwise near the end point, swirling the conical flask (a white tile under the flask helps show the colour change)",
+      "Read the burette at eye level to the nearest 0.05 cm³, reading the bottom of the meniscus",
+      "Rinse the inside walls of the conical flask with distilled water during the titration so all reactant is in the solution",
+      "Repeat the titration until (at least) two concordant titres within 0.10 cm³ of each other are obtained, and use only these to calculate the mean"
+    ],
+    "modelAnswer": "Add the solution from the burette while swirling the conical flask over a white tile, and add it dropwise as the end point approaches so the exact point of colour change is not overshot. Read the burette at eye level to the nearest 0.05 cm³, using the bottom of the meniscus. Rinse the sides of the flask with distilled water so that all the reactants are in solution. Repeat the titration until two concordant titres within 0.10 cm³ of each other are obtained, and calculate the mean using only these concordant values.",
+    "explanation": "The four standard technique marks are: dropwise addition with swirling near the end point, correct burette reading (eye level, bottom of meniscus, nearest 0.05 cm³), rinsing the flask walls, and repeating to concordancy (±0.10 cm³)."
+  },
+  {
+    "id": "practical-011",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.3",
+    "question": "A student obtains the following titres:\n\nTitre 1: 23.45 cm³, Titre 2: 22.90 cm³, Titre 3: 22.85 cm³, Titre 4: 22.95 cm³\n\nIdentify the anomalous titre, explain your choice, and calculate the mean titre the student should use.",
+    "marks": 3,
+    "markPoints": [
+      "Titre 1 (23.45 cm³) is anomalous",
+      "It is not concordant — it differs from the other titres by more than 0.10 cm³ (it is likely the rough titration)",
+      "Mean titre = (22.90 + 22.85 + 22.95) ÷ 3 = 22.90 cm³"
+    ],
+    "modelAnswer": "Titre 1 (23.45 cm³) is anomalous because it differs from the other titres by more than 0.10 cm³, so it is not concordant with them (it was probably the rough titration). The mean is calculated from the three concordant titres: (22.90 + 22.85 + 22.95) ÷ 3 = 22.90 cm³.",
+    "explanation": "Anomalous titres are identified by the concordancy rule: results used for the mean must agree within 0.10 cm³. Titres 2–4 all lie within 0.10 cm³ of each other, so all three are averaged."
+  },
+  {
+    "id": "practical-012",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "A student heats a sample of hydrated copper(II) sulfate to remove the water of crystallisation. The student is told to heat the sample 'to constant mass'.\n\nDescribe how heating to constant mass is carried out and explain why it is necessary.",
+    "marks": 3,
+    "markPoints": [
+      "Heat the sample, allow it to cool, then weigh it",
+      "Repeat the heating, cooling and weighing until two consecutive masses are the same (the mass no longer changes)",
+      "This shows that all the water has been removed / the reaction (dehydration) is complete"
+    ],
+    "modelAnswer": "The sample is heated, allowed to cool and then weighed. This cycle of heating, cooling and weighing is repeated until two consecutive masses are the same. A constant mass shows that no more water is being lost, so all of the water of crystallisation has been removed and the result is not an underestimate.",
+    "explanation": "Constant mass is the experimental test for a complete reaction: if the mass is still falling between weighings, water is still being driven off. Cooling before weighing prevents convection currents affecting the balance reading."
+  },
+  {
+    "id": "practical-013",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.4",
+    "question": "A student repeats a titration several times and calculates a mean from the concordant titres.\n\nExplain the difference between improving the reliability of a result and improving its accuracy, and state whether repeating the titration improves each one.",
+    "marks": 3,
+    "markPoints": [
+      "Accuracy is how close a result is to the true value; reliability/repeatability is how closely repeated measurements agree with each other",
+      "Repeating and averaging concordant titres improves reliability (random errors are reduced / anomalies can be identified)",
+      "Repeating does not improve accuracy because systematic errors (e.g. incorrectly calibrated apparatus, mis-standardised solution) affect every repeat in the same way"
+    ],
+    "modelAnswer": "Accuracy describes how close a result is to the true value, whereas reliability (repeatability) describes how closely repeated measurements agree with each other. Repeating the titration and averaging concordant titres improves reliability, because random errors partially cancel and anomalous results can be spotted and discarded. It does not improve accuracy, because any systematic error — such as an incorrectly calibrated burette or a wrongly made-up solution — shifts every repeat by the same amount.",
+    "explanation": "Repeats tackle random error; better technique or apparatus tackles systematic error. Confusing the two is one of the most common evaluation mistakes at AS."
+  },
+  {
+    "id": "practical-014",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.4",
+    "question": "In a titration the uncertainty in the titre is ±0.10 cm³. A student's mean titre is 12.50 cm³.\n\nSuggest how the student could change the procedure to reduce the percentage uncertainty in the titre, and explain why this works.",
+    "marks": 2,
+    "markPoints": [
+      "Increase the size of the titre, e.g. by using a more dilute solution in the burette / a larger volume or more concentrated sample in the conical flask",
+      "The absolute uncertainty (±0.10 cm³) stays the same, so a larger titre gives a smaller percentage uncertainty (percentage uncertainty = uncertainty ÷ titre × 100)"
+    ],
+    "modelAnswer": "The student should increase the titre volume, for example by diluting the solution in the burette or by using a larger volume (or higher concentration) of the solution in the conical flask. The absolute uncertainty stays at ±0.10 cm³ regardless of titre size, so dividing it by a larger titre gives a smaller percentage uncertainty.",
+    "explanation": "Percentage uncertainty = (fixed absolute uncertainty ÷ measured value) × 100, so making the measured value bigger always reduces the percentage uncertainty. Doubling the titre from 12.50 cm³ to 25.00 cm³ halves it from 0.8% to 0.4%."
+  },
+  {
+    "id": "practical-015",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "A student reacts calcium carbonate with dilute hydrochloric acid and wants to measure the total volume of carbon dioxide produced.\n\nDescribe a suitable method for collecting and measuring the gas, and state one source of error in this method.",
+    "marks": 3,
+    "markPoints": [
+      "Collect the gas in a gas syringe (or an inverted measuring cylinder filled with water) connected to the flask by a delivery tube and bung",
+      "Read the total volume of gas from the syringe/cylinder scale when the reaction has finished (no more bubbles / plunger stops moving)",
+      "Source of error: some gas escapes before the bung is fitted (or, if collected over water, some CO₂ dissolves in the water), so the measured volume is too small"
+    ],
+    "modelAnswer": "Connect the flask to a gas syringe using a bung and delivery tube, fitting the bung as quickly as possible after adding the acid. When the reaction is complete and the plunger stops moving, read the total volume of gas from the syringe scale. A source of error is that some gas escapes before the bung is fitted, so the measured volume is smaller than the true volume; if the gas were collected over water instead, some carbon dioxide would dissolve in the water, also giving a low result.",
+    "explanation": "A gas syringe is preferred for CO₂ because carbon dioxide is slightly soluble in water. Whatever method is used, gas lost before sealing the apparatus is the standard error to quote."
+  },
+  {
+    "id": "practical-016",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1",
+    "question": "A student carries out a titration using dilute sodium hydroxide solution in the conical flask.\n\nState two safety precautions the student should take and give a reason for each.",
+    "marks": 2,
+    "markPoints": [
+      "Wear eye protection / safety goggles because sodium hydroxide is corrosive / an irritant and could damage the eyes (e.g. from splashes)",
+      "Use a pipette filler to fill the pipette (never mouth pipetting) to avoid drawing the corrosive solution into the mouth (any second sensible precaution + reason, e.g. wipe up spills immediately because the solution is corrosive to skin)"
+    ],
+    "modelAnswer": "The student should wear eye protection because sodium hydroxide solution is corrosive and a splash could seriously damage the eyes. The student should also use a pipette filler to fill the pipette, never the mouth, to avoid any risk of the corrosive solution being swallowed. Any spills should be wiped up immediately.",
+    "explanation": "Safety marks need a precaution and a matched reason, and the reason must relate to the specific hazard (NaOH is corrosive). Generic answers like 'be careful' or 'wear a lab coat because it is safer' do not score."
+  },
+  {
+    "id": "practical-017",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.4",
+    "question": "A student prepared a standard solution using the following procedure:\n\n1. The solid was weighed using a balance reading to 1 decimal place.\n2. The solid was dissolved in a beaker and the solution poured into a volumetric flask; the beaker was not rinsed.\n3. Distilled water was added until the top of the meniscus reached the graduation line.\n4. The flask was stoppered and used immediately without mixing.\n\nIdentify the error in each step and suggest how the procedure should be improved.",
+    "marks": 4,
+    "markPoints": [
+      "Step 1: a 1 decimal place balance gives a large percentage uncertainty — use a balance reading to (at least) 2 decimal places (and weigh by difference)",
+      "Step 2: solute left in the beaker is lost — rinse the beaker with distilled water and add the washings to the flask",
+      "Step 3: reading the top of the meniscus gives too much water — add water until the bottom of the meniscus sits on the graduation line, viewed at eye level",
+      "Step 4: the solution is not uniform — invert the stoppered flask several times to mix before use"
+    ],
+    "modelAnswer": "In step 1 the balance is too imprecise; a balance reading to at least 2 decimal places should be used (weighing by difference) to reduce the percentage uncertainty in the mass. In step 2 some solute is left behind in the beaker; the beaker should be rinsed with distilled water and all the washings added to the volumetric flask. In step 3 the flask is overfilled because the top of the meniscus is used; water should be added until the bottom of the meniscus rests on the graduation line, viewed at eye level. In step 4 the solution has not been mixed, so its concentration is not uniform; the stoppered flask should be inverted several times before the solution is used.",
+    "explanation": "Evaluation questions expect each flaw to be paired with its fix and, ideally, its consequence: imprecise mass (wrong moles), lost washings (too few moles in the flask), overfilled flask (concentration too low) and unmixed solution (non-uniform concentration)."
+  },
+  {
+    "id": "practical-018",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2",
+    "question": "In a titration, burette readings are recorded to the nearest 0.05 cm³ and are always taken at eye level.\n\nExplain why each of these practices is used.",
+    "marks": 3,
+    "markPoints": [
+      "The burette is graduated in 0.1 cm³ divisions, so the position of the meniscus can be estimated to half a division (±0.05 cm³)",
+      "Recording to 0.05 cm³ gives the maximum precision the apparatus allows (and all readings are recorded consistently, e.g. 24.00 not 24)",
+      "Reading at eye level (with the bottom of the meniscus on the scale) avoids parallax error, which would make the reading too high or too low"
+    ],
+    "modelAnswer": "A burette is graduated in divisions of 0.1 cm³, so the level of the meniscus can be judged to the nearest half division, which is 0.05 cm³ — recording to 0.05 cm³ therefore uses the full precision of the apparatus and keeps all readings consistent. Readings are taken at eye level with the bottom of the meniscus on the scale to avoid parallax error; if the eye is above or below the meniscus, the apparent reading is shifted and the recorded volume is too high or too low.",
+    "explanation": "Two separate ideas are tested: interpolation to half the smallest scale division (precision) and parallax (a systematic reading error eliminated by viewing at eye level)."
+  },
+  {
+    "id": "practical-019",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(a)",
+    "question": "A student plans an experiment to investigate how the concentration of hydrochloric acid affects the rate of its reaction with marble chips.\n\nWhich variable is the independent variable in this investigation?",
+    "options": {
+      "A": "The time taken for the reaction to finish",
+      "B": "The volume of carbon dioxide produced",
+      "C": "The concentration of hydrochloric acid",
+      "D": "The mass of marble chips used"
+    },
+    "correctOption": "C",
+    "explanation": "The independent variable is the one the student deliberately changes — in this case the concentration of hydrochloric acid. The dependent variable (what is measured) is the rate, determined from the volume of CO₂ produced over time. The mass of marble chips and temperature would be controlled variables.",
+    "steps": [
+      "Step 1 – The independent variable (IV) is what the experimenter intentionally varies.",
+      "Step 2 – In this plan the student changes the concentration of HCl, so this is the IV.",
+      "Step 3 – The volume of CO₂ produced (or the rate) is what is measured as a result — that is the dependent variable.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "practical-020",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(b)",
+    "question": "A student heats a mixture under reflux.\n\nWhat is the purpose of the condenser in heating under reflux?",
+    "options": {
+      "A": "To increase the rate of heating by recycling heat energy",
+      "B": "To cool and condense vapours so they flow back into the flask rather than escaping",
+      "C": "To remove water from the reaction mixture",
+      "D": "To prevent oxygen from entering the flask during the reaction"
+    },
+    "correctOption": "B",
+    "explanation": "In reflux the condenser is mounted vertically above the flask. Volatile vapours rise up and are cooled by cold water flowing through the outer jacket of the condenser, condensing them back to liquid which drips back into the flask. This keeps the reaction mixture at boiling point for an extended time without losing solvent.",
+    "steps": [
+      "Step 1 – Under reflux the flask is heated so the mixture boils.",
+      "Step 2 – Vapours rise up into the condenser, where cold water flowing through the outer jacket cools them below their boiling point.",
+      "Step 3 – The condensed liquid runs back down into the flask, so solvent and reactants are retained.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-021",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(c)",
+    "question": "A student carries out a risk assessment before performing a reaction using concentrated sulfuric acid.\n\nWhich hazard symbol would appear on the bottle of concentrated sulfuric acid?",
+    "options": {
+      "A": "Flammable only",
+      "B": "Corrosive",
+      "C": "Explosive",
+      "D": "Oxidising"
+    },
+    "correctOption": "B",
+    "explanation": "Concentrated sulfuric acid is classified as corrosive (the GHS symbol showing a hand and material being eaten away). It can cause severe burns to skin and eyes on contact. It is not itself flammable, explosive or an oxidising agent under normal storage conditions.",
+    "steps": [
+      "Step 1 – Concentrated H₂SO₄ is a strong acid that reacts exothermically with water and causes severe chemical burns.",
+      "Step 2 – The GHS/CLP hazard symbol for corrosive substances shows a hand and surface material being destroyed by drips of liquid.",
+      "Step 3 – The other symbols (flammable, explosive, oxidising) do not describe concentrated sulfuric acid's primary hazard.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-022",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(a)",
+    "question": "A student uses a thermometer with a precision of ±0.5 °C to measure a temperature rise.\n\nThe initial temperature is 18.0 °C and the final temperature is 34.0 °C.\n\nWhat is the percentage uncertainty in the temperature rise?",
+    "options": {
+      "A": "3.1%",
+      "B": "6.25%",
+      "C": "1.5%",
+      "D": "2.9%"
+    },
+    "correctOption": "B",
+    "explanation": "The temperature rise = 34.0 − 18.0 = 16.0 °C. Two thermometer readings are taken, so the total uncertainty = 2 × 0.5 = 1.0 °C. Percentage uncertainty = (1.0 ÷ 16.0) × 100 = 6.25%.",
+    "steps": [
+      "Step 1 – Temperature rise = 34.0 − 18.0 = 16.0 °C.",
+      "Step 2 – Two readings are taken (initial and final), so total uncertainty = 2 × 0.5 = 1.0 °C.",
+      "Step 3 – Percentage uncertainty = (1.0 ÷ 16.0) × 100 = 6.25%.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "practical-023",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(b)",
+    "question": "Which of the following best describes a systematic error in an experiment?",
+    "options": {
+      "A": "An error that causes results to vary randomly about the true value",
+      "B": "An error caused by a student reading a scale incorrectly on one occasion",
+      "C": "An error that shifts all results in the same direction by the same amount, so repeating does not reduce it",
+      "D": "An error that is eliminated by taking a large number of readings and finding the mean"
+    },
+    "correctOption": "C",
+    "explanation": "A systematic error consistently displaces every reading in the same direction — for example, a balance that always reads 0.05 g too high, or a burette with a miscalibrated scale. Repeating measurements does not correct it. Random errors (options A, B, D) scatter results around the true value and can be reduced by repeating and averaging.",
+    "steps": [
+      "Step 1 – Systematic errors affect every measurement in the same direction by the same offset.",
+      "Step 2 – They arise from faults in equipment (mis-calibration, zero error) or consistently flawed technique.",
+      "Step 3 – Repeating does NOT reduce a systematic error — all repeats contain the same offset.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "practical-024",
+    "type": "mcq",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(c)",
+    "question": "A student records the following results for the mass of a product:\n\n2.34 g, 2.35 g, 2.34 g, 2.36 g\n\nThe true value is 2.80 g.\n\nWhich statement best describes the student's results?",
+    "options": {
+      "A": "Accurate and precise",
+      "B": "Accurate but not precise",
+      "C": "Precise but not accurate",
+      "D": "Neither accurate nor precise"
+    },
+    "correctOption": "C",
+    "explanation": "The results are very close to each other (they agree within 0.02 g), so they are precise (repeatable). However, they are all significantly below the true value of 2.80 g, so they are not accurate. This is typical of a systematic error.",
+    "steps": [
+      "Step 1 – Precision means the results agree closely with each other: 2.34–2.36 g, a range of only 0.02 g — so they are precise.",
+      "Step 2 – Accuracy means closeness to the true value: the true value is 2.80 g, but all results are around 2.35 g — a difference of ~0.45 g, so they are not accurate.",
+      "Step 3 – Precise but not accurate — the hallmark of a systematic error.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "practical-025",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(a)",
+    "question": "A student investigates the effect of temperature on the rate of reaction between sodium thiosulfate solution and hydrochloric acid.\n\nState the independent variable, the dependent variable, and two variables that must be controlled in this experiment.",
+    "marks": 4,
+    "markPoints": [
+      "Independent variable: temperature of the reaction mixture",
+      "Dependent variable: time taken for the cross to disappear (or rate = 1/time)",
+      "Controlled variable 1: concentration (or volume) of sodium thiosulfate solution",
+      "Controlled variable 2: concentration (or volume) of hydrochloric acid"
+    ],
+    "modelAnswer": "The independent variable is the temperature of the reaction mixture. The dependent variable is the time taken for the cross underneath the flask to disappear (or the rate calculated as 1/time). Two variables that must be controlled are the concentration of sodium thiosulfate solution and the concentration of hydrochloric acid — if either changed between runs, the rate would change for a reason other than temperature.",
+    "explanation": "IV/DV/CV questions require precise identification: the IV is temperature (changed by the experimenter), the DV is the measured outcome (time/rate), and CVs are anything else that could influence the rate (concentrations, volumes, nature of cross, room lighting)."
+  },
+  {
+    "id": "practical-026",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(b)",
+    "question": "A student is about to distil a mixture of ethanol and water to separate them.\n\nDescribe the key steps of simple distillation and explain how the separation is achieved.",
+    "marks": 4,
+    "markPoints": [
+      "Heat the mixture in a round-bottomed flask; the component with the lower boiling point (ethanol, 78 °C) vaporises first",
+      "The vapour passes through the condenser where it is cooled by cold water flowing through the outer jacket and condenses back to liquid",
+      "The condensed liquid (distillate) is collected in a separate flask",
+      "Monitor the temperature at the still-head thermometer; collect the fraction that distils at the boiling point of ethanol (~78 °C)"
+    ],
+    "modelAnswer": "The mixture is heated in a round-bottomed flask. Ethanol, which has the lower boiling point (78 °C), vaporises before water (100 °C). The vapour passes up and into the condenser, where it is cooled by cold water flowing through the outer jacket, condensing it back into liquid. The liquid is collected in a receiving flask. By monitoring the still-head thermometer and collecting only the fraction that distils at around 78 °C, the ethanol can be separated from the water.",
+    "explanation": "The separation works because the components have different boiling points. The thermometer is placed at the side-arm junction, not in the liquid, so it reads the vapour temperature. Ethanol and water form an azeotrope at 95.6%, so simple distillation cannot give 100% pure ethanol."
+  },
+  {
+    "id": "practical-027",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(c)",
+    "question": "A student is about to use bromine water in an experiment.\n\nState two safety precautions specific to bromine water and give a reason for each.",
+    "marks": 4,
+    "markPoints": [
+      "Wear chemical-splash goggles because bromine water is corrosive/toxic and will cause serious eye damage if splashed",
+      "Work in a fume cupboard because bromine vapour is toxic and irritates the respiratory tract if inhaled",
+      "Wear chemical-resistant gloves because bromine water causes burns/blisters on skin contact",
+      "Have access to running water nearby to rinse skin or eyes immediately if contact occurs, to dilute and remove the corrosive chemical quickly"
+    ],
+    "modelAnswer": "The student should wear chemical-splash goggles because bromine water is corrosive and toxic and could cause serious eye damage if it splashes. The student should work in a fume cupboard because bromine vapour is toxic and causes severe irritation of the respiratory system if inhaled. Chemical-resistant gloves should also be worn because bromine water will burn or blister the skin on contact. Running water should be readily accessible so that any skin or eye contact can be rinsed immediately to dilute and remove the chemical.",
+    "explanation": "Safety marks require a specific precaution and a reason linked to the chemical's actual hazard. Bromine water is both corrosive and toxic with a significant vapour pressure, so three distinct hazard routes exist: eyes, skin and inhalation. Any two precautions with correct reasons score two of the four marks; the question asks for two precautions with reasons (2 × 2 marks)."
+  },
+  {
+    "id": "practical-028",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(a)",
+    "question": "A student uses a 50 cm³ burette to deliver volumes ranging from 5 cm³ to 50 cm³.\n\nExplain why the percentage uncertainty in a titre of 8.00 cm³ is much larger than the percentage uncertainty in a titre of 40.00 cm³, even though the absolute uncertainty is the same in both cases.",
+    "marks": 3,
+    "markPoints": [
+      "The absolute uncertainty in any burette titre is fixed at ±0.10 cm³ (from two readings each ±0.05 cm³)",
+      "Percentage uncertainty = (absolute uncertainty ÷ titre volume) × 100",
+      "For 8.00 cm³: (0.10 ÷ 8.00) × 100 = 1.25%; for 40.00 cm³: (0.10 ÷ 40.00) × 100 = 0.25% — a smaller titre gives a much larger percentage uncertainty"
+    ],
+    "modelAnswer": "Each burette reading carries an uncertainty of ±0.05 cm³, so a titre (difference of two readings) has an absolute uncertainty of ±0.10 cm³. Percentage uncertainty = (absolute uncertainty ÷ titre) × 100. For a titre of 8.00 cm³ this gives (0.10 ÷ 8.00) × 100 = 1.25%, whereas for 40.00 cm³ it gives (0.10 ÷ 40.00) × 100 = 0.25%. The absolute uncertainty does not change, but dividing by a much smaller titre makes the percentage far larger.",
+    "explanation": "This is the key principle behind choosing experimental conditions to minimise percentage uncertainty: the absolute uncertainty of an instrument is fixed, so using a larger measured value always reduces the percentage uncertainty."
+  },
+  {
+    "id": "practical-029",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(b)",
+    "question": "A student measures the volume of a gas at room temperature and pressure. The gas syringe has an uncertainty of ±1 cm³ in a single reading.\n\nThe student records a gas volume of 48 cm³. Calculate the percentage uncertainty in this measurement.",
+    "marks": 2,
+    "markPoints": [
+      "A gas syringe reading is a single measurement, so total uncertainty = ±1 cm³",
+      "Percentage uncertainty = (1 ÷ 48) × 100 = 2.1% (2 s.f.)"
+    ],
+    "modelAnswer": "A gas syringe requires only one reading (reading the position of the plunger), so the uncertainty is ±1 cm³. Percentage uncertainty = (1 ÷ 48) × 100 = 2.1% (2 s.f.).",
+    "explanation": "Unlike a burette (which subtracts two readings and therefore doubles the uncertainty), a syringe volume is read directly from a single scale position, so no doubling is needed."
+  },
+  {
+    "id": "practical-030",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(c)",
+    "question": "A student wishes to determine the enthalpy change of a reaction between a solid and a solution.\n\nDescribe how the student should record the temperature change accurately, and state two sources of error that could affect the result.",
+    "marks": 4,
+    "markPoints": [
+      "Record the initial temperature of the solution before adding the solid; add the solid all at once and stir continuously, recording the temperature at regular time intervals",
+      "Plot a temperature–time graph and extrapolate the cooling curve back to the time of mixing to find the maximum temperature change (correcting for heat loss)",
+      "Source of error 1: heat loss to the surroundings / to the calorimeter (beaker absorbs heat), making the temperature rise measured smaller than the true value",
+      "Source of error 2: incomplete dissolution or reaction of the solid before the temperature is measured, causing an underestimate of the true enthalpy change"
+    ],
+    "modelAnswer": "The initial temperature of the solution is recorded. The solid is added all at once and the mixture stirred continuously while temperatures are recorded at regular intervals. A temperature–time graph is plotted and the cooling portion extrapolated back to the time of mixing to correct for heat loss to the surroundings. Two sources of error are: first, heat loss to the surroundings (and to the beaker itself) causes the measured temperature rise to be lower than the true value; second, if the solid does not dissolve completely before the maximum temperature is reached, not all the enthalpy change is captured.",
+    "explanation": "Graphical extrapolation is the standard correction for heat loss in calorimetry experiments. The two classic errors are heat loss (systematic, always gives a low temperature rise) and incomplete reaction (gives fewer moles reacting than assumed)."
+  },
+  {
+    "id": "practical-031",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(d)",
+    "question": "A student writes the following hypothesis before an experiment:\n\n'I predict that increasing the surface area of the calcium carbonate will increase the rate of reaction with hydrochloric acid.'\n\nExplain what makes a hypothesis scientifically useful, and suggest how this hypothesis could be improved.",
+    "marks": 3,
+    "markPoints": [
+      "A scientifically useful hypothesis must be testable/falsifiable — it must be possible to design an experiment that could prove it wrong",
+      "It should include a reason based on scientific theory (e.g. more surface area means more frequent collisions between acid particles and solid, increasing the rate)",
+      "Improved hypothesis: 'Increasing the surface area of calcium carbonate (e.g. by using powder rather than lumps) will increase the rate of reaction with hydrochloric acid, because more solid surface is exposed to acid particles, leading to more frequent successful collisions per unit time'"
+    ],
+    "modelAnswer": "A scientifically useful hypothesis must be testable — it must be possible to design an experiment that could falsify it. The hypothesis should also include a scientific justification (a reason based on theory). The student's hypothesis could be improved by adding a mechanism: for example, 'Increasing the surface area of calcium carbonate (e.g. by using powder rather than lumps) will increase the rate of reaction with hydrochloric acid, because more calcium carbonate surface is exposed to hydrogen ions, increasing the frequency of successful collisions per unit time.'",
+    "explanation": "OCR A examiners look for a testable prediction and a chemical/theoretical explanation. Simply stating a prediction without a reason is awarded partial credit only. Collision theory is the appropriate justification for surface-area effects."
+  },
+  {
+    "id": "practical-032",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(d)",
+    "question": "A student records the mass of a crucible before and after heating a sample of magnesium in air.\n\nMass of crucible alone: 12.450 g\nMass of crucible + magnesium before heating: 12.680 g\nMass of crucible + magnesium oxide after heating to constant mass: 12.830 g\n\nCalculate the mass of magnesium used and the mass of oxygen gained, giving each answer to the appropriate number of significant figures.",
+    "marks": 3,
+    "markPoints": [
+      "Mass of magnesium = 12.680 − 12.450 = 0.230 g (3 s.f.)",
+      "Mass of magnesium oxide = 12.830 − 12.450 = 0.380 g",
+      "Mass of oxygen gained = 0.380 − 0.230 = 0.150 g (3 s.f.)"
+    ],
+    "modelAnswer": "Mass of magnesium used = 12.680 − 12.450 = 0.230 g (3 s.f.). Mass of magnesium oxide formed = 12.830 − 12.450 = 0.380 g. Mass of oxygen gained = 0.380 − 0.230 = 0.150 g (3 s.f.).",
+    "explanation": "Both masses are obtained by subtraction from the crucible mass, so the crucible acts as a tare. Results should be quoted to 3 significant figures, consistent with the precision of the balance readings (given to 3 decimal places but with 3 significant figures in the differences). Always subtract the crucible mass first."
+  },
+  {
+    "id": "practical-033",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(e)",
+    "question": "A student planning an experiment states: 'I will keep the volume of hydrochloric acid constant at 50 cm³ throughout the experiment.'\n\nExplain why keeping the volume constant is important, and state the general term for this type of variable.",
+    "marks": 2,
+    "markPoints": [
+      "This is a controlled variable (also called a control variable)",
+      "If the volume were allowed to change, it would alter the number of moles of acid and therefore affect the rate/outcome, making it impossible to conclude that only the chosen independent variable caused any changes observed"
+    ],
+    "modelAnswer": "This is a controlled variable. If the volume of hydrochloric acid were not kept constant, a different volume would deliver a different number of moles of acid, which would itself affect the rate of reaction. Keeping it fixed ensures that any change in the dependent variable can only be attributed to the independent variable the student is deliberately varying.",
+    "explanation": "Controlled variables are anything that could affect the outcome but is not being investigated. Identifying and justifying them shows scientific rigour. The consequence of not controlling a variable (it becomes a confounding variable) is the expected level of analysis for A-level."
+  },
+  {
+    "id": "practical-034",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(a)",
+    "question": "A student uses a 100 cm³ measuring cylinder to measure 50 cm³ of water. The measuring cylinder has an uncertainty of ±1 cm³.\n\nA second student uses a 50 cm³ burette to measure the same volume. The burette has an uncertainty of ±0.05 cm³ per reading.\n\nCalculate the percentage uncertainty for each method and state which is more suitable for accurate work.",
+    "marks": 4,
+    "markPoints": [
+      "Measuring cylinder: percentage uncertainty = (1 ÷ 50) × 100 = 2.0%",
+      "Burette: two readings are taken, so total uncertainty = 2 × 0.05 = 0.10 cm³; percentage uncertainty = (0.10 ÷ 50) × 100 = 0.20%",
+      "The burette is more suitable for accurate work",
+      "Because its percentage uncertainty (0.20%) is far smaller than that of the measuring cylinder (2.0%)"
+    ],
+    "modelAnswer": "Measuring cylinder: percentage uncertainty = (1 ÷ 50) × 100 = 2.0%. Burette: two readings are needed (initial and final), so the total uncertainty = 2 × 0.05 = 0.10 cm³; percentage uncertainty = (0.10 ÷ 50) × 100 = 0.20%. The burette is far more suitable for accurate work because its percentage uncertainty (0.20%) is ten times smaller than that of the measuring cylinder (2.0%).",
+    "explanation": "Comparing apparatus by percentage uncertainty is a standard evaluation skill. The burette is superior not because its absolute uncertainty per reading is small in isolation, but because both readings are small relative to the measured volume."
+  },
+  {
+    "id": "practical-035",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(f)",
+    "question": "A student carries out an experiment and obtains a result of 48.2 kJ mol⁻¹. The accepted literature value is 57.1 kJ mol⁻¹.\n\nCalculate the percentage error in the student's result and suggest one systematic error that could account for this discrepancy.",
+    "marks": 3,
+    "markPoints": [
+      "Percentage error = |48.2 − 57.1| ÷ 57.1 × 100 = 8.9 ÷ 57.1 × 100 = 15.6%",
+      "Systematic error: heat loss to the surroundings (or to the apparatus/calorimeter) during the experiment, which means less temperature rise is measured and gives a lower calculated enthalpy value",
+      "(Accept: using a non-insulated container so heat is lost to the beaker/bench; or not accounting for the heat capacity of the calorimeter)"
+    ],
+    "modelAnswer": "Percentage error = |48.2 − 57.1| ÷ 57.1 × 100 = 8.9 ÷ 57.1 × 100 = 15.6%. A systematic error that could account for the result being too low is heat loss to the surroundings during the experiment. If the container is not insulated, heat is transferred to the beaker, the bench and the air rather than remaining in the solution, so the temperature rise measured is smaller than it would be under ideal conditions, and the calculated enthalpy change is therefore lower than the true value.",
+    "explanation": "Percentage error uses the accepted value as the denominator: |experimental − true| ÷ true × 100. Heat loss is almost always the dominant systematic error in school calorimetry experiments and should be the first suggestion."
+  },
+  {
+    "id": "practical-036",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(g)",
+    "question": "A student records the following five measurements of the same length:\n\n15.2 cm, 15.3 cm, 15.1 cm, 15.2 cm, 18.7 cm\n\nExplain how the student should deal with the value of 18.7 cm when processing the results, and calculate an appropriate mean.",
+    "marks": 3,
+    "markPoints": [
+      "18.7 cm is an anomalous/outlier result — it differs markedly from the other four values",
+      "It should be identified and excluded from the calculation of the mean (with a reason, e.g. it is likely due to a random/measurement error)",
+      "Mean of the remaining four values = (15.2 + 15.3 + 15.1 + 15.2) ÷ 4 = 60.8 ÷ 4 = 15.2 cm"
+    ],
+    "modelAnswer": "The value of 18.7 cm is an anomalous result — it differs from the other four values by more than 3 cm and is almost certainly due to a random or measurement error. It should be excluded from the calculation of the mean. The mean of the remaining four concordant values is (15.2 + 15.3 + 15.1 + 15.2) ÷ 4 = 60.8 ÷ 4 = 15.2 cm.",
+    "explanation": "Anomalous results must be identified and excluded before calculating the mean. The criterion for 'anomalous' is that the value differs markedly from the cluster formed by the other results. The student should ideally repeat the measurement to replace the outlier."
+  },
+  {
+    "id": "practical-037",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(h)",
+    "question": "A student obtains a mean titre of 24.65 cm³ using a 50 cm³ burette.\n\nThe concentration of the solution in the burette is 0.100 mol dm⁻³.\n\nCalculate the number of moles delivered in the mean titre. Give your answer to 3 significant figures.",
+    "marks": 3,
+    "markPoints": [
+      "Convert volume to dm³: 24.65 cm³ ÷ 1000 = 0.02465 dm³",
+      "Moles = concentration × volume = 0.100 × 0.02465",
+      "= 2.47 × 10⁻³ mol (3 s.f.)"
+    ],
+    "modelAnswer": "Volume in dm³ = 24.65 ÷ 1000 = 0.02465 dm³. Moles = concentration × volume = 0.100 × 0.02465 = 2.465 × 10⁻³ mol = 2.47 × 10⁻³ mol (3 s.f.).",
+    "explanation": "The essential first step is converting cm³ to dm³ (divide by 1000). Then apply n = c × V. The answer should be given to 3 significant figures to match the precision of the data (the concentration is given to 3 s.f. and the volume to 4 s.f.; the least precise determines the rounding)."
+  },
+  {
+    "id": "practical-038",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(a)",
+    "question": "A student is asked to select apparatus to measure 23.50 cm³ of sodium hydroxide solution as accurately as possible.\n\nExplain why a 25 cm³ volumetric pipette is not suitable for this purpose, and suggest what the student should use instead.",
+    "marks": 2,
+    "markPoints": [
+      "A 25 cm³ volumetric pipette is calibrated to deliver only one fixed volume (25.00 cm³), so it cannot measure 23.50 cm³",
+      "A burette should be used instead — it can deliver any volume up to 50 cm³ to the nearest 0.05 cm³"
+    ],
+    "modelAnswer": "A volumetric pipette delivers only one fixed, pre-set volume (25.00 cm³) and cannot be used to measure 23.50 cm³. The student should use a burette instead, which can deliver any volume from 0 to 50 cm³ and can be read to the nearest 0.05 cm³, making it suitable for measuring non-standard volumes accurately.",
+    "explanation": "A common misconception is that any accurate glassware can measure any volume. Volumetric pipettes and flasks are one-volume instruments; burettes are variable-volume and are the correct choice when a non-standard volume must be measured accurately."
+  },
+  {
+    "id": "practical-039",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.1(b)",
+    "question": "A student heats a liquid under reflux for 30 minutes using a water bath rather than a Bunsen burner.\n\nGive two reasons why a water bath is preferred over a Bunsen burner for heating under reflux.",
+    "marks": 2,
+    "markPoints": [
+      "A water bath provides more uniform, even heating (the temperature does not fluctuate as it would with a Bunsen burner), giving better control over the reaction temperature",
+      "A water bath is safer when organic solvents (which are often flammable) are used under reflux, because there is no naked flame that could ignite the vapour"
+    ],
+    "modelAnswer": "First, a water bath provides more even, controllable heating than a Bunsen burner — the temperature is stable and does not fluctuate, which is important for reactions that must be maintained at a specific temperature. Second, a water bath is much safer when the reaction involves flammable organic solvents (as is common in reflux): there is no naked flame that could ignite solvent vapour escaping from the apparatus.",
+    "explanation": "Two distinct marks are awarded: one for temperature control/evenness and one for the safety argument (no naked flame with flammable solvents). Giving two versions of the same point (e.g. 'safer' stated twice without elaboration) would score only one mark."
+  },
+  {
+    "id": "practical-040",
+    "type": "written",
+    "module": 1,
+    "topic": "Practical Skills",
+    "specRef": "1.1.2(c)",
+    "question": "A student measures the concentration of an unknown solution of sodium hydroxide by titrating it against a standard solution of hydrochloric acid of concentration 0.0500 mol dm⁻³.\n\nThe student uses 25.00 cm³ of NaOH and obtains a mean concordant titre of 22.40 cm³ of HCl.\n\nThe equation for the reaction is: NaOH(aq) + HCl(aq) → NaCl(aq) + H₂O(l)\n\nCalculate the concentration of the NaOH solution in mol dm⁻³.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of HCl = 0.0500 × (22.40 ÷ 1000) = 0.0500 × 0.02240 = 1.12 × 10⁻³ mol",
+      "Mole ratio HCl : NaOH = 1 : 1 (from the equation), so moles of NaOH = 1.12 × 10⁻³ mol",
+      "Volume of NaOH = 25.00 cm³ = 0.02500 dm³",
+      "Concentration of NaOH = moles ÷ volume = 1.12 × 10⁻³ ÷ 0.02500 = 0.0448 mol dm⁻³"
+    ],
+    "modelAnswer": "Moles of HCl = 0.0500 × (22.40 ÷ 1000) = 1.12 × 10⁻³ mol. The equation shows a 1 : 1 mole ratio, so moles of NaOH = 1.12 × 10⁻³ mol. Volume of NaOH = 25.00 ÷ 1000 = 0.02500 dm³. Concentration of NaOH = 1.12 × 10⁻³ ÷ 0.02500 = 0.0448 mol dm⁻³.",
+    "explanation": "Standard titration calculation: (1) n = c × V for the known solution, (2) use the mole ratio from the balanced equation to find moles of unknown, (3) c = n ÷ V for the unknown. Always convert cm³ to dm³ by dividing by 1000."
+  }
+]

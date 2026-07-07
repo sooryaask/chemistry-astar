@@ -1,0 +1,815 @@
+[
+  {
+    "id": "equilibrium_1-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(a)",
+    "question": "Which statement about a system at dynamic equilibrium is correct?",
+    "options": {
+      "A": "The forward and reverse reactions have stopped",
+      "B": "The concentrations of reactants and products are equal",
+      "C": "The rate of the forward reaction equals the rate of the reverse reaction",
+      "D": "The forward reaction is faster than the reverse reaction"
+    },
+    "correctOption": "C",
+    "explanation": "At dynamic equilibrium both reactions continue at the same rate, so the concentrations of reactants and products remain constant — but they are not necessarily equal to each other.",
+    "steps": [
+      "Step 1 – 'Dynamic' means both the forward and reverse reactions are still occurring, so A is wrong.",
+      "Step 2 – At equilibrium the concentrations are constant, not equal — a common confusion, so B is wrong.",
+      "Step 3 – The defining feature is that rate(forward) = rate(reverse), which keeps concentrations constant; D would move the position of equilibrium, so it cannot describe equilibrium.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "equilibrium_1-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The equilibrium below is set up in a sealed container.\n\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\n\nWhat is the effect of increasing the total pressure at constant temperature?",
+    "options": {
+      "A": "The position of equilibrium shifts to the right",
+      "B": "The position of equilibrium shifts to the left",
+      "C": "The position of equilibrium does not change",
+      "D": "The value of Kc increases"
+    },
+    "correctOption": "A",
+    "explanation": "There are 4 moles of gas on the left and 2 on the right. Increasing pressure shifts the equilibrium towards the side with fewer gas moles, i.e. to the right. Kc is unaffected because it only changes with temperature.",
+    "steps": [
+      "Step 1 – Count gas moles: left = 1 + 3 = 4 mol; right = 2 mol.",
+      "Step 2 – By le Chatelier's principle, increasing pressure shifts the equilibrium to the side with fewer moles of gas to oppose the change.",
+      "Step 3 – Fewer moles are on the right, so the position shifts right; Kc only changes with temperature, so D is wrong.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "equilibrium_1-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "For the equilibrium:\n\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g)   ΔH = −196 kJ mol⁻¹\n\nWhat happens when the temperature is increased at constant pressure?",
+    "options": {
+      "A": "The equilibrium shifts right and Kc increases",
+      "B": "The equilibrium shifts right and Kc decreases",
+      "C": "The equilibrium shifts left and Kc increases",
+      "D": "The equilibrium shifts left and Kc decreases"
+    },
+    "correctOption": "D",
+    "explanation": "The forward reaction is exothermic, so increasing the temperature favours the endothermic (reverse) direction. The equilibrium shifts left, the equilibrium yield of SO₃ falls, and the value of Kc decreases.",
+    "steps": [
+      "Step 1 – ΔH is negative, so the forward reaction is exothermic and the reverse reaction is endothermic.",
+      "Step 2 – Increasing temperature shifts the equilibrium in the endothermic direction to oppose the change, i.e. to the left.",
+      "Step 3 – Because temperature is the only factor that changes Kc, and products decrease relative to reactants, Kc decreases.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "equilibrium_1-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "A catalyst is added to a gaseous mixture at equilibrium.\n\nWhich statement is correct?",
+    "options": {
+      "A": "The position of equilibrium shifts towards the products",
+      "B": "The equilibrium concentrations do not change",
+      "C": "The value of Kc increases",
+      "D": "The rate of the forward reaction increases more than the rate of the reverse reaction"
+    },
+    "correctOption": "B",
+    "explanation": "A catalyst speeds up the forward and reverse reactions equally, so the position of equilibrium and the value of Kc are unchanged. Equilibrium is simply reached more quickly.",
+    "steps": [
+      "Step 1 – A catalyst provides an alternative route with lower activation energy for both the forward and reverse reactions.",
+      "Step 2 – Both rates increase by the same factor, so the position of equilibrium does not shift and Kc is unchanged — this eliminates A, C and D.",
+      "Step 3 – Therefore the equilibrium concentrations stay the same; equilibrium is just established faster.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "equilibrium_1-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "What is the correct expression for Kc for the equilibrium below?\n\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g)",
+    "options": {
+      "A": "Kc = [SO₃]² / ([SO₂]²[O₂])",
+      "B": "Kc = [SO₂]²[O₂] / [SO₃]²",
+      "C": "Kc = [SO₃] / ([SO₂][O₂])",
+      "D": "Kc = 2[SO₃] / (2[SO₂][O₂])"
+    },
+    "correctOption": "A",
+    "explanation": "Kc = products over reactants, with each concentration raised to the power of its balancing number: [SO₃]² on top, [SO₂]²[O₂] on the bottom.",
+    "steps": [
+      "Step 1 – Kc is always written as [products] divided by [reactants].",
+      "Step 2 – Raise each concentration to the power of its coefficient in the balanced equation: SO₃ and SO₂ are squared, O₂ is to the power 1.",
+      "Step 3 – B is inverted, C ignores the coefficients, and D wrongly uses the coefficients as multipliers instead of powers.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "equilibrium_1-006",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "What are the units of Kc for the equilibrium below?\n\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)",
+    "options": {
+      "A": "mol dm⁻³",
+      "B": "dm⁶ mol⁻²",
+      "C": "mol² dm⁻⁶",
+      "D": "no units"
+    },
+    "correctOption": "B",
+    "explanation": "Kc = [NH₃]²/([N₂][H₂]³) = (mol dm⁻³)²/(mol dm⁻³)⁴ = (mol dm⁻³)⁻² = dm⁶ mol⁻².",
+    "steps": [
+      "Step 1 – Write the Kc expression: Kc = [NH₃]² / ([N₂][H₂]³).",
+      "Step 2 – Substitute units: (mol dm⁻³)² on top and (mol dm⁻³)¹⁺³ = (mol dm⁻³)⁴ on the bottom.",
+      "Step 3 – Cancel: (mol dm⁻³)²⁻⁴ = (mol dm⁻³)⁻² = mol⁻² dm⁶, written as dm⁶ mol⁻²; C is the inverse and is the common error.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "equilibrium_1-007",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The equilibrium below is established at a fixed temperature.\n\nH₂(g) + I₂(g) ⇌ 2HI(g)\n\nThe equilibrium concentrations are: [H₂] = 0.10 mol dm⁻³, [I₂] = 0.20 mol dm⁻³, [HI] = 0.80 mol dm⁻³.\n\nWhat is the value of Kc?",
+    "options": {
+      "A": "32, no units",
+      "B": "40, no units",
+      "C": "32 mol dm⁻³",
+      "D": "0.031, no units"
+    },
+    "correctOption": "A",
+    "explanation": "Kc = [HI]²/([H₂][I₂]) = 0.80²/(0.10 × 0.20) = 0.64/0.020 = 32. The units cancel because there are two concentration terms on the top and two on the bottom.",
+    "steps": [
+      "Step 1 – Write the expression: Kc = [HI]² / ([H₂][I₂]).",
+      "Step 2 – Substitute: Kc = (0.80)² / (0.10 × 0.20) = 0.64 / 0.020 = 32.",
+      "Step 3 – Units: (mol dm⁻³)² / (mol dm⁻³)² cancels to no units; B forgets to square [HI], C gives incorrect units, D is the reciprocal.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "equilibrium_1-008",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The equilibrium below is used to make gas C.\n\nA(g) + 2B(g) ⇌ 2C(g)   ΔH = −85 kJ mol⁻¹\n\nWhich set of conditions gives the highest equilibrium yield of C?",
+    "options": {
+      "A": "High temperature and high pressure",
+      "B": "High temperature and low pressure",
+      "C": "Low temperature and high pressure",
+      "D": "Low temperature and low pressure"
+    },
+    "correctOption": "C",
+    "explanation": "The forward reaction is exothermic, so a low temperature shifts the equilibrium right. There are 3 moles of gas on the left and 2 on the right, so high pressure also shifts the equilibrium right.",
+    "steps": [
+      "Step 1 – ΔH is negative: low temperature favours the exothermic (forward) direction, increasing the yield of C.",
+      "Step 2 – Gas moles: left = 3, right = 2; high pressure shifts the equilibrium towards the side with fewer gas moles, i.e. right.",
+      "Step 3 – Combining both: low temperature AND high pressure maximise the equilibrium yield.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "equilibrium_1-009",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "Which change alters the value of Kc for a reaction at equilibrium?",
+    "options": {
+      "A": "Adding a catalyst",
+      "B": "Increasing the concentration of a reactant",
+      "C": "Increasing the total pressure",
+      "D": "Increasing the temperature"
+    },
+    "correctOption": "D",
+    "explanation": "Kc is a constant at a given temperature. Only a change in temperature changes its value; catalysts, concentration changes and pressure changes may affect rate or the position of equilibrium but never the value of Kc.",
+    "steps": [
+      "Step 1 – Kc is temperature-dependent only: its value is fixed at a fixed temperature.",
+      "Step 2 – A catalyst changes only the rate; concentration and pressure changes cause the system to shift so that the same Kc value is restored.",
+      "Step 3 – Therefore only a temperature change alters Kc.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "equilibrium_1-010",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The total pressure on the equilibrium below is doubled at constant temperature.\n\nH₂(g) + I₂(g) ⇌ 2HI(g)\n\nWhat is the effect on the position of equilibrium?",
+    "options": {
+      "A": "It shifts to the right because HI is a product",
+      "B": "It shifts to the left because there are two reactants",
+      "C": "It does not change because there are equal moles of gas on both sides",
+      "D": "It does not change because pressure never affects gaseous equilibria"
+    },
+    "correctOption": "C",
+    "explanation": "There are 2 moles of gas on each side of the equation, so a pressure change affects both sides equally and the position of equilibrium is unchanged.",
+    "steps": [
+      "Step 1 – Count gas moles: left = 1 + 1 = 2 mol; right = 2 mol.",
+      "Step 2 – Pressure changes only shift an equilibrium when the number of gas moles differs between the two sides.",
+      "Step 3 – Here the moles are equal, so there is no shift; D gives the right outcome for the wrong reason — pressure does affect many gaseous equilibria.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "equilibrium_1-011",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Ethyl ethanoate is made in the liquid-phase equilibrium:\n\nCH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)\n\nWater is continuously removed from the equilibrium mixture.\n\nWhat is the effect of removing the water?",
+    "options": {
+      "A": "The equilibrium shifts right and the yield of ester increases",
+      "B": "The equilibrium shifts left and the yield of ester decreases",
+      "C": "The position of equilibrium is unchanged",
+      "D": "The value of Kc decreases"
+    },
+    "correctOption": "A",
+    "explanation": "Removing a product lowers its concentration, so by le Chatelier's principle the equilibrium shifts to the right to replace it, increasing the yield of the ester. Kc stays the same because the temperature is unchanged.",
+    "steps": [
+      "Step 1 – Water is a product; removing it decreases [H₂O].",
+      "Step 2 – The system opposes the change by making more products, so the equilibrium shifts to the right.",
+      "Step 3 – More ester forms; Kc is unchanged because only temperature changes Kc, so D is wrong.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "equilibrium_1-012",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "For a reaction at equilibrium, Kc = 1.5 × 10⁴ at 298 K.\n\nWhat does this value indicate about the equilibrium mixture at 298 K?",
+    "options": {
+      "A": "The position of equilibrium lies well to the right",
+      "B": "The position of equilibrium lies well to the left",
+      "C": "The concentrations of reactants and products are equal",
+      "D": "The reaction reaches equilibrium very quickly"
+    },
+    "correctOption": "A",
+    "explanation": "A large Kc means the concentration of products is much greater than that of reactants at equilibrium, so the position of equilibrium lies well to the right. Kc says nothing about the rate of reaction.",
+    "steps": [
+      "Step 1 – Kc = [products]/[reactants] (raised to appropriate powers), so a large value means products dominate.",
+      "Step 2 – Kc ≈ 10⁴ ≫ 1, so the equilibrium lies well over to the product (right-hand) side.",
+      "Step 3 – Kc gives no information about how fast equilibrium is reached, so D is wrong.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "equilibrium_1-013",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Gas Y is manufactured using the equilibrium:\n\nX(g) + 3H₂(g) ⇌ 2Y(g)   ΔH = −110 kJ mol⁻¹\n\nA moderate temperature of 650 K is used rather than a lower temperature.\n\nWhat is the main reason for this choice?",
+    "options": {
+      "A": "A lower temperature would decrease the equilibrium yield of Y",
+      "B": "A lower temperature would make the rate of reaction too slow",
+      "C": "A lower temperature would decompose the catalyst",
+      "D": "A lower temperature would shift the equilibrium to the left"
+    },
+    "correctOption": "B",
+    "explanation": "Because the forward reaction is exothermic, a lower temperature actually gives a higher equilibrium yield — but the rate would be uneconomically slow. The moderate temperature is a compromise between yield and rate.",
+    "steps": [
+      "Step 1 – ΔH is negative, so lowering the temperature would shift the equilibrium right and increase the yield — this rules out A and D.",
+      "Step 2 – However, at low temperatures fewer molecules have energy above the activation energy, so equilibrium is reached far too slowly.",
+      "Step 3 – 650 K is therefore a compromise: acceptable yield achieved at an acceptable rate.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "equilibrium_1-014",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "For the equilibrium:\n\nN₂O₄(g) ⇌ 2NO₂(g)   ΔH = +58 kJ mol⁻¹\n\nWhat is the effect of decreasing the temperature at constant pressure?",
+    "options": {
+      "A": "The equilibrium shifts right and Kc increases",
+      "B": "The equilibrium shifts left and Kc decreases",
+      "C": "The equilibrium shifts left and Kc is unchanged",
+      "D": "The equilibrium shifts right and Kc decreases"
+    },
+    "correctOption": "B",
+    "explanation": "The forward reaction is endothermic, so decreasing the temperature favours the exothermic (reverse) direction. The equilibrium shifts left and, because temperature changes Kc, the value of Kc decreases.",
+    "steps": [
+      "Step 1 – ΔH is positive, so the forward direction is endothermic and the reverse direction is exothermic.",
+      "Step 2 – Decreasing temperature shifts the equilibrium in the exothermic direction to release heat, i.e. to the left.",
+      "Step 3 – Products decrease relative to reactants and Kc decreases — C is wrong because a temperature change always changes Kc.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "equilibrium_1-015",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(a)",
+    "question": "State two features of a system in dynamic equilibrium.",
+    "marks": 2,
+    "markPoints": [
+      "The rate of the forward reaction equals the rate of the reverse reaction",
+      "The concentrations of reactants and products remain constant (in a closed system)"
+    ],
+    "modelAnswer": "The rate of the forward reaction is equal to the rate of the reverse reaction, and the concentrations of the reactants and products remain constant. (Equilibrium can only be established in a closed system.)",
+    "explanation": "'Dynamic' means both reactions still happen; 'equilibrium' means no overall change. Avoid saying the concentrations are 'equal' — they are constant, which is different."
+  },
+  {
+    "id": "equilibrium_1-016",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "State le Chatelier's principle.",
+    "marks": 1,
+    "markPoints": [
+      "When a system at equilibrium is subjected to a change (in concentration, pressure or temperature), the position of equilibrium shifts to minimise / oppose the change"
+    ],
+    "modelAnswer": "When a system in equilibrium is subjected to a change in concentration, pressure or temperature, the position of equilibrium shifts to minimise the effect of that change.",
+    "explanation": "The key word is 'minimise' (or 'oppose'/'counteract'). Saying the equilibrium 'cancels' the change loses the mark — the change is only partially opposed."
+  },
+  {
+    "id": "equilibrium_1-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(a)",
+    "question": "Explain why a dynamic equilibrium can only be established in a closed system.",
+    "marks": 2,
+    "markPoints": [
+      "In an open system, reactants or products (e.g. gases) can escape / be lost from the system",
+      "So the reverse reaction cannot occur at the same rate as the forward reaction / concentrations cannot remain constant, and equilibrium is never reached"
+    ],
+    "modelAnswer": "In an open system, products such as gases would escape from the reaction mixture. Their concentration could never build up, so the reverse reaction could never reach the same rate as the forward reaction and constant concentrations would never be achieved. In a closed system nothing is added or removed, so equilibrium can be established.",
+    "explanation": "Link 'closed system' to the definition of equilibrium: if a product escapes, the reverse rate can never equal the forward rate, so the reaction simply goes to completion."
+  },
+  {
+    "id": "equilibrium_1-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The following equilibrium is established in a sealed vessel.\n\n2NO₂(g) ⇌ N₂O₄(g)\n\nExplain the effect of increasing the total pressure, at constant temperature, on the position of this equilibrium.",
+    "marks": 2,
+    "markPoints": [
+      "The equilibrium shifts to the right / towards N₂O₄",
+      "Because the right-hand side has fewer moles of gas (1 mol vs 2 mol), which opposes / minimises the increase in pressure"
+    ],
+    "modelAnswer": "The position of equilibrium shifts to the right, towards N₂O₄. There are 2 moles of gas on the left but only 1 mole on the right, so shifting right reduces the number of gas molecules and opposes the increase in pressure.",
+    "explanation": "Pressure questions are answered by counting gas moles on each side. The shift must be stated AND justified by comparing moles of gas — stating the shift alone only earns one mark."
+  },
+  {
+    "id": "equilibrium_1-019",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Hydrogen can be made using the equilibrium:\n\nCH₄(g) + H₂O(g) ⇌ CO(g) + 3H₂(g)   ΔH = +206 kJ mol⁻¹\n\nExplain the effect of increasing the temperature, at constant pressure, on the position of this equilibrium and on the value of Kc.",
+    "marks": 3,
+    "markPoints": [
+      "The equilibrium shifts to the right / towards CO and H₂",
+      "Because the forward reaction is endothermic, so the shift absorbs heat / opposes the temperature increase",
+      "Kc increases (because the ratio of products to reactants increases)"
+    ],
+    "modelAnswer": "The forward reaction is endothermic (ΔH is positive), so increasing the temperature shifts the position of equilibrium to the right because the endothermic direction absorbs the added heat and opposes the change. The concentrations of the products increase relative to the reactants, so the value of Kc increases.",
+    "explanation": "Temperature is the only change that alters Kc. Identify the endothermic direction from the sign of ΔH, state the shift, justify it using le Chatelier, then state the change in Kc."
+  },
+  {
+    "id": "equilibrium_1-020",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "A catalyst is added to a reversible reaction that has already reached equilibrium.\n\nState and explain the effect of the catalyst on the position of equilibrium and explain why catalysts are still used in industrial equilibrium processes.",
+    "marks": 3,
+    "markPoints": [
+      "No effect on the position of equilibrium (and no effect on Kc / equilibrium yield)",
+      "Because the catalyst increases the rate of the forward and reverse reactions equally",
+      "Catalysts are used because equilibrium is reached more quickly / the same yield is obtained faster (or at a lower temperature, reducing energy costs)"
+    ],
+    "modelAnswer": "The catalyst has no effect on the position of equilibrium because it speeds up the forward and reverse reactions equally. However, it allows equilibrium to be reached much more quickly, so the product is made faster (and the process can run at a lower temperature, saving energy costs), which is why catalysts are used industrially.",
+    "explanation": "Catalyst questions have a fixed answer: no shift, equal rate increase both ways, but faster attainment of equilibrium. The industrial benefit is economic — time and energy."
+  },
+  {
+    "id": "equilibrium_1-021",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The following equilibrium is established in the gas phase.\n\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)\n\nWrite the expression for Kc for this equilibrium and state its units.",
+    "marks": 2,
+    "markPoints": [
+      "Kc = [NH₃]² / ([N₂][H₂]³)",
+      "Units: dm⁶ mol⁻²"
+    ],
+    "modelAnswer": "Kc = [NH₃]² / ([N₂][H₂]³). Units: (mol dm⁻³)² ÷ (mol dm⁻³)⁴ = (mol dm⁻³)⁻², i.e. dm⁶ mol⁻².",
+    "explanation": "Products over reactants, powers equal to the balancing numbers. For units, substitute mol dm⁻³ for every term and cancel: two terms on top, four on the bottom leaves (mol dm⁻³)⁻²."
+  },
+  {
+    "id": "equilibrium_1-022",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The equilibrium below is established at a fixed temperature.\n\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g)\n\nThe equilibrium concentrations are: [SO₂] = 0.20 mol dm⁻³, [O₂] = 0.10 mol dm⁻³ and [SO₃] = 0.40 mol dm⁻³.\n\nCalculate the value of Kc for this equilibrium and give its units.",
+    "marks": 3,
+    "markPoints": [
+      "Kc = [SO₃]² / ([SO₂]²[O₂])",
+      "Kc = 0.40² / (0.20² × 0.10) = 0.16 / 0.0040 = 40",
+      "Units: dm³ mol⁻¹"
+    ],
+    "modelAnswer": "Kc = [SO₃]² / ([SO₂]²[O₂]) = (0.40)² / ((0.20)² × 0.10) = 0.16 / 0.0040 = 40. Units: (mol dm⁻³)² / (mol dm⁻³)³ = (mol dm⁻³)⁻¹ = dm³ mol⁻¹, so Kc = 40 dm³ mol⁻¹.",
+    "explanation": "Write the expression first (this usually carries a mark), substitute the equilibrium concentrations, then work out the units by cancelling mol dm⁻³ terms: two on top, three on the bottom leaves dm³ mol⁻¹."
+  },
+  {
+    "id": "equilibrium_1-023",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "Ethanoic acid reacts with ethanol in a sealed flask at constant temperature.\n\nCH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)\n\nAt equilibrium, a 1.00 dm³ mixture contains 0.20 mol of CH₃COOH, 0.10 mol of C₂H₅OH, 0.40 mol of CH₃COOC₂H₅ and 0.40 mol of H₂O.\n\nCalculate the value of Kc for this equilibrium and explain why it has no units.",
+    "marks": 3,
+    "markPoints": [
+      "Kc = [CH₃COOC₂H₅][H₂O] / ([CH₃COOH][C₂H₅OH])",
+      "Kc = (0.40 × 0.40) / (0.20 × 0.10) = 0.16 / 0.020 = 8.0",
+      "No units because there are equal numbers of concentration terms on the top and bottom, so the units (mol dm⁻³)² cancel"
+    ],
+    "modelAnswer": "Kc = [CH₃COOC₂H₅][H₂O] / ([CH₃COOH][C₂H₅OH]). Since the volume is 1.00 dm³, the concentrations equal the amounts: Kc = (0.40 × 0.40) / (0.20 × 0.10) = 0.16 / 0.020 = 8.0. Kc has no units because there are two concentration terms in the numerator and two in the denominator, so the (mol dm⁻³)² units cancel completely.",
+    "explanation": "With a 1.00 dm³ volume, moles and concentrations are numerically identical. Whenever the total powers on top equal the total powers on the bottom, Kc is dimensionless."
+  },
+  {
+    "id": "equilibrium_1-024",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "0.500 mol of N₂O₄ is placed in a sealed 2.00 dm³ container and allowed to reach equilibrium at a constant temperature.\n\nN₂O₄(g) ⇌ 2NO₂(g)\n\nAt equilibrium, 0.100 mol of N₂O₄ has dissociated.\n\nCalculate the value of Kc for this equilibrium, including units.",
+    "marks": 4,
+    "markPoints": [
+      "Equilibrium amounts: n(N₂O₄) = 0.500 − 0.100 = 0.400 mol; n(NO₂) = 2 × 0.100 = 0.200 mol",
+      "Equilibrium concentrations: [N₂O₄] = 0.400/2.00 = 0.200 mol dm⁻³; [NO₂] = 0.200/2.00 = 0.100 mol dm⁻³",
+      "Kc = [NO₂]²/[N₂O₄] = (0.100)²/0.200 = 0.0500",
+      "Units: mol dm⁻³"
+    ],
+    "modelAnswer": "At equilibrium: n(N₂O₄) = 0.500 − 0.100 = 0.400 mol and n(NO₂) = 2 × 0.100 = 0.200 mol (1 : 2 ratio). Dividing by the 2.00 dm³ volume: [N₂O₄] = 0.200 mol dm⁻³ and [NO₂] = 0.100 mol dm⁻³. Kc = [NO₂]²/[N₂O₄] = (0.100)²/0.200 = 0.0100/0.200 = 0.0500 mol dm⁻³.",
+    "explanation": "This is a full equilibrium calculation: use the stoichiometry (1 mol N₂O₄ dissociates to give 2 mol NO₂) to find equilibrium moles, convert to concentrations using the container volume, then substitute into the Kc expression. Units: (mol dm⁻³)²/(mol dm⁻³) = mol dm⁻³."
+  },
+  {
+    "id": "equilibrium_1-025",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The equilibrium below has Kc = 50 (no units) at a certain temperature.\n\nH₂(g) + I₂(g) ⇌ 2HI(g)\n\nAn equilibrium mixture at this temperature contains [H₂] = 0.020 mol dm⁻³ and [I₂] = 0.010 mol dm⁻³.\n\nCalculate the equilibrium concentration of HI.",
+    "marks": 3,
+    "markPoints": [
+      "Rearrange: [HI]² = Kc × [H₂][I₂]",
+      "[HI]² = 50 × 0.020 × 0.010 = 0.010",
+      "[HI] = √0.010 = 0.10 mol dm⁻³"
+    ],
+    "modelAnswer": "Kc = [HI]²/([H₂][I₂]), so [HI]² = Kc × [H₂][I₂] = 50 × 0.020 × 0.010 = 0.010. Therefore [HI] = √0.010 = 0.10 mol dm⁻³.",
+    "explanation": "Rearranging the Kc expression for an unknown concentration is a standard variation. Do not forget the square root at the end — leaving the answer as 0.010 mol dm⁻³ is the classic error."
+  },
+  {
+    "id": "equilibrium_1-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "2.0 mol of H₂ and 2.0 mol of I₂ are mixed in a sealed 1.0 dm³ container and allowed to reach equilibrium at a constant temperature.\n\nH₂(g) + I₂(g) ⇌ 2HI(g)\n\nAt equilibrium the mixture contains 3.0 mol of HI.\n\nCalculate the value of Kc for this equilibrium.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of H₂ and I₂ reacted = 3.0/2 = 1.5 mol each (from the 1 : 1 : 2 ratio)",
+      "Equilibrium amounts: n(H₂) = 2.0 − 1.5 = 0.50 mol; n(I₂) = 2.0 − 1.5 = 0.50 mol (so, in 1.0 dm³, concentrations of 0.50 mol dm⁻³ and [HI] = 3.0 mol dm⁻³)",
+      "Kc = [HI]²/([H₂][I₂]) = 3.0²/(0.50 × 0.50) = 9.0/0.25",
+      "Kc = 36 (no units)"
+    ],
+    "modelAnswer": "Forming 3.0 mol of HI uses 3.0/2 = 1.5 mol of H₂ and 1.5 mol of I₂. At equilibrium: n(H₂) = n(I₂) = 2.0 − 1.5 = 0.50 mol. In a 1.0 dm³ container the concentrations are [H₂] = [I₂] = 0.50 mol dm⁻³ and [HI] = 3.0 mol dm⁻³. Kc = [HI]²/([H₂][I₂]) = (3.0)²/(0.50 × 0.50) = 9.0/0.25 = 36 (no units, because the concentration terms cancel).",
+    "explanation": "Work from the stoichiometry: every 2 mol of HI formed consumes 1 mol of each reactant. Then convert to concentrations (trivial here as V = 1.0 dm³) and substitute into Kc."
+  },
+  {
+    "id": "equilibrium_1-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "Phosphorus(V) chloride dissociates at high temperature.\n\nPCl₅(g) ⇌ PCl₃(g) + Cl₂(g)\n\nAn equilibrium mixture contains [PCl₅] = 0.050 mol dm⁻³, [PCl₃] = 0.10 mol dm⁻³ and [Cl₂] = 0.10 mol dm⁻³.\n\nCalculate the value of Kc for this equilibrium, including units.",
+    "marks": 3,
+    "markPoints": [
+      "Kc = [PCl₃][Cl₂] / [PCl₅]",
+      "Kc = (0.10 × 0.10) / 0.050 = 0.010 / 0.050 = 0.20",
+      "Units: mol dm⁻³"
+    ],
+    "modelAnswer": "Kc = [PCl₃][Cl₂]/[PCl₅] = (0.10 × 0.10)/0.050 = 0.010/0.050 = 0.20 mol dm⁻³. Units: (mol dm⁻³)²/(mol dm⁻³) = mol dm⁻³.",
+    "explanation": "Two concentration terms on top and one on the bottom leaves a single mol dm⁻³ after cancelling, so Kc has units of mol dm⁻³ here."
+  },
+  {
+    "id": "equilibrium_1-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Dinitrogen tetroxide, N₂O₄, is a pale yellow gas and nitrogen dioxide, NO₂, is a dark brown gas. They exist in equilibrium:\n\nN₂O₄(g) ⇌ 2NO₂(g)   ΔH = +58 kJ mol⁻¹\n\nA sealed tube containing the equilibrium mixture is placed in a beaker of hot water and the colour of the mixture becomes darker brown.\n\nExplain this observation.",
+    "marks": 3,
+    "markPoints": [
+      "Increasing the temperature shifts the equilibrium in the endothermic direction (to absorb the added heat / oppose the change)",
+      "The forward reaction is endothermic (ΔH positive), so the equilibrium shifts to the right",
+      "More (dark brown) NO₂ is formed, so the mixture darkens"
+    ],
+    "modelAnswer": "The forward reaction is endothermic (ΔH = +58 kJ mol⁻¹). When the temperature is increased, the position of equilibrium shifts in the endothermic direction to absorb the extra heat and oppose the change — that is, to the right. This produces more NO₂, which is dark brown, so the colour of the mixture darkens.",
+    "explanation": "Colour-change equilibrium questions are le Chatelier questions in disguise: identify the endothermic direction from the sign of ΔH, state the shift, then link the shift to the colour of the species that increases."
+  },
+  {
+    "id": "equilibrium_1-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Methanol is manufactured from synthesis gas in the equilibrium:\n\nCO(g) + 2H₂(g) ⇌ CH₃OH(g)   ΔH = −91 kJ mol⁻¹\n\nThe industrial process operates at about 500 K and 100 atm in the presence of a catalyst.\n\nExplain why these conditions are described as compromise conditions, referring to both the temperature and the pressure.",
+    "marks": 6,
+    "markPoints": [
+      "The forward reaction is exothermic, so a low temperature gives a higher equilibrium yield of methanol (equilibrium shifts right)",
+      "But at low temperature the rate of reaction is too slow (equilibrium is reached too slowly to be economical)",
+      "So a moderate temperature (500 K) is a compromise between a reasonable yield and a reasonable rate",
+      "There are 3 moles of gas on the left and 1 on the right, so a high pressure shifts the equilibrium right and increases the yield (and also increases the rate)",
+      "But very high pressures are expensive (thick-walled vessels, pumping/compression costs) and hazardous",
+      "So 100 atm is a compromise between yield/rate and cost/safety (the catalyst then allows an acceptable rate at the moderate temperature without changing the yield)"
+    ],
+    "modelAnswer": "The forward reaction is exothermic, so a low temperature would shift the equilibrium to the right and give a high equilibrium yield of methanol. However, at a low temperature the rate is far too slow for the process to be economical. A moderate temperature of about 500 K is therefore a compromise between yield and rate. There are 3 moles of gas on the left and only 1 on the right, so a high pressure shifts the equilibrium to the right, increasing both the yield and the rate. However, very high pressures require expensive, thick-walled equipment and high compression (energy) costs, and are a safety hazard. A pressure of about 100 atm is therefore a compromise between yield and cost/safety. The catalyst does not change the equilibrium yield but lets equilibrium be reached quickly at the moderate temperature.",
+    "explanation": "Six-mark compromise questions follow a fixed structure: (1) yield argument for temperature, (2) rate argument against, (3) compromise; then (4) yield argument for pressure, (5) cost/safety argument against, (6) compromise. Always quote the sign of ΔH and count gas moles."
+  },
+  {
+    "id": "equilibrium_1-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Gas Z is made industrially using the equilibrium:\n\n2A(g) + B(g) ⇌ 2Z(g)   ΔH = −180 kJ mol⁻¹\n\nState and explain the effect on the position of this equilibrium of:\n\n(i) increasing the temperature\n(ii) increasing the total pressure\n(iii) adding a catalyst.",
+    "marks": 5,
+    "markPoints": [
+      "(i) Shifts left / towards A and B",
+      "(i) Because the reverse reaction is endothermic and the shift absorbs the added heat / opposes the temperature rise",
+      "(ii) Shifts right / towards Z",
+      "(ii) Because there are fewer moles of gas on the right (2 mol vs 3 mol), which reduces the pressure / opposes the change",
+      "(iii) No effect on the position of equilibrium because the catalyst increases the rates of the forward and reverse reactions equally (equilibrium is just reached faster)"
+    ],
+    "modelAnswer": "(i) Increasing the temperature shifts the equilibrium to the left. The forward reaction is exothermic, so the system moves in the endothermic (reverse) direction to absorb the extra heat and oppose the change. (ii) Increasing the pressure shifts the equilibrium to the right, because the right-hand side has fewer moles of gas (2 compared with 3), so the shift reduces the pressure and opposes the change. (iii) A catalyst has no effect on the position of equilibrium because it speeds up the forward and reverse reactions equally; it only makes equilibrium be reached more quickly.",
+    "explanation": "Each condition needs a stated direction AND a reason. Temperature: use the sign of ΔH. Pressure: count gas moles on each side. Catalyst: no shift, equal rate increase both ways."
+  },
+  {
+    "id": "equilibrium_1-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "For the equilibrium P(g) + Q(g) ⇌ R(g), the value of Kc decreases as the temperature is increased.\n\nDeduce, with a reason, whether the forward reaction is exothermic or endothermic.",
+    "marks": 2,
+    "markPoints": [
+      "The forward reaction is exothermic",
+      "Because Kc decreases, the equilibrium shifts left / products decrease when temperature rises, and a temperature increase favours the endothermic direction — so the reverse reaction must be endothermic (forward exothermic)"
+    ],
+    "modelAnswer": "The forward reaction is exothermic. A decrease in Kc means the equilibrium position moves to the left when the temperature is increased. Raising the temperature always favours the endothermic direction, so the reverse reaction is endothermic and the forward reaction must be exothermic.",
+    "explanation": "Work backwards: Kc down = shift left = the leftward (reverse) direction is endothermic = the forward direction is exothermic. This reverse-logic deduction is a favourite OCR question."
+  },
+  {
+    "id": "equilibrium_1-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The following equilibrium is established in aqueous solution.\n\nFe³⁺(aq) + SCN⁻(aq) ⇌ FeSCN²⁺(aq)\n\nState and explain the effect on the position of equilibrium of adding more Fe³⁺(aq) ions at constant temperature.",
+    "marks": 2,
+    "markPoints": [
+      "The equilibrium shifts to the right / more FeSCN²⁺ forms",
+      "Because increasing [Fe³⁺] is opposed by the system removing / reacting away the added Fe³⁺ (le Chatelier's principle)"
+    ],
+    "modelAnswer": "The position of equilibrium shifts to the right, forming more FeSCN²⁺. Adding Fe³⁺ increases its concentration, so by le Chatelier's principle the equilibrium moves to remove the added Fe³⁺, converting more of it (with SCN⁻) into FeSCN²⁺.",
+    "explanation": "Concentration changes: the equilibrium shifts to use up whatever was added (or to replace whatever was removed). The value of Kc stays constant — the concentrations adjust until the same Kc is restored."
+  },
+  {
+    "id": "equilibrium_1-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Ethyl methanoate is made in the liquid-phase equilibrium:\n\nHCOOH(l) + C₂H₅OH(l) ⇌ HCOOC₂H₅(l) + H₂O(l)\n\nSuggest how the equilibrium yield of ethyl methanoate could be increased without changing the temperature, and explain why your suggestion works.",
+    "marks": 2,
+    "markPoints": [
+      "Add excess ethanol (or excess methanoic acid) OR remove the water/ester as it forms",
+      "The equilibrium shifts right to oppose the change (to use up the added reactant / to replace the removed product), increasing the yield of the ester"
+    ],
+    "modelAnswer": "Use an excess of ethanol (or remove the water as it forms). Increasing the concentration of a reactant (or removing a product) causes the equilibrium to shift to the right to oppose the change, so more ethyl methanoate is formed.",
+    "explanation": "For 'increase the yield without changing temperature', think concentration: add excess of the cheaper reactant, or continuously remove a product. Both drive the equilibrium to the product side."
+  },
+  {
+    "id": "equilibrium_1-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "At the same temperature, reaction 1 has Kc = 2 × 10⁻⁵ and reaction 2 has Kc = 3 × 10⁶ (both with no units).\n\nState what these values indicate about the positions of equilibrium of the two reactions.",
+    "marks": 2,
+    "markPoints": [
+      "Reaction 1: Kc ≪ 1, so the position of equilibrium lies well to the left / the mixture is mostly reactants",
+      "Reaction 2: Kc ≫ 1, so the position of equilibrium lies well to the right / the mixture is mostly products"
+    ],
+    "modelAnswer": "For reaction 1, Kc is much less than 1, so the position of equilibrium lies far to the left and the equilibrium mixture contains mainly reactants. For reaction 2, Kc is much greater than 1, so the position of equilibrium lies far to the right and the mixture contains mainly products.",
+    "explanation": "The magnitude of Kc indicates the extent of reaction: Kc ≫ 1 means products dominate; Kc ≪ 1 means reactants dominate; Kc ≈ 1 means significant amounts of both. Kc says nothing about rate."
+  },
+  {
+    "id": "equilibrium_1-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The following equilibrium is established in a sealed container.\n\nCO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)\n\nExplain why changing the total pressure has no effect on the position of this equilibrium.",
+    "marks": 2,
+    "markPoints": [
+      "There are equal numbers of moles of gas on both sides of the equation (2 mol on each side)",
+      "So a change in pressure affects both sides equally / neither direction can oppose the pressure change, and the position of equilibrium is unchanged"
+    ],
+    "modelAnswer": "There are 2 moles of gas on the left-hand side and 2 moles of gas on the right-hand side. Because the number of gas moles is the same on both sides, shifting the equilibrium in either direction cannot change the total number of molecules, so a pressure change cannot be opposed and the position of equilibrium does not move.",
+    "explanation": "Pressure only shifts an equilibrium when the two sides have different numbers of gas moles. Always count the moles explicitly in your answer — that is where the mark lies."
+  },
+  {
+    "id": "equilibrium_1-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "A student adds more reactant to a gaseous system at equilibrium, keeping the temperature constant. The student claims that the value of Kc must increase because more product forms.\n\nExplain why the student is wrong.",
+    "marks": 2,
+    "markPoints": [
+      "Kc is constant at constant temperature / only temperature changes the value of Kc",
+      "The equilibrium shifts right so the concentrations adjust (products increase AND the extra reactant is partly used up) until the same ratio / value of Kc is restored"
+    ],
+    "modelAnswer": "Kc only changes if the temperature changes. When more reactant is added, the position of equilibrium shifts to the right and more product forms, but the concentrations of all the species adjust until the ratio of products to reactants once again equals the original value of Kc. The position of equilibrium changes; Kc does not.",
+    "explanation": "Keep 'position of equilibrium' and 'value of Kc' separate: concentration and pressure changes move the position, but the system re-establishes the same Kc. Only temperature changes Kc itself."
+  },
+  {
+    "id": "equilibrium_1-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(a)",
+    "question": "State what is meant by a homogeneous equilibrium.",
+    "marks": 1,
+    "markPoints": [
+      "An equilibrium in which all the species / reactants and products are in the same phase (or state)"
+    ],
+    "modelAnswer": "A homogeneous equilibrium is one in which all the reactants and products are in the same phase, for example all gases or all aqueous.",
+    "explanation": "'Homo' = same: every species in the equilibrium is in the same physical state. At AS, Kc expressions are only required for homogeneous equilibria."
+  },
+  {
+    "id": "equilibrium_1-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The equilibrium below is set up in a sealed vessel at constant temperature.\n\n2NO(g) + O₂(g) ⇌ 2NO₂(g)\n\nThe equilibrium concentrations are: [NO] = 0.10 mol dm⁻³, [O₂] = 0.25 mol dm⁻³ and [NO₂] = 0.50 mol dm⁻³.\n\nWrite the expression for Kc and calculate its value, including units.",
+    "marks": 4,
+    "markPoints": [
+      "Kc = [NO₂]² / ([NO]²[O₂])",
+      "Kc = 0.50² / (0.10² × 0.25) = 0.25 / 0.0025",
+      "Kc = 100",
+      "Units: dm³ mol⁻¹"
+    ],
+    "modelAnswer": "Kc = [NO₂]² / ([NO]²[O₂]) = (0.50)² / ((0.10)² × 0.25) = 0.25 / 0.0025 = 100. Units: (mol dm⁻³)² / (mol dm⁻³)³ = (mol dm⁻³)⁻¹ = dm³ mol⁻¹. Kc = 100 dm³ mol⁻¹.",
+    "explanation": "Set out the expression, substitution, value and units as separate steps — each usually carries credit. Two concentration terms on top and three on the bottom leaves units of dm³ mol⁻¹."
+  },
+  {
+    "id": "equilibrium_1-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The following gaseous equilibrium is established in a sealed syringe.\n\nPCl₅(g) ⇌ PCl₃(g) + Cl₂(g)\n\nThe volume of the syringe is increased at constant temperature, decreasing the total pressure.\n\nDeduce the effect on the position of equilibrium and explain your reasoning.",
+    "marks": 2,
+    "markPoints": [
+      "The equilibrium shifts to the right / more PCl₅ dissociates",
+      "Because decreasing the pressure favours the side with more moles of gas (2 mol on the right vs 1 mol on the left), which opposes the decrease in pressure"
+    ],
+    "modelAnswer": "The position of equilibrium shifts to the right, so more PCl₅ dissociates. Decreasing the pressure is opposed by the equilibrium shifting to the side with more moles of gas — the right-hand side has 2 moles of gas compared with 1 on the left — which increases the number of molecules and so counteracts the fall in pressure.",
+    "explanation": "Increasing the volume lowers the pressure, so the equilibrium moves to the side with more gas moles. Always translate a volume change into a pressure change before applying le Chatelier."
+  },
+  {
+    "id": "equilibrium_1-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "The equilibrium yield of product R in the gaseous reaction below was measured at different temperatures at a fixed pressure. At 400 K the yield was 65%; at 600 K the yield was 30%.\n\nQ(g) + 2W(g) ⇌ R(g)\n\nDeduce, with a reason, the sign of ΔH for the forward reaction.",
+    "marks": 2,
+    "markPoints": [
+      "ΔH is negative / the forward reaction is exothermic",
+      "Because the yield decreases as temperature increases, the equilibrium must shift left (in the endothermic, reverse direction) at higher temperature, so the forward reaction is exothermic"
+    ],
+    "modelAnswer": "ΔH is negative — the forward reaction is exothermic. Increasing the temperature from 400 K to 600 K decreases the equilibrium yield of R, which means the position of equilibrium shifts to the left. Raising the temperature favours the endothermic direction, so the reverse reaction is endothermic and the forward reaction must be exothermic.",
+    "explanation": "Yield-versus-temperature data lets you deduce the sign of ΔH: yield falls as temperature rises means the forward reaction is exothermic (and vice versa). State the shift and the endothermic-direction rule in your reasoning."
+  },
+  {
+    "id": "equilibrium_1-041",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Sulfur trioxide is made in the exothermic equilibrium:\n\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g)   ΔH = −196 kJ mol⁻¹\n\nA student states: 'The temperature should be as high as possible because this always improves an industrial process.'\n\nExplain why the student is wrong, and explain what happens to the rate of reaction and the equilibrium yield of SO₃ as the temperature is increased.",
+    "marks": 4,
+    "markPoints": [
+      "The rate of reaction increases at higher temperature (more molecules have energy ≥ activation energy / more frequent successful collisions)",
+      "But the forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left",
+      "So the equilibrium yield of SO₃ decreases at higher temperature",
+      "A very high temperature is therefore not always better — a moderate/compromise temperature balances an acceptable rate against an acceptable yield"
+    ],
+    "modelAnswer": "Increasing the temperature does increase the rate of reaction, because a greater proportion of molecules have energy greater than or equal to the activation energy, so there are more successful collisions per second. However, the forward reaction is exothermic, so increasing the temperature shifts the position of equilibrium to the left, in the endothermic direction, and the equilibrium yield of SO₃ falls. The student is wrong because a very high temperature gives a fast reaction but a poor yield; a moderate compromise temperature is used to obtain a reasonable yield at a reasonable rate.",
+    "explanation": "This question separates rate from yield: temperature increases always speed up reactions, but for exothermic reactions they reduce the equilibrium yield. The industrial answer is always a compromise temperature."
+  },
+  {
+    "id": "equilibrium_1-042",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Suggest two reasons why an industrial equilibrium process that would give a higher yield at 500 atm is actually operated at 50 atm.",
+    "marks": 2,
+    "markPoints": [
+      "Very high pressures are expensive: thick-walled vessels / stronger pipes / large energy (compression/pumping) costs are needed",
+      "Very high pressures are a safety hazard / risk of explosion or leaks (any sensible cost or safety point for each mark)"
+    ],
+    "modelAnswer": "Generating and containing 500 atm would need very strong, thick-walled vessels and large amounts of energy for compression, which makes the process too expensive. Very high pressures are also a safety hazard because of the risk of leaks or explosion. A lower pressure of 50 atm is a compromise between yield, cost and safety.",
+    "explanation": "'Suggest why not higher pressure' always wants economics and safety: equipment/energy costs and hazard. The yield benefit is outweighed by cost and risk."
+  },
+  {
+    "id": "equilibrium_1-043",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Hydrogen for fuel cells can be produced using the equilibrium:\n\nCO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g)   ΔH = −41 kJ mol⁻¹\n\nThe process is run at a moderate temperature with a catalyst.\n\nExplain the effect of increasing the temperature on the equilibrium yield of hydrogen, and state the effect of increasing the temperature on the value of Kc.",
+    "marks": 3,
+    "markPoints": [
+      "The forward reaction is exothermic, so increasing the temperature shifts the equilibrium to the left (endothermic direction favoured to oppose the change)",
+      "So the equilibrium yield of hydrogen decreases",
+      "Kc decreases"
+    ],
+    "modelAnswer": "The forward reaction is exothermic (ΔH = −41 kJ mol⁻¹). Increasing the temperature shifts the position of equilibrium in the endothermic direction, to the left, in order to absorb the added heat. The equilibrium yield of hydrogen therefore decreases, and the value of Kc also decreases because the ratio of products to reactants falls.",
+    "explanation": "For an exothermic forward reaction: temperature up means yield down and Kc down. Both the shift and the Kc change must be stated explicitly, with the endothermic-direction justification."
+  },
+  {
+    "id": "equilibrium_1-044",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "The gaseous equilibrium below is established at constant temperature.\n\n2H₂(g) + CO(g) ⇌ CH₃OH(g)\n\nWrite the expression for Kc for this equilibrium and deduce its units.",
+    "marks": 2,
+    "markPoints": [
+      "Kc = [CH₃OH] / ([H₂]²[CO])",
+      "Units: (mol dm⁻³) / (mol dm⁻³)³ = (mol dm⁻³)⁻² = dm⁶ mol⁻²"
+    ],
+    "modelAnswer": "Kc = [CH₃OH] / ([H₂]²[CO]). Units: mol dm⁻³ divided by (mol dm⁻³)³ gives (mol dm⁻³)⁻², i.e. dm⁶ mol⁻².",
+    "explanation": "One concentration term on top and three on the bottom leaves (mol dm⁻³)⁻². Show the cancelling working — the units deduction usually carries its own mark."
+  },
+  {
+    "id": "equilibrium_1-045",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(b)",
+    "question": "Compound E is manufactured in the gas-phase equilibrium:\n\nD(g) + 2F(g) ⇌ E(g)   ΔH = +75 kJ mol⁻¹\n\nState and explain the conditions of temperature and pressure that would give the maximum equilibrium yield of E, and suggest one reason why the pressure actually used in industry may be lower than this.",
+    "marks": 4,
+    "markPoints": [
+      "High temperature, because the forward reaction is endothermic so increasing temperature shifts the equilibrium to the right",
+      "High pressure, because there are fewer moles of gas on the right (1 mol vs 3 mol), so increasing pressure shifts the equilibrium to the right",
+      "Both justifications linked to le Chatelier / opposing the change",
+      "Lower pressure used because very high pressure is expensive (equipment/energy costs) or hazardous"
+    ],
+    "modelAnswer": "A high temperature gives the maximum yield because the forward reaction is endothermic, so increasing the temperature shifts the position of equilibrium to the right to absorb the heat. A high pressure also increases the yield because there are 3 moles of gas on the left and only 1 on the right, so increasing the pressure shifts the equilibrium towards the side with fewer gas molecules. In practice a lower pressure is used because very high pressures require expensive, thick-walled equipment and large compression energy costs, and present a safety hazard.",
+    "explanation": "Unusually, this endothermic reaction wants a high temperature for yield, so temperature is not the compromise here — pressure is, on grounds of cost and safety. Read the sign of ΔH carefully before answering."
+  },
+  {
+    "id": "equilibrium_1-046",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "0.60 mol of ethanoic acid and 0.60 mol of ethanol are mixed and allowed to reach equilibrium at constant temperature in a total volume of 1.0 dm³.\n\nCH₃COOH(l) + C₂H₅OH(l) ⇌ CH₃COOC₂H₅(l) + H₂O(l)\n\nAt equilibrium, 0.40 mol of ethyl ethanoate has formed.\n\nCalculate the value of Kc for this equilibrium.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of acid and alcohol reacted = 0.40 mol each (1 : 1 : 1 : 1 ratio), and n(H₂O) formed = 0.40 mol",
+      "Equilibrium amounts: n(CH₃COOH) = n(C₂H₅OH) = 0.60 − 0.40 = 0.20 mol",
+      "Kc = [CH₃COOC₂H₅][H₂O] / ([CH₃COOH][C₂H₅OH]) = (0.40 × 0.40)/(0.20 × 0.20) = 0.16/0.040",
+      "Kc = 4.0, no units (equal concentration terms on top and bottom cancel)"
+    ],
+    "modelAnswer": "The reaction is 1 : 1 : 1 : 1, so forming 0.40 mol of ester uses 0.40 mol of acid and 0.40 mol of ethanol and also forms 0.40 mol of water. At equilibrium: n(CH₃COOH) = n(C₂H₅OH) = 0.60 − 0.40 = 0.20 mol. In 1.0 dm³ the concentrations equal these amounts. Kc = [CH₃COOC₂H₅][H₂O] / ([CH₃COOH][C₂H₅OH]) = (0.40 × 0.40)/(0.20 × 0.20) = 0.16/0.040 = 4.0. Kc has no units because the two concentration terms on the top cancel with the two on the bottom.",
+    "explanation": "A classic esterification Kc calculation: use the 1 : 1 stoichiometry to find all four equilibrium amounts, note that water is a product too, then substitute. With equal terms top and bottom, Kc is dimensionless."
+  }
+]

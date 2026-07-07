@@ -1,0 +1,842 @@
+[
+  {
+    "id": "acids_bases-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Which of the following is a weak acid in aqueous solution?",
+    "options": { "A": "HCl", "B": "HNO₃", "C": "CH₃COOH", "D": "H₂SO₄" },
+    "correctOption": "C",
+    "explanation": "A weak acid only partially dissociates in aqueous solution. Ethanoic acid, CH₃COOH, is the standard example of a weak acid at AS level; HCl, HNO₃ and H₂SO₄ are all strong acids that fully dissociate.",
+    "steps": [
+      "Step 1 – Recall the strong acids met at AS: HCl, H₂SO₄ and HNO₃ all dissociate completely in water.",
+      "Step 2 – A weak acid only partially dissociates: CH₃COOH ⇌ CH₃COO⁻ + H⁺.",
+      "Step 3 – Only ethanoic acid fits the definition of a weak acid.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Aqueous sodium hydroxide is neutralised by dilute nitric acid.\n\nWhat is the ionic equation for this neutralisation?",
+    "options": {
+      "A": "H⁺(aq) + OH⁻(aq) → H₂O(l)",
+      "B": "Na⁺(aq) + NO₃⁻(aq) → NaNO₃(aq)",
+      "C": "HNO₃(aq) + OH⁻(aq) → NO₃⁻(aq) + H₂O(l)",
+      "D": "Na⁺(aq) + OH⁻(aq) → NaOH(aq)"
+    },
+    "correctOption": "A",
+    "explanation": "Both NaOH and HNO₃ are fully dissociated in solution, so the only change is H⁺ combining with OH⁻ to form water. Na⁺ and NO₃⁻ are spectator ions and are omitted.",
+    "steps": [
+      "Step 1 – Write all fully dissociated species: H⁺, NO₃⁻, Na⁺ and OH⁻ are all present as aqueous ions.",
+      "Step 2 – Cancel the spectator ions Na⁺(aq) and NO₃⁻(aq), which appear unchanged on both sides.",
+      "Step 3 – The remaining change is H⁺(aq) + OH⁻(aq) → H₂O(l); option C wrongly leaves the strong acid undissociated.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "acids_bases-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "In a titration, 25.0 cm³ of 0.100 mol dm⁻³ NaOH(aq) is exactly neutralised by 20.0 cm³ of dilute hydrochloric acid.\n\nWhat is the concentration of the hydrochloric acid?",
+    "options": {
+      "A": "0.0800 mol dm⁻³",
+      "B": "0.100 mol dm⁻³",
+      "C": "0.125 mol dm⁻³",
+      "D": "0.250 mol dm⁻³"
+    },
+    "correctOption": "C",
+    "explanation": "Moles of NaOH = 0.0250 × 0.100 = 2.50 × 10⁻³ mol. HCl and NaOH react 1 : 1, so moles of HCl = 2.50 × 10⁻³ mol in 20.0 cm³, giving a concentration of 2.50 × 10⁻³ ÷ 0.0200 = 0.125 mol dm⁻³.",
+    "steps": [
+      "Step 1 – Moles of NaOH = 0.100 × (25.0 ÷ 1000) = 2.50 × 10⁻³ mol.",
+      "Step 2 – Equation: HCl + NaOH → NaCl + H₂O, a 1 : 1 ratio, so moles of HCl = 2.50 × 10⁻³ mol.",
+      "Step 3 – Concentration of HCl = 2.50 × 10⁻³ ÷ 0.0200 = 0.125 mol dm⁻³. Option A comes from dividing the wrong way round.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "25.0 cm³ of 0.0500 mol dm⁻³ sulfuric acid, H₂SO₄, is titrated against 0.100 mol dm⁻³ sodium hydroxide.\n\nWhat volume of the sodium hydroxide solution is needed for complete neutralisation?",
+    "options": { "A": "12.5 cm³", "B": "25.0 cm³", "C": "50.0 cm³", "D": "6.25 cm³" },
+    "correctOption": "B",
+    "explanation": "Moles of H₂SO₄ = 0.0250 × 0.0500 = 1.25 × 10⁻³ mol. The acid is diprotic, so moles of NaOH = 2 × 1.25 × 10⁻³ = 2.50 × 10⁻³ mol. Volume = 2.50 × 10⁻³ ÷ 0.100 = 0.0250 dm³ = 25.0 cm³.",
+    "steps": [
+      "Step 1 – Moles of H₂SO₄ = 0.0500 × (25.0 ÷ 1000) = 1.25 × 10⁻³ mol.",
+      "Step 2 – H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O, so moles of NaOH = 2 × 1.25 × 10⁻³ = 2.50 × 10⁻³ mol.",
+      "Step 3 – Volume of NaOH = 2.50 × 10⁻³ ÷ 0.100 = 0.0250 dm³ = 25.0 cm³. Option A forgets the acid is diprotic.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Calcium hydroxide is neutralised by dilute nitric acid.\n\nWhat is the formula of the salt formed?",
+    "options": { "A": "CaNO₃", "B": "Ca(NO₃)₂", "C": "Ca(NO₂)₂", "D": "Ca₂NO₃" },
+    "correctOption": "B",
+    "explanation": "Calcium forms Ca²⁺ ions and nitric acid provides NO₃⁻ ions. Two nitrate ions are needed to balance the 2+ charge, giving Ca(NO₃)₂.",
+    "steps": [
+      "Step 1 – Identify the ions: Ca²⁺ from calcium hydroxide and NO₃⁻ from nitric acid.",
+      "Step 2 – Balance the charges: one 2+ ion needs two 1− ions, so the formula is Ca(NO₃)₂.",
+      "Step 3 – Option C contains nitrite (NO₂⁻), which comes from nitrous acid, not nitric acid.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-006",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Dilute hydrochloric acid is added to solid sodium carbonate.\n\nWhich gas is produced?",
+    "options": { "A": "H₂", "B": "CO₂", "C": "O₂", "D": "SO₂" },
+    "correctOption": "B",
+    "explanation": "Acids react with carbonates to form a salt, water and carbon dioxide: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂. Hydrogen is only produced when acids react with metals.",
+    "steps": [
+      "Step 1 – Recall the general reaction: acid + carbonate → salt + water + carbon dioxide.",
+      "Step 2 – Write the equation: Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂.",
+      "Step 3 – H₂ would need a metal, not a carbonate; O₂ and SO₂ are not products of this reaction.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-007",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Separate solutions of hydrochloric acid and ethanoic acid are prepared, both with a concentration of 0.100 mol dm⁻³.\n\nWhich statement explains why the two solutions have different concentrations of H⁺(aq) ions?",
+    "options": {
+      "A": "Both acids are fully dissociated in solution",
+      "B": "The ethanoic acid is only partially dissociated in solution",
+      "C": "The hydrochloric acid is only partially dissociated in solution",
+      "D": "The ethanoic acid solution contains more H⁺(aq) ions than the hydrochloric acid solution"
+    },
+    "correctOption": "B",
+    "explanation": "Ethanoic acid is a weak acid, so only a small proportion of its molecules dissociate: CH₃COOH ⇌ CH₃COO⁻ + H⁺. Hydrochloric acid is strong and fully dissociates, so at equal concentrations HCl gives the higher H⁺(aq) concentration.",
+    "steps": [
+      "Step 1 – Classify the acids: HCl is a strong acid (complete dissociation); CH₃COOH is a weak acid (partial dissociation).",
+      "Step 2 – At equal concentrations the weak acid releases fewer H⁺(aq) ions, so the H⁺ concentrations differ.",
+      "Step 3 – A and C reverse the facts, and D states the comparison the wrong way round.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-008",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Which equation shows ammonia behaving as a weak base in water?",
+    "options": {
+      "A": "NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq)",
+      "B": "NH₃(aq) → NH₂⁻(aq) + H⁺(aq)",
+      "C": "NH₃(aq) + OH⁻(aq) → NH₂⁻(aq) + H₂O(l)",
+      "D": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g)"
+    },
+    "correctOption": "A",
+    "explanation": "A base accepts a proton. Ammonia accepts H⁺ from water to form NH₄⁺ and OH⁻, and the equilibrium arrow shows the reaction is incomplete, which is why ammonia is a weak base.",
+    "steps": [
+      "Step 1 – A base accepts a proton (H⁺); a weak base does so only partially, shown by ⇌.",
+      "Step 2 – In option A, NH₃ accepts H⁺ from H₂O to form NH₄⁺, releasing OH⁻ — base behaviour.",
+      "Step 3 – B and C show ammonia donating a proton (acting as an acid), and D is the Haber process, not acid–base chemistry.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "acids_bases-009",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student prepares a standard solution of sodium carbonate in a 250 cm³ volumetric flask.\n\nWhich sequence of steps is correct?",
+    "options": {
+      "A": "Weigh the solid into the flask, fill the flask to the top with water, shake",
+      "B": "Dissolve the solid in 250 cm³ of water in a beaker, then pour 250 cm³ into the flask",
+      "C": "Weigh the solid, dissolve it in a small volume of distilled water in a beaker, transfer with washings to the flask, make up to the mark, invert to mix",
+      "D": "Weigh the solid, add it directly to the flask, make up to the mark, then heat to dissolve"
+    },
+    "correctOption": "C",
+    "explanation": "The solid must be dissolved completely in a beaker first, then transferred quantitatively (with washings) into the volumetric flask, which is filled exactly to the graduation mark and inverted to mix.",
+    "steps": [
+      "Step 1 – The solid is dissolved in a small volume of distilled water in a beaker so complete dissolving can be checked.",
+      "Step 2 – The solution and all washings are transferred to the volumetric flask so no solute is lost.",
+      "Step 3 – The flask is made up to the mark (bottom of the meniscus on the line) and inverted to mix; A, B and D all give an inaccurate concentration.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-010",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Dilute nitric acid is added to aqueous potassium carbonate.\n\nWhat is the ionic equation for this reaction?",
+    "options": {
+      "A": "H⁺(aq) + CO₃²⁻(aq) → HCO₃⁻(aq)",
+      "B": "2H⁺(aq) + CO₃²⁻(aq) → H₂CO₃(aq)",
+      "C": "2H⁺(aq) + CO₃²⁻(aq) → H₂O(l) + CO₂(g)",
+      "D": "H⁺(aq) + CO₃²⁻(aq) → H₂O(l) + CO₂(g)"
+    },
+    "correctOption": "C",
+    "explanation": "Carbonate ions react with two H⁺ ions to form water and carbon dioxide. K⁺ and NO₃⁻ are spectator ions. Option D is not balanced for charge or hydrogen.",
+    "steps": [
+      "Step 1 – Acid + carbonate → salt + water + carbon dioxide; remove the spectator ions K⁺ and NO₃⁻.",
+      "Step 2 – Balance the hydrogens: CO₃²⁻ needs 2H⁺ to form one H₂O and release CO₂.",
+      "Step 3 – Check charges: left side 2(+) + 2(−) = 0, right side 0 — balanced. D has unequal charges and A stops at hydrogencarbonate.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-011",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student needs 250 cm³ of a 0.100 mol dm⁻³ standard solution of sodium carbonate, Na₂CO₃ (Mr = 106.0).\n\nWhat mass of sodium carbonate is required?",
+    "options": { "A": "1.06 g", "B": "2.65 g", "C": "10.6 g", "D": "26.5 g" },
+    "correctOption": "B",
+    "explanation": "Moles needed = 0.250 dm³ × 0.100 mol dm⁻³ = 0.0250 mol. Mass = 0.0250 × 106.0 = 2.65 g. Option C comes from using 1 dm³ instead of 250 cm³.",
+    "steps": [
+      "Step 1 – Convert the volume: 250 cm³ = 0.250 dm³.",
+      "Step 2 – Moles of Na₂CO₃ = 0.250 × 0.100 = 0.0250 mol.",
+      "Step 3 – Mass = moles × Mr = 0.0250 × 106.0 = 2.65 g.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-012",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Ammonia reacts with sulfuric acid to form the salt ammonium sulfate, (NH₄)₂SO₄.\n\nHow many moles of ammonia are needed to neutralise 0.50 mol of sulfuric acid completely?",
+    "options": { "A": "0.25 mol", "B": "0.50 mol", "C": "1.0 mol", "D": "2.0 mol" },
+    "correctOption": "C",
+    "explanation": "The equation is 2NH₃ + H₂SO₄ → (NH₄)₂SO₄, so two moles of ammonia are needed per mole of the diprotic acid: 2 × 0.50 = 1.0 mol.",
+    "steps": [
+      "Step 1 – Write the equation: 2NH₃ + H₂SO₄ → (NH₄)₂SO₄.",
+      "Step 2 – The ratio NH₃ : H₂SO₄ is 2 : 1 because sulfuric acid supplies two H⁺ ions.",
+      "Step 3 – Moles of NH₃ = 2 × 0.50 = 1.0 mol. Option A uses the 2 : 1 ratio upside down and B assumes 1 : 1.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-013",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "Before starting a titration, a student rinses the burette with the dilute hydrochloric acid that it will contain, rather than with distilled water only.\n\nWhat is the reason for this?",
+    "options": {
+      "A": "To remove grease from the inside of the burette",
+      "B": "To make the acid flow through the tap more quickly",
+      "C": "So that residual liquid in the burette does not change the concentration of the acid",
+      "D": "To warm the burette to room temperature before use"
+    },
+    "correctOption": "C",
+    "explanation": "Any water left in the burette would dilute the acid, lowering its concentration so that a larger titre would be needed. Rinsing with the acid itself means residual droplets have no effect on concentration.",
+    "steps": [
+      "Step 1 – After washing, droplets of water remain on the inside walls of the burette.",
+      "Step 2 – If the acid is then added, the water dilutes it, so its concentration is lower than the stated value and the titre becomes too large.",
+      "Step 3 – Rinsing with the acid replaces those droplets with acid of the correct concentration, so the titre is unaffected.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-014",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Ethanoic acid is neutralised by aqueous sodium hydroxide.\n\nWhat is the name of the salt formed?",
+    "options": {
+      "A": "Sodium ethanoate",
+      "B": "Sodium methanoate",
+      "C": "Sodium ethanedioate",
+      "D": "Sodium carbonate"
+    },
+    "correctOption": "A",
+    "explanation": "CH₃COOH + NaOH → CH₃COONa + H₂O. The salt of ethanoic acid is an ethanoate, so the product is sodium ethanoate.",
+    "steps": [
+      "Step 1 – In a neutralisation the H of the acid is replaced by the metal ion from the base.",
+      "Step 2 – CH₃COOH + NaOH → CH₃COONa + H₂O.",
+      "Step 3 – Salts of ethanoic acid are named ethanoates, so CH₃COONa is sodium ethanoate.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "acids_bases-015",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Which equation correctly represents the reaction of magnesium with dilute sulfuric acid?",
+    "options": {
+      "A": "Mg + H₂SO₄ → MgSO₄ + H₂",
+      "B": "Mg + H₂SO₄ → MgSO₄ + H₂O",
+      "C": "Mg + 2H₂SO₄ → Mg(SO₄)₂ + 2H₂",
+      "D": "Mg + H₂SO₄ → MgO + SO₂ + H₂O"
+    },
+    "correctOption": "A",
+    "explanation": "Acid + metal → salt + hydrogen. Magnesium forms Mg²⁺ and sulfate is SO₄²⁻, so the salt is MgSO₄ and hydrogen gas is released.",
+    "steps": [
+      "Step 1 – General reaction: acid + metal → salt + hydrogen, so H₂ must be a product (eliminates B and D).",
+      "Step 2 – The salt contains Mg²⁺ and SO₄²⁻ in a 1 : 1 ratio, so it is MgSO₄, not Mg(SO₄)₂.",
+      "Step 3 – Mg + H₂SO₄ → MgSO₄ + H₂ is fully balanced.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "acids_bases-016",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "In a titration, concordant titres are those that agree within 0.10 cm³.\n\nWhich pair of titres is concordant?",
+    "options": {
+      "A": "24.05 cm³ and 24.35 cm³",
+      "B": "23.40 cm³ and 23.50 cm³",
+      "C": "22.90 cm³ and 23.15 cm³",
+      "D": "25.00 cm³ and 25.25 cm³"
+    },
+    "correctOption": "B",
+    "explanation": "Concordant titres differ by no more than 0.10 cm³. Only 23.40 cm³ and 23.50 cm³ have a difference of exactly 0.10 cm³; the other pairs differ by 0.30, 0.25 and 0.25 cm³ respectively.",
+    "steps": [
+      "Step 1 – Find the difference for each pair: A = 0.30 cm³, B = 0.10 cm³, C = 0.25 cm³, D = 0.25 cm³.",
+      "Step 2 – Apply the criterion: concordant means within 0.10 cm³ of each other.",
+      "Step 3 – Only pair B meets the criterion.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-017",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "0.280 g of a Group 1 metal hydroxide, MOH, is exactly neutralised by 25.0 cm³ of 0.200 mol dm⁻³ hydrochloric acid.\n\nWhat is the identity of MOH?",
+    "options": { "A": "LiOH", "B": "NaOH", "C": "KOH", "D": "RbOH" },
+    "correctOption": "C",
+    "explanation": "Moles of HCl = 0.0250 × 0.200 = 5.00 × 10⁻³ mol. MOH + HCl → MCl + H₂O is 1 : 1, so moles of MOH = 5.00 × 10⁻³ mol and Mr = 0.280 ÷ 5.00 × 10⁻³ = 56.0, matching KOH (39.1 + 16.0 + 1.0 = 56.1).",
+    "steps": [
+      "Step 1 – Moles of HCl = 0.200 × (25.0 ÷ 1000) = 5.00 × 10⁻³ mol.",
+      "Step 2 – MOH + HCl → MCl + H₂O, a 1 : 1 ratio, so moles of MOH = 5.00 × 10⁻³ mol.",
+      "Step 3 – Mr of MOH = 0.280 ÷ (5.00 × 10⁻³) = 56.0; since OH contributes 17.0, Ar of M = 39.0, which is potassium.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "acids_bases-018",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Insoluble magnesium oxide reacts with dilute hydrochloric acid.\n\nWhat is the ionic equation for this reaction?",
+    "options": {
+      "A": "O²⁻(aq) + 2H⁺(aq) → H₂O(l)",
+      "B": "MgO(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂O(l)",
+      "C": "MgO(s) + H⁺(aq) → Mg²⁺(aq) + OH⁻(aq)",
+      "D": "MgO(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g)"
+    },
+    "correctOption": "B",
+    "explanation": "Because MgO is an insoluble solid, its full formula is kept in the ionic equation. Two H⁺ ions convert the oxide into water and release Mg²⁺ into solution. Chloride ions are spectators.",
+    "steps": [
+      "Step 1 – MgO is insoluble, so it is written as MgO(s), not as separate aqueous ions (eliminates A).",
+      "Step 2 – Acid + metal oxide → salt + water, so the products are Mg²⁺(aq) and H₂O(l), not H₂ (eliminates D).",
+      "Step 3 – Balance with 2H⁺: MgO(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂O(l); charges are 2+ on each side.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "acids_bases-019",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "State what is meant by an acid and explain what is meant by a strong acid.",
+    "marks": 2,
+    "markPoints": [
+      "An acid releases H⁺ ions / is a proton donor (in aqueous solution)",
+      "A strong acid completely / fully dissociates in aqueous solution"
+    ],
+    "modelAnswer": "An acid is a species that releases H⁺ ions (donates protons) in aqueous solution. A strong acid is one that dissociates completely in aqueous solution, so all of its molecules release their H⁺ ions.",
+    "explanation": "Two separate definitions are needed: acid = proton donor / releases H⁺, and strong = complete dissociation. Do not confuse 'strong' with 'concentrated', which describes the amount of acid per unit volume."
+  },
+  {
+    "id": "acids_bases-020",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Solutions of hydrochloric acid and ethanoic acid are prepared, both with a concentration of 0.100 mol dm⁻³.\n\nExplain why the concentration of H⁺(aq) ions is different in the two solutions.",
+    "marks": 3,
+    "markPoints": [
+      "HCl is a strong acid and fully / completely dissociates in aqueous solution",
+      "CH₃COOH is a weak acid and only partially dissociates in aqueous solution",
+      "So the concentration of H⁺(aq) is (much) lower in the ethanoic acid solution (than in the hydrochloric acid solution)"
+    ],
+    "modelAnswer": "Hydrochloric acid is a strong acid, so it dissociates completely: every HCl molecule releases an H⁺ ion. Ethanoic acid is a weak acid, so it only partially dissociates: CH₃COOH ⇌ CH₃COO⁻ + H⁺. Therefore, at the same concentration, the ethanoic acid solution contains a much lower concentration of H⁺(aq) ions.",
+    "explanation": "Compare degree of dissociation, not amount of acid. The concentrations of the acids are equal; it is the fraction of molecules that dissociate that differs, which determines the H⁺(aq) concentration."
+  },
+  {
+    "id": "acids_bases-021",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Write equations to show the dissociation of hydrochloric acid and of ethanoic acid in aqueous solution. Use the appropriate arrow in each equation.",
+    "marks": 2,
+    "markPoints": [
+      "HCl → H⁺ + Cl⁻ (full arrow, complete dissociation)",
+      "CH₃COOH ⇌ CH₃COO⁻ + H⁺ (equilibrium arrow required)"
+    ],
+    "modelAnswer": "HCl → H⁺ + Cl⁻ (complete dissociation, so a full arrow is used). CH₃COOH ⇌ CH₃COO⁻ + H⁺ (partial dissociation, so the equilibrium arrow ⇌ is used).",
+    "explanation": "The arrows carry the marks: a strong acid dissociates completely (→) while a weak acid sets up an equilibrium (⇌) that lies well to the left. Using → for ethanoic acid loses the mark."
+  },
+  {
+    "id": "acids_bases-022",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Aqueous sodium hydroxide is neutralised by dilute nitric acid.\n\nWrite the full equation and the ionic equation for this reaction, including state symbols.",
+    "marks": 3,
+    "markPoints": [
+      "NaOH + HNO₃ → NaNO₃ + H₂O correctly balanced",
+      "Ionic equation: H⁺ + OH⁻ → H₂O (spectator ions Na⁺ and NO₃⁻ omitted)",
+      "Correct state symbols throughout: NaOH(aq) + HNO₃(aq) → NaNO₃(aq) + H₂O(l) and H⁺(aq) + OH⁻(aq) → H₂O(l)"
+    ],
+    "modelAnswer": "Full equation: NaOH(aq) + HNO₃(aq) → NaNO₃(aq) + H₂O(l). Ionic equation: H⁺(aq) + OH⁻(aq) → H₂O(l). Na⁺ and NO₃⁻ are spectator ions and are left out of the ionic equation.",
+    "explanation": "Every neutralisation of a strong acid by a strong alkali has the same ionic equation, H⁺(aq) + OH⁻(aq) → H₂O(l), because both are fully dissociated and the salt stays in solution as spectator ions."
+  },
+  {
+    "id": "acids_bases-023",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Solid calcium carbonate reacts with dilute hydrochloric acid.\n\nWrite the equation for this reaction, including state symbols, and state one observation.",
+    "marks": 3,
+    "markPoints": [
+      "CaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂ correctly balanced",
+      "Correct state symbols: CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)",
+      "Observation: effervescence / bubbles of gas OR the solid disappears / dissolves"
+    ],
+    "modelAnswer": "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g). Effervescence is seen as carbon dioxide gas is released and the white solid disappears.",
+    "explanation": "Acid + carbonate → salt + water + carbon dioxide. The 2HCl coefficient is essential for balancing, and the observation must be something visible: bubbles or the solid disappearing."
+  },
+  {
+    "id": "acids_bases-024",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Dilute sulfuric acid is added to aqueous sodium carbonate.\n\nWrite the ionic equation for this reaction, including state symbols. Ignore spectator ions.",
+    "marks": 2,
+    "markPoints": [
+      "2H⁺ + CO₃²⁻ → H₂O + CO₂ correctly balanced",
+      "Correct state symbols: 2H⁺(aq) + CO₃²⁻(aq) → H₂O(l) + CO₂(g)"
+    ],
+    "modelAnswer": "2H⁺(aq) + CO₃²⁻(aq) → H₂O(l) + CO₂(g). The Na⁺ and SO₄²⁻ ions are spectators and are omitted.",
+    "explanation": "Because sodium carbonate is soluble, the carbonate is written as the free CO₃²⁻(aq) ion. Two H⁺ ions are needed to balance the two hydrogens in water and the 2− charge on carbonate."
+  },
+  {
+    "id": "acids_bases-025",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Ammonia dissolves in water to form a weakly alkaline solution.\n\nWrite an equation for the reaction of ammonia with water and explain why ammonia is described as a weak base.",
+    "marks": 3,
+    "markPoints": [
+      "NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ with the equilibrium arrow",
+      "Ammonia accepts a proton / H⁺ (from water), which is base behaviour",
+      "Only a small proportion of the NH₃ molecules react / the equilibrium lies well to the left, so the OH⁻ concentration is low"
+    ],
+    "modelAnswer": "NH₃(aq) + H₂O(l) ⇌ NH₄⁺(aq) + OH⁻(aq). Ammonia acts as a base by accepting a proton from water. It is a weak base because only a small proportion of the ammonia molecules react — the equilibrium lies well to the left — so the concentration of OH⁻(aq) is low.",
+    "explanation": "'Weak' always refers to the extent of reaction, not the amount dissolved. The ⇌ arrow is essential, and the explanation must link partial reaction to a low OH⁻ concentration."
+  },
+  {
+    "id": "acids_bases-026",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student is asked to prepare 250 cm³ of a standard solution of sodium carbonate from the solid.\n\nDescribe how the student should prepare this solution.",
+    "marks": 5,
+    "markPoints": [
+      "Weigh the required mass of sodium carbonate accurately (e.g. using a balance reading to 2 decimal places / weighing by difference)",
+      "Dissolve the solid completely in a small volume of distilled water in a beaker, stirring",
+      "Transfer the solution to a 250 cm³ volumetric flask, rinsing the beaker (and stirring rod) and adding the washings to the flask",
+      "Add distilled water up to the graduation mark, with the bottom of the meniscus on the line (viewed at eye level)",
+      "Stopper the flask and invert (several times) to mix"
+    ],
+    "modelAnswer": "Accurately weigh the required mass of sodium carbonate using a 2-decimal-place balance. Dissolve the solid completely in a small volume of distilled water in a beaker, stirring. Transfer the solution into a 250 cm³ volumetric flask, rinsing the beaker and stirring rod with distilled water and adding all the washings to the flask. Add distilled water until the bottom of the meniscus sits exactly on the graduation mark, viewed at eye level. Stopper the flask and invert it several times to mix the solution thoroughly.",
+    "explanation": "The five classic marking points for a standard solution are: accurate weighing, dissolving in a beaker first, quantitative transfer with washings, making up to the mark using the bottom of the meniscus, and inverting to mix. Missing the washings or the meniscus detail loses marks."
+  },
+  {
+    "id": "acids_bases-027",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student carries out a titration to find the concentration of a solution of sodium hydroxide using a standard solution of hydrochloric acid.\n\nDescribe the procedure the student should follow to obtain reliable titration results.",
+    "marks": 4,
+    "markPoints": [
+      "Use a (25.0 cm³) pipette to transfer the sodium hydroxide into a conical flask and add a few drops of indicator",
+      "Fill the burette with the hydrochloric acid (after rinsing it with the acid) and record the initial reading",
+      "Add the acid from the burette with swirling, adding dropwise near the end point until the indicator just changes colour, then record the final reading",
+      "Repeat the titration until (two) concordant titres are obtained (within 0.10 cm³ of each other)"
+    ],
+    "modelAnswer": "Use a pipette to transfer 25.0 cm³ of the sodium hydroxide solution into a conical flask and add a few drops of indicator. Fill the burette with the hydrochloric acid, having first rinsed it with the acid, and record the initial burette reading. Run the acid into the flask with constant swirling, adding it dropwise near the end point, until the indicator just changes colour; record the final burette reading. Repeat the titration until two concordant titres, agreeing within 0.10 cm³, are obtained.",
+    "explanation": "Titration method marks come from the correct use of pipette and burette, dropwise addition with swirling near the end point, and repeating to concordancy. The first (rough) titration is used to locate the approximate end point."
+  },
+  {
+    "id": "acids_bases-028",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "In a titration, 25.0 cm³ of sodium hydroxide solution is exactly neutralised by 22.5 cm³ of 0.100 mol dm⁻³ hydrochloric acid.\n\nHCl + NaOH → NaCl + H₂O\n\nCalculate the concentration, in mol dm⁻³, of the sodium hydroxide solution. Give your answer to 3 significant figures.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of HCl = 0.100 × (22.5 ÷ 1000) = 2.25 × 10⁻³ mol",
+      "1 : 1 mole ratio, so moles of NaOH = 2.25 × 10⁻³ mol",
+      "Concentration = 2.25 × 10⁻³ ÷ (25.0 ÷ 1000)",
+      "= 0.0900 mol dm⁻³ (3 significant figures, with units)"
+    ],
+    "modelAnswer": "Moles of HCl = 0.100 × 0.0225 = 2.25 × 10⁻³ mol. The equation shows a 1 : 1 ratio, so moles of NaOH = 2.25 × 10⁻³ mol. Concentration of NaOH = 2.25 × 10⁻³ ÷ 0.0250 = 0.0900 mol dm⁻³.",
+    "explanation": "The three-step titration routine: moles of the known solution (n = c × V in dm³), apply the mole ratio from the equation, then divide by the volume of the unknown solution. Keep the trailing zero in 0.0900 for 3 significant figures."
+  },
+  {
+    "id": "acids_bases-029",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "25.0 cm³ of dilute sulfuric acid is exactly neutralised by 30.0 cm³ of 0.200 mol dm⁻³ sodium hydroxide.\n\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nCalculate the concentration, in mol dm⁻³, of the sulfuric acid.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of NaOH = 0.200 × (30.0 ÷ 1000) = 6.00 × 10⁻³ mol",
+      "Mole ratio H₂SO₄ : NaOH = 1 : 2, so moles of H₂SO₄ = 6.00 × 10⁻³ ÷ 2 = 3.00 × 10⁻³ mol",
+      "Concentration = 3.00 × 10⁻³ ÷ (25.0 ÷ 1000)",
+      "= 0.120 mol dm⁻³ (with units)"
+    ],
+    "modelAnswer": "Moles of NaOH = 0.200 × 0.0300 = 6.00 × 10⁻³ mol. From the equation, 1 mol of H₂SO₄ reacts with 2 mol of NaOH, so moles of H₂SO₄ = 6.00 × 10⁻³ ÷ 2 = 3.00 × 10⁻³ mol. Concentration of H₂SO₄ = 3.00 × 10⁻³ ÷ 0.0250 = 0.120 mol dm⁻³.",
+    "explanation": "The commonest error is applying the 2 : 1 ratio the wrong way. Sulfuric acid is diprotic, so fewer moles of acid are needed than of alkali — divide the NaOH moles by 2."
+  },
+  {
+    "id": "acids_bases-030",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "A student dissolves 1.26 g of a diprotic acid, H₂X, in distilled water and makes the solution up to 250 cm³ in a volumetric flask. In a titration, 25.0 cm³ of this solution requires 20.0 cm³ of 0.100 mol dm⁻³ sodium hydroxide for complete neutralisation.\n\nH₂X + 2NaOH → Na₂X + 2H₂O\n\nCalculate the relative molecular mass, Mr, of the acid H₂X.",
+    "marks": 5,
+    "markPoints": [
+      "Moles of NaOH = 0.100 × (20.0 ÷ 1000) = 2.00 × 10⁻³ mol",
+      "Mole ratio H₂X : NaOH = 1 : 2, so moles of H₂X in 25.0 cm³ = 1.00 × 10⁻³ mol",
+      "Moles of H₂X in 250 cm³ = 1.00 × 10⁻³ × 10 = 1.00 × 10⁻² mol",
+      "Mr = mass ÷ moles = 1.26 ÷ 0.0100",
+      "= 126 (g mol⁻¹)"
+    ],
+    "modelAnswer": "Moles of NaOH = 0.100 × 0.0200 = 2.00 × 10⁻³ mol. The acid is diprotic, so moles of H₂X in 25.0 cm³ = 2.00 × 10⁻³ ÷ 2 = 1.00 × 10⁻³ mol. The 25.0 cm³ portion is one tenth of the 250 cm³ solution, so moles of H₂X in the whole flask = 1.00 × 10⁻² mol. Mr = 1.26 ÷ 0.0100 = 126.",
+    "explanation": "Two traps: the 1 : 2 ratio for the diprotic acid, and the ×10 scale-up from the 25.0 cm³ portion to the whole 250 cm³ flask. Mr = 126 corresponds to hydrated ethanedioic acid, H₂C₂O₄·2H₂O."
+  },
+  {
+    "id": "acids_bases-031",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "A 1.50 g sample of impure sodium carbonate, Na₂CO₃ (Mr = 106.0), is dissolved in distilled water and made up to 250 cm³ in a volumetric flask. A 25.0 cm³ portion of this solution is exactly neutralised by 25.0 cm³ of 0.100 mol dm⁻³ hydrochloric acid.\n\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\n\nCalculate the percentage purity by mass of the sodium carbonate sample. Assume that the impurities do not react with hydrochloric acid. Give your answer to 3 significant figures.",
+    "marks": 6,
+    "markPoints": [
+      "Moles of HCl = 0.100 × (25.0 ÷ 1000) = 2.50 × 10⁻³ mol",
+      "Mole ratio Na₂CO₃ : HCl = 1 : 2, so moles of Na₂CO₃ in 25.0 cm³ = 1.25 × 10⁻³ mol",
+      "Moles of Na₂CO₃ in 250 cm³ = 1.25 × 10⁻³ × 10 = 0.0125 mol",
+      "Mass of Na₂CO₃ = 0.0125 × 106.0 = 1.325 g",
+      "Percentage purity = (1.325 ÷ 1.50) × 100",
+      "= 88.3 % (3 significant figures)"
+    ],
+    "modelAnswer": "Moles of HCl = 0.100 × 0.0250 = 2.50 × 10⁻³ mol. From the 1 : 2 ratio, moles of Na₂CO₃ in the 25.0 cm³ portion = 2.50 × 10⁻³ ÷ 2 = 1.25 × 10⁻³ mol. Scaling up to the whole 250 cm³ solution gives 1.25 × 10⁻³ × 10 = 0.0125 mol. Mass of pure Na₂CO₃ = 0.0125 × 106.0 = 1.325 g. Percentage purity = (1.325 ÷ 1.50) × 100 = 88.3 %.",
+    "explanation": "Work backwards from the titre: moles of acid → moles of carbonate in the portion (÷2) → moles in the flask (×10) → mass of pure carbonate → percentage of the original impure mass. Keeping unrounded values until the final step protects the 3-significant-figure answer."
+  },
+  {
+    "id": "acids_bases-032",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Potassium hydroxide reacts separately with dilute sulfuric acid and with dilute nitric acid.\n\nName the salt formed in each reaction.",
+    "marks": 2,
+    "markPoints": [
+      "With sulfuric acid: potassium sulfate",
+      "With nitric acid: potassium nitrate"
+    ],
+    "modelAnswer": "With dilute sulfuric acid the salt formed is potassium sulfate, K₂SO₄. With dilute nitric acid the salt formed is potassium nitrate, KNO₃.",
+    "explanation": "The salt name comes from the metal in the base and the acid used: sulfuric acid gives sulfates and nitric acid gives nitrates. Hydrochloric acid would give chlorides."
+  },
+  {
+    "id": "acids_bases-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Magnesium reacts with dilute hydrochloric acid.\n\nWrite the full equation and the ionic equation for this reaction, and identify the spectator ion.",
+    "marks": 3,
+    "markPoints": [
+      "Mg + 2HCl → MgCl₂ + H₂ correctly balanced",
+      "Ionic equation: Mg + 2H⁺ → Mg²⁺ + H₂",
+      "Spectator ion identified as Cl⁻ (chloride)"
+    ],
+    "modelAnswer": "Full equation: Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g). Ionic equation: Mg(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂(g). The spectator ion is the chloride ion, Cl⁻, which is unchanged in the reaction.",
+    "explanation": "In any metal + acid ionic equation the anion of the acid is the spectator ion. Check the charge balance: 2+ on the left (2H⁺) equals 2+ on the right (Mg²⁺)."
+  },
+  {
+    "id": "acids_bases-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Sulfuric acid is described as a diprotic acid.\n\nExplain what is meant by diprotic and write the equation for the complete neutralisation of sulfuric acid by sodium hydroxide.",
+    "marks": 2,
+    "markPoints": [
+      "Each molecule of the acid can release / donate two H⁺ ions (protons)",
+      "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O"
+    ],
+    "modelAnswer": "A diprotic acid is one in which each molecule can release two H⁺ ions (donate two protons). Complete neutralisation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O.",
+    "explanation": "'Diprotic' describes the number of replaceable hydrogens per molecule, so two moles of NaOH are needed per mole of H₂SO₄. The balanced equation must show 2NaOH and 2H₂O."
+  },
+  {
+    "id": "acids_bases-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Ammonia solution is neutralised by dilute hydrochloric acid.\n\nWrite the equation for this reaction and explain why no water is formed.",
+    "marks": 2,
+    "markPoints": [
+      "NH₃ + HCl → NH₄Cl",
+      "Ammonia contains no OH⁻ / the H⁺ is transferred directly to the NH₃ molecule (forming NH₄⁺), so no water is produced"
+    ],
+    "modelAnswer": "NH₃(aq) + HCl(aq) → NH₄Cl(aq). No water is formed because ammonia is a base that does not contain hydroxide ions: the H⁺ from the acid is transferred directly to the NH₃ molecule to form the ammonium ion, NH₄⁺.",
+    "explanation": "Ammonia neutralisations are the exception to 'acid + base → salt + water'. The proton adds straight onto the lone pair of NH₃, giving only the ammonium salt."
+  },
+  {
+    "id": "acids_bases-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student repeats a titration several times.\n\nState what is meant by concordant titres and explain why the student repeats the titration until concordant titres are obtained.",
+    "marks": 2,
+    "markPoints": [
+      "Concordant titres agree within 0.10 cm³ of each other",
+      "Concordant titres are averaged to give a reliable mean titre / to reduce the effect of random error"
+    ],
+    "modelAnswer": "Concordant titres are titres that agree within 0.10 cm³ of each other. The student repeats the titration until concordant titres are obtained so that only reliable, repeatable values are used to calculate the mean titre, reducing the effect of random error.",
+    "explanation": "The 0.10 cm³ criterion is the standard OCR definition. The rough titration and any anomalous titres are excluded — only concordant values go into the mean."
+  },
+  {
+    "id": "acids_bases-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "Before a titration, a student rinses the conical flask with distilled water but rinses the burette with the acid it will contain.\n\nExplain why rinsing the conical flask with distilled water does not affect the titre, but rinsing the burette with distilled water would.",
+    "marks": 2,
+    "markPoints": [
+      "Water in the conical flask does not change the number of moles of alkali added (from the pipette), so the titre is unaffected",
+      "Water left in the burette would dilute the acid / lower its concentration, so a larger titre would be needed"
+    ],
+    "modelAnswer": "The titre depends on the number of moles of alkali in the conical flask, which is fixed by the pipette; adding distilled water only dilutes the solution without changing the moles, so the titre is unaffected. Water left in the burette, however, would dilute the acid and lower its concentration, so more acid would be needed and the titre would be too large.",
+    "explanation": "Moles versus concentration: the flask reaction depends on moles of alkali (unchanged by water), whereas the burette calculation depends on the acid's concentration (changed by water)."
+  },
+  {
+    "id": "acids_bases-038",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student dissolves 5.30 g of sodium carbonate, Na₂CO₃ (Mr = 106.0), in distilled water and makes the solution up to 250 cm³ in a volumetric flask.\n\nCalculate the concentration, in mol dm⁻³, of the solution.",
+    "marks": 2,
+    "markPoints": [
+      "Moles of Na₂CO₃ = 5.30 ÷ 106.0 = 0.0500 mol",
+      "Concentration = 0.0500 ÷ 0.250 = 0.200 mol dm⁻³"
+    ],
+    "modelAnswer": "Moles of Na₂CO₃ = 5.30 ÷ 106.0 = 0.0500 mol. Concentration = 0.0500 ÷ 0.250 = 0.200 mol dm⁻³.",
+    "explanation": "n = m ÷ Mr, then c = n ÷ V with the volume converted to dm³ (250 cm³ = 0.250 dm³). Forgetting the volume conversion gives an answer 1000 times too small."
+  },
+  {
+    "id": "acids_bases-039",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(d)",
+    "question": "A student dilutes 25.0 cm³ of 2.00 mol dm⁻³ hydrochloric acid with distilled water to a total volume of 500 cm³ in a volumetric flask.\n\nCalculate the concentration, in mol dm⁻³, of the diluted hydrochloric acid.",
+    "marks": 3,
+    "markPoints": [
+      "Moles of HCl = 2.00 × (25.0 ÷ 1000) = 0.0500 mol",
+      "Moles are unchanged on dilution; new volume = 500 cm³ = 0.500 dm³",
+      "Concentration = 0.0500 ÷ 0.500 = 0.100 mol dm⁻³"
+    ],
+    "modelAnswer": "Moles of HCl in the original sample = 2.00 × 0.0250 = 0.0500 mol. Dilution does not change the number of moles, so the diluted concentration = 0.0500 ÷ 0.500 = 0.100 mol dm⁻³.",
+    "explanation": "In any dilution the moles of solute stay the same — only the volume changes. Calculate the moles from the concentrated solution, then divide by the new total volume in dm³."
+  },
+  {
+    "id": "acids_bases-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Black copper(II) oxide is warmed with dilute sulfuric acid.\n\nWrite the equation for this reaction and describe two observations that would be made.",
+    "marks": 3,
+    "markPoints": [
+      "CuO + H₂SO₄ → CuSO₄ + H₂O",
+      "The black solid dissolves / disappears",
+      "A blue solution forms"
+    ],
+    "modelAnswer": "CuO(s) + H₂SO₄(aq) → CuSO₄(aq) + H₂O(l). The black solid dissolves and disappears, and the colourless solution turns blue as copper(II) sulfate forms.",
+    "explanation": "Acid + metal oxide → salt + water; there is no effervescence because no gas is produced. The blue colour of aqueous Cu²⁺ is the key observation."
+  },
+  {
+    "id": "acids_bases-041",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Insoluble magnesium oxide neutralises dilute hydrochloric acid.\n\nWrite the ionic equation for this reaction, including state symbols. Ignore spectator ions.",
+    "marks": 2,
+    "markPoints": [
+      "MgO + 2H⁺ → Mg²⁺ + H₂O correctly balanced, keeping MgO as the full formula (because it is insoluble)",
+      "Correct state symbols: MgO(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂O(l)"
+    ],
+    "modelAnswer": "MgO(s) + 2H⁺(aq) → Mg²⁺(aq) + H₂O(l). Because magnesium oxide is insoluble it is kept as its full formula rather than being split into ions; the chloride ions are spectators.",
+    "explanation": "Only species that are fully dissociated in solution are written as ions. Insoluble solids such as MgO keep their full formula with the (s) state symbol."
+  },
+  {
+    "id": "acids_bases-042",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "Separate samples of magnesium ribbon are added to hydrochloric acid and to ethanoic acid. Both acids have a concentration of 1.00 mol dm⁻³ and the same volume is used each time.\n\nState which acid reacts faster with the magnesium and explain your answer.",
+    "marks": 3,
+    "markPoints": [
+      "The hydrochloric acid reacts faster",
+      "HCl is a strong acid / fully dissociated, so it has a higher concentration of H⁺(aq)",
+      "CH₃COOH is a weak acid / only partially dissociated, so it has a lower concentration of H⁺(aq) and the rate is slower"
+    ],
+    "modelAnswer": "The hydrochloric acid reacts faster. HCl is a strong acid that dissociates completely, so its solution has a much higher concentration of H⁺(aq) ions. Ethanoic acid is a weak acid that only partially dissociates, so its H⁺(aq) concentration is much lower and the reaction with magnesium is slower.",
+    "explanation": "The rate depends on the H⁺(aq) concentration, not on the stated acid concentration. Both acids would eventually give the same volume of hydrogen if magnesium is in excess of neither, because the total moles of acid are equal."
+  },
+  {
+    "id": "acids_bases-043",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "A student dissolves 1.38 g of a Group 1 metal carbonate, M₂CO₃, in distilled water and makes the solution up to 250 cm³. A 25.0 cm³ portion of this solution is exactly neutralised by 20.0 cm³ of 0.100 mol dm⁻³ hydrochloric acid.\n\nM₂CO₃ + 2HCl → 2MCl + H₂O + CO₂\n\nCalculate the relative formula mass of M₂CO₃ and hence identify the metal M. (Ar: C = 12.0, O = 16.0)",
+    "marks": 5,
+    "markPoints": [
+      "Moles of HCl = 0.100 × (20.0 ÷ 1000) = 2.00 × 10⁻³ mol",
+      "Mole ratio M₂CO₃ : HCl = 1 : 2, so moles of M₂CO₃ in 25.0 cm³ = 1.00 × 10⁻³ mol",
+      "Moles of M₂CO₃ in 250 cm³ = 1.00 × 10⁻³ × 10 = 0.0100 mol",
+      "Mr = 1.38 ÷ 0.0100 = 138",
+      "Ar of M = (138 − 60.0) ÷ 2 = 39.0, so M is potassium (the carbonate is K₂CO₃)"
+    ],
+    "modelAnswer": "Moles of HCl = 0.100 × 0.0200 = 2.00 × 10⁻³ mol. From the 1 : 2 ratio, moles of M₂CO₃ in 25.0 cm³ = 1.00 × 10⁻³ mol, so the whole 250 cm³ contains 0.0100 mol. Mr of M₂CO₃ = 1.38 ÷ 0.0100 = 138. The CO₃ group contributes 60.0, so 2 × Ar(M) = 78.0 and Ar(M) = 39.0. M is potassium, so the carbonate is K₂CO₃.",
+    "explanation": "After finding Mr, subtract the mass of the carbonate group (12.0 + 3 × 16.0 = 60.0) and divide by 2 because the formula contains two metal atoms. Ar = 39.0 identifies potassium."
+  },
+  {
+    "id": "acids_bases-044",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(a)",
+    "question": "Give the formulae of the following: nitric acid, sulfuric acid, potassium hydroxide and ammonia.",
+    "marks": 2,
+    "markPoints": [
+      "Nitric acid HNO₃ AND sulfuric acid H₂SO₄",
+      "Potassium hydroxide KOH AND ammonia NH₃"
+    ],
+    "modelAnswer": "Nitric acid: HNO₃. Sulfuric acid: H₂SO₄. Potassium hydroxide: KOH. Ammonia: NH₃.",
+    "explanation": "These are the common acids and bases required by the specification: HCl, H₂SO₄, HNO₃ and CH₃COOH as acids; NaOH, KOH, NH₃ and metal oxides/carbonates as bases."
+  },
+  {
+    "id": "acids_bases-045",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Dilute sulfuric acid is neutralised by aqueous sodium hydroxide.\n\nState what is meant by neutralisation and name the salt formed in this reaction.",
+    "marks": 2,
+    "markPoints": [
+      "Neutralisation is the reaction of an acid with a base / of H⁺ with OH⁻ to form water (and a salt)",
+      "The salt is sodium sulfate (Na₂SO₄)"
+    ],
+    "modelAnswer": "Neutralisation is the reaction between an acid and a base in which H⁺ ions react with OH⁻ ions to form water, producing a salt. The salt formed here is sodium sulfate, Na₂SO₄.",
+    "explanation": "At AS, neutralisation is defined in terms of H⁺ + OH⁻ → H₂O. The salt takes its cation from the base (sodium) and its anion from the acid (sulfate)."
+  },
+  {
+    "id": "acids_bases-046",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(c)",
+    "question": "Write the balanced equation for the complete neutralisation of dilute sulfuric acid by potassium hydroxide.",
+    "marks": 2,
+    "markPoints": [
+      "Correct formulae for all species: KOH, H₂SO₄, K₂SO₄ and H₂O",
+      "Correctly balanced: 2KOH + H₂SO₄ → K₂SO₄ + 2H₂O"
+    ],
+    "modelAnswer": "2KOH + H₂SO₄ → K₂SO₄ + 2H₂O.",
+    "explanation": "Sulfuric acid is diprotic, so two moles of KOH are needed. The salt is K₂SO₄ because two K⁺ ions balance one SO₄²⁻ ion, and two waters are produced."
+  },
+  {
+    "id": "acids_bases-047",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(e)",
+    "question": "25.0 cm³ of 0.0600 mol dm⁻³ sodium carbonate solution is titrated with 0.150 mol dm⁻³ hydrochloric acid.\n\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\n\nCalculate the volume, in cm³, of hydrochloric acid needed for complete reaction.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of Na₂CO₃ = 0.0600 × (25.0 ÷ 1000) = 1.50 × 10⁻³ mol",
+      "Mole ratio Na₂CO₃ : HCl = 1 : 2, so moles of HCl = 3.00 × 10⁻³ mol",
+      "Volume of HCl = 3.00 × 10⁻³ ÷ 0.150 = 0.0200 dm³",
+      "= 20.0 cm³"
+    ],
+    "modelAnswer": "Moles of Na₂CO₃ = 0.0600 × 0.0250 = 1.50 × 10⁻³ mol. From the equation, moles of HCl = 2 × 1.50 × 10⁻³ = 3.00 × 10⁻³ mol. Volume of HCl = 3.00 × 10⁻³ ÷ 0.150 = 0.0200 dm³ = 20.0 cm³.",
+    "explanation": "This is the forward direction of a titration calculation: moles of the known solution, ×2 for the carbonate : acid ratio, then V = n ÷ c and convert dm³ to cm³."
+  },
+  {
+    "id": "acids_bases-048",
+    "type": "written",
+    "module": 2,
+    "topic": "Acids & Bases",
+    "specRef": "2.1.4(b)",
+    "question": "A bottle is labelled 'dilute ethanoic acid'. A student says the acid is both weak and dilute.\n\nExplain the difference between the terms weak and dilute when applied to an acid.",
+    "marks": 2,
+    "markPoints": [
+      "Weak refers to the extent of dissociation: a weak acid only partially dissociates (into ions) in aqueous solution",
+      "Dilute refers to the amount of acid: a dilute solution contains a small number of moles of acid per dm³ / a low concentration"
+    ],
+    "modelAnswer": "Weak describes the degree of dissociation: a weak acid only partially dissociates into ions in aqueous solution. Dilute describes the concentration: a dilute acid contains a small amount (few moles) of the acid per cubic decimetre of solution. An acid can therefore be weak and concentrated, or strong and dilute.",
+    "explanation": "Strong/weak is about dissociation; concentrated/dilute is about moles per unit volume. The two scales are independent — examiners reward answers that keep them clearly separate."
+  }
+]

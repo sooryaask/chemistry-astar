@@ -1,0 +1,732 @@
+[
+  {
+    "id": "moles_2-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(a)",
+    "question": "How many ions, in total, are present in 0.500 mol of calcium chloride, CaCl₂?\n\n(Avogadro constant, Nₐ = 6.02 × 10²³ mol⁻¹)",
+    "options": {
+      "A": "3.01 × 10²³",
+      "B": "6.02 × 10²³",
+      "C": "9.03 × 10²³",
+      "D": "1.20 × 10²⁴"
+    },
+    "correctOption": "C",
+    "explanation": "Each formula unit of CaCl₂ contains three ions (one Ca²⁺ and two Cl⁻), so 0.500 mol of CaCl₂ contains 1.50 mol of ions, which is 1.50 × 6.02 × 10²³ = 9.03 × 10²³ ions.",
+    "steps": [
+      "Step 1 – CaCl₂ dissociates into 1 Ca²⁺ and 2 Cl⁻, so each formula unit gives 3 ions.",
+      "Step 2 – Moles of ions = 0.500 × 3 = 1.50 mol.",
+      "Step 3 – Number of ions = 1.50 × 6.02 × 10²³ = 9.03 × 10²³. A forgets the factor of 3; B counts formula units only; D uses a factor of 4.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "moles_2-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(a)",
+    "question": "Which sample contains the greatest number of molecules?\n\n(Ar: H = 1.0, C = 12.0, N = 14.0, O = 16.0)",
+    "options": {
+      "A": "4.0 g of H₂",
+      "B": "44 g of CO₂",
+      "C": "32 g of O₂",
+      "D": "28 g of N₂"
+    },
+    "correctOption": "A",
+    "explanation": "Number of molecules depends only on the amount in moles, n = m/Mr. 4.0 g of H₂ is 4.0/2.0 = 2.0 mol, whereas B, C and D are each exactly 1.0 mol, so the hydrogen sample contains twice as many molecules.",
+    "steps": [
+      "Step 1 – Calculate moles of each: H₂ = 4.0/2.0 = 2.0 mol; CO₂ = 44/44.0 = 1.0 mol; O₂ = 32/32.0 = 1.0 mol; N₂ = 28/28.0 = 1.0 mol.",
+      "Step 2 – More moles means more molecules, regardless of the mass of each molecule.",
+      "Step 3 – 2.0 mol > 1.0 mol, so the H₂ sample has the most molecules.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "moles_2-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "25.0 cm³ of 0.400 mol dm⁻³ sodium hydroxide solution is transferred to a 250 cm³ volumetric flask and made up to the mark with distilled water.\n\nWhat is the concentration of the diluted solution?",
+    "options": {
+      "A": "0.00400 mol dm⁻³",
+      "B": "0.400 mol dm⁻³",
+      "C": "4.00 mol dm⁻³",
+      "D": "0.0400 mol dm⁻³"
+    },
+    "correctOption": "D",
+    "explanation": "Diluting 25.0 cm³ to 250 cm³ is a 10-fold dilution, so the concentration falls by a factor of 10: 0.400 ÷ 10 = 0.0400 mol dm⁻³. The moles of NaOH are unchanged; only the volume increases.",
+    "steps": [
+      "Step 1 – Moles of NaOH taken = 0.400 × 25.0/1000 = 0.0100 mol.",
+      "Step 2 – New volume = 250 cm³ = 0.250 dm³.",
+      "Step 3 – New concentration = 0.0100 ÷ 0.250 = 0.0400 mol dm⁻³ (a 10× dilution). A divides by 100; C multiplies instead of dividing.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "moles_2-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "What volume is occupied by 0.250 mol of nitrogen gas at room temperature and pressure?\n\n(1 mol of gas occupies 24.0 dm³ at RTP)",
+    "options": {
+      "A": "6.00 dm³",
+      "B": "600 dm³",
+      "C": "96.0 dm³",
+      "D": "60.0 cm³"
+    },
+    "correctOption": "A",
+    "explanation": "Volume = n × 24.0 dm³ = 0.250 × 24.0 = 6.00 dm³. Dividing 24.0 by 0.250 (option C) or slipping a factor of ten in the unit conversion (options B and D) are common errors.",
+    "steps": [
+      "Step 1 – At RTP, V = n × 24.0 dm³ mol⁻¹.",
+      "Step 2 – V = 0.250 × 24.0 = 6.00 dm³.",
+      "Step 3 – C comes from 24.0 ÷ 0.250 (dividing the wrong way); B and D are powers-of-ten errors.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "moles_2-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "A 480 cm³ sample of a gas at room temperature and pressure has a mass of 0.88 g.\n\nWhat could the gas be?\n\n(1 mol of gas occupies 24.0 dm³ at RTP; Ar: H = 1.0, C = 12.0, O = 16.0, S = 32.1)",
+    "options": {
+      "A": "CO",
+      "B": "C₂H₆",
+      "C": "CO₂",
+      "D": "SO₂"
+    },
+    "correctOption": "C",
+    "explanation": "Moles of gas = 0.480/24.0 = 0.020 mol, so Mr = 0.88/0.020 = 44. Of the options, only CO₂ has Mr = 44.0.",
+    "steps": [
+      "Step 1 – Convert the volume: 480 cm³ = 0.480 dm³, so n = 0.480 ÷ 24.0 = 0.020 mol.",
+      "Step 2 – Mr = mass ÷ moles = 0.88 ÷ 0.020 = 44.",
+      "Step 3 – Compare with the options: CO = 28.0, C₂H₆ = 30.0, CO₂ = 44.0, SO₂ = 64.1. Only CO₂ matches.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "moles_2-006",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(a)",
+    "question": "How many atoms, in total, are present in 0.100 mol of ammonia, NH₃?\n\n(Avogadro constant, Nₐ = 6.02 × 10²³ mol⁻¹)",
+    "options": {
+      "A": "6.02 × 10²²",
+      "B": "1.81 × 10²³",
+      "C": "2.41 × 10²³",
+      "D": "6.02 × 10²³"
+    },
+    "correctOption": "C",
+    "explanation": "Each NH₃ molecule contains 4 atoms (1 N + 3 H), so 0.100 mol of NH₃ contains 0.400 mol of atoms = 0.400 × 6.02 × 10²³ = 2.41 × 10²³ atoms.",
+    "steps": [
+      "Step 1 – One NH₃ molecule contains 1 nitrogen atom and 3 hydrogen atoms = 4 atoms.",
+      "Step 2 – Moles of atoms = 0.100 × 4 = 0.400 mol.",
+      "Step 3 – Number of atoms = 0.400 × 6.02 × 10²³ = 2.41 × 10²³. A counts molecules only; B counts hydrogen atoms only; D forgets the 0.100 mol.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "moles_2-007",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "A 2.46 g sample of hydrated magnesium sulfate, MgSO₄·xH₂O, is heated to constant mass, leaving 1.20 g of anhydrous MgSO₄.\n\nWhat is the value of x?\n\n(Mr: MgSO₄ = 120.4, H₂O = 18.0)",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correctOption": "D",
+    "explanation": "Moles of MgSO₄ = 1.20/120.4 = 0.00997 mol; mass of water lost = 2.46 − 1.20 = 1.26 g, so moles of H₂O = 1.26/18.0 = 0.0700 mol. The ratio 0.0700/0.00997 ≈ 7, so x = 7.",
+    "steps": [
+      "Step 1 – Moles of anhydrous MgSO₄ = 1.20 ÷ 120.4 = 0.00997 mol.",
+      "Step 2 – Mass of water driven off = 2.46 − 1.20 = 1.26 g, so moles of H₂O = 1.26 ÷ 18.0 = 0.0700 mol.",
+      "Step 3 – x = 0.0700 ÷ 0.00997 = 7.0. Options A–C come from arithmetic slips in the water mass or ratio.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "moles_2-008",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(g)",
+    "question": "Chloroethane, C₂H₅Cl, can be made by several routes.\n\nWhich reaction has an atom economy of 100% for the formation of chloroethane?",
+    "options": {
+      "A": "C₂H₄ + HCl → C₂H₅Cl",
+      "B": "C₂H₆ + Cl₂ → C₂H₅Cl + HCl",
+      "C": "C₂H₅OH + PCl₅ → C₂H₅Cl + POCl₃ + HCl",
+      "D": "C₂H₅OH + HCl → C₂H₅Cl + H₂O"
+    },
+    "correctOption": "A",
+    "explanation": "Atom economy is 100% only when the desired product is the sole product, so every atom of the reactants ends up in the product. Only the addition reaction in A produces chloroethane and nothing else.",
+    "steps": [
+      "Step 1 – Atom economy = (Mr of desired product ÷ sum of Mr of all products) × 100.",
+      "Step 2 – For 100% atom economy there must be no by-products: the equation must have a single product.",
+      "Step 3 – B, C and D all form by-products (HCl, POCl₃, H₂O), so their atom economies are below 100%. Only A is an addition reaction with one product.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "moles_2-009",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "What is the total amount, in mol, of ions in 100 cm³ of 0.200 mol dm⁻³ aluminium sulfate, Al₂(SO₄)₃(aq)?",
+    "options": {
+      "A": "0.0200",
+      "B": "0.0400",
+      "C": "0.0600",
+      "D": "0.100"
+    },
+    "correctOption": "D",
+    "explanation": "Moles of Al₂(SO₄)₃ = 0.200 × 0.100 = 0.0200 mol. Each formula unit dissociates into 2 Al³⁺ and 3 SO₄²⁻ = 5 ions, so total ions = 5 × 0.0200 = 0.100 mol.",
+    "steps": [
+      "Step 1 – n(Al₂(SO₄)₃) = 0.200 mol dm⁻³ × 100/1000 dm³ = 0.0200 mol.",
+      "Step 2 – Al₂(SO₄)₃ → 2Al³⁺ + 3SO₄²⁻, so each mole of the salt gives 5 mol of ions.",
+      "Step 3 – Total ions = 0.0200 × 5 = 0.100 mol. A counts formula units; B counts only Al³⁺; C counts only SO₄²⁻.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "moles_2-010",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "A student needs 250 cm³ of 0.150 mol dm⁻³ sodium hydroxide solution, NaOH(aq).\n\nCalculate the mass of sodium hydroxide the student must dissolve.\n\n(Mr: NaOH = 40.0)",
+    "marks": 2,
+    "markPoints": [
+      "Moles of NaOH = 0.150 × 250/1000 = 0.0375 mol",
+      "Mass = 0.0375 × 40.0 = 1.50 g"
+    ],
+    "modelAnswer": "n(NaOH) = c × V = 0.150 × 0.250 = 0.0375 mol. Mass = n × Mr = 0.0375 × 40.0 = 1.50 g.",
+    "explanation": "Always convert cm³ to dm³ before using n = cV. Forgetting the ÷1000 gives 37.5 mol and a mass of 1500 g, which should ring alarm bells as an unreasonable answer."
+  },
+  {
+    "id": "moles_2-011",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "A student is given a weighed sample of anhydrous sodium carbonate.\n\nDescribe how the student should prepare exactly 250 cm³ of a standard solution of sodium carbonate from this solid.",
+    "marks": 3,
+    "markPoints": [
+      "Dissolve the solid completely in distilled (deionised) water in a beaker",
+      "Transfer the solution to a 250 cm³ volumetric flask, rinsing the beaker (and stirring rod) with distilled water and adding all the washings to the flask",
+      "Make up to the graduation mark with distilled water (bottom of the meniscus on the mark, viewed at eye level), stopper and invert several times to mix"
+    ],
+    "modelAnswer": "Dissolve the weighed solid in distilled water in a beaker, stirring until it has all dissolved. Pour the solution through a funnel into a 250 cm³ volumetric flask, then rinse the beaker and stirring rod with distilled water and add the washings to the flask so no solute is lost. Add distilled water until the bottom of the meniscus sits exactly on the graduation mark at eye level, then stopper the flask and invert it several times to mix.",
+    "explanation": "The three classic marking points for a standard solution are: dissolve fully, transfer with washings, and make up to the mark then mix. The washings step is the one most often missed — without it some solute stays in the beaker and the concentration is lower than intended."
+  },
+  {
+    "id": "moles_2-012",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "A 4.99 g sample of hydrated copper(II) sulfate, CuSO₄·xH₂O, is heated to constant mass. The mass of the anhydrous copper(II) sulfate remaining is 3.19 g.\n\nCalculate the value of x. Show your working.\n\n(Mr: CuSO₄ = 159.6, H₂O = 18.0)",
+    "marks": 4,
+    "markPoints": [
+      "Moles of anhydrous CuSO₄ = 3.19/159.6 = 0.0200 mol",
+      "Mass of water lost = 4.99 − 3.19 = 1.80 g",
+      "Moles of H₂O = 1.80/18.0 = 0.100 mol",
+      "Ratio H₂O : CuSO₄ = 0.100 : 0.0200 = 5 : 1, so x = 5"
+    ],
+    "modelAnswer": "n(CuSO₄) = 3.19 ÷ 159.6 = 0.0200 mol. Mass of water = 4.99 − 3.19 = 1.80 g, so n(H₂O) = 1.80 ÷ 18.0 = 0.100 mol. Ratio of H₂O to CuSO₄ = 0.100 ÷ 0.0200 = 5, so x = 5 and the formula is CuSO₄·5H₂O.",
+    "explanation": "Water-of-crystallisation questions always follow the same four steps: moles of anhydrous salt, mass of water lost, moles of water, then the ratio. The ratio must be water : salt (not salt : water) — inverting it is the standard error."
+  },
+  {
+    "id": "moles_2-013",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "A student heats a sample of a hydrated salt in a crucible to remove the water of crystallisation.\n\nExplain what is meant by heating 'to constant mass' and why this is necessary.",
+    "marks": 2,
+    "markPoints": [
+      "Heat, cool and reweigh repeatedly until (two) successive masses are the same / the mass no longer changes",
+      "This ensures all the water of crystallisation has been removed (so the moles of water calculated are not too low)"
+    ],
+    "modelAnswer": "The student should heat the crucible, allow it to cool and reweigh it, repeating until two consecutive masses are identical. A constant mass shows that all the water of crystallisation has been driven off; if heating stopped too early, some water would remain and the calculated value of x would be too small.",
+    "explanation": "'Constant mass' is a reliability check: while water is still being lost, each reweighing gives a smaller mass. Only when the mass stops changing can you be sure the dehydration is complete."
+  },
+  {
+    "id": "moles_2-014",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "A 2.00 g sample of impure calcium carbonate, CaCO₃, is added to 50.0 cm³ of 1.00 mol dm⁻³ hydrochloric acid, an excess. When the reaction is complete, the excess acid requires exactly 24.0 cm³ of 0.500 mol dm⁻³ sodium hydroxide for neutralisation.\n\nCaCO₃ + 2HCl → CaCl₂ + H₂O + CO₂\n\nCalculate the percentage purity of the calcium carbonate sample. Assume the impurities do not react with the acid.\n\n(Mr: CaCO₃ = 100.1)",
+    "marks": 5,
+    "markPoints": [
+      "Moles of NaOH used = 0.500 × 24.0/1000 = 0.0120 mol, so moles of excess HCl = 0.0120 mol",
+      "Initial moles of HCl = 1.00 × 50.0/1000 = 0.0500 mol",
+      "Moles of HCl that reacted with CaCO₃ = 0.0500 − 0.0120 = 0.0380 mol",
+      "Moles of CaCO₃ = 0.0380/2 = 0.0190 mol, so mass of CaCO₃ = 0.0190 × 100.1 = 1.90 g",
+      "Percentage purity = 1.90/2.00 × 100 = 95.1% (allow 95.0–95.1%)"
+    ],
+    "modelAnswer": "n(NaOH) = 0.500 × 0.0240 = 0.0120 mol = n(excess HCl) since HCl + NaOH react 1 : 1. Initial n(HCl) = 1.00 × 0.0500 = 0.0500 mol, so n(HCl) reacted = 0.0500 − 0.0120 = 0.0380 mol. From the 1 : 2 ratio, n(CaCO₃) = 0.0380 ÷ 2 = 0.0190 mol, giving mass = 0.0190 × 100.1 = 1.90 g. Percentage purity = (1.90 ÷ 2.00) × 100 = 95.1%.",
+    "explanation": "This is a classic back-titration: the acid is deliberately in excess, the leftover acid is titrated, and subtraction gives the acid that actually reacted with the solid. The 2 : 1 HCl : CaCO₃ ratio and the final subtraction are where marks are usually lost."
+  },
+  {
+    "id": "moles_2-015",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "A student needs to prepare 250 cm³ of 0.0800 mol dm⁻³ hydrochloric acid by diluting a stock solution of 2.00 mol dm⁻³ hydrochloric acid.\n\nCalculate the volume of the stock solution required and describe how the student should carry out the dilution accurately.",
+    "marks": 3,
+    "markPoints": [
+      "Moles of HCl required = 0.0800 × 250/1000 = 0.0200 mol",
+      "Volume of stock solution = 0.0200/2.00 = 0.0100 dm³ = 10.0 cm³",
+      "Measure 10.0 cm³ with a (volumetric) pipette or burette into a 250 cm³ volumetric flask, make up to the mark with distilled water and invert to mix"
+    ],
+    "modelAnswer": "n(HCl) needed = 0.0800 × 0.250 = 0.0200 mol. Volume of 2.00 mol dm⁻³ stock = 0.0200 ÷ 2.00 = 0.0100 dm³ = 10.0 cm³. The student should measure exactly 10.0 cm³ of the stock solution using a pipette (or burette), transfer it to a 250 cm³ volumetric flask, add distilled water up to the graduation mark with the bottom of the meniscus on the mark, then stopper and invert to mix.",
+    "explanation": "Dilution questions combine n = cV twice: the moles are fixed, so c₁V₁ = c₂V₂. Accuracy demands a pipette or burette for the small volume (a measuring cylinder loses the accuracy mark) and a volumetric flask for the final volume."
+  },
+  {
+    "id": "moles_2-016",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(a)",
+    "question": "State what is meant by the Avogadro constant.\n\nCalculate the number of formula units in 0.250 mol of sodium chloride, NaCl.\n\n(Avogadro constant, Nₐ = 6.02 × 10²³ mol⁻¹)",
+    "marks": 2,
+    "markPoints": [
+      "The Avogadro constant is the number of particles (atoms/molecules/ions/formula units) in one mole of a substance, 6.02 × 10²³ mol⁻¹",
+      "Number of formula units = 0.250 × 6.02 × 10²³ = 1.51 × 10²³"
+    ],
+    "modelAnswer": "The Avogadro constant is the number of particles per mole of a substance: 6.02 × 10²³ mol⁻¹. Number of NaCl formula units = 0.250 × 6.02 × 10²³ = 1.51 × 10²³.",
+    "explanation": "The definition must link 'number of particles' to 'per mole'. Multiplying the amount in moles by Nₐ converts moles into an actual particle count."
+  },
+  {
+    "id": "moles_2-017",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "Zinc reacts with dilute hydrochloric acid:\n\nZn + 2HCl → ZnCl₂ + H₂\n\nA 3.27 g sample of zinc reacts completely with an excess of the acid at room temperature and pressure.\n\nCalculate the volume of hydrogen gas produced, in dm³, and the mass of zinc chloride formed.\n\n(Ar: Zn = 65.4, Cl = 35.5; 1 mol of gas occupies 24.0 dm³ at RTP)",
+    "marks": 4,
+    "markPoints": [
+      "Moles of Zn = 3.27/65.4 = 0.0500 mol",
+      "Moles of H₂ = moles of Zn = 0.0500 mol (1 : 1 ratio)",
+      "Volume of H₂ = 0.0500 × 24.0 = 1.20 dm³",
+      "Mass of ZnCl₂ = 0.0500 × 136.4 = 6.82 g"
+    ],
+    "modelAnswer": "n(Zn) = 3.27 ÷ 65.4 = 0.0500 mol. From the equation, n(H₂) = n(Zn) = 0.0500 mol, so V(H₂) = 0.0500 × 24.0 = 1.20 dm³. Mr(ZnCl₂) = 65.4 + (2 × 35.5) = 136.4, so mass of ZnCl₂ = 0.0500 × 136.4 = 6.82 g.",
+    "explanation": "A combined reacting-mass and gas-volume calculation: moles of the solid first, then use the 1 : 1 : 1 stoichiometry for both products. Remember to build Mr(ZnCl₂) from the Ar values given — using 101 (Zn + Cl) instead of 136.4 (Zn + 2Cl) is a common slip."
+  },
+  {
+    "id": "moles_2-018",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(g)",
+    "question": "Ethanol can be manufactured by two routes:\n\nRoute 1: hydration of ethene — C₂H₄ + H₂O → C₂H₅OH\nRoute 2: fermentation of glucose — C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂\n\nCalculate the atom economy of each route for the production of ethanol and state which route is more efficient in terms of atom economy.\n\n(Mr: C₂H₅OH = 46.0, C₆H₁₂O₆ = 180.0, CO₂ = 44.0)",
+    "marks": 3,
+    "markPoints": [
+      "Route 1 atom economy = 100% because ethanol is the only product",
+      "Route 2 atom economy = (2 × 46.0)/180.0 × 100 = 92.0/180.0 × 100",
+      "= 51.1%, so Route 1 is more efficient (higher atom economy / no waste product)"
+    ],
+    "modelAnswer": "Route 1 has an atom economy of 100% because ethanol is the only product, so every atom of the reactants ends up in the desired product. Route 2: atom economy = (2 × 46.0) ÷ 180.0 × 100 = 92.0 ÷ 180.0 × 100 = 51.1%, because CO₂ is a waste product. Route 1 is therefore more efficient in terms of atom economy.",
+    "explanation": "Atom economy uses the masses in the balanced equation, not experimental masses. Include the stoichiometric coefficient (2 × 46.0 for the two moles of ethanol) — forgetting it halves the answer to 25.6%."
+  },
+  {
+    "id": "moles_2-019",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "Calculate the volume, in cm³, occupied by 0.0200 mol of an ideal gas at 350 K and 100 kPa.\n\n(R = 8.314 J mol⁻¹ K⁻¹)",
+    "marks": 2,
+    "markPoints": [
+      "V = nRT/p = (0.0200 × 8.314 × 350)/100 000 = 5.82 × 10⁻⁴ m³",
+      "= 582 cm³ (conversion of m³ to cm³, ×10⁶)"
+    ],
+    "modelAnswer": "pV = nRT, so V = nRT ÷ p = (0.0200 × 8.314 × 350) ÷ 100 000 = 5.82 × 10⁻⁴ m³. Converting to cm³: 5.82 × 10⁻⁴ × 10⁶ = 582 cm³.",
+    "explanation": "With R = 8.314, the equation only works in SI units: pressure in Pa (100 kPa = 100 000 Pa) and volume in m³. The final ×10⁶ conversion from m³ to cm³ carries its own mark."
+  },
+  {
+    "id": "moles_2-020",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "A student vaporises 0.320 g of a gas. The vapour occupies 249 cm³ at 100 kPa and 300 K.\n\nCalculate the molar mass of the gas and suggest its identity.\n\n(R = 8.314 J mol⁻¹ K⁻¹)",
+    "marks": 3,
+    "markPoints": [
+      "n = pV/RT = (100 000 × 2.49 × 10⁻⁴)/(8.314 × 300) = 9.98 × 10⁻³ mol",
+      "Molar mass = 0.320/9.98 × 10⁻³ = 32.1 g mol⁻¹",
+      "Gas could be O₂ (Mr = 32.0)"
+    ],
+    "modelAnswer": "Convert the volume: 249 cm³ = 2.49 × 10⁻⁴ m³. n = pV ÷ RT = (100 000 × 2.49 × 10⁻⁴) ÷ (8.314 × 300) = 9.98 × 10⁻³ mol. Molar mass = mass ÷ n = 0.320 ÷ 9.98 × 10⁻³ = 32.1 g mol⁻¹, so the gas is likely to be oxygen, O₂.",
+    "explanation": "Determining Mr from the ideal gas equation is a two-step problem: find n from pV = nRT (in SI units), then divide mass by n. The volume conversion cm³ → m³ is ÷10⁶ — the most common source of error."
+  },
+  {
+    "id": "moles_2-021",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(a)",
+    "question": "A sealed flask contains 0.0250 mol of carbon dioxide, CO₂.\n\nCalculate the number of CO₂ molecules in the flask and the number of oxygen atoms.\n\n(Avogadro constant, Nₐ = 6.02 × 10²³ mol⁻¹)",
+    "marks": 2,
+    "markPoints": [
+      "Molecules of CO₂ = 0.0250 × 6.02 × 10²³ = 1.51 × 10²²",
+      "Oxygen atoms = 2 × 1.51 × 10²² = 3.01 × 10²²"
+    ],
+    "modelAnswer": "Number of CO₂ molecules = 0.0250 × 6.02 × 10²³ = 1.51 × 10²². Each molecule contains two oxygen atoms, so number of O atoms = 2 × 1.51 × 10²² = 3.01 × 10²².",
+    "explanation": "Convert moles to particles with Nₐ, then use the formula to scale from molecules to atoms of a particular element — here the subscript 2 in CO₂ doubles the count."
+  },
+  {
+    "id": "moles_2-022",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "A 25.0 cm³ sample of sodium carbonate solution reacts exactly with 22.5 cm³ of 0.200 mol dm⁻³ hydrochloric acid:\n\nNa₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂\n\nCalculate the concentration of the sodium carbonate solution in mol dm⁻³ and in g dm⁻³.\n\n(Mr: Na₂CO₃ = 106.0)",
+    "marks": 4,
+    "markPoints": [
+      "Moles of HCl = 0.200 × 22.5/1000 = 4.50 × 10⁻³ mol",
+      "Moles of Na₂CO₃ = 4.50 × 10⁻³/2 = 2.25 × 10⁻³ mol (2 : 1 ratio)",
+      "Concentration = 2.25 × 10⁻³/(25.0/1000) = 0.0900 mol dm⁻³",
+      "Concentration in g dm⁻³ = 0.0900 × 106.0 = 9.54 g dm⁻³"
+    ],
+    "modelAnswer": "n(HCl) = 0.200 × 0.0225 = 4.50 × 10⁻³ mol. From the equation, n(Na₂CO₃) = 4.50 × 10⁻³ ÷ 2 = 2.25 × 10⁻³ mol. Concentration = 2.25 × 10⁻³ ÷ 0.0250 = 0.0900 mol dm⁻³. In g dm⁻³: 0.0900 × 106.0 = 9.54 g dm⁻³.",
+    "explanation": "Titration calculations follow the fixed pattern: moles of the known solution, apply the mole ratio, divide by the volume of the unknown. Converting mol dm⁻³ to g dm⁻³ is simply multiplying by the molar mass."
+  },
+  {
+    "id": "moles_2-023",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "A student prepares 250 cm³ of a 0.100 mol dm⁻³ standard solution of sodium carbonate using hydrated sodium carbonate crystals, Na₂CO₃·10H₂O.\n\nCalculate the mass of Na₂CO₃·10H₂O the student must weigh out.\n\n(Mr: Na₂CO₃ = 106.0, H₂O = 18.0)",
+    "marks": 3,
+    "markPoints": [
+      "Moles required = 0.100 × 250/1000 = 0.0250 mol",
+      "Mr of Na₂CO₃·10H₂O = 106.0 + (10 × 18.0) = 286.0",
+      "Mass = 0.0250 × 286.0 = 7.15 g"
+    ],
+    "modelAnswer": "n(Na₂CO₃) needed = 0.100 × 0.250 = 0.0250 mol. Because the solid is hydrated, the molar mass used must be that of Na₂CO₃·10H₂O = 106.0 + 180.0 = 286.0 g mol⁻¹. Mass = 0.0250 × 286.0 = 7.15 g.",
+    "explanation": "The trap is using Mr = 106.0 (anhydrous), which gives 2.65 g. When a hydrated solid is weighed out, the water of crystallisation is part of the mass on the balance, so the hydrated Mr must be used."
+  },
+  {
+    "id": "moles_2-024",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "A student reacts a metal carbonate with dilute acid in a conical flask and collects the carbon dioxide produced in a gas syringe. The volume of gas collected is slightly less than the volume calculated from the balanced equation.\n\nSuggest two reasons for this difference, other than measurement error or an impure sample.",
+    "marks": 2,
+    "markPoints": [
+      "Some gas escapes from the flask before the bung/syringe is connected",
+      "Some CO₂ dissolves in the (aqueous) reaction mixture"
+    ],
+    "modelAnswer": "Some carbon dioxide escapes from the flask in the moment between adding the acid and fitting the bung, and some carbon dioxide dissolves in the aqueous solution instead of being collected in the syringe.",
+    "explanation": "These two are the standard evaluation points for gas-collection practicals with CO₂: loss before sealing the apparatus and the appreciable solubility of CO₂ in water both reduce the measured volume."
+  },
+  {
+    "id": "moles_2-025",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "25.0 cm³ of sulfuric acid, H₂SO₄, reacts exactly with 20.0 cm³ of 0.300 mol dm⁻³ sodium hydroxide solution.\n\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nWhat is the concentration of the sulfuric acid?",
+    "options": {
+      "A": "0.0600 mol dm⁻³",
+      "B": "0.120 mol dm⁻³",
+      "C": "0.240 mol dm⁻³",
+      "D": "0.300 mol dm⁻³"
+    },
+    "correctOption": "B",
+    "explanation": "n(NaOH) = 0.300 × 0.0200 = 6.00 × 10⁻³ mol. The mole ratio H₂SO₄ : NaOH is 1 : 2, so n(H₂SO₄) = 6.00 × 10⁻³ ÷ 2 = 3.00 × 10⁻³ mol. Concentration of H₂SO₄ = 3.00 × 10⁻³ ÷ 0.0250 = 0.120 mol dm⁻³. Option A (0.0600) results from halving the answer a second time; C ignores the mole ratio entirely; D just copies the NaOH concentration.",
+    "steps": [
+      "Step 1 – n(NaOH) = 0.300 × 20.0/1000 = 6.00 × 10⁻³ mol.",
+      "Step 2 – From the 1 : 2 mole ratio, n(H₂SO₄) = 6.00 × 10⁻³ ÷ 2 = 3.00 × 10⁻³ mol.",
+      "Step 3 – c(H₂SO₄) = 3.00 × 10⁻³ ÷ 0.0250 = 0.120 mol dm⁻³. A halves the answer again unnecessarily; C ignores the ratio; D just copies the NaOH concentration.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "moles_2-026",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(g)",
+    "question": "A reaction produces 4.80 g of product. The theoretical yield is 8.00 g.\n\nWhat is the percentage yield?",
+    "options": {
+      "A": "40.0%",
+      "B": "50.0%",
+      "C": "60.0%",
+      "D": "66.7%"
+    },
+    "correctOption": "C",
+    "explanation": "Percentage yield = (actual yield ÷ theoretical yield) × 100 = (4.80 ÷ 8.00) × 100 = 60.0%. Option A (40.0%) comes from dividing 8 − 4.8 by 12; option B (50.0%) halves incorrectly; option D (66.7%) inverts the ratio.",
+    "steps": [
+      "Step 1 – Percentage yield = (actual yield / theoretical yield) × 100.",
+      "Step 2 – = (4.80 / 8.00) × 100 = 0.600 × 100 = 60.0%.",
+      "Step 3 – A = (3.20/8.00)×100; D = (8.00/4.80)×100 — both are incorrect operations.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "moles_2-027",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(b)",
+    "question": "A compound contains 40.0% carbon, 6.67% hydrogen and 53.3% oxygen by mass.\n\nWhat is its empirical formula?\n\n(Ar: H = 1.00, C = 12.0, O = 16.0)",
+    "options": {
+      "A": "CH₂O",
+      "B": "C₂H₄O₂",
+      "C": "CHO",
+      "D": "C₂H₄O"
+    },
+    "correctOption": "A",
+    "explanation": "Divide each percentage by the relevant Ar: C = 40.0/12.0 = 3.33; H = 6.67/1.00 = 6.67; O = 53.3/16.0 = 3.33. Dividing by the smallest (3.33): C : H : O = 1 : 2 : 1, giving empirical formula CH₂O.",
+    "steps": [
+      "Step 1 – Mole ratios: C = 40.0/12.0 = 3.33, H = 6.67/1.00 = 6.67, O = 53.3/16.0 = 3.33.",
+      "Step 2 – Divide by smallest (3.33): C : H : O = 1.00 : 2.00 : 1.00.",
+      "Step 3 – Empirical formula = CH₂O. B is the molecular formula of the same compound; C and D are wrong ratios.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "moles_2-028",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "A fixed amount of an ideal gas at 27 °C and 200 kPa is heated to 127 °C at constant volume.\n\nWhat is the new pressure?",
+    "options": {
+      "A": "267 kPa",
+      "B": "400 kPa",
+      "C": "851 kPa",
+      "D": "200 kPa"
+    },
+    "correctOption": "A",
+    "explanation": "At constant volume and fixed amount, p/T = constant (Gay-Lussac's law, derived from pV = nRT). T₁ = 300 K, T₂ = 400 K, p₁ = 200 kPa. p₂ = 200 × 400/300 = 267 kPa.",
+    "steps": [
+      "Step 1 – Convert temperatures to kelvin: T₁ = 27 + 273 = 300 K; T₂ = 127 + 273 = 400 K.",
+      "Step 2 – At constant V and n: p₁/T₁ = p₂/T₂, so p₂ = 200 × 400/300 = 267 kPa.",
+      "Step 3 – B incorrectly uses the ratio 400/200; C uses °C in the calculation; D wrongly assumes pressure stays constant.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "moles_2-029",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "10.0 cm³ of a 1.00 mol dm⁻³ solution is diluted to 1000 cm³.\n\nThe diluted solution is then further diluted: 10.0 cm³ of it is taken and diluted to 1000 cm³.\n\nWhat is the final concentration?",
+    "options": {
+      "A": "1.00 × 10⁻² mol dm⁻³",
+      "B": "1.00 × 10⁻³ mol dm⁻³",
+      "C": "1.00 × 10⁻⁴ mol dm⁻³",
+      "D": "1.00 × 10⁻⁵ mol dm⁻³"
+    },
+    "correctOption": "C",
+    "explanation": "Each dilution step is 10.0/1000 = 100-fold (×10⁻²). Two serial dilutions: 1.00 × (10⁻²) × (10⁻²) = 1.00 × 10⁻⁴ mol dm⁻³.",
+    "steps": [
+      "Step 1 – First dilution factor = 10.0 cm³ / 1000 cm³ = 10⁻² (100-fold dilution). c₁ = 1.00 × 10⁻² mol dm⁻³.",
+      "Step 2 – Second dilution factor = 10.0/1000 = 10⁻² again. c₂ = 1.00 × 10⁻² × 10⁻² = 1.00 × 10⁻⁴ mol dm⁻³.",
+      "Step 3 – A is after one dilution only; B uses a 10-fold factor per step; D applies a 1000-fold factor per step.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "moles_2-030",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "A student titrates 25.0 cm³ of sulfuric acid against 0.0500 mol dm⁻³ sodium hydroxide solution. The mean titre is 18.4 cm³.\n\nH₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O\n\nCalculate the concentration of the sulfuric acid in mol dm⁻³.",
+    "marks": 3,
+    "markPoints": [
+      "Moles of NaOH = 0.0500 × 18.4/1000 = 9.20 × 10⁻⁴ mol",
+      "Moles of H₂SO₄ = 9.20 × 10⁻⁴ / 2 = 4.60 × 10⁻⁴ mol (1 : 2 mole ratio)",
+      "Concentration of H₂SO₄ = 4.60 × 10⁻⁴ / (25.0/1000) = 0.0184 mol dm⁻³"
+    ],
+    "modelAnswer": "n(NaOH) = 0.0500 × 0.0184 = 9.20 × 10⁻⁴ mol. From the equation, the ratio H₂SO₄ : NaOH = 1 : 2, so n(H₂SO₄) = 9.20 × 10⁻⁴ ÷ 2 = 4.60 × 10⁻⁴ mol. c(H₂SO₄) = 4.60 × 10⁻⁴ ÷ 0.0250 = 0.0184 mol dm⁻³.",
+    "explanation": "The 1 : 2 mole ratio between H₂SO₄ and NaOH is the critical step. Using a 1 : 1 ratio doubles the answer to 0.0368 mol dm⁻³ — the most common error in diprotic acid titrations."
+  },
+  {
+    "id": "moles_2-031",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "Ethanedioic acid (oxalic acid), H₂C₂O₄, is a diprotic acid. A 1.40 g sample of impure oxalic acid is dissolved in water and made up to 250 cm³. A 25.0 cm³ aliquot of this solution requires 21.0 cm³ of 0.100 mol dm⁻³ sodium hydroxide solution for complete neutralisation.\n\nH₂C₂O₄ + 2NaOH → Na₂C₂O₄ + 2H₂O\n\nCalculate the percentage purity of the sample.\n\n(Mr: H₂C₂O₄ = 90.0)",
+    "marks": 5,
+    "markPoints": [
+      "Moles of NaOH = 0.100 × 21.0/1000 = 2.10 × 10⁻³ mol",
+      "Moles of H₂C₂O₄ in aliquot = 2.10 × 10⁻³ / 2 = 1.05 × 10⁻³ mol (1 : 2 mole ratio)",
+      "Moles of H₂C₂O₄ in whole 250 cm³ = 1.05 × 10⁻³ × (250/25.0) = 1.05 × 10⁻² mol",
+      "Mass of pure H₂C₂O₄ = 1.05 × 10⁻² × 90.0 = 0.945 g",
+      "Percentage purity = (0.945 / 1.40) × 100 = 67.5%"
+    ],
+    "modelAnswer": "n(NaOH) = 0.100 × 0.0210 = 2.10 × 10⁻³ mol. The H₂C₂O₄ : NaOH mole ratio is 1 : 2, so n(H₂C₂O₄) in the 25.0 cm³ aliquot = 2.10 × 10⁻³ ÷ 2 = 1.05 × 10⁻³ mol. Scaling up to the full 250 cm³: total n(H₂C₂O₄) = 1.05 × 10⁻³ × 10 = 1.05 × 10⁻² mol. Mass of pure oxalic acid = 1.05 × 10⁻² × 90.0 = 0.945 g. Percentage purity = (0.945 ÷ 1.40) × 100 = 67.5%.",
+    "explanation": "A diprotic acid titration uses a 1 : 2 mole ratio (acid : NaOH). After finding moles in the aliquot, scale up by the ratio (total volume ÷ aliquot volume = 250/25 = 10) to find the total moles in the sample, calculate the mass of pure acid, and divide by the mass of the impure sample to get the percentage purity."
+  },
+  {
+    "id": "moles_2-032",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(g)",
+    "question": "Aspirin (Mr = 180.0) is made from salicylic acid (Mr = 138.0) and ethanoic anhydride (Mr = 102.0):\n\nC₇H₆O₃ + C₄H₆O₃ → C₉H₈O₄ + CH₃COOH\n\nA student starts with 2.76 g of salicylic acid and obtains 2.52 g of aspirin.\n\n(a) Calculate the theoretical yield of aspirin.\n(b) Calculate the atom economy for aspirin production.\n(c) Calculate the percentage yield.",
+    "marks": 3,
+    "markPoints": [
+      "Moles of salicylic acid = 2.76/138.0 = 0.0200 mol; theoretical yield = 0.0200 × 180.0 = 3.60 g",
+      "Atom economy = 180.0/(180.0 + 60.0) × 100 = 180.0/240.0 × 100 = 75.0%",
+      "Percentage yield = 2.52/3.60 × 100 = 70.0%"
+    ],
+    "modelAnswer": "(a) n(salicylic acid) = 2.76 ÷ 138.0 = 0.0200 mol. From the 1 : 1 mole ratio, n(aspirin) = 0.0200 mol. Theoretical yield = 0.0200 × 180.0 = 3.60 g. (b) Atom economy = Mr(aspirin) ÷ [Mr(aspirin) + Mr(CH₃COOH)] × 100 = 180.0 ÷ 240.0 × 100 = 75.0%. (c) Percentage yield = 2.52 ÷ 3.60 × 100 = 70.0%.",
+    "explanation": "Atom economy uses molar masses from the balanced equation; percentage yield uses actual vs theoretical masses. They are different things — atom economy is a property of the reaction, percentage yield varies experiment to experiment."
+  },
+  {
+    "id": "moles_2-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(b)",
+    "question": "When 1.80 g of a hydrocarbon is burned completely in excess oxygen, 5.28 g of carbon dioxide and 2.16 g of water are produced.\n\nDetermine the empirical formula of the hydrocarbon and, given that its molar mass is 30.0 g mol⁻¹, deduce its molecular formula.\n\n(Ar: H = 1.00, C = 12.0, O = 16.0; Mr: CO₂ = 44.0, H₂O = 18.0)",
+    "marks": 4,
+    "markPoints": [
+      "Moles of CO₂ = 5.28/44.0 = 0.120 mol, so moles of C = 0.120 mol",
+      "Moles of H₂O = 2.16/18.0 = 0.120 mol, so moles of H = 2 × 0.120 = 0.240 mol",
+      "Ratio C : H = 0.120 : 0.240 = 1 : 2, so empirical formula is CH₂",
+      "Empirical formula mass = 14.0; 30.0/14.0 = 2.14 ≈ 2, so molecular formula is C₂H₄"
+    ],
+    "modelAnswer": "n(CO₂) = 5.28 ÷ 44.0 = 0.120 mol, so n(C) = 0.120 mol. n(H₂O) = 2.16 ÷ 18.0 = 0.120 mol, so n(H) = 2 × 0.120 = 0.240 mol. Ratio C : H = 0.120 : 0.240 = 1 : 2, so empirical formula = CH₂. Empirical formula mass = 12.0 + 2.0 = 14.0. n = Mr ÷ empirical mass = 30.0 ÷ 14.0 ≈ 2, so molecular formula = C₂H₄.",
+    "explanation": "In combustion analysis, all the carbon appears as CO₂ and all the hydrogen as H₂O. Moles of C = moles of CO₂; moles of H = 2 × moles of H₂O. Divide both by the smallest to get the ratio, then use the molecular mass to scale up."
+  },
+  {
+    "id": "moles_2-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(b)",
+    "question": "A compound of nitrogen and oxygen contains 30.4% nitrogen by mass.\n\nDetermine the empirical formula of the compound.\n\n(Ar: N = 14.0, O = 16.0)",
+    "marks": 2,
+    "markPoints": [
+      "% oxygen = 100 − 30.4 = 69.6%; mole ratio: N = 30.4/14.0 = 2.171, O = 69.6/16.0 = 4.350",
+      "Divide by smallest (2.171): N : O = 1.00 : 2.00, so empirical formula is NO₂"
+    ],
+    "modelAnswer": "Percentage of oxygen = 100.0 − 30.4 = 69.6%. Mole ratios: N = 30.4 ÷ 14.0 = 2.171; O = 69.6 ÷ 16.0 = 4.350. Dividing by the smallest value (2.171): N : O = 1.00 : 2.00. Empirical formula = NO₂.",
+    "explanation": "In a binary compound, if only one percentage is given, subtract from 100 to find the other. Always divide all mole ratios by the smallest to get whole-number ratio — rounding to the nearest integer is acceptable only when the result is within about 0.1 of a whole number."
+  },
+  {
+    "id": "moles_2-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "A 3.61 g sample of hydrated iron(II) sulfate, FeSO₄·xH₂O, is heated gently to drive off the water of crystallisation. The residue has a mass of 1.99 g.\n\nCalculate the value of x.\n\n(Ar: Fe = 55.8, S = 32.1, O = 16.0, H = 1.00; Mr: H₂O = 18.0)",
+    "marks": 4,
+    "markPoints": [
+      "Mr of FeSO₄ = 55.8 + 32.1 + (4 × 16.0) = 151.9",
+      "Moles of FeSO₄ = 1.99/151.9 = 0.01310 mol",
+      "Mass of water = 3.61 − 1.99 = 1.62 g; moles of H₂O = 1.62/18.0 = 0.0900 mol",
+      "x = 0.0900/0.01310 = 6.87 ≈ 7, so x = 7"
+    ],
+    "modelAnswer": "Mr(FeSO₄) = 55.8 + 32.1 + 64.0 = 151.9. n(FeSO₄) = 1.99 ÷ 151.9 = 0.01310 mol. Mass of water lost = 3.61 − 1.99 = 1.62 g; n(H₂O) = 1.62 ÷ 18.0 = 0.0900 mol. Ratio = 0.0900 ÷ 0.01310 = 6.87, which rounds to 7. The formula is FeSO₄·7H₂O (hydrated iron(II) sulfate).",
+    "explanation": "The ratio should be close to a whole number; here it rounds cleanly to 7. If your ratio were 6.2, you should recheck your arithmetic — non-integer results normally indicate a calculation error rather than a fractional formula."
+  },
+  {
+    "id": "moles_2-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(e)",
+    "question": "A gas cylinder contains 0.500 mol of argon, Ar, at 25 °C and 500 kPa.\n\n(a) Calculate the volume of the cylinder in dm³.\n(b) The temperature is raised to 100 °C at constant volume. Calculate the new pressure.\n\n(R = 8.314 J mol⁻¹ K⁻¹)",
+    "marks": 3,
+    "markPoints": [
+      "(a) V = nRT/p = (0.500 × 8.314 × 298)/(500 000) = 2.477 × 10⁻³ m³ = 2.48 dm³ (allow 2.47–2.48)",
+      "(b) At constant V and n, p₁/T₁ = p₂/T₂; T₂ = 373 K",
+      "p₂ = 500 × (373/298) = 625 kPa (allow 624–626 kPa)"
+    ],
+    "modelAnswer": "(a) T = 25 + 273 = 298 K; p = 500 kPa = 500 000 Pa. V = nRT ÷ p = (0.500 × 8.314 × 298) ÷ 500 000 = 2.48 × 10⁻³ m³ = 2.48 dm³. (b) T₂ = 100 + 273 = 373 K. At constant V and n, p/T = constant, so p₂ = 500 × (373 ÷ 298) = 625 kPa.",
+    "explanation": "Part (a) is a straightforward pV = nRT; part (b) is the combined gas law simplified to p/T = constant. Both require temperatures in kelvin — using °C is the most frequent error. The answer to (b) can also be found by re-applying pV = nRT with the new T."
+  },
+  {
+    "id": "moles_2-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(d)",
+    "question": "A student carries out a serial dilution to prepare solutions of known concentration from a 1.00 mol dm⁻³ stock solution of potassium nitrate, KNO₃.\n\nThe student transfers 5.00 cm³ of the stock solution into a 50.0 cm³ volumetric flask and makes it up to the mark with distilled water (Dilution 1).\n\nThe student then takes 5.00 cm³ of Dilution 1 and makes it up to 50.0 cm³ in a second flask (Dilution 2).\n\nCalculate the concentration of Dilution 2 in mol dm⁻³.",
+    "marks": 3,
+    "markPoints": [
+      "Dilution factor for each step = 5.00/50.0 = 0.100 (10-fold dilution)",
+      "Concentration after Dilution 1 = 1.00 × 0.100 = 0.100 mol dm⁻³",
+      "Concentration after Dilution 2 = 0.100 × 0.100 = 0.0100 mol dm⁻³"
+    ],
+    "modelAnswer": "Each dilution step takes 5.00 cm³ and makes it up to 50.0 cm³, which is a factor of 5.00/50.0 = 0.100 (a 10-fold dilution). After Dilution 1: c = 1.00 × 0.100 = 0.100 mol dm⁻³. After Dilution 2: c = 0.100 × 0.100 = 0.0100 mol dm⁻³.",
+    "explanation": "In serial dilutions the same dilution factor is applied repeatedly. Two 10-fold dilutions give a 100-fold overall dilution, dropping 1.00 mol dm⁻³ to 0.0100 mol dm⁻³. Using n = cV at each step is equally valid and produces the same answer."
+  },
+  {
+    "id": "moles_2-038",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(f)",
+    "question": "In a titration to find the concentration of a hydrochloric acid solution, a student performs four titrations. The titre values, in cm³, are: 23.45, 23.50, 23.40, and 24.10.\n\n(a) Identify the anomalous result and explain why it should be excluded.\n(b) Calculate the mean titre that should be used.\n(c) The acid is titrated against 25.0 cm³ of 0.0400 mol dm⁻³ potassium hydroxide, KOH. Calculate the concentration of the hydrochloric acid.",
+    "marks": 4,
+    "markPoints": [
+      "(a) 24.10 cm³ is anomalous because it differs significantly from the other three results (by more than 0.10 cm³ / outside ±0.05 cm³ of the other values)",
+      "(b) Mean titre = (23.45 + 23.50 + 23.40)/3 = 23.45 cm³",
+      "(c) n(KOH) = 0.0400 × 25.0/1000 = 1.00 × 10⁻³ mol; n(HCl) = 1.00 × 10⁻³ mol (1 : 1)",
+      "c(HCl) = 1.00 × 10⁻³ / (23.45/1000) = 0.0426 mol dm⁻³"
+    ],
+    "modelAnswer": "(a) The titre 24.10 cm³ is anomalous; it is over 0.6 cm³ away from the other three values, suggesting a procedural error such as an air bubble in the burette or misreading the scale. It should be excluded as it would make the mean unrepresentative. (b) Mean of concordant results = (23.45 + 23.50 + 23.40) ÷ 3 = 70.35 ÷ 3 = 23.45 cm³. (c) n(KOH) = 0.0400 × 0.0250 = 1.00 × 10⁻³ mol = n(HCl). c(HCl) = 1.00 × 10⁻³ ÷ 0.02345 = 0.0426 mol dm⁻³.",
+    "explanation": "Concordant titres are within ±0.10 cm³ of each other. The anomalous result is excluded before calculating the mean. For a 1 : 1 neutralisation the moles of acid equal the moles of alkali, so the concentration follows directly from n = cV."
+  },
+  {
+    "id": "moles_2-039",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(g)",
+    "question": "Phosphorus trichloride, PCl₃, is manufactured by the direct reaction of phosphorus with chlorine:\n\n2P + 3Cl₂ → 2PCl₃\n\nA chemist reacts 6.20 g of phosphorus with 21.3 g of chlorine.\n\n(a) Identify the limiting reagent.\n(b) Calculate the theoretical yield of PCl₃.\n(c) The student obtains 22.5 g of PCl₃. Calculate the percentage yield.\n\n(Ar: P = 31.0, Cl = 35.5; Mr: PCl₃ = 137.5)",
+    "marks": 4,
+    "markPoints": [
+      "n(P) = 6.20/31.0 = 0.200 mol; n(Cl₂) = 21.3/71.0 = 0.300 mol",
+      "Mole ratio P : Cl₂ = 2 : 3, so 0.200 mol P needs 0.300 mol Cl₂; Cl₂ is exactly used up / P is the limiting reagent if Cl₂ is slightly less; with the given amounts the reagents are in the exact stoichiometric ratio (neither is limiting)",
+      "Theoretical yield: n(PCl₃) = 0.200 mol (2 : 2 ratio from P); mass = 0.200 × 137.5 = 27.5 g",
+      "Percentage yield = 22.5/27.5 × 100 = 81.8%"
+    ],
+    "modelAnswer": "(a) n(P) = 6.20 ÷ 31.0 = 0.200 mol; n(Cl₂) = 21.3 ÷ 71.0 = 0.300 mol. The 2 : 3 mole ratio requires 0.200 mol P : 0.300 mol Cl₂ — the reagents are in the exact stoichiometric ratio, so neither is in excess. (b) From the 2 : 2 P : PCl₃ ratio, n(PCl₃) = 0.200 mol. Theoretical yield = 0.200 × 137.5 = 27.5 g. (c) Percentage yield = 22.5 ÷ 27.5 × 100 = 81.8%.",
+    "explanation": "Always check stoichiometry before claiming a limiting reagent. Here both reactants are exactly consumed. The theoretical yield calculation uses the balanced equation (1 mol PCl₃ per mol P). Percentage yield compares actual to theoretical — never to the maximum possible atom economy."
+  },
+  {
+    "id": "moles_2-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Moles",
+    "specRef": "2.1.3(c)",
+    "question": "Barium chloride forms a hydrate, BaCl₂·xH₂O. A student dissolves 12.2 g of this hydrate in water and then adds excess sulfuric acid to precipitate all the barium as barium sulfate, BaSO₄:\n\nBaCl₂ + H₂SO₄ → BaSO₄ + 2HCl\n\nThe mass of dried barium sulfate collected is 11.65 g.\n\nCalculate the value of x.\n\n(Ar: Ba = 137.3, Cl = 35.5, S = 32.1, O = 16.0, H = 1.00; Mr: BaSO₄ = 233.4, H₂O = 18.0)",
+    "marks": 5,
+    "markPoints": [
+      "Moles of BaSO₄ = 11.65/233.4 = 0.04993 mol",
+      "Moles of BaCl₂ = moles of BaSO₄ = 0.04993 mol (1 : 1 ratio)",
+      "Mr of BaCl₂ = 137.3 + (2 × 35.5) = 208.3",
+      "Mass of BaCl₂ in sample = 0.04993 × 208.3 = 10.40 g; mass of water = 12.2 − 10.40 = 1.80 g",
+      "Moles of H₂O = 1.80/18.0 = 0.100 mol; x = 0.100/0.04993 = 2.00, so x = 2"
+    ],
+    "modelAnswer": "n(BaSO₄) = 11.65 ÷ 233.4 = 0.04993 mol. From the 1 : 1 ratio, n(BaCl₂) = 0.04993 mol. Mr(BaCl₂) = 137.3 + 71.0 = 208.3, so mass of BaCl₂ = 0.04993 × 208.3 = 10.40 g. Mass of water of crystallisation = 12.2 − 10.40 = 1.80 g; n(H₂O) = 1.80 ÷ 18.0 = 0.100 mol. x = 0.100 ÷ 0.04993 = 2.00, so x = 2 and the formula is BaCl₂·2H₂O.",
+    "explanation": "This question combines a gravimetric precipitation with a water-of-crystallisation calculation. First use the precipitate to find moles of the anhydrous salt, then work back to the water content by subtraction. The indirect route through the precipitate avoids needing to dehydrate the sample."
+  }
+]

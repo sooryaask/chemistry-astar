@@ -1,0 +1,761 @@
+[
+  {
+    "id": "enthalpy_2-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(a)",
+    "question": "Which statement about an exothermic reaction is correct?",
+    "options": {
+      "A": "ΔH is negative and energy is transferred to the surroundings",
+      "B": "ΔH is positive and energy is transferred to the surroundings",
+      "C": "ΔH is negative and energy is transferred from the surroundings",
+      "D": "ΔH is positive and energy is transferred from the surroundings"
+    },
+    "correctOption": "A",
+    "explanation": "In an exothermic reaction the chemical system loses energy to the surroundings, so the enthalpy of the products is lower than that of the reactants and ΔH is negative. The surroundings gain this energy, which is why the temperature rises.",
+    "steps": [
+      "Step 1 – Exothermic means heat energy is released from the chemical system to the surroundings.",
+      "Step 2 – The products therefore have less enthalpy than the reactants, so ΔH = H(products) − H(reactants) is negative.",
+      "Step 3 – B and D have the wrong sign convention; C describes energy flowing the wrong way.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "The temperature of 50.0 g of water increases by 10.0 °C.\n\nHow much energy has the water gained? (c = 4.18 J g⁻¹ K⁻¹)",
+    "options": { "A": "2090 kJ", "B": "2.09 kJ", "C": "209 J", "D": "20.9 kJ" },
+    "correctOption": "B",
+    "explanation": "q = mcΔT = 50.0 × 4.18 × 10.0 = 2090 J. Because c is in J g⁻¹ K⁻¹, q comes out in joules and must be divided by 1000 to convert to kilojoules: 2.09 kJ. Option A is the classic error of forgetting to convert J to kJ.",
+    "steps": [
+      "Step 1 – q = mcΔT = 50.0 × 4.18 × 10.0 = 2090.",
+      "Step 2 – The specific heat capacity is in J g⁻¹ K⁻¹, so this value is in joules: q = 2090 J.",
+      "Step 3 – Convert to kilojoules: 2090 ÷ 1000 = 2.09 kJ.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "enthalpy_2-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Hydrogen reacts with chlorine:\n\nH₂(g) + Cl₂(g) → 2HCl(g)\n\nAverage bond enthalpies / kJ mol⁻¹: H–H 436; Cl–Cl 243; H–Cl 432.\n\nWhat is the enthalpy change of this reaction?",
+    "options": {
+      "A": "−185 kJ mol⁻¹",
+      "B": "+185 kJ mol⁻¹",
+      "C": "+247 kJ mol⁻¹",
+      "D": "−617 kJ mol⁻¹"
+    },
+    "correctOption": "A",
+    "explanation": "ΔH = Σ(bonds broken) − Σ(bonds made) = (436 + 243) − (2 × 432) = 679 − 864 = −185 kJ mol⁻¹. Option C forgets that two H–Cl bonds are made; option B has the sign reversed.",
+    "steps": [
+      "Step 1 – Bonds broken: 1 × H–H + 1 × Cl–Cl = 436 + 243 = 679 kJ mol⁻¹.",
+      "Step 2 – Bonds made: 2 × H–Cl = 2 × 432 = 864 kJ mol⁻¹.",
+      "Step 3 – ΔH = bonds broken − bonds made = 679 − 864 = −185 kJ mol⁻¹.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "Which statement is the correct definition of the standard enthalpy change of combustion?",
+    "options": {
+      "A": "The enthalpy change when one mole of a substance reacts completely with oxygen, with all substances in their standard states under standard conditions",
+      "B": "The enthalpy change when one mole of oxygen reacts completely with a fuel under standard conditions",
+      "C": "The enthalpy change when one mole of carbon dioxide is produced by burning a fuel under standard conditions",
+      "D": "The enthalpy change when a substance burns completely in oxygen at any temperature and pressure"
+    },
+    "correctOption": "A",
+    "explanation": "ΔcH⦵ refers to one mole of the substance being burned, complete combustion, and all species in their standard states under standard conditions (100 kPa, 298 K). Basing the definition on oxygen or CO₂, or omitting standard conditions, is incorrect.",
+    "steps": [
+      "Step 1 – The 'one mole' in the definition refers to the substance being combusted, not oxygen or a product — eliminate B and C.",
+      "Step 2 – A standard enthalpy change must specify standard conditions (100 kPa, 298 K) and standard states — eliminate D.",
+      "Step 3 – Only option A includes one mole of substance, complete combustion, standard states and standard conditions.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "An enthalpy change calculated from average bond enthalpies usually differs from the value obtained using Hess' law with data-book enthalpies of formation.\n\nWhat is the main reason for this difference?",
+    "options": {
+      "A": "Average bond enthalpies are averaged over the same bond in many different molecules",
+      "B": "Hess' law only applies at high temperatures",
+      "C": "Bond enthalpies can only be used for exothermic reactions",
+      "D": "Enthalpies of formation are always measured inaccurately"
+    },
+    "correctOption": "A",
+    "explanation": "An average bond enthalpy is the mean energy needed to break that bond taken across many different molecules and environments, so the actual bond enthalpies in the specific molecules involved differ slightly from the averages. Hess' law itself is exact, and bond enthalpy calculations work for both exothermic and endothermic reactions.",
+    "steps": [
+      "Step 1 – Recall that a bond such as C–H has slightly different strengths in different molecules.",
+      "Step 2 – Data lists quote the mean of these values, so calculations using them are only approximate for any particular molecule.",
+      "Step 3 – B, C and D are false statements: Hess' law applies generally, bond enthalpies work for any reaction, and formation data are not inherently inaccurate.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-006",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A reaction in solution raises the temperature of 200 g of solution by 5.00 °C.\n\nWhat is the energy released, in kJ? (c = 4.18 J g⁻¹ K⁻¹)",
+    "options": { "A": "4180 kJ", "B": "41.8 kJ", "C": "4.18 kJ", "D": "0.418 kJ" },
+    "correctOption": "C",
+    "explanation": "q = mcΔT = 200 × 4.18 × 5.00 = 4180 J. Converting to kilojoules gives 4180 ÷ 1000 = 4.18 kJ. Option A quotes the joule value with kJ units — the most common unit-conversion error.",
+    "steps": [
+      "Step 1 – q = mcΔT = 200 × 4.18 × 5.00 = 4180 J.",
+      "Step 2 – The mass is in g and c is in J g⁻¹ K⁻¹, so the answer is in joules.",
+      "Step 3 – Convert: 4180 J ÷ 1000 = 4.18 kJ.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "enthalpy_2-007",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(e)",
+    "question": "Standard enthalpy changes of combustion / kJ mol⁻¹: C(s) −394; H₂(g) −286; CH₄(g) −890.\n\nWhat is the standard enthalpy change of formation of methane, CH₄(g)?",
+    "options": {
+      "A": "−76 kJ mol⁻¹",
+      "B": "+76 kJ mol⁻¹",
+      "C": "−1570 kJ mol⁻¹",
+      "D": "+198 kJ mol⁻¹"
+    },
+    "correctOption": "A",
+    "explanation": "Using combustion data: ΔfH = ΣΔcH(reactants) − ΣΔcH(products) = [(−394) + 2(−286)] − (−890) = −966 + 890 = −76 kJ mol⁻¹. The formation equation is C(s) + 2H₂(g) → CH₄(g), so two moles of hydrogen are needed.",
+    "steps": [
+      "Step 1 – Formation equation: C(s) + 2H₂(g) → CH₄(g).",
+      "Step 2 – With combustion data: ΔfH = ΣΔcH(reactants) − ΣΔcH(products).",
+      "Step 3 – ΔfH = [(−394) + 2(−286)] − (−890) = −966 + 890 = −76 kJ mol⁻¹.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-008",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Which statement about bond breaking and bond making is correct?",
+    "options": {
+      "A": "Bond breaking is exothermic and bond making is endothermic",
+      "B": "Bond breaking and bond making are both exothermic",
+      "C": "Bond breaking is endothermic, so it has a positive enthalpy change",
+      "D": "The enthalpy change for breaking a bond is always zero"
+    },
+    "correctOption": "C",
+    "explanation": "Energy must be supplied to overcome the attraction between bonded atoms, so bond breaking is endothermic (ΔH positive). Bond making releases energy and is exothermic (ΔH negative).",
+    "steps": [
+      "Step 1 – Breaking a bond requires an input of energy to separate the bonded atoms, so it is endothermic.",
+      "Step 2 – An endothermic process has a positive enthalpy change.",
+      "Step 3 – A and B reverse the energetics; D is false because bond enthalpies are non-zero by definition.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "enthalpy_2-009",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(a)",
+    "question": "Which change is exothermic?",
+    "options": {
+      "A": "The thermal decomposition of calcium carbonate",
+      "B": "The complete combustion of methane",
+      "C": "The melting of ice",
+      "D": "The breaking of the Cl–Cl bond in Cl₂"
+    },
+    "correctOption": "B",
+    "explanation": "Combustion reactions release energy to the surroundings, so they are exothermic. Thermal decomposition, melting and bond breaking all require a continuous input of energy, so they are endothermic.",
+    "steps": [
+      "Step 1 – Thermal decomposition needs sustained heating, so it is endothermic — eliminate A.",
+      "Step 2 – Melting and bond breaking both absorb energy — eliminate C and D.",
+      "Step 3 – Combustion of a fuel releases energy to the surroundings, so it is exothermic.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "enthalpy_2-010",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "The standard enthalpy change of neutralisation is defined per mole of which substance?",
+    "options": {
+      "A": "The acid",
+      "B": "The base",
+      "C": "Water formed",
+      "D": "The salt formed"
+    },
+    "correctOption": "C",
+    "explanation": "The standard enthalpy change of neutralisation is the enthalpy change when an acid and a base react to form one mole of H₂O(l) under standard conditions. Defining it per mole of acid or base would give different values for acids of different basicity, e.g. H₂SO₄ versus HCl.",
+    "steps": [
+      "Step 1 – Recall the definition: the enthalpy change when one mole of water is formed in a neutralisation reaction under standard conditions.",
+      "Step 2 – Using the acid or base would be ambiguous because, for example, one mole of H₂SO₄ produces two moles of water.",
+      "Step 3 – So the quantity is fixed per mole of water formed, not per mole of acid, base or salt.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "enthalpy_2-011",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "25.0 cm³ of 2.00 mol dm⁻³ HCl is exactly neutralised by an excess of sodium hydroxide solution. The reaction releases 2850 J of energy.\n\nWhat is the enthalpy change of neutralisation?",
+    "options": {
+      "A": "−57.0 kJ mol⁻¹",
+      "B": "+57.0 kJ mol⁻¹",
+      "C": "−5.70 kJ mol⁻¹",
+      "D": "−57 000 kJ mol⁻¹"
+    },
+    "correctOption": "A",
+    "explanation": "Moles of HCl = moles of water formed = (25.0/1000) × 2.00 = 0.0500 mol. ΔH = −2850 J ÷ 0.0500 mol = −57 000 J mol⁻¹ = −57.0 kJ mol⁻¹. The sign is negative because energy is released, and the joule value must be converted to kJ.",
+    "steps": [
+      "Step 1 – Moles of HCl = 0.0250 dm³ × 2.00 mol dm⁻³ = 0.0500 mol = moles of H₂O formed.",
+      "Step 2 – Energy per mole = 2850 J ÷ 0.0500 mol = 57 000 J mol⁻¹ = 57.0 kJ mol⁻¹.",
+      "Step 3 – Neutralisation is exothermic, so ΔH = −57.0 kJ mol⁻¹; D forgets the J → kJ conversion.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-012",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "Which pressure and temperature are the standard conditions used for standard enthalpy changes?",
+    "options": {
+      "A": "100 kPa and 298 K",
+      "B": "100 kPa and 273 K",
+      "C": "1 kPa and 298 K",
+      "D": "101 kPa and 373 K"
+    },
+    "correctOption": "A",
+    "explanation": "Standard enthalpy changes are quoted at a standard pressure of 100 kPa and a stated temperature, usually 298 K (25 °C). 273 K and 373 K are the melting and boiling points of water, not standard temperature.",
+    "steps": [
+      "Step 1 – Standard pressure is 100 kPa — eliminate C.",
+      "Step 2 – The stated standard temperature is 298 K (25 °C), not 273 K or 373 K.",
+      "Step 3 – Only option A pairs 100 kPa with 298 K.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-013",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student determines the enthalpy change of combustion of methanol using a spirit burner and obtains −620 kJ mol⁻¹. The data-book value is −726 kJ mol⁻¹.\n\nWhich error best explains why the experimental value is less exothermic?",
+    "options": {
+      "A": "Some of the energy released heats the surroundings instead of the water",
+      "B": "The water gains extra heat from the surroundings",
+      "C": "The mass of methanol burned was recorded as lower than the true mass",
+      "D": "The thermometer reading of the temperature rise was too high"
+    },
+    "correctOption": "A",
+    "explanation": "Heat loss to the air and apparatus means the measured temperature rise of the water is smaller than it should be, so the calculated energy released, and therefore |ΔcH|, is too small. Options B, C and D would all make the experimental value more exothermic, not less.",
+    "steps": [
+      "Step 1 – A less exothermic result means the calculated q (from q = mcΔT) is too small for the amount of fuel burned.",
+      "Step 2 – Heat escaping to the surroundings lowers the measured ΔT, reducing q — this fits.",
+      "Step 3 – B and D would increase ΔT, and C would decrease the apparent moles of fuel; all three would make |ΔH| larger, not smaller.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "enthalpy_2-014",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "Define the term standard enthalpy change of combustion.",
+    "marks": 2,
+    "markPoints": [
+      "The enthalpy change when one mole of a substance reacts completely with oxygen",
+      "With all substances in their standard states, under standard conditions of 100 kPa and a stated temperature (298 K)"
+    ],
+    "modelAnswer": "The standard enthalpy change of combustion is the enthalpy change when one mole of a substance reacts completely with oxygen, with all reactants and products in their standard states, under standard conditions of 100 kPa and 298 K.",
+    "explanation": "Definitions are easy marks if every element is present: one mole of the substance, complete combustion (excess oxygen), standard states, and standard conditions (100 kPa, 298 K). Missing 'one mole' or 'standard conditions' loses a mark."
+  },
+  {
+    "id": "enthalpy_2-015",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Ethene reacts with hydrogen to form ethane:\n\nC₂H₄(g) + H₂(g) → C₂H₆(g)\n\nAverage bond enthalpies / kJ mol⁻¹: C=C 612; C–C 347; C–H 413; H–H 436.\n\nCalculate the enthalpy change of this reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Bonds broken = C=C + H–H = 612 + 436 = 1048 kJ mol⁻¹ (C–H bonds unchanged may be cancelled)",
+      "Bonds made = C–C + 2 × C–H = 347 + (2 × 413) = 1173 kJ mol⁻¹",
+      "ΔH = 1048 − 1173 = −125 kJ mol⁻¹ (correct negative sign and units)"
+    ],
+    "modelAnswer": "Bonds broken: C=C + H–H = 612 + 436 = 1048 kJ mol⁻¹. Bonds made: C–C + 2 × C–H = 347 + 826 = 1173 kJ mol⁻¹. ΔH = bonds broken − bonds made = 1048 − 1173 = −125 kJ mol⁻¹.",
+    "explanation": "Only the bonds that change need to be counted: the four C–H bonds of ethene appear in ethane too, so they cancel. The one new C–C bond and two new C–H bonds are made. ΔH = Σ(broken) − Σ(made); a negative answer shows the reaction is exothermic."
+  },
+  {
+    "id": "enthalpy_2-016",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "A student calculates the enthalpy change of a gas-phase reaction using average bond enthalpies. The answer differs from the accurate value obtained using Hess' law with enthalpy of formation data.\n\nExplain why the two values differ.",
+    "marks": 2,
+    "markPoints": [
+      "Average bond enthalpies are mean values taken over the same bond in many different molecules / environments",
+      "The actual bond enthalpies in the specific molecules in this reaction differ from these average values"
+    ],
+    "modelAnswer": "Average bond enthalpies are mean values for a bond measured across many different molecules. The actual strength of each bond in the specific molecules involved in this reaction differs slightly from the average, so the calculated enthalpy change is only an approximation, whereas the Hess' law value uses data for the actual compounds.",
+    "explanation": "The word 'average' is the key: a C–H bond in methane is not identical in strength to a C–H bond in ethanol. Bond enthalpy calculations therefore carry a built-in approximation that Hess' law calculations with formation data do not."
+  },
+  {
+    "id": "enthalpy_2-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(e)",
+    "question": "Ethanol cannot be formed directly from its elements in a laboratory.\n\nUse the standard enthalpy changes of combustion below to calculate the standard enthalpy change of formation of ethanol, C₂H₅OH(l).\n\nΔcH⦵ / kJ mol⁻¹: C(s) −394; H₂(g) −286; C₂H₅OH(l) −1367.",
+    "marks": 4,
+    "markPoints": [
+      "Formation equation: 2C(s) + 3H₂(g) → C₂H₅OH(l), or equivalent use of ΔfH = ΣΔcH(reactants) − ΣΔcH(products)",
+      "ΣΔcH(reactants) = 2(−394) + 3(−286) = −788 − 858 = −1646 kJ mol⁻¹",
+      "Subtract combustion of ethanol: ΔfH = −1646 − (−1367)",
+      "ΔfH = −279 kJ mol⁻¹ (correct sign and units)"
+    ],
+    "modelAnswer": "The formation equation is 2C(s) + 3H₂(g) → C₂H₅OH(l). Using ΔfH = ΣΔcH(reactants) − ΣΔcH(products): ΣΔcH(reactants) = 2(−394) + 3(−286) = −1646 kJ mol⁻¹. ΔfH = −1646 − (−1367) = −279 kJ mol⁻¹.",
+    "explanation": "With combustion data the Hess cycle points downwards to the combustion products, so the rule is 'reactants minus products'. Balance the formation equation first (2C and 3H₂ per mole of ethanol) — the commonest error is using the wrong multiples of −394 and −286."
+  },
+  {
+    "id": "enthalpy_2-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student mixes 25.0 cm³ of 1.00 mol dm⁻³ sodium hydroxide with 25.0 cm³ of 1.00 mol dm⁻³ hydrochloric acid in a polystyrene cup. The temperature rises by 6.80 °C.\n\nCalculate the enthalpy change of neutralisation. Give your answer to three significant figures.\n\nAssume the density of the mixture is 1.00 g cm⁻³ and c = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 4,
+    "markPoints": [
+      "q = mcΔT = 50.0 × 4.18 × 6.80 = 1421 J (allow 1420–1421 J; total mass 50.0 g)",
+      "Moles of H₂O formed = 0.0250 dm³ × 1.00 mol dm⁻³ = 0.0250 mol",
+      "ΔH = −q/n = −1421 ÷ 0.0250 = −56 848 J mol⁻¹",
+      "ΔH = −56.8 kJ mol⁻¹ (negative sign, kJ mol⁻¹, 3 significant figures)"
+    ],
+    "modelAnswer": "Total mass of solution = 25.0 + 25.0 = 50.0 g. q = mcΔT = 50.0 × 4.18 × 6.80 = 1421 J. Moles of water formed = moles of HCl = 0.0250 × 1.00 = 0.0250 mol. ΔH = −1421 ÷ 0.0250 = −56 848 J mol⁻¹ = −56.8 kJ mol⁻¹.",
+    "explanation": "Use the total mass of both solutions (50.0 g), not 25.0 g. The enthalpy of neutralisation is per mole of water formed; here the acid and base are in a 1 : 1 ratio so n = 0.0250 mol. Convert J to kJ and include the negative sign because the temperature rose."
+  },
+  {
+    "id": "enthalpy_2-019",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student adds 2.00 g of zinc powder to 50.0 cm³ of 0.500 mol dm⁻³ copper(II) sulfate solution in a polystyrene cup:\n\nZn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)\n\nThe temperature rises by 26.0 °C.\n\nCalculate the enthalpy change of this reaction, in kJ mol⁻¹.\n\nAr(Zn) = 65.4. Assume the solution has a density of 1.00 g cm⁻³ and c = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 5,
+    "markPoints": [
+      "Moles of Zn = 2.00 ÷ 65.4 = 0.0306 mol",
+      "Moles of Cu²⁺ = 0.0500 dm³ × 0.500 mol dm⁻³ = 0.0250 mol, so CuSO₄ is the limiting reagent (zinc in excess)",
+      "q = mcΔT = 50.0 × 4.18 × 26.0 = 5434 J",
+      "ΔH = −q ÷ n(limiting) = −5434 ÷ 0.0250 = −217 360 J mol⁻¹",
+      "ΔH = −217 kJ mol⁻¹ (negative sign, correct units, 3 significant figures)"
+    ],
+    "modelAnswer": "Moles of Zn = 2.00 ÷ 65.4 = 0.0306 mol; moles of Cu²⁺ = 0.0500 × 0.500 = 0.0250 mol. Since the ratio is 1 : 1, CuSO₄ is limiting. q = mcΔT = 50.0 × 4.18 × 26.0 = 5434 J. ΔH = −5434 ÷ 0.0250 = −217 360 J mol⁻¹ = −217 kJ mol⁻¹.",
+    "explanation": "In a coffee-cup experiment the enthalpy change must be scaled by the moles of the limiting reagent, so both reactants' moles must be compared first. Only the mass of the solution (50.0 g) absorbs the heat — the mass of zinc is not included in q = mcΔT."
+  },
+  {
+    "id": "enthalpy_2-020",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Bond enthalpy calculations require all reactants and products to be in the gaseous state.\n\nExplain why a bond enthalpy calculation for the combustion of hexane gives a different value from the standard enthalpy change of combustion, in which water forms as a liquid.",
+    "marks": 2,
+    "markPoints": [
+      "Bond enthalpies apply only to breaking/making bonds in gaseous species, so the calculation treats H₂O (and hexane) as gases",
+      "The standard enthalpy change includes the enthalpy change of condensation of water (and vaporisation of hexane) / the energy released when H₂O(g) condenses to H₂O(l) is not included in the bond enthalpy value"
+    ],
+    "modelAnswer": "Bond enthalpies are defined for gaseous molecules, so the calculation gives the enthalpy change with hexane and water as gases. In the standard enthalpy change of combustion, water is formed as a liquid (and hexane starts as a liquid), so extra energy is released when the water condenses; this state change is not included in the bond enthalpy calculation, making the two values different.",
+    "explanation": "Two distinct approximations affect bond enthalpy answers: the averaging of bond enthalpies, and the requirement for gaseous states. This question targets the second — any species that is not a gas under standard conditions introduces an unaccounted enthalpy change of state."
+  },
+  {
+    "id": "enthalpy_2-021",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(a)",
+    "question": "State what is meant by an exothermic reaction in terms of enthalpy.",
+    "marks": 1,
+    "markPoints": [
+      "A reaction in which ΔH is negative / the enthalpy of the products is lower than the enthalpy of the reactants / energy is released to the surroundings"
+    ],
+    "modelAnswer": "An exothermic reaction is one in which energy is released to the surroundings, so the enthalpy of the products is lower than that of the reactants and ΔH is negative.",
+    "explanation": "The question says 'in terms of enthalpy', so the answer must mention ΔH being negative or the enthalpy of products being lower than reactants, not just 'gives out heat'."
+  },
+  {
+    "id": "enthalpy_2-022",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student burns 0.320 g of methanol, CH₃OH (M = 32.0 g mol⁻¹), in a spirit burner. The energy released heats 100 g of water and the temperature rises by 14.0 °C.\n\nCalculate the enthalpy change of combustion of methanol from these results. Give your answer in kJ mol⁻¹ to three significant figures.\n\nc = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 4,
+    "markPoints": [
+      "q = mcΔT = 100 × 4.18 × 14.0 = 5852 J",
+      "Moles of methanol = 0.320 ÷ 32.0 = 0.0100 mol",
+      "ΔcH = −q/n = −5852 ÷ 0.0100 = −585 200 J mol⁻¹",
+      "ΔcH = −585 kJ mol⁻¹ (negative sign, kJ mol⁻¹, 3 significant figures)"
+    ],
+    "modelAnswer": "q = mcΔT = 100 × 4.18 × 14.0 = 5852 J. Moles of methanol = 0.320 ÷ 32.0 = 0.0100 mol. ΔcH = −5852 ÷ 0.0100 = −585 200 J mol⁻¹ = −585 kJ mol⁻¹.",
+    "explanation": "The mass in q = mcΔT is the mass of water heated (100 g), not the mass of methanol. Divide the energy by the moles of fuel burned, convert J to kJ, and attach the negative sign because combustion is exothermic."
+  },
+  {
+    "id": "enthalpy_2-023",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "The data-book value for the enthalpy change of combustion of methanol is −726 kJ mol⁻¹. A student's spirit-burner experiment gives −585 kJ mol⁻¹.\n\nSuggest three reasons why the experimental value is less exothermic than the data-book value.",
+    "marks": 3,
+    "markPoints": [
+      "Heat loss to the surroundings / apparatus / air rather than the water",
+      "Incomplete combustion of the methanol (producing CO or soot releases less energy)",
+      "Evaporation of methanol from the burner (mass loss not due to burning) / non-standard conditions used in the experiment"
+    ],
+    "modelAnswer": "Some of the energy released is lost heating the surroundings, the beaker and the air rather than the water. Some methanol may undergo incomplete combustion, releasing less energy per mole. Some methanol may evaporate from the wick without burning, so the mass loss overestimates the amount actually combusted. (Conditions also differ from standard conditions.)",
+    "explanation": "These are the three standard evaluation points for spirit-burner calorimetry: heat loss (the biggest), incomplete combustion, and evaporation of fuel. Each one reduces the measured energy per mole of fuel, making |ΔcH| smaller than the data-book value."
+  },
+  {
+    "id": "enthalpy_2-024",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "Define the term standard enthalpy change of formation.",
+    "marks": 2,
+    "markPoints": [
+      "The enthalpy change when one mole of a compound is formed from its (constituent) elements",
+      "With all substances in their standard states, under standard conditions of 100 kPa and a stated temperature (298 K)"
+    ],
+    "modelAnswer": "The standard enthalpy change of formation is the enthalpy change when one mole of a compound is formed from its elements, with all reactants and products in their standard states, under standard conditions of 100 kPa and 298 K.",
+    "explanation": "Four components are needed: one mole of the compound, formed from its elements, standard states, and standard conditions. Examiners frequently withhold a mark for omitting 'one mole' or 'standard states'."
+  },
+  {
+    "id": "enthalpy_2-025",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(e)",
+    "question": "State Hess' law and explain why it is useful to chemists.",
+    "marks": 2,
+    "markPoints": [
+      "The enthalpy change of a reaction is independent of the route taken, provided the initial and final conditions are the same",
+      "It allows enthalpy changes to be calculated for reactions that cannot be measured directly (e.g. enthalpies of formation of hydrocarbons)"
+    ],
+    "modelAnswer": "Hess' law states that the enthalpy change of a reaction is independent of the route taken, provided the initial and final conditions are the same. It is useful because it allows enthalpy changes that cannot be measured directly by experiment, such as the enthalpy change of formation of methane, to be calculated from enthalpy changes that can, such as enthalpies of combustion.",
+    "explanation": "The statement must include 'independent of route' and the proviso about the same initial and final conditions. The usefulness mark needs the idea of indirect determination — many formation reactions simply do not happen cleanly in a calorimeter."
+  },
+  {
+    "id": "enthalpy_2-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Methane burns completely in oxygen:\n\nCH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g)\n\nAverage bond enthalpies / kJ mol⁻¹: C–H 413; O=O 498; C=O 805; O–H 464.\n\nCalculate the enthalpy change of this reaction and suggest one reason why your answer differs from the standard enthalpy change of combustion of methane, −890 kJ mol⁻¹.",
+    "marks": 4,
+    "markPoints": [
+      "Bonds broken = (4 × 413) + (2 × 498) = 1652 + 996 = 2648 kJ mol⁻¹",
+      "Bonds made = (2 × 805) + (4 × 464) = 1610 + 1856 = 3466 kJ mol⁻¹",
+      "ΔH = 2648 − 3466 = −818 kJ mol⁻¹ (correct sign and units)",
+      "Reason: average bond enthalpies are mean values over many molecules, OR the calculation has H₂O as a gas whereas the standard value forms liquid water"
+    ],
+    "modelAnswer": "Bonds broken: (4 × 413) + (2 × 498) = 2648 kJ mol⁻¹. Bonds made: (2 × 805) + (4 × 464) = 3466 kJ mol⁻¹. ΔH = 2648 − 3466 = −818 kJ mol⁻¹. This differs from −890 kJ mol⁻¹ because average bond enthalpies are mean values taken across many molecules, and because the calculation produces gaseous water whereas the standard enthalpy of combustion forms liquid water, which releases additional energy on condensing.",
+    "explanation": "Count every bond: 4 C–H and 2 O=O broken; 2 C=O in CO₂ and 4 O–H in two water molecules made. Either accepted reason (averaging, or the gaseous-water state issue) earns the final mark — both are worth knowing."
+  },
+  {
+    "id": "enthalpy_2-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "The enthalpy change of neutralisation for dilute hydrochloric acid with sodium hydroxide is almost identical to that for dilute nitric acid with potassium hydroxide.\n\nExplain why.",
+    "marks": 2,
+    "markPoints": [
+      "Both acids and both bases are strong / fully dissociated into ions in solution",
+      "The same reaction, H⁺(aq) + OH⁻(aq) → H₂O(l), occurs in each case (the other ions are spectators)"
+    ],
+    "modelAnswer": "Both acids and both bases are strong, so they are fully dissociated in solution. In every case the only chemical change is H⁺(aq) + OH⁻(aq) → H₂O(l); the Na⁺, K⁺, Cl⁻ and NO₃⁻ ions are spectators. Since the same reaction occurs, the enthalpy change per mole of water is the same.",
+    "explanation": "For any strong acid–strong base pair the neutralisation reduces to the same ionic equation, which is why ΔneutH is close to −57 kJ mol⁻¹ in all such cases."
+  },
+  {
+    "id": "enthalpy_2-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "The enthalpy change of neutralisation of ethanoic acid with sodium hydroxide is less exothermic than that of hydrochloric acid with sodium hydroxide.\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Ethanoic acid is a weak acid / only partially dissociated in solution (HCl is fully dissociated)",
+      "Energy is required to dissociate the undissociated ethanoic acid molecules / to break the O–H bond as neutralisation proceeds",
+      "So the overall energy released per mole of water formed is smaller / part of the energy released by H⁺ + OH⁻ → H₂O is used up in dissociation"
+    ],
+    "modelAnswer": "Ethanoic acid is a weak acid and is only partially dissociated, whereas hydrochloric acid is fully dissociated. As neutralisation proceeds, energy must be supplied to dissociate the remaining ethanoic acid molecules into ions. This endothermic dissociation offsets some of the energy released when H⁺ and OH⁻ combine, so the overall enthalpy change per mole of water is less exothermic.",
+    "explanation": "The comparison hinges on where the H⁺ ions come from. With a weak acid, an endothermic dissociation step is bundled into the overall enthalpy change, reducing its magnitude below the strong acid value of about −57 kJ mol⁻¹."
+  },
+  {
+    "id": "enthalpy_2-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(e)",
+    "question": "The hydrogenation of ethene cannot easily be carried out in a calorimeter.\n\nUse the standard enthalpy changes of combustion below to calculate the enthalpy change for:\n\nC₂H₄(g) + H₂(g) → C₂H₆(g)\n\nΔcH⦵ / kJ mol⁻¹: C₂H₄(g) −1411; H₂(g) −286; C₂H₆(g) −1560.",
+    "marks": 3,
+    "markPoints": [
+      "ΔH = ΣΔcH(reactants) − ΣΔcH(products), or equivalent correct Hess cycle via combustion products",
+      "ΔH = [(−1411) + (−286)] − (−1560) = −1697 + 1560",
+      "ΔH = −137 kJ mol⁻¹ (correct sign and units)"
+    ],
+    "modelAnswer": "Using combustion data: ΔH = ΣΔcH(reactants) − ΣΔcH(products) = [(−1411) + (−286)] − (−1560) = −1697 + 1560 = −137 kJ mol⁻¹.",
+    "explanation": "Both routes from the reactants (direct reaction, or combustion of everything to CO₂ and H₂O) must have the same total enthalpy change by Hess' law. With combustion data the rule is always reactants minus products — the reverse of the rule for formation data."
+  },
+  {
+    "id": "enthalpy_2-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "In a calorimetry experiment, an exothermic reaction releases 10 450 J of energy. The number of moles of the limiting reactant is 0.0250 mol.\n\nCalculate the enthalpy change of the reaction in kJ mol⁻¹.",
+    "marks": 3,
+    "markPoints": [
+      "Convert to kilojoules: q = 10 450 ÷ 1000 = 10.45 kJ (conversion may be done at any correct stage)",
+      "Energy per mole = 10.45 ÷ 0.0250 = 418 kJ mol⁻¹",
+      "ΔH = −418 kJ mol⁻¹ (negative sign because the reaction is exothermic)"
+    ],
+    "modelAnswer": "q = 10 450 J = 10.45 kJ. ΔH = −q/n = −10.45 ÷ 0.0250 = −418 kJ mol⁻¹.",
+    "explanation": "Two things trip students up here: converting joules to kilojoules (÷1000) and remembering the sign. The reaction is exothermic, so although q is a positive amount of energy released, ΔH must be quoted as negative."
+  },
+  {
+    "id": "enthalpy_2-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "State the value of the standard enthalpy change of formation of O₂(g) and explain your answer.",
+    "marks": 2,
+    "markPoints": [
+      "Zero / 0 kJ mol⁻¹",
+      "O₂(g) is an element (already) in its standard state, so forming it from its element involves no change"
+    ],
+    "modelAnswer": "The standard enthalpy change of formation of O₂(g) is zero. Oxygen gas is an element in its standard state, so 'forming' it from its element involves no chemical change and therefore no enthalpy change.",
+    "explanation": "By definition, ΔfH⦵ of any element in its standard state is zero — the 'formation' would be the element turning into itself. This fact is used constantly in Hess' law calculations with formation data."
+  },
+  {
+    "id": "enthalpy_2-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "Describe how a student could determine the enthalpy change of neutralisation of dilute hydrochloric acid with dilute sodium hydroxide using a polystyrene cup. Include the measurements needed and how the enthalpy change would be calculated.",
+    "marks": 4,
+    "markPoints": [
+      "Measure known/equal volumes of acid and alkali of known concentrations (e.g. with a pipette or measuring cylinder)",
+      "Measure the initial temperature of both solutions, mix in the polystyrene cup (with lid) and record the maximum temperature reached, stirring",
+      "Calculate the energy released using q = mcΔT with the total mass of the mixture",
+      "Divide q by the moles of water formed (from concentration × volume of the limiting reagent) and attach a negative sign: ΔH = −q/n"
+    ],
+    "modelAnswer": "Use a pipette to measure, for example, 25.0 cm³ of the acid and 25.0 cm³ of the alkali of known concentrations. Record the initial temperature of both solutions, then mix them in a polystyrene cup with a lid, stir, and record the maximum temperature. Calculate the temperature rise ΔT and the energy released using q = mcΔT with the total mass of solution (50.0 g). Work out the moles of water formed from the concentration and volume of the limiting reagent, then calculate ΔneutH = −q/n, converting to kJ mol⁻¹.",
+    "explanation": "Method questions are marked on the sequence: measured volumes and concentrations, temperatures before and after mixing, q = mcΔT with the total solution mass, and division by moles of water formed. The polystyrene cup minimises heat exchange with the surroundings."
+  },
+  {
+    "id": "enthalpy_2-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student carries out a neutralisation reaction in a glass beaker and obtains a less exothermic enthalpy change than the data-book value.\n\nExplain why using a polystyrene cup with a lid would give a more accurate result.",
+    "marks": 2,
+    "markPoints": [
+      "Polystyrene is a (thermal) insulator, so less heat is lost through the sides/base than with (conducting) glass",
+      "The lid reduces heat loss from the surface (by evaporation/convection), so the measured temperature rise is closer to the true value"
+    ],
+    "modelAnswer": "Polystyrene is a good thermal insulator, so much less heat escapes through the walls of the cup than through glass, which conducts heat away. The lid reduces heat loss from the top of the solution by evaporation and convection. Less heat loss means the measured temperature rise, and hence the calculated enthalpy change, is closer to the true value.",
+    "explanation": "The dominant systematic error in solution calorimetry is heat loss. Both marking points are about reducing it: an insulating vessel deals with conduction through the walls, and a lid deals with losses from the liquid surface."
+  },
+  {
+    "id": "enthalpy_2-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student burns 0.600 g of propan-1-ol, C₃H₇OH (M = 60.0 g mol⁻¹), in a spirit burner. The energy released heats 250 g of water from 20.0 °C to 38.0 °C.\n\nCalculate the enthalpy change of combustion of propan-1-ol from these results, and explain whether it is more or less exothermic than the data-book value of −2021 kJ mol⁻¹.\n\nc = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 5,
+    "markPoints": [
+      "q = mcΔT = 250 × 4.18 × 18.0 = 18 810 J = 18.81 kJ",
+      "Moles of propan-1-ol = 0.600 ÷ 60.0 = 0.0100 mol",
+      "ΔcH = −18.81 ÷ 0.0100 = −1881 kJ mol⁻¹",
+      "Negative sign and units kJ mol⁻¹ quoted correctly (answer to 3–4 significant figures)",
+      "The experimental value is less exothermic than −2021 kJ mol⁻¹ because of heat loss to the surroundings / incomplete combustion / evaporation of the alcohol"
+    ],
+    "modelAnswer": "ΔT = 38.0 − 20.0 = 18.0 °C. q = mcΔT = 250 × 4.18 × 18.0 = 18 810 J = 18.81 kJ. Moles of propan-1-ol = 0.600 ÷ 60.0 = 0.0100 mol. ΔcH = −18.81 ÷ 0.0100 = −1881 kJ mol⁻¹. This is less exothermic than the data-book value of −2021 kJ mol⁻¹, mainly because some heat is lost to the surroundings and apparatus, and some fuel may burn incompletely or evaporate.",
+    "explanation": "A full calorimetry chain: ΔT from the two temperatures, q = mcΔT with the mass of water, moles of fuel, then ΔH = −q/n in kJ mol⁻¹. The comparison mark needs both the direction (less exothermic) and a valid reason."
+  },
+  {
+    "id": "enthalpy_2-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(b)",
+    "question": "State the standard conditions used when quoting standard enthalpy changes and explain why enthalpy changes must be compared under the same conditions.",
+    "marks": 2,
+    "markPoints": [
+      "100 kPa (pressure) and a stated temperature, usually 298 K, with substances in their standard states",
+      "The value of an enthalpy change depends on temperature/pressure/state, so values are only comparable if measured under the same conditions"
+    ],
+    "modelAnswer": "Standard conditions are a pressure of 100 kPa and a stated temperature, usually 298 K, with every substance in its standard state. Enthalpy changes vary with temperature, pressure and physical state, so values can only be compared fairly, and used together in calculations such as Hess cycles, if they all refer to the same agreed conditions.",
+    "explanation": "This targets the 'why' behind the definition: without fixed conditions, two ΔH values for the same reaction could legitimately differ (for example, water formed as gas versus liquid), making data books and Hess cycles inconsistent."
+  },
+  {
+    "id": "enthalpy_2-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Define the term average bond enthalpy.",
+    "marks": 3,
+    "markPoints": [
+      "The energy required to break one mole of a specified (type of) bond",
+      "In gaseous molecules / with all species in the gas phase",
+      "Averaged over the same bond in many different molecules / environments"
+    ],
+    "modelAnswer": "The average bond enthalpy is the energy required to break one mole of a specified type of bond in gaseous molecules, averaged over that bond occurring in many different molecules.",
+    "explanation": "Three separate ideas earn the three marks: breaking one mole of the bond (an endothermic quantity), the gaseous state requirement, and the averaging across different molecules. The last two also explain why bond enthalpy calculations are only approximate."
+  },
+  {
+    "id": "enthalpy_2-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "Ammonia is made from nitrogen and hydrogen:\n\nN₂(g) + 3H₂(g) → 2NH₃(g)\n\nAverage bond enthalpies / kJ mol⁻¹: N≡N 945; H–H 436; N–H 391.\n\nCalculate the enthalpy change of this reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Bonds broken = 945 + (3 × 436) = 945 + 1308 = 2253 kJ mol⁻¹",
+      "Bonds made = 6 × 391 = 2346 kJ mol⁻¹ (two NH₃ molecules each contain three N–H bonds)",
+      "ΔH = 2253 − 2346 = −93 kJ mol⁻¹ (correct negative sign and units)"
+    ],
+    "modelAnswer": "Bonds broken: N≡N + 3 × H–H = 945 + 1308 = 2253 kJ mol⁻¹. Bonds made: 2 × 3 N–H = 6 × 391 = 2346 kJ mol⁻¹. ΔH = 2253 − 2346 = −93 kJ mol⁻¹.",
+    "explanation": "The commonest error is counting only three N–H bonds: the equation makes two molecules of NH₃, so six N–H bonds form. ΔH = Σ(bonds broken) − Σ(bonds made) then gives a small negative (exothermic) value."
+  },
+  {
+    "id": "enthalpy_2-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(e)",
+    "question": "Propane cannot be formed directly from carbon and hydrogen.\n\nUse the standard enthalpy changes of combustion below to calculate the standard enthalpy change of formation of propane, C₃H₈(g).\n\nΔcH⦵ / kJ mol⁻¹: C(s) −394; H₂(g) −286; C₃H₈(g) −2219.",
+    "marks": 4,
+    "markPoints": [
+      "Formation equation: 3C(s) + 4H₂(g) → C₃H₈(g), or equivalent use of ΔfH = ΣΔcH(reactants) − ΣΔcH(products)",
+      "ΣΔcH(reactants) = 3(−394) + 4(−286) = −1182 − 1144 = −2326 kJ mol⁻¹",
+      "ΔfH = −2326 − (−2219)",
+      "ΔfH = −107 kJ mol⁻¹ (correct sign and units)"
+    ],
+    "modelAnswer": "The formation equation is 3C(s) + 4H₂(g) → C₃H₈(g). ΔfH = ΣΔcH(reactants) − ΣΔcH(products) = [3(−394) + 4(−286)] − (−2219) = −2326 + 2219 = −107 kJ mol⁻¹.",
+    "explanation": "Balance the formation equation first: propane needs 3 carbons and 4 hydrogen molecules. Then apply the combustion-data rule (reactants minus products). Sign errors in the final subtraction are the usual pitfall — keep every combustion value negative throughout."
+  },
+  {
+    "id": "enthalpy_2-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(a)",
+    "question": "When an exothermic reaction takes place in aqueous solution, the temperature of the solution rises.\n\nExplain why.",
+    "marks": 1,
+    "markPoints": [
+      "Energy/heat is released by the (chemical system of the) reaction and transferred to the surroundings, which include the solution itself"
+    ],
+    "modelAnswer": "The reacting chemicals release energy, which is transferred to the surroundings. The solution (mostly water) is part of the surroundings, so it absorbs this energy and its temperature rises.",
+    "explanation": "In solution reactions the 'surroundings' begin with the solvent itself — the water in the beaker. Recognising that the solution is the surroundings is exactly why q = mcΔT uses the mass of the solution."
+  },
+  {
+    "id": "enthalpy_2-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student adds 0.480 g of magnesium ribbon to 50.0 cm³ of 1.00 mol dm⁻³ hydrochloric acid in a polystyrene cup:\n\nMg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)\n\nThe temperature rises by 40.0 °C.\n\nShow that the hydrochloric acid is in excess and calculate the enthalpy change of the reaction in kJ mol⁻¹.\n\nUse Ar(Mg) = 24.0. Assume the solution has a density of 1.00 g cm⁻³ and c = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 4,
+    "markPoints": [
+      "Moles of Mg = 0.480 ÷ 24.0 = 0.0200 mol; moles of HCl = 0.0500 dm³ × 1.00 = 0.0500 mol; Mg needs 2 × 0.0200 = 0.0400 mol HCl < 0.0500 mol, so HCl is in excess and Mg is limiting",
+      "q = mcΔT = 50.0 × 4.18 × 40.0 = 8360 J",
+      "ΔH = −q ÷ n(Mg) = −8360 ÷ 0.0200 = −418 000 J mol⁻¹",
+      "ΔH = −418 kJ mol⁻¹ (negative sign, correct units)"
+    ],
+    "modelAnswer": "Moles of Mg = 0.480 ÷ 24.0 = 0.0200 mol; moles of HCl = 0.0500 × 1.00 = 0.0500 mol. The magnesium requires 2 × 0.0200 = 0.0400 mol of HCl, which is less than 0.0500 mol, so the acid is in excess and magnesium is the limiting reagent. q = mcΔT = 50.0 × 4.18 × 40.0 = 8360 J. ΔH = −8360 ÷ 0.0200 = −418 000 J mol⁻¹ = −418 kJ mol⁻¹.",
+    "explanation": "The 2 : 1 acid-to-metal ratio is the key check for excess. The enthalpy change is per mole of reaction as written, so divide by the moles of the limiting magnesium. Only the 50.0 g of solution goes into q = mcΔT."
+  },
+  {
+    "id": "enthalpy_2-041",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(d)",
+    "question": "A student uses average bond enthalpies to calculate the enthalpy change of combustion of ethanol and obtains −1015 kJ mol⁻¹. The value obtained by direct calorimetry under standard conditions is −1367 kJ mol⁻¹.\n\nGive two reasons for the difference between the two values.",
+    "marks": 2,
+    "markPoints": [
+      "Average bond enthalpies are mean values for each bond taken across many different molecules, so the actual bond enthalpies in ethanol, oxygen, carbon dioxide and water differ from the averages",
+      "Bond enthalpies apply to gaseous species only, whereas under standard conditions ethanol and the water produced are liquids, so the enthalpy changes of vaporisation/condensation are not included in the calculation"
+    ],
+    "modelAnswer": "First, average bond enthalpies are mean values measured across many different molecules, so the actual bonds in these particular molecules have slightly different enthalpies. Second, bond enthalpies only apply to gaseous molecules; under standard conditions ethanol and the water formed are liquids, and the calculation ignores the energy changes involved in vaporising the ethanol and condensing the water.",
+    "explanation": "Both standard limitations of bond-enthalpy calculations are wanted here: the averaging approximation and the gaseous-state requirement. In combustion of ethanol the state issue is large because 3 mol of water condenses, releasing extra energy that the bond calculation misses."
+  },
+  {
+    "id": "enthalpy_2-042",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student is asked to determine the enthalpy change for the reaction between zinc powder and aqueous copper(II) sulfate:\n\nZn(s) + CuSO₄(aq) → ZnSO₄(aq) + Cu(s)\n\nDescribe an experiment, using a polystyrene cup, that would allow the student to determine this enthalpy change in kJ mol⁻¹. Include the measurements required, how the results are processed, and one significant source of error with an improvement to reduce it.",
+    "marks": 6,
+    "markPoints": [
+      "Measure a known volume of copper(II) sulfate solution of known concentration into the polystyrene cup (e.g. 50.0 cm³ of 0.500 mol dm⁻³ using a pipette or measuring cylinder) and record its initial (steady) temperature",
+      "Add a known mass of zinc powder in excess, stir, and record the maximum temperature reached",
+      "Calculate the energy released using q = mcΔT with the mass of the solution and its temperature rise",
+      "Calculate the moles of CuSO₄ (the limiting reagent) from concentration × volume",
+      "ΔH = −q/n, converting from J to kJ, giving the answer in kJ mol⁻¹ with a negative sign",
+      "Error: heat loss to the surroundings makes ΔT too small; improvement: use a lid / extra insulation, or record temperatures at regular time intervals before and after mixing and extrapolate back to the time of addition to obtain a corrected ΔT"
+    ],
+    "modelAnswer": "Pipette 50.0 cm³ of 0.500 mol dm⁻³ copper(II) sulfate solution into a polystyrene cup and record its steady initial temperature. Add a weighed excess of zinc powder, stir continuously, and record the maximum temperature reached. Calculate q = mcΔT using the mass of solution (50.0 g), c = 4.18 J g⁻¹ K⁻¹ and the temperature rise. The copper(II) sulfate is the limiting reagent, so n = 0.0500 × 0.500 = 0.0250 mol, and ΔH = −q/n converted to kJ mol⁻¹. The main error is heat loss to the surroundings, which makes ΔT too small; this can be reduced with a lid and insulation, or corrected by recording the temperature at regular intervals before and after adding the zinc and extrapolating the readings back to the moment of mixing to find the true temperature rise.",
+    "explanation": "The six marks map onto the six stages: measure the solution and initial temperature; add excess zinc and find the maximum temperature; apply q = mcΔT; find moles of the limiting CuSO₄; compute ΔH = −q/n in kJ mol⁻¹; and evaluate heat loss with a workable improvement such as extrapolation of timed temperature readings."
+  },
+  {
+    "id": "enthalpy_2-043",
+    "type": "written",
+    "module": 3,
+    "topic": "Enthalpy & Energetics",
+    "specRef": "3.2.1(c)",
+    "question": "A student burns 0.920 g of ethanol, C₂H₅OH (M = 46.0 g mol⁻¹), in a spirit burner beneath a copper calorimeter containing 200 g of water. The temperature of the water rises by 26.0 °C.\n\nCalculate the enthalpy change of combustion of ethanol from these results, giving your answer to three significant figures. Compare your value with the data-book value of −1367 kJ mol⁻¹ and explain the difference.\n\nc = 4.18 J g⁻¹ K⁻¹.",
+    "marks": 6,
+    "markPoints": [
+      "q = mcΔT = 200 × 4.18 × 26.0 = 21 736 J",
+      "Conversion to kilojoules: q = 21.7 kJ (allow 21.74 kJ)",
+      "Moles of ethanol = 0.920 ÷ 46.0 = 0.0200 mol",
+      "ΔcH = −21.736 ÷ 0.0200 = −1087 kJ mol⁻¹ ≈ −1090 kJ mol⁻¹ to 3 significant figures (negative sign and units required)",
+      "The experimental value is less exothermic than the data-book value of −1367 kJ mol⁻¹",
+      "Because heat is lost to the surroundings/apparatus, and/or some ethanol undergoes incomplete combustion or evaporates without burning"
+    ],
+    "modelAnswer": "q = mcΔT = 200 × 4.18 × 26.0 = 21 736 J = 21.7 kJ. Moles of ethanol = 0.920 ÷ 46.0 = 0.0200 mol. ΔcH = −21.736 ÷ 0.0200 = −1087 kJ mol⁻¹, which is −1090 kJ mol⁻¹ to three significant figures. This is less exothermic than the data-book value of −1367 kJ mol⁻¹ because a large fraction of the heat released escapes to the surroundings and the calorimeter rather than the water, and some ethanol may burn incompletely or evaporate from the wick without burning.",
+    "explanation": "A complete calorimetry question: q = mcΔT with the mass of water, unit conversion to kJ, moles of fuel, ΔH = −q/n with the correct sign, then a comparison giving both the direction (less exothermic) and the physical reasons. Heat loss is the dominant error in spirit-burner experiments."
+  }
+]

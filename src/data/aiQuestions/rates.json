@@ -1,0 +1,970 @@
+[
+  {
+    "id": "rates-001",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(a)",
+    "question": "Which units are most suitable for the rate of a reaction followed by measuring the change in concentration of a reactant?",
+    "options": {
+      "A": "mol dm⁻³",
+      "B": "mol dm⁻³ s⁻¹",
+      "C": "s mol⁻¹ dm³",
+      "D": "dm³ mol⁻¹"
+    },
+    "correctOption": "B",
+    "explanation": "Rate is defined as the change in concentration of a reactant or product per unit time, so its units are concentration units divided by time units: mol dm⁻³ s⁻¹.",
+    "steps": [
+      "Step 1 – Rate = change in concentration ÷ time taken.",
+      "Step 2 – Concentration has units mol dm⁻³ and time has units s.",
+      "Step 3 – Dividing gives mol dm⁻³ s⁻¹; A is just concentration, C and D are not rate units.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-002",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "The concentration of hydrochloric acid used in its reaction with magnesium is increased, with all other conditions unchanged.\n\nWhich statement explains why the rate of reaction increases?",
+    "options": {
+      "A": "The acid particles collide with more energy",
+      "B": "The activation energy of the reaction decreases",
+      "C": "There are more acid particles per unit volume, so effective collisions are more frequent",
+      "D": "A greater proportion of collisions have energy greater than the activation energy"
+    },
+    "correctOption": "C",
+    "explanation": "Increasing concentration puts more particles in the same volume, so collisions between reactant particles happen more frequently. The energy of the particles and the activation energy are unchanged, so the proportion of successful collisions stays the same — there are simply more collisions per second.",
+    "steps": [
+      "Step 1 – Higher concentration = more particles per unit volume.",
+      "Step 2 – More particles per unit volume → collisions occur more frequently → more effective collisions per second.",
+      "Step 3 – Concentration does not change the energy of individual particles (A, D) or the activation energy (B); those are temperature/catalyst effects.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "rates-003",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(d)",
+    "question": "Which statement best describes how a catalyst increases the rate of a reaction?",
+    "options": {
+      "A": "It lowers the activation energy of the original reaction pathway",
+      "B": "It provides an alternative reaction route with a lower activation energy",
+      "C": "It increases the energy of the reactant molecules",
+      "D": "It increases the frequency of collisions between reactant molecules"
+    },
+    "correctOption": "B",
+    "explanation": "A catalyst does not change the original reaction or give molecules more energy. It provides an alternative route (mechanism) with a lower activation energy, so a greater proportion of collisions are effective.",
+    "steps": [
+      "Step 1 – Recall the precise OCR definition: a catalyst provides an alternative route/mechanism with a lower activation energy.",
+      "Step 2 – Saying it 'lowers the activation energy of the reaction' (A) is the classic error — the original route still has the same Ea; the catalysed route is a different pathway.",
+      "Step 3 – Catalysts do not give molecules more energy (C) or make them collide more often (D).",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-004",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(h)",
+    "question": "Which statement about the Boltzmann distribution of molecular energies in a gas is correct?",
+    "options": {
+      "A": "Some molecules have zero energy",
+      "B": "The area under the curve is equal to the activation energy",
+      "C": "No molecules have zero energy and the curve never touches the energy axis at high energy",
+      "D": "Most molecules have energy greater than the activation energy"
+    },
+    "correctOption": "C",
+    "explanation": "The Boltzmann distribution starts at the origin (no molecules have zero energy) and approaches, but never reaches, the energy axis at high energy — there is no upper limit to molecular energy. The area under the curve equals the total number of molecules, and only a small proportion of molecules exceed the activation energy.",
+    "steps": [
+      "Step 1 – The curve starts at the origin: no molecules have zero energy, so A is wrong.",
+      "Step 2 – The area under the curve equals the total number of molecules, not the activation energy, so B is wrong.",
+      "Step 3 – Only a small proportion of molecules have energy ≥ Ea, so D is wrong; the curve is asymptotic to the axis at high energy.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "rates-005",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "The temperature of a gaseous reaction mixture is increased from 300 K to 320 K.\n\nHow does the Boltzmann distribution of molecular energies change?",
+    "options": {
+      "A": "The peak moves to higher energy and becomes higher",
+      "B": "The peak moves to higher energy and becomes lower",
+      "C": "The peak moves to lower energy and becomes higher",
+      "D": "The peak stays at the same energy but the curve becomes broader"
+    },
+    "correctOption": "B",
+    "explanation": "At a higher temperature the average energy of the molecules increases, so the peak shifts to higher energy. Because the total number of molecules (area under the curve) is unchanged, the curve spreads out and the peak becomes lower.",
+    "steps": [
+      "Step 1 – Higher temperature → higher average molecular energy → peak (most probable energy) shifts to the right.",
+      "Step 2 – The area under the curve = total number of molecules, which is constant, so the curve must flatten: the peak is lower and the distribution broader.",
+      "Step 3 – Only one option has the peak both at higher energy and lower in height.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-006",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "In an experiment, 48 cm³ of carbon dioxide gas is collected in the first 120 s of the reaction between calcium carbonate and dilute hydrochloric acid.\n\nWhat is the mean rate of reaction over this period?",
+    "options": {
+      "A": "0.25 cm³ s⁻¹",
+      "B": "0.40 cm³ s⁻¹",
+      "C": "2.5 cm³ s⁻¹",
+      "D": "5760 cm³ s⁻¹"
+    },
+    "correctOption": "B",
+    "explanation": "Mean rate = volume of gas produced ÷ time taken = 48 ÷ 120 = 0.40 cm³ s⁻¹. Dividing the wrong way round gives 2.5, and multiplying gives 5760.",
+    "steps": [
+      "Step 1 – Mean rate = change in measured quantity ÷ time = 48 cm³ ÷ 120 s.",
+      "Step 2 – 48 ÷ 120 = 0.40 cm³ s⁻¹.",
+      "Step 3 – C (120 ÷ 48) inverts the fraction and D (48 × 120) multiplies instead of dividing.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-007",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "Nitrogen and hydrogen react together in the gas phase.\n\nWhich change would NOT increase the rate of this reaction?",
+    "options": {
+      "A": "Increasing the temperature at constant volume",
+      "B": "Adding a suitable catalyst",
+      "C": "Increasing the pressure at constant temperature",
+      "D": "Increasing the volume of the container at constant temperature"
+    },
+    "correctOption": "D",
+    "explanation": "Increasing the volume of the container decreases the pressure and the concentration of the gas molecules, so collisions become less frequent and the rate decreases. The other three changes all increase the rate.",
+    "steps": [
+      "Step 1 – Temperature (A) increases both collision frequency and the proportion of molecules with E ≥ Ea — rate increases.",
+      "Step 2 – A catalyst (B) provides a lower-Ea route — rate increases; higher pressure (C) means molecules closer together, more frequent collisions — rate increases.",
+      "Step 3 – A larger volume (D) spreads the same molecules out, lowering the concentration/pressure, so collisions are less frequent and rate falls.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "rates-008",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "Which of the following is an example of homogeneous catalysis?",
+    "options": {
+      "A": "Iron in the Haber process for making ammonia",
+      "B": "Nickel in the hydrogenation of alkenes",
+      "C": "Concentrated sulfuric acid in the esterification of ethanol with ethanoic acid",
+      "D": "Platinum and rhodium in a catalytic converter"
+    },
+    "correctOption": "C",
+    "explanation": "A homogeneous catalyst is in the same physical state (phase) as the reactants. In esterification, the sulfuric acid catalyst and the reactants are all in the liquid phase. Iron, nickel and platinum/rhodium are solids catalysing gaseous or liquid reactants, so they are heterogeneous.",
+    "steps": [
+      "Step 1 – Homogeneous = catalyst in the same phase as the reactants; heterogeneous = different phase.",
+      "Step 2 – A, B and D are solid metal catalysts acting on gaseous/liquid reactants → heterogeneous.",
+      "Step 3 – In esterification the H₂SO₄ catalyst and the organic reactants are all liquids → same phase → homogeneous.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "rates-009",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "A small increase in temperature produces a large increase in the rate of a reaction.\n\nWhat is the main reason for this?",
+    "options": {
+      "A": "The frequency of collisions increases greatly",
+      "B": "The activation energy of the reaction decreases",
+      "C": "The number of molecules with energy greater than or equal to the activation energy increases greatly",
+      "D": "The temperature increases the energy of every collision equally"
+    },
+    "correctOption": "C",
+    "explanation": "The dominant effect of a temperature rise is the large increase in the proportion of molecules with energy at or above the activation energy (the area under the Boltzmann curve beyond Ea). The increase in collision frequency is only a minor contribution, and Ea itself is unchanged.",
+    "steps": [
+      "Step 1 – A higher temperature shifts the Boltzmann distribution to higher energies.",
+      "Step 2 – The area under the curve beyond Ea (molecules able to react) increases disproportionately — this is the main cause of the rate increase.",
+      "Step 3 – Collision frequency (A) increases only slightly; Ea (B) is fixed for a given route; molecules gain a spread of energies, not equal amounts (D).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "rates-010",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "Two experiments are carried out using the same mass of calcium carbonate with the same volume of hydrochloric acid in excess. In experiment 1 the calcium carbonate is in large lumps; in experiment 2 it is a fine powder.\n\nWhich statement is correct?",
+    "options": {
+      "A": "Experiment 2 is faster and produces a greater total volume of gas",
+      "B": "Experiment 2 is faster and produces the same total volume of gas",
+      "C": "Experiment 1 is faster because the lumps contain more calcium carbonate",
+      "D": "Both experiments have the same rate because the masses are equal"
+    },
+    "correctOption": "B",
+    "explanation": "The powder has a larger surface area, so acid particles collide with carbonate particles more frequently and the rate is higher. The amount of calcium carbonate is the same in both, so the same total volume of CO₂ is produced.",
+    "steps": [
+      "Step 1 – Powdering increases surface area → more exposed particles → more frequent collisions → faster rate, so experiment 2 is faster.",
+      "Step 2 – Total gas volume depends on the amount (moles) of the limiting reactant, which is the same mass of CaCO₃ in both experiments.",
+      "Step 3 – Therefore rate differs but final volume is identical.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-011",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(g)",
+    "question": "The rate of which reaction could be followed most effectively by measuring the loss in mass of the reaction mixture in an open flask?",
+    "options": {
+      "A": "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)",
+      "B": "CaCO₃(s) + 2HCl(aq) → CaCl₂(aq) + H₂O(l) + CO₂(g)",
+      "C": "NaOH(aq) + HCl(aq) → NaCl(aq) + H₂O(l)",
+      "D": "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)"
+    },
+    "correctOption": "B",
+    "explanation": "Mass loss requires a gas to escape from the flask, and the mass change must be large enough to measure. CO₂ (Mr = 44.0) escaping gives an easily measurable mass loss. H₂ (Mr = 2.0) is too light for an accurate mass-loss method, and C and D produce no gas at all.",
+    "steps": [
+      "Step 1 – The mass-loss method only works if a gas escapes from the reaction mixture: eliminate C and D (no gaseous product).",
+      "Step 2 – Compare the gases: H₂ has Mr = 2.0 so the mass change in A is tiny and hard to measure on a balance.",
+      "Step 3 – CO₂ has Mr = 44.0, giving a large, easily measured mass loss.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-012",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(j)",
+    "question": "A catalyst is added to a reaction mixture at constant temperature.\n\nWhat happens to the Boltzmann distribution of molecular energies and to the number of molecules able to react?",
+    "options": {
+      "A": "The distribution shifts to higher energies and more molecules can react",
+      "B": "The distribution is unchanged and more molecules can react",
+      "C": "The distribution is unchanged and the same number of molecules can react",
+      "D": "The distribution shifts to lower energies and fewer molecules can react"
+    },
+    "correctOption": "B",
+    "explanation": "A catalyst does not change the energies of the molecules, so the Boltzmann distribution itself is unchanged. However, the catalysed route has a lower activation energy, so a greater area under the curve lies beyond the (new, lower) Ea — more molecules have enough energy to react.",
+    "steps": [
+      "Step 1 – Only temperature changes the shape/position of the Boltzmann distribution; a catalyst does not, so eliminate A and D.",
+      "Step 2 – The catalyst provides an alternative route with a lower activation energy, effectively moving Ea to a lower energy on the same curve.",
+      "Step 3 – The area under the curve beyond the lower Ea is greater, so more molecules have E ≥ Ea and can react.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-013",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "Zinc reacts with excess dilute sulfuric acid. The rate of the reaction decreases with time.\n\nWhat is the best explanation for this decrease?",
+    "options": {
+      "A": "The activation energy increases as the reaction proceeds",
+      "B": "The zinc becomes coated with an unreactive layer",
+      "C": "The concentration of zinc particles in solution decreases",
+      "D": "The amount of zinc decreases, so effective collisions become less frequent"
+    },
+    "correctOption": "D",
+    "explanation": "As the reaction proceeds, the zinc (the limiting reactant here, since the acid is in excess) is used up. With less zinc surface available, collisions between acid particles and zinc become less frequent, so the rate falls.",
+    "steps": [
+      "Step 1 – The acid is in excess, so the zinc is used up as the reaction proceeds.",
+      "Step 2 – Fewer zinc atoms / less zinc surface → less frequent collisions with H⁺ ions → lower rate.",
+      "Step 3 – Ea is constant for a given reaction (A); no unreactive coating forms with dilute H₂SO₄ in this context (B); zinc is a solid, not particles in solution (C).",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "rates-014",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "The pressure of a mixture of two gaseous reactants is doubled by halving the volume of the container at constant temperature.\n\nWhy does the rate of reaction increase?",
+    "options": {
+      "A": "The molecules move faster, so they collide with more energy",
+      "B": "There are more molecules per unit volume, so collisions are more frequent",
+      "C": "The activation energy is halved",
+      "D": "A greater proportion of the collisions are effective"
+    },
+    "correctOption": "B",
+    "explanation": "At constant temperature the molecules have the same average speed and energy. Halving the volume doubles the number of molecules per unit volume, so collisions — including effective ones — happen more frequently.",
+    "steps": [
+      "Step 1 – Temperature is constant, so molecular speeds and energies are unchanged: eliminate A.",
+      "Step 2 – Ea is a property of the reaction and is unchanged by pressure (C); the proportion of effective collisions depends on energy, which is unchanged (D).",
+      "Step 3 – Halving the volume doubles the concentration of each gas → collisions are more frequent → rate increases.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "rates-015",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "Which statement is the best definition of activation energy?",
+    "options": {
+      "A": "The energy released when bonds form in the products",
+      "B": "The average energy of the reacting molecules",
+      "C": "The minimum energy required for a reaction to take place when particles collide",
+      "D": "The difference in energy between reactants and products"
+    },
+    "correctOption": "C",
+    "explanation": "Activation energy is the minimum energy that colliding particles must have for a reaction to occur. Option D describes the enthalpy change, not the activation energy.",
+    "steps": [
+      "Step 1 – Recall the definition: Ea = minimum energy needed for colliding particles to react.",
+      "Step 2 – D is the enthalpy change ΔH; A relates to bond formation only; B is the mean energy, which is usually far below Ea.",
+      "Step 3 – Only one option contains both 'minimum energy' and the idea of colliding particles reacting.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "rates-016",
+    "type": "mcq",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "A flask containing calcium carbonate and dilute nitric acid is placed on a balance. The mass falls from 82.44 g to 81.54 g during the first 300 s.\n\nWhat is the mean rate of mass loss over this period?",
+    "options": {
+      "A": "3.0 × 10⁻³ g s⁻¹",
+      "B": "0.27 g s⁻¹",
+      "C": "0.30 g s⁻¹",
+      "D": "333 g s⁻¹"
+    },
+    "correctOption": "A",
+    "explanation": "Mass loss = 82.44 − 81.54 = 0.90 g. Rate = 0.90 ÷ 300 = 3.0 × 10⁻³ g s⁻¹. Option B divides the final mass by the time, and D inverts the fraction.",
+    "steps": [
+      "Step 1 – Calculate the change in mass: 82.44 − 81.54 = 0.90 g.",
+      "Step 2 – Mean rate = change in mass ÷ time = 0.90 ÷ 300.",
+      "Step 3 – 0.90 ÷ 300 = 0.0030 = 3.0 × 10⁻³ g s⁻¹.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "rates-017",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(a)",
+    "question": "Define the term rate of reaction.",
+    "marks": 2,
+    "markPoints": [
+      "Change in concentration (or amount) of a reactant or product",
+      "Per unit time"
+    ],
+    "modelAnswer": "The rate of reaction is the change in concentration of a reactant or product per unit time.",
+    "explanation": "Both parts of the definition are needed: the quantity that changes (concentration of a reactant or product) and 'per unit time'. Vague answers such as 'how fast a reaction goes' score zero."
+  },
+  {
+    "id": "rates-018",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "Define the term activation energy.",
+    "marks": 1,
+    "markPoints": [
+      "The minimum energy required for a reaction to take place (when particles collide)"
+    ],
+    "modelAnswer": "Activation energy is the minimum energy required for a reaction to take place when particles collide.",
+    "explanation": "The key word is 'minimum'. Answers stating 'the energy needed for a reaction' without 'minimum' do not gain the mark."
+  },
+  {
+    "id": "rates-019",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "Magnesium ribbon reacts with dilute hydrochloric acid. The experiment is repeated using hydrochloric acid of a higher concentration, with all other conditions unchanged.\n\nExplain, using collision theory, why the rate of reaction increases.",
+    "marks": 2,
+    "markPoints": [
+      "More HCl / H⁺ particles per unit volume (in the same volume)",
+      "So collisions (between H⁺ ions and Mg) are more frequent / more effective collisions per second"
+    ],
+    "modelAnswer": "At a higher concentration there are more H⁺ ions in the same volume of solution. The H⁺ ions therefore collide with the magnesium surface more frequently, so there are more effective collisions per second and the rate increases.",
+    "explanation": "The mark scheme wants 'more particles per unit volume' linked to 'more frequent collisions'. Avoid saying 'more collisions' alone — it is the frequency of collisions that matters, and concentration does not change the energy of the collisions."
+  },
+  {
+    "id": "rates-020",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "Hydrogen and iodine react together in the gas phase.\n\nExplain, in terms of collision theory, why increasing the pressure of the gas mixture at constant temperature increases the rate of reaction.",
+    "marks": 2,
+    "markPoints": [
+      "At higher pressure the gas molecules are closer together / there are more molecules per unit volume (higher concentration)",
+      "So the molecules collide more frequently / there are more effective collisions per unit time"
+    ],
+    "modelAnswer": "Increasing the pressure forces the gas molecules closer together, so there are more molecules per unit volume. The molecules therefore collide more frequently, giving more effective collisions per second and a faster rate.",
+    "explanation": "For gases, pressure plays the same role as concentration for solutions. The energy of the molecules is unchanged at constant temperature, so the argument is entirely about collision frequency."
+  },
+  {
+    "id": "rates-021",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "Powdered zinc reacts faster with dilute sulfuric acid than the same mass of zinc granules.\n\nExplain why, using collision theory.",
+    "marks": 2,
+    "markPoints": [
+      "The powder has a larger surface area (more zinc atoms exposed to the acid)",
+      "So there are more frequent collisions between acid particles and the zinc surface / more effective collisions per second"
+    ],
+    "modelAnswer": "The powdered zinc has a much larger surface area, so more zinc atoms are exposed to the acid. H⁺ ions collide with the zinc surface more frequently, so there are more effective collisions per second and the rate is higher.",
+    "explanation": "Surface-area answers must link 'larger surface area' explicitly to 'more frequent collisions'. Simply stating 'more surface area so faster' misses the collision-theory mark."
+  },
+  {
+    "id": "rates-022",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(h)",
+    "question": "The Boltzmann distribution shows the spread of molecular energies in a gas at a given temperature.\n\nDescribe three features of the Boltzmann distribution.",
+    "marks": 3,
+    "markPoints": [
+      "The curve starts at the origin: no molecules have zero energy",
+      "The curve rises to a peak at the most probable energy, then falls; at high energy it approaches but never touches the energy axis (no maximum energy)",
+      "The area under the curve equals the total number of molecules; only a small proportion of molecules have energy greater than or equal to the activation energy"
+    ],
+    "modelAnswer": "The distribution starts at the origin because no molecules have zero energy. It rises to a peak at the most probable energy and then falls, approaching but never touching the energy axis, because there is no upper limit to molecular energy. The total area under the curve equals the total number of molecules, and only a small proportion of molecules have energy greater than or equal to the activation energy.",
+    "explanation": "Any three of the standard features score: starts at the origin, peak = most probable energy, asymptotic at high energy, area = total number of molecules, small area beyond Ea. These same points are also the foundation of the 6-mark temperature question."
+  },
+  {
+    "id": "rates-023",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "Describe how the Boltzmann distribution of molecular energies changes when the temperature of a gas is increased.",
+    "marks": 3,
+    "markPoints": [
+      "The peak of the distribution moves to a higher energy (most probable energy increases)",
+      "The peak becomes lower and the curve broader / more spread out",
+      "The total area under the curve stays the same (same number of molecules), but a greater proportion of molecules have energy greater than or equal to the activation energy"
+    ],
+    "modelAnswer": "At the higher temperature the peak of the distribution shifts to a higher energy and becomes lower, with the curve more spread out. The total area under the curve is unchanged because the number of molecules is the same, but a greater area now lies beyond the activation energy, so a larger proportion of molecules have energy greater than or equal to Ea.",
+    "explanation": "Three separate ideas are credited: peak right, peak lower/broader, area constant with more molecules beyond Ea. Forgetting that the area is constant (same number of molecules) is the most common omission."
+  },
+  {
+    "id": "rates-024",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "The rate of the reaction between hydrogen and iodine increases significantly when the temperature is increased by 20 °C.\n\nExplain, using collision theory and the Boltzmann distribution, why a relatively small increase in temperature causes a large increase in the rate of reaction.",
+    "marks": 6,
+    "markPoints": [
+      "At the higher temperature the molecules have more (kinetic) energy and move faster",
+      "So collisions are (slightly) more frequent",
+      "The Boltzmann distribution shifts: the peak moves to a higher energy and becomes lower, with the curve more spread out",
+      "The area under the curve beyond the activation energy increases, i.e. a much greater proportion of molecules have energy greater than or equal to Ea",
+      "So a much greater proportion of collisions are effective / successful",
+      "The increased proportion of molecules exceeding Ea is the main reason for the large rate increase (it outweighs the small increase in collision frequency)"
+    ],
+    "modelAnswer": "At the higher temperature the molecules have more kinetic energy and move faster, so they collide slightly more frequently. More importantly, the Boltzmann distribution shifts: the peak moves to a higher energy and becomes lower, and the curve spreads out. The area under the curve beyond the activation energy increases greatly, so a much larger proportion of molecules have energy greater than or equal to Ea. A much greater proportion of collisions are therefore effective. This large increase in the proportion of successful collisions, rather than the small increase in collision frequency, is the main reason why the rate increases so much.",
+    "explanation": "This is the classic 6-mark rates question. The examiner wants both effects (frequency and energy), the described shift of the Boltzmann distribution, the 'area beyond Ea' idea, and the judgement that the energy effect dominates."
+  },
+  {
+    "id": "rates-025",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(d)",
+    "question": "Define the term catalyst.",
+    "marks": 2,
+    "markPoints": [
+      "A substance that increases the rate of a reaction without being used up (in the overall reaction)",
+      "By providing an alternative reaction route / mechanism with a lower activation energy"
+    ],
+    "modelAnswer": "A catalyst is a substance that increases the rate of a reaction without being used up in the overall reaction. It works by providing an alternative reaction route with a lower activation energy.",
+    "explanation": "Both ideas are needed for full marks: 'speeds up without being used up' and 'alternative route with lower Ea'. Saying the catalyst 'lowers the activation energy of the reaction' is imprecise — it provides a different route that has a lower Ea."
+  },
+  {
+    "id": "rates-026",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(j)",
+    "question": "Explain, with reference to the Boltzmann distribution, how a catalyst increases the rate of a reaction.",
+    "marks": 3,
+    "markPoints": [
+      "The catalyst provides an alternative route / mechanism with a lower activation energy",
+      "The Boltzmann distribution itself is unchanged (the energies of the molecules do not change)",
+      "A greater area under the curve lies beyond the (lower) activation energy, so a greater proportion of molecules have energy greater than or equal to Ea and more collisions are effective"
+    ],
+    "modelAnswer": "The catalyst provides an alternative reaction route with a lower activation energy. The Boltzmann distribution itself does not change, because the energies of the molecules are unaffected. However, a greater area under the curve now lies beyond the lower activation energy, so a greater proportion of molecules have energy greater than or equal to Ea and more collisions per second are effective.",
+    "explanation": "The crucial discriminator is stating that the curve is unchanged — only the position of Ea moves to lower energy. Students who say the distribution shifts confuse the catalyst effect with the temperature effect."
+  },
+  {
+    "id": "rates-027",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "Catalysts can be classified as homogeneous or heterogeneous.\n\nExplain the difference between a homogeneous and a heterogeneous catalyst, and give one example of each.",
+    "marks": 4,
+    "markPoints": [
+      "A homogeneous catalyst is in the same phase / physical state as the reactants",
+      "A heterogeneous catalyst is in a different phase / physical state from the reactants",
+      "Example of homogeneous: e.g. concentrated H₂SO₄ (liquid) in esterification of liquid ethanol and ethanoic acid",
+      "Example of heterogeneous: e.g. Fe(s) in the Haber process with N₂(g) and H₂(g) / Ni(s) in hydrogenation of alkenes / Pt–Rh in catalytic converters"
+    ],
+    "modelAnswer": "A homogeneous catalyst is in the same phase as the reactants, for example concentrated sulfuric acid catalysing the esterification of ethanol and ethanoic acid, where all species are liquids. A heterogeneous catalyst is in a different phase from the reactants, for example solid iron catalysing the reaction between nitrogen gas and hydrogen gas in the Haber process.",
+    "explanation": "Use 'phase' or 'physical state', not 'same substance'. The examples must make the phases clear: liquid acid with liquid reactants (homogeneous) versus solid metal with gases (heterogeneous)."
+  },
+  {
+    "id": "rates-028",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(f)",
+    "question": "Catalysts are used in many industrial processes.\n\nExplain the economic importance of using catalysts in industry.",
+    "marks": 3,
+    "markPoints": [
+      "Catalysts allow reactions to occur at lower temperatures (and/or pressures)",
+      "So less (electrical/fossil-fuel) energy is needed, reducing energy costs",
+      "Products are made faster / in a shorter time, increasing output and profit (lower production costs)"
+    ],
+    "modelAnswer": "Catalysts allow industrial reactions to take place at lower temperatures and pressures, so less energy is needed and energy costs are reduced. They also speed up production, so more product can be made in a given time, lowering production costs and increasing profit.",
+    "explanation": "The economic argument is: lower temperature/pressure → less energy → lower cost, plus faster production. Link each scientific point to a cost or profit consequence."
+  },
+  {
+    "id": "rates-029",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(f)",
+    "question": "The use of catalysts in industry benefits the environment and contributes to sustainability.\n\nExplain two ways in which using a catalyst can benefit the environment.",
+    "marks": 2,
+    "markPoints": [
+      "Lower temperatures mean less fossil fuel is burnt, so less CO₂ is released (reduced contribution to climate change / smaller carbon footprint)",
+      "Catalysts can improve atom economy / enable processes with fewer waste products, or allow alternative processes with non-hazardous or renewable feedstocks"
+    ],
+    "modelAnswer": "Because catalysed reactions can run at lower temperatures, less fossil fuel is burnt to heat the reactors, so less carbon dioxide is released into the atmosphere. Catalysts can also allow processes with higher atom economy or fewer waste products, reducing pollution and making the process more sustainable.",
+    "explanation": "OCR expects the CO₂/fossil-fuel argument plus one 'greener chemistry' point such as better atom economy, less waste, or safer processes. Each point should state the environmental consequence, not just the chemistry."
+  },
+  {
+    "id": "rates-030",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "In the reaction between magnesium and dilute hydrochloric acid, 72 cm³ of hydrogen gas is collected in the first 90 s.\n\nCalculate the mean rate of reaction over this period. Give your answer with units.",
+    "marks": 2,
+    "markPoints": [
+      "Rate = 72 ÷ 90 = 0.80",
+      "Units: cm³ s⁻¹"
+    ],
+    "modelAnswer": "Mean rate = volume ÷ time = 72 ÷ 90 = 0.80 cm³ s⁻¹.",
+    "explanation": "Mean rate over a period is simply the change in the measured quantity divided by the time. The units mark is separate — always quote cm³ s⁻¹ (or the equivalent for the quantity measured)."
+  },
+  {
+    "id": "rates-031",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "A student follows the reaction between calcium carbonate and dilute hydrochloric acid by placing the flask on a balance. The mass of the flask and contents decreases by 1.20 g over the first 480 s.\n\nCalculate the mean rate of mass loss over this period. Give your answer in standard form with units.",
+    "marks": 2,
+    "markPoints": [
+      "Rate = 1.20 ÷ 480 = 0.0025",
+      "= 2.5 × 10⁻³ g s⁻¹ (answer in standard form with correct units)"
+    ],
+    "modelAnswer": "Mean rate of mass loss = 1.20 ÷ 480 = 2.5 × 10⁻³ g s⁻¹.",
+    "explanation": "The mass decreases because CO₂ escapes from the flask. Divide the mass change by the time and convert to standard form; the units g s⁻¹ are needed for the second mark."
+  },
+  {
+    "id": "rates-032",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(g)",
+    "question": "Magnesium reacts with dilute hydrochloric acid:\n\nMg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)\n\nDescribe two different methods a student could use to follow the rate of this reaction in the laboratory.",
+    "marks": 2,
+    "markPoints": [
+      "Collect the hydrogen gas (in a gas syringe or over water in an inverted measuring cylinder) and measure the volume at regular time intervals",
+      "Carry out the reaction in a flask on a balance and record the (decrease in) mass at regular time intervals (with a loose cotton-wool plug to let gas escape)"
+    ],
+    "modelAnswer": "The student could collect the hydrogen in a gas syringe and record the volume of gas at regular time intervals. Alternatively, the flask could be placed on a balance (with cotton wool in the neck) and the decrease in mass recorded at regular time intervals as the hydrogen escapes.",
+    "explanation": "Any technique must include what is measured and that readings are taken at regular time intervals. Note that in practice the mass-loss method is poor for H₂ because it is so light — the gas-collection method is better here."
+  },
+  {
+    "id": "rates-033",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(g)",
+    "question": "A student suggests following the rate of the reaction between zinc and dilute sulfuric acid by measuring the loss in mass of the reaction flask.\n\nExplain why this method would give inaccurate results for this reaction.",
+    "marks": 2,
+    "markPoints": [
+      "The gas given off is hydrogen, which has a very low molar mass (Mr = 2.0)",
+      "So the mass lost is very small / too small to measure accurately on a (2 or 3 decimal place) balance"
+    ],
+    "modelAnswer": "The gas produced is hydrogen, which has a very small molar mass of 2.0 g mol⁻¹. Even when a large amount of gas is released, the loss in mass is tiny, so the change would be too small to measure accurately on a laboratory balance.",
+    "explanation": "The mass-loss method relies on a measurable mass change. It works well for CO₂ (Mr = 44.0) but not for H₂ (Mr = 2.0). Quantifying the point with the molar mass strengthens the answer."
+  },
+  {
+    "id": "rates-034",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(g)",
+    "question": "Aqueous bromine reacts with methanoic acid:\n\nBr₂(aq) + HCOOH(aq) → 2HBr(aq) + CO₂(g)\n\nSuggest how a colour change could be used to follow the rate of this reaction, and state the colour change observed.",
+    "marks": 2,
+    "markPoints": [
+      "Measure the (intensity of the) colour of the mixture at regular time intervals, e.g. with a colorimeter / by timing how long the colour takes to fade",
+      "The orange/brown colour of bromine fades to colourless as Br₂ is used up"
+    ],
+    "modelAnswer": "The orange colour of the aqueous bromine fades to colourless as the bromine is used up. The student could use a colorimeter to measure the intensity of the colour at regular time intervals, or time how long the mixture takes to become colourless.",
+    "explanation": "Colour-change methods work when one species in the equation is coloured. Br₂(aq) is orange and every product is colourless, so the fading colour tracks the reaction. Mentioning regular time measurements (or a colorimeter) secures the method mark."
+  },
+  {
+    "id": "rates-035",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "A student measures the volume of gas produced in a reaction. After 240 s the volume of gas stops increasing.\n\nExplain why the volume of gas stops increasing.",
+    "marks": 1,
+    "markPoints": [
+      "The reaction has finished because one of the reactants (the limiting reactant) has been completely used up"
+    ],
+    "modelAnswer": "The reaction has finished: the limiting reactant has been completely used up, so no more gas can be produced.",
+    "explanation": "A constant reading means the rate has fallen to zero. The answer must identify that a reactant (the limiting one) has run out — not simply that 'the reaction slowed down'."
+  },
+  {
+    "id": "rates-036",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(f)",
+    "question": "Catalysts are essential in modern industrial chemistry.\n\nExplain how a catalyst increases the rate of a reaction, and discuss the economic and environmental benefits of using catalysts in industrial processes.",
+    "marks": 6,
+    "markPoints": [
+      "A catalyst provides an alternative reaction route / mechanism with a lower activation energy",
+      "A greater proportion of colliding molecules have energy greater than or equal to the (lower) activation energy, so more collisions are effective and the rate increases; the catalyst is not used up overall",
+      "Economic: reactions can run at lower temperatures and/or pressures, so less energy is required and energy costs are lower",
+      "Economic: product is made faster / greater output in a given time, reducing costs / increasing profit",
+      "Environmental: less fossil fuel is burnt (for heating/compression), so less CO₂ is emitted / smaller carbon footprint",
+      "Environmental/sustainability: processes can have higher atom economy / produce less waste / use fewer hazardous substances"
+    ],
+    "modelAnswer": "A catalyst increases the rate of a reaction by providing an alternative route with a lower activation energy. A greater proportion of colliding molecules then have energy greater than or equal to the activation energy, so more collisions per second are effective; the catalyst itself is not used up overall. Economically, catalysed processes can run at lower temperatures and pressures, so less energy is needed and costs are reduced, and the faster rate means more product is made in a given time. Environmentally, burning less fossil fuel to heat the reactors releases less carbon dioxide, reducing the carbon footprint, and catalysts can enable processes with higher atom economy that generate less waste.",
+    "explanation": "A level-of-response style 6-marker: it needs the mechanism of catalysis (alternative route, lower Ea, more effective collisions), at least two economic points and at least two environmental/sustainability points, all expressed as consequences (costs, CO₂, waste)."
+  },
+  {
+    "id": "rates-037",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "In a gaseous reaction mixture, the molecules collide many millions of times per second, yet the reaction proceeds slowly at room temperature.\n\nExplain why only a very small proportion of collisions result in a reaction.",
+    "marks": 2,
+    "markPoints": [
+      "Colliding molecules must have energy greater than or equal to the activation energy for a reaction to occur",
+      "At room temperature only a very small proportion of molecules have energy greater than or equal to Ea (most collisions have insufficient energy)"
+    ],
+    "modelAnswer": "For a collision to lead to a reaction, the colliding molecules must have a combined energy greater than or equal to the activation energy. At room temperature only a tiny proportion of molecules have this much energy, so the vast majority of collisions are unsuccessful and the reaction is slow.",
+    "explanation": "This is collision theory in its purest form: collision frequency is huge, but the fraction of molecules beyond Ea on the Boltzmann distribution is tiny, so effective collisions are rare."
+  },
+  {
+    "id": "rates-038",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "A student reacts identical strips of magnesium with 50 cm³ of hydrochloric acid. With 1.0 mol dm⁻³ acid, the magnesium takes 80 s to disappear. With 2.0 mol dm⁻³ acid, it takes 38 s.\n\nState and explain what these results show about the effect of concentration on the rate of reaction.",
+    "marks": 3,
+    "markPoints": [
+      "The rate (approximately) doubles when the concentration doubles / higher concentration gives a faster rate (shorter time)",
+      "At higher concentration there are more H⁺ ions per unit volume",
+      "So collisions between H⁺ ions and the magnesium surface are more frequent / more effective collisions per second"
+    ],
+    "modelAnswer": "Doubling the concentration roughly halves the time taken (80 s to 38 s), so the rate approximately doubles when the concentration doubles. At the higher concentration there are twice as many H⁺ ions in the same volume, so H⁺ ions collide with the magnesium surface about twice as frequently, giving more effective collisions per second and a faster rate.",
+    "explanation": "Interpret the data first (time halves, so rate doubles), then explain with collision theory. Remember that rate is inversely proportional to time when the same amount of reactant is consumed."
+  },
+  {
+    "id": "rates-039",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "Doubling the temperature (in °C) of a reaction mixture usually has a much larger effect on the rate of reaction than doubling the concentration of a reactant.\n\nExplain why.",
+    "marks": 3,
+    "markPoints": [
+      "Doubling the concentration (approximately) doubles the frequency of collisions only; the energy of the molecules is unchanged",
+      "Increasing the temperature increases the proportion of molecules with energy greater than or equal to the activation energy (area beyond Ea on the Boltzmann distribution increases greatly), as well as slightly increasing collision frequency",
+      "The proportion of molecules exceeding Ea increases exponentially / many times over, so many more collisions are effective — a much larger effect than doubling collision frequency"
+    ],
+    "modelAnswer": "Doubling the concentration only doubles the frequency of collisions; the energy of the molecules is unchanged, so the same small proportion of collisions is effective. Increasing the temperature shifts the Boltzmann distribution so that a far greater proportion of molecules have energy greater than or equal to the activation energy, as well as slightly increasing collision frequency. Because the number of molecules exceeding Ea can increase many times over for a modest temperature rise, the effect on rate is much larger than simply doubling the collision frequency.",
+    "explanation": "The comparison hinges on the two factors in collision theory: frequency of collisions (concentration effect) versus proportion of effective collisions (temperature effect). Temperature acts on the exponential tail of the Boltzmann distribution, which is why it dominates."
+  },
+  {
+    "id": "rates-040",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "Catalytic converters in car exhausts convert harmful gases such as carbon monoxide and nitrogen monoxide into less harmful products.\n\nState the type of catalysis occurring in a catalytic converter and explain your answer. Write an equation for a reaction between carbon monoxide and nitrogen monoxide that occurs on the catalyst surface.",
+    "marks": 3,
+    "markPoints": [
+      "Heterogeneous catalysis",
+      "The catalyst (platinum/rhodium/palladium) is a solid, whereas the reactants (CO and NO) are gases — different phases",
+      "2CO + 2NO → 2CO₂ + N₂ (correctly balanced)"
+    ],
+    "modelAnswer": "The catalysis is heterogeneous: the platinum/rhodium catalyst is a solid while the reacting gases, carbon monoxide and nitrogen monoxide, are in the gas phase, so catalyst and reactants are in different phases. On the catalyst surface: 2CO(g) + 2NO(g) → 2CO₂(g) + N₂(g).",
+    "explanation": "Catalytic converters are the standard example of heterogeneous catalysis. The balanced equation 2CO + 2NO → 2CO₂ + N₂ removes both pollutants at once — check the nitrogen balance carefully."
+  },
+  {
+    "id": "rates-041",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "Heterogeneous catalysts such as iron in the Haber process act at the surface of the solid.\n\nDescribe the stages by which a heterogeneous catalyst is thought to increase the rate of a gaseous reaction.",
+    "marks": 3,
+    "markPoints": [
+      "Reactant molecules are adsorbed onto (bind to) the surface of the catalyst",
+      "Bonds in the reactant molecules are weakened, lowering the activation energy; the reaction occurs on the surface (adsorbed reactants held close together in the correct orientation)",
+      "The product molecules are desorbed / leave the surface, freeing the surface for further reaction"
+    ],
+    "modelAnswer": "Reactant gas molecules are adsorbed onto the surface of the solid catalyst. This weakens the bonds within the reactant molecules and holds them close together in a favourable orientation, so the reaction occurs on the surface with a lower activation energy. The product molecules are then desorbed from the surface, leaving the catalyst unchanged and free to adsorb more reactant.",
+    "explanation": "The three-step sequence is adsorption → reaction on the surface (weakened bonds, lower Ea) → desorption. Use 'adsorbed' (onto a surface), not 'absorbed' (into the bulk) — the wrong word loses the mark."
+  },
+  {
+    "id": "rates-042",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "In the Haber process, nitrogen and hydrogen react to form ammonia in the presence of an iron catalyst:\n\nN₂(g) + 3H₂(g) → 2NH₃(g)\n\nState whether the iron is acting as a homogeneous or heterogeneous catalyst, and explain how you can tell.",
+    "marks": 2,
+    "markPoints": [
+      "Heterogeneous",
+      "The iron is a solid and the reactants (N₂ and H₂) are gases, so the catalyst is in a different phase from the reactants"
+    ],
+    "modelAnswer": "The iron is a heterogeneous catalyst because it is a solid while the reactants, nitrogen and hydrogen, are gases — the catalyst and reactants are in different phases.",
+    "explanation": "Classification is purely about phases: solid catalyst + gaseous reactants = heterogeneous. Always state the phases of both catalyst and reactants in the explanation."
+  },
+  {
+    "id": "rates-043",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(a)",
+    "question": "A reaction is followed by measuring the concentration of a product at regular time intervals.\n\nState the units of rate when concentration is measured in mol dm⁻³ and time in seconds.",
+    "marks": 1,
+    "markPoints": [
+      "mol dm⁻³ s⁻¹"
+    ],
+    "modelAnswer": "The units of rate are mol dm⁻³ s⁻¹.",
+    "explanation": "Rate = change in concentration ÷ time, so divide the concentration units by the time units: mol dm⁻³ ÷ s = mol dm⁻³ s⁻¹."
+  },
+  {
+    "id": "rates-044",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "In a reaction between magnesium and hydrochloric acid, the concentration of the acid falls from 0.500 mol dm⁻³ to 0.350 mol dm⁻³ during the first 25 s.\n\nCalculate the mean rate of reaction with respect to hydrochloric acid over this period. Give your answer with units.",
+    "marks": 2,
+    "markPoints": [
+      "Change in concentration = 0.500 − 0.350 = 0.150 mol dm⁻³; rate = 0.150 ÷ 25 = 6.0 × 10⁻³",
+      "Units: mol dm⁻³ s⁻¹"
+    ],
+    "modelAnswer": "Change in concentration = 0.500 − 0.350 = 0.150 mol dm⁻³. Mean rate = 0.150 ÷ 25 = 6.0 × 10⁻³ mol dm⁻³ s⁻¹.",
+    "explanation": "Work out the concentration change first, then divide by the time interval. The answer 6.0 × 10⁻³ needs the units mol dm⁻³ s⁻¹ for the second mark."
+  },
+  {
+    "id": "rates-045",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "A student adds lumps of calcium carbonate to excess dilute hydrochloric acid in a flask on a balance and records the mass every 30 s. The mass decreases quickly at first, then more and more slowly, and finally becomes constant after 600 s.\n\nExplain these observations in terms of collision theory.",
+    "marks": 5,
+    "markPoints": [
+      "The mass decreases because CO₂ gas is produced and escapes from the flask",
+      "At the start the concentration of acid (and the amount of carbonate surface) is greatest, so collisions are most frequent and the rate is fastest",
+      "As the reaction proceeds, the reactants are used up so the concentration of HCl (and the carbonate surface area) decreases",
+      "Collisions therefore become less frequent, so the rate decreases (mass falls more slowly)",
+      "After 600 s the calcium carbonate (limiting reactant) is completely used up, so the reaction stops and the mass is constant"
+    ],
+    "modelAnswer": "The mass falls because carbon dioxide gas is produced and escapes from the flask. At the start, the concentration of hydrochloric acid and the surface area of the carbonate are greatest, so effective collisions are most frequent and the rate is at its highest. As the reaction proceeds, the reactants are used up: the acid concentration and the carbonate surface decrease, so collisions become less frequent and the rate falls, making the mass decrease more slowly. After 600 s the calcium carbonate has been completely used up (the acid is in excess), so the reaction stops and the mass stays constant.",
+    "explanation": "Structure the answer chronologically: why mass falls at all, why the rate is fastest at the start, why it slows (collision frequency falls as concentration falls), and why it stops (limiting reactant used up). Since the acid is in excess, the carbonate is the limiting reactant."
+  },
+  {
+    "id": "rates-046",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(d)",
+    "question": "A catalyst takes part in a reaction but does not appear in the overall equation.\n\nExplain why a catalyst is not used up during a reaction.",
+    "marks": 2,
+    "markPoints": [
+      "The catalyst reacts with a reactant / forms an intermediate (or adsorbs the reactants) in an early step of the alternative route",
+      "It is regenerated / re-formed unchanged in a later step, so overall it is not consumed"
+    ],
+    "modelAnswer": "The catalyst takes part in an early step of the alternative reaction route, for example by forming an intermediate with a reactant or adsorbing it onto its surface. In a later step the catalyst is regenerated unchanged, so although it participates in the mechanism it is not used up overall.",
+    "explanation": "The key idea is 'used then regenerated'. The catalyst appears in individual steps of the mechanism but cancels out overall, which is why it is absent from the overall equation."
+  },
+  {
+    "id": "rates-047",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "For many reactions, an increase in temperature of only 10 °C approximately doubles the rate of reaction.\n\nExplain, using ideas about the Boltzmann distribution, why such a small temperature rise can double the rate.",
+    "marks": 3,
+    "markPoints": [
+      "At the higher temperature the Boltzmann distribution shifts to higher energies (peak moves right and is lower)",
+      "The number/proportion of molecules with energy greater than or equal to the activation energy (the area beyond Ea) approximately doubles",
+      "So the number of effective collisions per second approximately doubles, doubling the rate (the small increase in collision frequency is a minor effect)"
+    ],
+    "modelAnswer": "When the temperature rises by 10 °C the Boltzmann distribution shifts towards higher energies, with the peak moving right and becoming lower. Although the shift looks small, the area under the curve beyond the activation energy approximately doubles, so about twice as many molecules have energy greater than or equal to Ea. The number of effective collisions per second therefore roughly doubles, doubling the rate; the slight increase in collision frequency contributes very little.",
+    "explanation": "The doubling comes from the exponential tail of the distribution: a small shift produces a proportionally huge change in the area beyond Ea. Always attribute the effect to the energy of collisions, not their frequency."
+  },
+  {
+    "id": "rates-048",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "Describe how the Boltzmann distribution of molecular energies changes when the temperature of a gas is decreased, and state the effect on the rate of reaction.",
+    "marks": 3,
+    "markPoints": [
+      "The peak moves to a lower energy and becomes higher / the curve becomes narrower (total area unchanged)",
+      "Fewer molecules have energy greater than or equal to the activation energy (smaller area beyond Ea)",
+      "So there are fewer effective collisions per second and the rate decreases"
+    ],
+    "modelAnswer": "At the lower temperature the peak of the distribution moves to a lower energy and becomes higher, with the curve narrower; the total area under the curve is unchanged because the number of molecules is the same. Fewer molecules now have energy greater than or equal to the activation energy, so there are fewer effective collisions per second and the rate of reaction decreases.",
+    "explanation": "This is the mirror image of the temperature-increase answer: peak left and taller, smaller area beyond Ea, fewer effective collisions. Keep the 'area under curve constant' point — it shows you understand what the curve represents."
+  },
+  {
+    "id": "rates-049",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "A student states that increasing the concentration of a reactant increases the rate because 'the particles collide with more energy'.\n\nExplain why the student's reasoning is incorrect and give the correct explanation.",
+    "marks": 2,
+    "markPoints": [
+      "Concentration does not change the (kinetic) energy of the particles — only temperature affects the energy of the particles / the proportion exceeding Ea",
+      "Correct reason: more particles per unit volume means collisions are more frequent / more effective collisions per second"
+    ],
+    "modelAnswer": "The energy of the particles depends on the temperature, not the concentration, so increasing the concentration does not make collisions more energetic. The correct explanation is that a higher concentration means more particles per unit volume, so collisions — including effective ones — occur more frequently.",
+    "explanation": "A classic misconception question. Keep the two factors of collision theory separate: concentration/pressure/surface area affect collision frequency; temperature affects both frequency and, far more importantly, collision energy."
+  },
+  {
+    "id": "rates-050",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(e)",
+    "question": "The decomposition of hydrogen peroxide is catalysed by aqueous iodide ions:\n\n2H₂O₂(aq) → 2H₂O(l) + O₂(g)\n\nState whether the iodide ions act as a homogeneous or heterogeneous catalyst, explain your answer, and suggest one way the rate of this reaction could be followed.",
+    "marks": 3,
+    "markPoints": [
+      "Homogeneous",
+      "The catalyst (I⁻(aq)) and the reactant (H₂O₂(aq)) are in the same phase (both aqueous)",
+      "Follow the rate by collecting the O₂ in a gas syringe and measuring the volume at regular time intervals (or by measuring the loss in mass of the flask over time)"
+    ],
+    "modelAnswer": "The iodide ions are a homogeneous catalyst because both the catalyst, I⁻(aq), and the reactant, H₂O₂(aq), are in the same aqueous phase. The rate could be followed by collecting the oxygen gas in a gas syringe and recording its volume at regular time intervals.",
+    "explanation": "Aqueous catalyst + aqueous reactant = same phase = homogeneous. Because a gas is evolved, gas collection (or mass loss, since O₂ has Mr = 32.0) is the natural way to follow the rate."
+  },
+  {
+    "id": "rates-051",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "A student investigates the reaction between marble chips (calcium carbonate) and dilute hydrochloric acid. The student separately (i) increases the concentration of the acid, (ii) increases the temperature and (iii) adds a suitable catalyst.\n\nExplain, using collision theory and the Boltzmann distribution, how each change increases the rate of reaction.",
+    "marks": 6,
+    "markPoints": [
+      "(i) Higher concentration: more H⁺ ions per unit volume",
+      "(i) So collisions with the carbonate surface are more frequent / more effective collisions per second (energy of collisions unchanged)",
+      "(ii) Higher temperature: molecules/ions have more kinetic energy so collisions are (slightly) more frequent",
+      "(ii) The Boltzmann distribution shifts to higher energies, so a much greater proportion of particles have energy greater than or equal to the activation energy → many more effective collisions",
+      "(iii) A catalyst provides an alternative route with a lower activation energy",
+      "(iii) The distribution is unchanged, but a greater proportion of particles now have energy greater than or equal to the lower Ea, so more collisions are effective"
+    ],
+    "modelAnswer": "Increasing the concentration puts more H⁺ ions in the same volume of solution, so they collide with the carbonate surface more frequently; the energy of the collisions is unchanged, but the greater frequency of effective collisions increases the rate. Increasing the temperature gives the particles more kinetic energy, so collisions are slightly more frequent; more importantly, the Boltzmann distribution shifts to higher energies, so a much greater proportion of particles have energy greater than or equal to the activation energy and many more collisions are effective. Adding a catalyst provides an alternative reaction route with a lower activation energy; the Boltzmann distribution itself is unchanged, but a greater proportion of particles exceed the lower activation energy, so a greater proportion of collisions are effective and the rate increases.",
+    "explanation": "A synoptic 6-marker covering all three factors. The discriminators are: concentration affects frequency only; temperature affects mainly the proportion beyond Ea; a catalyst lowers Ea via a new route without changing the distribution."
+  },
+  {
+    "id": "rates-052",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(i)",
+    "question": "Food decays because of chemical reactions. Storing food in a refrigerator slows down its decay.\n\nExplain, using collision theory, why food decays more slowly at low temperatures.",
+    "marks": 3,
+    "markPoints": [
+      "At the lower temperature the particles have less (kinetic) energy (and move more slowly)",
+      "Fewer particles have energy greater than or equal to the activation energy (smaller proportion beyond Ea on the Boltzmann distribution)",
+      "So there are fewer effective collisions per second and the (decay) reactions are slower; collisions are also (slightly) less frequent"
+    ],
+    "modelAnswer": "In the refrigerator the particles in the food have less kinetic energy, so a much smaller proportion of them have energy greater than or equal to the activation energy of the decay reactions. There are also slightly fewer collisions per second because the particles move more slowly. Fewer effective collisions occur each second, so the reactions that cause decay are much slower.",
+    "explanation": "An application question, but the marking points are the standard temperature ones in reverse: lower energy, smaller fraction beyond Ea, fewer effective collisions. Relate each point back to the decay reactions in the food."
+  },
+  {
+    "id": "rates-053",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(b)",
+    "question": "A student reacts excess magnesium with 25.0 cm³ of dilute sulfuric acid and records the total volume of hydrogen collected: 18 cm³ after 20 s, 30 cm³ after 40 s, 36 cm³ after 60 s, 38 cm³ after 80 s and 38 cm³ after 100 s.\n\nCalculate the mean rate of reaction over the first 20 s, and explain why the rate changes during the experiment.",
+    "marks": 4,
+    "markPoints": [
+      "Mean rate over first 20 s = 18 ÷ 20 = 0.90",
+      "Units: cm³ s⁻¹",
+      "The rate decreases with time because the acid (H⁺) is used up, so its concentration falls and collisions become less frequent",
+      "By 80 s the acid (limiting reactant) is completely used up, so the reaction stops and the volume stays constant at 38 cm³"
+    ],
+    "modelAnswer": "Mean rate over the first 20 s = 18 ÷ 20 = 0.90 cm³ s⁻¹. The rate decreases during the experiment because the sulfuric acid is used up: as its concentration falls, H⁺ ions collide with the magnesium less frequently, so fewer effective collisions occur per second. Between 80 s and 100 s the volume stays at 38 cm³ because the acid, the limiting reactant, has been completely used up, so the reaction has stopped.",
+    "explanation": "Two skills in one question: a rate calculation with units, and interpretation of the levelling-off of the readings. Because the magnesium is in excess, it is the acid that runs out."
+  },
+  {
+    "id": "rates-054",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(c)",
+    "question": "A student reacts 2.00 g of powdered calcium carbonate with excess hydrochloric acid, and repeats the experiment with 2.00 g of calcium carbonate lumps. The powder reacts much faster, but the final total volume of carbon dioxide is the same in both experiments.\n\nExplain both observations.",
+    "marks": 3,
+    "markPoints": [
+      "The powder has a larger surface area, so collisions between H⁺ ions and the carbonate are more frequent — faster rate",
+      "The final volume of gas depends on the amount (moles) of the limiting reactant",
+      "The same mass/moles of CaCO₃ (the limiting reactant, as the acid is in excess) is used in both experiments, so the same amount of CO₂ is produced"
+    ],
+    "modelAnswer": "The powdered carbonate has a much larger surface area than the lumps, so H⁺ ions collide with carbonate particles more frequently and the rate is higher. The total volume of carbon dioxide depends only on the amount of the limiting reactant. Since both experiments use 2.00 g of calcium carbonate with the acid in excess, the same number of moles of carbonate reacts in each, producing the same final volume of CO₂.",
+    "explanation": "Surface area changes the rate but not the yield. Identify the limiting reactant (the carbonate, because the acid is in excess) to justify why the final volumes are equal."
+  },
+  {
+    "id": "rates-055",
+    "type": "written",
+    "module": 3,
+    "topic": "Reaction Rates",
+    "specRef": "3.2.2(d)",
+    "question": "A student carries out the decomposition of hydrogen peroxide twice at the same temperature: once without a catalyst and once after adding a small amount of solid manganese(IV) oxide. In the catalysed experiment, oxygen is produced much faster, and at the end the manganese(IV) oxide can be recovered unchanged in mass.\n\nExplain these two observations.",
+    "marks": 4,
+    "markPoints": [
+      "MnO₂ provides an alternative reaction route with a lower activation energy",
+      "A greater proportion of the H₂O₂ molecules have energy greater than or equal to the (lower) activation energy, so more effective collisions occur per second and O₂ is produced faster",
+      "The catalyst takes part in the reaction / forms an intermediate or adsorbs reactants, but is regenerated in a later step",
+      "So the catalyst is not used up overall, which is why its mass is unchanged at the end"
+    ],
+    "modelAnswer": "The manganese(IV) oxide is a catalyst: it provides an alternative reaction route with a lower activation energy. A greater proportion of the hydrogen peroxide molecules therefore have energy greater than or equal to the activation energy, so more effective collisions occur each second and oxygen is produced much faster. Although the catalyst takes part in steps of the alternative route, it is regenerated unchanged, so it is not used up overall and its full mass can be recovered at the end.",
+    "explanation": "Both observations map onto the definition of a catalyst: 'increases the rate' (alternative route, lower Ea, more effective collisions) and 'is not used up' (participates but is regenerated). This is also the standard demonstration that MnO₂ is heterogeneous — a solid with an aqueous reactant."
+  }
+]

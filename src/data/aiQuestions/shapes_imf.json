@@ -1,0 +1,730 @@
+[
+  {
+    "id": "shapes_imf-001",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "What is the shape of a molecule of BF₃?",
+    "options": {
+      "A": "Linear",
+      "B": "Trigonal planar",
+      "C": "Pyramidal",
+      "D": "Tetrahedral"
+    },
+    "correctOption": "B",
+    "explanation": "Boron in BF₃ has three bonding pairs and no lone pairs. Three bonding pairs repel equally and move as far apart as possible, giving a trigonal planar shape with bond angles of 120°.",
+    "steps": [
+      "Step 1 – Count the electron pairs around B: boron has 3 outer electrons, all used in B–F bonds, so 3 bonding pairs and 0 lone pairs.",
+      "Step 2 – Three bonding pairs repel equally and spread as far apart as possible in a plane.",
+      "Step 3 – This gives a trigonal planar shape with 120° angles; pyramidal would need a lone pair and tetrahedral would need four bonding pairs.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-002",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "What is the H–N–H bond angle in a molecule of ammonia, NH₃?",
+    "options": { "A": "120°", "B": "109.5°", "C": "107°", "D": "104.5°" },
+    "correctOption": "C",
+    "explanation": "Nitrogen in NH₃ has three bonding pairs and one lone pair. The lone pair repels more strongly than the bonding pairs, squeezing the bond angle from the tetrahedral 109.5° down to 107°. 104.5° is the angle in H₂O, which has two lone pairs.",
+    "steps": [
+      "Step 1 – N in NH₃ has 4 electron pairs: 3 bonding pairs and 1 lone pair.",
+      "Step 2 – Four pairs point towards the corners of a tetrahedron (109.5°), but a lone pair repels more than a bonding pair.",
+      "Step 3 – Each lone pair reduces the angle by about 2.5°, so 109.5° − 2.5° = 107°; 104.5° would require two lone pairs (as in H₂O).",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "shapes_imf-003",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(f)",
+    "question": "Which molecule contains polar bonds but is non-polar overall?",
+    "options": { "A": "H₂O", "B": "NH₃", "C": "CO₂", "D": "HCl" },
+    "correctOption": "C",
+    "explanation": "CO₂ is linear and symmetrical, so the two C=O bond dipoles act in opposite directions and cancel out. H₂O, NH₃ and HCl are all asymmetrical about their dipoles, so their dipoles do not cancel and the molecules are polar.",
+    "steps": [
+      "Step 1 – All four molecules contain polar bonds because the atoms have different electronegativities.",
+      "Step 2 – A molecule is only non-polar if it is symmetrical so that the bond dipoles cancel.",
+      "Step 3 – CO₂ is linear (O=C=O) with equal and opposite dipoles that cancel; H₂O is non-linear, NH₃ is pyramidal and HCl has a single dipole, so all three are polar.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "shapes_imf-004",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(j)",
+    "question": "In which liquid does hydrogen bonding occur between the molecules?",
+    "options": { "A": "CH₄", "B": "HCl", "C": "H₂S", "D": "NH₃" },
+    "correctOption": "D",
+    "explanation": "Hydrogen bonding requires a hydrogen atom bonded directly to N, O or F, and a lone pair on an N, O or F atom of a neighbouring molecule. Only NH₃ meets this requirement. Cl and S are not electronegative enough.",
+    "steps": [
+      "Step 1 – Hydrogen bonding needs H attached directly to N, O or F.",
+      "Step 2 – CH₄ has H bonded to C, HCl has H bonded to Cl and H₂S has H bonded to S — none of these count.",
+      "Step 3 – NH₃ has H bonded to N and a lone pair on N, so hydrogen bonds form between NH₃ molecules.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "shapes_imf-005",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "What are the shape of, and bond angle in, a molecule of SF₆?",
+    "options": {
+      "A": "Octahedral, 90°",
+      "B": "Octahedral, 109.5°",
+      "C": "Tetrahedral, 109.5°",
+      "D": "Trigonal planar, 120°"
+    },
+    "correctOption": "A",
+    "explanation": "Sulfur in SF₆ is surrounded by six bonding pairs and no lone pairs. Six bonding pairs repel equally to give an octahedral shape with bond angles of 90°.",
+    "steps": [
+      "Step 1 – Count the electron pairs around S: six S–F bonding pairs and no lone pairs.",
+      "Step 2 – Six equal bonding pairs arrange themselves as far apart as possible, giving an octahedral shape.",
+      "Step 3 – Adjacent bonds in an octahedron are at 90° to each other.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "shapes_imf-006",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(e)",
+    "question": "Which element has the highest electronegativity?",
+    "options": { "A": "Oxygen", "B": "Fluorine", "C": "Chlorine", "D": "Nitrogen" },
+    "correctOption": "B",
+    "explanation": "Electronegativity increases across a period and decreases down a group on the Pauling scale. Fluorine, at the top right of the Periodic Table (excluding the noble gases), is the most electronegative element of all.",
+    "steps": [
+      "Step 1 – Recall the Pauling trend: electronegativity increases towards the top right of the Periodic Table.",
+      "Step 2 – F is further right than N and O in Period 2, so it is more electronegative than both.",
+      "Step 3 – F is above Cl in Group 17, so it is more electronegative than Cl; fluorine is the most electronegative element.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-007",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(h)",
+    "question": "Which halogen has the strongest London (induced dipole–dipole) forces between its molecules?",
+    "options": { "A": "F₂", "B": "Cl₂", "C": "Br₂", "D": "I₂" },
+    "correctOption": "D",
+    "explanation": "London forces increase with the number of electrons in a molecule. I₂ has the most electrons of the four halogens, so its instantaneous and induced dipoles are largest and its London forces are strongest — this is why iodine is a solid at room temperature.",
+    "steps": [
+      "Step 1 – The strength of London forces depends mainly on the number of electrons in the molecule.",
+      "Step 2 – Going down Group 17 from F₂ to I₂, the number of electrons per molecule increases.",
+      "Step 3 – I₂ has the most electrons, so the largest instantaneous/induced dipoles and the strongest London forces.",
+      "Answer: D"
+    ]
+  },
+  {
+    "id": "shapes_imf-008",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "What are the shape of, and bond angle in, the ammonium ion, NH₄⁺?",
+    "options": {
+      "A": "Pyramidal, 107°",
+      "B": "Tetrahedral, 109.5°",
+      "C": "Tetrahedral, 107°",
+      "D": "Trigonal planar, 120°"
+    },
+    "correctOption": "B",
+    "explanation": "In NH₄⁺ the lone pair on nitrogen has been used to form a dative covalent bond to H⁺, so nitrogen is surrounded by four identical bonding pairs and no lone pairs. Four equal bonding pairs give a tetrahedral shape with angles of 109.5°.",
+    "steps": [
+      "Step 1 – In NH₄⁺, nitrogen's lone pair forms a dative covalent bond to H⁺, so there are 4 bonding pairs and 0 lone pairs.",
+      "Step 2 – Four bonding pairs repel equally and point to the corners of a tetrahedron.",
+      "Step 3 – With no lone pairs there is no extra repulsion, so the angle is the full 109.5°, not 107°.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-009",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(a)",
+    "question": "The H–O–H bond angle in water is 104.5°, smaller than the H–C–H angle of 109.5° in methane.\n\nWhat is the best explanation for this difference?",
+    "options": {
+      "A": "Oxygen is more electronegative than carbon",
+      "B": "The two lone pairs on oxygen repel more strongly than bonding pairs",
+      "C": "The O–H bonds are shorter than the C–H bonds",
+      "D": "Water has fewer bonding pairs so the repulsion is weaker"
+    },
+    "correctOption": "B",
+    "explanation": "Water has two bonding pairs and two lone pairs around oxygen. Lone pair–lone pair repulsion is greater than lone pair–bonding pair repulsion, which is greater than bonding pair–bonding pair repulsion, so the two lone pairs push the O–H bonds closer together, reducing the angle to 104.5°.",
+    "steps": [
+      "Step 1 – O in H₂O has 4 electron pairs: 2 bonding pairs and 2 lone pairs; C in CH₄ has 4 bonding pairs only.",
+      "Step 2 – Lone pairs repel more strongly than bonding pairs.",
+      "Step 3 – The two lone pairs squeeze the bonding pairs together, reducing the angle by about 2.5° per lone pair: 109.5° − 5° = 104.5°.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-010",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(k)",
+    "question": "Ice is less dense than liquid water.\n\nWhich statement explains this observation?",
+    "options": {
+      "A": "Covalent bonds in ice are longer than those in liquid water",
+      "B": "Ice contains fewer hydrogen bonds than liquid water",
+      "C": "Hydrogen bonds hold the water molecules apart in an open lattice in ice",
+      "D": "London forces are stronger in liquid water than in ice"
+    },
+    "correctOption": "C",
+    "explanation": "In ice, each water molecule is held by hydrogen bonds in a regular open lattice, keeping the molecules further apart than in the liquid. When ice melts, this lattice collapses and the molecules move closer together, so liquid water is denser than ice.",
+    "steps": [
+      "Step 1 – In solid ice, hydrogen bonds hold the H₂O molecules in a fixed, regular, open lattice structure.",
+      "Step 2 – This open arrangement keeps the molecules further apart than in liquid water, giving a lower density.",
+      "Step 3 – A is false (covalent bond lengths do not change), B is the wrong way round for the lattice argument, and D is irrelevant — hydrogen bonding dominates.",
+      "Answer: C"
+    ]
+  },
+  {
+    "id": "shapes_imf-011",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(j)",
+    "question": "The boiling point of HF (20 °C) is much higher than the boiling point of HCl (−85 °C).\n\nWhat is the main reason for this difference?",
+    "options": {
+      "A": "HF has more electrons than HCl",
+      "B": "Hydrogen bonds form between HF molecules but not between HCl molecules",
+      "C": "The H–F covalent bond is stronger than the H–Cl covalent bond",
+      "D": "HCl molecules have no permanent dipole"
+    },
+    "correctOption": "B",
+    "explanation": "H is bonded directly to F in HF, so hydrogen bonds form between HF molecules. Hydrogen bonds are the strongest type of intermolecular force, so more energy is needed to separate HF molecules. Covalent bond strength is irrelevant because covalent bonds are not broken on boiling.",
+    "steps": [
+      "Step 1 – Boiling only overcomes intermolecular forces, so compare the forces between molecules, not the covalent bonds (this eliminates C).",
+      "Step 2 – HF has H bonded directly to F, so hydrogen bonding occurs between HF molecules; HCl only has permanent dipole–dipole and London forces (this eliminates D, and A is the wrong way round — HCl has more electrons).",
+      "Step 3 – Hydrogen bonds are stronger than the other intermolecular forces, so HF needs much more energy to boil.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-012",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(a)",
+    "question": "Use electron pair repulsion theory to explain why a molecule of CO₂ is linear with a bond angle of 180°.",
+    "marks": 3,
+    "markPoints": [
+      "There are two regions of electron density / two (double) bonding pairs around the carbon atom and no lone pairs",
+      "The electron pairs repel each other and move as far apart as possible (to minimise repulsion)",
+      "Two regions of electron density are furthest apart at 180°, giving a linear shape"
+    ],
+    "modelAnswer": "The carbon atom in CO₂ has two regions of electron density (the two C=O double bonds) and no lone pairs. These regions repel each other and arrange themselves as far apart as possible to minimise repulsion. Two regions are furthest apart when they are on opposite sides of the carbon atom, giving a linear molecule with a bond angle of 180°.",
+    "explanation": "For shape explanations OCR wants three ideas every time: (1) count the electron pairs or regions of electron density, (2) state that they repel and move as far apart as possible, (3) state the resulting shape and angle. Each double bond counts as one region of electron density."
+  },
+  {
+    "id": "shapes_imf-013",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "State the shape of, and the bond angle in, a molecule of ammonia, NH₃. Explain why the bond angle is smaller than that in methane, CH₄.",
+    "marks": 4,
+    "markPoints": [
+      "Shape: pyramidal",
+      "Bond angle: 107°",
+      "N in NH₃ has three bonding pairs and one lone pair (whereas C in CH₄ has four bonding pairs)",
+      "The lone pair repels more strongly than a bonding pair, pushing the bonding pairs closer together / reducing the angle from 109.5°"
+    ],
+    "modelAnswer": "NH₃ is pyramidal with a bond angle of 107°. Nitrogen has three bonding pairs and one lone pair, whereas carbon in CH₄ has four bonding pairs and no lone pairs. A lone pair repels more strongly than a bonding pair, so the lone pair pushes the three N–H bonding pairs closer together, reducing the angle from 109.5° to 107°.",
+    "explanation": "Each lone pair reduces the tetrahedral angle by about 2.5°. The key marking point is the comparison of repulsion strengths: lone pair–bonding pair repulsion is greater than bonding pair–bonding pair repulsion."
+  },
+  {
+    "id": "shapes_imf-014",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "State the shape of, and the bond angle in, a molecule of water, H₂O. Use electron pair repulsion theory to explain your answer.",
+    "marks": 4,
+    "markPoints": [
+      "Shape: non-linear / bent",
+      "Bond angle: 104.5°",
+      "O has two bonding pairs and two lone pairs; the four pairs repel and take up a (roughly) tetrahedral arrangement",
+      "Lone pairs repel more strongly than bonding pairs, so the H–O–H angle is reduced from 109.5° (by about 2.5° per lone pair) to 104.5°"
+    ],
+    "modelAnswer": "Water is non-linear with a bond angle of 104.5°. The oxygen atom is surrounded by two bonding pairs and two lone pairs, and these four electron pairs repel each other into a roughly tetrahedral arrangement. Because lone pairs repel more strongly than bonding pairs, the two lone pairs squeeze the O–H bonds together, reducing the angle from 109.5° to 104.5°.",
+    "explanation": "The shape name OCR accepts is 'non-linear' (or 'bent'). Always count all four electron pairs first — the shape is described only by the atom positions, but the angle is explained by all the pairs including the lone pairs."
+  },
+  {
+    "id": "shapes_imf-015",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "The bond angles in CH₄, NH₃ and H₂O are 109.5°, 107° and 104.5° respectively.\n\nExplain this trend in bond angles.",
+    "marks": 4,
+    "markPoints": [
+      "All three molecules have four pairs of electrons around the central atom",
+      "CH₄ has 0 lone pairs, NH₃ has 1 lone pair and H₂O has 2 lone pairs",
+      "Lone pairs repel more strongly than bonding pairs",
+      "Each (additional) lone pair reduces the bond angle by about 2.5°, so the angle decreases from 109.5° to 107° to 104.5°"
+    ],
+    "modelAnswer": "Each central atom is surrounded by four electron pairs, which repel into a roughly tetrahedral arrangement. CH₄ has four bonding pairs and no lone pairs, so the angle is the full 109.5°. NH₃ has one lone pair and H₂O has two. Lone pairs repel more strongly than bonding pairs, so each lone pair pushes the bonding pairs closer together, reducing the angle by about 2.5° each time: 109.5° in CH₄, 107° in NH₃ and 104.5° in H₂O.",
+    "explanation": "This is the classic 'isoelectronic series' question. The 2.5° per lone pair rule of thumb is expected at AS. State the number of lone pairs in each molecule explicitly — vague answers about 'more lone pairs' without counting lose marks."
+  },
+  {
+    "id": "shapes_imf-016",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(e)",
+    "question": "Define the term electronegativity.",
+    "marks": 2,
+    "markPoints": [
+      "The ability of an atom to attract the (bonding) pair of electrons",
+      "In a covalent bond"
+    ],
+    "modelAnswer": "Electronegativity is the ability of an atom to attract the pair of electrons in a covalent bond.",
+    "explanation": "Both parts are needed: 'attracts the bonding pair of electrons' and 'in a covalent bond'. Answers that talk about attracting electrons in general, or attracting electrons from other atoms, do not score both marks."
+  },
+  {
+    "id": "shapes_imf-017",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(e)",
+    "question": "On the Pauling scale, the electronegativity values of the Period 2 elements increase from lithium to fluorine.\n\nExplain this trend.",
+    "marks": 3,
+    "markPoints": [
+      "Nuclear charge / number of protons increases across the period",
+      "Atomic radius decreases and shielding stays (roughly) the same (same number of inner shells)",
+      "So the attraction of the nucleus for the bonding pair of electrons increases"
+    ],
+    "modelAnswer": "Across Period 2 the nuclear charge increases as protons are added, while the electrons are added to the same shell, so shielding stays roughly constant and the atomic radius decreases. The bonding pair of electrons is therefore attracted more strongly by the nucleus, so electronegativity increases from lithium to fluorine.",
+    "explanation": "Electronegativity trends are explained with the same three factors as ionisation energy: nuclear charge, shielding and radius — but applied to the attraction on the bonding pair rather than on an outer electron."
+  },
+  {
+    "id": "shapes_imf-018",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(f)",
+    "question": "Explain why the H–Cl bond in hydrogen chloride is polar.",
+    "marks": 2,
+    "markPoints": [
+      "Chlorine is more electronegative than hydrogen",
+      "So the bonding pair of electrons is attracted closer to the Cl atom, giving Cl a partial negative charge (δ−) and H a partial positive charge (δ+) / creating a (permanent) dipole"
+    ],
+    "modelAnswer": "Chlorine is more electronegative than hydrogen, so the shared pair of electrons in the H–Cl bond is attracted closer to the chlorine atom. This makes the chlorine end of the bond δ− and the hydrogen end δ+, so the bond has a permanent dipole and is polar.",
+    "explanation": "A polar bond needs two ideas: an electronegativity difference, and the unequal sharing of the bonding pair that produces partial charges (δ+/δ−). Naming which atom is δ− shows you know the direction of the dipole."
+  },
+  {
+    "id": "shapes_imf-019",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(g)",
+    "question": "Carbon dioxide, CO₂, contains polar C=O bonds, yet a molecule of CO₂ is non-polar. Water, H₂O, is a polar molecule.\n\nExplain these observations.",
+    "marks": 3,
+    "markPoints": [
+      "CO₂ is linear / symmetrical",
+      "So the (equal and opposite) bond dipoles cancel out and there is no overall dipole",
+      "H₂O is non-linear / asymmetrical, so the bond dipoles do not cancel and the molecule has an overall (net) dipole"
+    ],
+    "modelAnswer": "CO₂ is a linear, symmetrical molecule, so the two equal C=O bond dipoles act in exactly opposite directions and cancel out — there is no overall dipole and the molecule is non-polar. Water is non-linear, so its two O–H bond dipoles do not cancel; they combine to give an overall dipole, making the molecule polar.",
+    "explanation": "Bond polarity and molecular polarity are different things. A symmetrical molecule (linear CO₂, trigonal planar BF₃, tetrahedral CCl₄) can contain polar bonds whose dipoles cancel. Any asymmetry — lone pairs or different atoms — stops the cancellation."
+  },
+  {
+    "id": "shapes_imf-020",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(h)",
+    "question": "Describe how London (induced dipole–dipole) forces arise between molecules of nitrogen, N₂.",
+    "marks": 3,
+    "markPoints": [
+      "The electrons (electron density) in a molecule are constantly moving, so at any instant the distribution is uneven, creating an instantaneous dipole",
+      "This instantaneous dipole induces a dipole in a neighbouring molecule",
+      "The instantaneous and induced dipoles attract each other (and the effect is passed on through the substance)"
+    ],
+    "modelAnswer": "The electrons in an N₂ molecule are constantly moving, so at any instant more electron density may be at one end of the molecule than the other, creating an instantaneous dipole. This dipole distorts the electron cloud of a neighbouring molecule, inducing a dipole in it. The instantaneous dipole and the induced dipole then attract one another, and induced dipoles are set up throughout the substance.",
+    "explanation": "The three-step story is: instantaneous dipole (from uneven electron movement) → induced dipole in a neighbour → attraction between the dipoles. All three steps are separate marking points on OCR mark schemes."
+  },
+  {
+    "id": "shapes_imf-021",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(h)",
+    "question": "The boiling points of the halogens increase down Group 17 from fluorine to iodine.\n\nExplain this trend.",
+    "marks": 3,
+    "markPoints": [
+      "The number of electrons per molecule increases down the group",
+      "So the instantaneous and induced dipoles are larger / the London (induced dipole–dipole) forces between molecules are stronger",
+      "More energy is needed to overcome the (stronger) intermolecular forces, so the boiling point increases"
+    ],
+    "modelAnswer": "Down Group 17 the molecules have more electrons. Larger, more easily distorted electron clouds produce bigger instantaneous and induced dipoles, so the London forces between the molecules become stronger. More energy is therefore needed to overcome these intermolecular forces, and the boiling points increase from F₂ to I₂.",
+    "explanation": "Boiling point explanations must be about intermolecular forces, never covalent bonds. Link electrons → strength of London forces → energy needed to separate the molecules."
+  },
+  {
+    "id": "shapes_imf-022",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(j)",
+    "question": "State the two requirements for a hydrogen bond to form between two molecules.",
+    "marks": 2,
+    "markPoints": [
+      "A hydrogen atom bonded directly to a highly electronegative N, O or F atom (giving H a large δ+ charge)",
+      "A lone pair of electrons on an N, O or F atom of another molecule (to which the δ+ H is attracted)"
+    ],
+    "modelAnswer": "One molecule must contain a hydrogen atom covalently bonded to nitrogen, oxygen or fluorine, so that the hydrogen carries a large partial positive charge. The other molecule must have a lone pair of electrons on an N, O or F atom; the hydrogen bond is the attraction between the δ+ hydrogen and this lone pair.",
+    "explanation": "Both halves matter: the δ+ H on N/O/F, and the lone pair on N/O/F of the other molecule. Answers that only mention 'H bonded to N, O or F' miss the lone pair mark."
+  },
+  {
+    "id": "shapes_imf-023",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(k)",
+    "question": "Ice floats on liquid water.\n\nExplain, in terms of hydrogen bonding, why ice is less dense than liquid water.",
+    "marks": 3,
+    "markPoints": [
+      "In ice the water molecules are held (in fixed positions) by hydrogen bonds in a regular, open lattice",
+      "The hydrogen bonds hold the molecules further apart than in liquid water",
+      "When ice melts the lattice collapses / breaks down and the molecules move closer together, so liquid water is denser (and ice floats)"
+    ],
+    "modelAnswer": "In ice, hydrogen bonds hold the water molecules in a regular, open lattice structure. These hydrogen bonds keep the molecules slightly further apart than they are in liquid water. When ice melts, the open lattice collapses and the molecules move closer together, so the same mass occupies a smaller volume — liquid water is denser than ice, and ice floats.",
+    "explanation": "The key word is 'open lattice'. The hydrogen bonds are not weaker or fewer in ice — they hold the molecules in a spaced-out arrangement, and it is the collapse of this arrangement on melting that increases the density."
+  },
+  {
+    "id": "shapes_imf-024",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(k)",
+    "question": "Water has a much higher melting point and boiling point than would be expected for a molecule with so few electrons.\n\nExplain why.",
+    "marks": 2,
+    "markPoints": [
+      "Hydrogen bonds form between water molecules (H bonded to O, attraction to a lone pair on O of another molecule)",
+      "Hydrogen bonds are stronger than the other intermolecular forces (London forces / permanent dipole–dipole), so more energy is needed to separate the molecules"
+    ],
+    "modelAnswer": "Hydrogen bonds form between water molecules because each δ+ hydrogen is attracted to a lone pair on the oxygen atom of a neighbouring molecule. Hydrogen bonds are the strongest type of intermolecular force, so a relatively large amount of energy is needed to overcome them, giving water anomalously high melting and boiling points.",
+    "explanation": "Water's anomalous melting and boiling points are one of the two anomalous properties named on the OCR specification (the other is the low density of ice). Both are explained by hydrogen bonding."
+  },
+  {
+    "id": "shapes_imf-025",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(j)",
+    "question": "The boiling point of ammonia, NH₃ (−33 °C), is higher than the boiling point of phosphine, PH₃ (−88 °C), even though PH₃ has more electrons.\n\nExplain this observation.",
+    "marks": 3,
+    "markPoints": [
+      "Hydrogen bonds form between NH₃ molecules (H bonded directly to the highly electronegative N)",
+      "PH₃ cannot form hydrogen bonds (P is not electronegative enough); it has only London forces (and weak permanent dipole–dipole forces)",
+      "Hydrogen bonds are stronger than the intermolecular forces in PH₃, so more energy is needed to separate NH₃ molecules"
+    ],
+    "modelAnswer": "In ammonia, hydrogen is bonded directly to the highly electronegative nitrogen atom, so hydrogen bonds form between NH₃ molecules. Phosphorus is not electronegative enough for hydrogen bonding, so PH₃ molecules are held together only by London forces and weak permanent dipole–dipole interactions. Hydrogen bonds are stronger than these forces, so more energy is needed to separate NH₃ molecules and ammonia has the higher boiling point, despite PH₃ having more electrons.",
+    "explanation": "Whenever a boiling point is 'anomalously' high compared with a heavier molecule, look for hydrogen bonding. Acknowledging the electron count (which would predict PH₃ to be higher) and then overriding it with hydrogen bonding is what earns full marks."
+  },
+  {
+    "id": "shapes_imf-026",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(h)",
+    "question": "Hydrogen chloride, HCl, and fluorine, F₂, have a similar number of electrons, but HCl has the higher boiling point.\n\nExplain why.",
+    "marks": 3,
+    "markPoints": [
+      "Both molecules have London (induced dipole–dipole) forces of similar strength (similar numbers of electrons)",
+      "HCl is polar / has a permanent dipole (Cl more electronegative than H), so there are also permanent dipole–dipole forces between HCl molecules; F₂ is non-polar",
+      "The additional permanent dipole–dipole attractions mean more energy is needed to separate HCl molecules, so its boiling point is higher"
+    ],
+    "modelAnswer": "HCl and F₂ have similar numbers of electrons, so the London forces between their molecules are of similar strength. However, chlorine is more electronegative than hydrogen, so HCl has a permanent dipole and permanent dipole–dipole forces act between HCl molecules, whereas F₂ is non-polar. These extra attractions mean more energy is needed to separate HCl molecules, giving HCl the higher boiling point.",
+    "explanation": "When comparing substances with similar electron counts, London forces are roughly equal, so the deciding factor is any permanent dipole. Always state the comparison of London forces first — it shows the examiner you know why the permanent dipole is the tiebreaker."
+  },
+  {
+    "id": "shapes_imf-027",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(l)",
+    "question": "Iodine, I₂, forms a simple molecular lattice.\n\nExplain why iodine has a low melting point.",
+    "marks": 3,
+    "markPoints": [
+      "In the lattice, the I₂ molecules are held together by weak London (induced dipole–dipole) forces",
+      "Only a small amount of energy is needed to overcome these weak intermolecular forces",
+      "The (strong) covalent bonds within the I₂ molecules are not broken on melting"
+    ],
+    "modelAnswer": "Solid iodine is a simple molecular lattice in which I₂ molecules are held in place only by weak London forces. Only a little energy is needed to overcome these weak intermolecular forces, so iodine melts at a low temperature. The strong covalent bonds inside each I₂ molecule are not broken when iodine melts.",
+    "explanation": "Simple molecular lattice questions always carry a mark for stating that the covalent bonds are not broken — melting separates whole molecules by overcoming the weak forces between them."
+  },
+  {
+    "id": "shapes_imf-028",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(l)",
+    "question": "Explain why simple molecular substances such as iodine do not conduct electricity in the solid or liquid state.",
+    "marks": 2,
+    "markPoints": [
+      "The molecules are neutral / there are no ions",
+      "There are no free (mobile) charged particles / delocalised electrons to carry charge"
+    ],
+    "modelAnswer": "Simple molecular substances are made of neutral molecules; they contain no ions and no delocalised electrons. With no mobile charged particles to carry charge, they cannot conduct electricity in any state.",
+    "explanation": "Conduction requires mobile charge carriers. Simple molecular substances have neither mobile ions nor delocalised electrons, so they are non-conductors whether solid or molten."
+  },
+  {
+    "id": "shapes_imf-029",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "The ammonium ion, NH₄⁺, and methane, CH₄, have the same shape and bond angle.\n\nState this shape and bond angle, and explain why NH₄⁺ has the same shape as CH₄ even though ammonia, NH₃, does not.",
+    "marks": 3,
+    "markPoints": [
+      "Tetrahedral, 109.5°",
+      "In NH₄⁺ the lone pair on nitrogen has been used to form a dative covalent bond to H⁺, so N is surrounded by four bonding pairs and no lone pairs (like C in CH₄)",
+      "Four equal bonding pairs repel equally, giving the same tetrahedral arrangement (whereas NH₃ still has a lone pair, giving 107°)"
+    ],
+    "modelAnswer": "Both NH₄⁺ and CH₄ are tetrahedral with bond angles of 109.5°. In NH₄⁺, nitrogen's lone pair has been donated to H⁺ to form a dative covalent bond, so the nitrogen is surrounded by four identical bonding pairs and no lone pairs, exactly like carbon in CH₄. The four bonding pairs repel equally, giving a tetrahedral shape. In NH₃ the lone pair is still present and repels more strongly, which is why ammonia is pyramidal with a smaller angle of 107°.",
+    "explanation": "Converting NH₃ to NH₄⁺ removes the lone pair (it becomes a bonding pair), so the extra repulsion disappears and the angle opens up from 107° to 109.5°. Once formed, the dative bond is identical to the other N–H bonds."
+  },
+  {
+    "id": "shapes_imf-030",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "Sulfur hexafluoride, SF₆, is used as an electrical insulator.\n\nState the shape of an SF₆ molecule and the F–S–F bond angle between adjacent bonds.",
+    "marks": 2,
+    "markPoints": [
+      "Shape: octahedral",
+      "Bond angle: 90°"
+    ],
+    "modelAnswer": "SF₆ is octahedral, with adjacent F–S–F bond angles of 90°.",
+    "explanation": "Six bonding pairs and no lone pairs around sulfur give the octahedral shape. The angle asked for is between adjacent bonds, which is 90° (opposite bonds are at 180°)."
+  },
+  {
+    "id": "shapes_imf-031",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(a)",
+    "question": "Boron trifluoride, BF₃, is a trigonal planar molecule.\n\nUse electron pair repulsion theory to explain why, and state the F–B–F bond angle.",
+    "marks": 3,
+    "markPoints": [
+      "B is surrounded by three bonding pairs and no lone pairs",
+      "The three bonding pairs repel equally and move as far apart as possible (in the same plane)",
+      "This gives a trigonal planar shape with F–B–F bond angles of 120°"
+    ],
+    "modelAnswer": "The boron atom in BF₃ has three bonding pairs of electrons and no lone pairs. The three bonding pairs repel each other equally and arrange themselves as far apart as possible, all in the same plane. This gives a trigonal planar molecule with F–B–F bond angles of 120°.",
+    "explanation": "Boron only has three outer electrons, so BF₃ is electron-deficient with just three bonding pairs and no lone pair — a standard example of the trigonal planar shape."
+  },
+  {
+    "id": "shapes_imf-032",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(j)",
+    "question": "The boiling points of methane, CH₄, hydrogen chloride, HCl, and water, H₂O, are −162 °C, −85 °C and 100 °C respectively.\n\nExplain the differences between these three boiling points in terms of the intermolecular forces present in each substance.",
+    "marks": 6,
+    "markPoints": [
+      "CH₄ is non-polar, so the only intermolecular forces between its molecules are (weak) London / induced dipole–dipole forces",
+      "CH₄ has few electrons, so its London forces are very weak and little energy is needed to separate the molecules — lowest boiling point",
+      "HCl has a permanent dipole (Cl more electronegative than H), so permanent dipole–dipole forces act between HCl molecules in addition to London forces",
+      "These permanent dipole–dipole attractions are stronger than the London forces in CH₄, so HCl has a higher boiling point than CH₄",
+      "H₂O forms hydrogen bonds (H bonded directly to O; attraction between δ+ H and a lone pair on O of another molecule)",
+      "Hydrogen bonds are the strongest of the three types of intermolecular force, so the most energy is needed to separate H₂O molecules — highest boiling point"
+    ],
+    "modelAnswer": "Methane is a non-polar molecule with few electrons, so the only forces between CH₄ molecules are very weak London (induced dipole–dipole) forces; little energy is needed to overcome them, so methane has the lowest boiling point. Hydrogen chloride is polar because chlorine is more electronegative than hydrogen, so as well as London forces there are permanent dipole–dipole attractions between HCl molecules. These are stronger overall than the forces in methane, so HCl boils at a higher temperature. In water, hydrogen is bonded directly to the highly electronegative oxygen, so hydrogen bonds form between the δ+ hydrogen of one molecule and a lone pair on the oxygen of another. Hydrogen bonds are the strongest type of intermolecular force, so water needs the most energy to separate its molecules and has by far the highest boiling point.",
+    "explanation": "A full-marks comparison names the strongest intermolecular force in each substance, ranks the forces (London < permanent dipole–dipole < hydrogen bonding), and links the strength of the forces to the energy needed to boil. Never mention breaking covalent bonds."
+  },
+  {
+    "id": "shapes_imf-033",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(a)",
+    "question": "In the gas phase, beryllium chloride exists as BeCl₂ molecules.\n\nPredict the shape of, and the bond angle in, a BeCl₂ molecule. Explain your prediction.",
+    "marks": 3,
+    "markPoints": [
+      "Be is surrounded by two bonding pairs and no lone pairs",
+      "The two bonding pairs repel equally and move as far apart as possible",
+      "Shape: linear, bond angle 180°"
+    ],
+    "modelAnswer": "The beryllium atom in BeCl₂ has two bonding pairs of electrons and no lone pairs. The two bonding pairs repel each other equally and move as far apart as possible, which places them on opposite sides of the beryllium atom. BeCl₂ is therefore linear with a Cl–Be–Cl bond angle of 180°.",
+    "explanation": "Beryllium has only two outer electrons, both used in bonds, so gaseous BeCl₂ has just two electron pairs — the standard example of a linear molecule alongside CO₂."
+  },
+  {
+    "id": "shapes_imf-034",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(g)",
+    "question": "Tetrachloromethane, CCl₄, is a non-polar molecule, but trichloromethane, CHCl₃, is polar.\n\nExplain this difference.",
+    "marks": 3,
+    "markPoints": [
+      "Both molecules contain polar C–Cl bonds (Cl more electronegative than C)",
+      "CCl₄ is symmetrical (tetrahedral with four identical bonds), so the bond dipoles cancel and there is no overall dipole",
+      "In CHCl₃ one Cl is replaced by H, so the molecule is asymmetrical / the dipoles do not cancel, giving an overall (net) dipole"
+    ],
+    "modelAnswer": "Both molecules contain polar C–Cl bonds because chlorine is more electronegative than carbon. CCl₄ is a symmetrical tetrahedral molecule with four identical C–Cl bonds, so the four bond dipoles cancel out and the molecule has no overall dipole. In CHCl₃ one chlorine is replaced by hydrogen, making the molecule asymmetrical; the bond dipoles no longer cancel, so CHCl₃ has an overall dipole and is polar.",
+    "explanation": "Same tetrahedral shape, different polarity: symmetry is about identical bonds as well as shape. Swapping one Cl for H breaks the cancellation of dipoles."
+  },
+  {
+    "id": "shapes_imf-035",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(k)",
+    "question": "State two anomalous properties of water and name the type of intermolecular force responsible for them.",
+    "marks": 3,
+    "markPoints": [
+      "Ice is less dense than liquid water / ice floats on water",
+      "Water has a relatively high melting point and boiling point (for the number of electrons in the molecule)",
+      "Both properties are caused by hydrogen bonding between water molecules"
+    ],
+    "modelAnswer": "Two anomalous properties of water are that ice is less dense than liquid water (so ice floats), and that water has unusually high melting and boiling points for such a small molecule. Both properties result from the hydrogen bonding between water molecules.",
+    "explanation": "The OCR specification names exactly these two anomalous properties: the low density of ice compared with liquid water, and water's relatively high melting and boiling points. Both are consequences of hydrogen bonding."
+  },
+  {
+    "id": "shapes_imf-036",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(a)",
+    "question": "State the main ideas of electron pair repulsion theory that are used to predict the shapes of molecules.",
+    "marks": 3,
+    "markPoints": [
+      "Electron pairs (around the central atom) repel one another",
+      "The pairs move as far apart as possible / arrange themselves to minimise repulsion, and this determines the shape",
+      "Lone pairs repel more strongly than bonding pairs (order: lone pair–lone pair > lone pair–bonding pair > bonding pair–bonding pair)"
+    ],
+    "modelAnswer": "Electron pair repulsion theory states that the electron pairs surrounding a central atom repel one another and therefore arrange themselves as far apart as possible to minimise repulsion; this arrangement determines the shape of the molecule. Lone pairs repel more strongly than bonding pairs, so lone pairs reduce the bond angles between the remaining bonds.",
+    "explanation": "Three ideas make up the theory: pairs repel, pairs get as far apart as possible, and lone pairs repel more than bonding pairs. Quote all three whenever a question says 'explain using electron pair repulsion'."
+  },
+  {
+    "id": "shapes_imf-037",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "Hydrogen sulfide, H₂S, and phosphine, PH₃, are hydrides of Period 3 elements.\n\nPredict the shape of, and the bond angle in, each molecule. Use electron pair repulsion theory to justify your predictions.",
+    "marks": 5,
+    "markPoints": [
+      "H₂S: S has two bonding pairs and two lone pairs, so the shape is non-linear / bent",
+      "H₂S bond angle approximately 104.5° (accept slightly less than 109.5°)",
+      "PH₃: P has three bonding pairs and one lone pair, so the shape is pyramidal",
+      "PH₃ bond angle approximately 107° (accept slightly less than 109.5°)",
+      "Justification: the four electron pairs adopt a (roughly) tetrahedral arrangement and lone pairs repel more strongly than bonding pairs, reducing the angles from 109.5°"
+    ],
+    "modelAnswer": "Sulfur in H₂S has two bonding pairs and two lone pairs, so H₂S is non-linear with a bond angle of about 104.5°. Phosphorus in PH₃ has three bonding pairs and one lone pair, so PH₃ is pyramidal with a bond angle of about 107°. In each molecule the four electron pairs repel one another into a roughly tetrahedral arrangement; because lone pairs repel more strongly than bonding pairs, the bond angles are squeezed below 109.5° — by about 2.5° for each lone pair present.",
+    "explanation": "H₂S and PH₃ have the same electron-pair arrangements as H₂O and NH₃ respectively, so the same shapes and approximate angles apply. Predicting shapes for unfamiliar molecules by analogy with the standard examples is a common OCR question style."
+  },
+  {
+    "id": "shapes_imf-038",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(b)",
+    "question": "A molecule XY₃ has a trigonal planar shape. How many lone pairs are present on the central atom X?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correctOption": "A",
+    "explanation": "A trigonal planar molecule has three bonding pairs and no lone pairs around the central atom. If there were lone pairs, the shape would be different: one lone pair gives a pyramidal shape, and two lone pairs give a non-linear (bent) shape. BF₃ is the standard example of a trigonal planar molecule with no lone pairs on boron.",
+    "steps": [
+      "Step 1 – Recall the shapes produced by different combinations of bonding and lone pairs: 3 bonding + 0 lone = trigonal planar; 3 bonding + 1 lone = pyramidal; 2 bonding + 2 lone = non-linear.",
+      "Step 2 – Trigonal planar requires three regions of electron density arranged symmetrically in a plane with 120° angles, which only occurs when there are no lone pairs.",
+      "Step 3 – Therefore, the central atom in a trigonal planar molecule has 0 lone pairs.",
+      "Answer: A"
+    ]
+  },
+  {
+    "id": "shapes_imf-039",
+    "type": "mcq",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(i)",
+    "question": "The boiling points of the noble gases increase from helium to xenon: He (−269 °C), Ne (−246 °C), Ar (−186 °C), Kr (−152 °C), Xe (−108 °C).\n\nWhich statement best explains this trend?",
+    "options": {
+      "A": "The noble gases become more reactive down the group, so they form stronger bonds",
+      "B": "The number of electrons per atom increases, leading to stronger London forces between the atoms",
+      "C": "The noble gas atoms have more lone pairs down the group, increasing dipole–dipole attractions",
+      "D": "Hydrogen bonding becomes possible for heavier noble gases"
+    },
+    "correctOption": "B",
+    "explanation": "Noble gases are monoatomic and non-polar with no lone pairs available for hydrogen bonding and no permanent dipoles. The only intermolecular forces between noble gas atoms are London (induced dipole–dipole) forces. Going down the group, each successive noble gas atom has more electrons; a larger electron cloud is more easily polarised, producing stronger instantaneous and induced dipoles and therefore stronger London forces, requiring more energy to separate the atoms.",
+    "steps": [
+      "Step 1 – Noble gases are monoatomic and non-polar, so the only forces between atoms are London (induced dipole–dipole) forces; eliminate A (reactivity), C (no lone-pair dipoles) and D (no H bonded to N/O/F).",
+      "Step 2 – The strength of London forces depends on the number of electrons: more electrons give a more polarisable electron cloud and larger instantaneous/induced dipoles.",
+      "Step 3 – From He to Xe the number of electrons per atom increases greatly, so London forces strengthen and more energy is needed to separate the atoms, giving higher boiling points.",
+      "Answer: B"
+    ]
+  },
+  {
+    "id": "shapes_imf-040",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(f)",
+    "question": "Phosphorus trichloride, PCl₃, is a polar molecule, whereas phosphorus pentachloride, PCl₅, is non-polar.\n\nExplain why PCl₃ is polar and PCl₅ is non-polar.",
+    "marks": 4,
+    "markPoints": [
+      "In PCl₃, P has three bonding pairs and one lone pair, giving a pyramidal shape",
+      "The pyramidal shape is asymmetrical, so the three P–Cl bond dipoles do not cancel — PCl₃ has an overall (net) dipole / is polar",
+      "In PCl₅, P has five bonding pairs and no lone pairs, giving a trigonal bipyramidal shape",
+      "The trigonal bipyramidal shape is symmetrical, so the five P–Cl bond dipoles cancel and there is no overall dipole / PCl₅ is non-polar"
+    ],
+    "modelAnswer": "In PCl₃ the central phosphorus atom has three bonding pairs and one lone pair, so the molecule is pyramidal. This asymmetrical shape means the three P–Cl bond dipoles do not cancel, giving PCl₃ a net dipole — the molecule is polar. In PCl₅ phosphorus has five bonding pairs and no lone pairs, giving a trigonal bipyramidal shape. The symmetric arrangement of the five identical P–Cl bonds means their dipoles cancel exactly, so PCl₅ has no overall dipole and is non-polar.",
+    "explanation": "Both molecules contain polar P–Cl bonds, but the key is whether the shape allows cancellation. Symmetrical molecules (linear, trigonal planar, tetrahedral, trigonal bipyramidal, octahedral) with identical surrounding atoms are non-polar because all bond dipoles cancel."
+  },
+  {
+    "id": "shapes_imf-041",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(h)",
+    "question": "The boiling points of the straight-chain alkanes increase with the number of carbon atoms in the chain: methane (−162 °C), ethane (−89 °C), propane (−42 °C), butane (−1 °C).\n\nExplain this trend in terms of intermolecular forces.",
+    "marks": 3,
+    "markPoints": [
+      "Alkanes are non-polar, so the only intermolecular forces between their molecules are London (induced dipole–dipole) forces",
+      "As the carbon chain lengthens, the number of electrons per molecule increases and the surface area of the molecule increases",
+      "This leads to stronger London forces, so more energy is needed to separate the molecules and the boiling point increases"
+    ],
+    "modelAnswer": "Alkanes are non-polar molecules, so the only intermolecular forces between them are London (induced dipole–dipole) forces. As the chain length increases from methane to butane, each molecule has more electrons and a larger surface area over which contact with neighbouring molecules can occur. This means the instantaneous and induced dipoles are larger and more extensive, giving stronger London forces. More energy is therefore required to separate the molecules, and the boiling point increases with chain length.",
+    "explanation": "For a homologous series of non-polar molecules, always link the increasing boiling point to (1) more electrons per molecule and (2) greater surface area — both increase the strength of London forces. Do not mention covalent bond breaking."
+  },
+  {
+    "id": "shapes_imf-042",
+    "type": "written",
+    "module": 2,
+    "topic": "Shapes of Molecules & IMF",
+    "specRef": "2.2.2(e)",
+    "question": "The electronegativity of the halogens decreases down Group 17 from fluorine to iodine.\n\nExplain this trend using ideas about nuclear charge, atomic radius, and shielding.",
+    "marks": 3,
+    "markPoints": [
+      "Going down Group 17, the atomic radius increases as successive electron shells are added",
+      "Shielding of the nucleus by inner electron shells also increases, reducing the effective nuclear charge felt by the bonding pair",
+      "The bonding pair is therefore attracted less strongly to the nucleus as the group is descended, so electronegativity decreases from F to I"
+    ],
+    "modelAnswer": "Going down Group 17 from fluorine to iodine, each successive atom has more electron shells, so the atomic radius increases. The greater number of inner shells also increases the shielding of the nucleus. Even though the nuclear charge also increases down the group, the increased shielding and greater distance between the nucleus and the bonding pair mean that the nucleus attracts the bonding pair less strongly. As a result, electronegativity decreases from fluorine to iodine.",
+    "explanation": "When explaining electronegativity trends down a group, all three factors must be addressed: nuclear charge increases (which alone would increase electronegativity) but is outweighed by the larger increase in atomic radius and shielding. Fluorine is the most electronegative element overall."
+  }
+]

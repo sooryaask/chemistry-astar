@@ -292,37 +292,44 @@ Respond with VALID JSON ONLY:
 - "evidence": when awarded, copy the phrase VERBATIM from the student's answer (an exact substring, character-for-character, so it can be highlighted). When not awarded, use "".
 - "why": for points NOT awarded, explain the concept behind the mark in 1-2 sentences so the student learns it (this is the main feedback). For awarded points use "".`
 
-const MCQ_MARKING_PROMPT = `You are an expert OCR A Chemistry examiner helping Sooryaa, an A-level student aiming for an A*.
+// ---- AI-generated questions (text, no images) ----
 
-You are shown TWO images:
-1. A page from a REAL OCR past paper containing a MULTIPLE CHOICE question.
-2. The corresponding page from the OFFICIAL OCR mark scheme.
+const TEXT_MARKING_PROMPT = `You are an expert OCR A Chemistry examiner marking the work of Sooryaa, an A-level student aiming for an A*.
 
-The student has selected one of A, B, C, or D. Check against the mark scheme whether they chose correctly.
+You are given a question, its official marking points (one per available mark), and the student's typed answer. Mark strictly point-by-point against the marking points.
 
-IMPORTANT: Whether the student is RIGHT or WRONG, you MUST provide a thorough, structured explanation. A correct answer could easily be a guess — the student needs to genuinely understand the concept.
-
-Your explanation must be broken into FOUR distinct sections:
-
-1. "simpleExplanation" — Explain the answer in plain, accessible language as if the student has never seen this type of question before. Use a real-world analogy or simple comparison if helpful.
-
-2. "stepByStep" — Walk through the exact working/reasoning as numbered steps (e.g. "Step 1: Find moles of Cl2 = 0.0100 mol. Step 2: ..."). For calculations, show every line of working. For conceptual questions, break the logic into clear steps.
-
-3. "whyOtherOptionsWrong" — For EACH wrong option (A, B, C, D minus the correct one), write one sentence explaining exactly why it is wrong and what mistake or misconception would lead someone to pick it.
-
-4. "examTip" — A short, punchy tip the student can remember for similar questions in future exams. Start with a verb (e.g. "Always check...", "Remember that...", "Look for...").
+MARKING RULES (strict — A* preparation):
+- Award a mark only when the student's answer clearly satisfies that marking point.
+- Penalise imprecise language (e.g. 'electrons move' where 'delocalised electrons move' is required).
+- On calculations: deduct a mark for missing/wrong units or wrong significant figures.
+- Flag GCSE-level phrasing that would not score at A-level.
 
 Respond with VALID JSON ONLY:
 {
   "found": true,
-  "questionMarks": 1,
-  "score": 0,
-  "correctOption": "B",
-  "simpleExplanation": "Plain-language explanation of why the correct answer is correct.",
-  "stepByStep": "Step 1: ... Step 2: ... Step 3: ...",
-  "whyOtherOptionsWrong": "A: reason. C: reason. D: reason.",
-  "examTip": "A memorable tip for this type of question."
-}`
+  "questionMarks": 3,
+  "score": 2,
+  "markingPoints": [
+    { "point": "the marking point, concisely", "awarded": true, "evidence": "the EXACT words from the student's answer that earned this mark", "why": "" },
+    { "point": "another marking point the student missed", "awarded": false, "evidence": "", "why": "a concise explanation of the underlying chemistry concept for this point, so the student understands WHY it is the answer" }
+  ]
+}
+
+"markingPoints" MUST have one entry per provided marking point, in the same order. For each:
+- "awarded": true only if the student's answer clearly satisfies that point.
+- "evidence": when awarded, copy the phrase VERBATIM from the student's answer (an exact substring, character-for-character, so it can be highlighted). When not awarded, use "".
+- "why": for points NOT awarded, explain the concept behind the mark in 1-2 sentences so the student learns it. For awarded points use "".`
+
+// Mark a typed answer to an AI-generated (text-only) written question.
+export async function assessTextQuestion({ question, markPoints, marks, answer }) {
+  const prompt =
+    `Question (${marks} mark${marks !== 1 ? 's' : ''}):\n${question}\n\n` +
+    `Marking points:\n${markPoints.map((p, i) => `${i + 1}. ${p}`).join('\n')}\n\n` +
+    `My answer:\n${answer.trim() || '[no answer given]'}\n\n` +
+    `Respond with valid JSON only.`
+  const text = await callClaude(prompt, { maxTokens: 1500, system: TEXT_MARKING_PROMPT })
+  return parseJson(text)
+}
 
 // Fetch a PNG from public/ and return its base64 data.
 async function fetchImageBase64(url) {
@@ -342,7 +349,7 @@ async function fetchImageBase64(url) {
 }
 
 // Assess a past-paper answer using vision (QP page + MS page + typed answer).
-export async function assessPaperQuestion({ qpImageUrl, qpImageUrls, msImageUrls, questionNo, answer, isMcq = false }) {
+export async function assessPaperQuestion({ qpImageUrl, qpImageUrls, msImageUrls, questionNo, answer }) {
   const key = getApiKey()
 
   const qpUrls = qpImageUrls && qpImageUrls.length ? qpImageUrls : [qpImageUrl]
@@ -394,7 +401,7 @@ export async function assessPaperQuestion({ qpImageUrl, qpImageUrls, msImageUrls
       body: JSON.stringify({
         model: MODEL,
         max_tokens: 1500,
-        system: isMcq ? MCQ_MARKING_PROMPT : PAPER_MARKING_PROMPT,
+        system: PAPER_MARKING_PROMPT,
         messages: [{ role: 'user', content }],
       }),
     })

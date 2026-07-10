@@ -225,6 +225,27 @@ export const AI_TOPICS = [...new Set(AI_CARDS.map((c) => c.topic))].filter(Boole
 export const AI_MODULES = [...new Set(AI_CARDS.map((c) => c.module))].filter(Boolean).sort((a, b) => a - b)
 export const AI_TOTAL = AI_CARDS.length
 
+// Shuffle AI MCQ options so memorising the letter "B" doesn't help.
+// Returns { options: {A,B,C,D}, correctOption, shuffleMap } with the original
+// answers redistributed to new random letters. Uses Fisher-Yates.
+export function shuffleMcqOptions(card) {
+  if (!card.options || !card.correctOption) return card
+  const keys = ['A', 'B', 'C', 'D']
+  const entries = keys.map((k) => [k, card.options[k]])
+  // Fisher-Yates shuffle
+  for (let i = entries.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[entries[i], entries[j]] = [entries[j], entries[i]]
+  }
+  const newOptions = {}
+  let newCorrect = card.correctOption
+  for (let i = 0; i < keys.length; i++) {
+    newOptions[keys[i]] = entries[i][1]
+    if (entries[i][0] === card.correctOption) newCorrect = keys[i]
+  }
+  return { options: newOptions, correctOption: newCorrect }
+}
+
 export function getDeckCards(deckId) {
   if (deckId === 'ai:generated') return AI_CARDS
   const m = /^paper:(.+)$/.exec(deckId)

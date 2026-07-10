@@ -12,6 +12,8 @@ import {
   masteryStats,
   getState,
   NEW_PER_DAY,
+  autoGrade,
+  autoGradeAndSave,
 } from '../../utils/srs.js'
 
 const TODAY = '2026-07-02'
@@ -285,5 +287,79 @@ describe('masteryStats', () => {
     const stats = masteryStats([])
     expect(stats.pct).toBe(0)
     expect(stats.total).toBe(0)
+  })
+})
+
+// ---- Auto-grading tests ----
+
+describe('autoGrade', () => {
+  it('returns "again" for 0 score on written', () => {
+    expect(autoGrade(0, 3, null)).toBe('again')
+  })
+
+  it('returns "hard" for < 50% score on written', () => {
+    expect(autoGrade(1, 3, null)).toBe('hard')
+  })
+
+  it('returns "good" for 50-79% score on written', () => {
+    expect(autoGrade(2, 3, null)).toBe('good')
+  })
+
+  it('returns "easy" for >= 80% score on written', () => {
+    expect(autoGrade(4, 5, null)).toBe('easy')
+    expect(autoGrade(3, 3, null)).toBe('easy')
+  })
+
+  it('returns "again" when justShowed and no score', () => {
+    expect(autoGrade(0, 3, null, { justShowed: true })).toBe('again')
+  })
+
+  // MCQ tests
+  it('returns "again" for wrong MCQ', () => {
+    expect(autoGrade(0, 1, null, { isMcq: true })).toBe('again')
+  })
+
+  it('returns "good" for first-time correct MCQ (unproven)', () => {
+    expect(autoGrade(1, 1, null, { isMcq: true })).toBe('good')
+    expect(autoGrade(1, 1, { reps: 0 }, { isMcq: true })).toBe('good')
+  })
+
+  it('returns "easy" for consistently correct MCQ (reps >= 2)', () => {
+    expect(autoGrade(1, 1, { reps: 2, lapses: 0 }, { isMcq: true })).toBe('easy')
+    expect(autoGrade(1, 1, { reps: 5, lapses: 0 }, { isMcq: true })).toBe('easy')
+  })
+
+  it('returns "hard" for MCQ with 3+ lapses', () => {
+    expect(autoGrade(1, 1, { reps: 1, lapses: 3 }, { isMcq: true })).toBe('hard')
+  })
+
+  it('returns "hard" for flip-flopping MCQ (lastMcqWrong)', () => {
+    expect(autoGrade(1, 1, { reps: 1, lapses: 1, lastMcqWrong: true }, { isMcq: true })).toBe('hard')
+  })
+})
+
+describe('autoGradeAndSave', () => {
+  beforeEach(() => {
+    localStorage.clear()
+  })
+
+  it('saves card state and returns the computed grade', () => {
+    const result = autoGradeAndSave('auto-card-1', 3, 3)
+    expect(result.grade).toBe('easy')
+    expect(result.saved).toBe(true)
+    expect(result.cardState.reps).toBe(1)
+    expect(getState()['auto-card-1']).toBeDefined()
+  })
+
+  it('tracks MCQ wrong history', () => {
+    autoGradeAndSave('mcq-card', 0, 1, { isMcq: true })
+    const state = getState()['mcq-card']
+    expect(state.lastMcqWrong).toBe(true)
+  })
+
+  it('tracks MCQ correct history', () => {
+    autoGradeAndSave('mcq-card-2', 1, 1, { isMcq: true })
+    const state = getState()['mcq-card-2']
+    expect(state.lastMcqWrong).toBe(false)
   })
 })

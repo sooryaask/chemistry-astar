@@ -17,6 +17,7 @@ function Counts({ cards }) {
 }
 
 function PaperRow({ paper }) {
+  const isAi = paper.deckId === 'ai:generated'
   const totalMarks = paper.cards.reduce((s, c) => s + c.marks, 0)
   const m = useMemo(() => masteryStats(paper.cards), [paper.cards])
   return (
@@ -31,7 +32,9 @@ function PaperRow({ paper }) {
           <span className="deck-mastery-pct">{m.pct}%</span>
         </span>
       </span>
-      <Counts cards={paper.cards} />
+      {isAi ? <Counts cards={paper.cards} /> : (
+        <span className="deck-card-count">{paper.cards.length}</span>
+      )}
     </Link>
   )
 }

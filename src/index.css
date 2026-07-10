@@ -474,37 +474,53 @@ mark.hit {
   color: var(--text);
 }
 
-/* grade buttons */
-.grades {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0.6rem;
+/* next button (replaces grade buttons) */
+.next-btn {
+  display: block;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid var(--accent);
+  background: var(--surface-2);
+  color: var(--accent);
+  cursor: pointer;
+}
+.next-btn:hover { filter: brightness(1.15); }
+.next-btn:disabled { opacity: 0.4; cursor: default; filter: none; }
+
+/* paper navigation (prev/next for past papers) */
+.paper-nav {
+  display: flex;
+  gap: 0.5rem;
   margin-top: 0.5rem;
 }
-.grades.retry { grid-template-columns: repeat(2, 1fr); max-width: 420px; margin-left: auto; margin-right: auto; width: 100%; }
-.g {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.15rem;
-  padding: 0.6rem 0.5rem;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 0.95rem;
-  border: 1px solid var(--border);
-  background: var(--surface-2);
-}
-.g-int {
-  font-size: 0.72rem;
-  font-weight: 500;
-  opacity: 0.7;
+.paper-position {
+  font-size: 0.85rem;
+  color: var(--muted);
   font-variant-numeric: tabular-nums;
 }
-.g:hover { filter: brightness(1.15); }
-.g.again { border-color: var(--learn); color: #f4b4b4; }
-.g.hard { border-color: #d9a441; color: #e9c98a; }
-.g.good { border-color: var(--due); color: #9bd9bb; }
-.g.easy { border-color: var(--accent); color: #b6d2ff; }
+
+/* explain gate banner */
+.explain-gate-banner {
+  background: var(--surface-2);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0.6rem 0.9rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin: 0.5rem 0;
+}
+
+/* deck card count (past papers — replaces SRS counter) */
+.deck-card-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
 
 /* bottom bar — a normal flex child so it never overlaps the grade buttons */
 .bottom-bar {
@@ -582,7 +598,7 @@ mark.hit {
 
 @media (max-width: 560px) {
   .q-text { font-size: 1.1rem; }
-  .grades { grid-template-columns: repeat(2, 1fr); }
+  .paper-nav { flex-direction: column; }
 }
 
 /* periodic table */

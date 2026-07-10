@@ -121,6 +121,51 @@ export function resetCard(cardId) {
   saveState(state)
 }
 
+// ---- Auto-grading (AI deck only) ----
+// Maps real performance signals to a grade, replacing manual button presses.
+// Written: score percentage → grade.
+// MCQ: consistency-based — a single correct answer is never fully trusted.
+export function autoGrade(score, totalMarks, cardState, { justShowed = false, isMcq = false } = {}) {
+  // "Just show answer" without attempting → always Again
+  if (justShowed && score === 0) return 'again'
+
+  if (isMcq) {
+    if (score === 0) return 'again' // wrong
+    // Correct MCQ — grade based on historical consistency
+    const reps = cardState?.reps || 0
+    const lapses = cardState?.lapses || 0
+    if (lapses >= 3) return 'hard'        // historically weak card
+    if (reps === 0) return 'good'         // first time correct — unproven
+    if (cardState?.lastMcqWrong) return 'hard' // flip-flopping
+    if (reps >= 2) return 'easy'          // consistently correct
+    return 'good'                         // building evidence
+  }
+
+  // Written questions — grade from score percentage
+  const pct = totalMarks > 0 ? score / totalMarks : 0
+  if (pct === 0) return 'again'
+  if (pct < 0.5) return 'hard'
+  if (pct < 0.8) return 'good'
+  return 'easy'
+}
+
+// Extended grade for AI deck: records MCQ correctness history alongside the
+// standard SRS state. Returns { cardState, saved } like grade().
+export function autoGradeAndSave(cardId, score, totalMarks, opts = {}) {
+  const state = getState()
+  const prev = state[cardId]
+  const g = autoGrade(score, totalMarks, prev, opts)
+  const today = todayISO()
+  const next = computeNext(prev, g, today)
+  // Track MCQ wrong/right history for consistency-based grading
+  if (opts.isMcq) {
+    next.lastMcqWrong = score === 0
+  }
+  state[cardId] = next
+  const saved = saveState(state)
+  return { cardState: next, saved, grade: g }
+}
+
 // Given the full ordered card list for a deck, return today's session counts and
 // the queue to study. New cards are capped at NEW_PER_DAY. Order: due review/
 // learning cards first (most overdue first), then up to the new-card cap.

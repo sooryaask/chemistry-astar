@@ -1,7 +1,7 @@
 import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getDeckCards, deckTitle, AI_TOPICS, AI_MODULES, AI_TOTAL } from '../data/cards.js'
-import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
+import { getDeckCards, deckTitle, AI_TOPICS, AI_MODULES, AI_TOTAL, shuffleMcqOptions } from '../data/cards.js'
+import { buildSession, deckCounts, grade, setSuspended, resetCard, masteryStats, autoGradeAndSave, getState } from '../utils/srs.js'
 import { getItem, setItem, KEYS, todayISO } from '../utils/localStorage.js'
 import { assessPaperQuestion, assessTextQuestion } from '../api/anthropic.js'
 import ChemInput, { StaticMathField } from '../components/ChemInput.jsx'
@@ -9,6 +9,9 @@ import PeriodicTable from '../components/PeriodicTable.jsx'
 
 // How many cards later a graded card resurfaces this session (in-session relearn).
 const GAPS = { again: 3, hard: 7 }
+
+// MCQ explain gate: after this many consecutive correct, require a typed explanation.
+const EXPLAIN_GATE_THRESHOLD = 2
 
 // Convert MathQuill LaTeX to readable plain text for the AI marker.
 const LATEX_TO_TEXT = [
@@ -228,9 +231,13 @@ export default function Review() {
     [rawCards, aiFilters, isAiDeck]
   )
 
-  const [queue, setQueue] = useState(() => buildSession(allCards).queue)
-  const [counts, setCounts] = useState(() => deckCounts(allCards))
+  // AI deck: SRS queue. Past papers: sequential list with a position index.
+  const [queue, setQueue] = useState(() => isAiDeck ? buildSession(allCards).queue : allCards)
+  const [counts, setCounts] = useState(() => isAiDeck ? deckCounts(allCards) : null)
   const [mastery, setMastery] = useState(() => masteryStats(allCards))
+  // Past paper: current card index (sequential navigation)
+  const [paperIdx, setPaperIdx] = useState(0)
+
   const [revealed, setRevealed] = useState(false)
   const [answers, setAnswers] = useState([])
   const [ticks, setTicks] = useState([])
@@ -243,6 +250,11 @@ export default function Review() {
   const [msImgError, setMsImgError] = useState(false)
   const [confirmAction, setConfirmAction] = useState(null) // 'suspend' | 'reset' | null
   const [ptOpen, setPtOpen] = useState(false)
+  // MCQ shuffle state for AI deck
+  const [shuffledMcq, setShuffledMcq] = useState(null)
+  // MCQ explain gate: when true, hide options and require typed explanation
+  const [explainMode, setExplainMode] = useState(false)
+  const [explanation, setExplanation] = useState('')
   const confirmTimerRef = useRef(null)
   const moreRef = useRef(null)
   const markingCardRef = useRef(null)
@@ -274,9 +286,14 @@ export default function Review() {
   useEffect(() => {
     if (prevCardsRef.current === allCards) return
     prevCardsRef.current = allCards
-    const session = buildSession(allCards)
-    setQueue(session.queue)
-    setCounts(deckCounts(allCards))
+    if (isAiDeck) {
+      const session = buildSession(allCards)
+      setQueue(session.queue)
+      setCounts(deckCounts(allCards))
+    } else {
+      setQueue(allCards)
+      setPaperIdx(0)
+    }
     setMastery(masteryStats(allCards))
     resetView()
   }, [allCards])
@@ -289,8 +306,31 @@ export default function Review() {
 
   const filtersActive = isAiDeck && hasActiveFilters(aiFilters)
 
-  const card = queue[0]
-  const labels = card ? previewLabels(card.id) : null
+  // Current card depends on mode
+  const card = isAiDeck ? queue[0] : allCards[paperIdx]
+
+  // Determine if this AI MCQ needs the explain gate (consecutive correct >= threshold)
+  const needsExplainGate = useMemo(() => {
+    if (!isAiDeck || !card?.isMcq) return false
+    const cs = getState()[card.id]
+    return cs && (cs.reps || 0) >= EXPLAIN_GATE_THRESHOLD && !cs.lastMcqWrong
+  }, [isAiDeck, card?.id])
+
+  // Shuffle MCQ options for AI deck on card change
+  useEffect(() => {
+    if (isAiDeck && card?.isMcq && card.options && !needsExplainGate) {
+      setShuffledMcq(shuffleMcqOptions(card))
+    } else {
+      setShuffledMcq(null)
+    }
+    setExplainMode(needsExplainGate)
+    setExplanation('')
+  }, [card?.id, isAiDeck, needsExplainGate])
+
+  // Active MCQ options (shuffled for AI, original for papers)
+  const activeMcqOptions = isAiDeck && shuffledMcq ? shuffledMcq.options : card?.options
+  const activeMcqCorrect = isAiDeck && shuffledMcq ? shuffledMcq.correctOption : card?.correctOption
+
   const slots = card?.slots?.length ? card.slots : [{ label: '', marks: card?.marks ?? 1 }]
   const totalMarks = slots.reduce((s, sl) => s + sl.marks, 0)
   const wroteSomething = answers.some((a) => a && a.trim())
@@ -300,7 +340,7 @@ export default function Review() {
     .map((p) => p.evidence)
 
   function refreshCounts() {
-    setCounts(deckCounts(allCards))
+    if (isAiDeck) setCounts(deckCounts(allCards))
     setMastery(masteryStats(allCards))
   }
 
@@ -315,6 +355,7 @@ export default function Review() {
     setImgError(false)
     setMsImgError(false)
     setConfirmAction(null)
+    setExplanation('')
     if (confirmTimerRef.current) { clearTimeout(confirmTimerRef.current); confirmTimerRef.current = null }
   }
 
@@ -368,7 +409,7 @@ export default function Review() {
   // MCQs are checked locally — no API call. The correct letter is baked into
   // the card data, so just reveal and pre-tick the mark.
   function checkMcq() {
-    if (card.correctOption) setTicks([answers[0] === card.correctOption])
+    if (activeMcqCorrect) setTicks([answers[0] === activeMcqCorrect])
     setRevealed(true)
   }
 
@@ -388,32 +429,73 @@ export default function Review() {
     })
   }
 
-  // Move past the current card. `reinsertAt` = null removes it from the session;
-  // a number reinserts it that many cards later (so it resurfaces this session).
-  function advance(reinsertAt) {
-    setQueue((q) => {
-      const [head, ...rest] = q
-      if (reinsertAt == null || !head) return rest
-      const i = Math.min(reinsertAt, rest.length)
-      return [...rest.slice(0, i), head, ...rest.slice(i)]
+  // ---- AI deck: auto-grade and advance ----
+  function aiNext() {
+    const tickedCount = ticks.filter(Boolean).length
+    const justShowed = !wroteSomething && !answers[0] // no attempt made
+    const { cardState, saved } = autoGradeAndSave(card.id, tickedCount, totalMarks, {
+      justShowed,
+      isMcq: !!card.isMcq,
     })
-    resetView()
-  }
-
-  function gradeCard(g) {
-    const { cardState, saved } = grade(card.id, g)
     if (!saved) {
       setSaveWarning(true)
       setTimeout(() => setSaveWarning(false), 5000)
     }
     refreshCounts()
-    // If the card is due again today (Again, or Hard while still learning), it
-    // resurfaces later this session; otherwise it's scheduled for a future day.
     const stillDueToday = cardState.due <= todayISO()
-    advance(stillDueToday ? GAPS[g] ?? 0 : null)
+    // Advance the SRS queue
+    setQueue((q) => {
+      const [head, ...rest] = q
+      if (!stillDueToday || !head) return rest
+      // Reinsert based on auto-determined grade
+      const g = tickedCount === 0 ? 'again' : tickedCount < totalMarks * 0.5 ? 'hard' : null
+      const gap = g ? GAPS[g] : null
+      if (gap == null) return rest
+      const i = Math.min(gap, rest.length)
+      return [...rest.slice(0, i), head, ...rest.slice(i)]
+    })
+    resetView()
   }
 
-  if (!card) {
+  // ---- Past paper: simple sequential navigation ----
+  function paperNext() {
+    resetView()
+    setPaperIdx((i) => Math.min(i + 1, allCards.length - 1))
+  }
+
+  function paperPrev() {
+    resetView()
+    setPaperIdx((i) => Math.max(i - 1, 0))
+  }
+
+  // ---- AI deck: skip (no grade, move to end) ----
+  function aiSkip() {
+    setQueue((q) => {
+      const [head, ...rest] = q
+      if (!head) return rest
+      return [...rest, head]
+    })
+    resetView()
+  }
+
+  // Handle suspend/reset for AI deck
+  function handleSuspend() {
+    setSuspended(card.id, true)
+    refreshCounts()
+    if (isAiDeck) {
+      setQueue((q) => q.filter((c) => c.id !== card.id))
+    }
+    resetView()
+  }
+
+  function handleReset() {
+    resetCard(card.id)
+    refreshCounts()
+    resetView()
+  }
+
+  // ---- Empty state ----
+  if (isAiDeck && !queue[0]) {
     return (
       <div className="review done">
         {filtersActive && allCards.length === 0 ? (
@@ -430,6 +512,26 @@ export default function Review() {
         )}
         <Link className="pill" to="/">← Back to decks</Link>
         {filterOpen && <FilterModal filters={aiFilters} allCards={rawCards} onApply={applyFilters} onClose={() => setFilterOpen(false)} />}
+      </div>
+    )
+  }
+
+  if (!isAiDeck && allCards.length === 0) {
+    return (
+      <div className="review done">
+        <h2>No questions</h2>
+        <p className="muted">This paper has no questions available.</p>
+        <Link className="pill" to="/">← Back to decks</Link>
+      </div>
+    )
+  }
+
+  if (!card) {
+    return (
+      <div className="review done">
+        <h2>All done</h2>
+        <p className="muted">You've been through all the questions.</p>
+        <Link className="pill" to="/">← Back to decks</Link>
       </div>
     )
   }
@@ -460,11 +562,18 @@ export default function Review() {
         </div>
       )}
 
-      {/* Paper mastery — how much of this paper you've mastered, toward 100% */}
-      <div className="progress-bar-wrap" title="Cards mastered (graded Good/Easy) in this paper">
-        <div className="progress-bar-fill" style={{ width: `${mastery.pct}%` }} />
-        <span className="progress-label">{mastery.pct}% mastered · {mastery.mastered}/{mastery.total}</span>
-      </div>
+      {/* Progress indicator */}
+      {isAiDeck ? (
+        <div className="progress-bar-wrap" title="Cards mastered in this deck">
+          <div className="progress-bar-fill" style={{ width: `${mastery.pct}%` }} />
+          <span className="progress-label">{mastery.pct}% mastered · {mastery.mastered}/{mastery.total}</span>
+        </div>
+      ) : (
+        <div className="progress-bar-wrap" title="Questions completed">
+          <div className="progress-bar-fill" style={{ width: `${allCards.length ? Math.round(((paperIdx + 1) / allCards.length) * 100) : 0}%` }} />
+          <span className="progress-label">{paperIdx + 1} / {allCards.length} questions</span>
+        </div>
+      )}
 
       <div className="review-scroll">
         {/* Question paper card — continuous white paper */}
@@ -476,13 +585,24 @@ export default function Review() {
         <div className="paper-card">
           {card.isText ? (
             <div className="q-text">
-              <p className="q-text-body">{card.question}</p>
-              {card.options && (
-                <div className="q-options">
-                  {['A', 'B', 'C', 'D'].map((o) => (
-                    <div className="q-option" key={o}><strong>{o}</strong> {card.options[o]}</div>
-                  ))}
-                </div>
+              {explainMode ? (
+                <>
+                  <p className="q-text-body">{card.question}</p>
+                  <div className="explain-gate-banner">
+                    You've got this right {EXPLAIN_GATE_THRESHOLD} times. Explain your reasoning to prove you know it.
+                  </div>
+                </>
+              ) : (
+                <>
+                  <p className="q-text-body">{card.question}</p>
+                  {activeMcqOptions && card.isMcq && (
+                    <div className="q-options">
+                      {['A', 'B', 'C', 'D'].map((o) => (
+                        <div className="q-option" key={o}><strong>{o}</strong> {activeMcqOptions[o]}</div>
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
             </div>
           ) : (
@@ -501,7 +621,18 @@ export default function Review() {
           {/* Answer input — lined paper, one box per sub-part */}
           {!revealed && (
             <div className="a-area">
-              {card.isMcq ? (
+              {explainMode ? (
+                // Explain gate: free text input, no MCQ options
+                <div className="slot">
+                  <ChemInput
+                    value={explanation}
+                    onChange={(val) => setExplanation(val)}
+                    placeholder="Explain why this is the answer..."
+                    autoFocus
+                    rows={3}
+                  />
+                </div>
+              ) : card.isMcq ? (
                 <div className="mcq-options">
                   {['A', 'B', 'C', 'D'].map((opt) => (
                     <button
@@ -529,7 +660,11 @@ export default function Review() {
                 </div>
               ))}
               <div className="answer-actions">
-                {card.isMcq ? (
+                {explainMode ? (
+                  <button className="mark-btn" onClick={() => { setAnswers([explanation]); checkMcq(); }} disabled={!explanation.trim()}>
+                    Check answer
+                  </button>
+                ) : card.isMcq ? (
                   <button className="mark-btn" onClick={checkMcq} disabled={!answers[0]}>
                     Check answer
                   </button>
@@ -562,16 +697,25 @@ export default function Review() {
               </div>
             )}
 
+            {explainMode && explanation.trim() && (
+              <div className="your-answer">
+                <div className="ya-slot">
+                  <span className="ya-label">Your explanation</span>
+                  <p>{explanation}</p>
+                </div>
+              </div>
+            )}
+
             {/* MCQ: local verdict + logical walkthrough (no AI marking needed) */}
             {card.isMcq && (
               <div className="ai-feedback mcq-feedback">
                 {card.correctOption && (
                   answers[0] ? (
-                    <div className={`mcq-verdict ${answers[0] === card.correctOption ? 'correct' : 'wrong'}`}>
-                      {answers[0] === card.correctOption ? '✓ Correct' : '✗ Incorrect'} — the answer is <strong>{card.correctOption}</strong>
+                    <div className={`mcq-verdict ${answers[0] === activeMcqCorrect ? 'correct' : 'wrong'}`}>
+                      {answers[0] === activeMcqCorrect ? '✓ Correct' : '✗ Incorrect'} — the answer is <strong>{activeMcqCorrect}</strong>
                     </div>
                   ) : (
-                    <div className="mcq-verdict">The answer is <strong>{card.correctOption}</strong></div>
+                    <div className="mcq-verdict">The answer is <strong>{activeMcqCorrect}</strong></div>
                   )
                 )}
                 {card.explanation && (
@@ -599,7 +743,7 @@ export default function Review() {
             )}
             {markError && (
               <div className="ai-feedback error">
-                <span className="ra-label">Couldn’t mark automatically</span>
+                <span className="ra-label">Couldn't mark automatically</span>
                 <p>{markError}</p>
                 <p className="muted">Self-mark against the scheme below instead.</p>
               </div>
@@ -677,46 +821,55 @@ export default function Review() {
               <div className="tick-score">{tickedCount} / {totalMarks} marks</div>
             </div>
 
-            {/* Grade buttons */}
-            <div className="grades">
-              <button className="g again" onClick={() => gradeCard('again')}>
-                Again<span className="g-int">{labels.again}</span>
+            {/* Next button — replaces grade buttons */}
+            {isAiDeck ? (
+              <button className="next-btn" onClick={aiNext} disabled={marking}>
+                Next
               </button>
-              <button className="g hard" onClick={() => gradeCard('hard')}>
-                Hard<span className="g-int">{labels.hard}</span>
-              </button>
-              <button className="g good" onClick={() => gradeCard('good')}>
-                Good<span className="g-int">{labels.good}</span>
-              </button>
-              <button className="g easy" onClick={() => gradeCard('easy')}>
-                Easy<span className="g-int">{labels.easy}</span>
-              </button>
-            </div>
+            ) : (
+              <div className="paper-nav">
+                <button className="next-btn" onClick={paperNext} disabled={paperIdx >= allCards.length - 1}>
+                  Next question
+                </button>
+              </div>
+            )}
           </div>
         )}
       </div>
 
       {/* Bottom bar */}
       <div className="bottom-bar">
-        <button className="pill ghost" onClick={() => advance(queue.length)} disabled={queue.length <= 1}>Skip</button>
-        <Counter counts={counts} />
-        <div className="more-wrap" ref={moreRef}>
-          <button className="pill ghost" onClick={() => setMenuOpen((o) => !o)}>More ▾</button>
-          {menuOpen && (
-            <div className="more-menu">
-              {confirmAction === 'suspend' ? (
-                <button className="confirm-btn" onClick={() => { setSuspended(card.id, true); refreshCounts(); advance(null) }}>Tap again to suspend</button>
-              ) : (
-                <button onClick={() => { setConfirmAction('suspend'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'suspend' ? null : c), 3000) }}>Suspend card</button>
-              )}
-              {confirmAction === 'reset' ? (
-                <button className="confirm-btn" onClick={() => { resetCard(card.id); refreshCounts(); resetView() }}>Tap again to reset</button>
-              ) : (
-                <button onClick={() => { setConfirmAction('reset'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'reset' ? null : c), 3000) }}>Reset progress</button>
-              )}
-            </div>
-          )}
-        </div>
+        {isAiDeck ? (
+          <>
+            <button className="pill ghost" onClick={aiSkip} disabled={queue.length <= 1}>Skip</button>
+            <Counter counts={counts} />
+          </>
+        ) : (
+          <>
+            <button className="pill ghost" onClick={paperPrev} disabled={paperIdx <= 0}>← Prev</button>
+            <span className="paper-position">{paperIdx + 1} / {allCards.length}</span>
+            <button className="pill ghost" onClick={() => { resetView(); setPaperIdx((i) => Math.min(i + 1, allCards.length - 1)) }} disabled={paperIdx >= allCards.length - 1}>Next →</button>
+          </>
+        )}
+        {isAiDeck && (
+          <div className="more-wrap" ref={moreRef}>
+            <button className="pill ghost" onClick={() => setMenuOpen((o) => !o)}>More ▾</button>
+            {menuOpen && (
+              <div className="more-menu">
+                {confirmAction === 'suspend' ? (
+                  <button className="confirm-btn" onClick={handleSuspend}>Tap again to suspend</button>
+                ) : (
+                  <button onClick={() => { setConfirmAction('suspend'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'suspend' ? null : c), 3000) }}>Suspend card</button>
+                )}
+                {confirmAction === 'reset' ? (
+                  <button className="confirm-btn" onClick={handleReset}>Tap again to reset</button>
+                ) : (
+                  <button onClick={() => { setConfirmAction('reset'); if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current); confirmTimerRef.current = setTimeout(() => setConfirmAction((c) => c === 'reset' ? null : c), 3000) }}>Reset progress</button>
+                )}
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   )

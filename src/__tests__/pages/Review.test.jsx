@@ -40,6 +40,10 @@ const MOCK_CARDS = [
 vi.mock('../../data/cards.js', () => ({
   getDeckCards: () => MOCK_CARDS,
   deckTitle: () => 'June 2023 — Paper 1',
+  shuffleMcqOptions: (card) => ({ options: card.options, correctOption: card.correctOption }),
+  AI_TOPICS: [],
+  AI_MODULES: [],
+  AI_TOTAL: 0,
 }))
 
 vi.mock('../../utils/srs.js', () => ({
@@ -48,18 +52,21 @@ vi.mock('../../utils/srs.js', () => ({
     counts: { new: cards.length, learning: 0, review: 0, total: cards.length },
   }),
   deckCounts: (cards) => ({ new: cards.length, learning: 0, review: 0, total: cards.length }),
-  grade: vi.fn(() => ({ reps: 1, due: '2026-07-03', ease: 2.5, intervalDays: 1 })),
+  grade: vi.fn(() => ({ cardState: { reps: 1, due: '2026-07-03', ease: 2.5, intervalDays: 1 }, saved: true })),
   previewLabels: () => ({ again: 'soon', hard: 'soon', good: '1d', easy: '2d' }),
   setSuspended: vi.fn(),
   resetCard: vi.fn(),
   masteryStats: () => ({ mastered: 0, total: 2, pct: 0 }),
+  autoGrade: vi.fn(() => 'good'),
+  autoGradeAndSave: vi.fn(() => ({ cardState: { reps: 1, due: '2026-07-03', ease: 2.5, intervalDays: 1 }, saved: true, grade: 'good' })),
+  getState: vi.fn(() => ({})),
 }))
 
 vi.mock('../../utils/localStorage.js', () => ({
   todayISO: () => '2026-07-02',
   getItem: () => ({}),
   setItem: vi.fn(),
-  KEYS: { srs: 'srsState' },
+  KEYS: { srs: 'srsState', aiFilters: 'aiFilters' },
 }))
 
 vi.mock('../../api/anthropic.js', () => ({
@@ -73,6 +80,7 @@ vi.mock('../../api/anthropic.js', () => ({
       { point: 'Opposite charges', awarded: false, evidence: '', why: 'Missing mention of charges' },
     ],
   }),
+  assessTextQuestion: vi.fn(),
 }))
 
 function renderReview() {
@@ -85,7 +93,7 @@ function renderReview() {
   )
 }
 
-describe('Review page', () => {
+describe('Review page (past paper — free practice mode)', () => {
   beforeEach(() => {
     localStorage.clear()
     vi.clearAllMocks()
@@ -125,19 +133,6 @@ describe('Review page', () => {
     expect(btn).toBeDisabled()
   })
 
-  it('"Mark my answer" becomes enabled when answer is typed', () => {
-    renderReview()
-    // MathQuill uses a hidden textarea — find it inside the math field
-    const mqTextarea = document.querySelector('.mq-textarea textarea')
-    expect(mqTextarea).toBeTruthy()
-    // Simulate typing into MathQuill's internal textarea
-    fireEvent.input(mqTextarea, { target: { value: 'H_2O' } })
-    // MathQuill processes input internally; the button enablement depends on
-    // the onChange callback. In jsdom MathQuill may not fully process, so we
-    // verify the textarea exists and is interactive.
-    expect(mqTextarea).not.toBeDisabled()
-  })
-
   it('clicking "Just show the answer" reveals mark scheme', () => {
     renderReview()
     fireEvent.click(screen.getByText('Just show the answer'))
@@ -145,13 +140,15 @@ describe('Review page', () => {
     expect(screen.getByAltText('Mark scheme')).toBeInTheDocument()
   })
 
-  it('shows grade buttons after reveal', () => {
+  it('shows "Next question" button after reveal (not grade buttons)', () => {
     renderReview()
     fireEvent.click(screen.getByText('Just show the answer'))
-    expect(screen.getByText('Again')).toBeInTheDocument()
-    expect(screen.getByText('Hard')).toBeInTheDocument()
-    expect(screen.getByText('Good')).toBeInTheDocument()
-    expect(screen.getByText('Easy')).toBeInTheDocument()
+    expect(screen.getByText('Next question')).toBeInTheDocument()
+    // Grade buttons should NOT be present
+    expect(screen.queryByText('Again')).not.toBeInTheDocument()
+    expect(screen.queryByText('Hard')).not.toBeInTheDocument()
+    expect(screen.queryByText('Good')).not.toBeInTheDocument()
+    expect(screen.queryByText('Easy')).not.toBeInTheDocument()
   })
 
   it('shows tick boxes matching total marks', () => {
@@ -170,26 +167,30 @@ describe('Review page', () => {
     expect(screen.getByText('1 / 3 marks')).toBeInTheDocument()
   })
 
-  it('shows mastery progress bar', () => {
+  it('shows sequential progress (X / Y questions)', () => {
     renderReview()
-    expect(screen.getByText(/0% mastered/)).toBeInTheDocument()
+    expect(screen.getByText('1 / 2 questions')).toBeInTheDocument()
   })
 
-  it('shows SRS counter in bottom bar', () => {
+  it('shows Prev/Next navigation in bottom bar', () => {
     renderReview()
-    expect(screen.getByTitle('new + learning + due')).toBeInTheDocument()
+    expect(screen.getByText('← Prev')).toBeInTheDocument()
+    expect(screen.getByText('Next →')).toBeInTheDocument()
   })
 
-  it('shows Skip button', () => {
+  it('Prev is disabled on first card', () => {
     renderReview()
-    expect(screen.getByText('Skip')).toBeInTheDocument()
+    expect(screen.getByText('← Prev')).toBeDisabled()
   })
 
-  it('shows More menu with Suspend and Reset', () => {
+  it('does NOT show SRS counter for past papers', () => {
     renderReview()
-    fireEvent.click(screen.getByText('More ▾'))
-    expect(screen.getByText('Suspend card')).toBeInTheDocument()
-    expect(screen.getByText('Reset progress')).toBeInTheDocument()
+    expect(screen.queryByTitle('new + learning + due')).not.toBeInTheDocument()
+  })
+
+  it('does NOT show More menu for past papers (no suspend/reset)', () => {
+    renderReview()
+    expect(screen.queryByText('More ▾')).not.toBeInTheDocument()
   })
 
   it('shows back link to decks', () => {
@@ -197,20 +198,10 @@ describe('Review page', () => {
     const backLink = screen.getByText('←')
     expect(backLink.closest('a')).toHaveAttribute('href', '/')
   })
-
-  it('shows preview intervals on grade buttons', () => {
-    renderReview()
-    fireEvent.click(screen.getByText('Just show the answer'))
-    // "soon" appears on both Again and Hard buttons
-    expect(screen.getAllByText('soon').length).toBeGreaterThanOrEqual(1)
-    expect(screen.getByText('1d')).toBeInTheDocument() // good
-    expect(screen.getByText('2d')).toBeInTheDocument() // easy
-  })
 })
 
-describe('Review — "All caught up" state', () => {
-  it('shows completion message when queue is empty', async () => {
-    // Override getDeckCards to return empty array for this test
+describe('Review — empty state', () => {
+  it('shows "No questions" when paper has no cards', async () => {
     const cards = await import('../../data/cards.js')
     vi.spyOn(cards, 'getDeckCards').mockReturnValue([])
 
@@ -222,7 +213,7 @@ describe('Review — "All caught up" state', () => {
       </MemoryRouter>
     )
 
-    expect(screen.getByText('All caught up')).toBeInTheDocument()
+    expect(screen.getByText('No questions')).toBeInTheDocument()
     expect(screen.getByText(/Back to decks/)).toBeInTheDocument()
 
     vi.restoreAllMocks()

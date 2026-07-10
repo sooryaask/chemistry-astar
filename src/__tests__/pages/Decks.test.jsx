@@ -87,10 +87,10 @@ describe('Decks page', () => {
     expect(hrefs.some((h) => h.includes('/review/'))).toBe(true)
   })
 
-  it('renders SRS counter (new + learning + review)', () => {
+  it('shows card count for past paper decks (not SRS counter)', () => {
     renderDecks()
-    // Specimen has 2 new cards
-    const counters = screen.getAllByTitle('new + learning + due')
-    expect(counters.length).toBeGreaterThanOrEqual(2)
+    // Past papers show simple card count, not SRS new+learning+due
+    expect(screen.getByText('2')).toBeInTheDocument() // Specimen: 2 cards
+    expect(screen.getByText('1')).toBeInTheDocument() // June 2023: 1 card
   })
 })

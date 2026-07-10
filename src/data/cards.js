@@ -181,9 +181,17 @@ PAPER_LIST.forEach((p) => { p.title = `${p.label} — Paper 1` })
 // Each file is an array of question objects; MCQs check locally, written
 // questions carry their own markPoints for ticking / text-based AI marking.
 const aiFiles = import.meta.glob('./aiQuestions/*.json', { eager: true })
-const AI_CARDS = Object.keys(aiFiles)
-  .sort()
-  .flatMap((f) => aiFiles[f].default || [])
+// Interleave cards round-robin across topic files so the NEW_PER_DAY cap
+// draws from every topic, not just the first alphabetically (acids_bases).
+const aiFileArrays = Object.keys(aiFiles).sort().map((f) => aiFiles[f].default || [])
+const aiInterleaved = []
+const maxLen = Math.max(0, ...aiFileArrays.map((a) => a.length))
+for (let i = 0; i < maxLen; i++) {
+  for (const arr of aiFileArrays) {
+    if (i < arr.length) aiInterleaved.push(arr[i])
+  }
+}
+const AI_CARDS = aiInterleaved
   .map((q, i) => ({
     id: `ai::${q.id}`,
     type: q.type,

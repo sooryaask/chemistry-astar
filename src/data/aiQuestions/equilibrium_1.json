@@ -517,7 +517,7 @@
     "module": 3,
     "topic": "Equilibrium",
     "specRef": "3.2.3(b)",
-    "question": "Dinitrogen tetroxide, N₂O₄, is a pale yellow gas and nitrogen dioxide, NO₂, is a dark brown gas. They exist in equilibrium:\n\nN₂O₄(g) ⇌ 2NO₂(g)   ΔH = +58 kJ mol⁻¹\n\nA sealed tube containing the equilibrium mixture is placed in a beaker of hot water and the colour of the mixture becomes darker brown.\n\nExplain this observation.",
+    "question": "Dinitrogen tetroxide, N₂O₄, is a colourless gas and nitrogen dioxide, NO₂, is a dark brown gas. They exist in equilibrium:\n\nN₂O₄(g) ⇌ 2NO₂(g)   ΔH = +58 kJ mol⁻¹\n\nA sealed tube containing the equilibrium mixture is placed in a beaker of hot water and the colour of the mixture becomes darker brown.\n\nExplain this observation.",
     "marks": 3,
     "markPoints": [
       "Increasing the temperature shifts the equilibrium in the endothermic direction (to absorb the added heat / oppose the change)",

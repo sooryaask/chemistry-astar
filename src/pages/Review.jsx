@@ -1,8 +1,8 @@
 import { useMemo, useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getDeckCards, deckTitle } from '../data/cards.js'
+import { getDeckCards, deckTitle, AI_TOPICS, AI_MODULES, AI_TOTAL } from '../data/cards.js'
 import { buildSession, deckCounts, grade, previewLabels, setSuspended, resetCard, masteryStats } from '../utils/srs.js'
-import { todayISO } from '../utils/localStorage.js'
+import { getItem, setItem, KEYS, todayISO } from '../utils/localStorage.js'
 import { assessPaperQuestion, assessTextQuestion } from '../api/anthropic.js'
 import ChemInput, { StaticMathField } from '../components/ChemInput.jsx'
 import PeriodicTable from '../components/PeriodicTable.jsx'
@@ -91,6 +91,114 @@ function highlightHits(text, evidences) {
   return nodes
 }
 
+// ---- AI deck filter logic ----
+const DEFAULT_FILTERS = { types: ['mcq', 'written'], marks: [], topics: [], modules: [] }
+
+function applyAiFilters(cards, f) {
+  return cards.filter((c) => {
+    if (!f.types.includes(c.isMcq ? 'mcq' : 'written')) return false
+    if (f.marks.length > 0 && !f.marks.includes(c.marks)) return false
+    if (f.topics.length > 0 && !f.topics.includes(c.topic)) return false
+    if (f.modules.length > 0 && !f.modules.includes(c.module)) return false
+    return true
+  })
+}
+
+function hasActiveFilters(f) {
+  return f.types.length < 2 || f.marks.length > 0 || f.topics.length > 0 || f.modules.length > 0
+}
+
+// Toggle an item in an array (add if absent, remove if present)
+function toggle(arr, val) {
+  return arr.includes(val) ? arr.filter((v) => v !== val) : [...arr, val]
+}
+
+function FilterModal({ filters, allCards, onApply, onClose }) {
+  const [draft, setDraft] = useState({ ...filters })
+  const set = (key, val) => setDraft((d) => ({ ...d, [key]: val }))
+
+  const matchCount = useMemo(() => applyAiFilters(allCards, draft).length, [allCards, draft])
+
+  // Close on Escape
+  useEffect(() => {
+    const h = (e) => { if (e.key === 'Escape') onClose() }
+    document.addEventListener('keydown', h)
+    return () => document.removeEventListener('keydown', h)
+  }, [onClose])
+
+  return (
+    <div className="filter-overlay" onClick={(e) => { if (e.target === e.currentTarget) onClose() }}>
+      <div className="filter-panel">
+        <div className="filter-head">
+          <span className="filter-title">Filter AI questions</span>
+          <button className="filter-close" onClick={onClose}>×</button>
+        </div>
+        <div className="filter-body">
+          <div className="filter-section">
+            <div className="filter-label">Question type</div>
+            <div className="filter-pills">
+              {['mcq', 'written'].map((t) => (
+                <button key={t} className={`filter-pill ${draft.types.includes(t) ? 'active' : ''}`}
+                  onClick={() => {
+                    const next = toggle(draft.types, t)
+                    if (next.length > 0) set('types', next)
+                  }}>
+                  {t === 'mcq' ? 'MCQ' : 'Written'}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="filter-section">
+            <div className="filter-label">Marks</div>
+            <div className="filter-pills">
+              {[1, 2, 3, 4, 5, 6].map((m) => (
+                <button key={m} className={`filter-pill ${draft.marks.includes(m) ? 'active' : ''}`}
+                  onClick={() => set('marks', toggle(draft.marks, m))}>
+                  {m}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="filter-section">
+            <div className="filter-label">Module</div>
+            <div className="filter-pills">
+              {AI_MODULES.map((m) => (
+                <button key={m} className={`filter-pill ${draft.modules.includes(m) ? 'active' : ''}`}
+                  onClick={() => set('modules', toggle(draft.modules, m))}>
+                  {m}
+                </button>
+              ))}
+            </div>
+          </div>
+          <div className="filter-section">
+            <div className="filter-label">Topic</div>
+            <div className="filter-topics">
+              {AI_TOPICS.map((t) => (
+                <label className="filter-topic-row" key={t}>
+                  <input type="checkbox" checked={draft.topics.length === 0 || draft.topics.includes(t)}
+                    onChange={() => {
+                      if (draft.topics.length === 0) set('topics', [t])
+                      else {
+                        const next = toggle(draft.topics, t)
+                        set('topics', next.length === AI_TOPICS.length ? [] : next)
+                      }
+                    }} />
+                  {t}
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="filter-foot">
+          <span className="filter-count">{matchCount} of {AI_TOTAL} questions</span>
+          <button className="filter-reset" onClick={() => setDraft({ ...DEFAULT_FILTERS })}>Reset</button>
+          <button className="filter-apply" onClick={() => onApply(draft)}>Apply</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 function Counter({ counts }) {
   return (
     <div className="counter" title="new + learning + due">
@@ -106,8 +214,19 @@ function Counter({ counts }) {
 export default function Review() {
   const { deckId: raw } = useParams()
   const deckId = decodeURIComponent(raw || '')
-  const allCards = useMemo(() => getDeckCards(deckId), [deckId])
+  const isAiDeck = deckId === 'ai:generated'
+  const rawCards = useMemo(() => getDeckCards(deckId), [deckId])
   const title = useMemo(() => deckTitle(deckId), [deckId])
+
+  const [aiFilters, setAiFilters] = useState(() =>
+    isAiDeck ? getItem(KEYS.aiFilters, DEFAULT_FILTERS) : DEFAULT_FILTERS
+  )
+  const [filterOpen, setFilterOpen] = useState(false)
+
+  const allCards = useMemo(
+    () => isAiDeck ? applyAiFilters(rawCards, aiFilters) : rawCards,
+    [rawCards, aiFilters, isAiDeck]
+  )
 
   const [queue, setQueue] = useState(() => buildSession(allCards).queue)
   const [counts, setCounts] = useState(() => deckCounts(allCards))
@@ -149,6 +268,26 @@ export default function Review() {
   useEffect(() => {
     return () => { if (confirmTimerRef.current) clearTimeout(confirmTimerRef.current) }
   }, [])
+
+  // Rebuild session when AI filters change the card pool
+  const prevCardsRef = useRef(allCards)
+  useEffect(() => {
+    if (prevCardsRef.current === allCards) return
+    prevCardsRef.current = allCards
+    const session = buildSession(allCards)
+    setQueue(session.queue)
+    setCounts(deckCounts(allCards))
+    setMastery(masteryStats(allCards))
+    resetView()
+  }, [allCards])
+
+  const applyFilters = useCallback((f) => {
+    setAiFilters(f)
+    setItem(KEYS.aiFilters, f)
+    setFilterOpen(false)
+  }, [])
+
+  const filtersActive = isAiDeck && hasActiveFilters(aiFilters)
 
   const card = queue[0]
   const labels = card ? previewLabels(card.id) : null
@@ -277,9 +416,20 @@ export default function Review() {
   if (!card) {
     return (
       <div className="review done">
-        <h2>All caught up</h2>
-        <p className="muted">No cards due in "{title}" right now.</p>
+        {filtersActive && allCards.length === 0 ? (
+          <>
+            <h2>No matching questions</h2>
+            <p className="muted">Your filters match 0 questions. Adjust them to see more.</p>
+            <button className="pill" onClick={() => setFilterOpen(true)}>Edit filters</button>
+          </>
+        ) : (
+          <>
+            <h2>All caught up</h2>
+            <p className="muted">No cards due in "{title}" right now.</p>
+          </>
+        )}
         <Link className="pill" to="/">← Back to decks</Link>
+        {filterOpen && <FilterModal filters={aiFilters} allCards={rawCards} onApply={applyFilters} onClose={() => setFilterOpen(false)} />}
       </div>
     )
   }
@@ -291,12 +441,18 @@ export default function Review() {
       <div className="review-top">
         <Link className="back-link" to="/">←</Link>
         <span className="review-title">{title}</span>
-        <button className="pt-toggle" onClick={() => setPtOpen(true)} title="Show the periodic table">
+        {isAiDeck && (
+          <button className="filter-toggle ml-auto" onClick={() => setFilterOpen(true)} title="Filter questions">
+            Filter{filtersActive && <span className="filter-dot" />}
+          </button>
+        )}
+        <button className={`pt-toggle${isAiDeck ? '' : ' ml-auto'}`} onClick={() => setPtOpen(true)} title="Show the periodic table">
           Periodic table
         </button>
       </div>
 
       {ptOpen && <PeriodicTable onClose={() => setPtOpen(false)} />}
+      {filterOpen && <FilterModal filters={aiFilters} allCards={rawCards} onApply={applyFilters} onClose={() => setFilterOpen(false)} />}
 
       {saveWarning && (
         <div className="save-warning" onClick={() => setSaveWarning(false)}>

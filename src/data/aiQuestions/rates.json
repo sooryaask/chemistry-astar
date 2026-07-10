@@ -371,20 +371,6 @@
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
-    "specRef": "3.2.2(b)",
-    "question": "Define the term activation energy.",
-    "marks": 1,
-    "markPoints": [
-      "The minimum energy required for a reaction to take place (when particles collide)"
-    ],
-    "modelAnswer": "Activation energy is the minimum energy required for a reaction to take place when particles collide.",
-    "explanation": "The key word is 'minimum'. Answers stating 'the energy needed for a reaction' without 'minimum' do not gain the mark."
-  },
-  {
-    "id": "rates-019",
-    "type": "written",
-    "module": 3,
-    "topic": "Reaction Rates",
     "specRef": "3.2.2(c)",
     "question": "Magnesium ribbon reacts with dilute hydrochloric acid. The experiment is repeated using hydrochloric acid of a higher concentration, with all other conditions unchanged.\n\nExplain, using collision theory, why the rate of reaction increases.",
     "marks": 2,
@@ -396,7 +382,7 @@
     "explanation": "The mark scheme wants 'more particles per unit volume' linked to 'more frequent collisions'. Avoid saying 'more collisions' alone — it is the frequency of collisions that matters, and concentration does not change the energy of the collisions."
   },
   {
-    "id": "rates-020",
+    "id": "rates-019",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -411,7 +397,7 @@
     "explanation": "For gases, pressure plays the same role as concentration for solutions. The energy of the molecules is unchanged at constant temperature, so the argument is entirely about collision frequency."
   },
   {
-    "id": "rates-021",
+    "id": "rates-020",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -426,7 +412,7 @@
     "explanation": "Surface-area answers must link 'larger surface area' explicitly to 'more frequent collisions'. Simply stating 'more surface area so faster' misses the collision-theory mark."
   },
   {
-    "id": "rates-022",
+    "id": "rates-021",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -442,7 +428,7 @@
     "explanation": "Any three of the standard features score: starts at the origin, peak = most probable energy, asymptotic at high energy, area = total number of molecules, small area beyond Ea. These same points are also the foundation of the 6-mark temperature question."
   },
   {
-    "id": "rates-023",
+    "id": "rates-022",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -458,7 +444,7 @@
     "explanation": "Three separate ideas are credited: peak right, peak lower/broader, area constant with more molecules beyond Ea. Forgetting that the area is constant (same number of molecules) is the most common omission."
   },
   {
-    "id": "rates-024",
+    "id": "rates-023",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -477,7 +463,7 @@
     "explanation": "This is the classic 6-mark rates question. The examiner wants both effects (frequency and energy), the described shift of the Boltzmann distribution, the 'area beyond Ea' idea, and the judgement that the energy effect dominates."
   },
   {
-    "id": "rates-025",
+    "id": "rates-024",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -492,7 +478,7 @@
     "explanation": "Both ideas are needed for full marks: 'speeds up without being used up' and 'alternative route with lower Ea'. Saying the catalyst 'lowers the activation energy of the reaction' is imprecise — it provides a different route that has a lower Ea."
   },
   {
-    "id": "rates-026",
+    "id": "rates-025",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -508,7 +494,7 @@
     "explanation": "The crucial discriminator is stating that the curve is unchanged — only the position of Ea moves to lower energy. Students who say the distribution shifts confuse the catalyst effect with the temperature effect."
   },
   {
-    "id": "rates-027",
+    "id": "rates-026",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -525,7 +511,7 @@
     "explanation": "Use 'phase' or 'physical state', not 'same substance'. The examples must make the phases clear: liquid acid with liquid reactants (homogeneous) versus solid metal with gases (heterogeneous)."
   },
   {
-    "id": "rates-028",
+    "id": "rates-027",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -541,7 +527,7 @@
     "explanation": "The economic argument is: lower temperature/pressure → less energy → lower cost, plus faster production. Link each scientific point to a cost or profit consequence."
   },
   {
-    "id": "rates-029",
+    "id": "rates-028",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -556,7 +542,7 @@
     "explanation": "OCR expects the CO₂/fossil-fuel argument plus one 'greener chemistry' point such as better atom economy, less waste, or safer processes. Each point should state the environmental consequence, not just the chemistry."
   },
   {
-    "id": "rates-030",
+    "id": "rates-029",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -571,7 +557,7 @@
     "explanation": "Mean rate over a period is simply the change in the measured quantity divided by the time. The units mark is separate — always quote cm³ s⁻¹ (or the equivalent for the quantity measured)."
   },
   {
-    "id": "rates-031",
+    "id": "rates-030",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -586,7 +572,7 @@
     "explanation": "The mass decreases because CO₂ escapes from the flask. Divide the mass change by the time and convert to standard form; the units g s⁻¹ are needed for the second mark."
   },
   {
-    "id": "rates-032",
+    "id": "rates-031",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -601,7 +587,7 @@
     "explanation": "Any technique must include what is measured and that readings are taken at regular time intervals. Note that in practice the mass-loss method is poor for H₂ because it is so light — the gas-collection method is better here."
   },
   {
-    "id": "rates-033",
+    "id": "rates-032",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -616,7 +602,7 @@
     "explanation": "The mass-loss method relies on a measurable mass change. It works well for CO₂ (Mr = 44.0) but not for H₂ (Mr = 2.0). Quantifying the point with the molar mass strengthens the answer."
   },
   {
-    "id": "rates-034",
+    "id": "rates-033",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -631,7 +617,7 @@
     "explanation": "Colour-change methods work when one species in the equation is coloured. Br₂(aq) is orange and every product is colourless, so the fading colour tracks the reaction. Mentioning regular time measurements (or a colorimeter) secures the method mark."
   },
   {
-    "id": "rates-035",
+    "id": "rates-034",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -645,7 +631,7 @@
     "explanation": "A constant reading means the rate has fallen to zero. The answer must identify that a reactant (the limiting one) has run out — not simply that 'the reaction slowed down'."
   },
   {
-    "id": "rates-036",
+    "id": "rates-035",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -664,7 +650,7 @@
     "explanation": "A level-of-response style 6-marker: it needs the mechanism of catalysis (alternative route, lower Ea, more effective collisions), at least two economic points and at least two environmental/sustainability points, all expressed as consequences (costs, CO₂, waste)."
   },
   {
-    "id": "rates-037",
+    "id": "rates-036",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -679,7 +665,7 @@
     "explanation": "This is collision theory in its purest form: collision frequency is huge, but the fraction of molecules beyond Ea on the Boltzmann distribution is tiny, so effective collisions are rare."
   },
   {
-    "id": "rates-038",
+    "id": "rates-037",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -695,7 +681,7 @@
     "explanation": "Interpret the data first (time halves, so rate doubles), then explain with collision theory. Remember that rate is inversely proportional to time when the same amount of reactant is consumed."
   },
   {
-    "id": "rates-039",
+    "id": "rates-038",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -711,7 +697,7 @@
     "explanation": "The comparison hinges on the two factors in collision theory: frequency of collisions (concentration effect) versus proportion of effective collisions (temperature effect). Temperature acts on the exponential tail of the Boltzmann distribution, which is why it dominates."
   },
   {
-    "id": "rates-040",
+    "id": "rates-039",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -727,7 +713,7 @@
     "explanation": "Catalytic converters are the standard example of heterogeneous catalysis. The balanced equation 2CO + 2NO → 2CO₂ + N₂ removes both pollutants at once — check the nitrogen balance carefully."
   },
   {
-    "id": "rates-041",
+    "id": "rates-040",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -743,7 +729,7 @@
     "explanation": "The three-step sequence is adsorption → reaction on the surface (weakened bonds, lower Ea) → desorption. Use 'adsorbed' (onto a surface), not 'absorbed' (into the bulk) — the wrong word loses the mark."
   },
   {
-    "id": "rates-042",
+    "id": "rates-041",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -758,7 +744,7 @@
     "explanation": "Classification is purely about phases: solid catalyst + gaseous reactants = heterogeneous. Always state the phases of both catalyst and reactants in the explanation."
   },
   {
-    "id": "rates-043",
+    "id": "rates-042",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -772,7 +758,7 @@
     "explanation": "Rate = change in concentration ÷ time, so divide the concentration units by the time units: mol dm⁻³ ÷ s = mol dm⁻³ s⁻¹."
   },
   {
-    "id": "rates-044",
+    "id": "rates-043",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -787,7 +773,7 @@
     "explanation": "Work out the concentration change first, then divide by the time interval. The answer 6.0 × 10⁻³ needs the units mol dm⁻³ s⁻¹ for the second mark."
   },
   {
-    "id": "rates-045",
+    "id": "rates-044",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -805,7 +791,7 @@
     "explanation": "Structure the answer chronologically: why mass falls at all, why the rate is fastest at the start, why it slows (collision frequency falls as concentration falls), and why it stops (limiting reactant used up). Since the acid is in excess, the carbonate is the limiting reactant."
   },
   {
-    "id": "rates-046",
+    "id": "rates-045",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -820,7 +806,7 @@
     "explanation": "The key idea is 'used then regenerated'. The catalyst appears in individual steps of the mechanism but cancels out overall, which is why it is absent from the overall equation."
   },
   {
-    "id": "rates-047",
+    "id": "rates-046",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -836,7 +822,7 @@
     "explanation": "The doubling comes from the exponential tail of the distribution: a small shift produces a proportionally huge change in the area beyond Ea. Always attribute the effect to the energy of collisions, not their frequency."
   },
   {
-    "id": "rates-048",
+    "id": "rates-047",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -852,7 +838,7 @@
     "explanation": "This is the mirror image of the temperature-increase answer: peak left and taller, smaller area beyond Ea, fewer effective collisions. Keep the 'area under curve constant' point — it shows you understand what the curve represents."
   },
   {
-    "id": "rates-049",
+    "id": "rates-048",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -867,7 +853,7 @@
     "explanation": "A classic misconception question. Keep the two factors of collision theory separate: concentration/pressure/surface area affect collision frequency; temperature affects both frequency and, far more importantly, collision energy."
   },
   {
-    "id": "rates-050",
+    "id": "rates-049",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -883,7 +869,7 @@
     "explanation": "Aqueous catalyst + aqueous reactant = same phase = homogeneous. Because a gas is evolved, gas collection (or mass loss, since O₂ has Mr = 32.0) is the natural way to follow the rate."
   },
   {
-    "id": "rates-051",
+    "id": "rates-050",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -902,7 +888,7 @@
     "explanation": "A synoptic 6-marker covering all three factors. The discriminators are: concentration affects frequency only; temperature affects mainly the proportion beyond Ea; a catalyst lowers Ea via a new route without changing the distribution."
   },
   {
-    "id": "rates-052",
+    "id": "rates-051",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -918,7 +904,7 @@
     "explanation": "An application question, but the marking points are the standard temperature ones in reverse: lower energy, smaller fraction beyond Ea, fewer effective collisions. Relate each point back to the decay reactions in the food."
   },
   {
-    "id": "rates-053",
+    "id": "rates-052",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -935,7 +921,7 @@
     "explanation": "Two skills in one question: a rate calculation with units, and interpretation of the levelling-off of the readings. Because the magnesium is in excess, it is the acid that runs out."
   },
   {
-    "id": "rates-054",
+    "id": "rates-053",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",
@@ -951,7 +937,7 @@
     "explanation": "Surface area changes the rate but not the yield. Identify the limiting reactant (the carbonate, because the acid is in excess) to justify why the final volumes are equal."
   },
   {
-    "id": "rates-055",
+    "id": "rates-054",
     "type": "written",
     "module": 3,
     "topic": "Reaction Rates",

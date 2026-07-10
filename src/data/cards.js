@@ -190,6 +190,7 @@ const AI_CARDS = Object.keys(aiFiles)
     isMcq: q.type === 'mcq',
     isText: true,
     marks: q.type === 'mcq' ? 1 : q.marks || 1,
+    module: q.module || null,
     number: i + 1,
     subPart: null,
     topic: q.topic || '',
@@ -218,6 +219,11 @@ const AI_DECK = AI_CARDS.length > 0
   : null
 
 const DECK_LIST = AI_DECK ? [...PAPER_LIST, AI_DECK] : PAPER_LIST
+
+// Metadata for the AI filter UI — computed once at module load
+export const AI_TOPICS = [...new Set(AI_CARDS.map((c) => c.topic))].filter(Boolean).sort()
+export const AI_MODULES = [...new Set(AI_CARDS.map((c) => c.module))].filter(Boolean).sort((a, b) => a - b)
+export const AI_TOTAL = AI_CARDS.length
 
 export function getDeckCards(deckId) {
   if (deckId === 'ai:generated') return AI_CARDS

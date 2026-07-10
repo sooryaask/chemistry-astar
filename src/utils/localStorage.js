@@ -46,6 +46,7 @@ export const KEYS = {
   timerLog: 'timerLog',
   mixedPracticeHistory: 'mixedPracticeHistory',
   examAttempts: 'examAttempts',
+  aiFilters: 'aiFilters',
 }
 
 // Today's date as a YYYY-MM-DD string in local time.

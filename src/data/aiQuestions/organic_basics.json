@@ -595,7 +595,7 @@
       "Unsaturated: contains at least one carbon–carbon multiple bond (C=C double bond or C≡C triple bond)"
     ],
     "modelAnswer": "A saturated hydrocarbon contains only single carbon–carbon bonds, whereas an unsaturated hydrocarbon contains at least one carbon–carbon multiple bond, such as the C=C double bond in an alkene.",
-    "explanation": "Saturation refers only to the carbon–carbon bonding: alkanes are saturated; alkenes are unsaturated because of the C=C double bond. Both are hydrocarbons because they contain carbon and hydrogen only."
+    "explanation": "Saturation refers only to the carbon–carbon bonding: alkanes are saturated; alkenes are unsaturated because of the C=C double bond. Both are hydrocarbons because they contain carbon and hydrogen only. Do not confuse 'saturated/unsaturated' with the way carbons are arranged, which uses three separate terms: aliphatic = carbons joined in straight chains, branched chains or non-aromatic rings; alicyclic = carbons joined in a ring that is NOT a benzene ring (alicyclic compounds are a sub-type of aliphatic); aromatic = the molecule contains a benzene ring. So a plain ring with C=C double bonds but no benzene ring (e.g. cyclohexene or cyclohexadiene) is unsaturated, alicyclic AND aliphatic — but not aromatic."
   },
   {
     "id": "organic_basics-036",
@@ -691,5 +691,27 @@
     ],
     "modelAnswer": "All members of a homologous series contain the same functional group, and the functional group determines the chemical reactions, so their chemical properties are similar. Each successive member has an extra CH₂ group, so the molecules become larger with more electrons along the series. This strengthens the induced dipole–dipole (London) forces between molecules, so more energy is needed to overcome them and boiling points rise.",
     "explanation": "Chemical similarity comes from the shared functional group; the physical trend comes from intermolecular forces. Link chain length to electron count and to stronger London forces — that causal chain is what earns the marks."
+  },
+  {
+    "id": "organic_basics-042",
+    "type": "mcq",
+    "module": 4,
+    "topic": "Basic Concepts of Organic Chemistry",
+    "specRef": "4.1.1(a)",
+    "question": "A hydrocarbon is a six-membered carbon ring containing two C=C double bonds but no benzene ring. Which pair of terms describes it?",
+    "options": {
+      "A": "Alicyclic and saturated",
+      "B": "Aliphatic and alicyclic",
+      "C": "Aliphatic and aromatic",
+      "D": "Aromatic and unsaturated"
+    },
+    "correctOption": "B",
+    "explanation": "Three classification terms are being tested. Aromatic means the molecule contains a benzene ring — this molecule has isolated C=C double bonds, not a benzene ring, so it is NOT aromatic (ruling out C and D). Alicyclic means the carbons form a ring that is not aromatic, which fits. Aliphatic means carbons joined in straight chains, branched chains or non-aromatic rings, so every alicyclic compound is also aliphatic. The molecule is therefore both aliphatic and alicyclic (B). Its C=C bonds also make it unsaturated, so 'saturated' in A is wrong.",
+    "steps": [
+      "Step 1 – Aromatic needs a benzene ring. Isolated C=C bonds are not a benzene ring, so it is not aromatic → eliminate C and D.",
+      "Step 2 – A ring that is not aromatic is alicyclic, and alicyclic compounds count as aliphatic (aliphatic = chains or non-aromatic rings). So it is both aliphatic and alicyclic.",
+      "Step 3 – It has C=C double bonds, so it is unsaturated, which rules out 'saturated' in A.",
+      "Answer: B"
+    ]
   }
 ]

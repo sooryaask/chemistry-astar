@@ -454,7 +454,7 @@
       "The equilibrium shifts towards the side with fewer moles of gas to oppose the increase in pressure / to reduce the pressure"
     ],
     "modelAnswer": "The position of equilibrium shifts to the right, towards ammonia. There are 4 mol of gas on the left but only 2 mol on the right, so the system opposes the increase in pressure by shifting towards the side with fewer moles of gas.",
-    "explanation": "Pressure arguments must include the mole count from the equation (4 mol → 2 mol) and the le Chatelier justification that the shift reduces the number of gas molecules and so opposes the pressure increase."
+    "explanation": "Pressure arguments must include the mole count from the equation (4 mol → 2 mol) and the le Chatelier justification that the shift reduces the number of gas molecules and so opposes the pressure increase. Temperature is a separate lever on the SAME reaction: the forward reaction N₂ + 3H₂ → 2NH₃ is exothermic (ΔH is negative), so a LOW temperature shifts the equilibrium towards the exothermic (forward) direction and increases the yield of NH₃. So for the largest equilibrium yield of ammonia you want high pressure AND low temperature (in industry the temperature is a compromise so the rate is not too slow)."
   },
   {
     "id": "equilibrium_2-024",
@@ -824,5 +824,21 @@
     ],
     "modelAnswer": "Raising the temperature increases the rate, because a greater proportion of molecules have energy above the activation energy and successful collisions are more frequent. However, because the forward reaction is exothermic, raising the temperature shifts the equilibrium in the reverse direction, decreasing the equilibrium yield (and Kc). The operating temperature is therefore a compromise: high enough that equilibrium is reached quickly, but low enough that the yield of product is still economically worthwhile.",
     "explanation": "Rate and yield pull in opposite directions for an exothermic reaction. A full answer states both effects with their reasons (activation energy for rate, le Chatelier for yield) and then defines the compromise explicitly."
+  },
+  {
+    "id": "equilibrium_2-047",
+    "type": "written",
+    "module": 3,
+    "topic": "Equilibrium",
+    "specRef": "3.2.3(c)",
+    "question": "Ammonia is formed in the reversible reaction:\n\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g)   ΔH = −92 kJ mol⁻¹\n\nState and explain the temperature that gives the largest equilibrium yield of ammonia.",
+    "marks": 3,
+    "markPoints": [
+      "A low temperature gives the largest equilibrium yield",
+      "The forward reaction is exothermic (ΔH is negative / gives out heat)",
+      "Lowering the temperature shifts the equilibrium towards the exothermic (forward) direction / towards NH₃ to oppose the decrease in temperature"
+    ],
+    "modelAnswer": "A low temperature. The forward reaction is exothermic (ΔH is negative), so decreasing the temperature shifts the position of equilibrium in the exothermic (forward) direction to release heat and oppose the fall in temperature, which increases the equilibrium yield of ammonia.",
+    "explanation": "Temperature and the sign of ΔH decide the direction of the shift. Because the forward reaction is exothermic, a LOW temperature favours the forward reaction and so gives more ammonia at equilibrium. (In the real Haber process a moderate temperature of about 450 °C is used as a compromise so the rate is not too slow, but the question here is about maximum equilibrium yield, which needs a low temperature.)"
   }
 ]

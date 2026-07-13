@@ -4608,7 +4608,7 @@
           "Step 1: Identify the product of each reaction. A: 2B + 3F₂ → BF₃ (trigonal planar, 120°). B: C + O₂ → CO₂ (linear). C: 2H₂ + O₂ → 2H₂O (bent/V-shaped, ~104.5°). D: N₂ + 3H₂ → 2NH₃ (trigonal pyramidal, ~107°).",
           "Step 2: Apply VSEPR to CO₂ — carbon forms 2 double bonds with oxygen, 0 lone pairs on C → 2 electron domains → linear (180°).",
           "Step 3: All other products (BF₃, H₂O, NH₃) are NOT linear.",
-          "Answer: B (C + O₂ → CO₂, which has linear molecules)"
+          "Answer: B — carbon dioxide (O=C=O) is the only product with linear molecules (180°)."
         ],
         "msShow": [
           10
@@ -4909,12 +4909,13 @@
         "msPages": [
           10
         ],
-        "explanation": "The structure shown is benzene (a hexagonal ring with alternating double bonds / delocalised electrons), which is aromatic. However, the question shows cyclohexadiene (a ring with two C=C double bonds shown explicitly, not the full aromatic circle), making it alicyclic (cyclic but not aromatic) AND aliphatic... wait — looking again, the structure has a hexagon with two double bonds drawn in, which is actually benzene drawn in Kekulé form. Benzene is aromatic (contains a benzene ring) and is NOT aliphatic. The correct answer per the mark scheme is B, meaning the structure is being treated as cyclohexadiene: a cyclic non-aromatic hydrocarbon, which is both aliphatic (carbon-chain based, no benzene ring) and alicyclic (cyclic).",
+        "explanation": "The molecule is a six-membered carbon ring with two C=C double bonds and NO benzene ring, so it is not aromatic. Two key terms decide the answer: 'aromatic' means the molecule contains a benzene ring; 'alicyclic' means the carbons form a ring that is not aromatic; and 'aliphatic' means the carbons are joined in straight chains, branched chains OR non-aromatic rings — so every alicyclic compound is also aliphatic. This ring is non-aromatic, so it is alicyclic, and therefore also aliphatic: the answer is B (aliphatic and alicyclic). The two C=C bonds make it unsaturated, so A ('saturated') is wrong, and with no benzene ring the 'aromatic' options C and D are wrong.",
         "steps": [
-          "Step 1 — Identify the structure: The hexagon with two C=C double bonds shown (Kekulé-style but interpreted here as cyclohexadiene, not benzene) is a cyclic hydrocarbon with no benzene ring — so it is NOT aromatic.",
-          "Step 2 — Apply definitions: Aliphatic = not aromatic (no benzene ring); Alicyclic = cyclic but not aromatic. This molecule is cyclic and non-aromatic, so it is BOTH aliphatic and alicyclic.",
-          "Step 3 — Eliminate wrong options: A is wrong (it has C=C so it is unsaturated, not saturated). C is wrong (it is not aromatic). D is wrong (it is not aromatic).",
-          "Answer: B — Aliphatic and alicyclic"
+          "Step 1 — Read the structure: a six-carbon ring containing two C=C double bonds and no benzene ring (no aromatic circle / no delocalised ring of electrons).",
+          "Step 2 — Aromatic or not? Aromatic means it contains a benzene ring. This has isolated C=C bonds, not a benzene ring, so it is NOT aromatic — that already rules out options C and D.",
+          "Step 3 — Classify the ring: a ring that is not aromatic is 'alicyclic'. 'Aliphatic' covers carbons in chains OR non-aromatic rings, so an alicyclic molecule is also aliphatic. Hence it is BOTH aliphatic and alicyclic.",
+          "Step 4 — Saturated or not? It has C=C double bonds, so it is unsaturated — that rules out option A ('saturated').",
+          "Answer: B — aliphatic and alicyclic"
         ],
         "msShow": [
           10
